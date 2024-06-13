@@ -1,0 +1,177 @@
+{
+  "title": "Kids UPサイエンスフェア2024",
+  "description": "Kids UPサイエンスフェアでは、オールイングリッシュの環境で様々なアクティビティを行います。英語が初心者でももちろん大丈夫！先生が楽しくお子様をサポートします。宇宙テーマのアクティビティ、自分だけの3D銀河の構築、究極のUFOゲーム、回転するブラックホール実験などを一緒に行いながら、楽しく学びましょう！お申し込みいただくと、サイエンスフェアチケットが3500円から3000円に割引されます！",
+  "keywords": [
+    "Kids UP",
+    "サイエンスフェア",
+    "2024",
+    "アクティビティ",
+    "宇宙テーマ",
+    "3D銀河",
+    "UFOゲーム",
+    "ブラックホール実験",
+    "子供",
+    "英語",
+    "楽しい",
+    "学ぶ"
+  ],
+  "image": "./science-images/science-fair-earlybird.webp",
+  "url": "https://kids-up.jp/science-fair",
+  "datePublished": "2024-05-11",
+  "author": "Kids UPチーム",
+  "publisher": {
+    "name": "Kids UP",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://kids-up.jp/logo.png"
+    }
+  },
+  "offer": {
+    "title": "期間限定オファー",
+    "description": "お申し込みいただくと、サイエンスフェアチケットが3500円から3000円に割引されます！",
+    "valid_until": "2024-05-01",
+    "terms_and_conditions": "2024年5月1日までの申し込みが対象です。他のオファーとの併用はできません。"
+  },
+  "locations": [
+    {
+      "name": "Kids UP 田園調布雪谷",
+      "address": "東京都大田区田園調布1-5-2 大谷ビル2F"
+    },
+    {
+      "name": "Kids UP 蒲田",
+      "address": "東京都大田区蒲田5-46-1 秋元ビル2F"
+    },
+    {
+      "name": "Kids UP 池上",
+      "address": "東京都大田区池上3-32-17 ツインウッドスクエアＣ館 2F"
+    },
+    {
+      "name": "Kids UP 東陽町",
+      "address": "東京都江東区南砂2-25-7"
+    },
+    {
+      "name": "Kids UP 長原",
+      "address": "東京都大田区上池台1-14-1 明伸ビル1F"
+    },
+    {
+      "name": "Kids UP 門前仲町",
+      "address": "東京都江東区富岡1-18-15 大島ビル２Ｆ"
+    },
+    {
+      "name": "Kids UP 戸越",
+      "address": "東京都品川区戸越3丁目４－１８ ゴールドステージビル３Ｆ"
+    },
+    {
+      "name": "Kids UP 成城",
+      "address": "東京都世田谷区船橋2-8-2 ハウジングコート千歳船橋"
+    },
+    {
+      "name": "Kids UP 大森",
+      "address": "東京都大田区大森北1-17-2 大森センタービル3F"
+    },
+    {
+      "name": "Kids UP 早稲田",
+      "address": "東京都新宿区早稲田町67番地 早稲田クローバービル１Ｆ"
+    },
+    {
+      "name": "Kids UP りんかい東雲",
+      "address": "東京都江東区東雲２丁目１−２２ キャッスルビル東雲 4階"
+    },
+    {
+      "name": "Kids UP 新川崎",
+      "address": "神奈川県川崎市幸区下平間290番地 日光第一ビル ２F"
+    },
+    {
+      "name": "Kids UP 等々力",
+      "address": "東京都世田谷区等々力4-2-11 サムズガーデン 1F"
+    },
+    {
+      "name": "Kids UP 大島",
+      "address": "東京都江東区大島7-38-34 大島岡田ビル 1F"
+    },
+    {
+      "name": "Kids UP 三鷹",
+      "address": "東京都三鷹市下連雀3-31-2 シルクロードふじ1F"
+    },
+    {
+      "name": "Kids UP 海浜幕張",
+      "address": "千葉県千葉市美浜区ひび野２－４ プレナ幕張５F"
+    },
+    {
+      "name": "Kids UP 二俣川",
+      "address": "神奈川県横浜市旭区二俣川2-85−3 二俣川NKビル 2F"
+    },
+    {
+      "name": "Kids UP 新浦安",
+      "address": "千葉県浦安市明海4丁目1番1号 ニューコースト新浦安 3F"
+    },
+    {
+      "name": "Kids UP 天王町",
+      "address": "神奈川県横浜市保土ケ谷区天王町2-37-1 秋山ビル 2F"
+    },
+    {
+      "name": "Kids UP 南町田グランベリーパーク",
+      "address": "東京都町田市鶴間3-3-1 南町田グランベリーパーク ステーションコート2F"
+    },
+    {
+      "name": "Kids UP 大井",
+      "address": "東京都品川区東大井1-3-1"
+    },
+    {
+      "name": "Kids UP 晴海",
+      "address": "東京都中央区晴海1-1-28 キャナルハウス 3F"
+    },
+    {
+      "name": "Kids UP 四谷",
+      "address": "東京都新宿区四谷3-5-3 山本ビル2F"
+    },
+    {
+      "name": "Kids UP 赤羽",
+      "address": "東京都北区中十条4-17-1 コトニア赤羽1F"
+    },
+    {
+      "name": "Kids UP 北品川",
+      "address": "東京都品川区北品川３－６－１３ 北品川サンハイツ1F"
+    },
+    {
+      "name": "Kids UP 溝の口",
+      "address": "神奈川県川崎市高津区二子3-33-20"
+    },
+    {
+      "name": "Kids UP 矢向",
+      "address": "神奈川県横浜市鶴見区矢向６－３－１"
+    },
+    {
+      "name": "Kids UP ソコラ南行徳",
+      "address": "千葉県市川市南行徳２丁目２０−２５ SOCOLA南行徳２F"
+    },
+    {
+      "name": "Kids UP 鷺宮",
+      "address": "東京都中野区鷺宮４丁目４−２４ ２F"
+    },
+    {
+      "name": "Kids UP 馬込",
+      "address": "東京都大田区北馬込2-28-4 Compass Magome3階"
+    },
+    {
+      "name": "Kids UP 大倉山",
+      "address": "神奈川県横浜市港北区大豆戸町８０"
+    },
+    {
+      "name": "Kids UP 武蔵新城",
+      "address": "神奈川県川崎市中原区上新城２丁目８−７ 武蔵新城センタービル 3階"
+    },
+    {
+      "name": "Kids UP 武蔵小杉",
+      "address": "神奈川県川崎市中原区市ノ坪２３２"
+    },
+    {
+      "name": "Kids UP 川口",
+      "address": "埼玉県川口市幸町3‐7‐22 ML21ビル2F"
+    },
+    {
+      "name": "Kids UP 池袋",
+      "address": "東京都豊島区上池袋4‐1‐1 上池袋ビル 4F"
+    }
+  ]
+}
