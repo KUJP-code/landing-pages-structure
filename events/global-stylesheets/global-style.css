@@ -1,6 +1,6 @@
 @font-face {
   font-family: "Shin-Maru-GP-Regular";
-  src: url(.../wp);
+  src: url(.../wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
 }
 
 @font-face {
@@ -16,11 +16,6 @@
 @font-face {
   font-family: "Shin-Maru-GP-Ultra";
   src: url(../global-fonts/A-OTF-ShinMGoPro-U.otf);
-}
-
-@font-face{
-  font-family: "Shin-Maru-GP-Regular";
-  src: ;
 }
 
 
