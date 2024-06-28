@@ -352,6 +352,7 @@ nav {
 
 .event-about {
   background-color: #faeaaa;
+  padding-bottom: 2rem;
 }
 .explainer-top-left {
   padding-top: 1rem;
@@ -421,6 +422,109 @@ nav {
 .three-benefits-text {
   color: white;
 }
+/* LOCATIONS ----------------------------------------------------------------- */
+
+.prefecture-title{
+height: 4rem;
+margin: 1rem;
+margin-left: 0;
+filter: drop-shadow(0px 5px 0px #e5cca8);
+}
+
+
+.location-row{
+  margin-bottom: 2rem;
+}
+
+
+.location-area-wrapper{
+  padding-bottom: 1rem;
+}
+
+
+.location-outer{
+  position: relative;
+  height: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;    
+  filter: drop-shadow(0px 5px 0px #e5cca8);
+}
+
+
+.location-pin{
+  position: absolute;
+  width: 3rem;
+  transform: translate(0%, -50%);
+  margin-top: 1.5rem;
+  
+}
+.location-name-1, .location-name-2, .location-name-3, .location-name-4{
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-Bold";
+  background-color: white;
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: .3rem;
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.location-name-1{
+  color: #faba6a;
+}
+
+.location-name-2{
+  color: #8cd0e2;
+}
+
+
+.location-name-3{
+  color: #c3d772;
+}
+
+
+.location-name-4{
+  color: #e1c69a;
+}
+
+
+
+.location-school{
+  font-family: "Shin-Maru-GP-DeBold";
+  margin-left: 2rem;
+  font-size: 1rem;
+padding-top: 0.25rem;
+}
+
+@media (max-width: 576px) {
+  .prefecture-title{
+    height: 4rem;
+    margin: 0.1rem;
+    margin-left: 0;
+    filter: drop-shadow(0px 5px 0px #e5cca8);
+    }
+    
+}
+.mobile-accordion-item{
+background-color: #ffffff00;
+}
+
+
+.mobile-accordion-body{
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.mobile-accordion-button{
+width: 100%;
+ padding-top: .25rem;
+ padding-bottom: .25rem
+ ;
+}
+
+
+
 
 /* CUSTOMER TESTIMONY ----------------------------------------------------------------- */
 .customer-testimony-row {

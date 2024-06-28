@@ -1,22 +1,24 @@
 @font-face {
   font-family: "Shin-Maru-GP-Regular";
-  src: url(.../wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
 }
 
 @font-face {
   font-family: "Shin-Maru-GP-Bold";
-  src: url(../global-fonts/A-OTF-ShinMGoPro-Bold.otf);
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
 }
 
 @font-face {
   font-family: "Shin-Maru-GP-DeBold";
-  src: url(../global-fonts/A-OTF-ShinMGoPro-DeBold.woff);
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
 }
 
 @font-face {
   font-family: "Shin-Maru-GP-Ultra";
-  src: url(../global-fonts/A-OTF-ShinMGoPro-U.otf);
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
 }
+
+
 
 
 body {

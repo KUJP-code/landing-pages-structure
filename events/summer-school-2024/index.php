@@ -30,7 +30,7 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <link href="./stylesheets/summer-school-custom.css" rel="stylesheet" />
-    <title>Kids UP サマースクール2024</title>
+    <title>- Kids UP サマースクール2024</title>
   </head>
 
   <body>
@@ -215,7 +215,507 @@
             />
           </div>
         </div>
+        <h2 class="section-h2 about-h2">
+        全地域スクール一覧
+            </h2>
+<div class="d-none d-sm-block">
+<!-- TOKYO --------------------->
+       <img src="./summer-school-images/tokyo.svg" class="prefecture-title" alt="東京都">     
+        <div class="row location-row">
+
+          <div class="col-sm-3">
+            
+<div class="location-area-wrapper"> 
+<div class="location-outer">
+  <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+  <h3 class="location-name-1">大田区</h3>
+</div>
+<h4 class="location-school">- Kids UP 馬込</h4>
+<h4 class="location-school">- Kids UP 大森</h4>
+<h4 class="location-school">- Kids UP 長原</h4>
+<h4 class="location-school">- Kids UP 池上</h4>
+<h4 class="location-school">- Kids UP 蒲田駅前</h4>
+<h4 class="location-school">- Kids UP 田園調布雪谷</h4>
+</div>
+
+  
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">北区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP　赤羽
+    </h4>
+ 
+    </div>
+
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">豊島区</h3>
       </div>
+      <h4 class="location-school">- Kids UP　池袋
+      </h4>
+   
+      </div>
+
+          </div>
+
+<div class="col-sm-3">
+
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">江東区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP りんかい東雲</h4>
+    <h4 class="location-school">- Kids UP 大島</h4>
+    <h4 class="location-school">- Kids UP 門前仲町</h4>
+    <h4 class="location-school">- Kids UP 東陽町</h4>
+    </div>
+
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">新宿区</h3>
+      </div>
+      <h4 class="location-school">- Kids UP 四谷
+      </h4>
+      <h4 class="location-school">- Kids UP 早稲田
+      </h4>
+      </div>
+
+      <div class="location-area-wrapper"> 
+        <div class="location-outer">
+          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <h3 class="location-name-1">町田市</h3>
+        </div>
+        <h4 class="location-school">- Kids UP　南町田<br>グランベリーパーク
+        </h4>
+     
+        </div>
+    
+
+    
+
+</div>
+
+<div class="col-sm-3">
+
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">品川区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP 大井</h4>
+    <h4 class="location-school">- Kids UP 北品川</h4>
+    <h4 class="location-school">- Kids UP 戸越</h4>
+    </div>
+
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">中央区</h3>
+      </div>
+      <h4 class="location-school">- Kids UP　晴海
+      </h4>
+   
+      </div>
+
+      <div class="location-area-wrapper"> 
+        <div class="location-outer">
+          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <h3 class="location-name-1">中野区</h3>
+        </div>
+        <h4 class="location-school">- Kids UP　鷺宮
+        </h4>
+     
+        </div>
+
+</div>
+
+<div class="col-sm-3">
+
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">世田谷区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP 等々力</h4>
+    <h4 class="location-school">- Kids UP 成城</h4>
+    </div>
+
+    
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">三鷹市</h3>
+      </div>
+      <h4 class="location-school">- Kids UP　三鷹
+      </h4>
+   
+      </div>
+
+
+  
+
+
+</div>
+
+        </div>
+
+<div class="row">
+
+<div class="col-sm-6">
+
+ <!-- KANAGAWA --------------------->
+ <img src="./summer-school-images/kanagawa.svg" class="prefecture-title" alt="神奈川県">     
+ <div class="row location-row">
+  <div class="col-sm-6">
+     <div class="location-area-wrapper"> 
+        <div class="location-outer">
+           <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+           <h3 class="location-name-2">川崎市</h3>
+        </div>
+        <h4 class="location-school">- Kids UP 武蔵新城</h4>
+        <h4 class="location-school">- Kids UP 武蔵小杉</h4>
+        <h4 class="location-school">- Kids UP 溝の口</h4>
+        <h4 class="location-school">- Kids UP 新川崎</h4>
+     </div>
+
+  </div>
+
+  <div class="col-sm-6">
+    <div class="location-area-wrapper"> 
+       <div class="location-outer">
+          <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+          <h3 class="location-name-2">横浜市</h3>
+       </div>
+       <h4 class="location-school">- Kids UP 大倉山</h4>
+       <h4 class="location-school">- Kids UP 矢向</h4>
+       <h4 class="location-school">- Kids UP 天王町</h4>
+       <h4 class="location-school">- Kids UP 二俣川</h4>
+    </div>
+
+ </div>
+
+
+</div>
+
+</div>
+
+<div class="col-sm-6">
+
+ <!-- CHIBA --------------------->
+ <img src="./summer-school-images/chiba.svg" class="prefecture-title" alt="千葉県">     
+ <div class="row location-row">
+  <div class="col-sm-6">
+     <div class="location-area-wrapper"> 
+        <div class="location-outer">
+           <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+           <h3 class="location-name-3">市川市</h3>
+        </div>
+        <h4 class="location-school">- Kids UP　ソコラ南行徳</h4>
+     </div>
+
+  </div>
+
+  <div class="col-sm-6">
+    <div class="location-area-wrapper"> 
+       <div class="location-outer">
+          <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+          <h3 class="location-name-3">横浜市</h3>
+       </div>
+       <h4 class="location-school">- Kids UP 新浦安</h4>
+    </div>
+ </div>
+</div>
+
+</div>
+
+
+</div>
+
+
+
+
+ <!-- SAITAMA--------------------->
+ <img src="./summer-school-images/saitama.svg" class="prefecture-title" alt="埼玉">     
+ <div class="row location-row">
+  <div class="col-sm-3">
+     <div class="location-area-wrapper"> 
+        <div class="location-outer">
+           <img src="./summer-school-images/map-pin-4.svg" alt="map-pin-2" class="location-pin">
+           <h3 class="location-name-4">川口市</h3>
+        </div>
+        <h4 class="location-school">- Kids UP　川口</h4>
+     </div>
+
+  </div>
+</div>
+</div>
+ <!-- COLLAPSES FOR LOCATIONS --------------------->
+ <div class="d-md-none">
+<div class="accordion" id="locationsCollapseMobile">
+  <div class="mobile-accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background-color: transparent; padding: 0; border: none;">
+        <img src="./summer-school-images/mobile-accordion-1.svg" alt="東京都" class="mobile-accordion-button">
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#locationsCollapseMobile">
+      <div class="accordion-body mobile-accordion-body">
+        <div class="row location-row">
+
+          <div class="col-sm-3">
+            
+<div class="location-area-wrapper"> 
+<div class="location-outer">
+  <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+  <h3 class="location-name-1">大田区</h3>
+</div>
+<h4 class="location-school">- Kids UP 馬込</h4>
+<h4 class="location-school">- Kids UP 大森</h4>
+<h4 class="location-school">- Kids UP 長原</h4>
+<h4 class="location-school">- Kids UP 池上</h4>
+<h4 class="location-school">- Kids UP 蒲田駅前</h4>
+<h4 class="location-school">- Kids UP 田園調布雪谷</h4>
+</div>
+
+  
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">北区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP　赤羽
+    </h4>
+ 
+    </div>
+
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">豊島区</h3>
+      </div>
+      <h4 class="location-school">- Kids UP　池袋
+      </h4>
+   
+      </div>
+
+          </div>
+
+<div class="col-sm-3">
+
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">江東区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP りんかい東雲</h4>
+    <h4 class="location-school">- Kids UP 大島</h4>
+    <h4 class="location-school">- Kids UP 門前仲町</h4>
+    <h4 class="location-school">- Kids UP 東陽町</h4>
+    </div>
+
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">新宿区</h3>
+      </div>
+      <h4 class="location-school">- Kids UP 四谷
+      </h4>
+      <h4 class="location-school">- Kids UP 早稲田
+      </h4>
+      </div>
+
+      <div class="location-area-wrapper"> 
+        <div class="location-outer">
+          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <h3 class="location-name-1">町田市</h3>
+        </div>
+        <h4 class="location-school">- Kids UP　南町田<br>グランベリーパーク
+        </h4>
+     
+        </div>
+    
+
+    
+
+</div>
+
+<div class="col-sm-3">
+
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">品川区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP 大井</h4>
+    <h4 class="location-school">- Kids UP 北品川</h4>
+    <h4 class="location-school">- Kids UP 戸越</h4>
+    </div>
+
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">中央区</h3>
+      </div>
+      <h4 class="location-school">- Kids UP　晴海
+      </h4>
+   
+      </div>
+
+      <div class="location-area-wrapper"> 
+        <div class="location-outer">
+          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <h3 class="location-name-1">中野区</h3>
+        </div>
+        <h4 class="location-school">- Kids UP　鷺宮
+        </h4>
+     
+        </div>
+
+</div>
+
+<div class="col-sm-3">
+
+  <div class="location-area-wrapper"> 
+    <div class="location-outer">
+      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <h3 class="location-name-1">世田谷区</h3>
+    </div>
+    <h4 class="location-school">- Kids UP 等々力</h4>
+    <h4 class="location-school">- Kids UP 成城</h4>
+    </div>
+
+    
+    <div class="location-area-wrapper"> 
+      <div class="location-outer">
+        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <h3 class="location-name-1">三鷹市</h3>
+      </div>
+      <h4 class="location-school">- Kids UP　三鷹
+      </h4>
+   
+      </div>
+
+
+  
+
+
+</div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <div class="mobile-accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: transparent; padding: 0; border: none;">
+        <img src="./summer-school-images/mobile-accordion-2.svg" alt="神奈川県" class="mobile-accordion-button">
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#locationsCollapseMobile">
+      <div class="accordion-body mobile-accordion-body" >
+        <div class="row location-row">
+          <div class="col-sm-6">
+             <div class="location-area-wrapper"> 
+                <div class="location-outer">
+                   <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+                   <h3 class="location-name-2">川崎市</h3>
+                </div>
+                <h4 class="location-school">- Kids UP 武蔵新城</h4>
+                <h4 class="location-school">- Kids UP 武蔵小杉</h4>
+                <h4 class="location-school">- Kids UP 溝の口</h4>
+                <h4 class="location-school">- Kids UP 新川崎</h4>
+             </div>
+        
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="location-area-wrapper"> 
+               <div class="location-outer">
+                  <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+                  <h3 class="location-name-2">横浜市</h3>
+               </div>
+               <h4 class="location-school">- Kids UP 大倉山</h4>
+               <h4 class="location-school">- Kids UP 矢向</h4>
+               <h4 class="location-school">- Kids UP 天王町</h4>
+               <h4 class="location-school">- Kids UP 二俣川</h4>
+            </div>
+        
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: transparent; padding: 0; border: none;">
+        <img src="./summer-school-images/mobile-accordion-3.svg" alt="千葉県" class="mobile-accordion-button">
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#locationsCollapseMobile">
+      <div class="accordion-body mobile-accordion-body" >
+        <div class="row location-row">
+          <div class="col-sm-6">
+             <div class="location-area-wrapper"> 
+                <div class="location-outer">
+                   <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+                   <h3 class="location-name-3">市川市</h3>
+                </div>
+                <h4 class="location-school">- Kids UP　ソコラ南行徳</h4>
+             </div>
+        
+          </div>
+        
+          <div class="col-sm-6">
+            <div class="location-area-wrapper"> 
+               <div class="location-outer">
+                  <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+                  <h3 class="location-name-3">横浜市</h3>
+               </div>
+               <h4 class="location-school">- Kids UP 新浦安</h4>
+            </div>
+         </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-accordion-item">
+    <h2 class="accordion-header" id="headingFour">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background-color: transparent; padding: 0; border: none;">
+        <img src="./summer-school-images/mobile-accordion-4.svg" alt="埼玉県" class="mobile-accordion-button">
+      </button>
+    </h2>
+    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#locationsCollapseMobile">
+      <div class="accordion-body mobile-accordion-body" >
+        <div class="row location-row">
+          <div class="col-sm-3">
+             <div class="location-area-wrapper"> 
+                <div class="location-outer">
+                   <img src="./summer-school-images/map-pin-4.svg" alt="map-pin-2" class="location-pin">
+                   <h3 class="location-name-4">川口市</h3>
+                </div>
+                <h4 class="location-school">- Kids UP　川口</h4>
+             </div>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      </div>
+
+    </div>
+
+
+
+
     </div>
 
     <!---------------------------------------------------------------- main-body event  benefits--------------------------------------------------------->
