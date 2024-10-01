@@ -1,0 +1,1380 @@
+/* COMMON ----------------------------------------------------------------- */
+.section-h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Shin-Maru-GP-Bold";
+  color: white;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+body{
+  padding-bottom: -2rem;
+}
+
+
+/* NAVBAR ----------------------------------------------------------------- */
+.navbar {
+  top: 0;
+  width: 100%;
+  height: 3.65rem;
+  box-shadow: none;
+  background-color: #ffffff00;
+  transition: 0.3s ease-in-out;
+}
+
+.navbar.scrolled {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  background-color: #f18911;
+  transition: 0.3s ease-in-out;
+}
+
+nav {
+  background-color: #ffffff00;
+}
+
+.nav-link {
+  color: #f3f4df;
+}
+
+.nav-link:hover {
+  color: #31265e;
+}
+
+.navbar-nav {
+  background-color: #ffffff00;
+}
+
+.nav-btn {
+  background-color: #7950a0;
+  color: #fff;
+}
+
+.nav-btn:hover {
+  background: #31265e;
+  color: #fff;
+}
+
+@media (max-width: 769px) {
+  .navbar {
+    top: 0;
+    width: 100%;
+    height: 3.65rem;
+    box-shadow: none;
+    background-color: #ffffff00;
+    transition: 0.3s ease-in-out;
+  }
+
+  .navbar-nav {
+    background-color: #f18911;
+  }
+}
+
+/* HERO ----------------------------------------------------------------- */
+
+.hero {
+  background: #7e4795 url(../halloween-2024-images/hero-bg-star.svg) no-repeat bottom right;
+  background-size: 32.5%;
+  position: relative;
+  width: 100%;
+  height: fit-content;
+}
+
+.hero-row{
+  width: 100%;
+  display: inline;
+}
+
+.hero-img, .hero-banner, .hero-textbox {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+}
+
+
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.hero-textbox {
+  rotate: 5deg;
+  background-color: #8f519a;
+  border-radius: 2rem;
+  padding: 2rem;
+}
+
+.hero-text {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  z-index: 10;
+}
+
+.hero-btn {
+  display: block;
+  margin-right:  auto;
+  width: 70%;
+  max-width: 600px;
+  font-family: "Shin-Maru-GP-DeBold";
+  text-decoration: none;
+  color: #fff;
+  background-color: #f18911;
+  border: solid 0.2rem #521c01;
+  font-size: 1.5rem;
+  padding: 1rem 2rem 1rem 2rem;
+  text-align: left;
+  border-radius: 3rem;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.hero-btn::after, .about-button::after {
+  content: url(../halloween-2024-images/btn-arrow.svg);
+  float: right;
+  padding: 0.1rem 1rem 0 0;
+  top: 65%;
+}
+
+.hero-btn:hover, .about-button:hover {
+  color: #7e4896;
+  background-color: #fff;
+  border: solid 0.2rem #582b66;
+}
+
+.hero-btn:hover::after, .about-button:hover::after {
+  content: url(../halloween-2024-images/btn-arrow-hover.svg);
+}
+
+
+.hero-col-1 {
+  width: 45%;
+}
+
+.hero-col-2 {
+  width: 55%;
+}
+
+.hero-bottom{
+  width: 101%;
+position: absolute;
+  transform: translate(-50%, -100%);
+  top: 100%;
+  left: 50%;
+}
+
+.hero-earlybird{
+  width: 25rem;
+  padding-left: 2.5rem;
+}
+
+/* Small Devices) */
+@media (min-width: 0px) {
+
+
+
+
+.hero{
+  width: 100%;
+}
+
+
+
+.banner-wrapper{
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  position: relative;
+  top: 50%;
+  transform: translateY(0%);
+}
+  
+  .hero-col-1, .hero-col-2 {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+
+.hero-textbox{
+  display: block;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+  .hero-text{
+    padding-right: 0%;
+  }
+  
+  .hero-btn {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  .hero-photo {
+    position: relative;
+    width: 100%
+  }
+  
+  .hero{
+    padding-top: 3rem;
+    background-size: 135%;
+  }
+
+  .hero-earlybird{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .hero-photo {
+    position: relative;
+    height: auto;
+top: auto;
+left: auto;
+  }
+  
+
+  .hero-btn {
+    width: 100%;
+    font-size: 1.4rem;
+  }
+}
+
+
+
+/* Tablet (Small, sm) */
+@media (min-width: 576px) {
+
+  .hero{
+    width: 100%;
+  }
+
+  .hero-textbox {
+      background-color: #8f519a;
+  }
+
+
+.hero{
+    padding: 5rem ;
+    background-size: 32.5%;
+  }
+
+  .hero-col-1 {
+    width: 40%;
+  }
+  
+  .hero-col-2 {
+    width: 60%;
+  }
+
+
+  .hero-img{
+   width: 100%;
+    top: 50%;
+    margin-left: 1rem;
+    margin-right: auto;
+  
+  }
+
+  .hero-textbox{
+    width: 115%;
+  }
+
+  .hero-text{
+    padding-right: 0%;
+  }
+  
+  .hero-btn {
+    width: 100%;
+  }
+
+  .hero-photo {
+    position: absolute;
+    height: auto;
+    transform: translate(-100%, -100%);
+    top: 100%;
+    left: 100%;
+    width: 18%;
+  }
+  
+  .hero-earlybird{
+    margin-left: 1rem;
+    margin-right: auto;
+    width: 70%;
+  }
+
+
+}
+
+
+/* Medium (md) */
+@media (min-width: 768px) {
+
+  .hero-row{
+    width: 100%;
+    display: flex;
+  }
+
+  .hero-img, .banner-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .hero-col-1 {
+    width: 50%;
+  }
+  
+  .hero-col-2 {
+    width: 50%;
+  }
+
+  .hero-img{
+    width: 100%;
+     top: 50%;
+     margin-left: 0;
+     margin-right: 0;
+   
+   }
+
+  .hero-photo {
+    width: 11.5rem;
+  }
+
+  .hero-textbox{
+    width: 110%;
+    padding: 1.5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .hero-text{
+    padding-right: 0%;
+  }
+
+  .hero-btn {
+    width: 90%;
+    margin-left: 0;
+    margin-top: 1rem;
+    font-size: 1.45rem;
+  }
+
+  .hero-text{
+    padding-right: 0%;
+  }
+
+  .hero-earlybird{
+    margin-left: 1rem;
+    margin-right: auto;
+    width: 65%;
+  }
+
+}
+
+/* Large (lg) */
+@media (min-width: 992px) {
+  .hero-col-1 {
+    width: 50%;
+  }
+  
+  .hero-col-2 {
+    width: 50%;
+  }
+
+  .hero-photo {
+    width: 12.5rem;
+  }
+
+  .hero-btn {
+    width: 75%;
+  }
+
+  .hero-text{
+    padding-right: 0%;
+
+  }
+
+  .hero-photo {
+    width: 13.5rem;
+  }
+}
+
+
+/* Extra Large (xl) */
+@media (min-width: 1200px) {
+  .hero-photo {
+    width: 20%;
+  }
+
+  .hero-btn {
+    width: 60%;
+  }
+}
+
+/* Extra Extra Large (xxl) */
+@media (min-width: 1400px) {
+  .hero-photo {
+    width: 21.5%;
+    max-width: 500px;
+  }
+}
+
+
+
+
+/* ABOUT ----------------------------------------------------------------- */
+
+.about-row{
+  position: relative;
+}
+
+
+.event-about {
+  background-color: #f08812;
+  padding-bottom: 2rem;
+}
+
+.explainer-wrapper{
+  position: relative;
+}
+
+.explainer-text {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+.about-p {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #fff;
+}
+
+.about-event-img {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: fit-content;
+  max-width: 80%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (max-width: 576px) {
+
+  .explainer-col{
+    width: 100%;
+    display: block;
+margin: 0 !important;
+padding: 0 !important;
+  }
+  .explainer-text {
+    margin: 0;
+    position: relative;
+    top: auto;
+    -ms-transform: translateY(0%);
+    transform: translateY(0%);
+    width: 100%;
+  }
+}
+
+/* THREE POINTS ----------------------------------------------------------------- */
+
+
+.three-reasons-row{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.three-point-1, .three-point-2, .three-point-3{
+  background-color: #8f519a;
+  border-radius: 2.5rem;
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-position:  center center;
+  background-repeat: no-repeat;
+
+}
+
+.three-point-1{
+  transform: rotate(5deg); 
+}
+
+.three-point-2{
+  transform: rotate(-5deg); 
+  background-color: #582b66;
+}
+
+.three-point-1-inner{
+  transform: rotate(-0deg); 
+}
+
+.three-point-2-inner{
+  transform: rotate(0deg); 
+}
+
+
+
+
+.three-points-icon{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5rem;
+  aspect-ratio: 1 / 1;
+  padding: 0.5rem;
+
+}
+
+
+.three-points-h3{
+  font-size: 1.25rem;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.three-points-text{
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .three-point-1, .three-point-2{
+    width: 90%;
+  }
+  
+}
+
+
+
+/* LOCATIONS ----------------------------------------------------------------- */
+
+.section-2 {
+  background-color: #572e6c;
+  background-image: url(../halloween-2024-images/section-2-bg-top-desktop.webp), url(../halloween-2024-images/section-2-bg-bottom-desktop.webp);
+  background-position: top center, bottom center;
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+
+
+.prefecture-title{
+height: 4rem;
+margin: 1rem;
+margin-left: 0;
+filter: drop-shadow(0px 5px 0px #31265e);
+}
+
+
+.location-row{
+  margin-bottom: 2rem;
+}
+
+
+.location-area-wrapper{
+  padding-bottom: 1rem;
+}
+
+
+.location-outer{
+  position: relative;
+  height: auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;    
+  filter: drop-shadow(0px 5px 0px #31265e);
+}
+
+
+.location-pin{
+  position: absolute;
+  width: 3rem;
+  transform: translate(0%, -50%);
+  margin-top: 1.5rem;
+  
+}
+.location-name-1, .location-name-2, .location-name-3, .location-name-4{
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-Bold";
+  background-color: white;
+  padding: 0.5rem;
+  width: fit-content;
+  border-radius: .3rem;
+  padding-left: 1.5rem;
+  margin-left: 1.5rem;
+}
+
+.location-name-1{
+  color: #8fc14f;
+}
+
+.location-name-2{
+  color: #27416c;
+}
+
+
+.location-name-3{
+  color: #d3587c;
+}
+
+
+.location-name-4{
+  color: #eac947;
+}
+
+
+
+.location-school{
+  font-family: "Shin-Maru-GP-DeBold";
+  margin-left: 2rem;
+  font-size: 1rem;
+  padding-top: 0.25rem;
+  color: white;
+}
+
+@media (max-width: 576px) {
+  .prefecture-title{
+    height: 4rem;
+    margin: 0.1rem;
+    margin-left: 0;
+    filter: drop-shadow(0px 5px 0px #e5cca8);
+    }
+    
+}
+.mobile-accordion-item{
+background-color: #ffffff00;
+}
+
+
+.mobile-accordion-body{
+  width: 100%;
+  padding: 0rem;
+  margin: 0rem;
+}
+
+.mobile-accordion-button{
+width: 100%;
+ padding-top: .25rem;
+ padding-bottom: .25rem
+ ;
+}
+
+.accordion-button img {
+  height: auto; /* Ensure image height is correct */
+  vertical-align: middle; /* Align image in the middle */
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+/* CALL TO ACTION ----------------------------------------------------------------- */
+
+
+.call-to-action {
+  background-color: #f08812;
+  position: relative;
+}
+
+.call-to-action-bg {
+  position: absolute;
+  top: 66%;
+  transform: translate(0%, -100%);
+}
+
+.cta-img {
+  position: relative;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1rem;
+}
+
+.about-button{
+  width: 90%;
+  left: 0%;
+  max-width: 600px;
+  font-family: "Shin-Maru-GP-DeBold";
+  text-decoration: none;
+  color: #fff;
+  background-color: #7e4896;
+  border: solid 0.2rem #582b66;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-align: left;
+  padding-left: 2rem;
+  border-radius: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.3s;
+
+}
+
+
+
+.cta-button {
+display: block;
+margin-left: auto;
+margin-right: auto;
+  width: 90%;
+  max-width: 600px;
+  font-family: "Shin-Maru-GP-DeBold";
+  text-decoration: none;
+  color: #fff;
+  background-color: #7e4896;
+  border: solid 0.2rem #582b66;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-align: left;
+  padding-left: 2rem;
+  border-radius: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.3s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.cta-button-top{
+  position: relative;
+}
+
+.cta-button::after, .about-button::after  {
+  content: url(../halloween-2024-images/btn-arrow.svg);
+  height: 1rem;
+  float: right;
+  top: 65%;
+  padding-right: 2rem;
+  padding-top: 0.1rem;
+}
+
+.cta-button:hover, .about-button:hover {
+  color: #7e4896;
+  background-color: #fff;
+}
+
+.cta-button:hover::after, .about-button:hover::after {
+  content: url(../halloween-2024-images/btn-arrow-hover.svg);
+}
+
+.cta-container{
+align-items: center;
+margin: 0;
+position: relative;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}
+
+.cta-prompt-desktop{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.cta-earlybird{
+  width: 90%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+}
+
+@media (max-width: 576px) {
+
+  .cta-prompt-desktop{
+   display: none;
+  }
+  .cta-prompt-mobile{
+    display: contents;
+  }
+  
+
+  .cta-button {
+    display: block;
+    position: relative;
+    top: auto;
+    width: 100%;
+    left: auto;
+    padding-left: 1rem;
+    padding-right: auto;
+    font-size: 1.45rem;
+  }
+
+  .cta-button::after {
+    content: url(../halloween-2024-images/btn-arrow.svg);
+    height: 1rem;
+    float: right;
+    top: 65%;
+    padding-right: 0;
+    padding-top: 0.1rem;
+  }
+
+  .cta-earlybird{
+margin-bottom: 2rem;
+  }
+}
+
+
+
+/* CUSTOMER TESTIMONY ----------------------------------------------------------------- */
+
+.section-4 {
+  background-color: #7e4795;
+  background-image: url(../halloween-2024-images/section-4-bg-top-desktop.webp), url(../halloween-2024-images/section-4-bg-bottom-desktop.webp);
+  background-position: top center, bottom center;
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.customer-testimony-row {
+  padding-bottom: 1rem;
+}
+
+.testimonial-box {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: solid 0.2rem #582b66;
+  background-color: #fff;
+  height: 27rem;
+  margin-left: 0.5%;
+  margin-right: 0.5%;
+  width: 32.33333333333333333333333333333333333333333333333333333333333333%;
+  border-radius: 1rem;
+}
+
+.testimonial-inner {
+  padding: 0.75rem;
+  padding-top: 2rem;
+  position: relative;
+  height: 70%;
+}
+
+.testimonial-img {
+  width: 100%;
+}
+
+.testimonial-header {
+  font-size: 2rem;
+  font-family: "Noto Sans JP", sans-serif;
+  color: #303135;
+  font-weight: bold;
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.testimonial-age {
+  font-size: 1.25rem;
+  padding-left: 1rem;
+}
+
+.testimonial-top-row {
+  padding-bottom: 2rem;
+}
+
+.testimonial-text {
+  color: #303135;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 0.95rem;
+}
+
+.testimonial-rank {
+  position: absolute;
+  top: 110%;
+  vertical-align: bottom;
+  width: 45%;
+}
+
+@media (max-width: 576px) {
+  .swiper-wrapper {
+    height: fit-content;
+  }
+
+  .testimony-slide {
+    height: 100%;
+    width: 100%;
+  }
+
+  .testimonial-box {
+    height: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
+    width: 100%;
+  }
+
+  .testimonial-inner {
+    padding: 1rem;
+    padding-top: 1rem;
+    position: relative;
+    height: 31rem;
+  }
+
+  .testimonial-top-row {
+    padding-bottom: 1rem;
+  }
+
+  .testimonial-text {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1rem;
+  }
+  .swiper-container-testimony {
+    
+    position: relative;
+   
+  }
+  
+  
+  .swiper-button-testimony-prev {
+    width: 4rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    top: 50%;
+    overflow: none;
+  }
+  .swiper-button-testimony-next {
+    width: 4rem;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 100%;
+    z-index: 1;
+    top: 50%;
+    overflow: none;
+  }
+  .testimonial-rank {
+    position: absolute;
+    top: 75%;
+    vertical-align: bottom;
+    width: 45%;
+  }
+}
+
+/* ABOUT EVENT ----------------------------------------------------------------- */
+
+.activity-info-div{
+  position: relative;
+  height: fit-content;
+  overflow-y: hidden;
+}
+.event-date{
+  text-align: center;
+  color: #fff;
+}
+
+.event-date-sub{
+  font-size: .75rem;
+}
+
+.event-info-decoration-left, .event-info-decoration-right{
+  position: absolute;
+  width: 20rem;
+  filter: blur(2px);
+
+  }
+.event-info-decoration-left{
+  position: absolute;
+  width: 15rem;
+  left: 2%;
+  transform: translate(0%, -50%);
+}
+
+.event-info-decoration-right{
+  position: absolute;
+  width: 15rem;
+  left: 98%;
+  transform: translate(-100%, -50%);
+}
+
+
+
+
+
+.activity-row{
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.activity-image{
+margin: 0;
+position: relative;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+display:block;
+margin-left: auto;
+margin-right: auto;
+width: 85%;
+
+}
+
+.activity-infobox-outer-v1, .activity-infobox-outer-v2{
+  width: 95%;
+  display: block;
+  height: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 0;
+position: relative;
+top: 50%;
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+
+}
+
+.activity-infobox-outer-v1{
+  rotate: 5deg;
+  background-color: #572e6c;
+}
+
+.activity-infobox-outer-v2{
+  rotate: -5deg;
+  background-color: #8f519a;;
+}
+
+
+
+
+.activity-infobox-inner-v1{
+  rotate: -0deg;
+
+}
+.activity-infobox-inner-v2{
+  rotate: 0deg;
+}
+
+
+.activity-header{
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.75rem;
+  color: white;
+  line-height: 1;
+  margin-top: 0rem;
+  margin-bottom: 1rem;
+}
+
+.activity-description{
+  color: white;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.activity-description-sub{
+  font-size: .9rem;
+}
+
+@media (max-width: 576px) {
+  .activity-image{
+
+    width: 100%;
+    
+    }
+  .activity-infobox-outer-v1, .activity-infobox-outer-v2{
+    width: 100%;
+
+  }
+
+  .activity-description{
+    color: white;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+}
+
+
+
+/* Image Carousel ------------------------------------------------------------------*/
+
+
+.section-5 {
+  background-color: #7e4795;
+  background-image: url(../halloween-2024-images/section-4-bg-top-desktop.webp), url(../halloween-2024-images/section-4-bg-bottom-desktop.webp);
+  background-position: top center, bottom center;
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+
+.carousel-div {
+  background-color: inherit;
+}
+
+.swiper-img {
+  display: block;
+  width: 96%;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-custom-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  padding: 25%;
+  justify-content: space-between;
+}
+
+.swiper-custom-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-custom-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.swiper-activities-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+}
+
+.swiper-activities-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-activities-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+@media (max-width: 576px) {
+  .swiper-img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  .swiper-custom-nav {
+    padding: 7.5%;
+  }
+  .swiper-custom-nav-arrow {
+    width: 3rem;
+  }
+}
+
+/* Sign Up and Pre Footer ------------------------------------------------------------------*/
+
+.sign-up-instruction-header {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.bottom-button-right {
+  float: left;
+}
+
+.bottom-button-left {
+  float: right;
+}
+
+@media (max-width: 576px) {
+  .bottom-button-left,
+  .bottom-button-right {
+    float: none;
+    align-items: center;
+  }
+}
+
+
+.sign-up-row {
+  padding-bottom: 1rem;
+}
+
+.sign-up-wrapper-left,
+.sign-up-wrapper-middle,
+.sign-up-wrapper-right {
+  width: 97.5%;
+  display: block;
+}
+
+.sign-up-wrapper-left {
+  margin-right: auto;
+}
+
+.sign-up-wrapper-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-up-wrapper-right {
+  margin-left: auto;
+}
+
+@media (max-width: 576px) {
+  .sign-up-wrapper-left,
+  .sign-up-wrapper-middle,
+  .sign-up-wrapper-right {
+    width: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.sign-up-h2 {
+  font-family: "Shin-Maru-GP-Bold";
+  font-weight: bold;
+  padding-bottom: 3rem;
+  color: white;
+}
+
+.sign-up-h3 {
+  font-size: 1.75rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+  color: white;
+}
+
+.sign-up-p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.sign-up-button {
+  position: relative;
+  font-family: "Shin-Maru-GP-DeBold";
+  text-decoration: none;
+  color: #fff;
+  background-color: #7e4896;
+  border: solid 0.2rem #582b66;
+  width: 100%;
+  font-size: 1.2rem;
+  padding: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+  border-radius: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.3s;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+.sign-up-button::after, .about-button::after  {
+  content: url(../halloween-2024-images/btn-arrow.svg);
+  height: 1rem;
+  float: right;
+  top: 65%;
+  padding-right: 2rem;
+  padding-top: 0.1rem;
+}
+
+.sign-up-button:hover, .about-button:hover {
+  color: #7e4896;
+  background-color: #fff;
+}
+
+.sign-up-button:hover::after, .about-button:hover::after {
+  content: url(../halloween-2024-images/btn-arrow-hover.svg);
+}
+
+
+
+
+
+.pre-footer {
+  background-color: #7e4795;
+}
+
+.pre-footer-h2,
+.pre-footer-p {
+  color: #ffffff;
+}
+
+
+.section-6 {
+  background-color: #7e4795;
+  background-image: url(../halloween-2024-images/section-4-bg-top-desktop.webp), url(../halloween-2024-images/section-6-bg-bottom-desktop.webp);
+  background-position: top center, bottom center;
+  background-size: 100% auto, 100% auto;
+  background-repeat: no-repeat;
+  padding-top:6rem;
+  padding-bottom: 7rem;
+}
+@media (max-width: 576px) {
+.about-button{
+  width: 100%;
+  font-size: 1.45rem;
+  padding-left: 1rem
+  ;
+}
+  }
+
+
+  
+.earlybird {
+  display: none;
+}

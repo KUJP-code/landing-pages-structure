@@ -1,0 +1,29 @@
+.portrait-ellio{
+    background-image: url(../images/ellio-portrait.jpg);
+    background-size: cover;
+
+    aspect-ratio: 23 / 25;
+
+}
+
+.portrait-mia{
+    background-image: url(../images/mia-portrait.jpg);
+    background-size: cover;
+
+    aspect-ratio: 23 / 25;
+
+}
+
+
+.portrait-toma{
+    background-image: url(../images/toma-portrait.jpg);
+    background-size: cover;
+
+    aspect-ratio: 23 / 25;
+
+}
+
+.p_normal-otherpage{
+    padding-top: 1rem;
+    padding-bottom: 2.5rem;
+}

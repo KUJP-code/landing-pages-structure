@@ -11,7 +11,7 @@
       <h3 class="footer-logo">
         <a href="https://kids-up.jp/"
           ><img
-            src="../global-images/footer-logo.svg"
+            src="https://kids-up.jp/global/global-images/footer-logo.svg"
             alt="学童保育型　英会話スクール・幼児クラス - KidsUP"
         /></a>
       </h3>
@@ -19,7 +19,7 @@
       <div class="sns_area">
         <a href="https://www.instagram.com/kidsup.jp/">
           <img
-            src="../global-images/sns-insta.svg"
+            src="https://kids-up.jp/global/global-images/sns-insta.svg"
             alt="学童保育型　英会話スクール・幼児クラス - KidsUP インスタグラム"
             width="100%"
             height="auto"
@@ -27,7 +27,7 @@
         </a>
         <a href="https://www.youtube.com/c/Kids-upJp">
           <img
-            src="../global-images/sns-youtube.svg"
+            src="https://kids-up.jp/global/global-images/sns-youtube.svg"
             alt="学童保育型　英会話スクール・幼児クラス - KidsUP　YOUTUBE"
             width="100%"
             height="auto"
@@ -107,7 +107,7 @@
           <li class="footer-list-item">
             <a class="footer-link" href="https://kids-up.jp/category/open-cat/">開校情報</a>
           </li>
-
+          <br class="d-block d-sm-none">
           <li class="footer-list-item">
             <a class="footer-link" href="https://kids-up.app/auth/sign_in"
               >シーズナルスクールお申込みフォーム</a

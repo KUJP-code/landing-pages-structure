@@ -706,9 +706,8 @@ width: 100%;
   transform: translate(0%, -50%);
   position: absolute;
   top: 45%;
-  width: 40%;
-
-  left: 50%;
+  width: 90%;
+  left: 0%;
   max-width: 600px;
   font-family: "Shin-Maru-GP-DeBold";
   text-decoration: none;
@@ -747,7 +746,28 @@ width: 100%;
   content: url(../summer-school-images/btn-arrow-hover.svg);
 }
 
+.cta-container{
+  position: relative;
+}
+
+.cta-prompt-desktop{
+  transform-origin: bottom left;
+  position: absolute;
+  top: 20%;
+
+}
+
+
 @media (max-width: 576px) {
+
+  .cta-prompt-desktop{
+   display: none;
+  }
+  .cta-prompt-mobile{
+    display: contents;
+  }
+  
+
   .cta-button {
     display: block;
 

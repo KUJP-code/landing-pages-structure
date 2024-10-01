@@ -458,12 +458,12 @@
  <div class="d-md-none">
 <div class="accordion" id="locationsCollapseMobile">
   <div class="mobile-accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" style="background-color: transparent; padding: 0; border: none;">
+    <h2 class="accordion-header" id="locationHeadingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseOne" aria-expanded="false" aria-controls="locationCollapseOne" style="background-color: transparent; padding: 0; border: none;">
         <img src="./summer-school-images/mobile-accordion-1.svg" alt="東京都" class="mobile-accordion-button">
       </button>
     </h2>
-    <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#locationsCollapseMobile">
+    <div id="locationCollapseOne" class="accordion-collapse collapse" aria-labelledby="locationHeadingOne" data-bs-parent="#locationsCollapseMobile">
       <div class="accordion-body mobile-accordion-body">
         <div class="row location-row">
 
@@ -612,12 +612,12 @@
     </div>
   </div>
   <div class="mobile-accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style="background-color: transparent; padding: 0; border: none;">
+    <h2 class="accordion-header" id="locationHeadingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseTwo" aria-expanded="false" aria-controls="locationCollapseTwo" style="background-color: transparent; padding: 0; border: none;">
         <img src="./summer-school-images/mobile-accordion-2.svg" alt="神奈川県" class="mobile-accordion-button">
       </button>
     </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#locationsCollapseMobile">
+    <div id="locationCollapseTwo" class="accordion-collapse collapse" aria-labelledby="locationHeadingTwo" data-bs-parent="#locationsCollapseMobile">
       <div class="accordion-body mobile-accordion-body" >
         <div class="row location-row">
           <div class="col-sm-6">
@@ -651,12 +651,12 @@
     </div>
   </div>
   <div class="mobile-accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style="background-color: transparent; padding: 0; border: none;">
+    <h2 class="accordion-header" id="locationHeadingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseThree" aria-expanded="false" aria-controls="locationCollapseThree" style="background-color: transparent; padding: 0; border: none;">
         <img src="./summer-school-images/mobile-accordion-3.svg" alt="千葉県" class="mobile-accordion-button">
       </button>
     </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#locationsCollapseMobile">
+    <div id="locationCollapseThree" class="accordion-collapse collapse" aria-labelledby="locationHeadingThree" data-bs-parent="#locationsCollapseMobile">
       <div class="accordion-body mobile-accordion-body" >
         <div class="row location-row">
           <div class="col-sm-6">
@@ -684,12 +684,12 @@
     </div>
   </div>
   <div class="mobile-accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" style="background-color: transparent; padding: 0; border: none;">
+    <h2 class="accordion-header" id="locationHeadingFour">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseFour" aria-expanded="false" aria-controls="locationCollapseFour" style="background-color: transparent; padding: 0; border: none;">
         <img src="./summer-school-images/mobile-accordion-4.svg" alt="埼玉県" class="mobile-accordion-button">
       </button>
     </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#locationsCollapseMobile">
+    <div id="locationCollapseFour" class="accordion-collapse collapse" aria-labelledby="locationHeadingFour" data-bs-parent="#locationsCollapseMobile">
       <div class="accordion-body mobile-accordion-body" >
         <div class="row location-row">
           <div class="col-sm-3">
@@ -932,7 +932,10 @@
               class="img-fluid cta-kid"
             />
           </div>
-          <div class="col-sm-6">
+          <div class="col-sm-6 cta-container">
+
+            <img src="./summer-school-images/call-to-action.svg" alt="call-to-action" class="cta-prompt-desktop">
+            <img src="./summer-school-images/call-to-action-mobile.svg" alt="call-to-action" class="d-block d-sm-none cta-prompt-mobile">
             <button class="cta-button" onclick="formLink()">
               お申込みはこちら
             </button>
@@ -1598,7 +1601,7 @@
                 style="width: 100%"
               />
               <div class="form-download-wrapper">
-                <a href="Summer-2024-カレンダー.pdf"
+                <a href="https://kids-up.jp/events/summer-school-2024/Summer-2024-%E3%82%AB%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%99%E3%83%BC.pdf"
                   ><h5 class="form-download" target="_blank">
                     カレンダーをダウンロード
                   </h5></a
@@ -1915,8 +1918,8 @@
             >
               <div class="accordion-body">
                 <p>
-                  指定の小学校・保育園までのお迎えと、
-                  ご自宅付近の停車場所までお送りする「無料送迎サービス」がございます。
+                指定の小学校・保育園までのお迎えと、 ご自宅付近の停車場所までお送りする「無料送迎サービス」がございます。<br>
+                ※レギュラーコースにご通学の方のみご利用いただけます。サマースクールのみご参加の方には対応いたしておりません。
                 </p>
               </div>
             </div>

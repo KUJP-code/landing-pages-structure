@@ -149,3 +149,24 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+
+
+  // Set your cutoff date here (e.g., September 15, 2024)
+  const cutoffDate = new Date('2024-05-15');
+  
+  // Get the current date
+  const currentDate = new Date();
+  
+  // Check if the current date is after the cutoff date
+  if (currentDate > cutoffDate) {
+      // Select all elements with the class 'earlybird'
+      const earlyBirdElements = document.querySelectorAll('.earlybird');
+      
+      // Hide each element by setting the display property to 'none'
+      earlyBirdElements.forEach(element => {
+          element.style.display = 'none';
+      });
+  }
+  
+  
