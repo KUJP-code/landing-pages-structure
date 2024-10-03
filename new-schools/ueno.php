@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ROAR! Gameplay Rules | 学童保育型 英語・英会話スクール Kids UP （キッズアップ）</title>
+<title>Kids UPが 上野に開校! NEW OPEN</title>
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-head.php'; ?>
 <link rel="stylesheet" href="/global/global-stylesheets/template.css">
 
-<link rel="stylesheet" href="css/2024-css/setsumeikai.css" />
+<link rel="stylesheet" href="css/2024-css/new-school.css" />
 </head>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-nav.php'; ?>
 </section>
@@ -18,7 +18,7 @@
     <!-- Section 1: HERO -->
 
     <section class="hero">
-
+<img src="/new-schools/new-school-images-2024/hero-top-mobile.webp" alt="" class="d-block d-sm-none img-fluid mobile-hero">
       <div class="hero-top-wrapper">
       <img src="./new-school-images-2024/hero-badge.png" alt="hero-badge" class="hero-badge">
         <div class="new-school-wrapper">
@@ -28,12 +28,13 @@
 
            
             <div class="h1-wrapper">
-                <img src="./new-school-images-2024/ueno-open.svg" alt="2/1 土"class="hero-open-date">
-            <h1 class="hero-h1">Kids UPが<br>
+                <img src="./new-school-images-2024/ueno-open-desktop.svg" alt="2/1 土"class="d-none d-sm-block hero-open-date">
+             
+            <h1 class="hero-h1"><span class="hero-h1-top-padding">Kids UPが <img src="./new-school-images-2024/ueno-open-mobile.svg" alt="2/1 土"class="d-block d-sm-none hero-open-date"></span><br>
                 上野に開校!<br>
-                <span class="h1-orange">NEW OPEN</span></h1>
+                <span class="h1-orange">NEW OPEN</span>      </h1>
 
-                <img src="./new-school-images-2024/ueno-front.webp" alt="ueno-front" class="img-fluid hero-new-school-front">
+                <img src="./new-school-images-2024/ueno-front.webp" alt="ueno-front" class="d-none d-sm-block img-fluid hero-new-school-front">
             
             <div class="setsumeikai-header-prompt-wrapper"> 
                 
@@ -43,7 +44,7 @@
    
             
             </div>
-            <a href="https://kids-up.jp/entry/" class="hero-call-to-action-btn"
+            <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="hero-call-to-action-btn"
             >無料体験に参加する →</a>
             </div>
 
@@ -51,10 +52,9 @@
         </div>
 
 
-        <div class="hero-bottom-aspect-ratio">
-
-
         <div class="hero-bottom-wrapper">
+
+          <div class="hero-bottom-text-wrapper">
 
 
             <h2 class="bus-service-h2">無料送迎バスあり</h2>
@@ -63,60 +63,79 @@
 
             <h3 class="bus-service-h3-schools">送迎対象予定小学校</h3>
 
-            <p class="school-list-1">  田原、大正、金竜、千束、富士、東浅草、金曾木、<br>
-                根岸、蔵前、平成、浅草、和泉</p>
+            <p class="school-list-1">田原、大正、金竜、<br class="d-block d-sm-none">千束、富士、東浅草、<br >
+              金曾木、根岸、蔵前、<br class="d-block d-sm-none">平成、浅草、和泉</p>
 
-                <p class="school-list-2">（上野、松葉小は、徒歩通学とさせていただきます）</p>
+                <p class="school-list-2">（上野、松葉小は、徒歩通学<br class="d-block d-sm-none">とさせていただきます）</p>
+        </div>
+
+        <img src="./new-school-images-2024/hero-bottom-image-mobile.webp" alt="" class="d-block d-sm-none mobile-bottom-img">
+        <img
+        src="./new-school-images-2024/new-school-hero-mask.svg"
+        alt="section-break-top"
+        class="hero-bottom-mask"
+      />
         </div>
 
 
-    </div>
- 
-    <img
-    src="./new-school-images-2024/new-school-hero-mask.svg"
-    alt="section-break-top"
-    class="section-break"
-  />
-</div>
 
+
+  
+ 
+
+</div>
+  </div>
       </section>
   
 
  
   
       <!-- Section 2: BUS INFO -->
-      <div class="call-to-action-div">
+        <!-- Section 12: Call to Action TOP -->
+        <div class="call-to-action-div">
 
-  
-        <div class="container">
+    
+          <div class="container">
+            <h2 class="call-to-action-h2">
+              大学教授が監修の<br class="d-block d-sm-none" />最新カリキュラムで<br />
+              聴ける・話せる・楽しめる
+            </h2>
+    
+            <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+              >無料体験に参加する ＞
+            </a>
+            <div class="row">
+              <div class="col-6">
+                <h3 class="call-to-action-h3-left">
+                  ご質問はお気軽に<br />
+                  お電話ください
+                </h3>
+              </div>
+              <div class="col-6">
+                <a href="tel:0120378056" class="call-to-action-phone-link">
+                  <h3 class="call-to-action-h3-right">
+                    <span>
+                      <img
+                        src="./images/main-page/tel-icon.svg"
+                        alt="tel-icon"
+                        class="tel-icon"
+                      /> </span
+                    >0120-378-056<br />
+                    <span>
+                      <p class="call-to-action-sub">年中無休 10:00 - 20:00</p>
+                    </span>
+                  </h3>
+                </a>
+              </div>
+            </div>
+          </div>
+    
           <img
-            src="./images/main-page/bus-front.png"
-            alt="img-schoolbus"
-            class="horizontal-center"
+            src="./images/main-page/section-break-bottom.svg"
+            alt="section-break-bottom"
+            class="section-break"
           />
-          <div class="padding-band-2rem"></div>
-          <h2 class="call-to-action-h2">【送迎対象小学校】</h2>
-  
-          <h3 class="call-to-action-h3-center">
-            池袋本町小、滝野川第二小、池袋小、朋有小、朝日小、<br />
-            清和小、板橋第一小、板橋第四小、板橋第十小、巣鴨小、<br />
-            高松小、滝野川小<br />
-            <br />
-            ※池袋第一小、豊成小、西巣鴨小は4月のみお迎えに上がり<br />
-            5月からは徒歩でご通学いただきます。
-          </h3>
-          <div class="padding-band-2rem"></div>
-          <h2 class="call-to-action-h2">【送迎対象保育園・幼稚園】</h2>
-  
-          <h3 class="call-to-action-h3-center">現在リクエスト受付中</h3>
         </div>
-  
-        <img
-          src="./images/main-page/section-break-bottom.svg"
-          alt="section-break-bottom"
-          class="section-break"
-        />
-      </div>
   
       <!-- Section 3: Why Choose Kids UP -->
       <div class="container" id="div1">
@@ -135,10 +154,10 @@
           <div class="col-sm-8">
             <div class="why-choose-kidsup-text-container">
               <h3 class="why-choose-kidsup-h3">
-                ネイティブ＋バイリンガルティーチャー<br />のスタッフ体制で安心！
+                ネイティブ＋バイリンガルティーチャーのスタッフ体制で安心！
               </h3>
               <p class="why-choose-kidsup-p">
-                経験豊富なネイティブ・バイリンガルティーチャーによる<br />
+                経験豊富なネイティブ・バイリンガルティーチャーによる
                 オールイングリッシュの学校で、楽しく効果的に英語が学べます。
               </p>
             </div>
@@ -157,10 +176,10 @@
           <div class="col-sm-8">
             <div class="why-choose-kidsup-text-container">
               <h3 class="why-choose-kidsup-h3">
-                応用言語学博士が監修<br />教育水準は業界トップクラス
+                応用言語学博士が監修教育水準は業界トップクラス
               </h3>
               <p class="why-choose-kidsup-p">
-                専門的な講師陣と応用言語学の博士が監修したCLILプログラムを導入し、<br />
+                専門的な講師陣と応用言語学の博士が監修したCLILプログラムを導入し、
                 従来のイマージョン教育よりも英語力と思考力を向上させます。
               </p>
             </div>
@@ -179,7 +198,7 @@
           <div class="col-sm-8">
             <div class="why-choose-kidsup-text-container">
               <h3 class="why-choose-kidsup-h3">
-                働くママも安心の<br class="pc-display" />学童機能
+                働くママも安心の<br class="d-sm-none d-block" />学童機能
               </h3>
               <p class="why-choose-kidsup-p">
                 忙しいご両親に便利な、長時間預けられる英会話スクールです。<br />
@@ -211,30 +230,29 @@
           </div>
         </div>
       </div>
-  
-      <!-- Section 4: Call to Action 2 -->
+      <!-- Section 12: Call to Action 4 -->
       <div class="call-to-action-div">
         <img
           src="./images/main-page/section-break-top.svg"
           alt="section-break-top"
           class="section-break"
+          style="transform: translateY(-11px)"
         />
   
         <div class="container">
           <h2 class="call-to-action-h2">
-            大学教授が監修の<br
-              class="mobile-display"
-            />最新カリキュラムで<br />聴ける・話せる・楽しめる
+            大学教授が監修の<br class="d-block d-sm-none" />最新カリキュラムで<br />
+            聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/" class="call-to-action-btn"
-            >無料体験に参加する ＞</a
-          >
-  
+          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+            >無料体験に参加する ＞
+          </a>
           <div class="row">
             <div class="col-6">
               <h3 class="call-to-action-h3-left">
-                ご質問はお気軽に<br />お電話ください
+                ご質問はお気軽に<br />
+                お電話ください
               </h3>
             </div>
             <div class="col-6">
@@ -245,9 +263,8 @@
                       src="./images/main-page/tel-icon.svg"
                       alt="tel-icon"
                       class="tel-icon"
-                    />
-                  </span>
-                  0120-378-056<br />
+                    /> </span
+                  >0120-378-056<br />
                   <span>
                     <p class="call-to-action-sub">年中無休 10:00 - 20:00</p>
                   </span>
@@ -263,22 +280,23 @@
           class="section-break"
         />
       </div>
-  
+
+
       <!-- Section 5: Why Choose KidsUP 2 -->
       <div class="container" style="position: relative">
         <h3 class="main-section-start-h3">無料体験・説明会で</h3>
         <h2 class="main-section-start-h2">Kids UPが選ばれる理由</h2>
   
         <h3 class="why-choose-kidsup-2-h3">
-          Kids UP では無料体験＆<br class="mobile-display" />
+          Kids UP では無料体験＆<br class="d-block d-sm-none" />
           説明会を実施しています。<br />レッスンの 雰囲気や、<br
-            class="mobile-display"
+            class="d-block d-sm-none"
           />お子様が馴染めるのかなど、<br />
           気になる点をすべてクリア<br
-            class="mobile-display"
+            class="d-block d-sm-none"
           />にしてからご入会していただけます。<br />
           フレンドリーなスタッフが最寄りの<br
-            class="mobile-display"
+            class="d-block d-sm-none"
           />教室でお待ちしています。
         </h3>
   
@@ -617,11 +635,11 @@
         <h1 class="daily-schedule">当日のスケジュール</h1>
   
         <h3 class="why-choose-kidsup-2-h3">
-          お子様が体験レッスンに<br class="mobile-display" />
+          お子様が体験レッスンに<br class="d-block d-sm-none" />
           参加されている間に<br />
-          詳しいシステムや<br class="mobile-display" />
+          詳しいシステムや<br class="d-block d-sm-none" />
           カリキュラム、<br />
-          料金のご説明と<br class="mobile-display" />
+          料金のご説明と<br class="d-block d-sm-none" />
           質疑応答をおこないます。<br />
         </h3>
   
@@ -632,26 +650,29 @@
         />
       </div>
   
-      <!-- Section 7: Call to Action 3 -->
+      <!-- Section Call to Action -->
       <div class="call-to-action-div">
         <img
           src="./images/main-page/section-break-top.svg"
           alt="section-break-top"
           class="section-break"
+          style="transform: translateY(-11px)"
         />
+  
         <div class="container">
           <h2 class="call-to-action-h2">
-            大学教授が監修の<br
-              class="mobile-display"
-            />最新カリキュラムで<br />聴ける・話せる・楽しめる
+            大学教授が監修の<br class="d-block d-sm-none" />最新カリキュラムで<br />
+            聴ける・話せる・楽しめる
           </h2>
-          <a href="https://kids-up.jp/entry/" class="call-to-action-btn"
-            >無料体験に参加する ＞</a
-          >
+  
+          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+            >無料体験に参加する ＞
+          </a>
           <div class="row">
             <div class="col-6">
               <h3 class="call-to-action-h3-left">
-                ご質問はお気軽に<br />お電話ください
+                ご質問はお気軽に<br />
+                お電話ください
               </h3>
             </div>
             <div class="col-6">
@@ -662,9 +683,8 @@
                       src="./images/main-page/tel-icon.svg"
                       alt="tel-icon"
                       class="tel-icon"
-                    />
-                  </span>
-                  0120-378-056<br />
+                    /> </span
+                  >0120-378-056<br />
                   <span>
                     <p class="call-to-action-sub">年中無休 10:00 - 20:00</p>
                   </span>
@@ -673,6 +693,7 @@
             </div>
           </div>
         </div>
+  
         <img
           src="./images/main-page/section-break-bottom-orange.svg"
           alt="section-break-bottom"
@@ -750,14 +771,14 @@
   
           <div class="row testimony-row">
             <div class="col-sm-5" style="position: relative">
-              <div class="pc-display">
+              <div class="d-none d-sm-block">
                 <img
                   src="./images/main-page/testimony-1.webp"
                   alt="testimony-1"
                   class="img-fluid testimony-img"
                 />
               </div>
-              <div class="mobile-display">
+              <div class="d-block d-sm-none">
                 <img
                   src="./images/main-page/testimony-1-mobile.webp"
                   alt="testimony-1"
@@ -781,14 +802,14 @@
   
           <div class="row testimony-row">
             <div class="col-sm-5 testimony-img-col">
-              <div class="pc-display">
+              <div class="d-none d-sm-block">
                 <img
                   src="./images/main-page/testimony-2.webp"
                   alt="testimony-2"
                   class="img-fluid testimony-img"
                 />
               </div>
-              <div class="mobile-display">
+              <div class="d-block d-sm-none">
                 <img
                   src="./images/main-page/testimony-2-mobile.webp"
                   alt="testimony-2"
@@ -1009,7 +1030,7 @@
             <div class="col-sm-7">
               <div class="safety-text-box">
                 <h3 class="safety-text">
-                  ・ 授業開始前に、玩具や文房具などに<br class="mobile-display" />
+                  ・ 授業開始前に、玩具や文房具などに<br class="d-block d-sm-none" />
                   アルコール等による消毒を行います。
                 </h3>
   
@@ -1023,7 +1044,7 @@
               <div class="safety-text-box">
                 <h3 class="safety-text">
                   ・ 従業員の体温測定を義務付け、<br
-                    class="mobile-display"
+                    class="d-block d-sm-none"
                   />体調不良時は出勤を停止します。
                 </h3>
   
@@ -1076,10 +1097,10 @@
           </div>
           <h3 class="safety-text-bottom">
             角のない机・椅子、<br
-              class="mobile-display"
+              class="d-block d-sm-none"
             />コーナーパッドの設置、<br />
             お子様の<span style="color: #f0810d">安全を第一に</span
-            >考えて教室が<br class="mobile-display" />作られています。
+            >考えて教室が<br class="d-block d-sm-none" />作られています。
           </h3>
         </div>
       </div>
@@ -1095,11 +1116,11 @@
   
         <div class="container">
           <h2 class="call-to-action-h2">
-            大学教授が監修の<br class="mobile-display" />最新カリキュラムで<br />
+            大学教授が監修の<br class="d-block d-sm-none" />最新カリキュラムで<br />
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/" class="call-to-action-btn"
+          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
             >無料体験に参加する ＞
           </a>
           <div class="row">
@@ -1138,7 +1159,7 @@
       <!-- Section 13: About English -->
       <div class="container">
         <h2 class="main-section-start-h2">
-          お子さまに英語を<br class="mobile-display" />身につけさせたいと<br />
+          お子さまに英語を<br class="d-block d-sm-none" />身につけさせたいと<br />
           お考えのみなさま
         </h2>
         <h3 class="main-section-start-h3" style="color: #63574a">
@@ -1162,7 +1183,7 @@
           </div>
         </div>
         <h3 class="blue-text">幼少期の環境が重要</h3>
-        <div class="padding-band-3rem"></div>
+
   
         <h3 class="main-section-start-h3" style="color: #63574a">
           幼少期から英語をはじめると読み書きにもプラスの影響！
@@ -1185,7 +1206,7 @@
           </div>
         </div>
         <h3 class="blue-text">英語の習得は、少しでも早いほうが有利</h3>
-        <div class="padding-band-3rem"></div>
+
   
         <h3 class="main-section-start-h3" style="color: #63574a">
           受験における英語の取り扱いも変わっていきます。
@@ -1209,37 +1230,39 @@
           </div>
         </div>
         <h3 class="blue-text">本物の英語力を身につけましょう。</h3>
-        <div class="padding-band-3rem"></div>
+
       </div>
   
       <!-- Section 14: Company Info -->
   
       <div>
+
+        <div class="section-14-top-wrapper">
         <h2 class="main-section-start-h2">会社紹介</h2>
         <h3 class="main-section-start-h3" style="color: #63574a">
           学童保育型英会話スクール・幼児クラス<br
-            class="mobile-display"
+            class="d-block d-sm-none"
           />「株式会社 Kids-UP」
         </h3>
-  
-        <div class="padding-band-3rem"></div>
+      </div>
+   
         <img
-          src="./images/main-page/group-photo.webp"
+          src="./new-school-images-2024/group-photo.jpg"
           alt="group-photo"
           class="img-fluid"
         />
   
         <div style="background-color: #fde9d3">
           <div class="container">
-            <div class="padding-band-2rem"></div>
+           
   
-            <h3 style="font-weight: 600">
+            <p style="font-weight: 600; font-size: 1.25rem; padding-top: 2rem; padding-bottom: 2rem;">
               学童保育型英会話スクール・幼児クラス「Kids UP」を運営する、幼児
               ・児童向けの教育サービスを主とした企業です。多くのお子様に英語力・自信、
               総合的な人間力を身につけていただく事を目標にしています。
               お子様を安心してお預けいただける環境と、高品質なレッスンをご提供します。
-            </h3>
-            <div class="padding-band-2rem"></div>
+            </p>
+           
           </div>
         </div>
       </div>
