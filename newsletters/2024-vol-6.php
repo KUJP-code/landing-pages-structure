@@ -34,8 +34,6 @@
           Kids UP <br />
           NEWSLETTER <br />
           </span>
-            <span class="hero-title"> 秋風
-            </span>
           </h1>
         </div>
       </div></div>
@@ -63,7 +61,7 @@
               />
               <p class="swiper-slide-text">
                 中学受験の特徴を知り賢く<br>受験攻略！
-                <a class="button-swiper-link" href="#article-1.5">READ MORE</a>
+                <a class="button-swiper-link" href="#article-1-5">READ MORE</a>
               </p>
             </div>
 
@@ -171,11 +169,12 @@
       保護者様におかれましても、上記の内容についてお子様への指導およびサポートのご協力をお願いいたします。</p>
 
 
+      <div id="article-1-5"></div>
       <img src="./2024-vol-6-assets/images/article-1-mid-img.jpg" alt="" class="img-fluid article-1-img"  loading="lazy">
 
 
 
-    <h3 class="article-header-generic" id="article-1.5">
+    <h3 class="article-header-generic">
     中学受験の特徴を知って賢く受験攻略！
     </h3>
 
