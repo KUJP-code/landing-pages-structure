@@ -58,7 +58,7 @@
       <div class="d-md-none">
         <a class="navbar-brand d-flex w-50 me-auto" href="https://kids-up.jp/">
           <img
-            src="../global-images/ku-logo-white-mobile.svg"
+            src="./winter-school-images/navlogo-winter-special-mobile.svg"
             class="nav-logo"
             alt=""
           />

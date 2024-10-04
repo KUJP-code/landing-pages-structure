@@ -70,9 +70,11 @@ nav {
   }
 
   .navbar-nav {
-    background-color: #00a2ff;
+    background-color: #5f5ba8;
   }
 }
+
+
 
 /* HERO ----------------------------------------------------------------- */
 
@@ -178,6 +180,46 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   bottom: 0;
   z-index: 0;
 }
+
+@media (max-width: 576px) {
+
+.hero-col{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+  .hero-h1{
+    font-size: 1.75rem;
+    text-align: center;
+  }
+
+  .hero-text{
+    text-align: center;
+
+  }
+
+  .hero-cta-button {
+    font-size: 1.5rem;
+  }
+  .hero-cta-button::after {
+
+    top: 50%;
+  
+  }
+  .hero-image{
+    padding: 0rem;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+}
+
 
 
 
