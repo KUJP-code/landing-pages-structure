@@ -6,7 +6,7 @@
     <link rel="canonical" href="https://kids-up.jp/events/science-fair-2024/" />
     <meta
       property="og:image"
-      content="https://kids-up.jp/events/science-fair-2024/summer-school-images/fb-main.webp"
+      content="https://kids-up.jp/events/science-fair-2024/winter-school-images/fb-main.webp"
     />
 
     <meta property="og:url" content="https://kids-up.jp" />
@@ -24,7 +24,7 @@
 
     <meta
       name="twitter:image"
-      content="https://kids-up.jp/events/science-fair-2024/summer-school-images/fb-main.webp"
+      content="https://kids-up.jp/events/science-fair-2024/winter-school-images/fb-main.webp"
     />
     <meta name="twitter:url" content="https://kids-up.jp" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -175,14 +175,14 @@
             </h2>
 <div class="d-none d-sm-block">
 <!-- TOKYO --------------------->
-       <img src="./summer-school-images/tokyo.svg" class="prefecture-title" alt="東京都">     
+       <img src="./winter-school-images/tokyo.svg" class="prefecture-title" alt="東京都">     
         <div class="row location-row">
 
           <div class="col-sm-3">
             
 <div class="location-area-wrapper"> 
 <div class="location-outer">
-  <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+  <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
   <h3 class="location-name-1">大田区</h3>
 </div>
 <h4 class="location-school">- Kids UP 馬込</h4>
@@ -196,7 +196,7 @@
   
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">北区</h3>
     </div>
     <h4 class="location-school">- Kids UP　赤羽
@@ -206,7 +206,7 @@
 
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">豊島区</h3>
       </div>
       <h4 class="location-school">- Kids UP　池袋
@@ -220,7 +220,7 @@
 
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">江東区</h3>
     </div>
     <h4 class="location-school">- Kids UP りんかい東雲</h4>
@@ -231,7 +231,7 @@
 
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">新宿区</h3>
       </div>
       <h4 class="location-school">- Kids UP 四谷
@@ -242,7 +242,7 @@
 
       <div class="location-area-wrapper"> 
         <div class="location-outer">
-          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
           <h3 class="location-name-1">町田市</h3>
         </div>
         <h4 class="location-school">- Kids UP　南町田<br>グランベリーパーク
@@ -259,7 +259,7 @@
 
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">品川区</h3>
     </div>
     <h4 class="location-school">- Kids UP 大井</h4>
@@ -269,7 +269,7 @@
 
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">中央区</h3>
       </div>
       <h4 class="location-school">- Kids UP　晴海
@@ -279,7 +279,7 @@
 
       <div class="location-area-wrapper"> 
         <div class="location-outer">
-          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
           <h3 class="location-name-1">中野区</h3>
         </div>
         <h4 class="location-school">- Kids UP　鷺宮
@@ -293,7 +293,7 @@
 
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">世田谷区</h3>
     </div>
     <h4 class="location-school">- Kids UP 等々力</h4>
@@ -303,7 +303,7 @@
     
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">三鷹市</h3>
       </div>
       <h4 class="location-school">- Kids UP　三鷹
@@ -324,12 +324,12 @@
 <div class="col-sm-6">
 
  <!-- KANAGAWA --------------------->
- <img src="./summer-school-images/kanagawa.svg" class="prefecture-title" alt="神奈川県">     
+ <img src="./winter-school-images/kanagawa.svg" class="prefecture-title" alt="神奈川県">     
  <div class="row location-row">
   <div class="col-sm-6">
      <div class="location-area-wrapper"> 
         <div class="location-outer">
-           <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+           <img src="./winter-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
            <h3 class="location-name-2">川崎市</h3>
         </div>
         <h4 class="location-school">- Kids UP 武蔵新城</h4>
@@ -343,7 +343,7 @@
   <div class="col-sm-6">
     <div class="location-area-wrapper"> 
        <div class="location-outer">
-          <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+          <img src="./winter-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
           <h3 class="location-name-2">横浜市</h3>
        </div>
        <h4 class="location-school">- Kids UP 大倉山</h4>
@@ -362,12 +362,12 @@
 <div class="col-sm-6">
 
  <!-- CHIBA --------------------->
- <img src="./summer-school-images/chiba.svg" class="prefecture-title" alt="千葉県">     
+ <img src="./winter-school-images/chiba.svg" class="prefecture-title" alt="千葉県">     
  <div class="row location-row">
   <div class="col-sm-6">
      <div class="location-area-wrapper"> 
         <div class="location-outer">
-           <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+           <img src="./winter-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
            <h3 class="location-name-3">市川市</h3>
         </div>
         <h4 class="location-school">- Kids UP　ソコラ南行徳</h4>
@@ -378,7 +378,7 @@
   <div class="col-sm-6">
     <div class="location-area-wrapper"> 
        <div class="location-outer">
-          <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+          <img src="./winter-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
           <h3 class="location-name-3">横浜市</h3>
        </div>
        <h4 class="location-school">- Kids UP 新浦安</h4>
@@ -395,12 +395,12 @@
 
 
  <!-- SAITAMA--------------------->
- <img src="./summer-school-images/saitama.svg" class="prefecture-title" alt="埼玉">     
+ <img src="./winter-school-images/saitama.svg" class="prefecture-title" alt="埼玉">     
  <div class="row location-row">
   <div class="col-sm-3">
      <div class="location-area-wrapper"> 
         <div class="location-outer">
-           <img src="./summer-school-images/map-pin-4.svg" alt="map-pin-2" class="location-pin">
+           <img src="./winter-school-images/map-pin-4.svg" alt="map-pin-2" class="location-pin">
            <h3 class="location-name-4">川口市</h3>
         </div>
         <h4 class="location-school">- Kids UP　川口</h4>
@@ -415,7 +415,7 @@
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingOne">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseOne" aria-expanded="false" aria-controls="locationCollapseOne" style="background-color: transparent; padding: 0; border: none;">
-        <img src="./summer-school-images/mobile-accordion-1.svg" alt="東京都" class="mobile-accordion-button">
+        <img src="./winter-school-images/mobile-accordion-1.svg" alt="東京都" class="mobile-accordion-button">
       </button>
     </h2>
     <div id="locationCollapseOne" class="accordion-collapse collapse" aria-labelledby="locationHeadingOne" data-bs-parent="#locationsCollapseMobile">
@@ -426,7 +426,7 @@
             
 <div class="location-area-wrapper"> 
 <div class="location-outer">
-  <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+  <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
   <h3 class="location-name-1">大田区</h3>
 </div>
 <h4 class="location-school">- Kids UP 馬込</h4>
@@ -440,7 +440,7 @@
   
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">北区</h3>
     </div>
     <h4 class="location-school">- Kids UP　赤羽
@@ -450,7 +450,7 @@
 
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">豊島区</h3>
       </div>
       <h4 class="location-school">- Kids UP　池袋
@@ -464,7 +464,7 @@
 
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">江東区</h3>
     </div>
     <h4 class="location-school">- Kids UP りんかい東雲</h4>
@@ -475,7 +475,7 @@
 
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">新宿区</h3>
       </div>
       <h4 class="location-school">- Kids UP 四谷
@@ -486,7 +486,7 @@
 
       <div class="location-area-wrapper"> 
         <div class="location-outer">
-          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
           <h3 class="location-name-1">町田市</h3>
         </div>
         <h4 class="location-school">- Kids UP　南町田<br>グランベリーパーク
@@ -503,7 +503,7 @@
 
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">品川区</h3>
     </div>
     <h4 class="location-school">- Kids UP 大井</h4>
@@ -513,7 +513,7 @@
 
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">中央区</h3>
       </div>
       <h4 class="location-school">- Kids UP　晴海
@@ -523,7 +523,7 @@
 
       <div class="location-area-wrapper"> 
         <div class="location-outer">
-          <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+          <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
           <h3 class="location-name-1">中野区</h3>
         </div>
         <h4 class="location-school">- Kids UP　鷺宮
@@ -537,7 +537,7 @@
 
   <div class="location-area-wrapper"> 
     <div class="location-outer">
-      <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+      <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
       <h3 class="location-name-1">世田谷区</h3>
     </div>
     <h4 class="location-school">- Kids UP 等々力</h4>
@@ -547,7 +547,7 @@
     
     <div class="location-area-wrapper"> 
       <div class="location-outer">
-        <img src="./summer-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
+        <img src="./winter-school-images/map-pin-1.svg" alt="map-pin-1" class="location-pin">
         <h3 class="location-name-1">三鷹市</h3>
       </div>
       <h4 class="location-school">- Kids UP　三鷹
@@ -569,7 +569,7 @@
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingTwo">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseTwo" aria-expanded="false" aria-controls="locationCollapseTwo" style="background-color: transparent; padding: 0; border: none;">
-        <img src="./summer-school-images/mobile-accordion-2.svg" alt="神奈川県" class="mobile-accordion-button">
+        <img src="./winter-school-images/mobile-accordion-2.svg" alt="神奈川県" class="mobile-accordion-button">
       </button>
     </h2>
     <div id="locationCollapseTwo" class="accordion-collapse collapse" aria-labelledby="locationHeadingTwo" data-bs-parent="#locationsCollapseMobile">
@@ -578,7 +578,7 @@
           <div class="col-sm-6">
              <div class="location-area-wrapper"> 
                 <div class="location-outer">
-                   <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+                   <img src="./winter-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
                    <h3 class="location-name-2">川崎市</h3>
                 </div>
                 <h4 class="location-school">- Kids UP 武蔵新城</h4>
@@ -592,7 +592,7 @@
           <div class="col-sm-6">
             <div class="location-area-wrapper"> 
                <div class="location-outer">
-                  <img src="./summer-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
+                  <img src="./winter-school-images/map-pin-2.svg" alt="map-pin-2" class="location-pin">
                   <h3 class="location-name-2">横浜市</h3>
                </div>
                <h4 class="location-school">- Kids UP 大倉山</h4>
@@ -608,7 +608,7 @@
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingThree">
       <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseThree" aria-expanded="false" aria-controls="locationCollapseThree" style="background-color: transparent; padding: 0; border: none;">
-        <img src="./summer-school-images/mobile-accordion-3.svg" alt="千葉県" class="mobile-accordion-button">
+        <img src="./winter-school-images/mobile-accordion-3.svg" alt="千葉県" class="mobile-accordion-button">
       </button>
     </h2>
     <div id="locationCollapseThree" class="accordion-collapse collapse" aria-labelledby="locationHeadingThree" data-bs-parent="#locationsCollapseMobile">
@@ -617,7 +617,7 @@
           <div class="col-sm-6">
              <div class="location-area-wrapper"> 
                 <div class="location-outer">
-                   <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+                   <img src="./winter-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
                    <h3 class="location-name-3">市川市</h3>
                 </div>
                 <h4 class="location-school">- Kids UP　ソコラ南行徳</h4>
@@ -628,7 +628,7 @@
           <div class="col-sm-6">
             <div class="location-area-wrapper"> 
                <div class="location-outer">
-                  <img src="./summer-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
+                  <img src="./winter-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
                   <h3 class="location-name-3">横浜市</h3>
                </div>
                <h4 class="location-school">- Kids UP 新浦安</h4>
@@ -641,7 +641,7 @@
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingFour">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseFour" aria-expanded="false" aria-controls="locationCollapseFour" style="background-color: transparent; padding: 0; border: none;">
-        <img src="./summer-school-images/mobile-accordion-4.svg" alt="埼玉県" class="mobile-accordion-button">
+        <img src="./winter-school-images/mobile-accordion-4.svg" alt="埼玉県" class="mobile-accordion-button">
       </button>
     </h2>
     <div id="locationCollapseFour" class="accordion-collapse collapse" aria-labelledby="locationHeadingFour" data-bs-parent="#locationsCollapseMobile">
@@ -650,7 +650,7 @@
           <div class="col-sm-3">
              <div class="location-area-wrapper"> 
                 <div class="location-outer">
-                   <img src="./summer-school-images/map-pin-4.svg" alt="map-pin-2" class="location-pin">
+                   <img src="./winter-school-images/map-pin-4.svg" alt="map-pin-2" class="location-pin">
                    <h3 class="location-name-4">川口市</h3>
                 </div>
                 <h4 class="location-school">- Kids UP　川口</h4>
@@ -676,9 +676,11 @@
     </section>
     <!---------------------------------------------------------------- main-body event  benefits--------------------------------------------------------->
 
-    <section class="main-body benefits-testimony">
+    <section class="main-body benefits-testimony ">
 
       <img src="./winter-school-images/transition-top-benefits.webp" alt="" class="benefits-decoration-top">
+
+<div class="">
 
       <div class="container">
         <!--3 benefits row--->
@@ -686,7 +688,7 @@
         <div class="row three-benefits-row">
           <div class="col-sm-4">
             <img
-              src="./summer-school-images/3-benefits-1.webp"
+              src="./winter-school-images/3-benefits-1.webp"
               alt="3-benefits-1"
               class="img-fluid three-benefits-img"
             />
@@ -703,7 +705,7 @@
 
           <div class="col-sm-4">
             <img
-              src="./summer-school-images/3-benefits-2.webp"
+              src="./winter-school-images/3-benefits-2.webp"
               alt="3-benefits-2"
               class="img-fluid three-benefits-img"
             />
@@ -717,7 +719,7 @@
 
           <div class="col-sm-4">
             <img
-              src="./summer-school-images/3-benefits-3.webp"
+              src="./winter-school-images/3-benefits-3.webp"
               alt="3-benefits-3"
               class="img-fluid three-benefits-img"
             />
@@ -779,7 +781,7 @@
     </section>
 
     <!---------------------------------------- four-benefits -------------------------------------------->
-    <section class="four-benefits-wrapper">
+    <section class="four-benefits-wrapper  bg-snow-decoration">
 
 
       <div class="container four-benefits-container">
@@ -887,8 +889,8 @@
           </div>
           <div class="col-sm-6 cta-container">
 
-            <img src="./summer-school-images/call-to-action.svg" alt="call-to-action" class="cta-prompt-desktop">
-            <img src="./summer-school-images/call-to-action-mobile.svg" alt="call-to-action" class="d-block d-sm-none cta-prompt-mobile">
+            <img src="./winter-school-images/call-to-action.svg" alt="call-to-action" class="cta-prompt-desktop">
+            <img src="./winter-school-images/call-to-action-mobile.svg" alt="call-to-action" class="d-block d-sm-none cta-prompt-mobile">
             <button class="cta-button" onclick="formLink()">
               お申込みはこちら
             </button>
@@ -912,17 +914,16 @@
               <!-- SLIDE 1 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/22</h3>
+                  <h3 class="slide-date">12/19</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-1.webp"
+                  src="./winter-school-images/event-images/activity-1.webp"
                   alt="activity-1"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    オリジナル<br />
-                    コースター
+                    雪でペインティング
                   </h2>
                 </div>
               </div>
@@ -930,17 +931,17 @@
               <!-- SLIDE 2 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/23</h3>
+                  <h3 class="slide-date">12/20</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-2.webp"
+                  src="./winter-school-images/event-images//activity-2.webp"
                   alt="activity-2"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    小さな<br />
-                    砂場作り
+                    グループで作る<br>
+                    クリスマスツリー
                   </h2>
                 </div>
               </div>
@@ -948,17 +949,16 @@
               <!-- SLIDE 3 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/24</h3>
+                  <h3 class="slide-date">12/23</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-3.webp"
+                  src="./winter-school-images/event-images//activity-3.webp"
                   alt="activity-3"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    レモネード<br />
-                    スタンド
+                    スノーマン<br>ポップコーン
                   </h2>
                 </div>
               </div>
@@ -966,17 +966,16 @@
               <!-- SLIDE 4 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/25</h3>
+                  <h3 class="slide-date">12/24</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-4.webp"
+                  src="./winter-school-images/event-images//activity-4.webp"
                   alt="activity-4"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    恐竜の<br />
-                    発掘
+                    ホットチョコレート<br>＆<br>ビスケット
                   </h2>
                 </div>
               </div>
@@ -984,55 +983,16 @@
               <!-- SLIDE 5 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/26</h3>
+                  <h3 class="slide-date">12/25</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-5.webp"
+                  src="./winter-school-images/event-images//activity-5.webp"
                   alt="activity-5"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    ウォーター<br />
-                    ベースボール
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SPECIAL 1 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">Special</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-27.webp"
-                  alt="activity-5"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    夏祭り<br />
-                    &<br />
-                    BBQ風焼きそば
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SPECIAL 2 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">Special</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-28.webp"
-                  alt="activity-5"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    ハワイアンかき氷<br />
-                    &<br />
-                    暗闇で光るスライム
+                    ピザパーティー
                   </h2>
                 </div>
               </div>
@@ -1040,17 +1000,16 @@
               <!-- SLIDE 6 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/29</h3>
+                  <h3 class="slide-date">12/26</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-6.webp"
-                  alt="activity-6"
+                  src="./winter-school-images/event-images//activity-6.webp"
+                  alt="activity-5"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    スポーツ<br />
-                    対決!
+                    ブラウニーを作ろう
                   </h2>
                 </div>
               </div>
@@ -1058,35 +1017,35 @@
               <!-- SLIDE 7 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/30</h3>
+                  <h3 class="slide-date">12/27</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-7.webp"
-                  alt="activity-7"
+                  src="./winter-school-images/event-images//activity-7.webp"
+                  alt="activity-5"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    ウォーター<br />
-                    ゲーム対決!
+                    フローズンスライム
                   </h2>
                 </div>
               </div>
 
+   
+
               <!-- SLIDE 8 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">7/31</h3>
+                  <h3 class="slide-date">1/6</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-8.webp"
+                  src="./winter-school-images/event-images//activity-8.webp"
                   alt="activity-8"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    巨大<br />
-                    シャボン玉
+                    冬のテラリウム
                   </h2>
                 </div>
               </div>
@@ -1094,17 +1053,16 @@
               <!-- SLIDE 9 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">8/1</h3>
+                  <h3 class="slide-date">1/7</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-9.webp"
+                  src="./winter-school-images/event-images//activity-9.webp"
                   alt="activity-9"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    デザート<br />
-                    スライム
+                    大雪合戦！
                   </h2>
                 </div>
               </div>
@@ -1112,17 +1070,16 @@
               <!-- SLIDE 10 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">8/2</h3>
+                  <h3 class="slide-date">1/8</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-10.webp"
+                  src="./winter-school-images/event-images//activity-10.webp"
                   alt="activity-10"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    オレオ<br />
-                    シェイク
+                    イギリスのお菓子<br>を作ってみよう！
                   </h2>
                 </div>
               </div>
@@ -1130,17 +1087,16 @@
               <!-- SLIDE 11 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
-                  <h3 class="slide-date">8/5</h3>
+                  <h3 class="slide-date">8/9</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-11.webp"
+                  src="./winter-school-images/event-images//activity-11.webp"
                   alt="activity-11"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    フレーバー<br />
-                    ポップコーン
+                    雪作り！
                   </h2>
                 </div>
               </div>
@@ -1151,280 +1107,67 @@
                   <h3 class="slide-date">8/6</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-12.webp"
+                  src="./winter-school-images/event-images//activity-12.webp"
                   alt="activity-12"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    ゴールデン<br />
-                    シェイク
+                    ミュージックデイ
                   </h2>
                 </div>
               </div>
 
-              <!-- SLIDE 13 -->
+              <!-- SPECIAL 1 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
                   <h3 class="slide-date">8/7</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-13.webp"
+                  src="./winter-school-images/event-images//activity-13.webp"
                   alt="activity-13"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    Kids UP★<br />
-                    ゲームセンター
+                    スーパーヒーローの日<br> ＆ <br>
+                    DIYテーブルサッカー
                   </h2>
                 </div>
               </div>
 
-              <!-- SLIDE 14 -->
+              <!-- SPECIAL 3 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
                   <h3 class="slide-date">8/8</h3>
                 </div>
                 <img
-                  src="./summer-school-images/activity-images/activity-14.webp"
+                  src="./winter-school-images/event-images//activity-14.webp"
                   alt="activity-14"
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    スイカ<br />
-                    割り
+                    RCカー・レース！<br> ＆<br>
+                    スノードーム作り
                   </h2>
                 </div>
               </div>
 
-              <!-- SLIDE 15 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/9</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-15.webp"
-                  alt="activity-15"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    水鉄砲で<br />
-                    的当てゲーム
-                  </h2>
-                </div>
-              </div>
+          
 
-              <!-- SLIDE 16 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/16</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-16.webp"
-                  alt="activity-16"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    水鉄砲<br />
-                    合戦!!
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 17 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/19</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-17.webp"
-                  alt="activity-17"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    水鉄砲<br />
-                    合戦!!
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 18 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/20</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-18.webp"
-                  alt="activity-18"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    海の<br />
-                    スライム
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 19 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/21</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-19.webp"
-                  alt="activity-19"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    アイスクリーム<br />
-                    屋さん
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 20 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/22</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-20.webp"
-                  alt="activity-20"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    バンダナの<br />
-                    絞り染め
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 21 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/23</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-21.webp"
-                  alt="activity-21"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    ハワイアン<br />
-                    かき氷
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 22 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/26</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-22.webp"
-                  alt="activity-22"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    グループ<br />
-                    ペイントデー!
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 23 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/27</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-23.webp"
-                  alt="activity-23"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    アメリカン★<br />
-                    ホットドッグ
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 24 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/28</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-24.webp"
-                  alt="activity-24"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    水鉄砲<br />
-                    合戦!!
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 25 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/29</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-25.webp"
-                  alt="activity-25"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    クラフトで<br />
-                    深海探検!
-                  </h2>
-                </div>
-              </div>
-
-              <!-- SLIDE 26 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/30</h3>
-                </div>
-                <img
-                  src="./summer-school-images/activity-images/activity-26.webp"
-                  alt="activity-26"
-                  class="activity-slider-img"
-                />
-                <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    オリジナル3D<br />
-                    キャンプ場作り
-                  </h2>
-                </div>
-              </div>
+ 
             </div>
 
             <!-- Navigation arrows ---->
           </div>
           <img
-            src="./summer-school-images/arrow-left.svg"
+            src="./winter-school-images/arrow-left.svg"
             alt="arrow-left"
             class="swiper-button-activity-prev"
           />
           <img
-            src="./summer-school-images/arrow-right.svg"
+            src="./winter-school-images/arrow-right.svg"
             alt="arrow-right"
             class="swiper-button-activity-next"
           />
@@ -1546,13 +1289,13 @@
           >
             <div class="container dropdown-container">
               <img
-                src="./summer-school-images/calendar-img.webp"
+                src="./winter-school-images/calendar-example.webp"
                 alt="Calendar"
                 class="img-fluid calendar-img"
                 style="width: 100%"
               />
               <div class="form-download-wrapper">
-                <a href="https://kids-up.jp/events/summer-school-2024/Summer-2024-%E3%82%AB%E3%83%AC%E3%83%B3%E3%82%BF%E3%82%99%E3%83%BC.pdf"
+                <a href="./Winter-2024-カレンダー.pdf"
                   ><h5 class="form-download" target="_blank">
                     カレンダーをダウンロード
                   </h5></a
@@ -1648,7 +1391,7 @@
             <div class="container dropdown-container">
               <br />
               <img
-                src="./summer-school-images/price-list.webp"
+                src="./winter-school-images/winter-2024-prices.svg"
                 alt="price-list"
                 class="img-fluid calendar-img"
                 style="width: 100%"
@@ -1656,7 +1399,7 @@
               <br />
 
               <div class="form-download-wrapper">
-                <a href="Summer-2024-料金表.pdf"
+                <a href="Winter-2024-料金表.pdf"
                   ><h5 class="form-download" target="_blank">
                     料金表をダウンロード
                   </h5></a
@@ -1672,7 +1415,7 @@
 
     <!-- GALLERY START ------------------------------------------------------------------------------------------------------------------>
 
-    <div class="bottom-section" id="div4">
+    <div class="bottom-section bg-snow-decoration" id="div4">
 
       <img src="./winter-school-images/transition-top-gallery.webp" alt="" class="decoration-gallery-top">
 
@@ -1686,7 +1429,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./summer-school-images/gallery/gallery-1.webp"
+                    src="./winter-school-images/gallery/gallery-1.webp"
                     alt="img-1"
                     class="swiper-img"
                   />
@@ -1697,7 +1440,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./summer-school-images/gallery/gallery-2.webp"
+                    src="./winter-school-images/gallery/gallery-2.webp"
                     alt="img-2"
                     class="swiper-img"
                   />
@@ -1708,7 +1451,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./summer-school-images/gallery/gallery-3.webp"
+                    src="./winter-school-images/gallery/gallery-3.webp"
                     alt="img-3"
                     class="swiper-img"
                   />
@@ -1719,7 +1462,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./summer-school-images/gallery/gallery-4.webp"
+                    src="./winter-school-images/gallery/gallery-4.webp"
                     alt="img-4"
                     class="swiper-img"
                   />
@@ -1730,7 +1473,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./summer-school-images/gallery/gallery-5.webp"
+                    src="./winter-school-images/gallery/gallery-5.webp"
                     alt="img-5"
                     class="swiper-img"
                   />
@@ -1741,7 +1484,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./summer-school-images/gallery/gallery-6.webp"
+                    src="./winter-school-images/gallery/gallery-6.webp"
                     alt="img-6"
                     class="swiper-img"
                   />
@@ -1749,16 +1492,18 @@
               </div>
               <!-- End Slide 6 -->
             </div>
+
+
             <!-- End Swiper Wrapper -->
 
             <div class="swiper-custom-nav large-display">
               <img
-                src="./summer-school-images/arrow-left.svg"
+                src="./winter-school-images/arrow-left.svg"
                 alt="arrow-left"
                 class="swiper-custom-nav-arrow swiper-button-left"
               />
               <img
-                src="./summer-school-images/arrow-right.svg"
+                src="./winter-school-images/arrow-right.svg"
                 alt="arrow-right"
                 class="swiper-custom-nav-arrow swiper-button-right"
               />
@@ -1869,7 +1614,7 @@
               <div class="accordion-body">
                                <p class="accordion-text">
                 指定の小学校・保育園までのお迎えと、 ご自宅付近の停車場所までお送りする「無料送迎サービス」がございます。<br>
-                ※レギュラーコースにご通学の方のみご利用いただけます。サマースクールのみご参加の方には対応いたしておりません。
+                ※レギュラーコースにご通学の方のみご利用いただけます。ウィンタースクールのみご参加の方には対応いたしておりません。
                 </p>
               </div>
             </div>
@@ -1951,7 +1696,7 @@
       <img src="./winter-school-images/transition-top-activities.webp" alt="" class="decoration-activities-top">
       <div class="container">
         <h2 class="sign-up-h2">
-          Kids UPのサマースクール<br class="d-sm-none" />ご参加までの流れ
+          Kids UPのウィンタースクール<br class="d-sm-none" />ご参加までの流れ
         </h2>
 
         <div class="row sign-up-row">
@@ -1966,7 +1711,7 @@
                 WEBフォームよりお申込み<br /><br class="d-none d-sm-block" />
               </h3>
               <p class="sign-up-p">
-                WEBフォームよりKids UPのサマースクールにお申込みが可能です。
+                WEBフォームよりKids UPのウィンタースクールにお申込みが可能です。
                 お申し込みフォームより入力のうえ、お申込みください。
               </p>
             </div>
@@ -1995,7 +1740,7 @@
                 class="img-fluid"
               />
               <h3 class="sign-up-h3">
-                Kids UPのサマースクール<br />
+                Kids UPのウィンタースクール<br />
                 イベント当日
               </h3>
               <p class="sign-up-p">

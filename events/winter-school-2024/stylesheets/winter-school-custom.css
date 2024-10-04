@@ -74,7 +74,13 @@ nav {
   }
 }
 
+.bg-snow-decoration{
+  background-image: url(../winter-school-images/snow-decoration.webp);
+  background-position: top center;
+  background-size: 120% auto;
+  background-repeat: no-repeat;
 
+}
 
 /* HERO ----------------------------------------------------------------- */
 
@@ -103,7 +109,7 @@ nav {
 
 @keyframes animatedBackground {
   0% {
-    background-position: 0% -300;
+    background-position: 0% 300%;
   }
   100% {
     background-position: 0% -300%; /* Adjusted for responsiveness */
@@ -202,6 +208,9 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
   .hero-cta-button {
     font-size: 1.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
   .hero-cta-button::after {
 
@@ -711,7 +720,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   }
 
   .cta-button::after {
-    content: url(../summer-school-images/btn-arrow.svg);
     height: 1rem;
     float: right;
     top: 65%;
@@ -1043,7 +1051,8 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .carousel-div {
-  background-color: inherit;
+  background-color: none
+  ;
 }
 
 .swiper-img {
