@@ -60,9 +60,8 @@
 }
 
 .rider-portrait-hayato{
-    background-image: url(./mini-gp-2024-images/HAYATO.webp);
+    background-image: url(./mini-gp-2024/mini-gp-2024-images/HAYATO.webp);
     background-size: cover;
-
     aspect-ratio: 23 / 25;
 
 }
@@ -73,7 +72,7 @@
     max-width: 368px;
     width: 33.3%;
     aspect-ratio: 23 / 25;
-    background-image: url('./mini-gp-2024-images/KANON.webp');
+    background-image: url(./mini-gp-2024/mini-gp-2024-images/KANON.webp);
     background-size: cover;
     
 }
@@ -81,9 +80,8 @@
 
 .rider-portrait-waku{
     
-    background-image: url(./mini-gp-2024-images/WAKU.webp);
+    background-image: url(./mini-gp-2024/mini-gp-2024-images/WAKU.webp);
     background-size: cover;
-
     aspect-ratio: 23 / 25;
 
 }
@@ -168,6 +166,166 @@ padding-bottom: 2.5rem;
     .swiper-custom-nav-arrow {
       width: 3rem;
     }
+    
   }
   
+  .news{
+    background-image: url("./mini-gp-2024/mini-gp-2024-images/news-banner.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 3rem;
+    margin-bottom: 2rem;
+
+}
+
+.news-inner{
+  color: white;
+  padding: 3rem;
+}
+
+.news-subtitle h3{
+    display: inline;
+}
+
+.strikethrough::before{
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: 60%;
+  border-top: 5px solid;
+  border-color: blue;
+  transform: rotate(-20deg);
+  overflow: hidden;
+}
+
+.saishuu-title{
+  border-image: url("./mini-gp-2024-images/stripe.svg") 30;
+  border-width: 0.25rem;
+  border-style: solid;
+  font-size: 2.0rem;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: fit-content;
+
+}
+
+.shuryo-kanji{
+  color: blue;
+  border: 0.25rem solid;
+  border-color: blue;
+  border-radius: 1rem;
+  padding-left: 1rem;
+  padding-bottom: .5rem;
+  padding-right: 1rem;
+  padding-top: .5rem;
+}
+.striketwo{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: black;
+  clip-path: polygon(100% 0 , 100% 12% ,0% 100% , 0% 88%);
+}
+
+.p_normal-otherpage{
+  padding-bottom: 2.5rem;
+}
+
+.p_nopadding{
+  padding-bottom: 0rem;
+}
+
+.race-schedule{
+  background-color: #f3f3f2;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-bottom: 2.5rem;
+}
+
+.race-schedule-header{
+  text-align: left;
+  padding-bottom: 1rem;
+  font-size: 1.5rem
+}
+
+.race-schedule-stage{
+  font-weight: bolder;
+  color: #EF8200;
+  font-size: 1.2rem;
+}
+
+.race-schedule-date{
+  font-weight: bolder;
+}
+
+
+.kanon-copy{
+  text-align: justify;
+}
+
+.header-row{
+  padding-bottom: 2.5rem;
+}
+
+.break-bottom{
+  border-bottom: 3px solid #EF8200;
+  width: 64px;
+  bottom: -20px;
+  margin-bottom: 2.5rem;
+}
+.name-header{
+  text-align: left;
+  font-size: 1.2rem;
+  padding-bottom: 1rem;
+}
+
+.date-col{
+  position: relative;
+}
+
+.clear {
+  clear: both; /* Clears the float */
+}
+
+.article-container {
+  overflow: hidden; /* Ensures the container wraps around floated children */
+}
+
   
+.p_nopadding{
+  padding: none
+  ;
+}
+
+@media (max-width: 576px) {
+
+  .float-end{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .saishuu-title{
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+  }
+
+  .ranking-row{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .ranking-col{
+    padding-bottom: 2rem;
+  }
+
+}
