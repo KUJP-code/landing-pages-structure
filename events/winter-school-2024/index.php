@@ -1136,7 +1136,7 @@
                 </div>
               </div>
 
-              <!-- SPECIAL 3 -->
+              <!-- SPECIAL 2 -->
               <div class="swiper-slide activity-slide">
                 <div class="slide-date-box">
                   <h3 class="slide-date">8/8</h3>

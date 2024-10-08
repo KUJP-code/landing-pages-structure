@@ -45,7 +45,7 @@
             
             </div>
             <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="hero-call-to-action-btn"
-            >無料体験に参加する →</a>
+            >無料体験に参加する</a>
             </div>
 
           </div>
@@ -97,21 +97,20 @@
     
           <div class="container">
             <h2 class="call-to-action-h2">
-              大学教授が監修の<br class="d-block d-sm-none" />最新カリキュラムで<br />
-              聴ける・話せる・楽しめる
+            〒110-0015<br /> 台東区東上野6丁目16-10<br /> KBUビル3階
             </h2>
     
             <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
-              >無料体験に参加する ＞
+              >無料体験に参加する
             </a>
             <div class="row">
-              <div class="col-6">
+              <div class="col-sm-6">
                 <h3 class="call-to-action-h3-left">
                   ご質問はお気軽に<br />
                   お電話ください
                 </h3>
               </div>
-              <div class="col-6">
+              <div class="col-sm-6">
                 <a href="tel:0120378056" class="call-to-action-phone-link">
                   <h3 class="call-to-action-h3-right">
                     <span>
@@ -246,16 +245,16 @@
           </h2>
   
           <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
-            >無料体験に参加する ＞
+            >無料体験に参加する
           </a>
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-6">
               <h3 class="call-to-action-h3-left">
                 ご質問はお気軽に<br />
                 お電話ください
               </h3>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <a href="tel:0120378056" class="call-to-action-phone-link">
                 <h3 class="call-to-action-h3-right">
                   <span>
@@ -287,8 +286,8 @@
         <h3 class="main-section-start-h3">無料体験・説明会で</h3>
         <h2 class="main-section-start-h2">Kids UPが選ばれる理由</h2>
   
-        <h3 class="why-choose-kidsup-2-h3">
-          Kids UP では無料体験＆<br class="d-block d-sm-none" />
+        <p class="why-choose-kidsup-2-h3">
+          Kids UPでは無料体験＆<br class="d-block d-sm-none" />
           説明会を実施しています。<br />レッスンの 雰囲気や、<br
             class="d-block d-sm-none"
           />お子様が馴染めるのかなど、<br />
@@ -298,7 +297,7 @@
           フレンドリーなスタッフが最寄りの<br
             class="d-block d-sm-none"
           />教室でお待ちしています。
-        </h3>
+</p>
   
         <div class="container" style="position: relative; padding-top: 5rem">
           <ul class="nav tab-box" id="myTab" role="tablist">
@@ -632,16 +631,16 @@
   
       <!-- Section 6: Daily Schedule -->
       <div class="container">
-        <h1 class="daily-schedule">当日のスケジュール</h1>
+        <h2 class="daily-schedule">当日のスケジュール</h2>
   
-        <h3 class="why-choose-kidsup-2-h3">
+        <p class="why-choose-kidsup-2-h3">
           お子様が体験レッスンに<br class="d-block d-sm-none" />
           参加されている間に<br />
           詳しいシステムや<br class="d-block d-sm-none" />
           カリキュラム、<br />
           料金のご説明と<br class="d-block d-sm-none" />
           質疑応答をおこないます。<br />
-        </h3>
+</p>
   
         <img
           src="./images/main-page/daily-schedule.svg"
@@ -666,16 +665,16 @@
           </h2>
   
           <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
-            >無料体験に参加する ＞
+            >無料体験に参加する
           </a>
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-6">
               <h3 class="call-to-action-h3-left">
                 ご質問はお気軽に<br />
                 お電話ください
               </h3>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <a href="tel:0120378056" class="call-to-action-phone-link">
                 <h3 class="call-to-action-h3-right">
                   <span>
@@ -766,7 +765,7 @@
         <div class="container">
           <h2 class="main-section-start-h2" id="div3">保護者様の声</h2>
           <h3 class="main-section-start-h3">
-            安心してお任せできるスクールです！
+            安心してお任せできる<br class="d-sm-none d-block">スクールです！
           </h3>
   
           <div class="row testimony-row">
@@ -1121,16 +1120,16 @@
           </h2>
   
           <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
-            >無料体験に参加する ＞
+            >無料体験に参加する
           </a>
           <div class="row">
-            <div class="col-6">
+            <div class="col-sm-6">
               <h3 class="call-to-action-h3-left">
                 ご質問はお気軽に<br />
                 お電話ください
               </h3>
             </div>
-            <div class="col-6">
+            <div class="col-sm-6">
               <a href="tel:0120378056" class="call-to-action-phone-link">
                 <h3 class="call-to-action-h3-right">
                   <span>

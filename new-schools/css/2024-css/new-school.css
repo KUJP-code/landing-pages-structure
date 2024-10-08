@@ -13,7 +13,7 @@ h2 {
 }
 
 h3 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   color: #63574a;
   font-family: "Noto Sans JP", "Open Sans", sans-serif;
 }
@@ -756,6 +756,7 @@ bottom: 0%;
   text-align: center;
   color: white;
   line-height: 1.5;
+  font-size: 2rem;
 }
 
 .call-to-action-btn {
@@ -857,6 +858,16 @@ bottom: 0%;
   filter: drop-shadow(0px 5px 0px #b06917);
 }
 
+.call-to-action-phone-link:hover {
+  opacity: 80%;
+  transition-duration: 0.4s;
+}
+
+.tel-icon {
+  width: 2rem;
+}
+
+
 
 @media (max-width: 575px) {
   .call-to-action-btn {
@@ -867,36 +878,41 @@ bottom: 0%;
     text-align: center;
     border-width: 0.6rem;
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    width: fit-content;
+    padding-left: 0;
+    padding-right: 0;
   }
 
   .call-to-action-h3-left {
     padding-top: 0.5rem;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     float: none;
     margin-left: auto;
     margin-right: auto;
   }
 
   .call-to-action-h3-right {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     float: none;
     margin-left: auto;
     margin-right: auto;
+    padding-top: .5rem;
   }
+
   .call-to-action-sub {
     font-size: 1.25rem;
   }
+
+  .call-to-action-h2 {
+    text-align: center;
+    color: white;
+    line-height: 1.2;
+    font-size: 1.5rem;
+  }
+  
 }
 
-.call-to-action-phone-link:hover {
-  opacity: 80%;
-  transition-duration: 0.4s;
-}
-
-.tel-icon {
-  width: 2rem;
-}
 
 
 /* --------------------Why Choose KidsUP-------------------- */
@@ -920,6 +936,7 @@ bottom: 0%;
   text-align: center;
   font-weight: bolder;
   margin-bottom: 2rem;
+
 }
 
 .why-choose-kidsup-row {
@@ -979,6 +996,12 @@ bottom: 0%;
     padding-right: 2.5%;
     padding-top: 1rem;
   }
+
+  .main-section-start-h2-orange {
+font-size: 1.75rem;
+  
+  }
+  
 }
 
 /* --------------------TABS-------------------- */
@@ -1124,6 +1147,7 @@ bottom: 0%;
   text-align: left;
   font-weight: 600;
   text-align: center;
+  font-size: 1.5rem;
 }
 
 .tab-pane-h3-orange {
@@ -1221,6 +1245,7 @@ bottom: 0%;
 .daily-schedule {
   padding-top: 2rem;
   padding-bottom: 2rem;
+  font-size: 2.5rem;
 }
 
 /* --------------------Benefit Box-------------------- */
@@ -1254,6 +1279,13 @@ bottom: 0%;
   font-weight: bold;
   text-align: center;
   padding-top: 0.5rem;
+}
+
+@media (max-width: 575px) {
+  .benefit-text {
+font-size: 1rem;
+  }
+  
 }
 
 /* --------------------TESTIMONY-------------------- */
@@ -1494,13 +1526,14 @@ bottom: 0%;
     top: 50%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    padding-left: 5rem;
+    padding-left: 2rem;
   }
 
   .safety-text {
     margin-left: 0rem;
     text-indent: none;
     text-align: left;
+    font-size: 1.25rem;
   }
   .safety-img-left {
     float: none;
