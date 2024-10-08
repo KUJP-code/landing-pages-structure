@@ -92,12 +92,25 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 							</div>
 						</div>
 					    <div class="menu-area-right">
-							<?php 
-							  wp_nav_menu( array( 
-								'theme_location' => 'main-menu' 
-							  ) ); 
-							?>
-						</div>					
-					</div>
-				</nav>
+							<div class="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc-container">
+								<ul id="menu-%e3%82%b0%e3%83%ad%e3%83%bc%e3%83%90%e3%83%ab%e3%83%a1%e3%83%8b%e3%83%a5%e3%83%bc" class="menu"><li id="menu-item-107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-107"><a href="https://kids-up.jp/aboutus/">Kids UPとは</a></li>
+								<li id="menu-item-109" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-109"><a href="https://kids-up.jp/course/">COURSE一覧</a>
+								<ul class="sub-menu">
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kids-up.jp/course/kindy/">KINDY(幼児コース)</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kids-up.jp/course/elementary/">ELEMENTARY（学童コース）</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kids-up.jp/course/specialist/">SPECIALIST（上級者コース）</a></li>
+									<li class="menu-item menu-item-type-post_type menu-item-object-page"><a href="https://kids-up.jp/course/online/">ONLINE(オンラインコース)</a></li>
+								</ul>
+								</li>
+								<li class="menu-item"><a href="https://kids-up.jp/category/follow-your-dreams/">Follow Your Dreams!</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/school/">スクール案内</a></li>
+								<li  class="menu-item"><a href="https://kids-up.jp/achievement/">成長の様子</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/faq/">よくある質問</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/alltopics/">お知らせ一覧</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/column/">コラム一覧</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/profile/">会社概要</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/lp-recruit/">採用情報</a></li>
+								<li class="menu-item"><a href="https://kids-up.jp/lp-recruit/">TEST</a></li>
+</ul></div>						</div>				</div>
+</nav>
 			</section>

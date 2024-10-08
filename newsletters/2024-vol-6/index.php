@@ -7,13 +7,14 @@
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
 
 
-<?php include '../global/global-includes/template-head.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-head.php'; ?>
+<link rel="stylesheet" href="/global/global-stylesheets/template.css">
 <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-<link rel="stylesheet" href="./newsletter-common-assets/common.css">
+<link rel="stylesheet" href="../newsletter-common-assets/common.css">
 <link rel="stylesheet" href="./2024-vol-6-assets/style.css">
 
 </head>
-<?php include '../global/global-includes/template-nav.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-nav.php'; ?>
 </section>
 
 
@@ -133,13 +134,13 @@
           <div class="swiper-pagination child-element"></div>
         </div>
         <img
-           src="./newsletter-common-assets/arrow-prev.svg"
+           src="../newsletter-common-assets/arrow-prev.svg"
           alt=" arrow-prev"
           class="swiper-button-prev"
 
         />
         <img
-          src="./newsletter-common-assets/arrow-next.svg"
+          src="../newsletter-common-assets/arrow-next.svg"
           alt=" arrow-next"
           class="swiper-button-next"
 
@@ -538,7 +539,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 
 </div>
 
-                <?php include '../global/global-includes/global-footer.php' ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/global-footer.php'; ?>
 
 				<script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
