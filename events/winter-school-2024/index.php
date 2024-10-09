@@ -912,8 +912,8 @@
           <div class="swiper-container">
             <div class="swiper-wrapper">
               <!-- SLIDE 1 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-1">
+                <div class="slide-date-box activity-slide-1">
                   <h3 class="slide-date">12/19</h3>
                 </div>
                 <img
@@ -923,14 +923,14 @@
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    雪でペインティング
+                    スノーペインティング
                   </h2>
                 </div>
               </div>
 
               <!-- SLIDE 2 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-2">
+                <div class="slide-date-box activity-slide-2">
                   <h3 class="slide-date">12/20</h3>
                 </div>
                 <img
@@ -940,15 +940,15 @@
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    グループで作る<br>
-                    クリスマスツリー
+                    クリスマスツリー<br>
+                    を作ろう！
                   </h2>
                 </div>
               </div>
 
               <!-- SLIDE 3 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-3">
+                <div class="slide-date-box activity-slide-3">
                   <h3 class="slide-date">12/23</h3>
                 </div>
                 <img
@@ -964,8 +964,8 @@
               </div>
 
               <!-- SLIDE 4 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-1">
+                <div class="slide-date-box activity-slide-1">
                   <h3 class="slide-date">12/24</h3>
                 </div>
                 <img
@@ -975,14 +975,14 @@
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    ホットチョコレート<br>＆<br>ビスケット
+                    ホットチョコレート<br>＆ ビスケット
                   </h2>
                 </div>
               </div>
 
               <!-- SLIDE 5 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-2">
+                <div class="slide-date-box activity-slide-2">
                   <h3 class="slide-date">12/25</h3>
                 </div>
                 <img
@@ -998,8 +998,8 @@
               </div>
 
               <!-- SLIDE 6 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-3">
+                <div class="slide-date-box activity-slide-3">
                   <h3 class="slide-date">12/26</h3>
                 </div>
                 <img
@@ -1015,8 +1015,8 @@
               </div>
 
               <!-- SLIDE 7 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-1">
+                <div class="slide-date-box activity-slide-1">
                   <h3 class="slide-date">12/27</h3>
                 </div>
                 <img
@@ -1034,8 +1034,8 @@
    
 
               <!-- SLIDE 8 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-2">
+                <div class="slide-date-box activity-slide-2">
                   <h3 class="slide-date">1/6</h3>
                 </div>
                 <img
@@ -1051,8 +1051,8 @@
               </div>
 
               <!-- SLIDE 9 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-3">
+                <div class="slide-date-box activity-slide-3">
                   <h3 class="slide-date">1/7</h3>
                 </div>
                 <img
@@ -1068,8 +1068,8 @@
               </div>
 
               <!-- SLIDE 10 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
+              <div class="swiper-slide activity-slide activity-slide-1">
+                <div class="slide-date-box activity-slide-1">
                   <h3 class="slide-date">1/8</h3>
                 </div>
                 <img
@@ -1085,9 +1085,9 @@
               </div>
 
               <!-- SLIDE 11 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/9</h3>
+              <div class="swiper-slide activity-slide activity-slide-1">
+                <div class="slide-date-box activity-slide-1">
+                  <h3 class="slide-date">1/9</h3>
                 </div>
                 <img
                   src="./winter-school-images/event-images//activity-11.webp"
@@ -1096,15 +1096,15 @@
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
-                    雪作り！
+                    不思議な雪で遊ぼう！
                   </h2>
                 </div>
               </div>
 
               <!-- SLIDE 12 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/6</h3>
+              <div class="swiper-slide activity-slide activity-slide-2">
+                <div class="slide-date-box activity-slide-2">
+                  <h3 class="slide-date">1/10</h3>
                 </div>
                 <img
                   src="./winter-school-images/event-images//activity-12.webp"
@@ -1113,15 +1113,20 @@
                 />
                 <div class="slide-lower">
                   <h2 class="slide-h2">
+                    Kids UP<br>
                     ミュージックデイ
                   </h2>
                 </div>
               </div>
 
               <!-- SPECIAL 1 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/7</h3>
+              <div class="swiper-slide activity-slide activity-slide-special">
+                <div class="slide-date-box slide-date-box-special">
+                  <h3 class="slide-date slide-date-special">1/11</h3>
+                </div>
+                <div class="slide-date-box slide-time-box">
+                  <h3 class="slide-date slide-time-special">午前
+                  </h3>
                 </div>
                 <img
                   src="./winter-school-images/event-images//activity-13.webp"
@@ -1129,17 +1134,22 @@
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    スーパーヒーローの日<br> ＆ <br>
+                  <h2 class="slide-h2 slide-h2-special">
+                    ヒーロー<br>プリンセスDay! ＆ <br>
                     DIYテーブルサッカー
                   </h2>
                 </div>
               </div>
 
               <!-- SPECIAL 2 -->
-              <div class="swiper-slide activity-slide">
-                <div class="slide-date-box">
-                  <h3 class="slide-date">8/8</h3>
+              <div class="swiper-slide activity-slide activity-slide-special">
+                <div class="slide-date-box slide-date-box-special">
+                  <h3 class="slide-date slide-date-special">1/11</h3>
+                </div>
+
+                <div class="slide-date-box slide-time-box">
+                  <h3 class="slide-date slide-time-special">午後
+                  </h3>
                 </div>
                 <img
                   src="./winter-school-images/event-images//activity-14.webp"
@@ -1147,9 +1157,8 @@
                   class="activity-slider-img"
                 />
                 <div class="slide-lower">
-                  <h2 class="slide-h2">
-                    RCカー・レース！<br> ＆<br>
-                    スノードーム作り
+                  <h2 class="slide-h2 slide-h2-special">
+                    ラジコンカーレース！ <br>＆ スノードーム作り
                   </h2>
                 </div>
               </div>
@@ -1289,7 +1298,7 @@
           >
             <div class="container dropdown-container">
               <img
-                src="./winter-school-images/calendar-example.webp"
+                src="./winter-school-images/calendar.webp"
                 alt="Calendar"
                 class="img-fluid calendar-img"
                 style="width: 100%"
@@ -1491,6 +1500,40 @@
                 </figure>
               </div>
               <!-- End Slide 6 -->
+
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="./winter-school-images/gallery/gallery-7.webp"
+                    alt="img-7"
+                    class="swiper-img"
+                  />
+                </figure>
+              </div>
+              <!-- End Slide 7 -->
+
+
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="./winter-school-images/gallery/gallery-8.webp"
+                    alt="img-8"
+                    class="swiper-img"
+                  />
+                </figure>
+              </div>
+              <!-- End Slide 8 -->          
+               
+              <div class="swiper-slide">
+                <figure>
+                  <img
+                    src="./winter-school-images/gallery/gallery-9.webp"
+                    alt="img-9"
+                    class="swiper-img"
+                  />
+                </figure>
+              </div>
+              <!-- End Slide 9 -->
             </div>
 
 

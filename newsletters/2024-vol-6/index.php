@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="./2024-vol-6-assets/style.css">
 
 </head>
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-nav.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-nav-blank.php'; ?>
 </section>
 
 
@@ -345,12 +345,12 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 
 <!----------------------------------------------- ARTICLE 3------------------------------------------------------------->
 
-<div class="article-3-wrapper" id="article-3">
+<div class="article-3-wrapper" >
 
 <div class="container">
 <article>
 <img src="./2024-vol-6-assets/images/article-3-header-img.webp" alt="article-3-header-img" class="img-fluid"  loading="lazy">
-  <h3 class="article-header-generic">夏のビッグイベント</h3>
+  <h3 class="article-header-generic " id="article-3">夏のビッグイベント</h3>
 
   <p>サマーキャンプでは、多くの挑戦と体験を通して自信をつける、「未来を生き抜く力を育むプログラム」をテーマに。
   海外留学プログラムでは、Kids UPで身につけた英語を実際に使い、これまでの努力の成果を確認する絶好の機会となりました。また、今後の英語学習への意欲をさらに高める素晴らしい機会になりました。</p>
@@ -419,7 +419,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 </div>
 
 <!----------------------------------------------- ARTICLE 4------------------------------------------------------------->
-<div class="article-4-wrapper" id="article-4">
+<div class="article-4-wrapper" >
 
 <article>
 
@@ -427,7 +427,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
   <div class="article-4-header-container">
   <img src="./2024-vol-6-assets/images/article-4-header-img.webp" alt="article-4-header" class="article-4-header-img"  loading="lazy">
   <div class="article-4-header-text-wrapper">
-<h3 class="article-4-header-text">トレーナーからの<br>
+<h3 class="article-4-header-text" id="article-4">トレーナーからの<br>
   ワンポイントレッスン</h3>
 </div>
 </div>

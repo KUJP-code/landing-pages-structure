@@ -757,46 +757,129 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   position: relative;
   background-color: #f3f5f8;
   border-radius: 1rem;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #37593d;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
+
+
+
+
+
 
 .slide-date-box {
   position: absolute;
   background-color: #58b980;
   width: fit-content;
-  left: 0%;
-  padding-top: 0.2rem;
-  padding-bottom: 0.1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  border-radius: 1rem 0rem 1rem 0rem;
+  border-radius: 0rem 0rem 1rem 0rem;
+  display: flex;
+  align-items: center;
+  background-color: #5d3d2d;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-color: #37593d;
+  border-width: 4px;
+  transform: translateX(-1px);
+}
+
+
+.slide-special-box {
+  position: absolute;
+  width: fit-content;
+  border-radius: 1rem 0rem 0rem 0rem;
+  display: flex;
+  align-items: center;
+  background-color: #5d3d2d;
+  border-style: solid;
+  border-color: #eeb01f;
+  border-right: none;
+  border-bottom: none;
+  right: 50%;
+  bottom: 0rem;
+  border-width: 4px;
+  text-align: center;
+  transform: translateX(50%);
+}
+
+
+
+
+
+
+.activity-slide-1 {
+  background-color: #58b980;
+  border-color: #58b980;
+}
+
+.activity-slide-2 {
+  background-color: #5f5ba8;
+  border-color: #5f5ba8;
+}
+
+.activity-slide-3 {
+  background-color: #56aabf;
+  border-color: #56aabf;
+}
+
+.activity-slide-special {
+  background-color: #5d3d2d;
+  border-color: #eeb01f;
+}
+
+
+
+
+
+
+
+
+.slide-date-box-special{
+  background-color: #eeb01f;
+  border-color: #eeb01f;
+  border-width: 4px;
 }
 
 .slide-date {
   font-family: "Shin-Maru-GP-Bold";
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1rem;
   color: white;
+  padding: .5rem;
+  padding-bottom: 0rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.slide-date-special{
+  color: #5d3d2d;
 }
 
 .slide-lower {
   height: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .slide-h2 {
   font-size: 1rem;
   font-family: "Shin-Maru-GP-Bold";
   text-align: center;
-  color: #414141;
-  margin: 0;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  color: white;
+}
+
+.slide-h2-special {
+
+  color: #ffd10f;
+
 }
 
 .activity-slider-img {
   width: 100%;
-  border-radius: 1rem 1rem 0rem 0rem;
+  border-radius: 0rem 0rem 1rem 1rem;
+
 }
 
 .swiper-button-activity-prev {
@@ -845,6 +928,24 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   top: 50%;
   overflow: none;
 }
+
+.slide-time-box{
+  background-color:#eeb01f;
+  border: none;
+  border-radius: 4rem 4rem 0 0;
+  transform: translateX(-50%);
+  left: 50%;
+  bottom: 0%;
+margin-bottom: -4px;
+}
+
+.slide-time-special{
+  font-size: .75rem;
+  color:  #5d3d2d;
+  padding-bottom: 0;
+  line-height: 1;
+}
+
 
 /* ----------------------------------------Dropdown--------------------------------------- */
 
