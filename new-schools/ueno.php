@@ -97,7 +97,7 @@
     
           <div class="container">
             <div class="address-hyperlink-wrapper">
-              <a href="">
+              <a href="https://www.google.com/maps/uv?pb=!1s0x60188e977d08e533%3A0x93f96f873e5a4727!3m1!7e115!4s%2Fmaps%2Fplace%2F%25E3%2580%2592110-0015%25E5%258F%25B0%25E6%259D%25B1%25E5%258C%25BA%25E6%259D%25B1%25E4%25B8%258A%25E9%2587%258E6%25E4%25B8%2581%25E7%259B%25AE16-10KBU%25E3%2583%2593%25E3%2583%25AB3%25E9%259A%258E%2F%4035.7139592%2C139.7829975%2C3a%2C75y%2C89.75h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sQIuV_6CnN09-r2esBG6_JQ*212e0*214m2*213m1*211s0x60188e977d08e533%3A0x93f96f873e5a4727%3Fsa%3DX%26ved%3D2ahUKEwjZ6syAn4OJAxU1ZPUHHRaTAssQpx96BAg2EAA!5z44CSMTEwLTAwMTXlj7DmnbHljLrmnbHkuIrph4425LiB55uuMTYtMTBLQlXjg5Pjg6sz6ZqOIC0gR29vZ2xlIFNlYXJjaA!15sCgIgAQ&imagekey=!1e2!2sQIuV_6CnN09-r2esBG6_JQ&cr=le_a7&hl=en&ved=1t%3A206134&ictx=111">
 <h2 class="call-to-action-h2" style="text-decoration: underline solid white;">
             〒110-0015<br /> 台東区東上野6丁目16-10<br /> KBUビル3階
           </h2>
