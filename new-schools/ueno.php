@@ -96,10 +96,16 @@
 
     
           <div class="container">
-            <h2 class="call-to-action-h2">
+            <div class="address-hyperlink-wrapper">
+              <a href="">
+<h2 class="call-to-action-h2" style="text-decoration: underline solid white;">
             〒110-0015<br /> 台東区東上野6丁目16-10<br /> KBUビル3階
-            </h2>
-    
+          </h2>
+
+        </a>
+            </div>
+
+
             <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
               >無料体験に参加する
             </a>

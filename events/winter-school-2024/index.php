@@ -379,7 +379,7 @@
     <div class="location-area-wrapper"> 
        <div class="location-outer">
           <img src="./winter-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
-          <h3 class="location-name-3">横浜市</h3>
+          <h3 class="location-name-3">浦安市</h3>
        </div>
        <h4 class="location-school">- Kids UP 新浦安</h4>
     </div>
@@ -629,7 +629,7 @@
             <div class="location-area-wrapper"> 
                <div class="location-outer">
                   <img src="./winter-school-images/map-pin-3.svg" alt="map-pin-2" class="location-pin">
-                  <h3 class="location-name-3">横浜市</h3>
+                  <h3 class="location-name-3">浦安市</h3>
                </div>
                <h4 class="location-school">- Kids UP 新浦安</h4>
             </div>
@@ -1085,8 +1085,8 @@
               </div>
 
               <!-- SLIDE 11 -->
-              <div class="swiper-slide activity-slide activity-slide-1">
-                <div class="slide-date-box activity-slide-1">
+              <div class="swiper-slide activity-slide activity-slide-2">
+                <div class="slide-date-box activity-slide-2">
                   <h3 class="slide-date">1/9</h3>
                 </div>
                 <img
@@ -1102,8 +1102,8 @@
               </div>
 
               <!-- SLIDE 12 -->
-              <div class="swiper-slide activity-slide activity-slide-2">
-                <div class="slide-date-box activity-slide-2">
+              <div class="swiper-slide activity-slide activity-slide-3">
+                <div class="slide-date-box activity-slide-3">
                   <h3 class="slide-date">1/10</h3>
                 </div>
                 <img
