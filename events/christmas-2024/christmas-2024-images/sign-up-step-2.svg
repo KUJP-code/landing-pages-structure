@@ -26,12 +26,12 @@
         fill: #f7f8f7;
       }
 
-      .cls-5 {
-        fill: #690e16;
-      }
-
       .cls-8 {
         clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        fill: #892c3c;
       }
 
       .cls-9 {

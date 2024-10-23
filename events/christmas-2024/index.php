@@ -84,10 +84,10 @@
             <a class="nav-link" href="#div1">イベント内容</a>
           </li>
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div2">顧客の声</a>
+            <a class="nav-link" href="#div2">所在地</a>
           </li>
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div3">人気アクティビティ</a>
+            <a class="nav-link" href="#div3">イベントの案内</a>
           </li>
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="#div4">ギャラリー</a>
@@ -127,10 +127,13 @@
     <h1 class="hero-h1">クリスマスパーティー<br>
       2024 at Kids UP<br>
       お申し込み受付中!</h1>
-      <p class="hero-text">
-        キッズアップの大人気イベント！<br> 英語でクリスマスハットカップケーキ作りや、<br> チームでプレゼントを集める<br class="d-block d-sm-none">楽しいゲームに挑戦しよう♪<br> 良い子にはサンタクロースからプレゼントが<br class="d-block d-sm-none">もらえるかも！？<br> 英語初心者の方も、 上級者の方も大歓迎です！
-        
-        
+      <p class="hero-text"> 
+        キッズアップの大人気イベント！<br>
+        英語でクリスマスハットカップケーキ作りや、<br>
+        チームで挑戦するエキサイティングな<br class="d-block d-sm-none">Eスポーツのゲームに挑戦しよう♪<br>
+        良い子にはサンタクロースから<br class="d-block d-sm-none">プレゼントがもらえるかも！？<br>
+        英語初心者の方も、上級者の方も大歓迎です！<br>
+ 
         <br><span class="hero-text-small">（スクールで直接お申込みも承っております)</span></p>
       <button class="hero-cta-button" onclick="formLink()">
         お申込みはこちら
@@ -175,7 +178,7 @@
           
      
               英語環境でネイティブの先生と過ごすクリスマスパーティー！<br>
-              クリスマスハットみたいなかわいいカップケーキ作りや、白熱のeスポーツゲームで熱いバトルを楽しもう♪ まるで海外にいるような気分♪
+              クリスマスハットみたいなかわいいカップケーキ作りや、白熱の<br>Eスポーツゲームで熱いバトルを楽しもう♪ まるで海外にいるような気分♪
             </p>
             <button class="cta-button-about" onclick="formLink()">
               お申込みはこちら
@@ -215,7 +218,7 @@
     <p class="about-event-p">東京・神奈川・千葉・埼玉の各地にスクールを展開しております。 お好きなスクールを お選びください。</p>
 </div>
 
-
+<div id="div2"></div>
 </div>
 
 
@@ -732,7 +735,7 @@
 
     <!-- ABOUT EVENT ------------------------------------------------------------------------------------------------------------------>
 
-    <div class="event-activities" id="div4">
+    <div class="event-activities" id="div3">
       <img src="./christmas-2024-images/about-activities-transition.svg" alt="" class="decoration-gallery-top">
 
       
@@ -834,11 +837,11 @@
 
 
 </div>
-        <h2 class="section-h2 about-h2">ギャラリー</h2>
+        <h2 class="section-h2 about-h2" id="div4">ギャラリー</h2>
  
     </div>
 
-      <div class="carousel-div" style="position: relative" id="div2">
+      <div class="carousel-div" style="position: relative">
         <div class="padding-0">
           <div class="swiper" id="image-carousel">
             <div class="swiper-wrapper">
@@ -941,7 +944,7 @@
                 WEBフォームよりお申込み<br /><br class="d-none d-sm-block" />
               </h3>
               <p class="sign-up-p">
-                WEBフォームよりKids UPのウィンタースクールにお申込みが可能です。
+                WEBフォームよりKids UPのクリスマスパーティーにお申込みが可能です。
                 お申し込みフォームより入力のうえ、お申込みください。
               </p>
             </div>

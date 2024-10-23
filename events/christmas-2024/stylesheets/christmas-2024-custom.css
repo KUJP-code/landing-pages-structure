@@ -42,7 +42,7 @@ nav {
 }
 
 .nav-link:hover {
-  color: #56aabf;
+  color: #00362f;
 }
 
 .navbar-nav {
@@ -51,11 +51,11 @@ nav {
 
 .nav-btn {
   background: white;
-  color: #5f5ba8;
+  color: #892c3c;
 }
 
 .nav-btn:hover {
-  background: #56aabf;
+  background: #892c3c;
   color: #fff;
 }
 
@@ -621,6 +621,9 @@ width: 100%;
  ;
 }
 
+.accordion-button::after {
+  display: none !important;
+}
 
 /* ACTIVITY INFO ------------------------------------------------------------------*/
 .event-activities {
