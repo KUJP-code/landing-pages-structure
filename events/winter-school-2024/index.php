@@ -87,7 +87,7 @@
             <a class="nav-link" href="#div2">顧客の声</a>
           </li>
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div3">人気アクティビティ</a>
+            <a class="nav-link" href="#div3">アクティビティ一覧</a>
           </li>
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="#div4">ギャラリー</a>
