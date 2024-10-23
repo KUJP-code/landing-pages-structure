@@ -725,7 +725,7 @@
             />
             <div class="three-benefits-textbox">
               <p class="three-benefits-text">
-                5回以上のご参加でお得な割引料金も ご用意しております！
+                3回以上のご参加でお得な割引料金も ご用意しております！
               </p>
             </div>
           </div>

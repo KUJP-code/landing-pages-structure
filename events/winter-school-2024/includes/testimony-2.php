@@ -8,15 +8,15 @@
           class="img-fluid testimonial-img"
         />
       </div>
-      <div class="col-7 testimonial-header">Kさん</div>
+      <div class="col-7 testimonial-header">Aちゃん</div>
     </div>
 
     <p class="testimonial-text">
-子どもたちは初めての英語のイベントをとても楽しんでいました。スタッフの方々が 子どもたちが参加しやすいようにサポートしてくださっていたので安心して楽しめたようです。 次回も参加したいと思います。 
+    クラフトとクッキングが大好きで、シーズナルスクールがいつも楽しみです！英語のレッスンは最初は緊張したけれど、ティーチャーがみんな面白くて優しいので、楽しく参加しています！
     </p>
 
     <img
-      src="./winter-school-images/stars-4-5.svg"
+      src="./winter-school-images/stars-5.svg"
       alt="stars-5"
       class="testimonial-rank"
     />

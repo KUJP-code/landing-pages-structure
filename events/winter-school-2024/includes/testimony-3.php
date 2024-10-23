@@ -8,15 +8,15 @@
           class="img-fluid testimonial-img"
         />
       </div>
-      <div class="col-7 testimonial-header">Fさん</div>
+      <div class="col-7 testimonial-header">Kさん</div>
     </div>
 
     <p class="testimonial-text">
-ウインタースクールに参加させていただき、ありがとうございました。 子どもたちは英語に触れる機会が少ない中、楽しみながら英語を学べたようです。 また参加したいと思っています。
+    初めての参加でしたが、また行きたい！と言うほど楽しかったようです！！英語の経験も無く心配していましたが、子どもはすぐに慣れ、家で覚えてきた英語を教えてくれました。これを機に通常のレッスンにも入会を決めました！
     </p>
 
     <img
-      src="./winter-school-images/stars-5.svg"
+      src="./winter-school-images/stars-4-5.svg"
       alt="stars-5"
       class="testimonial-rank"
     />

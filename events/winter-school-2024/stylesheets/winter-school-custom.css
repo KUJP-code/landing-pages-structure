@@ -480,7 +480,7 @@ width: 100%;
 
 .testimonial-box {
   background-color: #e8dccd;
-  height: 27rem;
+  height: 32rem;
   margin-left: 0.5%;
   margin-right: 0.5%;
   width: 32.33333333333333333333333333333333333333333333333333333333333333%;
@@ -496,10 +496,11 @@ width: 100%;
 
 .testimonial-img {
   width: 100%;
+  border-radius: 1rem;
 }
 
 .testimonial-header {
-  font-size: 2rem;
+  font-size: 1.75rem;
   font-family: "Shin-Maru-GP-DeBold";
   color: #4f4538;
   font-weight: bold;
