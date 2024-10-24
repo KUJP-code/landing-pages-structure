@@ -81,13 +81,13 @@
           style="text-align: center"
         >
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div1">イベント内容</a>
+            <a class="nav-link" href="#div1">イベント案内</a>
           </li>
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div2">所在地</a>
+            <a class="nav-link" href="#div2">スクール一覧</a>
           </li>
           <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div3">イベントの案内</a>
+            <a class="nav-link" href="#div3">アクティビティ内容</a>
           </li>
           <li class="nav-item text-nowrap">
             <a class="nav-link" href="#div4">ギャラリー</a>
@@ -130,7 +130,7 @@
       <p class="hero-text"> 
         キッズアップの大人気イベント！<br>
         英語でクリスマスハットカップケーキ作りや、<br>
-        チームで挑戦するエキサイティングな<br class="d-block d-sm-none">Eスポーツのゲームに挑戦しよう♪<br>
+        チームで挑戦するエキサイティングな<br class="d-block d-sm-none">eスポーツのゲームに挑戦しよう♪<br>
         良い子にはサンタクロースから<br class="d-block d-sm-none">プレゼントがもらえるかも！？<br>
         英語初心者の方も、上級者の方も大歓迎です！<br>
  
@@ -178,7 +178,7 @@
           
      
               英語環境でネイティブの先生と過ごすクリスマスパーティー！<br>
-              クリスマスハットみたいなかわいいカップケーキ作りや、白熱の<br>Eスポーツゲームで熱いバトルを楽しもう♪ まるで海外にいるような気分♪
+              クリスマスハットみたいなかわいいカップケーキ作りや、白熱の<br>eスポーツゲームで熱いバトルを楽しもう♪ まるで海外にいるような気分♪
             </p>
             <button class="cta-button-about" onclick="formLink()">
               お申込みはこちら
@@ -755,7 +755,7 @@
         <div class="event-1-text-wrapper">
         <p class="event-text event-text-1">みんな大好きクリスマスケーキ！クリスマスハットみたいなかわいい<br>
         カップケーキを作ろう。おいしいケーキでクリスマスを盛り上げよう！！<br>
-        <span class="event-text-sub">＊アレルギー情報：りんご・ゼラチン・小麦卵・乳成分・桃・大豆・ピーナッツ </span>
+        <span class="event-text-sub">＊アレルギー情報：りんご・ゼラチン・小麦・卵・乳成分・桃・大豆・ピーナッツ</span>
         </p>
         </div>
     </div>
@@ -782,7 +782,7 @@
 <div class="activity-box-2-text-wrapper">
   <h2 class="event-header event-header-3">サンタからプレゼントをもらおう！</h2>
 
-  <p class="event-text event-text-3">タから秘密のプレゼントをゲットしよう！<br>
+  <p class="event-text event-text-3">サンタから秘密のプレゼントをゲットしよう！<br>
     中身は何かな？もらってからのお楽しみ♪
 </p>
 </div>
@@ -791,7 +791,7 @@
 <div class="activity-box-2-text-wrapper">
   <h2 class="event-header event-header-2">フォトサービス</h2>
 
-  <p class="event-text event-text-2">このチャンスをお見逃しなく！<br>サンタと一緒に写真を撮ってクリスマスの魔法を記念に残そう♪<br> 最高の思い出を作るチャンスだよ！！
+  <p class="event-text event-text-2">このチャンスをお見逃しなく！<br>サンタと一緒に写真を撮ってクリスマスの魔法を記念に残そう♪<br> 最高の思い出を作るチャンスだよ！！<br>このチャンスをお見逃しなく！
   </p>
 </div>
 
@@ -815,8 +815,10 @@
 <div class="col-sm-6 col-md-9 col-lg-6">
   <div class="activity-box-3-inner-wrapper-1">
   <h2 class="event-header event-header-4">仲間とプレゼントを集めよう！</h2>
-  <p class="event-text event-text-1">アクション満載AR体験では、友達とチームを組んで、画面上でプレゼントを
-    集めよう！集めたプレゼントでチームのポイントを増やそう！でも、気をつけて！石炭に当たるとポイントが減っちゃうよ。クリスマスに石炭なんて、誰も欲しくないよね！<br>
+  <p class="event-text event-text-1">
+  アクション満載AR体験では、友達とチームを組んで、画面上のプレゼントを<br>
+集めてポイントをゲットしよう!　でも、気をつけて！<br>
+石炭に当たるとポイントが減っちゃうよ。クリスマスに石炭なんて、誰も欲しくないよね!
   <span class="event-text-sub">※AR（拡張現実）でデジタルと現実の世界を融合させた新感覚の体験を楽しもう！</span>
   </p>
 </div>

@@ -90,41 +90,6 @@
           <div class="padding-band-3rem dividing-line"></div>
         </div>
       </div>
-
-      <!----------------------------------------------- mia profile-------------------------------------------------------------->
-      <div>
-        <div class="container" style="position: relative" id="mia-profile">
-
-          <div class="profile-box-content">
-            <h3 class="page-subtitle">ウェリングス ミア  さん</h3>
-            <div class="row header-row">
-
-              <div class="col-sm-4 d-md-none"><img src="./images/mia-portrait.webp" alt="Mia Wellings" class="img-fluid"></div>
-
-              <div class="col-sm-8">
-                <div style="padding:56.25% 0 0 0;position:relative;">
-                    <iframe src="https://player.vimeo.com/video/991859384?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mia Wellings Interview"></iframe>
-                </div>
-                <script src="https://player.vimeo.com/api/player.js"></script>
-            </div>
-            <div class="d-none d-sm-block col-sm-4 portrait-mia"></div>
-            
-            </div>
-
-            <div class="padding-band-3rem"></div>
-
-            <p class="p_normal-otherpage">
-              ミアさんは更なる英語力の向上を目指し、高校生になった現在でもKids UPに通い続けています。ミアさんの英語力は非常に高く、クラスメイトの英語の宿題を教えてくれるなど、時には小さな先生としてみんなを助けてくれます。スペシャリストコースでは、Kids UPの先生や友達とのおしゃべりが楽しいとのこと。<br>
-<br>
-              「高校の英語のテストでは度々100点を取れていて、高校生になってからもKids UPに通い続けて良かったなと感じています。<br>
-              <br>
-              高校の英語の授業では、テキストに沿って問いに対する答えを出すことが多いです。一方、Kids UPの授業では興味のあるテーマに関してどんどん深堀できたり、調査したことをまとめて発表できたりするので、より楽しみながら自分の英語力を発揮できています。将来は世界的なメイクアップアーティストになりたいです。海外で働くために自分の英語力をさらに磨いていきたいです！」
-            </p>
-          </div>
-          <div class="padding-band-3rem dividing-line"></div>
-        </div>
-      </div>
-
       <!----------------------------------------------- toma profile------------------------------------------------------------->
       <div>
         <div class="container" style="position: relative" id="toma-profile">
@@ -161,6 +126,41 @@
           <div class="padding-band-3rem dividing-line"></div>
         </div>
       </div>
+
+      <!----------------------------------------------- mia profile-------------------------------------------------------------->
+      <div>
+        <div class="container" style="position: relative" id="mia-profile">
+
+          <div class="profile-box-content">
+            <h3 class="page-subtitle">ウェリングス ミア  さん</h3>
+            <div class="row header-row">
+
+              <div class="col-sm-4 d-md-none"><img src="./images/mia-portrait.webp" alt="Mia Wellings" class="img-fluid"></div>
+
+              <div class="col-sm-8">
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                    <iframe src="https://player.vimeo.com/video/991859384?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Mia Wellings Interview"></iframe>
+                </div>
+                <script src="https://player.vimeo.com/api/player.js"></script>
+            </div>
+            <div class="d-none d-sm-block col-sm-4 portrait-mia"></div>
+            
+            </div>
+
+            <div class="padding-band-3rem"></div>
+
+            <p class="p_normal-otherpage">
+              ミアさんは更なる英語力の向上を目指し、高校生になった現在でもKids UPに通い続けています。ミアさんの英語力は非常に高く、クラスメイトの英語の宿題を教えてくれるなど、時には小さな先生としてみんなを助けてくれます。スペシャリストコースでは、Kids UPの先生や友達とのおしゃべりが楽しいとのこと。<br>
+<br>
+              「高校の英語のテストでは度々100点を取れていて、高校生になってからもKids UPに通い続けて良かったなと感じています。<br>
+              <br>
+              高校の英語の授業では、テキストに沿って問いに対する答えを出すことが多いです。一方、Kids UPの授業では興味のあるテーマに関してどんどん深堀できたり、調査したことをまとめて発表できたりするので、より楽しみながら自分の英語力を発揮できています。将来は世界的なメイクアップアーティストになりたいです。海外で働くために自分の英語力をさらに磨いていきたいです！」
+            </p>
+          </div>
+          <div class="padding-band-3rem dividing-line"></div>
+        </div>
+      </div>
+
 
       <!------- Join Specialist Section ------>
       <div>
