@@ -1190,12 +1190,12 @@
           <div class="row">
             <div class="col-md-3 l btn-dropdown-left">
               <a
-                class="btn btn-dropdown-small collapsed"
-                data-bs-toggle="collapse"
-                href="#calendar-collapse"
-                role="button"
-                aria-expanded="false"
-                aria-controls="calendar-collapse"
+              class="btn btn-dropdown-small"
+              data-bs-toggle="collapse"
+              href="#calendar-collapse"
+              role="button"
+              aria-expanded="true"
+              aria-controls="calendar-collapse"
               >
                 イベントカレンダー
                 <svg
@@ -1329,7 +1329,7 @@
           <!-- Calendar -->
 
           <div
-            class="collapse dropdown-container"
+            class="collapse show dropdown-container"
             id="calendar-collapse"
             data-bs-parent="#TripleDropdown"
           >
@@ -1430,7 +1430,7 @@
 
 
           
-          <!-- Calendar -->
+          <!-- About Event -->
 
           <div
             class="collapse dropdown-container"
@@ -1444,12 +1444,25 @@
                 class="img-fluid calendar-img"
                 style="width: 100%"
               />
+              <img
+                src="./winter-school-images/winter-details.svg"
+                alt="Calendar"
+                class="img-fluid calendar-img"
+                style="width: 100%"
+              />
               <div class="form-download-wrapper">
                 <a href="./Winter-2024-ご案内.pdf"
                   ><h5 class="form-download" target="_blank">
                     ご案内をダウンロード
-                  </h5></a
-                >
+                  </h5><br>
+
+                  <a href="./Winter-2024-アクティビティ情報.pdf">
+                  <h5 class="form-download" target="_blank">
+                    アクティビティ情報をダウンロード
+                  </h5>
+                  
+                </a>
+                
               </div>
             </div>
           </div>
