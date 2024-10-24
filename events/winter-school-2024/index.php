@@ -1188,7 +1188,7 @@
         <div id="TripleDropdown">
           <!-- Dropdown 1 -->
           <div class="row">
-            <div class="col-md-4 l btn-dropdown-left">
+            <div class="col-md-3 l btn-dropdown-left">
               <a
                 class="btn btn-dropdown-small collapsed"
                 data-bs-toggle="collapse"
@@ -1222,7 +1222,7 @@
 
             <!-- Dropdown 2 -->
 
-            <div class="col-md-4 btn-dropdown-middle">
+            <div class="col-md-3 btn-dropdown-middle">
               <a
                 class="btn btn-dropdown-small collapsed"
                 data-bs-toggle="collapse"
@@ -1254,9 +1254,46 @@
               </a>
             </div>
 
-            <!-- Dropdown 3 -->
+                        <!-- Dropdown 3 -->
 
-            <div class="col-md-4 btn-dropdown-right">
+                        <div class="col-md-3 btn-dropdown-middle">
+              <a
+                class="btn btn-dropdown-small collapsed"
+                data-bs-toggle="collapse"
+                href="#Explanation-Collapse"
+                role="button"
+                aria-expanded="false"
+                aria-controls="Explanation-Collapse"
+              >
+              ご案内
+                <svg
+                  id="Layer_1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 52.1 52.1"
+                  class="dropdown-img-small"
+                >
+                  <defs>
+                    <style>
+                      .cls-1 {
+                        fill: currentColor;
+                        stroke-width: 0px;
+                      }
+                    </style>
+                  </defs>
+                  <path
+                    class="cls-1"
+                    d="M26.05,0C11.66,0,0,11.66,0,26.05s11.66,26.05,26.05,26.05,26.05-11.66,26.05-26.05S40.44,0,26.05,0ZM39.17,27.44l-13.12,13.92-13.12-13.92c-1.15-1.22-1.09-3.14.13-4.29,1.22-1.15,3.14-1.09,4.29.13l5.67,6.02v-15.51c0-1.68,1.36-3.03,3.03-3.03s3.03,1.36,3.03,3.03v15.51l5.67-6.02c1.15-1.22,3.07-1.28,4.29-.13,1.22,1.15,1.28,3.07.13,4.29Z"
+                  />
+                </svg>
+              </a>
+            </div>
+
+            
+
+
+            <!-- Dropdown 4 -->
+
+            <div class="col-md-3 btn-dropdown-right">
               <a
                 class="btn btn-dropdown-small collapsed"
                 data-bs-toggle="collapse"
@@ -1387,6 +1424,33 @@
                 13:30にお迎えにお越しいただきお引渡しとなります。
                 午後は通常コースへの参加も可能です！
               </p>
+            </div>
+          </div>
+
+
+
+          
+          <!-- Calendar -->
+
+          <div
+            class="collapse dropdown-container"
+            id="Explanation-Collapse"
+            data-bs-parent="#TripleDropdown"
+          >
+            <div class="container dropdown-container">
+              <img
+                src="./winter-school-images/winter-about.svg"
+                alt="Calendar"
+                class="img-fluid calendar-img"
+                style="width: 100%"
+              />
+              <div class="form-download-wrapper">
+                <a href="./Winter-2024-ご案内.pdf"
+                  ><h5 class="form-download" target="_blank">
+                    ご案内をダウンロード
+                  </h5></a
+                >
+              </div>
             </div>
           </div>
 
