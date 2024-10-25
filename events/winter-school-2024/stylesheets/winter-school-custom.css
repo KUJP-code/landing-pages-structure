@@ -20,24 +20,17 @@ p {
   width: 100%;
   height: 3.65rem;
   box-shadow: none;
-  background-color: #ffffff00;
-  transition: 0.3s ease-in-out;
+  background-color: #5f5ba8;
 }
 
-.navbar.scrolled {
-  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
-  background-color: #5f5ba8;
-  transition: 0.3s ease-in-out;
-}
 
 nav {
-  background-color: #ffffff00;
+  background-color: #5f5ba8;
 }
 
 .nav-link {
   color: #f3f4df;
-  -webkit-text-stroke: 3px #5f5ba8;
-  text-stroke: 2px #5f5ba8;
+
   paint-order: stroke fill;
 }
 
@@ -233,6 +226,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2rem;
   }
   .hero-cta-button::after {
 
@@ -371,104 +365,106 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
 /* LOCATIONS ----------------------------------------------------------------- */
 
+
+/* Common Styling Settings */
+
 .prefecture-title{
-height: 4rem;
-margin: 1rem;
-margin-left: 0;
 filter: drop-shadow(0px 5px 0px #9ad3e2);
 }
 
-
-.location-row{
-  margin-bottom: 2rem;
-}
-
-
-.location-area-wrapper{
-  padding-bottom: 1rem;
-}
-
-
 .location-outer{
-  position: relative;
-  height: auto;
-  padding-top: .5rem;
-  padding-bottom: .5rem;    
   filter: drop-shadow(0px 5px 0px #9ad3e2);
 }
 
-
-.location-pin{
-  position: absolute;
-  width: 3rem;
-  transform: translate(0%, -50%);
-  margin-top: 1.5rem;
-  
-}
 .location-name-1, .location-name-2, .location-name-3, .location-name-4{
-  font-size: 1.25rem;
   font-family: "Shin-Maru-GP-Bold";
   background-color: white;
-  padding: 0.5rem;
-  width: fit-content;
-  border-radius: .3rem;
-  padding-left: 1.5rem;
-  margin-left: 1.5rem;
 }
+
+.map-pin-1-bg-color, .map-pin-2-bg-color, .map-pin-3-bg-color, .map-pin-4-bg-color{
+  fill: white;
+}
+
+/* Location 1 Styles */
 
 .location-name-1{
   color: #5f5ba8;
 }
 
+.map-pin-1-main-color{
+  fill: #5f5ba8;
+}
+
+.prefecture-tokyo-bg{
+  fill: #5f5ba8; 
+}
+
+.prefecture-tokyo-text{
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* Location 2 Styles */
+
 .location-name-2{
   color: #56aabf;
 }
 
+.map-pin-2-main-color{
+  fill: #56aabf;
+}
+
+.prefecture-kanagawa-bg{
+  fill: #56aabf;
+}
+
+.prefecture-kanagawa-text{
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+
+/* Location 3 Styles */
 
 .location-name-3{
   color: #be96c5;
 }
 
+.map-pin-3-main-color{
+  fill: #be96c5;
+}
+
+.prefecture-chiba-bg{
+  fill: #be96c5;
+}
+
+.prefecture-chiba-text{
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* Location 4 Styles */
 
 .location-name-4{
   color: #58b980;
 }
 
-
-
-.location-school{
-  font-family: "Shin-Maru-GP-DeBold";
-  margin-left: 2rem;
-  font-size: 1rem;
-padding-top: 0.25rem;
+.map-pin-4-main-color{
+  fill: #58b980;
 }
 
-@media (max-width: 576px) {
-  .prefecture-title{
-    height: 4rem;
-    margin: 0.1rem;
-    margin-left: 0;
-    filter: drop-shadow(0px 5px 0px #e5cca8);
-    }
-    
+.prefecture-saitama-bg{
+  fill: #58b980;
 }
-.mobile-accordion-item{
-background-color: #ffffff00;
+
+.prefecture-saitama-text{
+  fill: #fff;
+  stroke-width: 0px;
 }
 
 
-.mobile-accordion-body{
-  width: 100%;
-  padding: 0rem;
-  margin: 0rem;
-}
 
-.mobile-accordion-button{
-width: 100%;
- padding-top: .25rem;
- padding-bottom: .25rem
- ;
-}
+
 
 
 
@@ -803,11 +799,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   overflow-y: hidden;
 }
 
-
-
-
-
-
 .slide-date-box {
   position: absolute;
   background-color: #58b980;
@@ -822,7 +813,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   border-width: 4px;
   transform: translateX(-1px);
 }
-
 
 .slide-special-box {
   position: absolute;
@@ -841,11 +831,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   text-align: center;
   transform: translateX(50%);
 }
-
-
-
-
-
 
 .activity-slide-1 {
   background-color: #58b980;
@@ -866,13 +851,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   background-color: #e5b244;
   border-color: #f7d249;
 }
-
-
-
-
-
-
-
 
 .slide-date-box-special{
   background-color: #f7d249;

@@ -1,0 +1,128 @@
+/* LOCATIONS ----------------------------------------------------------------- */
+.prefecture-wrapper{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.location-area-wrapper-tokyo{
+    position: relative;
+  width: 25%;
+}
+
+.location-area-wrapper-kanagawa, .location-area-wrapper-chiba, .location-area-wrapper-saitama{
+    position: relative;
+  width: 50%;
+}
+
+
+.prefecture-title{
+    height: 4rem;
+    margin: 1rem;
+    margin-left: 0;
+
+    }
+    
+    
+    .location-row{
+      margin-bottom: 2rem;
+    }
+    
+    
+    .location-area-wrapper{
+      padding-bottom: 1rem;
+    }
+    
+    
+    .location-outer{
+      position: relative;
+      height: auto;
+      padding-top: .5rem;
+      padding-bottom: .5rem;    
+
+    }
+    
+    
+    .location-pin{
+      position: absolute;
+      width: 3rem;
+      transform: translate(0%, -50%);
+      margin-top: 1.5rem;
+      
+    }
+    .location-name-1, .location-name-2, .location-name-3, .location-name-4{
+      font-size: 1.25rem;
+      padding: 0.5rem;
+      width: fit-content;
+      border-radius: .3rem;
+      padding-left: 1.5rem;
+      margin-left: 1.5rem;
+    }
+    
+    
+    
+    .location-school{
+      font-family: "Shin-Maru-GP-DeBold";
+      margin-left: 2rem;
+      font-size: 1rem;
+      padding-top: 0.25rem;
+    }
+
+    .mobile-accordion-item{
+      background-color: #ffffff00;
+    }
+        
+    .prefecture-tokyo-bg, .prefecture-kanagawa-bg,  .prefecture-chiba-bg,  .prefecture-saitama-bg{
+      stroke: #fff;
+      stroke-linejoin: round;
+      stroke-width: 4px;
+    }
+  
+    .prefecture-tokyo-text, .prefecture-kanagawa-text, .prefecture-chiba-text, .prefecture-saitama-text {
+      fill: #fff;
+      stroke-width: 0px;
+    }   
+
+
+    
+    @media (max-width: 576px) {
+
+    .location-area-wrapper-tokyo, .location-area-wrapper-kanagawa, .location-area-wrapper-chiba, .location-area-wrapper-saitama{
+    position: relative;
+    width: 100%;
+    }
+
+
+      .prefecture-title{
+        height: 4rem;
+        margin: 0.1rem;
+        margin-left: 0;
+        }
+        
+    
+
+
+
+    .mobile-accordion-item{
+    background-color: #ffffff00;
+    }
+    
+    
+    .mobile-accordion-body{
+      width: 100%;
+      padding: 0rem;
+      margin: 0rem;
+    }
+    
+    .mobile-accordion-button{
+    width: 100%;
+     padding-top: .25rem;
+     padding-bottom: .25rem
+     ;
+    }
+}
+    
+    

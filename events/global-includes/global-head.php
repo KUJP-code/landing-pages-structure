@@ -69,6 +69,7 @@
   crossorigin="anonymous"
 />
 <link href="../global-stylesheets/global-style.css" rel="stylesheet" />
+<link href="../global-stylesheets/school-lists.css" rel="stylesheet" />
 
 <link
   rel="stylesheet"
