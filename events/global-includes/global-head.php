@@ -15,6 +15,11 @@
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="https://kids-up.jp/wp-content/themes/kidsup/img/favicon.png">
+<link rel="icon" href="https://kids-up.jp/wp-content/uploads/2023/03/cropped-favicon-32x32.png" sizes="32x32">
+<link rel="icon" href="https://kids-up.jp/wp-content/uploads/2023/03/cropped-favicon-192x192.png" sizes="192x192">
+<meta name="msapplication-TileImage" content="https://kids-up.jp/wp-content/uploads/2023/03/cropped-favicon-270x270.png">
+<link rel="apple-touch-icon" href="https://kids-up.jp/wp-content/uploads/2023/03/cropped-favicon-180x180.png">
 
 <link rel="icon" type="image/x-icon" href="/wp-content/themes/kidsup/img/favicon.png" />
 

@@ -168,7 +168,7 @@
           </div>
         </div>
         <h2 class="section-h2 about-h2">
-        全地域スクール一覧
+          スクール一覧
             </h2>
 
             <?php include '../global-includes/school-lists/2024/school-list-module.php' ?>
