@@ -42,7 +42,9 @@ nav {
 }
 
 .nav-link:hover {
-  color: #00362f;
+  color:  #892c3c;
+  -webkit-text-stroke: 3px #ffffff;
+  text-stroke: 2px #ffffff;
 }
 
 .navbar-nav {
