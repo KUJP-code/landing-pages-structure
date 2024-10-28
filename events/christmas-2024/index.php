@@ -46,7 +46,6 @@
     <!-- End Google Tag Manager (noscript) -->
 
     <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
-      <div class="d-none d-md-block">
         <a class="navbar-brand d-flex w-50 me-auto" href="https://kids-up.jp/">
           <img
             src="./christmas-2024-images/navlogo-christmas-special.svg"
@@ -54,16 +53,7 @@
             alt=""
           />
         </a>
-      </div>
-      <div class="d-md-none">
-        <a class="navbar-brand d-flex w-50 me-auto" href="https://kids-up.jp/">
-          <img
-            src="./christmas-2024-images/navlogo-christmas-special-mobile.svg"
-            class="nav-logo"
-            alt=""
-          />
-        </a>
-      </div>
+  
       <button
         class="navbar-toggler collapsed"
         type="button"
@@ -116,6 +106,9 @@
 
 <div class="col-sm-6 hero-col">
   <img src="./christmas-2024-images/hero-img.png" alt="Christmas Party" class="img-fluid hero-image">
+  <button class="d-block d-sm-none hero-cta-button" onclick="formLink()">
+    お申込みはこちら
+  </button>
 </div>
 
 
@@ -135,7 +128,7 @@
         英語初心者の方も、上級者の方も大歓迎です！<br>
  
         <br><span class="hero-text-small">（スクールで直接お申込みも承っております)</span></p>
-      <button class="hero-cta-button" onclick="formLink()">
+      <button class="d-none d-sm-block hero-cta-button" onclick="formLink()">
         お申込みはこちら
       </button>
     </div>
@@ -251,6 +244,8 @@
 <div class="container event-section">
      
   <div class="activity-box-1-wrapper">
+    <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="d-block d-sm-none mobile-infobox-decoration-top">
+    <img src="./christmas-2024-images/mobile-infobox-decoration-bottom.svg" alt="mobile-infobox-decoration-bottom" class="d-block d-sm-none mobile-infobox-decoration-bottom">
     <img src="./christmas-2024-images/activity-image-1.png" alt="activity-image-1" class="activity-image-1">
     <img src="./christmas-2024-images/activity-decoration-1.webp" alt="activity-decoration-1" class="activity-decoration-1">
     <img src="./christmas-2024-images/activity-decoration-3.png" alt="" class="activity-decoration-3"> 
@@ -269,7 +264,8 @@
 </div>
 
 <div class="activity-box-2-wrapper">
-
+  <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="d-block d-sm-none mobile-infobox-decoration-top">
+  <img src="./christmas-2024-images/mobile-infobox-decoration-bottom.svg" alt="mobile-infobox-decoration-bottom" class="d-block d-sm-none mobile-infobox-decoration-bottom">
 <img src="./christmas-2024-images/activity-image-2.png" alt="activity-image-2" class="activity-image-2">
 <img src="./christmas-2024-images/activity-image-3.png" alt="activity-image-3" class="activity-image-3">
 <img src="./christmas-2024-images/activity-decoration-2.webp" alt="activity-decoration-2" class="activity-decoration-2">
@@ -288,7 +284,7 @@
 <div class="activity-box-2-text-wrapper">
   <h2 class="event-header event-header-3">サンタからプレゼントをもらおう！</h2>
 
-  <p class="event-text event-text-3">サンタから秘密のプレゼントをゲットしよう！<br>
+  <p class="event-text event-text-3">サンタから秘密のプレゼントを<br class="d-block d-sm-none">ゲットしよう！<br>
     中身は何かな？もらってからのお楽しみ♪
 </p>
 </div>
@@ -309,6 +305,9 @@
 
 
 <div class="activity-box-3-outer">
+  <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="d-block d-sm-none mobile-infobox-decoration-top">
+  <img src="./christmas-2024-images/mobile-infobox-decoration-bottom.svg" alt="mobile-infobox-decoration-bottom" class="d-block d-sm-none mobile-infobox-decoration-bottom">
+  <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="mobile-infobox-decoration-top">
   <img src="./christmas-2024-images/activity-decoration-4.webp" alt="activity-decoration-4" class="activity-decoration-4">
 
 <div class="activity-box-3-inner">
@@ -322,9 +321,9 @@
   <div class="activity-box-3-inner-wrapper-1">
   <h2 class="event-header event-header-4">仲間とプレゼントを集めよう！</h2>
   <p class="event-text event-text-1">
-  アクション満載AR体験では、友達とチームを組んで、画面上のプレゼントを<br>
-集めてポイントをゲットしよう!　でも、気をつけて！<br>
-石炭に当たるとポイントが減っちゃうよ。クリスマスに石炭なんて、誰も欲しくないよね!
+  アクション満載AR体験では、<br class="d-block d-sm-none">友達とチームを組んで、<br class="d-block d-sm-none">画面上のプレゼントを<br>
+集めてポイントをゲットしよう!<br class="d-block d-sm-none">　でも、気をつけて！<br>
+石炭に当たるとポイントが減っちゃうよ。<br class="d-block d-sm-none">クリスマスに石炭なんて、<br class="d-block d-sm-none">誰も欲しくないよね!<br>
   <span class="event-text-sub">※AR（拡張現実）でデジタルと現実の世界を融合させた新感覚の体験を楽しもう！</span>
   </p>
 </div>
@@ -337,7 +336,7 @@
   <h2 class="event-header event-header-4">VS.ゲーム：トナカイレースバトル
   </h2>
   <p class="event-text event-text-1">ベルを叩いてトナカイを走らせよう！友達と熱いバトルを繰り広げて、
-    誰のトナカイが一番早くゴールに辿り着くかな？勝利を手にするのは君だ！
+    誰のトナカイが一番早くゴールに辿り着くかな？<br class="d-block d-sm-none">勝利を手にするのは君だ！
   </p>
 </div>
 </div>
@@ -345,7 +344,7 @@
 
 
 </div>
-        <h2 class="section-h2 about-h2" id="div4">ギャラリー</h2>
+        <h2 class="section-h2 about-h2 gallery-h2" id="div4">ギャラリー</h2>
  
     </div>
 

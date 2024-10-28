@@ -279,6 +279,8 @@ transform: translate(20%, -50%);
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
+    margin-bottom: 2rem;
+    margin-top: -1rem;
   }
   .hero-cta-button::after {
 
@@ -328,6 +330,8 @@ transform: translate(20%, -50%);
 }
 .about-h2 {
   color: #fff;
+  display: block;
+  z-index: 1;
 }
 
 .about-p {
@@ -1011,6 +1015,32 @@ transform: rotate(-2deg);
 
 
 @media (max-width: 576px) {
+.gallery-h2{
+  padding-top: 2rem;
+}
+
+
+.mobile-infobox-decoration-top{
+  position: absolute;
+  transform: translate(-50%, -100%);
+  left: 50%;
+  top: 2px;
+  width: 101%;
+  display: block;
+  z-index: -1;
+}
+
+.mobile-infobox-decoration-bottom{
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  top: 100%;
+  width: 101%;
+  display: block;
+  z-index: -1;
+}
+
+
 
 .activity-box-1-wrapper, .activity-box-2-wrapper, .activity-box-3-outer{
   background-image: none;
@@ -1082,7 +1112,8 @@ transform: rotate(-2deg);
   height: auto;
   transform: translate(-50%, -100%);
   left: 60%;
-  top: 7.5rem
+  top: 7.5rem;
+  z-index: 1;
 }
 .activity-decoration-1{
   width: 70%;
