@@ -10,7 +10,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kids UPが 上野に開校! NEW OPEN</title>
+<title>Kids UPが 要町に開校! NEW OPEN</title>
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-head.php'; ?>
 <link rel="stylesheet" href="/global/global-stylesheets/template.css">
@@ -32,7 +32,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- Section 1: HERO -->
 
     <section class="hero">
-<img src="/new-schools/new-school-images-2024/ueno-front-mobile.webp" alt="" class="d-block d-sm-none img-fluid mobile-hero">
+<img src="/new-schools/new-school-images-2024/kanamecho-front-mobile.webp" alt="" class="d-block d-sm-none img-fluid mobile-hero">
       <div class="hero-top-wrapper">
       <img src="./new-school-images-2024/hero-badge.png" alt="hero-badge" class="hero-badge">
         <div class="new-school-wrapper">
@@ -42,13 +42,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
            
             <div class="h1-wrapper">
-                <img src="./new-school-images-2024/ueno-open-desktop.svg" alt="2/1 土"class="d-none d-sm-block hero-open-date">
+                <img src="./new-school-images-2024/kanamecho-open-desktop.svg" alt="2/1 土"class="d-none d-sm-block hero-open-date">
              
-            <h1 class="hero-h1"><span class="hero-h1-top-padding">Kids UPが <img src="./new-school-images-2024/ueno-open-mobile.svg" alt="2/1 土"class="d-block d-sm-none hero-open-date"></span><br>
-                上野に開校!<br>
+            <h1 class="hero-h1"><span class="hero-h1-top-padding">Kids UPが <img src="./new-school-images-2024/kanamecho-open-mobile.svg" alt="2/28 金"class="d-block d-sm-none hero-open-date"></span><br>
+                要町に開校!<br>
                 <span class="h1-orange">NEW OPEN</span>      </h1>
 
-                <img src="./new-school-images-2024/ueno-front.webp" alt="ueno-front" class="d-none d-sm-block img-fluid hero-new-school-front">
+                <img src="./new-school-images-2024/kanamecho-front.webp" alt="kanamecho-front" class="d-none d-sm-block img-fluid hero-new-school-front">
             
             <div class="setsumeikai-header-prompt-wrapper"> 
                 
@@ -77,10 +77,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <h3 class="bus-service-h3-schools">送迎対象予定小学校</h3>
 
-            <p class="school-list-1">田原、大正、金竜、<br class="d-block d-sm-none">千束、富士、東浅草、<br >
-              金曾木、根岸、蔵前、<br class="d-block d-sm-none">平成、浅草、和泉</p>
+            <p class="school-list-1">千早小、長崎小、池袋小、<br class="d-block d-sm-none">池袋第三小、富士見台小、高松小、<br >
+              椎名町小、さくら小、板橋第五小、<br class="d-block d-sm-none">板橋第六小、板橋第十小、<br> 向原小、小竹小</p>
 
-                <p class="school-list-2">（上野、松葉小は、徒歩通学<br class="d-block d-sm-none">とさせていただきます）</p>
+                <p class="school-list-2">（要小は徒歩でご通学いただきます。）</p>
         </div>
 
         <img src="./new-school-images-2024/hero-bottom-image-mobile.webp" alt="" class="d-block d-sm-none mobile-bottom-img">
@@ -111,9 +111,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
           <div class="container">
             <div class="address-hyperlink-wrapper">
-              <a href="https://www.google.com/maps/uv?pb=!1s0x60188e977d08e533%3A0x93f96f873e5a4727!3m1!7e115!4s%2Fmaps%2Fplace%2F%25E3%2580%2592110-0015%25E5%258F%25B0%25E6%259D%25B1%25E5%258C%25BA%25E6%259D%25B1%25E4%25B8%258A%25E9%2587%258E6%25E4%25B8%2581%25E7%259B%25AE16-10KBU%25E3%2583%2593%25E3%2583%25AB3%25E9%259A%258E%2F%4035.7139592%2C139.7829975%2C3a%2C75y%2C89.75h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sQIuV_6CnN09-r2esBG6_JQ*212e0*214m2*213m1*211s0x60188e977d08e533%3A0x93f96f873e5a4727%3Fsa%3DX%26ved%3D2ahUKEwjZ6syAn4OJAxU1ZPUHHRaTAssQpx96BAg2EAA!5z44CSMTEwLTAwMTXlj7DmnbHljLrmnbHkuIrph4425LiB55uuMTYtMTBLQlXjg5Pjg6sz6ZqOIC0gR29vZ2xlIFNlYXJjaA!15sCgIgAQ&imagekey=!1e2!2sQIuV_6CnN09-r2esBG6_JQ&cr=le_a7&hl=en&ved=1t%3A206134&ictx=111">
+              <a href="https://maps.app.goo.gl/jtYqRD4Ggt8NhEgv5">
 <h2 class="call-to-action-h2" style="text-decoration: underline solid white;">
-            〒110-0015<br /> 台東区東上野6丁目16-10<br /> KBUビル3階
+            
+〒171-0043<br /> 東京都豊島区要町1丁目1-1<br /> トーク要町ビル4F
           </h2>
 
         </a>
