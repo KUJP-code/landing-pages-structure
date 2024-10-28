@@ -266,9 +266,9 @@
 <div class="activity-box-2-wrapper">
   <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="d-block d-sm-none mobile-infobox-decoration-top">
   <img src="./christmas-2024-images/mobile-infobox-decoration-bottom.svg" alt="mobile-infobox-decoration-bottom" class="d-block d-sm-none mobile-infobox-decoration-bottom">
-<img src="./christmas-2024-images/activity-image-2.png" alt="activity-image-2" class="activity-image-2">
-<img src="./christmas-2024-images/activity-image-3.png" alt="activity-image-3" class="activity-image-3">
-<img src="./christmas-2024-images/activity-decoration-2.webp" alt="activity-decoration-2" class="activity-decoration-2">
+  <img src="./christmas-2024-images/activity-image-2.png" alt="activity-image-2" class="activity-image-2">
+  <img src="./christmas-2024-images/activity-image-3.png" alt="activity-image-3" class="activity-image-3">
+  <img src="./christmas-2024-images/activity-decoration-2.webp" alt="activity-decoration-2" class="activity-decoration-2">
 
   <div class="activity-box-2-inner">
 
@@ -307,7 +307,6 @@
 <div class="activity-box-3-outer">
   <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="d-block d-sm-none mobile-infobox-decoration-top">
   <img src="./christmas-2024-images/mobile-infobox-decoration-bottom.svg" alt="mobile-infobox-decoration-bottom" class="d-block d-sm-none mobile-infobox-decoration-bottom">
-  <img src="./christmas-2024-images/mobile-infobox-decoration-top.svg" alt="mobile-infobox-decoration-top" class="mobile-infobox-decoration-top">
   <img src="./christmas-2024-images/activity-decoration-4.webp" alt="activity-decoration-4" class="activity-decoration-4">
 
 <div class="activity-box-3-inner">
@@ -321,8 +320,8 @@
   <div class="activity-box-3-inner-wrapper-1">
   <h2 class="event-header event-header-4">仲間とプレゼントを集めよう！</h2>
   <p class="event-text event-text-1">
-  アクション満載AR体験では、<br class="d-block d-sm-none">友達とチームを組んで、<br class="d-block d-sm-none">画面上のプレゼントを<br>
-集めてポイントをゲットしよう!<br class="d-block d-sm-none">　でも、気をつけて！<br>
+  アクション満載AR体験では、<br class="d-block d-sm-none">友達とチームを組んで、<br class="d-block d-sm-none">画面上のプレゼントを<br class="d-block d-sm-none">
+集めてポイントをゲットしよう!<br class="d-block d-sm-none">　でも、気をつけて！<br class="d-block d-sm-none">
 石炭に当たるとポイントが減っちゃうよ。<br class="d-block d-sm-none">クリスマスに石炭なんて、<br class="d-block d-sm-none">誰も欲しくないよね!<br>
   <span class="event-text-sub">※AR（拡張現実）でデジタルと現実の世界を融合させた新感覚の体験を楽しもう！</span>
   </p>
