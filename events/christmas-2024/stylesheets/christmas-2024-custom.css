@@ -509,13 +509,13 @@ transform: translate(-25%, -25%);
 }
 
 .about-event-decoration-1{
-  width: 7.5rem;
-  left: 7.5%;
+  width: 33%;
+  left: 0%;
   top: 7.5%;
 }
 
 .about-event-decoration-2{
-  width: 6rem;
+  width: 33%;
   top: 60%;
   z-index: 0;
 }
