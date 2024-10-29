@@ -119,7 +119,7 @@
     <img src="./christmas-2024-images/hero-decoration-2.svg" alt="hero-decoration-2" class="hero-decoration-2">
     <h1 class="hero-h1">クリスマスパーティー<br>
       2024 at Kids UP<br>
-      お申し込み受付中!</h1>
+      お申込み受付中!</h1>
       <p class="hero-text"> 
         キッズアップの大人気イベント！<br>
         英語でクリスマスハットカップケーキ作りや、<br>
