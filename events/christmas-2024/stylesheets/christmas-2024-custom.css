@@ -129,6 +129,9 @@ padding-bottom: 3rem;
 
 }
 
+.image-col{
+  position: relative;
+}
 
 
 .hero-col{    
@@ -143,6 +146,16 @@ padding-bottom: 3rem;
   padding: 1rem;
 }
 
+.earlybird{
+  position: absolute;
+  display: block;
+  transform: translate(-50%, -100%);
+  width: 85%;
+  left: 50%;
+  top: 85%;
+  z-index: 3;
+}
+
 .hero-h1{
   background: -moz-linear-gradient(180deg, rgba(28,71,63,1) 0%, rgba(39,125,90,1) 100%);
   background: -webkit-linear-gradient(180deg, rgba(28,71,63,1) 0%, rgba(39,125,90,1) 100%);
@@ -154,8 +167,6 @@ padding-bottom: 3rem;
   text-stroke: 2px #fbc868;
   paint-order: stroke fill;
   filter: drop-shadow(0px .25rem 0px #0f3931);
-  transform: rotate(2deg);
-
 }
 
 .hero-text{
@@ -276,7 +287,7 @@ transform: translate(20%, -50%);
   }
 
   .hero-cta-button {
-    font-size: 1.25rem;
+    font-size: 1.2rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -306,8 +317,18 @@ transform: translate(20%, -50%);
     padding-left: 0rem;
     padding-right: 0rem;
   }
-}
 
+  .earlybird{
+    position: absolute;
+    display: block;
+    transform: translate(-50%, -100%);
+    width: 75%;
+    left: 50%;
+    top: 77.5%;
+    z-index: 3;
+  }
+  
+}
 
 
 
@@ -366,7 +387,7 @@ transform: translate(20%, -50%);
   width: fit-content;
   font-family: "Shin-Maru-GP-DeBold";
   text-decoration: none;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   padding: 1rem;
   text-align: left;
   padding-left: 2rem;
@@ -576,15 +597,15 @@ filter: drop-shadow(0px 5px 0px #1b5f4a);
 /* Location 1 Styles */
 
 .location-name-1{
-  color: #e4bb69;
+  color: #c09866;
 }
 
 .map-pin-1-main-color{
-  fill: #e4bb69;
+  fill: #c09866;
 }
 
 .prefecture-tokyo-bg{
-  fill: #e4bb69; 
+  fill: #c09866; 
 }
 
 .prefecture-tokyo-text{
@@ -714,7 +735,7 @@ width: 100%;
 }
 
 .event-date-sub{
-  font-size: .75rem;
+  font-size: 1rem;
 }
 
 
@@ -873,7 +894,7 @@ padding-right: 1rem;
 .activity-decoration-2{
   position: absolute;
   transform: translate(0%, -50%);
-  width: 40%;
+  width: 25%;
   left: 70%;
   top: 80%;
 }
@@ -897,7 +918,6 @@ padding-right: 1rem;
 .activity-box-3-outer{
   position: relative;
   width: 90%;
-
   background-image: url(/events/christmas-2024/christmas-2024-images/activity-3-bg.svg);
   background-size: 100%, cover;
   background-repeat: no-repeat;
@@ -907,7 +927,7 @@ padding-right: 1rem;
   margin-right: auto;
   padding: 3rem;
   padding-top: 5rem;
- margin-bottom: 5rem;
+padding-bottom: 5rem;
 
 }
 
@@ -924,11 +944,19 @@ justify-content: flex-end;
 .activity-image-4{
   width: 115%;
   transform: translateY(-7.5rem);
-  margin-bottom: -6rem;
-  padd
+  margin-bottom: -8rem;
+  position: relative;
+
 }
 
 
+
+.e-sports-badge{
+  width: 40%;
+  position: absolute;
+  top: 20rem;
+  transform: rotate(-5deg);
+}
 
 .activity-box-3-inner-wrapper-1{
 
@@ -1386,7 +1414,7 @@ transform: rotate(-2deg);
 }
 
 .sign-up-h3 {
-  font-size: 1.75rem;
+  font-size: 1.45rem;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
   padding-top: 1rem;
@@ -1455,4 +1483,9 @@ transform: rotate(-2deg);
 .pre-footer-h2,
 .pre-footer-p {
   color: #ffffff;
+}
+
+
+.hidden-after-cutoff {
+  display: none !important;
 }

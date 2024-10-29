@@ -101,14 +101,20 @@
     <!-- HERO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <section class="hero">
-      <div class="snow">
 <div class="row">
 
-<div class="col-sm-6 hero-col">
+<div class="col-sm-6 hero-col image-col">
   <img src="./christmas-2024-images/hero-img.png" alt="Christmas Party" class="img-fluid hero-image">
+  <div class="hero-col">
+    <div class="earlybird hidden-before-cutoff ">
+  <img src="./christmas-2024-images/earlybird-prompt.svg" alt="earlybird-prompt" class="d-none d-sm-block earlybird-prompt">
+  <img src="./christmas-2024-images/earlybird-prompt-mobile.svg" alt="earlybird-prompt" class="d-block d-sm-none earlybird-prompt">
+</div>
   <button class="d-block d-sm-none hero-cta-button" onclick="formLink()">
     お申込みはこちら
   </button>
+
+</div>
 </div>
 
 
@@ -138,12 +144,36 @@
 
 </div>
 
-</div>
+
 <img src="./christmas-2024-images/hero-about-transition.svg" alt="hero-decoration" class="d-none d-sm-block about-decoration-top">
 <img src="./christmas-2024-images/hero-about-transition-mobile.svg" alt="hero-decoration" class="d-block d-sm-none about-decoration-top">
+
+
+
+
 </section>
 
+<style>.hidden-before-cutoff {
+  display: none !important;
+}
+</style>
 
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const cutoffDate = new Date('2024-12-3');
+  const currentDate = new Date();
+
+  if (currentDate <= cutoffDate) {
+    // Remove the hidden class to show elements before cutoff date
+    document.querySelectorAll('.earlybird').forEach(element => {
+      element.classList.remove('hidden-before-cutoff');
+    });
+  }
+});
+
+
+</script>
 
 
     <!-- ABOUT EVENT ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
@@ -293,7 +323,7 @@
 <div class="activity-box-2-text-wrapper">
   <h2 class="event-header event-header-2">フォトサービス</h2>
 
-  <p class="event-text event-text-2">このチャンスをお見逃しなく！<br>サンタと一緒に写真を撮ってクリスマスの魔法を記念に残そう♪<br> 最高の思い出を作るチャンスだよ！！<br>このチャンスをお見逃しなく！
+  <p class="event-text event-text-2">サンタと一緒に写真を撮ってクリスマスの魔法を記念に残そう♪<br> 最高の思い出を作るチャンスだよ！！<br>このチャンスをお見逃しなく！
   </p>
 </div>
 
@@ -312,6 +342,7 @@
 <div class="activity-box-3-inner">
 <div class="row ">
 <div class="col-sm-6 col-md-3 col-lg-6 activity-box-3-image-col">
+  
   <img src="./christmas-2024-images/activity-image-4.png" alt="activity-image-4" class="activity-image-4">
 
 </div>
@@ -373,17 +404,7 @@
               </div>
               <!-- End Slide 2 -->
 
-              <div class="swiper-slide">
-                <figure>
-                  <img
-                    src="./christmas-2024-images/gallery/gallery-3.webp"
-                    alt="img-3"
-                    class="swiper-img"
-                  />
-                </figure>
-              </div>
-              <!-- End Slide 3 -->
-
+ 
               <div class="swiper-slide">
                 <figure>
                   <img
@@ -394,6 +415,7 @@
                 </figure>
               </div>
               <!-- End Slide 4 -->
+
 
               <div class="swiper-slide">
                 <figure>
@@ -525,24 +547,5 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="christmas-javascript.js"></script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const accordionItems = document.querySelectorAll(".accordion-item");
-
-        accordionItems.forEach((item) => {
-          const button = item.querySelector(".accordion-button");
-          const icon = button.querySelector(".accordion-btn-icon");
-          const collapseElement = item.querySelector(".accordion-collapse");
-
-          collapseElement.addEventListener("show.bs.collapse", () => {
-            icon.style.transform = "rotate(45deg)";
-          });
-
-          collapseElement.addEventListener("hide.bs.collapse", () => {
-            icon.style.transform = "rotate(0deg)";
-          });
-        });
-      });
-    </script>
   </body>
 </html>
