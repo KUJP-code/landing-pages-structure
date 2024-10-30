@@ -318,14 +318,24 @@ transform: translate(20%, -50%);
     padding-right: 0rem;
   }
 
+  .hero-image-mobile-wrapper{
+    display: block;
+    height: fit-content;
+  }
+
   .earlybird{
     position: absolute;
-    display: block;
-    transform: translate(-50%, -100%);
+    transform: translate(-50%, -200%);
     width: 75%;
     left: 50%;
-    top: 77.5%;
+   bottom: 0%;
     z-index: 3;
+  }
+
+  .hero-text-small{
+    line-height: 1;
+    margin-bottom: 2rem;
+    font-size: .9rem;
   }
   
 }

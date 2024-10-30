@@ -104,17 +104,24 @@
 <div class="row">
 
 <div class="col-sm-6 hero-col image-col">
+  <div class="hero-image-mobile-wrapper">
   <img src="./christmas-2024-images/hero-img.png" alt="Christmas Party" class="img-fluid hero-image">
   <div class="hero-col">
     <div class="earlybird hidden-before-cutoff ">
   <img src="./christmas-2024-images/earlybird-prompt.svg" alt="earlybird-prompt" class="d-none d-sm-block earlybird-prompt">
   <img src="./christmas-2024-images/earlybird-prompt-mobile.svg" alt="earlybird-prompt" class="d-block d-sm-none earlybird-prompt">
 </div>
+</div>
+</div>
+
+
+<br>
+<p class="d-block d-sm-none hero-text hero-text-small">（スクールで直接お申込みも承っております)</p>
   <button class="d-block d-sm-none hero-cta-button" onclick="formLink()">
     お申込みはこちら
   </button>
 
-</div>
+
 </div>
 
 
@@ -133,7 +140,7 @@
         良い子にはサンタクロースから<br class="d-block d-sm-none">プレゼントがもらえるかも！？<br>
         英語初心者の方も、上級者の方も大歓迎です！<br>
  
-        <br><span class="hero-text-small">（スクールで直接お申込みも承っております)</span></p>
+        <br><span class="d-none d-sm-block hero-text-small">（スクールで直接お申込みも承っております)</span></p>
       <button class="d-none d-sm-block hero-cta-button" onclick="formLink()">
         お申込みはこちら
       </button>
@@ -200,8 +207,9 @@ document.addEventListener("DOMContentLoaded", () => {
             <p class="about-p">
           
      
-              英語環境でネイティブの先生と過ごすクリスマスパーティー！<br>
-              クリスマスハットみたいなかわいいカップケーキ作りや、白熱の<br>eスポーツゲームで熱いバトルを楽しもう♪ まるで海外にいるような気分♪
+              英語環境でネイティブの先生と過ごすクリスマスパーティー！<br class="d-none d-sm-block">
+              クリスマスハットみたいなかわいいカップケーキ作りや、<br class="d-none d-sm-block
+              ">白熱のeスポーツゲームで熱いバトルを楽しもう♪ まるで海外にいるような気分♪
             </p>
             <button class="cta-button-about" onclick="formLink()">
               お申込みはこちら
