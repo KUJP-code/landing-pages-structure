@@ -56,6 +56,11 @@
   })(document);
 </script>
 
+<link rel="preload" href="/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf" as="font" type="font/otf" crossorigin="anonymous">
+<link rel="preload" href="/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf" as="font" type="font/otf" crossorigin="anonymous">
+<link rel="preload" href="/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff" as="font" type="font/otf" crossorigin="anonymous">
+<link rel="preload" href="/wp-content/themes/kidsup/fonts/A-OTF-SHINMGOPRO-HEAVY.OTF" as="font" type="font/otf" crossorigin="anonymous">
+
 <link rel="preconnect" href="https://fonts.googleapis.com" />
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link

@@ -116,7 +116,7 @@
 
 
 <br>
-<p class="d-block d-sm-none hero-text hero-text-small">（スクールで直接お申込みも承っております)</p>
+
   <button class="d-block d-sm-none hero-cta-button" onclick="formLink()">
     お申込みはこちら
   </button>
@@ -138,9 +138,8 @@
         英語でクリスマスハットカップケーキ作りや、<br>
         チームで挑戦するエキサイティングな<br class="d-block d-sm-none">eスポーツのゲームに挑戦しよう♪<br>
         良い子にはサンタクロースから<br class="d-block d-sm-none">プレゼントがもらえるかも！？<br>
-        英語初心者の方も、上級者の方も大歓迎です！<br>
- 
-        <br><span class="d-none d-sm-block hero-text-small">（スクールで直接お申込みも承っております)</span></p>
+        英語初心者の方も、上級者の方も大歓迎です！</p>
+
       <button class="d-none d-sm-block hero-cta-button" onclick="formLink()">
         お申込みはこちら
       </button>
@@ -277,7 +276,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       
       <h2 class="section-h2 event-date">クリスマスパーティー 12/14 (土)</h2>
-      <h5 class="event-date event-date-sub">※開催時間はスクールによって異なりますので申し込みフォームにてご確認ください。</h5>
+      <h5 class="event-date event-date-sub">※開催日はスクールによって異なりますので申し込みフォームにてご確認ください。</h5>
 
 <div class="container event-section">
      
@@ -465,7 +464,7 @@ document.addEventListener("DOMContentLoaded", () => {
     <section class="sign-up" id="div5">
       <div class="container">
         <h2 class="sign-up-h2">
-          Kids UPのクリスマスパーティー<br class="d-sm-none" />ご参加までの流れ
+        クリスマスパーティー<br class="d-sm-none" />ご参加までの流れ
         </h2>
 
         <div class="row sign-up-row">
