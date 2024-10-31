@@ -36,15 +36,13 @@ nav {
 
 .nav-link {
   color: #f3f4df;
-  -webkit-text-stroke: 3px #237c59;
-  text-stroke: 2px #237c59;
   paint-order: stroke fill;
+  transition: 0.2s ease-in-out;
 }
 
 .nav-link:hover {
-  color:  #892c3c;
-  -webkit-text-stroke: 3px #ffffff;
-  text-stroke: 2px #ffffff;
+  color: #f3f4df;
+  opacity: .6;
 }
 
 .navbar-nav {
@@ -388,7 +386,6 @@ transform: translate(20%, -50%);
 .about-decoration-bottom{
   width: 100%;
   position: absolute;
-  bottom: ;
   z-index: 0;
 
 }
