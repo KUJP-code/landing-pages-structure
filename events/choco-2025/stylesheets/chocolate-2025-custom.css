@@ -1,0 +1,586 @@
+/* NAVBAR ----------------------------------------------------------------- */
+.navbar {
+    top: 0;
+    width: 100%;
+    height: 3.65rem;
+    box-shadow: none;
+    background-color: #ffffff00;
+    transition: 0.3s ease-in-out;
+  }
+  
+
+  .navbar.scrolled {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    background-color: #2E0E0E;
+    transition: 0.3s ease-in-out;
+  }
+  
+  nav {
+    background-color: #ffffff00;
+  }
+  
+
+
+  
+  .nav-link {
+    color: #f3f4df;
+    paint-order: stroke fill;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .nav-link:hover {
+    color: #f3f4df;
+    opacity: .6;
+  }
+  
+  .navbar-nav {
+    background-color: #ffffff00;
+  }
+  
+  .nav-btn {
+    background: white;
+    color: #892c3c;
+  }
+  
+  .nav-btn:hover {
+    background: #892c3c;
+    color: #fff;
+  }
+  
+  @media (max-width: 991px) {
+    .navbar {
+      top: 0;
+      width: 100%;
+      height: 3.65rem;
+      box-shadow: none;
+      background-color: #ffffff00;
+      transition: 0.3s ease-in-out;
+      margin-left: none;
+      margin-right: none;
+    }
+  
+    .navbar-nav {
+      background-color: #ffffff00;
+    }
+  
+    .navbar-collapse{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: #0f3932;
+      position: absolute;
+      width: 100%;
+      top: 3.65rem;
+      padding-top: 0rem !important;
+    }
+  
+    .nav-btn {
+     width: fit-content;
+     text-align: center;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     padding-left: 2.5rem;
+     padding-right: 2.5rem;
+     font-size: 1rem;
+     line-height: 1;
+    }
+  
+  .nav-link{
+    font-size: 1rem;
+  }
+  
+  }
+  
+
+
+/* HERO ----------------------------------------------------------------- */
+
+
+.hero{
+background: rgb(148,102,83);
+background: radial-gradient(circle, rgba(148,102,83,1) 0%, rgba(92,43,39,1) 100%);
+position: relative;
+width: 100%;
+aspect-ratio: 16/9;
+padding-bottom: 0rem;
+}
+
+.hero-gradient{
+    position: relative;
+    background: rgb(148,102,83);
+    background: linear-gradient(180deg, rgba(148,102,83,0) 80%, rgba(92,43,39,1) 100%);
+    width: 105%;
+    height: 100%;
+    display: block;
+    margin-left: -2.5%;
+    margin-bottom: -1%;
+    margin-right: auto;
+}
+
+@media (min-width: 576px) and (orientation: portrait) {
+    .hero {
+        height: calc(100vw * 10 / 16); /* Maintain a 16:10 aspect ratio */
+    }
+}
+
+
+
+@keyframes spin {
+    from {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}
+
+.swirl-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 115vw; /* Fill the viewport width */
+    height: auto; /* Maintain aspect ratio */
+    transform: translate(-50%, -50%);
+    animation: spin 120s linear infinite; /* Apply spin animation */
+    overflow: hidden; /* Hidden overflow to avoid extra content */
+}
+
+
+@media (max-width: 576px) {
+    .hero{
+        height: 100vh;
+    }
+
+
+.swirl-bg {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: auto; /* Fill the viewport width */
+    height: 110vh; /* Maintain aspect ratio */
+    transform: translate(-50%, -50%);
+    animation: spin 80s linear infinite; /* Apply spin animation */
+    overflow: hidden; /* Hidden overflow to avoid extra content */
+}
+}
+
+.hero-top{
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -3.1rem;
+    margin-left: -0.5%;
+    width: 101%;
+    height: auto;
+}
+
+
+.desktop-splash{
+    position: relative;
+    width: 90%;
+    max-width: 1920px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    z-index: 1;
+}
+
+
+.hero-bottom-decoration{
+    display: block;
+    position: absolute;
+    bottom: 0%;
+    width: 101%;
+    margin-left: -.5%;
+    transform: translateY(3px);
+}
+
+
+/* ABOUT ----------------------------------------------------------------- */
+
+.event-about {
+    background-color: #B07258;
+    margin-bottom: 0rem;
+    position: relative;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+  }
+
+
+  .explainer-container{
+    display: flex;
+    align-items: center;
+  }
+  .about-h2 {
+    color: #fff;
+    display: block;
+    z-index: 1;
+  }
+  
+  .about-p {
+    font-family: "Shin-Maru-GP-Regular";
+    color: #fff;
+  }
+  
+  .about-event-img {
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: fit-content;
+    max-width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .about-decoration-bottom{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+  
+  }
+  
+  .cta-button-about{
+    width: fit-content;
+    font-family: "Shin-Maru-GP-DeBold";
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 1rem;
+    text-align: left;
+    padding-left: 2rem;
+    padding-right: 8rem;
+    border-radius: 3rem;
+    transition-duration: 0.3s;
+    margin-top: 1rem;
+  
+    color: #0f3931;
+    background-color: #fff;
+    border: solid 0.2rem #fff;
+    border: solid 0.2rem #0f3931;
+    transition: ease-in-out 0.2s;
+    filter: drop-shadow(0px .25rem 0px #0f3931);
+  }
+  
+  .cta-button-about:hover{
+    color: white;
+    background-color: #892c3c;
+    border: solid 0.2rem #fff;
+    transition: ease-in-out 0.2s;
+    filter: drop-shadow(0px .25rem 0px #fff);
+  }
+  
+  
+  .cta-button-about::after {
+    content: url(../christmas-2024-images/btn-arrow.svg);
+    position: absolute;
+    right: 2rem; /* Adjust the distance from the right edge */
+    top: 55%;
+    transform: translateY(-50%);
+    transition: ease-in-out 0.2s;
+  }
+  
+  .cta-button-about:hover::after {
+    content: url(../christmas-2024-images/btn-arrow-hover.svg);
+    transition: ease-in-out 0.2s;
+  }
+  
+  .about-event-row{
+    width: 100%;
+    padding-top: 2rem;
+  }
+  
+  
+  .about-event-column{
+    background-color: #5C2B27;
+    aspect-ratio: 1/1;
+    margin: 1rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: calc(33.3% - 2rem);
+    position: relative;
+  }
+  
+  .about-benefit-icon{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+  }
+  
+  .about-event-h3{
+    font-size: 1rem;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 1rem;
+    font-family: "Shin-Maru-GP-Bold";
+    line-height: 1;
+    padding: none !important;
+    margin: none !important;
+    padding-bottom: none !important;
+    margin-bottom: none !important;
+  }
+  
+  .about-event-p{
+    font-size: .9rem;
+    color: white;
+    padding: none !important;
+    margin: none !important;
+    padding-bottom: none !important;
+    margin-bottom: none !important;
+  }
+  
+  .about-event-decoration-1 {
+  position: absolute;
+  top: 0rem;
+  left: 0rem;
+  width: 40%;
+  transform: translate(-25%, -25%);
+  }
+  
+  .about-event-decoration-2 {
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    width: 40%;
+    transform: translate(0%, -0.2%);
+  
+  }
+  
+  
+  @media (max-width: 576px) {
+  
+    .about-decoration-top{
+      width: 102%;
+      transform: translate(-1%, .5rem);
+      margin-bottom: -3rem;
+      margin-top: 1rem;
+    }
+    
+  
+    .about-event-column{
+      background-color: #B36E5C;
+      aspect-ratio: auto;
+      margin: 1rem;
+      border-radius: 2rem;
+      padding: 1rem;
+      width:100%;
+      
+    }
+  
+    
+  .about-event-h3{
+    font-size: 1rem;
+  
+  }
+  
+  
+  
+  .about-event-p{
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .cta-button-about{
+    width: 100%;
+    padding-right:0rem;
+  }
+  
+  .about-event-decoration-1{
+    width: 45%;
+    left: 0%;
+    top: 7.5%;
+  }
+  
+  .about-event-decoration-2{
+    width: 33%;
+    top: 60%;
+    z-index: 0;
+  }
+    
+    
+  }
+  
+  
+  
+  /* LOCATIONS ----------------------------------------------------------------- */
+  
+  .prefecture-title{
+  height: 4rem;
+  margin: 1rem;
+  margin-left: 0;
+  filter: drop-shadow(0px 5px 0px #9c5e4f);
+  }
+  
+  
+  .location-row{
+    margin-bottom: 2rem;
+  }
+  
+  
+  .location-area-wrapper{
+    padding-bottom: 1rem;
+  }
+  
+  
+  .location-outer{
+    position: relative;
+    height: auto;
+    padding-top: .5rem;
+    padding-bottom: .5rem;    
+    filter: drop-shadow(0px 5px 0px #9c5e4f);
+  }
+  
+  
+  .location-pin{
+    position: absolute;
+    width: 3rem;
+    transform: translate(0%, -50%);
+    margin-top: 1.5rem;
+    
+  }
+  .location-name-1, .location-name-2, .location-name-3, .location-name-4{
+  
+    font-family: "Shin-Maru-GP-Bold";
+    background-color: white;
+  
+  }
+  
+  .map-pin-1-bg-color, .map-pin-2-bg-color, .map-pin-3-bg-color, .map-pin-4-bg-color{
+    fill: white;
+  }
+  
+  
+  /* Location 1 Styles */
+  
+  .location-name-1{
+    color: #00B79D;
+  }
+  
+  .map-pin-1-main-color{
+    fill: #00B79D;
+  }
+  
+  .prefecture-tokyo-bg{
+    fill: #00B79D; 
+  }
+  
+  .prefecture-tokyo-text{
+    fill: #fff;
+    stroke-width: 0px;
+  }
+  
+  
+  /* Location 2 Styles */
+  
+  
+  .location-name-2{
+    color: #568FCB;
+  }
+  
+  .map-pin-2-main-color{
+    fill: #568FCB;
+  }
+  
+  .prefecture-kanagawa-bg{
+    fill: #568FCB;
+  }
+  
+  .prefecture-kanagawa-text{
+    fill: #fff;
+    stroke-width: 0px;
+  }
+  
+  
+  /* Location 3 Styles */
+  
+  
+  .location-name-3{
+    color: #F8BE41
+  }
+  
+  .map-pin-3-main-color{
+    fill: #F8BE41
+  }
+  
+  .prefecture-chiba-bg{
+    fill: #F8BE41
+  }
+  
+  .prefecture-chiba-text{
+    fill: #fff;
+    stroke-width: 0px;
+  }
+  
+  
+  /* Location 4 Styles */
+  
+  
+  .location-name-4{
+    color: #F06390;
+  }
+  
+  
+  .location-name-4{
+    color: #F06390;
+  }
+  
+  .map-pin-4-main-color{
+    fill: #F06390;
+  }
+  
+  .prefecture-saitama-bg{
+    fill: #F06390;
+  }
+  
+  .prefecture-saitama-text{
+    fill: #fff;
+    stroke-width: 0px;
+  }
+  
+  
+  
+  .location-school{
+    font-family: "Shin-Maru-GP-DeBold";
+    margin-left: 2rem;
+    font-size: 1rem;
+    padding-top: 0.25rem;
+    color: white;
+  }
+  
+  @media (max-width: 576px) {
+    .prefecture-title{
+      height: 4rem;
+      margin: 0.1rem;
+      margin-left: 0;
+      filter: drop-shadow(0px 5px 0px #e5cca8);
+      }
+      
+  }
+  .mobile-accordion-item{
+  background-color: #ffffff00;
+  }
+  
+  
+  .mobile-accordion-body{
+    width: 100%;
+    padding: 0rem;
+    margin: 0rem;
+  }
+  
+  .mobile-accordion-button{
+  width: 100%;
+   padding-top: .25rem;
+   padding-bottom: .25rem
+   ;
+  }
+  
+  .accordion-button::after {
+    display: none !important;
+  }

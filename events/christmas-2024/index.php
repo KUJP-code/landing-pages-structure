@@ -30,6 +30,7 @@
     <meta name="twitter:card" content="summary_large_image" />
 
     <link href="./stylesheets/christmas-2024-custom.css" rel="stylesheet" />
+    <link href="./stylesheets/chocolate-2025-custom.css" rel="stylesheet" />
     <title>クリスマスパーティー2024 at Kids UP</title>    
   </head>
 
@@ -101,6 +102,7 @@
     <!-- HERO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <section class="hero">
+      <img src="" alt="">
 <div class="row">
 
 <div class="col-sm-6 hero-col image-col">
