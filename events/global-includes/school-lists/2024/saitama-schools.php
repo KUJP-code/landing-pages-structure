@@ -8,7 +8,7 @@
         </svg>
            <h3 class="location-name-4">川口市</h3>
         </div>
-        <h4 class="location-school">- Kids UP　川口</h4>
+        <h4 class="location-school">- Kids UP 川口</h4>
      </div>
 
      </div>

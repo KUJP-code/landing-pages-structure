@@ -1,3 +1,49 @@
+/* COMMON ----------------------------------------------------------------- */
+html{
+    background-color: #2E0E0E;
+}
+
+body{
+    background-color: #2E0E0E;
+}
+
+.transition-decoration-top{
+  display: block;
+  position: absolute;
+  bottom: 0%;
+  width: 110%;
+  margin-left: -5%;
+  transform: translateY(3px);
+}
+
+.transition-decoration-bottom{
+  display: block;
+  position: absolute;
+  top: 0%;
+  width: 110%;
+  margin-left: -5%;
+}
+
+.section-h2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-family: "Shin-Maru-GP-Bold";
+  color: white;
+}
+
+p {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+@media (max-width: 576px){
+.small-container{
+  max-width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+}
 /* NAVBAR ----------------------------------------------------------------- */
 .navbar {
     top: 0;
@@ -39,11 +85,11 @@
   
   .nav-btn {
     background: white;
-    color: #892c3c;
+    color: #5C2B27;
   }
   
   .nav-btn:hover {
-    background: #892c3c;
+    background: #5C2B27;
     color: #fff;
   }
   
@@ -67,7 +113,7 @@
       display: block;
       margin-left: auto;
       margin-right: auto;
-      background-color: #0f3932;
+      background-color: #5C2B27;
       position: absolute;
       width: 100%;
       top: 3.65rem;
@@ -120,7 +166,7 @@ padding-bottom: 0rem;
 
 @media (min-width: 576px) and (orientation: portrait) {
     .hero {
-        height: calc(100vw * 10 / 16); /* Maintain a 16:10 aspect ratio */
+        height: calc(100vw * 11 / 16); /* Maintain a 16:10 aspect ratio */
     }
 }
 
@@ -147,23 +193,6 @@ padding-bottom: 0rem;
 }
 
 
-@media (max-width: 576px) {
-    .hero{
-        height: 100vh;
-    }
-
-
-.swirl-bg {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    width: auto; /* Fill the viewport width */
-    height: 110vh; /* Maintain aspect ratio */
-    transform: translate(-50%, -50%);
-    animation: spin 80s linear infinite; /* Apply spin animation */
-    overflow: hidden; /* Hidden overflow to avoid extra content */
-}
-}
 
 .hero-top{
     position: absolute;
@@ -178,26 +207,177 @@ padding-bottom: 0rem;
 
 
 .desktop-splash{
-    position: relative;
-    width: 90%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 40%;
+    width: 75%;
     max-width: 1920px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding-top: 1rem;
     z-index: 1;
+    margin-bottom: -14rem;
+}
+
+.mobile-splash{
+  position: relative;
+  width: 100%;
+  margin-bottom: -4rem;
+  z-index: 2;
+  padding-top: 3rem;
 }
 
 
-.hero-bottom-decoration{
-    display: block;
-    position: absolute;
-    bottom: 0%;
-    width: 101%;
-    margin-left: -.5%;
-    transform: translateY(3px);
+.earlybird{
+  position: absolute;
+transform: translate(0%, -100%) rotate(15deg);
+left: 63%;
+top: 65%;
+  width: 20%;
+  
+  max-width: 400px;
+  height: auto;
+  z-index: 3;
 }
 
+.hero-textbox{
+  position: absolute;
+  transform: translate(-50%, 0%);
+  z-index: 2;
+  width: 75%;
+  max-width: 1920px;
+  left: 50%;
+  top: 65%;
+}
+
+.hero-h2{
+  color: white;
+  text-align: center;
+  font-family: "Shin-Maru-GP-Regular";
+  font-size: 1.25rem;
+}
+
+.hero-cta-button {
+  position: relative;
+  width: fit-content;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0.5rem 6rem 0.5rem 2rem;
+  font-size: 1.5rem;
+  color: #5C2B27;
+  font-family: "Shin-Maru-GP-Bold";
+  background: rgb(177,106,24);
+  background: -moz-linear-gradient(90deg, rgba(177,106,24,1) 0%, rgba(251,200,104,1) 62%, rgba(255,249,207,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(177,106,24,1) 0%, rgba(251,200,104,1) 62%, rgba(255,249,207,1) 100%);
+  background: linear-gradient(90deg, rgba(177,106,24,1) 0%, rgba(251,200,104,1) 62%, rgba(255,249,207,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b16a18",endColorstr="#fff9cf",GradientType=1);
+  border-radius: 6rem;
+  border: solid 0.2rem #5C2B27;
+  transition: ease-in-out 0.2s;
+  filter: drop-shadow(0px .25rem 0px #5C2B27);
+  margin-top: 1rem;
+}
+
+.hero-cta-button:hover {
+  color: #fff;
+  border: solid 0.2rem #fbc868;
+  transition: ease-in-out 0.2s;
+  z-index: 1;
+  filter: drop-shadow(0px .25rem 0px #fbc868);
+  background: rgb(92, 43, 39,1);
+  background: -moz-linear-gradient(90deg, rgb(92, 43, 39,1) 0%, rgb(92, 43, 39,1) 100%);
+  background: -webkit-linear-gradient(90deg, rgb(92, 43, 39,1) 0%, rgb(92, 43, 39,1) 100%);
+  background: linear-gradient(90deg, rgb(92, 43, 39,1) 0%, rgb(92, 43, 39,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#237c59",endColorstr="#237c59",GradientType=1);
+
+}
+
+.hero-cta-button::after {
+  content: url(../choco-2025-images/btn-arrow.svg);
+  position: absolute;
+  right: 2rem; /* Adjust the distance from the right edge */
+  top: 50%;
+  transform: translateY(-50%);
+  transition: ease-in-out 0.2s;
+  width: 1.5rem;
+}
+
+.hero-cta-button:hover::after {
+  content: url(../choco-2025-images/btn-arrow-hover.svg);
+  transition: ease-in-out 0.2s;
+}
+
+
+@media (max-width: 576px) {
+  .hero{
+    background: rgb(148,102,83);
+    background: radial-gradient(circle, rgba(148,102,83,1) 0%, rgba(92,43,39,1) 100%);
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    aspect-ratio: auto;
+    padding-bottom: 0rem;
+  }
+
+.swirl-bg {
+  position: absolute;
+  left: 50%;
+  top: 80%;
+  min-width: 200vw;
+  width: auto; /* Fill the viewport width */
+  height: 150vh; /* Maintain aspect ratio */
+  transform: translate(-50%, -50%);
+  animation: spin 80s linear infinite; /* Apply spin animation */
+  overflow: hidden; /* Hidden overflow to avoid extra content */
+
+}
+
+.mobile-subhero{
+  width: 95%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2rem;
+}
+
+.hero-h2{
+  line-height: 1.5;
+  font-size: clamp(1.1rem, calc(1.1rem + (1.5 - 1.1) * ((100vw - 320px) / (575 - 320))), 1.5rem);
+  padding-top: 1rem;
+
+
+
+
+}
+
+.hero-cta-button {
+  width: 100%;
+  padding-right:0rem;
+  text-align: left;
+}
+
+.earlybird{
+  position: absolute;
+  transform: translate(-50%, -100%) rotate(-15deg);
+  left: 28%;
+  top: 57%;
+    width: 55%;
+    max-width: 400px;
+    height: auto;
+    z-index: 3;
+  }
+
+.hero-h2{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+}
 
 /* ABOUT ----------------------------------------------------------------- */
 
@@ -246,29 +426,36 @@ padding-bottom: 0rem;
   }
   
   .cta-button-about{
+    position: relative;
     width: fit-content;
-    font-family: "Shin-Maru-GP-DeBold";
-    text-decoration: none;
-    font-size: 1.5rem;
-    padding: 1rem;
-    text-align: left;
-    padding-left: 2rem;
-    padding-right: 8rem;
-    border-radius: 3rem;
-    transition-duration: 0.3s;
-    margin-top: 1rem;
+    text-align: center;
+    display: block;
   
-    color: #0f3931;
-    background-color: #fff;
-    border: solid 0.2rem #fff;
-    border: solid 0.2rem #0f3931;
+    margin-right: auto;
+    padding: 0.5rem 6rem 0.5rem 2rem;
+    font-size: 1.5rem;
+    color: #5C2B27;
+    font-family: "Shin-Maru-GP-Bold";
+    background: rgb(177,106,24);
+    background: -moz-linear-gradient(90deg, rgba(177,106,24,1) 0%, rgba(251,200,104,1) 62%, rgba(255,249,207,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(177,106,24,1) 0%, rgba(251,200,104,1) 62%, rgba(255,249,207,1) 100%);
+    background: linear-gradient(90deg, rgba(177,106,24,1) 0%, rgba(251,200,104,1) 62%, rgba(255,249,207,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b16a18",endColorstr="#fff9cf",GradientType=1);
+    border-radius: 6rem;
+    border: solid 0.2rem #5C2B27;
     transition: ease-in-out 0.2s;
-    filter: drop-shadow(0px .25rem 0px #0f3931);
+    filter: drop-shadow(0px .25rem 0px #5C2B27);
+    margin-top: 1rem;
   }
+  
   
   .cta-button-about:hover{
     color: white;
-    background-color: #892c3c;
+    filter: drop-shadow(0px .25rem 0px #fbc868);
+    background: rgb(92, 43, 39,1);
+    background: -moz-linear-gradient(90deg, rgb(92, 43, 39,1) 0%, rgb(92, 43, 39,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgb(92, 43, 39,1) 0%, rgb(92, 43, 39,1) 100%);
+    background: linear-gradient(90deg, rgb(92, 43, 39,1) 0%, rgb(92, 43, 39,1) 100%);
     border: solid 0.2rem #fff;
     transition: ease-in-out 0.2s;
     filter: drop-shadow(0px .25rem 0px #fff);
@@ -276,16 +463,17 @@ padding-bottom: 0rem;
   
   
   .cta-button-about::after {
-    content: url(../christmas-2024-images/btn-arrow.svg);
+    content: url(../choco-2025-images/btn-arrow.svg);
     position: absolute;
     right: 2rem; /* Adjust the distance from the right edge */
-    top: 55%;
+    top: 50%;
     transform: translateY(-50%);
     transition: ease-in-out 0.2s;
+    width: 1.5rem;
   }
   
   .cta-button-about:hover::after {
-    content: url(../christmas-2024-images/btn-arrow-hover.svg);
+    content: url(../choco-2025-images/btn-arrow-hover.svg);
     transition: ease-in-out 0.2s;
   }
   
@@ -365,7 +553,6 @@ padding-bottom: 0rem;
     
   
     .about-event-column{
-      background-color: #B36E5C;
       aspect-ratio: auto;
       margin: 1rem;
       border-radius: 2rem;
@@ -388,19 +575,23 @@ padding-bottom: 0rem;
   }
   
   .cta-button-about{
-    width: 100%;
+    width: 95%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     padding-right:0rem;
+    text-align: left;
   }
   
   .about-event-decoration-1{
     width: 45%;
     left: 0%;
-    top: 7.5%;
+    top: 0%;
   }
   
   .about-event-decoration-2{
-    width: 33%;
-    top: 60%;
+    width: 45%;
+    top: 0%;
     z-index: 0;
   }
     
@@ -584,3 +775,765 @@ padding-bottom: 0rem;
   .accordion-button::after {
     display: none !important;
   }
+
+
+
+  /* ACTIVITY INFO ------------------------------------------------------------------*/
+.event-activities {
+  background-color: #5C2C27;
+  padding-bottom: -2rem;
+  position: relative;
+  z-index: 2;
+  padding-top: 6rem;
+}
+
+.event-about-wrapper{
+  padding: .4rem;
+  width: fit-content;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-style: solid;
+  border-color: #FAB451;
+  border-radius: 3rem;
+  background-color: #5C2C27;
+  border-width: .25rem;
+  display: block;
+  padding-bottom: .0rem;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  
+}
+
+
+.event-about-wrapper-decoration-left{
+  position: absolute;
+transform: translate(-100%, -50%);
+width: 40%;
+top: 50%;
+left: 0%;
+}
+
+.event-about-wrapper-decoration-right{
+  position: absolute;
+  transform: translate(0%, -50%);
+  width: 40%;
+  top: 50%;
+  left: 100%;
+}
+
+.event-about-header{
+  text-align: center;
+  color: #FAB451;
+  background-color: none;
+  line-height: 1;
+  padding: 0rem;
+  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Bold";
+}
+
+.event-section{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1320px;
+}
+
+.activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-size:75%, auto;
+  background-repeat: no-repeat;
+  
+}
+
+.activity-text-container{
+  position: relative;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6rem;
+  padding-left: 4.5rem;
+  padding-right: 4.5rem;
+  padding-bottom: 4.5;
+}
+
+.activity-title-wrapper{
+  width: 60%;
+  aspect-ratio:  113 / 31;
+  background-image: url(../choco-2025-images/activity-step-bg.svg);
+  background-size: 100%, auto;
+  background-repeat: no-repeat;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  top: 0%;
+  left: 50%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.activity-title{
+  color: #5C2B27;
+  font-family: "Shin-Maru-GP-Ultra";
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+
+.activity-text{
+  color: #FCB552;
+  font-size: 1.2rem;
+}
+
+.activity-text-sub{
+  font-size: .9rem;
+}
+
+.step-img-wrapper{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.activity-step-1-wrapper{
+  background-image: url(../choco-2025-images/activity-bg-1.svg);
+  background-position: center right;
+}
+
+.activity-step-2-wrapper{
+  background-image: url(../choco-2025-images/activity-bg-2.svg);
+  background-position: center left;
+}
+
+.activity-step-3-wrapper{
+  background-image: url(../choco-2025-images/activity-bg-3.svg);
+  background-position: center right;
+}
+
+.step-number-1, .step-number-2, .step-number-3{
+position: absolute;
+transform: translate(-50%, -50%);
+width: 40%;
+}
+
+.step-number-1{
+  top: 10%;
+  left: 15%;
+}
+
+
+.step-number-2{
+  top: 15%;
+  left: 80%;
+}
+
+.step-number-3{
+  top: 25%;
+  left: 25%;
+}
+
+
+.activity-decoration-1{
+  position: absolute;
+  transform: translate(-90%, 0%);
+  left: 100%;
+  top: 5%;
+  width: 60%;
+  height: auto;
+
+}
+
+
+.activity-decoration-2{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 80%;
+  top: 85%;
+  width: 60%;
+    height: auto;
+
+}
+
+.decoration-blob-1{
+  position: absolute;
+  left: 0;
+  transform: translate(0, -50%);
+  width: 10rem;
+  z-index: -1;
+}
+
+.decoration-blob-2{
+  position: absolute;
+  right: 00%;
+  transform: translate(0%, -50%);
+  width: 10rem;
+  z-index: -1;
+}
+
+.bottom-section{
+  border-style: solid;
+  border-width: .5rem;
+  border-color: #FCB553;
+  border-radius: 3rem;
+  padding: 2rem;
+
+}
+
+.bottom-title{
+  color: #FCB553;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-bottom: 2rem;
+}
+
+.bottom-section-text{
+  font-size: 1.25rem;
+  color: #FCB553;
+  width: 95%;
+}
+
+.bottom-section-divider-horizontal{
+  border-style: solid;
+  border-width: .25rem;
+  border-color: #FCB553;
+  border-radius: .25rem;
+  height: .25rem;
+  margin-bottom: 2rem;
+}
+
+.bottom-section-text-1{
+  padding-bottom: 2rem;
+}
+
+.card-box{
+  position: relative;
+}
+
+.bottom-card-img{
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+
+.bottom-section-row-2{
+  position: relative;
+}
+
+.bottom-section-divider-vertical{
+  position: absolute;
+  border-style: solid;
+  border-width: .25rem;
+  border-color: #FCB553;
+  border-radius: .25rem;
+  height: .25rem;
+  height: 100%;
+  width: 0;
+  margin: 0 !important;
+  padding: 0% !important;
+  left: 50%;
+  transform: translate(-100%);
+}
+
+
+/* Extra large devices (large desktops, 1200px to 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  .event-section{
+    width: 1140px;
+  }
+  
+
+
+  .activity-text{
+    color: #FCB552;
+    font-size: 1rem;
+  }
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    background-size:80%, auto;
+    background-repeat: no-repeat;
+  }
+
+  .bottom-card-img{
+    width: 120%;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .event-section{
+    width: 960px;
+  }
+  
+
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    background-size:80%, auto;
+    background-repeat: no-repeat;
+  }
+
+  .bottom-card-img{
+    width: 120%;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .event-section{
+    width: 720px;
+  }
+  
+
+
+  .activity-text-container{
+    padding: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .bottom-card-img{
+    width: 135%;
+    transform: translate(-2.5rem, 0);
+  }
+
+}
+
+/* Small devices (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+  .event-section{
+    width: 540px;
+  }
+  
+
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    background-size:100%, auto;
+    background-repeat: no-repeat;
+  }
+
+  .activity-text-container{
+    padding: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+  }
+
+    .bottom-card-img{
+    width: 135%;
+    transform: translate(-2.5rem, 0);
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.event-section {
+  width: 100% !important;
+  padding: none !important;
+  margin: none !important;
+}
+
+.step-img-wrapper{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.activity-text-container{
+  position: relative;
+
+  list-style: none;
+  display: block !important;
+  margin-left: auto !important;
+  margin-left: auto !important;
+  padding: 1rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: 1rem !important;
+  justify-content: center;
+}
+
+.activity-text{
+  color: #FCB552;
+  font-size: 1.2rem;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    width: 100% !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-right: auto !important;
+    background-image: none;
+    background-color: #7B3632;
+
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding: 0rem !important;
+  }
+
+  .activity-title-wrapper{
+    width: 100%;
+    aspect-ratio:  113 / 31;
+    background-image: url(../choco-2025-images/activity-step-bg.svg);
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: translate(0%, 0%);
+    top: 0%;
+    left: 0%;
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+  }
+
+  .activity-title{
+    font-size: 1.25rem;
+  }
+  
+  .topbox{
+    margin-top: 3.5rem;
+  }
+
+  .bottombox{
+    margin-bottom: 3.5rem;
+  }
+  
+
+  .mobile-activity-top{
+    transform: translate(0, -100%);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+
+
+  .mobile-activity-bottom{
+    transform: translate(0, 0%);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    
+  }
+
+  .activity-decoration-2{
+    width: 60%;
+    transform: translate(-100%, -80%);
+    top: 100%;
+    left: 100%;
+    z-index: 1;
+  }
+
+.decoration-blob-1, .decoration-blob-2{
+  display: none;
+}
+
+
+.bottom-section{
+  margin-top: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bottom-card-img{
+  width: 100%;
+  transform: translate(0, 0);
+  position: relative;
+}
+}
+
+/* Image Carousel ------------------------------------------------------------------*/
+
+.decoration-gallery-top{
+  width: 100%;
+  transform: translate(0, -10px);
+  padding-bottom: 0rem;
+}
+
+.carousel-div {
+  background-color: none
+  ;
+  padding-bottom: 4rem;
+}
+
+.swiper-img {
+  display: block;
+  width: 96%;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.swiper-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: radial-gradient(
+        circle, 
+        rgba(255, 255, 255, 0.4) 0%, /* Adjust color and opacity */
+        rgba(0, 0, 0, 0) 70%
+    );
+    filter: blur(20px); /* Adjust the blur to control the spread of the light */
+    transition: opacity 0.3s ease;
+}
+
+
+.swiper-custom-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  padding: 25%;
+  justify-content: space-between;
+}
+
+.swiper-custom-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-custom-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.swiper-activities-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+}
+
+.swiper-activities-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-activities-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.transition-gallery-signup{
+  width: 102%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2px;
+}
+
+
+@media (max-width: 576px) {
+  .swiper-img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  .swiper-custom-nav {
+    padding: 7.5%;
+  }
+  .swiper-custom-nav-arrow {
+    width: 3rem;
+  }
+}
+
+
+
+/* Sign Up and Pre Footer ------------------------------------------------------------------*/
+
+.sign-up-instruction-header {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.bottom-button-right {
+  float: left;
+}
+
+.bottom-button-left {
+  float: right;
+}
+
+@media (max-width: 576px) {
+  .bottom-button-left,
+  .bottom-button-right {
+    float: none;
+    align-items: center;
+  }
+}
+
+.sign-up {
+  background-color: #B07258;
+  padding-bottom: 2rem;
+}
+.sign-up-row {
+  padding-bottom: 1rem;
+}
+
+.sign-up-wrapper-left,
+.sign-up-wrapper-middle,
+.sign-up-wrapper-right {
+  width: 97.5%;
+  display: block;
+}
+
+.sign-up-wrapper-left {
+  margin-right: auto;
+}
+
+.sign-up-wrapper-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-up-wrapper-right {
+  margin-left: auto;
+}
+
+@media (max-width: 576px) {
+  .sign-up-wrapper-left,
+  .sign-up-wrapper-middle,
+  .sign-up-wrapper-right {
+    width: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.sign-up-h2 {
+  font-family: "Shin-Maru-GP-Bold";
+  font-weight: bold;
+  padding-bottom: 3rem;
+  color: white;
+  padding-top: 2rem;
+}
+
+.sign-up-h3 {
+  font-size: 1.45rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+  color: white;
+}
+
+.sign-up-p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.sign-up-button {
+  position: relative;
+  font-family: "Shin-Maru-GP-DeBold";
+  text-decoration: none;
+  font-size: 1.25rem;
+  padding: 1rem;
+  text-align: left;
+  padding-left: 2rem;
+  border-radius: 3rem;
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.3s;
+  margin-bottom: 1rem;
+
+  color: #fff;
+  background-color: #5C2C27;
+  border: solid 0.2rem #5C2C27;
+  transition: ease-in-out 0.2s;
+
+
+
+}
+
+.sign-up-button::after {
+  content: url(../choco-2025-images/btn-arrow-hover.svg);
+  height: 1rem;
+  float: right;
+  top: 70%;
+  padding-right: 2rem;
+  padding-top: 0.1rem;
+}
+
+.sign-up-button:hover {
+  color: #5C2C27;
+  background-color: #fff;
+  border: solid 0.2rem #5C2C27;
+  transition: ease-in-out 0.2s;
+
+}
+
+.sign-up-button:hover::after {
+  content: url(../choco-2025-images/btn-arrow.svg);
+}
+
+.pre-footer {
+  background-color: #5C2C27;
+ margin-top: -3px;
+}
+
+.pre-footer-h2,
+.pre-footer-p {
+  color: #ffffff;
+}
+
+
+.hidden-after-cutoff {
+  display: none !important;
+}
