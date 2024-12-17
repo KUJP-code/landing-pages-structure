@@ -491,16 +491,6 @@ document.addEventListener("DOMContentLoaded", () => {
               </div>
               <!-- End Slide 5 -->
 
-              <div class="swiper-slide">
-                <figure>
-                  <img
-                    src="./choco-2025-images/gallery/gallery-6.webp"
-                    alt="img-6"
-                    class="swiper-img"
-                  />
-                </figure>
-              </div>
-              <!-- End Slide 6 -->
 
 
 
