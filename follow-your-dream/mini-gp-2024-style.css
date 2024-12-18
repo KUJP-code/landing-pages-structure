@@ -6,6 +6,7 @@
     padding-bottom: 0rem;
 }
 
+
 .race-schedule{
     background-color: #f3f3f2;
     border-radius: 1rem;
@@ -23,6 +24,11 @@
     font-weight: bolder;
     color: #EF8200;
     font-size: 1.2rem;
+}
+
+.ranking{
+  text-align: left;
+  font-size: 1.5rem
 }
 
 .race-schedule-date{
@@ -182,11 +188,119 @@ padding-bottom: 2.5rem;
 .news-inner{
   color: white;
   padding: 3rem;
+  position: relative;
+  container-name: news-inner;
 }
 
-.news-subtitle h3{
-    display: inline;
+.congrats{
+    font-size: 4rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    z-index: 1;
+    position: relative;
+    -webkit-text-stroke: .3rem #262262;
+    paint-order: stroke fill;
 }
+
+.flag-1, .flag-2{
+  width: 20%;
+  position: absolute;
+  z-index: 0;
+  top: 8rem;
+}
+
+
+.flag-1{
+  transform: translate(-80%, -50%);
+  left: 25%;
+
+}
+
+.flag-2{
+  transform: translate(-20%, -50%);
+  left: 75%;
+
+}
+
+
+.trophy{
+  width: 30%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .congrats{
+    font-size: 3rem;
+}
+
+.flag-1, .flag-2{
+  width: 17%;
+}
+
+}
+
+@media (min-width: 575px) and (max-width: 767.8px) {
+  .congrats{
+    font-size: 2.25rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+  .flag-1, .flag-2{
+    width: 17%;
+    top: 6rem;
+  }
+
+  .trophy{
+    width: 50%;
+  }
+
+}
+
+@media (max-width: 574.8px) {
+  .congrats{
+    font-size: 1.5em;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+  .flag-1, .flag-2{
+    width: 17%;
+    top: 3rem;
+  }
+
+  .flag-1{
+    left: 15%
+  }
+  .flag-2{
+    left: 85%
+  }
+
+
+  .trophy{
+    width: 60%;
+  }
+  .news-inner{
+    color: white;
+    padding: 1.2rem;
+    position: relative;
+  }
+}
+
+
+
+.congrats-text{
+  z-index: 1;
+  -webkit-text-stroke: .1rem #262262;
+  paint-order: stroke fill;
+}
+
+
+
+
 
 .strikethrough::before{
   position: absolute;
@@ -250,7 +364,7 @@ padding-bottom: 2.5rem;
 
 .race-schedule-header{
   text-align: left;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   font-size: 1.5rem
 }
 
@@ -313,7 +427,7 @@ padding-bottom: 2.5rem;
 
   .saishuu-title{
 
-    margin-top: 2rem;
+    margin-top: 0rem;
     margin-bottom: 2rem;
 
   }

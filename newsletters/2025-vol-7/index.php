@@ -65,7 +65,7 @@
                 alt="Card 1"
               />
               <p class="swiper-slide-text">
-                辻副社長からの<br>新年のご挨拶
+                新年のご挨拶
                 <a class="button-swiper-link" href="#article-1">READ MORE</a>
               </p>
             </div>
@@ -241,7 +241,7 @@
 
 <div class="nakagawa-top-right-image">
 <img src="./assets/images/nakagawa-1.jpeg" alt="" class="img-fluid">
-aaaaaaaaa
+<p class="p-sub" style="font-weight: bold;"><span style="color: #F38000; font-size: 1rem;">▲</span> 年5月開催グリーンプールカップ水泳選手権大会では8歳以下の部で優秀選手に選出。</p>
 </div>
 
 <p>英語の話ばかりだと成果が分かりにくいので、例のごとく私の次男（まー君）の最近のスイミング事情をお伝えしましょう。まー君は小学校3年生でスイミングスクールの選手コースに所属し、週6日、1日2時間練習しています。神奈川県内でもトップ選手の一人です。選手コース所属のお子さんは全員同じ条件で練習していますが、当然全員が同じ結果にはなりません。成果には大きな個人差が出ますが、それは本人の「意識の差」です。<br>
@@ -251,7 +251,7 @@ aaaaaaaaa
 
 <div class="nakagawa-bottom-left-image">
 <img src="./assets/images/nakagawa-2.jpeg" alt="" class="img-fluid">
-aaaaaaa
+<p class="p-sub" style="font-weight: bold;"><span style="color: #F38000; font-size: 1rem;">▲</span> 所属クラブのみんなと表彰式後に記念撮影。</p>
 </div>
 <p>
 まー君は11月生まれなので、生まれが早い4～5月の子に比べると、身体的に不利になります。神奈川県トップ選手は全員4～5月生まれですが、これまでトップ選手には適いませんでした。2024年12月1日（日）のクラブ別対抗戦があり、背泳ぎ50mで神奈川県トップ選手（常に1～2位を争う選手）にはじめて勝ちました。まー君にとっては大きな成功体験であり、大きな自信でしょう。子どもの成長を最大限に伸ばしてあげたいなら、まずは時間を集中投下することが最低条件！さらに親が子どもの習い事に強い興味を持ってあげること。そうすれば、さらに伸びる可能性が広がります。「まー君の成長に手応えを感じていますか？」と問われれば、私の答えは「Yes, of course!」です。

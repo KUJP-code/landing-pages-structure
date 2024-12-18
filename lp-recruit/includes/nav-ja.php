@@ -1,6 +1,12 @@
 
   </head>
   <body>
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+        <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MGWSQLH" // Your GTM container ID
+        height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+    <!-- End Google Tag Manager (noscript) -->
     <content-wrapper style="overflow-x: hidden">
       <!-- Navbar START -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
       <nav class="navbar navbar-expand-xl sticky-top">

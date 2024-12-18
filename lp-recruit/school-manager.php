@@ -1,4 +1,4 @@
-<?php include 'includes/header-ja.php' ?>
+<?php include 'includes/head.php' ?>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org/",

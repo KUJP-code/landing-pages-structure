@@ -15,7 +15,7 @@
   rel="stylesheet"
   href="https://unpkg.com/swiper/swiper-bundle.min.css"
 />
-<link rel="stylesheet" href="./mini-gp-2024/mini-gp-2024-style.css">
+<link rel="stylesheet" href="./mini-gp-2024-style.css">
 
 </head>
 <?php include '../global/global-includes/template-nav.php' ?>
@@ -45,42 +45,189 @@
 
 <div class="page-contents-inner">
 
+	<div class="container news">
+		<div class="news-inner">
+	
+	
+				<img src="./mini-gp-2024/mini-gp-2024-images/flag-1.svg" class="flag-1">
+	
+			
+				<h3 class="congrats">CONGRATULATIONS!</h3>
 
 
-<h3 class="page-subtitle">MiniGP について</h3>
+		
+				<img src="./mini-gp-2024/mini-gp-2024-images/flag-2.svg" class="flag-2">
+		
+	
 
-<p class="p_normal-otherpage">
+		<div class="row">
+			<p class="p_normal-otherpage congrats-text">
+			オンラインコースから世界のチャンピオン誕生！！<br>
+国立和玖君が見事な1位、知識隼人君は6位に輝く！<br>
+<br>
+2024年11月中旬、スペインで行われたWorld Series FINALに、オンラインコースから国立和玖君と知識隼人君が参戦し、その実力を世界に証明しました。<br>
+国立君は圧倒的なパフォーマンスで1位を獲得し、世界チャンピオンの座に輝きました。<br>
+一方、知識君も6位という素晴らしい成績を収め、安定した実力を発揮しました。<br>
+<br>
+オンラインコースから誕生したこの快挙に、関係者一同は心からの誇りを感じ、二人の未来に期待を寄せています。<br>
+今後も二人の夢を応援し続け、さらなる成長を見守ります！
+			</p>
+
+			<img src="./mini-gp-2024/mini-gp-2024-images/trophy.svg" alt="trophy" class="trophy" >
+
+		</div>
+	</div></div>
+
+	<div class="about">
+		<h3 class="page-subtitle">MiniGP について</h3>
+
+		<p class="p_normal-otherpage">
 
 
-	エキサイティングなモーターバイクレースの世界への入り口となっている FIM MiniGPは、世界20か国以上で開催され、若く才能ある子どもたちのMotoGPのキャリアを始めるための登竜門となっています。 MotoGPシーズンフィナーレ前にスペインのバレンシアで開催されるFIM MiniGPワールドファイナルの出場権をかけて世界中のレーサーが国内大会で競い合います。
-	<br><br>
-	FIM MiniGP Japanシリーズは2022年に初めて開催され、10歳から14歳の子どもたちがモーターバイクレースに挑戦してきました。優勝者と2位のライダーにはスペインで行われる決勝戦への出場権が与えられます。 MiniGPワールドファイナルまでの準備は簡単ではありません。決勝に進出するためには、何百時間ものトレーニングと準備が必要不可欠です。さらに、言語の壁が加わることで、出場権獲得は一層困難になります。
-	<br><br>
-	私たちKids UPは、MiniGP Japanシリーズの出場者たちに国際舞台でのコミュニケーションに必要なスキルを身につけてもらう為に毎週オンラインレッスンを提供することでサポートしています。 Kids UPは、2024年MiniGP日本シリーズの第2ラウンドが5月19日に埼玉のMoto UP桶川スポーツランド・サーキットで開催された際、レッスンで英語を指導しているライダーたちに会うことができました。
-</p>
-
-	<div class="race-schedule">
-
-<h3 class="race-schedule-header">FIM Mini GP ジャパン<br class="d-block d-sm-none">シリーズ スケジュール</h3>
-
-		<p class="p_normal-otherpage p_nopadding">
-		<span class="race-schedule-stage">第１戦 </span><span class="race-schedule-date">2024年4月16日(日)</span><br>
-		</span>筑波サーキットコース1000<br>
-		<br>
-		<span class="race-schedule-stage">第２戦 </span><span class="race-schedule-date">2024年5月19日 (日)</span><br>
-		</span>MotoUP 桶川スポーツランド<br>
-		<br>
-		<span class="race-schedule-stage">第３戦 </span><span class="race-schedule-date">2024年6月23日 (日)</span><br>
-		</span>筑波サーキットコース1000<br>
-		<br>
-		<span class="race-schedule-stage">第４戦 </span><span class="race-schedule-date">2024年7月28日 (日)</span><br>
-		</span>近畿スポーツランド<br>
-		<br>
-		<span class="race-schedule-stage">最終戦 </span><span class="race-schedule-date">2024年9月1日 (日)</span><br>
-		MotoUP 桶川スポーツランド
+			エキサイティングなモーターバイクレースの世界への入り口となっている FIM MiniGPは、世界20か国以上で開催され、若く才能ある子どもたちのMotoGPのキャリアを始めるための登竜門となっています。 MotoGPシーズンフィナーレ前にスペインのバレンシアで開催されるFIM MiniGPワールドファイナルの出場権をかけて世界中のレーサーが国内大会で競い合います。
+			<br><br>
+			FIM MiniGP Japanシリーズは2022年に初めて開催され、10歳から14歳の子どもたちがモーターバイクレースに挑戦してきました。優勝者と2位のライダーにはスペインで行われる決勝戦への出場権が与えられます。 MiniGPワールドファイナルまでの準備は簡単ではありません。決勝に進出するためには、何百時間ものトレーニングと準備が必要不可欠です。さらに、言語の壁が加わることで、出場権獲得は一層困難になります。
+			<br><br>
+			私たちKids UPは、MiniGP Japanシリーズの出場者たちに国際舞台でのコミュニケーションに必要なスキルを身につけてもらう為に毎週オンラインレッスンを提供することでサポートしています。 Kids UPは、2024年MiniGP日本シリーズの第2ラウンドが5月19日に埼玉のMoto UP桶川スポーツランド・サーキットで開催された際、レッスンで英語を指導しているライダーたちに会うことができました。
 		</p>
 	</div>
 
+	<div class="race-schedule container">
+	<h3 class="race-schedule-header">FIM Mini GP ジャパン<br class="d-block d-sm-none">シリーズ スケジュール</h3>
+		<div class="row init-row">
+
+			<div class="col-sm-6 leftcol">
+
+
+				<div class="row date-1-row">
+					<div class="col-md-auto date-col">
+						<p class="p_normal-otherpage p_nopadding strikethrough">
+						<span class="race-schedule-stage">第１戦 </span><span class="race-schedule-date">2024年4月16日(日)</span><br>
+						</span>筑波サーキットコース1000<br>
+						<br>
+						</p>
+					</div>
+					<div class="col-sm-auto shuryo-col">
+						<span class="shuryo-kanji">終了</span>
+					</div>
+					<div class="col filler-col"></div>
+				</div>
+
+				<div class="row date-2-row">
+					<div class="col-md-auto date-col">
+						<p class="p_normal-otherpage p_nopadding strikethrough">
+						<span class="race-schedule-stage">第２戦 </span><span class="race-schedule-date">2024年5月19日 (日)</span><br>
+						</span>MotoUP 桶川スポーツランド<br>
+						<br>
+						</p>
+					</div>
+					<div class="col-sm-auto shuryo-col">
+						<span class="shuryo-kanji">終了</span>
+					</div>
+					<div class="col filler-col"></div>
+				</div>
+
+				<div class="row date-3-row">
+					<div class="col-md-auto date-col">
+						<p class="p_normal-otherpage p_nopadding strikethrough">
+						<span class="race-schedule-stage">第3戦 </span><span class="race-schedule-date">2024年6月23日 (日)</span><br>
+						</span>筑波サーキットコース1000<br>
+						<br>
+						</p>
+					</div>
+					<div class="col-sm-auto shuryo-col">
+						<span class="shuryo-kanji">終了</span>
+					</div>
+					<div class="col filler-col"></div>
+				</div>
+
+				<div class="row date-4-row">
+					<div class="col-md-auto date-col">
+						<p class="p_normal-otherpage p_nopadding strikethrough">
+						<span class="race-schedule-stage">第4戦 </span><span class="race-schedule-date">2024年7月28日 (日)</span><br>
+						</span>近畿スポーツランド<br>
+						<br>
+						</p>
+					</div>
+					<div class="col-sm-auto shuryo-col">
+						<span class="shuryo-kanji">終了</span>
+					</div>
+					<div class="col filler-col"></div>
+				</div>
+
+				<div class="row date-5-row">
+					<div class="col-md-auto date-col">
+						<p class="p_normal-otherpage p_nopadding strikethrough">
+						<span class="race-schedule-stage">最終戦  </span><span class="race-schedule-date">2024年9月1日 (日)</span><br>
+						</span>MotoUP 桶川スポーツランド<br>
+						<br>
+						</p>
+					</div>
+					<div class="col-sm-auto shuryo-col">
+						<span class="shuryo-kanji">終了</span>
+					</div>
+					<div class="col filler-col"></div>
+				</div>
+
+
+				
+
+			</div> <!--end leftcol-->
+
+			<div class="col-sm-6 rightcol">
+
+				<h3 class="saishuu-title">世界最終戦!!</h3>
+				<p class="p_normal-otherpage p_nopadding" style="text-align: center;">
+					<span class="race-schedule-header">FIM MiniGP<br>ワールドファイナル<br>
+						2024年11月15日 (金)</span><br>
+					<span>モーターランドアラゴン</span><br>
+					<br>
+				</p>
+	
+					<div class="col-md-auto right-title-col">
+						<div class="row">
+							<div class="col">
+						
+							</div>
+						</div>
+						<div class="row">
+							<div class="col saishuu-date">
+							
+							</div>
+				</div> <!--end right-title-row-->
+
+
+
+
+
+
+		
+			
+						<span class="race-schedule-header">ランキング</span>
+						<br><br>
+						<span class="ranking">
+							<img src="./mini-gp-2024/mini-gp-2024-images/wreath-first.svg" height="50" width="50"></img>
+							1位 国立和玖君
+						</span>
+						<br><br>
+						<span class="ranking">
+							<img src="./mini-gp-2024/mini-gp-2024-images/wreath-sixth.svg" height="50" width="50"></img>
+							6位 知識隼人
+						</span>
+					
+					<!--end 
+					<div class="yt-link">
+						<span>レース観戦はこちら</span><br>
+						<a href="https://youtu.be/LkytaeyQ0BU?si=cNegzaZ58uiOVpCt"><img src="./mini-gp-2024/mini-gp-2024-images/youtube.svg" style="width: 12rem; align-content: center; padding-top: 1rem;"></img></a>
+					</div>
+					-->
+
+			</div> <!--end rightcol-->
+
+		</div><!--end init-row-->
+
+	</div> <!--end race schedule container-->
+</div>
 
 
 <!-- Section 1 -->
@@ -236,7 +383,18 @@ Kids UPは全ての生徒が夢を追いかけられるように背中を押し�
 			  />
 			</figure>
 		  </div>
-		  <!-- End Slide 6 -->
+		  <!-- End Slide 6 --
+
+		  <div class="swiper-slide">
+			<figure>
+			  <img
+				src="./mini-gp-2024/mini-gp-2024-images/gallery/gallery-7.webp"
+				alt="img-7"
+				class="swiper-img"
+			  />
+			</figure>
+		  </div>
+		  <!-- End Slide 7 -->
 		</div>
 		<!-- End Swiper Wrapper -->
 
