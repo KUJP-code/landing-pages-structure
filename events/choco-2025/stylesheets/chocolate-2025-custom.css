@@ -7,6 +7,9 @@ body{
     background-color: #2E0E0E;
 }
 
+.p-sub{
+  font-size: .8rem;
+}
 .transition-decoration-top{
   display: block;
   position: absolute;

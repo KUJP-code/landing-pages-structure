@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
               alt="explainer-top"
               class="img-fluid about-event-img"
             />
-          </div>
+          </div>チョコレートの製造工程を体感！
 
 
           <div class="col-sm-6 explainer-container">
@@ -199,7 +199,7 @@ document.addEventListener("DOMContentLoaded", () => {
               Kids UPがチョコレート工場に大変身！？<br>
               カカオ豆を実際に挽いたり、<br class="d-block d-sm-none">チームバトルで<br class="d-none d-sm-block">
               チョコレートの<br class="d-block d-sm-none">製造工程を体感！<br>
-              クッキングアクティビティでは、<br class="d-block d-sm-none">気分はパティシエ、<br>
+              クッキングアクティビティでは、<br class="d-block d-sm-none">気分はパティシエ！！<br>
               オリジナルチョコレートバーが<br class="d-block d-sm-none">作れるよ♪
 
             </p>
@@ -541,7 +541,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 WEBフォームよりお申込み<br class="d-none d-sm-block" />
               </h3>
               <p class="sign-up-p">
-                WEBフォームよりKids UPのチョコ
+                WEBフォームよりチョコ
                 パーティーにお申込みが可能です。
                 お申し込みフォームよりご入力の
                 うえ、お申込みください。
@@ -563,7 +563,9 @@ document.addEventListener("DOMContentLoaded", () => {
                 メールにてお申込内容の確認を
                 させていただきます。お申込内容に
                 相違があった場合には、お気軽に
-                お申し出ください。
+                お申し出ください。<br>
+                <br>
+               <span class="p-sub"> ※会員の方はアプリよりご連絡いたします。</span>
               </p>
             </div>
           </div>
@@ -580,7 +582,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <p class="sign-up-p">
                 フレンドリーな先生たちがお子様を お待ちしております！<br />
                 <br />
-                ※各日程ごとに定員になり次第受付を締め切らせていただきます。
+                <span class="p-sub"> ※各日程ごとに定員になり次第受付を締め切らせていただきます。</span>
               </p>
             </div>
           </div>
