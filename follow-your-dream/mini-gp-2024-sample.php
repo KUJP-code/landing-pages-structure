@@ -15,7 +15,7 @@
   rel="stylesheet"
   href="https://unpkg.com/swiper/swiper-bundle.min.css"
 />
-<link rel="stylesheet" href="./mini-gp-2024-style.css">
+<link rel="stylesheet" href="./mini-gp-final.css">
 
 </head>
 <?php include '../global/global-includes/template-nav.php' ?>
@@ -73,10 +73,13 @@
 今後も二人の夢を応援し続け、さらなる成長を見守ります！
 			</p>
 
-			<img src="./mini-gp-2024/mini-gp-2024-images/trophy.svg" alt="trophy" class="trophy" >
+	
 
 		</div>
 	</div></div>
+	<div class="container" style="padding: 0px !important;">
+		<img src="./mini-gp-2024/mini-gp-2024-images/minigp-winners.jpg" alt="mini-gp-2024" class="finalist-img" >
+	</div>
 
 	<div class="about">
 		<h3 class="page-subtitle">MiniGP について</h3>
