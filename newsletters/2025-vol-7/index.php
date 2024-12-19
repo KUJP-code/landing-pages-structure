@@ -241,7 +241,7 @@
 
 <div class="nakagawa-top-right-image">
 <img src="./assets/images/nakagawa-1.jpeg" alt="" class="img-fluid">
-<p class="p-sub" style="font-weight: bold;"><span style="color: #F38000; font-size: 1rem;">▲</span> 年5月開催グリーンプールカップ水泳選手権大会では8歳以下の部で優秀選手に選出。</p>
+<p class="p-sub" style="font-weight: bold;"><span style="color: #F38000; font-size: 1rem;">▲</span> 2024年5月開催グリーンプールカップ水泳選手権大会では8歳以下の部で優秀選手に選出。</p>
 </div>
 
 <p>英語の話ばかりだと成果が分かりにくいので、例のごとく私の次男（まー君）の最近のスイミング事情をお伝えしましょう。まー君は小学校3年生でスイミングスクールの選手コースに所属し、週6日、1日2時間練習しています。神奈川県内でもトップ選手の一人です。選手コース所属のお子さんは全員同じ条件で練習していますが、当然全員が同じ結果にはなりません。成果には大きな個人差が出ますが、それは本人の「意識の差」です。<br>
@@ -296,7 +296,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 <!----------------------------------------------- MASCOT ------------------------------------------------------------->
 <img src="./assets/images/mascot-header.svg" alt="mascot-header" class="img-fluid" id="article-3">
 
-<div class="container">
+<div class="container" style="padding-bottom: 2rem;">
   <h3 class="article-header-generic" style="text-align: center;"><span style="font-size: 4rem;">BREAKING NEWS!！! </span><br>KIDS UP MASCOTS COMING SOON!</h3>
 
   <div class="row">
@@ -359,7 +359,7 @@ LIKES: STATIONARY, RAMEN</b><br>
 
       <div class="col-sm-6 character-picture-col">
         <img src="./assets/images/header-tale.svg" alt="header-tale" class="triange-header-2">
-      <img src="./assets/images/tale.svg" alt="tale" class="mascot-img">
+      <img src="./assets/images/tale.svg" alt="tale" class="mascot-img" style="margin-top: 4rem; margin-bottom: 4rem;">
       
       </div>
       
@@ -392,7 +392,7 @@ LIKES: STATIONARY, RAMEN</b><br>
 
         <div class="col-sm-6 d-block d-sm-none character-picture-col">
           <img src="./assets/images/header-echo.svg" alt="header-echo" class="triange-header-1">
-        <img src="./assets/images/echo.svg" alt="echo" class="mascot-img">
+        <img src="./assets/images/echo.svg" alt="echo" class="mascot-img" style="margin-top: 4rem; padding-bottom: 0rem;">
         
         </div>
 
@@ -413,7 +413,7 @@ LIKES: STATIONARY, RAMEN</b><br>
     
         <div class="col-sm-6 d-none d-sm-block character-picture-col">
           <img src="./assets/images/header-echo.svg" alt="header-echo" class="triange-header-1">
-        <img src="./assets/images/echo.svg" alt="echo" class="mascot-img">
+        <img src="./assets/images/echo.svg" alt="echo" class="mascot-img"style="margin-top: 4rem; padding-bottom: 0rem;">
         
         </div>
     
@@ -454,10 +454,9 @@ LIKES: STATIONARY, RAMEN</b><br>
 
   <h3 class="article-header-generic" style="text-align: center;"> 詳細は近日公開予定！</h3>
 
-  <img src="./assets/images/announcement-1.svg" alt="announcement-1" class="img-fluid mascot-announcement">
+  <a href="https://www.instagram.com/kidsup.jp/" target="_blank"><img src="./assets/images/announcement-1.svg" alt="announcement-1" class="img-fluid mascot-announcement"></a>
+  <p style="text-align: center; font-weight: bolder;">こちらをクリック</p>
 
-
-  <h3 class="article-header-generic" style="text-align: center;"> マスコットお披露目パーティー！</h3>
 
   <img src="./assets/images/announcement-2.svg" alt="announcement-2" class="img-fluid mascot-announcement">
 
@@ -826,8 +825,8 @@ LIKES: STATIONARY, RAMEN</b><br>
     スプリングスクールでは、お子様が楽しみながら学び、成長できる新しいイベントをたくさんご用意しています。一部のハイライトをご紹介します。<br><br>
     <b>アメリカンキャンプデー</b><br>
     アメリカの伝統的な休日キャンプを体験！チームで楽しむキャンプゲームを通じて、コミュニケーションや協力する力を育みます。<br><br>
-   <b>ナチョスフェスティバル！</b><br>
-    メキシコ出身の先生と一緒に、本格的なナチョス体験！手作りのサルサソースやチーズディップで、食文化に触れながら楽しい時間を過ごします。食事を通じて世界を学ぶ絶好のチャンスです。<br><br>
+   <b>メキシカンパーティ</b><br>
+    本場メキシカンナチョスフィエスタ！おいしいトマトソースとチーズソースを作って、カリカリのナチョスをディップして楽しもう！さらに、メキシコの伝統的なピニャータゲームも体験できるよ！<br><br>
     <b>ロボットバトル</b><br>
     自分だけのロボットを作ってバトルに挑戦！創造力と問題解決能力を引き出すワクワクするアクティビティです。仲間と応援し合いながら、競い合う楽しさを体験します。<br><br>
     <b>ドーナツデザイン</b><br>

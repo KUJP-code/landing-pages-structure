@@ -408,7 +408,7 @@ document.addEventListener("DOMContentLoaded", () => {
   <h3 class="bottom-title">オリジナルバッジをゲット！</h3>
   <p class="bottom-section-text bottom-section-text-1">
     ここでしか手に入れられない
-    Choco Party 2025のバッジを手に入れて、
+    チョコパーティーのバッジを手に入れて、
     コレクションに加えてね♪
   </p>
 

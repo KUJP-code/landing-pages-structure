@@ -62,11 +62,11 @@
   "responsibilities": "お子さまの送迎業務 (指定されたルートの運転) および安全管理",
   "educationRequirements": "不問",
   "workHours": "12:30～20:00の間で2時間以上（シフトによる）",
-  "industry": "Education"
+  "industry": "Education",
   "applicationContact": {
     "@type": "ContactPoint",
     "name": "Kids UP 採用チーム",
-    "url":  "https://kids-up.jp/lp-recruit/bus-driver.php",
+    "url": "https://kids-up.jp/lp-recruit/bus-driver.php",
     "email": "kidsup-ho@kids-up.jp"
   }
 }
