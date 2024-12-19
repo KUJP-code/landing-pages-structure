@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", () => {
               alt="explainer-top"
               class="img-fluid about-event-img"
             />
-          </div>チョコレートの製造工程を体感！
+          </div>
 
 
           <div class="col-sm-6 explainer-container">
