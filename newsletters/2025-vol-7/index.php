@@ -454,8 +454,8 @@ LIKES: STATIONARY, RAMEN</b><br>
 
   <h3 class="article-header-generic" style="text-align: center;"> 詳細は近日公開予定！</h3>
 
-  <a href="https://www.instagram.com/kidsup.jp/" target="_blank"><img src="./assets/images/announcement-1.svg" alt="announcement-1" class="img-fluid mascot-announcement"></a>
-  <p style="text-align: center; font-weight: bolder;">こちらをクリック</p>
+  <a href="https://www.instagram.com/kidsup.jp/" target="_blank"><img src="./assets/images/announcement-1.svg" alt="announcement-1" class="img-fluid mascot-announcement">
+  <p style="text-align: center; font-weight: bolder;"> <img src="./assets/images/logo-instagram.svg" alt="logo-instagram" style="width: 5rem;"><br>こちらをクリック</p></a>
 
 
   <img src="./assets/images/announcement-2.svg" alt="announcement-2" class="img-fluid mascot-announcement">
