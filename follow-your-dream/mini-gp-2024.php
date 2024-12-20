@@ -15,7 +15,7 @@
   rel="stylesheet"
   href="https://unpkg.com/swiper/swiper-bundle.min.css"
 />
-<link rel="stylesheet" href="./mini-gp-2024-style.css">
+<link rel="stylesheet" href="./mini-gp-final.css">
 
 </head>
 <?php include '../global/global-includes/template-nav.php' ?>
@@ -47,28 +47,39 @@
 
 	<div class="container news">
 		<div class="news-inner">
-		<div class="row page-subtitle">
-			<div class="col-1">
-				<img src="./mini-gp-2024/mini-gp-2024-images/news.svg" alt=&#128226 height="50" width="50">
-			</div>
-			<div class="col-11">
-				<h3 >NEWS！！</h3>
-			</div>
-		</div>
+	
+	
+				<img src="./mini-gp-2024/mini-gp-2024-images/flag-1.svg" class="flag-1">
+	
+			
+				<h3 class="congrats">CONGRATULATIONS!</h3>
+
+
+		
+				<img src="./mini-gp-2024/mini-gp-2024-images/flag-2.svg" class="flag-2">
+		
+	
 
 		<div class="row">
-			<p class="p_normal-otherpage">
-				Kids UPオンラインコースから 知識隼人君がシリーズチャンピオンに輝く！！<br>
-				さらに 国立和玖君も見事2位を獲得！！
-				<br><br>
-				台風10号の影響で順延されていた最終戦が9月15日に開催され、Kids UPオンラインコースから、知識隼人君と国立和玖君が参戦。結果は、知識隼人君が1位、そして国立和玖君が2位という素晴らしい成績！
-				<br><br>
-				次は、11月10日〜14日スペイン開催のWORLD FINALに挑戦します！<br>
-				Kids UPで学びながら、世界へ羽ばたく彼らの活躍にぜひご注目ください！
-				<br><br>
+			<p class="p_normal-otherpage congrats-text">
+			オンラインコースから世界<span class="congrats-text-orange">チャンピオン</span>誕生！！<br>
+国立和玖君が見事な1位、知識隼人君は6位に輝く！<br>
+<br>
+2024年11月中旬、スペインで行われたWorld Series FINALに、オンラインコースから国立和玖君と知識隼人君が参戦し、その実力を世界に証明しました。<br>
+国立君は圧倒的なパフォーマンスで1位を獲得し、世界チャンピオンの座に輝きました。<br>
+一方、知識君も6位という素晴らしい成績を収め、安定した実力を発揮しました。<br>
+<br>
+オンラインコースから誕生したこの快挙に、関係者一同は心からの誇りを感じ、二人の未来に期待を寄せています。<br>
+今後も二人の夢を応援し続け、さらなる成長を見守ります！
 			</p>
+
+	
+
 		</div>
 	</div></div>
+	<div class="container" style="padding: 0px !important;">
+		<img src="./mini-gp-2024/mini-gp-2024-images/minigp-winners.jpg" alt="mini-gp-2024" class="finalist-img" >
+	</div>
 
 	<div class="about">
 		<h3 class="page-subtitle">MiniGP について</h3>
@@ -160,14 +171,19 @@
 					</div>
 					<div class="col filler-col"></div>
 				</div>
+
+
+				
+
 			</div> <!--end leftcol-->
 
 			<div class="col-sm-6 rightcol">
 
-				<h3 class="saishuu-title">最終戦!!</h3>
+				<h3 class="saishuu-title">世界最終戦!!</h3>
 				<p class="p_normal-otherpage p_nopadding" style="text-align: center;">
-					<span class="race-schedule-header">第5戦 2024年9月05日 (日)</span><br>
-					<span>MotoUP 桶川スポーツランド</span><br>
+					<span class="race-schedule-header">FIM MiniGP<br>ワールドファイナル<br>
+						2024年11月15日 (金)</span><br>
+					<span>モーターランドアラゴン</span><br>
 					<br>
 				</p>
 	
@@ -188,31 +204,26 @@
 
 
 
-				
-				<div class="row ranking-row">
-					<div class="col-sm-auto ranking-col">
+		
+			
 						<span class="race-schedule-header">ランキング</span>
 						<br><br>
-						<span class="race-schedule-header">
-							<img src="./mini-gp-2024/mini-gp-2024-images/first.svg" height="50" width="50"></img>
-							1位 知識隼人
+						<span class="ranking">
+							<img src="./mini-gp-2024/mini-gp-2024-images/wreath-first.svg" height="50" width="50"></img>
+							1位 国立和玖君
 						</span>
 						<br><br>
-						<span class="race-schedule-header">
-							<img src="./mini-gp-2024/mini-gp-2024-images/second.svg" height="50" width="50"></img>
-							2位 国立和玖君
+						<span class="ranking">
+							<img src="./mini-gp-2024/mini-gp-2024-images/wreath-sixth.svg" height="50" width="50"></img>
+							6位 知識隼人
 						</span>
-					</div><!--end ranking-col-->
-					<div class="col-md-6 ranking-img-col">
-						<img src="./mini-gp-2024/mini-gp-2024-images/GP winners.png" class="rounded " style="height: 100%; width: 100%;"></img>
-					</div><!--end ranking-img-col-->
-				</div> <!--end ranking-row-->
-
+					
+					<!--end 
 					<div class="yt-link">
 						<span>レース観戦はこちら</span><br>
 						<a href="https://youtu.be/LkytaeyQ0BU?si=cNegzaZ58uiOVpCt"><img src="./mini-gp-2024/mini-gp-2024-images/youtube.svg" style="width: 12rem; align-content: center; padding-top: 1rem;"></img></a>
 					</div>
-
+					-->
 
 			</div> <!--end rightcol-->
 

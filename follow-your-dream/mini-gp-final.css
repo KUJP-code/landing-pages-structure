@@ -214,6 +214,13 @@ padding-bottom: 2.5rem;
     paint-order: stroke fill;
 }
 
+.congrats-text-orange{
+  color: #EF8200 !important;
+  -webkit-text-stroke: .05rem #fff;
+  paint-order: stroke fill;
+  font-weight: bold;
+}
+
 .flag-1, .flag-2{
   width: 20%;
   position: absolute;
@@ -321,7 +328,7 @@ padding-bottom: 2.5rem;
   right: 0;
   bottom: 60%;
   border-top: 5px solid;
-  border-color: blue;
+  border-color: #EF8200;
   transform: rotate(-20deg);
   overflow: hidden;
 }
@@ -342,9 +349,9 @@ padding-bottom: 2.5rem;
 }
 
 .shuryo-kanji{
-  color: blue;
+  color: #EF8200;
   border: 0.25rem solid;
-  border-color: blue;
+  border-color: #EF8200;
   border-radius: 1rem;
   padding-left: 1rem;
   padding-bottom: .5rem;
