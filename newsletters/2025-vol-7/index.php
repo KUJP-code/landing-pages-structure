@@ -332,7 +332,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 
       <p class="character-bio">
 <b>
-        BIRTHDAY: 2010/2/28<br>
+        BIRTHDAY: 2/28<br>
 HEIGHT: 80 CM<br>
 LIKES: STATIONARY, RAMEN</b><br>
 <br>
@@ -369,12 +369,12 @@ LIKES: STATIONARY, RAMEN</b><br>
 
         <p class="character-bio">
   <b>
-    BIRTHDAY: 2018/4/2<br>
+    BIRTHDAY: 4/2<br>
     HEIGHT: 30 CM<br>
     LIKES: BOOKS
     </b><br>
           <br>
-          背が高くて勇敢なジョットは生まれながらのリーダー気質！書くことが大好きで自分のスキルをみんなに自慢するよ。ラーメン店にいけば激辛大盛りラーメンを楽しんでいるジョットを見つけられるかも？
+          一番小さなテイル！でも、そのサイズに騙されるな！とても賢く、周りの人が答えに困ったときは、いつも手助けをしてくれるよ。本を読むのが大好きだからテイルを探すときには図書館に行ってみよう！
   
         </p>
       </div>
@@ -401,12 +401,12 @@ LIKES: STATIONARY, RAMEN</b><br>
 
           <p class="character-bio">
     <b>
-      BIRTHDAY: 2016/7/31 <br>
+      BIRTHDAY: 7/31 <br>
       HEIGHT: 50 CM<br>
       LIKES: BIRDS, GUMMIES
       </b><br>
     <br>
-    背が高くて勇敢なジョットは生まれながらのリーダー気質！書くことが大好きで自分のスキルをみんなに自慢するよ。ラーメン店にいけば激辛大盛りラーメンを楽しんでいるジョットを見つけられるかも？
+    大きな耳を持ち、聞き上手なかわいいエコーは空を飛びながら、鳥たちの美しいさえずりを聞くのが大好き。エコーに会いたければ空を見上げてみてね！
     
           </p>
         </div>
@@ -438,7 +438,7 @@ LIKES: STATIONARY, RAMEN</b><br>
   
           <p class="character-bio">
     <b>
-      BIRTHDAY: 2014/3/25<br>
+      BIRTHDAY: 3/25<br>
       HEIGHT: 90 CM<br>
       LIKES: KARAOKE
      
@@ -673,7 +673,7 @@ LIKES: STATIONARY, RAMEN</b><br>
       </div>
   
       <div class="col-9 col-sm-8 col-md-9 speech-winner-info-box">
-        <p class="speech-winner-info">Kさん<br>
+        <p class="speech-winner-info">Bさん<br>
           （新浦安）</p>
       </div>
     </div>
@@ -706,7 +706,7 @@ LIKES: STATIONARY, RAMEN</b><br>
         </div>
     
         <div class="col-9 col-sm-8 col-md-9 speech-winner-info-box">
-          <p class="speech-winner-info">SPECIALISTさん<br>
+          <p class="speech-winner-info">Cさん<br>
             （等々力）</p>
         </div>
       </div>
@@ -786,7 +786,7 @@ LIKES: STATIONARY, RAMEN</b><br>
 
 <p class="upcoming-event-text article-2-halloween-info">
 お子様たちが楽しみながら学び、成長できるチャンスがいっぱいのイベント内容をご紹介します！<br><br>
-<b>1. チョコレートができるまでを発見！</b><br>
+<b>1. チョコレートができるまでをプチ体験！</b><br>
 お子様たちはカカオ豆がどのようにチョコレートになるのかを学び、ミニチョコレートエキスパートに！カカオの香りを体験し、五感を使った学びが楽しめます。<br><br>
 <b>2.  みんなでチャレンジ！楽しいコンペティション</b><br>
 チョコレート仕分け競争やラッピングリレーで、チームワーク、素早い判断力を発揮！青チームと赤チームの対決で盛り上がりましょう！<br><br>
@@ -934,8 +934,8 @@ LIKES: STATIONARY, RAMEN</b><br>
   <h3 class="article-6-headline">FOLLOW YOUR <br>
     DREAM</h3>
 
-    <p class="article-6-text">KidsUPは「本気で夢を追い駆ける子ども達」<br>
-      を応援しています！</p>
+    <p class="article-6-text">	オンラインコースから世界チャンピオン誕生！！<br>
+    国立和玖君が見事な1位、知識隼人君は6位に輝く！<br></p>
 
       <a href="https://kids-up.jp/category/follow-your-dreams/" class="article-link-button article-6-button" target="_blank">もっと詳しく →</a>
 </div>
