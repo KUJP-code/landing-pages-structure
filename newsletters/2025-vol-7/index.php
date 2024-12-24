@@ -316,7 +316,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
       <img src="./assets/images/mascot-1.svg" alt="" class="img-fluid">
     </div>
     <div class="col-9 col-sm-10 col-lg-11">
-      <h3 class="article-header-generic mascot-header-text"> マスコットの中で一番勇敢なジョット！</h3>
+      <h3 class="article-header-generic mascot-header-text">一番勇敢なジョット！</h3>
     </div>
 
 
@@ -354,7 +354,7 @@ LIKES: STATIONARY, RAMEN</b><br>
         <img src="./assets/images/mascot-2.svg" alt="" class="img-fluid">
       </div>
       <div class="col-9 col-sm-10 col-lg-11">
-        <h3 class="article-header-generic mascot-header-text"> マスコットの中で一番かしこいテイル！</h3>
+        <h3 class="article-header-generic mascot-header-text">小さくてかしこいテイル！</h3>
       </div>
 
       <div class="col-sm-6 character-picture-col">
@@ -387,7 +387,7 @@ LIKES: STATIONARY, RAMEN</b><br>
           <img src="./assets/images/mascot-3.svg" alt="" class="img-fluid">
         </div>
         <div class="col-9 col-sm-10 col-lg-11">
-          <h3 class="article-header-generic mascot-header-text"> マスコットの中で一番優しいエコー！</h3>
+          <h3 class="article-header-generic mascot-header-text">空を飛び回る優しいエコー！</h3>
         </div>
 
         <div class="col-sm-6 d-block d-sm-none character-picture-col">
@@ -425,7 +425,7 @@ LIKES: STATIONARY, RAMEN</b><br>
           <img src="./assets/images/mascot-4.svg" alt="" class="img-fluid">
         </div>
         <div class="col-9 col-sm-10 col-lg-11">
-          <h3 class="article-header-generic mascot-header-text"> マスコットの中で一番大きいブーム！</h3>
+          <h3 class="article-header-generic mascot-header-text">おしゃべり好きの大きな女の子ブーム！</h3>
         </div>
         <div class="col-sm-6 character-picture-col">
           <img src="./assets/images/header-boom.svg" alt="header-boom" class="triange-header-2">
