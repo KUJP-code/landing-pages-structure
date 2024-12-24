@@ -957,22 +957,42 @@ LIKES: STATIONARY, RAMEN</b><br>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/global-footer.php'; ?>
 
-				<script
-      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
-      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
-      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
-      crossorigin="anonymous"
-    ></script>
+
 <script type="text/javascript" src="https://kids-up.jp/wp-content/plugins/ewww-image-optimizer/includes/lazysizes.min.js?ver=770" id="eio-lazy-load-js" async="async" data-wp-strategy="async"></script>
 <script type="text/javascript" src="https://kids-up.jp/wp-content/plugins/easy-fancybox/fancybox/1.5.4/jquery.fancybox.min.js?ver=1c596a0fa727ab364fd7bd755069ff5d" id="jquery-fancybox-js"></script>
 <script type="text/javascript" src="https://kids-up.jp/wp-content/plugins/easy-fancybox/vendor/jquery.easing.min.js?ver=1.4.1" id="jquery-easing-js"></script>
 <script type="text/javascript" src="https://kids-up.jp/wp-content/plugins/easy-fancybox/vendor/jquery.mousewheel.min.js?ver=3.1.13" id="jquery-mousewheel-js"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 <script src="./newsletter.js"></script>
+
+<script
+src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+crossorigin="anonymous"
+></script>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+crossorigin="anonymous"
+></script>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+anchor.addEventListener('click', function (e) {
+  e.preventDefault();
+  
+  const targetId = this.getAttribute('href').substring(1);
+  const targetElement = document.getElementById(targetId);
+  
+  if (targetElement) {
+      targetElement.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+      });
+  }
+});
+});
+
+</script>
 
 </body>
 </html>
