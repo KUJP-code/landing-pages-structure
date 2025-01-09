@@ -10,13 +10,16 @@
 
 .location-area-wrapper-tokyo{
     position: relative;
-  width: 25%;
+    width: 25%;
+    padding-bottom: 1.5rem;
 }
 
 .location-area-wrapper-kanagawa, .location-area-wrapper-chiba, .location-area-wrapper-saitama{
     position: relative;
   width: 50%;
+  padding-bottom: 1.5rem;
 }
+
 
 
 .prefecture-title{

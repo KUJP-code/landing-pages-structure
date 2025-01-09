@@ -72,6 +72,18 @@
 
             <div class="swiper-slide">
               <img
+                src="./assets/images/top-slider/article-9.png"
+                alt="Card 1"
+              />
+              <p class="swiper-slide-text">
+                ★Kids UPで頑張る中高生★
+                <a class="button-swiper-link" href="#article-9">READ MORE</a>
+              </p>
+            </div>
+
+
+            <div class="swiper-slide">
+              <img
                 src="./assets/images/top-slider/article-2.png"
                 alt="Card 1"
               />
@@ -217,6 +229,20 @@
 
 </div>
 
+<!----------------------------------------------- Kids UP Middle School thing ------------------------------------------------------------->
+<div class="container" style="padding-bottom: 2rem;" id="article-9">
+  <img src="./assets/images/middle-school-article.png" alt="middle-school" class="img-fluid display">
+  <h3 class="article-header-generic">★Kids UPで頑張る中高生★</h3>
+  <p>上級レベルの生徒のみが通うKeep UP コース、Specialist コースには、中学・高校生の生徒が多数在籍しており年々増え続けています！<br>
+<br>
+    年中からスタートし、中学2年生になった現在も通学している生徒も！中学校の先生もタジタジになるほどの会話力を身に付けた結果、中学校の英語の授業ではクラス全員に「凄すぎる！！」と驚かれたりすることもあるそうです。<br>
+    <br>
+    また、一般の英会話スクールではレベルが合わず、再びKids UP を選んで戻ってきてくれた生徒も多くいます。<br>
+    そして、2025年4月からは中学生の生徒がさらに倍増する予定です！<br>
+    <br>
+    ぜひ一度、長くKids UPに通ってくれた生徒たちが身に付けた高い英語力を実際に知っていただきたく、今後は、Kids UPに通う中高生のリアルな声もお届けしていく予定ですので、どうぞお楽しみに！</p>
+
+</div>
 
 <!----------------------------------------------- NAKAGAWA LETTER------------------------------------------------------------->
 <div class="article-1-wrapper nakagawa-article" id="article-2">
@@ -293,6 +319,8 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 
 </div>
 </div>
+
+
 <!----------------------------------------------- MASCOT ------------------------------------------------------------->
 <img src="./assets/images/mascot-header.svg" alt="mascot-header" class="img-fluid" id="article-3">
 
