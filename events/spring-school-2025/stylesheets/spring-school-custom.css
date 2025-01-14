@@ -1,6 +1,20 @@
 /* COMMON ----------------------------------------------------------------- */
 html {
-  background-color: #e8dccd;
+  background-color: #F7E2D7; 
+  padding-top: 60px;
+}
+
+:root {
+
+  /* LOCATIONS COLOURS */
+  --tokyo-color: #F79752;
+  --kanagawa-color: #F16883;
+  --chiba-color: #7AC263;
+  --saitama-color: #5BBCB3;  
+
+  /* ACCORDION ICON COLOURS */
+
+  --accordion-icon-color: #7AC263;  
 }
 
 .section-h2 {
@@ -14,28 +28,175 @@ p {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+
+.swiper-button-bg {
+  fill: #F16883;
+  isolation: isolate;
+  opacity: .8;
+}
+
+.swiper-button-arrow {
+  fill: #fff;
+  
+}
+
+.swiper-button-activity-prev:hover,.swiper-button-activity-next:hover{
+  opacity: .5;
+}
+
+.lower-h2{
+  color: #5D3D2D;
+}
+
+
+
+.about-cta-button, .main-cta-button, .sign-up-button {
+  position: relative;
+  padding: 0.5rem 6rem 0.5rem 2rem;
+  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Bold";
+  border-radius: 6rem;
+  transition: ease-in-out 0.2s;
+  z-index: 1;
+  text-align: left;
+
+}
+
+.about-cta-button{
+  color: #7BC263;
+  background-color: #fff;
+  border: solid 0.2rem #fff;  
+  width: 75%;
+}
+
+.main-cta-button{
+  color: #fff;
+  background-color: #5D3D2D;
+  border: solid 0.2rem #5D3D2D;
+  width: 80%;
+  max-width: 600px;
+}
+
+
+.about-cta-button:hover {
+  color: #FFF;
+  background-color: #7BC263;
+}
+
+.main-cta-button:hover {
+  color: #5D3D2D;
+  background-color: #fff;
+}
+
+.about-cta-button::after, .main-cta-button::after, .sign-up-button::after {
+  width: 1rem;
+  position: absolute;
+  right: 2rem;
+  top: 23%;
+  transform: translateY(0%);
+  transition: ease-in-out 0.2s;
+}
+
+.about-cta-button::after{
+  content: url(../spring-school-images/btn-arrow-green.svg);
+}
+
+.main-cta-button::after{
+  content: url(../spring-school-images/btn-arrow-white.svg);
+}
+
+.about-cta-button:hover::after {
+  content: url(../spring-school-images/btn-arrow-white.svg);
+  transition: ease-in-out 0.2s;
+}
+
+.main-cta-button:hover::after {
+  content: url(../spring-school-images/btn-arrow-brown.svg);
+  transition: ease-in-out 0.2s;
+}
+
+
+
+
+.sign-up-button {
+  color: #fff;
+  background-color: #5D3D2D;
+  border: solid 0.2rem #5D3D2D;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  transition-duration: 0.3s;
+  margin-bottom: 1rem;
+}
+
+.sign-up-button::after {
+  content: url(../spring-school-images/btn-arrow-white.svg);
+}
+
+.sign-up-button:hover {
+  color: #5D3D2D;
+  background-color: #fff;
+  border: solid 0.2rem #5D3D2D;
+}
+
+.sign-up-button:hover::after {
+  content: url(../spring-school-images/btn-arrow-brown.svg);
+}
+
+
+
+
+
+
+@media (max-width: 576px) {
+  .about-cta-button, .main-cta-button, .sign-up-button{
+    font-size: 1.5rem;
+    padding: 0.25rem 3rem 0.3rem 1rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .about-cta-button::after, .main-cta-button::after {
+    width: .9rem;
+    position: absolute;
+    right: 1rem;
+    top: 15%;
+    transform: translateY(0%);
+    transition: ease-in-out 0.2s;
+  }
+}
+
+
+
+
+
 /* NAVBAR ----------------------------------------------------------------- */
 .navbar {
   top: 0;
   width: 100%;
   height: 3.65rem;
   box-shadow: none;
-  background-color: #5f5ba8;
+  background-color: #F16883 !important;
 }
 
 
 nav {
-  background-color: #5f5ba8;
+  background-color: #F16883 !important;
 }
 
 .nav-link {
-  color: #f3f4df;
+  color: #FFFFFF;
 
   paint-order: stroke fill;
 }
 
 .nav-link:hover {
-  color: #56aabf;
+  opacity: .5;
+  color: #FFFFFF;
+  transition: ease-in-out 0.2s;
 }
 
 .navbar-nav {
@@ -44,11 +205,11 @@ nav {
 
 .nav-btn {
   background: white;
-  color: #5f5ba8;
+  color: #F594A4;
 }
 
 .nav-btn:hover {
-  background: #56aabf;
+  background: #79CBBA;
   color: #fff;
 }
 
@@ -72,7 +233,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #5551ad;
+    background-color: #F594A4;
     position: absolute;
     width: 100%;
     top: 3.65rem;
@@ -97,65 +258,96 @@ nav {
 
 }
 
-.bg-snow-decoration{
-  background-image: url(../winter-school-images/snow-decoration.webp);
-  background-position: top center;
-  background-size: 120% auto;
-  background-repeat: no-repeat;
-
-}
-
 /* HERO ----------------------------------------------------------------- */
 
 .hero {
-  background-color: #e8dccd; /* New background color */
-  background-repeat: no-repeat;
-  background-size: cover; /* Ensure cover scaling */
+  background-color: #F7E2D7; 
   position: relative;
   width: 100%;
-  aspect-ratio: 16 / 7.1; /* Preserve aspect ratio */
+  aspect-ratio: 16/9;
   border: 1px solid rgba(255, 255, 255, 0.1);
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st1%7Bopacity:0.3%3Bfill:%23FFFFFF%3B%7D.st3%7Bopacity:0.1%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Ccircle class='st1' cx='5' cy='8' r='1'/%3E%3Ccircle class='st1' cx='38' cy='3' r='1'/%3E%3Ccircle class='st1' cx='12' cy='4' r='1'/%3E%3Ccircle class='st1' cx='16' cy='16' r='1'/%3E%3Ccircle class='st1' cx='47' cy='46' r='1'/%3E%3Ccircle class='st1' cx='32' cy='10' r='1'/%3E%3Ccircle class='st1' cx='3' cy='46' r='1'/%3E%3Ccircle class='st1' cx='45' cy='13' r='1'/%3E%3Ccircle class='st1' cx='10' cy='28' r='1'/%3E%3Ccircle class='st1' cx='22' cy='35' r='1'/%3E%3Ccircle class='st1' cx='3' cy='21' r='1'/%3E%3Ccircle class='st1' cx='26' cy='20' r='1'/%3E%3Ccircle class='st1' cx='30' cy='45' r='1'/%3E%3Ccircle class='st1' cx='15' cy='45' r='1'/%3E%3Ccircle class='st1' cx='34' cy='36' r='1'/%3E%3Ccircle class='st1' cx='41' cy='32' r='1'/%3E%3C/svg%3E");
-  background-position: bottom center;
-  animation: animatedBackground 18s linear infinite;
-}
-
-.hero .snow {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 50 50' style='enable-background:new 0 0 50 50%3B' xml:space='preserve'%3E%3Cstyle type='text/css'%3E.st1%7Bopacity:0.7%3Bfill:%23FFFFFF%3B%7D.st3%7Bopacity:0.1%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Ccircle class='st3' cx='4' cy='14' r='1'/%3E%3Ccircle class='st3' cx='43' cy='3' r='1'/%3E%3Ccircle class='st3' cx='31' cy='30' r='2'/%3E%3Ccircle class='st3' cx='19' cy='23' r='1'/%3E%3Ccircle class='st3' cx='37' cy='22' r='1'/%3E%3Ccircle class='st3' cx='43' cy='16' r='1'/%3E%3Ccircle class='st3' cx='8' cy='45' r='1'/%3E%3Ccircle class='st3' cx='29' cy='39' r='1'/%3E%3Ccircle class='st3' cx='13' cy='37' r='1'/%3E%3Ccircle class='st3' cx='47' cy='32' r='1'/%3E%3Ccircle class='st3' cx='15' cy='4' r='2'/%3E%3Ccircle class='st3' cx='9' cy='27' r='1'/%3E%3Ccircle class='st3' cx='30' cy='9' r='1'/%3E%3Ccircle class='st3' cx='25' cy='15' r='1'/%3E%3Ccircle class='st3' cx='21' cy='45' r='2'/%3E%3Ccircle class='st3' cx='42' cy='45' r='1'/%3E%3C/svg%3E");
-  background-position: bottom center;
-  background-size: cover; /* Ensure cover scaling */
-  animation: animatedBackground 10s linear infinite;  
-
-  height: fit-content;
-  padding-bottom: 5.5rem;
+  overflow: hidden; /* Ensure petals don't overflow outside the container */
 }
 
 
 .hero-col{    
   display: flex;
   justify-content: center;
-  align-items: center;}
+  align-items: center;
+  z-index: 1;
+}
+
+.hero-decoration-balloons{
+  position: absolute;
+  width: 10%;
+  transform: translate(-5%, -100%);
+  top: 50%;
+  z-index: 0;
+  left: 1%;
+}
+
+.hero-decoration-girl{
+  position: absolute;
+  width: 25%;
+  bottom:7.5%;
+  left: -4%;
+  z-index: 1;
+}
+
+.hero-decoration-bunny{
+  position: absolute;
+  width: 20%;
+  bottom: 20%;
+  left: 50%;transform: translate(-50%, 0);
+  z-index: 1;
+}
+
+.hero-decoration-flowers{
+  position: absolute;
+  width: 12%;
+  right: 3%;
+  bottom: 20%;
+  z-index: 1;
+}
+
+.hero-decoration-boy{
+  position: absolute;
+  width: 25%;
+  right: -5rem;
+  top: -3rem;
+  z-index: 1;
+}
 
 
 .hero-image{
-  width: 90%;
+  width: 85%;
   display: flex;
-  padding: 3rem;
+  margin-left: 15%;
+  z-index: 2;
+
 }
 
 .hero-h1{
-  color: #5f5ba8;
+  color: #F16883;
   font-family: "Shin-Maru-GP-Bold";
+  -webkit-text-stroke: 5px #F7E2D7; 
+  text-stroke: 5px #F7E2D7; 
+  paint-order:  stroke fill;
+  z-index: 1;
 }
 
 .hero-text{
   font-size: 1.25rem;
   font-family: "Shin-Maru-GP-Regular";
   color: #4f4538;
+  z-index: 1;
+  text-stroke: 5px #F7E2D7; 
+  paint-order:  stroke fill;
 }
 
 .hero-text-small{
   font-size: 1rem;
+  z-index: 1;
 }
 
 .hero-cta-button {
@@ -165,50 +357,104 @@ nav {
   font-size: 2rem;
   color: white;
   font-family: "Shin-Maru-GP-Bold";
-  background-color: #5f5ba8;
+  background-color: #F16883;
   border-radius: 6rem;
-  border: solid 0.2rem #5f5ba8;
+  border: solid 0.2rem #F16883;
   transition: ease-in-out 0.2s;
   z-index: 1;
-  -webkit-box-shadow:0px 0px 11px 5px rgba(64,39,20,0.2);
--moz-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .hero-cta-button:hover {
-  color: #5f5ba8;
+  color: #F16883;
   background-color: #ffffff;
 }
 
 .hero-cta-button::after {
-  content: url(../winter-school-images/btn-arrow.svg);
+  content: url(../spring-school-images/btn-arrow-white.svg);
+  width: 1.25rem;
   position: absolute;
   right: 2rem; /* Adjust the distance from the right edge */
-  top: 45%;
-  transform: translateY(-50%);
+  top: 20%;
+  transform: translateY(0%);
   transition: ease-in-out 0.2s;
 }
 
 .hero-cta-button:hover::after {
-  content: url(../winter-school-images/btn-arrow-hover.svg);
+  content: url(../spring-school-images/btn-arrow-pink.svg#f16883);
   transition: ease-in-out 0.2s;
 }
 
 
 .hero-decoration-bottom{
-  width: 100%;
+  width: 102%;
   position: absolute;
-  bottom: 0;
-  z-index: 0;
+  top: 3px;
+  z-index: 3;
+  left: -1%;
+  transform: translateY(-100%);
 }
+
+petal {
+  display: inline-block;
+  width: 150px; 
+  height: 150px;
+  transform: rotate(72deg);
+  background-image: url(../spring-school-images/petal-animation.svg);
+  background-repeat: no-repeat;
+  position: absolute;
+  opacity: .6;
+  z-index: 0
+  ;
+}
+@media (max-width: 1200px) {
+  petal {
+    width: 120px; 
+    height: 120px;
+
+  }
+}
+
+
+
+@media (max-width: 992px) {
+  petal {
+    width: 120px; 
+    height: 120px;
+
+  }
+}
+
+
+
+@media (max-width: 768px) {
+  petal {
+    width: 100px; 
+    height: 100px;
+
+  }
+}
+
+
 
 @media (max-width: 576px) {
 
+  .hero {
+    background-color: #F7E2D7; 
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    overflow: hidden; /* Ensure petals don't overflow outside the container */
+    aspect-ratio: unset;
+  }
+  
+
 .hero-col{
   display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height: auto;
 }
 
   .hero-h1{
@@ -218,42 +464,88 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
   .hero-text{
     text-align: center;
+    font-size: 1rem;
+    text-stroke: 5px #F7E2D7; 
+    paint-order:  stroke fill;
 
   }
 
   .hero-cta-button {
     font-size: 1.5rem;
+    padding: 0.25rem 3rem 0.52rem 1rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 2rem;
     margin-bottom: 2rem;
+    width: 100%;
   }
   .hero-cta-button::after {
-
-    top: 50%;
+    width: .9rem;
+    position: absolute;
+    right: 1rem; /* Adjust the distance from the right edge */
+    top: 15%;
+    transform: translateY(0%);
+    transition: ease-in-out 0.2s;
   
   }
   .hero-image{
     padding: 0rem;
-    padding-top: 4rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
 
   }
+
+  petal {
+    width: 90px; 
+    height: 90px;
+  }
+
+  .hero-decoration-balloons{
+    position: absolute;
+    width: 30%;
+    transform: translate(-30%, -100%);
+    top: 50%;
+    z-index: 0;
+    left: 1%;
+  }
+  
+  .hero-decoration-girl{
+    position: relative;
+    width: 50%;
+    bottom: 0%;
+    left: -4%;
+    z-index: 1;
+  }
+  
+  .hero-decoration-bunny{
+  display: none;
+  }
+  
+  .hero-decoration-flowers{
+    position: absolute;
+    width: 25%;
+    right: 3%;
+    bottom: 5%;
+    z-index: 1;
+  }
+  
+  .hero-decoration-boy{
+display: none;
+  }
+  
+  .hero-decoration-bottom{
+    width: 102%;
+    position: absolute;
+    bottom: 0px;
+    z-index: 2;
+    left: -1%;
+  }
 }
 
-
-@keyframes animatedBackground {
-  0% {
-    background-position: 0% 300%;
-  }
-  100% {
-    background-position: 0% -300%; /* Adjusted for responsiveness */
-  }
-}
 
 
 
@@ -266,17 +558,18 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .event-about {
-  background-color: #7dcee0;
+  background-color: #7BC263;
   margin-bottom: 0rem;
   position: relative;
-  padding-bottom: 7rem;
+  z-index: 3;
 }
 .explainer-top-left {
-  padding-top: 1rem;
+
+  padding-bottom: 2rem;
 }
 
 .about-h2 {
-  color: #5f5ca8;
+  color: #ffffff;
 }
 
 .about-p {
@@ -284,17 +577,15 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   color: #fff;
 }
 
+.explainer-img{
+  display: flex;
+  align-items: center;      
+  justify-content: center;  
+  vertical-align: middle;    
+}
+
 .about-event-img {
-  margin: 0;
-  position: relative;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-  width: fit-content;
-  max-width: 80%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+width: 80%;
 }
 
 .about-decoration-bottom{
@@ -304,13 +595,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   z-index: 0;
 }
 
-@media (max-width: 576px) {
-  .event-about {
-    background-repeat: no-repeat;
-    background-position: top right;
-    background-size: 30%;
-  }
-}
 
 /* BENEFITS ----------------------------------------------------------------- */
 .benefits-decoration-top{
@@ -321,7 +605,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
 
 .main-body {
-  background-color: #fff8ed;
+  background-color: #F7E2D7;
   position: relative;
   margin-top: 0;
 }
@@ -349,7 +633,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   border-radius: 1rem;
   border-style: solid;
   border-width: .2rem;
-  border-color: #4f4639;
+  border-color: #5D3D2D;;
 }
 
 .three-benefits-textbox {
@@ -358,7 +642,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .three-benefits-text {
-  color: #4f4538;
+  color: #5D3D2D;
   font-family: "Shin-Maru-GP-Regular";
 }
 
@@ -368,17 +652,19 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
 /* Common Styling Settings */
 
-.prefecture-title{
-filter: drop-shadow(0px 5px 0px #9ad3e2);
-}
 
-.location-outer{
-  filter: drop-shadow(0px 5px 0px #9ad3e2);
+
+.prefecture-title, .location-outer{
+filter: drop-shadow(0px 5px 0px #87B666);
 }
 
 .location-name-1, .location-name-2, .location-name-3, .location-name-4{
   font-family: "Shin-Maru-GP-Bold";
   background-color: white;
+}
+
+.location-school{
+  color: white;
 }
 
 .map-pin-1-bg-color, .map-pin-2-bg-color, .map-pin-3-bg-color, .map-pin-4-bg-color{
@@ -388,15 +674,15 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 /* Location 1 Styles */
 
 .location-name-1{
-  color: #5f5ba8;
+  color: var(--tokyo-color);
 }
 
 .map-pin-1-main-color{
-  fill: #5f5ba8;
+  fill: var(--tokyo-color);
 }
 
 .prefecture-tokyo-bg{
-  fill: #5f5ba8; 
+  fill: var(--tokyo-color); 
 }
 
 .prefecture-tokyo-text{
@@ -407,15 +693,15 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 /* Location 2 Styles */
 
 .location-name-2{
-  color: #56aabf;
+  color: var(--kanagawa-color); 
 }
 
 .map-pin-2-main-color{
-  fill: #56aabf;
+  fill: var(--kanagawa-color); 
 }
 
 .prefecture-kanagawa-bg{
-  fill: #56aabf;
+  fill: var(--kanagawa-color); 
 }
 
 .prefecture-kanagawa-text{
@@ -427,15 +713,15 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 /* Location 3 Styles */
 
 .location-name-3{
-  color: #be96c5;
+  color: var(--chiba-color); 
 }
 
 .map-pin-3-main-color{
-  fill: #be96c5;
+  fill: var(--chiba-color); 
 }
 
 .prefecture-chiba-bg{
-  fill: #be96c5;
+  fill: var(--chiba-color); 
 }
 
 .prefecture-chiba-text{
@@ -446,15 +732,15 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 /* Location 4 Styles */
 
 .location-name-4{
-  color: #58b980;
+  color: var(--saitama-color); 
 }
 
 .map-pin-4-main-color{
-  fill: #58b980;
+  fill: var(--saitama-color); 
 }
 
 .prefecture-saitama-bg{
-  fill: #58b980;
+  fill: var(--saitama-color); 
 }
 
 .prefecture-saitama-text{
@@ -475,8 +761,8 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 }
 
 .testimonial-box {
-  background-color: #e8dccd;
-  height: 32rem;
+  background-color: #FFF8ED;
+  height: 38rem;
   margin-left: 0.5%;
   margin-right: 0.5%;
   width: 32.33333333333333333333333333333333333333333333333333333333333333%;
@@ -498,7 +784,7 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 .testimonial-header {
   font-size: 1.75rem;
   font-family: "Shin-Maru-GP-DeBold";
-  color: #4f4538;
+  color: #5D3D2D;
   font-weight: bold;
   display: block;
   margin-top: auto;
@@ -510,7 +796,7 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 }
 
 .testimonial-text {
-  color: #4f4538;
+  color: #5D3D2D;
   font-family: "Shin-Maru-GP-Regular";
   font-size: 0.95rem;
 }
@@ -520,6 +806,10 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
   top: 90%;
   vertical-align: bottom;
   width: 45%;
+}
+
+.testimony-rank-fill {
+  fill: #5CBBB2;
 }
 
 @media (max-width: 576px) {
@@ -537,13 +827,14 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
     margin-left: 0%;
     margin-right: 0%;
     width: 100%;
+    
   }
 
   .testimonial-inner {
     padding: 1rem;
     padding-top: 1rem;
     position: relative;
-    height: 31rem;
+    height: 40rem;
   }
 
   .testimonial-top-row {
@@ -564,7 +855,7 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 
 }
 .four-benefits-container {
-  background-color: #7dcee0;
+  background-color: #79CABA;
   padding: 0.25rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
@@ -590,6 +881,14 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
   max-width: 6rem;
 }
 
+.benefit-icon-colour-1 {
+  fill: #5CBBB2;
+}
+
+.benefit-icon-colour-2 {
+  fill: #FFF8ED;
+}
+
 .four-benefits-text {
   font-family: "Noto Sans JP", sans-serif;
   margin: 0;
@@ -604,21 +903,6 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
   height: 100%;
 }
 
-.four-benefits-top-decoration-1{
-  position: absolute;
-  transform: translate(-50%, -81%);
-  width: 60%;
-  top: 0%;
-  left: 30%;
-}
-
-.four-benefits-top-decoration-2{
-  position: absolute;
-  transform: translate(-80%, -30%);
-  width: 25%;
-  top: 0%;
-  left: 100%;
-}
 
 @media (max-width: 576px) {
   .four-benefits-container {
@@ -638,10 +922,6 @@ filter: drop-shadow(0px 5px 0px #9ad3e2);
 }
 
 /* CALL TO ACTION ----------------------------------------------------------------- */
-.activity-info-div {
-background-color: #7dcee0;
-}
-
 .call-to-action {
   background-color: #faeaaa;
   position: relative;
@@ -663,27 +943,23 @@ background-color: #7dcee0;
 }
 
 .cta-button {
-  transform: translate(0%, -50%);
-  position: absolute;
-  top: 45%;
-  width: 90%;
+  width: 80%;
   left: 0%;
   max-width: 600px;
   font-family: "Shin-Maru-GP-DeBold";
   text-decoration: none;
   color: #fff;
-  background-color: #5f5ca8;
-  border: solid 0.2rem #5f5ca8;
+  background-color: #5D3D2D;
+  border: solid 0.2rem #5D3D2D;
   font-size: 1.25rem;
   padding: 1rem;
   text-align: left;
   padding-left: 2rem;
   border-radius: 3rem;
   display: block;
-  margin-left: auto;
+  margin-left: 2rem;
   margin-right: auto;
   transition-duration: 0.3s;
-  margin-top: 3rem;
   margin-bottom: 3rem;
   -webkit-box-shadow:0px 0px 11px 5px rgba(64,39,20,0.2);
 -moz-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
@@ -691,7 +967,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .cta-button::after {
-  content: url(../winter-school-images/btn-arrow.svg);
+  content: url(../winter-school-images/btn-arrow-white.svg);
   height: 1rem;
   float: right;
   top: 65%;
@@ -706,23 +982,21 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .cta-button:hover::after {
-  content: url(../winter-school-images/btn-arrow-hover.svg);
+  content: url(../winter-school-images/btn-arrow-pink.svg);
 }
 
 .cta-container{
+  display: flex;
+  align-items: center;      
+  justify-content: center;  
+  vertical-align: middle;    
+}
+
+.cta-wrapper{
   position: relative;
-}
-
-.cta-prompt-desktop{
-  transform-origin: bottom left;
-  position: absolute;
-  top: 5%;
-
-}
-
-.decoration-cta-bottom{
   width: 100%;
 }
+
 
 
 @media (max-width: 576px) {
@@ -737,7 +1011,8 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
   .cta-button {
     display: block;
-
+    margin-left: auto;
+    margin-right: auto;
     position: relative;
     top: auto;
     width: 100%;
@@ -765,15 +1040,16 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
 /* Swiper-Slider ----------------------------------------------------------------- */
 
-.decoration-activities-top{
-  width: 100%;
-  transform: translate(0, -1px);
-}
+.activity-info-div {
+  background-color: #F594A4;
+  padding-top: 1rem;
+  }
+  
 
 .swiper-arrow-container {
   position: relative;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .swiper-container {
@@ -833,18 +1109,23 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .activity-slide-1 {
-  background-color: #58b980;
-  border-color: #58b980;
+  background-color: #F16883;
+  border-color: #F16883;
 }
 
 .activity-slide-2 {
-  background-color: #5f5ba8;
-  border-color: #5f5ba8;
+  background-color: #5BBCB3;
+  border-color: #5BBCB3;
 }
 
 .activity-slide-3 {
-  background-color: #56aabf;
-  border-color: #56aabf;
+  background-color: #7BC263;
+  border-color: #7BC263;
+}
+
+.activity-slide-4 {
+  background-color: #F79752;
+  border-color: #F79752;
 }
 
 .activity-slide-special {
@@ -974,6 +1255,10 @@ margin-bottom: -4px;
   
 }
 
+.dropdown-row{
+  padding-bottom: 1rem;
+}
+
 .btn-dropdown-left {
   text-align: left;
   
@@ -988,8 +1273,8 @@ margin-bottom: -4px;
 }
 .btn-dropdown-small {
   font-family: "Noto Sans JP", sans-serif;
-  background-color: #5f5ca8;
-  border: solid 0.2rem #5f5ca8;
+  background-color: #5D3D2D;
+  border: solid 0.2rem #5D3D2D;
   border-radius: 2rem;
   width: 90%;
   max-width: 600px;
@@ -1004,8 +1289,8 @@ margin-bottom: -4px;
   margin: 0 auto;
   font-weight: bold;
   -webkit-box-shadow:0px 0px 11px 5px rgba(64,39,20,0.2);
--moz-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
+  -moz-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
+  box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .dropdown-img-small {
@@ -1022,8 +1307,8 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 .btn-dropdown-small:focus,
 .btn-dropdown-small:not(.collapsed) {
   background-color: #fff;
-  color: #5f5ca8;
-  border: solid 0.2rem #5f5ca8;
+  color: #5D3D2D;
+  border: solid 0.2rem #5D3D2D;
 }
 
 .btn-dropdown-small:not(.collapsed) {
@@ -1090,7 +1375,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .daily-schedule-header {
-  color: #5f5ca8;
+  color: #F594A4;
   font-weight: bold;
   font-size: 1.25rem;
 }
@@ -1131,7 +1416,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 .form-download {
   padding-top: 1rem;
   text-align: center;
-  color: #267d8a;
+  color: #8E5620;
   font-weight: bold;
   font-size: 1.25rem;
 }
@@ -1159,6 +1444,9 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   z-index: 0;
 }
 
+.dropdown-wrapper{
+  padding-bottom: 2rem;
+}
 
 /* Image Carousel ------------------------------------------------------------------*/
 
@@ -1250,6 +1538,21 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
 /* Sign Up and Pre Footer ------------------------------------------------------------------*/
 
+
+.sign-up-bg {
+  fill: #fff;
+}
+
+.sign-up-stroke {
+  fill: #313133;
+}
+
+
+.sign-up-main-colour {
+  fill: #5C2C27;
+}
+
+
 .sign-up-instruction-header {
   font-size: 1.15rem;
   font-weight: bold;
@@ -1272,7 +1575,9 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 }
 
 .sign-up {
-  background-color: #7dcee0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #7BC263;
 }
 .sign-up-row {
   padding-bottom: 1rem;
@@ -1314,10 +1619,11 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   font-weight: bold;
   padding-bottom: 3rem;
   color: white;
+
 }
 
 .sign-up-h3 {
-  font-size: 1.75rem;
+  font-size: 1.5rem;
   font-family: "Noto Sans JP", sans-serif;
   font-weight: bold;
   padding-top: 1rem;
@@ -1331,48 +1637,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   color: white;
 }
 
-.sign-up-button {
-  position: relative;
-  font-family: "Shin-Maru-GP-DeBold";
-  text-decoration: none;
-  color: #5f5ba8;
-  background-color: #fff;
-  border: solid 0.2rem #5f5ba8;
-  font-size: 1.25rem;
-  padding: 1rem;
-  text-align: left;
-  padding-left: 2rem;
-  border-radius: 3rem;
-  width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  transition-duration: 0.3s;
-  margin-bottom: 1rem;
-
-  -webkit-box-shadow:0px 0px 11px 5px rgba(64,39,20,0.2);
--moz-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
-box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
-}
-
-.sign-up-button::after {
-  content: url(../winter-school-images/btn-arrow-hover.svg);
-  height: 1rem;
-  float: right;
-  top: 70%;
-  padding-right: 2rem;
-  padding-top: 0.1rem;
-}
-
-.sign-up-button:hover {
-  color: #fff;
-  background-color: #5f5ba8;
-  border: solid 0.2rem #5f5ba8;
-}
-
-.sign-up-button:hover::after {
-  content: url(../winter-school-images/btn-arrow.svg);
-}
 
 .pre-footer {
   background-color: #e8dccd;
@@ -1398,7 +1662,6 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 .accordion-item {
   border: none !important;
   background-color: #fff8ed;
-
   border-radius: 3rem !important;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1414,6 +1677,12 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   transform: rotate(0deg);
 }
 
+.accordion-colors-1, .accordion-colors-2 {
+  fill: none;
+  stroke: var(--accordion-icon-color); ;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;
+}
 .accordion-button {
   color: #63574a;
   background-color: #fff8ed;
@@ -1435,13 +1704,13 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
 
 .accordion-button:focus,
 .accordion-button:active {
-  box-shadow: none !important; /* Remove focus and active outline */
+  box-shadow: none !important;
   border-color: transparent !important;
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: transparent !important; /* Set your desired background color */
-  border: none !important; /* Remove border */
+  background-color: transparent !important;
+  border: none !important;
   color: #63574a;
   box-shadow: none !important;
 }
