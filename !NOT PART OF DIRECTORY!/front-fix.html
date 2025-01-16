@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vimeo Modal Example</title>
+  <!-- Lity CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="top_sec2_content">
+    <div class="top_sec2_content_detail">
+      <a href="https://vimeo.com/1036642872" data-lity>
+        <img src="https://kids-up.jp/wp-admin/images/speech-winners-2024/front-page/winner-front-land.webp" alt="Land部門" />
+      </a>
+      <div class="name_section">
+        <span class="btn_normal_narrow bcg-green" style="max-width: none">LAND部門</span>
+        <span>主に英語を始めて１年以内のお子様達が学ぶコース<br>初級コース</span>
+        <span>Hinataさん　門前仲町校</span>
+      </div>
+      <div class="top_sec2_wrapper">
+        <a class="btntransform" href="https://vimeo.com/1036642872" data-lity>動画を見る</a>
+      </div>
+    </div>
+
+    <!-- Repeat for other sections -->
+    <!-- SKY部門 -->
+    <div class="top_sec2_content_detail">
+      <a href="https://vimeo.com/1036642972" data-lity>
+        <img src="https://kids-up.jp/wp-admin/images/speech-winners-2024/front-page/winner-front-sky.webp" alt="Sky部門" />
+      </a>
+      <div class="name_section">
+        <span class="btn_normal_narrow bcg-blue1" style="max-width: none">SKY部門</span>
+        <span>主に英語を始めて１年以上のお子様達が学ぶ<br>中級コース</span>
+        <span>Aさん　新浦安校</span>
+      </div>
+      <div class="top_sec2_wrapper">
+        <a class="btntransform" href="https://vimeo.com/1036642972" data-lity>動画を見る</a>
+      </div>
+    </div>
+
+    <!-- Other sections follow the same structure -->
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      document.querySelectorAll('a[data-lity="data-lity"]').forEach((link) => {
+        link.addEventListener("click", (event) => {
+          event.preventDefault();
+        });
+      });
+    });
+  </script>
+  
+  <!-- Lity JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lity/2.4.1/lity.min.js"></script>
+
+  <!-- Optional: Add custom JavaScript -->
+  <script>
+    // Example of tracking clicks or adding functionality
+    document.querySelectorAll('a[data-lity]').forEach(link => {
+      link.addEventListener('click', (event) => {
+        console.log(`Modal opened for: ${event.currentTarget.href}`);
+      });
+    });
+  </script>
+</body>
+</html>
