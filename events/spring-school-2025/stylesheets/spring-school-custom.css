@@ -6,15 +6,40 @@ html {
 
 :root {
 
-  /* LOCATIONS COLOURS */
+  /* ------------------------NAVBAR COLOURS------------------------ */
+
+  --navbar-color: #F16883;
+  --navlink-color: #ffffff;
+  --navlink-hover-color: #ffffff;
+
+
+  /* COMMUNICATION BUTTON COLOURS */
+  --navbar-btn-bg-color: #ffffff;
+  --navbar-btn-txt-color: #F594A4;
+
+  --navbar-btn-bg-hover-color: #79CBBA;
+  --navbar-btn-txt-hover-color: #ffffff;
+
+  /* DROPDOWN COLOURS */
+  --navbar-dropdown-color: #F594A4;
+  
+
+  /* ------------------------LOCATIONS COLOURS------------------------ */
+
   --tokyo-color: #F79752;
   --kanagawa-color: #F16883;
   --chiba-color: #7AC263;
   --saitama-color: #5BBCB3;  
 
-  /* ACCORDION ICON COLOURS */
+  /* ------------------------BUTTON ICON COLOURS------------------------ */
 
-  --accordion-icon-color: #7AC263;  
+  /* ACCORDION ICON */
+  --accordion-icon-color: #7AC263;
+
+  /* SWIPER NAV ARROWS */
+  --swiper-button-bg: #F16883;
+  --swiper-button-arrow: #ffffff;
+
 }
 
 .section-h2 {
@@ -30,21 +55,28 @@ p {
 
 
 .swiper-button-bg {
-  fill: #F16883;
+  fill: var(--swiper-button-bg);
   isolation: isolate;
   opacity: .8;
+  transition: 0.2s ease-in-out;
 }
 
 .swiper-button-arrow {
-  fill: #fff;
+  fill: var(--swiper-button-arrow);
   
 }
 
 .swiper-button-activity-prev:hover,.swiper-button-activity-next:hover{
   opacity: .5;
+  transition: 0.5s ease-in-out;
 }
 
-.lower-h2{
+
+.gallery-h2{
+  color: #5D3D2D;
+}
+
+.faq-h2{
   color: #5D3D2D;
 }
 
@@ -175,28 +207,23 @@ p {
 
 /* NAVBAR ----------------------------------------------------------------- */
 .navbar {
-  top: 0;
-  width: 100%;
-  height: 3.65rem;
   box-shadow: none;
-  background-color: #F16883 !important;
+  background-color:var(--navbar-color) !important;
 }
 
 
 nav {
-  background-color: #F16883 !important;
+  background-color: var(--navbar-color) !important;
 }
 
 .nav-link {
-  color: #FFFFFF;
+  color: var(--navlink-color);
 
-  paint-order: stroke fill;
 }
 
 .nav-link:hover {
+  color: var(--navlink-hover-color);
   opacity: .5;
-  color: #FFFFFF;
-  transition: ease-in-out 0.2s;
 }
 
 .navbar-nav {
@@ -204,13 +231,13 @@ nav {
 }
 
 .nav-btn {
-  background: white;
-  color: #F594A4;
+  background: var(--navbar-btn-bg-color);
+  color: var(--navbar-btn-txt-color);
 }
 
 .nav-btn:hover {
-  background: #79CBBA;
-  color: #fff;
+  background: var(--navbar-btn-bg-hover-color);
+  color: var(--navbar-btn-txt-hover-color);
 }
 
 @media (max-width: 991px) {
@@ -233,7 +260,7 @@ nav {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    background-color: #F594A4;
+    background-color: var(--navbar-dropdown-color);
     position: absolute;
     width: 100%;
     top: 3.65rem;
@@ -402,9 +429,7 @@ petal {
   background-image: url(../spring-school-images/petal-animation.svg);
   background-repeat: no-repeat;
   position: absolute;
-  opacity: .6;
-  z-index: 0
-  ;
+  z-index: 0;
 }
 @media (max-width: 1200px) {
   petal {
@@ -778,7 +803,7 @@ filter: drop-shadow(0px 5px 0px #87B666);
 
 .testimonial-img {
   width: 100%;
-  border-radius: 1rem;
+  border-radius: 50%;
 }
 
 .testimonial-header {
@@ -1487,14 +1512,14 @@ margin-bottom: -4px;
 .swiper-custom-nav-arrow {
   cursor: pointer;
   opacity: 1;
-  transition: all 0.3 ease-in-out;
+  transition: 0.3s ease-in-out;
   width: 4rem;
 }
 
 .swiper-custom-nav-arrow:hover {
   cursor: pointer;
   opacity: 0.6;
-  transition: all 0.3 ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
 .swiper-activities-nav {
@@ -1508,14 +1533,12 @@ margin-bottom: -4px;
 .swiper-activities-nav-arrow {
   cursor: pointer;
   opacity: 1;
-  transition: all 0.3 ease-in-out;
   width: 4rem;
 }
 
 .swiper-activities-nav-arrow:hover {
   cursor: pointer;
   opacity: 0.6;
-  transition: all 0.3 ease-in-out;
 }
 
 @media (max-width: 576px) {

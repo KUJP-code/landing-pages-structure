@@ -1,3 +1,5 @@
+<h2 class="section-h2 faq-h2">よくあるご質問</h2>
+
 <div class="accordion" id="faqAccordion">
           <!-- Item 1 -->
           <div class="accordion-item">

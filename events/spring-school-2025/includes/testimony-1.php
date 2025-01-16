@@ -3,7 +3,7 @@
     <div class="row testimonial-top-row">
       <div class="col-5">
         <img
-          src="./winter-school-images/testimonial-1.png"
+          src="./spring-school-images/testimonial-1.png"
           alt="testimonial-1"
           class="img-fluid testimonial-img"
         />

@@ -47,57 +47,8 @@
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-    <nav class="navbar navbar-expand-lg fixed-top" id="navbar">
 
-        <a class="navbar-brand d-flex w-50 me-auto" href="https://kids-up.jp/">
-          <img
-            src="../global-images/ku-logo-white-desktop.svg"
-            class="nav-logo"
-            alt=""
-          />
-        </a>
-
-
-      <button
-        class="navbar-toggler collapsed"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbar-nav"
-        aria-controls="navbar-nav"
-        aria-expanded="false"
-      >
-        <span class="toggler-icon top-bar"></span>
-        <span class="toggler-icon bottom-bar"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbar-nav">
-        <ul
-          class="navbar-nav nav-pills ms-auto mb-2 mb-lg-0"
-          style="text-align: center"
-        >
-          <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div1">イベント内容</a>
-          </li>
-          <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div2">顧客の声</a>
-          </li>
-          <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div3">アクティビティ一覧</a>
-          </li>
-          <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div4">ギャラリー</a>
-          </li>
-          <li class="nav-item text-nowrap">
-            <a class="nav-link" href="#div5">お申込み・お問合せ</a>
-          </li>
-          <a
-            class="nav-btn text-nowrap"
-            href="https://kids-up.jp/inquiry"
-            role="button"
-            >お問い合わせ</a
-          >
-        </ul>
-      </div>
-    </nav>
+    <?php include '../global-includes/seasonal-navbar.php' ?>
 
 
 
@@ -148,7 +99,7 @@
 
     <section class="event-about">
       <img src="./spring-school-images/transition-bottom-hero.svg" alt="hero-decoration" class="hero-decoration-bottom">
-      <div class="container" id="div1">
+      <div class="container" id="event-info">
         <div class="row">
           <div class="col-sm-7 explainer-top-left">
             <h2 class="section-h2 about-h2">
@@ -228,8 +179,7 @@
             />
             <div class="three-benefits-textbox">
               <p class="three-benefits-text">
-                キッズアップの会員様以外でも、<br />
-                満3歳～小学6年生までのお子様は どなたでもご参加が可能です。
+                キッズアップの会員様以外でも、<br />満3歳～小学6年生までのお子様はどなたでもご参加が可能です。
               </p>
             </div>
           </div>
@@ -242,14 +192,14 @@
             />
             <div class="three-benefits-textbox">
               <p class="three-benefits-text">
-                3回以上のご参加でお得な割引料金も ご用意しております！
+                3回以上のご参加でお得な割引料金もご用意しております！
               </p>
             </div>
           </div>
         </div>
         <!---------------------------------------------------------------- main-body testimony--------------------------------------------------------->
 
-        <h2 class="section-h2" id="div2" style="color: #5D3D2D;">こんなお声をいただきました♪</h2>
+        <h2 class="section-h2" id="customer-feedback" style="color: #5D3D2D;">こんなお声をいただきました♪</h2>
 
         <div class="d-none d-sm-block">
           <div class="row customer-testimony-row">
@@ -350,7 +300,7 @@
 
               <div class="col-12">
                 <p class="four-benefits-text">
-                  ネイティブスピーカー から<br />生きた英語が 学べます！
+                  ネイティブスピーカーから<br />生きた英語が学べます！
                 </p>
               </div>
             </div>
@@ -379,7 +329,7 @@
 
               <div class="col-12">
                 <p class="four-benefits-text">
-                  バイリンガル講師も在籍 <br />※困った時には日本語で<br />
+                  バイリンガル講師も在籍<br />※困った時には日本語で<br />
                   SOSも可能です
                 </p>
               </div>
@@ -411,7 +361,7 @@
 
               <div class="col-12">
                 <p class="four-benefits-text">
-                  先生やお友達と楽しく<br />過ごすことで、 強い絆をつくります
+                  先生やお友達と楽しく<br />過ごすことで、強い絆をつくります
                 </p>
               </div>
             </div>
@@ -480,7 +430,7 @@
     </section>
     <!---------------------------------------------------------------- about activities---------------------------------------------------------------->
 
-    <div class="activity-info-div" id="div3">
+    <div class="activity-info-div" id="activities">
       <div class="d-none d-sm-block"></div>
       <div class="container">
         <h2 class="section-h2">アクティビティ一覧</h2>
@@ -915,8 +865,8 @@
                 style="width: 100%"
               />
               <div class="form-download-wrapper">
-                <a href="./spring-school-2025-calendar.pdf"
-                  ><h5 class="form-download" target="_blank">
+                <a href="./spring-school-2025-calendar.pdf"  target="_blank"
+                  ><h5 class="form-download">
                     カレンダーをダウンロード
                   </h5></a
                 >
@@ -1025,13 +975,13 @@
                 style="width: 100%"
               />
               <div class="form-download-wrapper">
-                <a href="./spring-school-2025-about.pdf"
-                  ><h5 class="form-download" target="_blank">
+                <a href="./spring-school-2025-about.pdf"  target="_blank"
+                  ><h5 class="form-download">
                     ご案内をダウンロード
                   </h5><br>
 
-                  <a href="./spring-school-2025-activity-calendar.pdf">
-                  <h5 class="form-download" target="_blank">
+                  <a href="./spring-school-2025-activity-calendar.pdf"  target="_blank">
+                  <h5 class="form-download" >
                     アクティビティ情報をダウンロード
                   </h5>
                   
@@ -1059,8 +1009,8 @@
               <br />
 
               <div class="form-download-wrapper">
-                <a href="spring-school-2025-price-sheet.pdf"
-                  ><h5 class="form-download" target="_blank">
+                <a href="spring-school-2025-price-sheet.pdf"  target="_blank"
+                  ><h5 class="form-download">
                     料金表をダウンロード
                   </h5></a
                 >
@@ -1075,12 +1025,12 @@
 
     <!-- GALLERY START ------------------------------------------------------------------------------------------------------------------>
 
-    <div class="bottom-section bg-snow-decoration" id="div4">
+    <div class="bottom-section bg-snow-decoration" id="gallery">
 
 
 
       <div class="container">
-        <h2 class="section-h2 lower-h2">ギャラリー</h2>
+        <h2 class="section-h2 gallery-h2">ギャラリー</h2>
       </div>
       <div class="carousel-div" style="position: relative" id="div2">
         <div class="padding-0">
@@ -1220,77 +1170,21 @@
       </div>
 
       <!---------------------------------------------------------------- Section 10 - FAQ ---------------------------------------------------------------->
+
+
       <div class="container">
-        <h2 class="section-h2 lower-h2">よくあるご質問</h2>
         <?php include '../global-includes/faq-module.php' ?>
       </div>
     </div>
 
     <!---------------------------------------------------------------- sign-up ---------------------------------------------------------------->
-    <section class="sign-up" id="div5">
-      <div class="container">
-        <h2 class="sign-up-h2">
-          Kids UPのスプリングスクール<br class="d-sm-none" />ご参加までの流れ
-        </h2>
-
-        <div class="row sign-up-row">
-          <div class="col-sm-4">
-            <div class="sign-up-wrapper-left">
-              
-              <div w3-include-html="../global-images/sign-up-step-1.html"></div>
 
 
+      <?php
+      $eventType = "スプリングスクール"; // Change this to the name of the event to make sure the module displays the correct text. 
+      include '../global-includes/sign-up-module.php';
+      ?>
 
-              <h3 class="sign-up-h3">
-                WEBフォームよりお申込み<br /><br class="d-none d-sm-block" />
-              </h3>
-              <p class="sign-up-p">
-                WEBフォームよりKids UPのスプリングスクールにお申込みが可能です。
-                お申し込みフォームより入力のうえ、お申込みください。
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="sign-up-wrapper-middle">
-              <div w3-include-html="../global-images/sign-up-step-2.html"></div>
-              <h3 class="sign-up-h3">
-                お申込み内容のご確認<br /><br class="d-none d-sm-block" />
-              </h3>
-              <p class="sign-up-p">
-                WEBフォーム送信後、スクールから
-                メールにてお申込内容の確認をさせていただきます。お申込内容に相違があった場合には、お気軽にお申し出ください。
-              </p>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="sign-up-wrapper-right">
-              <div w3-include-html="../global-images/sign-up-step-3.html"></div>
-              <h3 class="sign-up-h3">
-                Kids UPのスプリングスクール<br>
-                イベント当日
-              </h3>
-              <p class="sign-up-p">
-                フレンドリーな先生たちがお子様を お待ちしております！<br />
-                <br />
-                ※各日程ごとに定員になり次第受付を締め切らせていただきます。
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
-            <button class="sign-up-button" onclick="formLink()">
-              お申込みはこちら
-            </button>
-          </div>
-          <div class="col-sm-6">
-            <button class="sign-up-button" onclick="inquiryLink()">
-              お問い合わせ
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
 
     <!---------------------------------------------------------------- pre-footer ---------------------------------------------------------------->
    

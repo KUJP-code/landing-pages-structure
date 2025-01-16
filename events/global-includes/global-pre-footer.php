@@ -1,7 +1,7 @@
     <div class="pre-footer">
       <div class="container">
         <img
-          src="../global-images/pre-footer-teachers-kids-group.webp"
+          src="../global-images/pre-footer-teachers-kids-group.png"
           alt="teachers-kids-group"
           class="img-fluid pre-footer-img"
         />

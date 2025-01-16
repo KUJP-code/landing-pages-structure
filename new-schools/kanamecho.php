@@ -58,7 +58,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
    
             
             </div>
-            <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="hero-call-to-action-btn"
+            <a href="https://kids-up.jp/entry/#/calendar/40/undefined" class="hero-call-to-action-btn"
             >無料体験に参加する</a>
             </div>
 
@@ -121,7 +121,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </div>
 
 
-            <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+            <a href="https://kids-up.jp/entry/#/calendar/40/undefined" class="cta-button"
               >無料体験に参加する
             </a>
             <div class="row">
@@ -265,7 +265,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+          <a href="https://kids-up.jp/entry/#/calendar/40/undefined" class="cta-button"
             >無料体験に参加する
           </a>
           <div class="row">
@@ -685,7 +685,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+          <a href="https://kids-up.jp/entry/#/calendar/40/undefined" class="cta-button"
             >無料体験に参加する
           </a>
           <div class="row">
@@ -1140,7 +1140,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+          <a href="https://kids-up.jp/entry/#/calendar/40/undefined" class="cta-button"
             >無料体験に参加する
           </a>
           <div class="row">

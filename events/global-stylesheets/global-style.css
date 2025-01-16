@@ -118,6 +118,9 @@ html {
 /* Navbar Definitions */
 .navbar {
   z-index: 9999;
+  top: 0;
+  width: 100%;
+  height: 3.65rem;
 }
 
 nav {
@@ -160,6 +163,7 @@ nav {
 
 .nav-link {
   color: #ee8207;
+  paint-order: stroke fill;
 }
 
 .dropdown-item {
@@ -169,6 +173,7 @@ nav {
 
 .nav-link:hover {
   color: #521c01;
+  transition: ease-in-out 0.2s;
 }
 
 .dropdown-menu {
@@ -312,6 +317,7 @@ nav {
   margin: auto;
   padding-top: 2rem;
   padding-bottom: 2rem;
+  max-width: 750px;
 }
 
 .pre-footer-h2,
