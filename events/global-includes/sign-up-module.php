@@ -1,7 +1,7 @@
 <section class="sign-up" id="sign-up">
   <div class="container">
     <h2 class="sign-up-h2">
-      Kids UPの<?php echo htmlspecialchars($eventType); ?><br class="d-sm-none" />ご参加までの流れ
+      <?php echo htmlspecialchars($eventTitle); ?><br class="d-sm-none" />ご参加までの流れ
     </h2>
 
     <div class="row sign-up-row">
@@ -23,7 +23,7 @@
             お申込み内容のご確認<br /><br class="d-none d-sm-block" />
           </h3>
           <p class="sign-up-p">
-            WEBフォーム送信後、スクールからメールにてお申込内容の確認をさせていただきます。お申込内容に相違があった場合には、お気軽にお申し出ください。
+          WEBフォーム送信後、スクールから メールにてお申込内容の確認をさせていただきます。お申込内容に相違があった場合には、お気軽にお申し出ください。
           </p>
         </div>
       </div>
@@ -31,8 +31,8 @@
         <div class="sign-up-wrapper-right">
           <div w3-include-html="../global-images/sign-up-step-3.html"></div>
           <h3 class="sign-up-h3">
-            Kids UPの<?php echo htmlspecialchars($eventType); ?><br>
-            イベント当日
+            <?php echo htmlspecialchars($colThreeTitle); ?><br>
+
           </h3>
           <p class="sign-up-p">
             フレンドリーな先生たちがお子様をお待ちしております！<br />

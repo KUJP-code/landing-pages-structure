@@ -1164,7 +1164,7 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   border-width: 4px;
 }
 
-.slide-date {
+.slide-date, .slide-day {
   font-family: "Shin-Maru-GP-Bold";
   font-size: 1.25rem;
   line-height: 1rem;
@@ -1173,6 +1173,11 @@ box-shadow: 0px 0px 11px 5px rgba(64,39,20,0.2);
   padding-bottom: 0rem;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.slide-day {
+  font-size: .9rem;
+  padding-left: 0rem;
 }
 
 .slide-date-special{
@@ -1347,7 +1352,8 @@ margin-bottom: -4px;
   transition: fill 0.3s ease; /* Smooth transition */
 }
 
-@media screen and (max-width: 1025px) {
+
+@media screen and (max-width: 1400px) {
   .btn-dropdown-small {
     font-size: 14px;
     width: 95%;
@@ -1356,6 +1362,22 @@ margin-bottom: -4px;
   .dropdown-img-small {
     height: 28px;
     width: 28px;
+    right: 7px;
+
+  }
+}
+
+
+@media screen and (max-width: 1025px) {
+  .btn-dropdown-small {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .dropdown-img-small {
+    height: 24px;
+    width: 24px;
+    right: 6px;
   }
 }
 

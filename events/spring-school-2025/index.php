@@ -106,15 +106,22 @@
               今年の春、Kids UPで<br>楽しい留学体験を！
             </h2>
             <p class="about-p">
-              キッズアップのスプリングスクールへようこそ！<br>
-              英語が初めてのお子様も、上級者のお子様も大歓迎！みんなで楽しめるアクティビティが満載です！<br>
+              3歳からの春休みはキッズアップで国内留学！<br>
+              この春休み、遊びながら英語を学べる特別な体験を！<br>
+              ドーナツ作りやロボットバトル、アート体験や遠足など、楽しいアクティビティで英語力と好奇心を育みます。<br>
               <br>
-              工作やお花見、クッキングなど、日替わりで様々なアクティビティを行いますので、毎日参加しても飽きることなく楽しんでいただけます！<br>
+              3つの魅力<br>
               <br>
-              プログラムはすべて英語で行われますので、お子様は英語を自然に学びながら、楽しい体験を積むことができます。英語に自信がなくても大丈夫！経験豊富でフレンドリーな先生たちがしっかりサポートします。<br>
+              1. 楽しく英語を学べる！<br>
+              オールイングリッシュの環境をネイティブ講師がサポート！日本人の先生もいるので英語初心者も安心です！<br>
               <br>
-              この春、キッズアップで一緒に素敵な思い出を作りましょう！
-
+              2. 入会金不要で1日から参加OK！<br>
+              シーズナルスクール限定で誰でもお気軽に参加可能です！<br>
+              <br>
+              3. 最長8:30〜20:30までのお預かり対応<br>
+              共働きのご家庭も安心のお預かり体制です！<br>
+              <br>
+              この春、お子様に忘れられない経験と英語力をプレゼントしませんか？<br>
             </p>
 
 
@@ -442,7 +449,7 @@
               <!-- SLIDE 1 -->
               <div class="swiper-slide activity-slide activity-slide-1">
                 <div class="slide-date-box activity-slide-1">
-                  <h3 class="slide-date">3/17</h3>
+                  <h3 class="slide-date">3/17<span class="slide-day">(月)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-1.webp"
@@ -459,7 +466,7 @@
               <!-- SLIDE 2 -->
               <div class="swiper-slide activity-slide activity-slide-2">
                 <div class="slide-date-box activity-slide-2">
-                  <h3 class="slide-date">3/18</h3>
+                  <h3 class="slide-date">3/18<span class="slide-day">(火)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-2.webp"
@@ -476,7 +483,7 @@
               <!-- SLIDE 3 -->
               <div class="swiper-slide activity-slide activity-slide-3">
                 <div class="slide-date-box activity-slide-3">
-                  <h3 class="slide-date">3/19</h3>
+                  <h3 class="slide-date">3/19<span class="slide-day">(水)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-3.webp"
@@ -493,7 +500,7 @@
               <!-- SLIDE 4 -->
               <div class="swiper-slide activity-slide activity-slide-4">
                 <div class="slide-date-box activity-slide-4">
-                  <h3 class="slide-date">3/21</h3>
+                  <h3 class="slide-date">3/21<span class="slide-day">(金)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-4.webp"
@@ -510,7 +517,7 @@
               <!-- SLIDE 5 -->
               <div class="swiper-slide activity-slide activity-slide-1">
                 <div class="slide-date-box activity-slide-1">
-                  <h3 class="slide-date">3/24</h3>
+                  <h3 class="slide-date">3/24<span class="slide-day">(月)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-5.webp"
@@ -527,7 +534,7 @@
               <!-- SLIDE 6 -->
               <div class="swiper-slide activity-slide activity-slide-2">
                 <div class="slide-date-box activity-slide-2">
-                  <h3 class="slide-date">3/25</h3>
+                  <h3 class="slide-date">3/25<span class="slide-day">(火)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-6.webp"
@@ -544,7 +551,7 @@
               <!-- SLIDE 7 -->
               <div class="swiper-slide activity-slide activity-slide-3">
                 <div class="slide-date-box activity-slide-3">
-                  <h3 class="slide-date">3/26</h3>
+                  <h3 class="slide-date">3/26<span class="slide-day">(水)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-7.webp"
@@ -563,7 +570,7 @@
               <!-- SLIDE 8 -->
               <div class="swiper-slide activity-slide activity-slide-4">
                 <div class="slide-date-box activity-slide-4">
-                  <h3 class="slide-date">3/27</h3>
+                  <h3 class="slide-date">3/27<span class="slide-day">(木)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-8.webp"
@@ -580,7 +587,7 @@
               <!-- SLIDE 9 -->
               <div class="swiper-slide activity-slide activity-slide-1">
                 <div class="slide-date-box activity-slide-1">
-                  <h3 class="slide-date">3/28</h3>
+                  <h3 class="slide-date">3/28<span class="slide-day">(金)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-9.webp"
@@ -597,7 +604,7 @@
                             <!-- SPECIAL 1 -->
                             <div class="swiper-slide activity-slide activity-slide-special">
                               <div class="slide-date-box slide-date-box-special">
-                                <h3 class="slide-date slide-date-special">3/29</h3>
+                                <h3 class="slide-date slide-date-special">3/29<span class="slide-day slide-date-special">(土)</span></h3>
                               </div>
                               <div class="slide-date-box slide-time-box">
                                 <h3 class="slide-date slide-time-special">午前
@@ -619,7 +626,7 @@
                             <!-- SPECIAL 2 -->
                             <div class="swiper-slide activity-slide activity-slide-special">
                               <div class="slide-date-box slide-date-box-special">
-                                <h3 class="slide-date slide-date-special">3/29</h3>
+                                <h3 class="slide-date slide-date-special">3/29<span class="slide-day slide-date-special">(土)</span></h3>
                               </div>
               
                               <div class="slide-date-box slide-time-box">
@@ -641,7 +648,7 @@
               <!-- SLIDE 10 -->
               <div class="swiper-slide activity-slide activity-slide-4">
                 <div class="slide-date-box activity-slide-4">
-                  <h3 class="slide-date">3/31</h3>
+                  <h3 class="slide-date">3/31<span class="slide-day">(月)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-10.webp"
@@ -658,7 +665,7 @@
               <!-- SLIDE 11 -->
               <div class="swiper-slide activity-slide activity-slide-1">
                 <div class="slide-date-box activity-slide-1">
-                  <h3 class="slide-date">4/1</h3>
+                  <h3 class="slide-date">4/1<span class="slide-day">(火)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-11.webp"
@@ -675,7 +682,7 @@
               <!-- SLIDE 12 -->
               <div class="swiper-slide activity-slide activity-slide-2">
                 <div class="slide-date-box activity-slide-2">
-                  <h3 class="slide-date">4/2</h3>
+                  <h3 class="slide-date">4/2<span class="slide-day">(水)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-12.webp"
@@ -693,7 +700,7 @@
               <!-- SLIDE 13 -->
               <div class="swiper-slide activity-slide activity-slide-3">
                 <div class="slide-date-box activity-slide-3">
-                  <h3 class="slide-date">4/3</h3>
+                  <h3 class="slide-date">4/3<span class="slide-day">(木)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-13.webp"
@@ -710,7 +717,7 @@
               <!-- SLIDE 14 -->
               <div class="swiper-slide activity-slide activity-slide-4">
                 <div class="slide-date-box activity-slide-4">
-                  <h3 class="slide-date">4/4</h3>
+                  <h3 class="slide-date">4/4<span class="slide-day">(金)</span></h3>
                 </div>
                 <img
                   src="./spring-school-images/event-images/activity-14.webp"
@@ -1173,7 +1180,9 @@
 
 
       <div class="container">
-        <?php include '../global-includes/faq-module.php' ?>
+        <?php 
+        $faqEventType = "スプリングスクール"; // Change this to the name of the event to make sure the module displays the correct text. 
+        include '../global-includes/faq-module.php' ?>
       </div>
     </div>
 
@@ -1181,7 +1190,9 @@
 
 
       <?php
+      $eventTitle = "スプリングスクール"; // Change this to the name of the event to make sure the module displays the correct text. 
       $eventType = "スプリングスクール"; // Change this to the name of the event to make sure the module displays the correct text. 
+      $colThreeTitle = "スプリングスクール当日"; // Change this to the name of the event to make sure the module displays the correct text. 
       include '../global-includes/sign-up-module.php';
       ?>
 

@@ -183,7 +183,7 @@ class="accordion-btn-icon">
               <div class="accordion-body">
                                <p class="accordion-text">
                 指定の小学校・保育園までのお迎えと、 ご自宅付近の停車場所までお送りする「無料送迎サービス」がございます。<br>
-                ※レギュラーコースにご通学の方のみご利用いただけます　スプリングスクールのみご参加の方には対応いたしておりません。
+                ※レギュラーコースにご通学の方のみご利用いただけます。　<?php echo htmlspecialchars($faqEventType); ?>のみご参加の方には対応いたしておりません。
                 </p>
               </div>
             </div>
