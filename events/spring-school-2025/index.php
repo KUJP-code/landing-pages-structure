@@ -780,10 +780,10 @@
               <a
               class="btn btn-dropdown-small"
               data-bs-toggle="collapse"
-              href="#calendar-collapse"
+              data-bs-target="#dropdown-calendar"
               role="button"
               aria-expanded="true"
-              aria-controls="calendar-collapse"
+              aria-controls="dropdown-calendar"
               >
                 イベントカレンダー
                 <div w3-include-html="../global-images/dropdown-arrow.html"></div>
@@ -796,10 +796,10 @@
               <a
                 class="btn btn-dropdown-small collapsed"
                 data-bs-toggle="collapse"
-                href="#DailySchedule-Collapse"
+                data-bs-target="#dropdown-schedule"
                 role="button"
                 aria-expanded="false"
-                aria-controls="DailySchedule-Collapse"
+                aria-controls="dropdown-schedule"
               >
                 一日のスケジュール
                    <div w3-include-html="../global-images/dropdown-arrow.html"></div>
@@ -812,10 +812,10 @@
               <a
                 class="btn btn-dropdown-small collapsed"
                 data-bs-toggle="collapse"
-                href="#PriceSheet-Collapse"
+                data-bs-target="#dropdown-pricesheet"
                 role="button"
                 aria-expanded="false"
-                aria-controls="PriceSheet-Collapse"
+                aria-controls="dropdown-pricesheet"
               >
                 料金表
                    <div w3-include-html="../global-images/dropdown-arrow.html"></div>
@@ -827,10 +827,10 @@
                           <a
                             class="btn btn-dropdown-small collapsed"
                             data-bs-toggle="collapse"
-                            href="#Explanation-Collapse"
+                            data-bs-target="#dropdown-explanation"
                             role="button"
                             aria-expanded="false"
-                            aria-controls="Explanation-Collapse"
+                            aria-controls="dropdown-explanation"
                           >
                           ご案内
                             <svg
@@ -861,7 +861,7 @@
 
           <div
             class="collapse show dropdown-container"
-            id="calendar-collapse"
+            id="dropdown-calendar"
             data-bs-parent="#TripleDropdown"
           >
             <div class="container dropdown-container">
@@ -885,7 +885,7 @@
 
           <div
             class="collapse container dropdown-container"
-            id="DailySchedule-Collapse"
+            id="dropdown-schedule"
             data-bs-parent="#TripleDropdown"
           >
             <div class="daily-Schedule-1">
@@ -965,7 +965,7 @@
 
           <div
             class="collapse dropdown-container"
-            id="Explanation-Collapse"
+            id="dropdown-explanation"
             data-bs-parent="#TripleDropdown"
           >
             <div class="container dropdown-container">
@@ -1002,7 +1002,7 @@
 
           <div
             class="collapse"
-            id="PriceSheet-Collapse"
+            id="dropdown-pricesheet"
             data-bs-parent="#TripleDropdown"
           >
             <div class="container dropdown-container">
@@ -1039,7 +1039,7 @@
       <div class="container">
         <h2 class="section-h2 gallery-h2">ギャラリー</h2>
       </div>
-      <div class="carousel-div" style="position: relative" id="div2">
+      <div class="carousel-div" style="position: relative">
         <div class="padding-0">
           <div class="swiper" id="image-carousel">
             <div class="swiper-wrapper">
