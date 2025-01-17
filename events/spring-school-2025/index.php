@@ -60,7 +60,6 @@
       
 <img src="./spring-school-images/hero-decoration-balloons.svg" alt="hero-decoration-balloons" class="hero-decoration-balloons">
 
-<img src="./spring-school-images/hero-decoration-bunny.svg" alt="hero-decoration-bunny" class="hero-decoration-bunny">
 <img src="./spring-school-images/hero-decoration-flowers.svg" alt="hero-decoration-flowers" class="hero-decoration-flowers">
 <img src="./spring-school-images/hero-decoration-boy.svg" alt="hero-decoration-boy" class="hero-decoration-boy">
 <div class="row">
