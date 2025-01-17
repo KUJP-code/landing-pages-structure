@@ -77,9 +77,8 @@
 <div class="col-sm-6 hero-col">
 
   <div class="hero-text-wrapper">
-    <h1 class="hero-h1">キッズアップのスプリングスクールでワクワクの留学体験をしませんか？<br>
-      申込受付中！</h1>
-      <p class="hero-text">ドーナツ作りやロボットバトルで楽しく英語力アップ！<br>日替わりのアクティビティで先生、お友達と一緒に最高の思い出を作ろう♪<br>【スプリングスクール2025申込受付中】<br>3才以上のお子様はどなたでも参加OK！<br>お申し込みは簡単！WEBまたはスクールで受付中！<span class="hero-text-small">※定員がございますのでお早めに！</span></p>
+    <h1 class="hero-h1">スプリングスクールで<br>ワクワクの留学体験を<br>しませんか？</h1>
+      <p class="hero-text"><br>ドーナツ作りやロボットバトルで楽しく英語力アップ！<br>日替わりのアクティビティで先生、お友達と一緒に最高の思い出を作ろう♪<br><br>【スプリングスクール2025申込受付中】<br>3才以上のお子様はどなたでも参加OK！<br>お申し込みは簡単！WEBまたはスクールで受付中！<br><span class="hero-text-small">※定員がございますのでお早めに！</span></p>
       <button class="d-none d-sm-block hero-cta-button" onclick="formLink()">
         お申込みはこちら
       </button>
