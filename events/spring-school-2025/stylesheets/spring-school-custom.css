@@ -291,9 +291,10 @@ nav {
   background-color: #F7E2D7; 
   position: relative;
   width: 100%;
-  aspect-ratio: 16/9;
+  aspect-ratio: 16 / 8.5;
   border: 1px solid rgba(255, 255, 255, 0.1);
   overflow: hidden; /* Ensure petals don't overflow outside the container */
+
 }
 
 
@@ -324,8 +325,9 @@ nav {
 .hero-decoration-bunny{
   position: absolute;
   width: 20%;
-  bottom: 20%;
-  left: 50%;transform: translate(-50%, 0);
+  bottom: 15%;
+  left: 45%;
+  transform: translate(-50%, 0);
   z-index: 1;
 }
 
@@ -354,17 +356,25 @@ nav {
 
 }
 
+.hero-text-wrapper{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+}
+
 .hero-h1{
   color: #F16883;
   font-family: "Shin-Maru-GP-Bold";
-  -webkit-text-stroke: 5px #F7E2D7; 
-  text-stroke: 5px #F7E2D7; 
+  -webkit-text-stroke: 10px #F7E2D7; 
+  text-stroke: 10px #F7E2D7; 
   paint-order:  stroke fill;
   z-index: 1;
 }
 
 .hero-text{
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-family: "Shin-Maru-GP-Regular";
   color: #4f4538;
   z-index: 1;
@@ -381,7 +391,7 @@ nav {
   position: relative;
   width: fit-content;
   padding: 0.5rem 6rem 0.5rem 2rem;
-  font-size: 2rem;
+  font-size: 1.75rem;
   color: white;
   font-family: "Shin-Maru-GP-Bold";
   background-color: #F16883;
@@ -431,6 +441,13 @@ petal {
   position: absolute;
   z-index: 0;
 }
+@media (max-width: 1400px) {
+.hero{
+  aspect-ratio: 16 / 9.5;
+}
+}
+
+
 @media (max-width: 1200px) {
   petal {
     width: 120px; 
@@ -447,6 +464,18 @@ petal {
     height: 120px;
 
   }
+
+  .hero{
+    aspect-ratio: 16 / 10.5;
+  }
+
+  .hero-image{
+    width: 100%;
+    display: flex;
+    margin-left: 15%;
+    z-index: 2;
+  
+  }
 }
 
 
@@ -457,6 +486,12 @@ petal {
     height: 100px;
 
   }
+
+  .hero{
+    aspect-ratio: 16 / 11.5;
+  }
+
+  
 }
 
 
@@ -486,6 +521,14 @@ petal {
     font-size: 1.75rem;
     text-align: center;
   }
+  .hero-text-wrapper{
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+  }
+
 
   .hero-text{
     text-align: center;
@@ -534,7 +577,7 @@ petal {
     width: 30%;
     transform: translate(-30%, -100%);
     top: 50%;
-    z-index: 0;
+    z-index: 1;
     left: 1%;
   }
   

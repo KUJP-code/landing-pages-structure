@@ -60,11 +60,12 @@
       
 <img src="./spring-school-images/hero-decoration-balloons.svg" alt="hero-decoration-balloons" class="hero-decoration-balloons">
 
+<img src="./spring-school-images/hero-decoration-bunny.svg" alt="hero-decoration-bunny" class="hero-decoration-bunny">
 <img src="./spring-school-images/hero-decoration-flowers.svg" alt="hero-decoration-flowers" class="hero-decoration-flowers">
 <img src="./spring-school-images/hero-decoration-boy.svg" alt="hero-decoration-boy" class="hero-decoration-boy">
 <div class="row">
 
-<div class="col-sm-6 hero-col">
+<div class="col-12 col-sm-5 col-md-6 hero-col">
   <img src="./spring-school-images/spring-school-splash.png" alt="spring-school-hero" class="img-fluid hero-image">
 
   <button class="d-block d-sm-none hero-cta-button" onclick="formLink()">
@@ -73,11 +74,22 @@
 </div>
 
 
-<div class="col-sm-6 hero-col">
+<div class="col-12 col-sm-7 col-md-6 hero-col">
 
   <div class="hero-text-wrapper">
-    <h1 class="hero-h1">スプリングスクールで<br>ワクワクの留学体験を<br>しませんか？</h1>
-      <p class="hero-text"><br>ドーナツ作りやロボットバトルで楽しく英語力アップ！<br>日替わりのアクティビティで先生、お友達と一緒に最高の思い出を作ろう♪<br><br>【スプリングスクール2025申込受付中】<br>3才以上のお子様はどなたでも参加OK！<br>お申し込みは簡単！WEBまたはスクールで受付中！<br><span class="hero-text-small">※定員がございますのでお早めに！</span></p>
+    <h1 class="hero-h1">
+      スプリングスクールで<br>
+      ワクワクの留学体験を<br>
+      しませんか？</h1>
+      <p class="hero-text">
+        ドーナツ作りやロボットバトルで<br class="d-block d-smd-none">楽しく英語力アップ！<br>
+        日替わりのアクティビティで先生、<br>
+        お友達と一緒に最高の思い出を作ろう♪<br>
+        <br>
+        【スプリングスクール2025申込受付中】<br>
+        3才以上のお子様はどなたでも参加OK！<br>
+        お申し込みは簡単！WEBまたはスクールで受付中！<br>
+        <span class="hero-text-small">※定員がございますのでお早めに！</span></p>
       <button class="d-none d-sm-block hero-cta-button" onclick="formLink()">
         お申込みはこちら
       </button>
