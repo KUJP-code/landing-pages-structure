@@ -216,10 +216,10 @@
         </div>
         <!---------------------------------------------------------------- main-body testimony--------------------------------------------------------->
 
-        <h2 class="section-h2" id="customer-feedback" style="color: #5D3D2D;">こんなお声をいただきました♪</h2>
+        <h2 class="section-h2" id="customer-feedback" style="color: #5D3D2D;">過去のシーズナルスクールにご参加いただいた方の声</h2>
 
         <div class="d-none d-sm-block">
-          <div class="row customer-testimony-row">
+          <div class="row customer-testimony-row d-flex align-items-stretch">
             <?php include './includes/testimony-1.php' ?>
 
             <?php include './includes/testimony-2.php' ?>
@@ -227,6 +227,8 @@
             <?php include './includes/testimony-3.php' ?>
           </div>
         </div>
+
+        
         <div class="d-block d-sm-none">
           <div class="swiper-arrow-container">
             <div class="swiper-container-testimony">
@@ -1202,7 +1204,7 @@
       <?php
       $eventTitle = "スプリングスクール"; // Change this to the name of the event to make sure the module displays the correct text. 
       $eventType = "スプリングスクール"; // Change this to the name of the event to make sure the module displays the correct text. 
-      $colThreeTitle = "スプリングスクール当日"; // Change this to the name of the event to make sure the module displays the correct text. 
+      $colThreeTitle = "スプリングスクール当日"; // Change this to the name of the third column title to match what has been outlined . 
       include '../global-includes/sign-up-module.php';
       ?>
 
