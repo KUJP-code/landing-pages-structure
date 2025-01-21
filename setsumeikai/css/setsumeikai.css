@@ -121,7 +121,7 @@ h6 {
 }
 
 .top-hero {
-  background-image: url(../images/main-page/hero-bg.webp);
+  background-image: url(../images/main-page/hero-bg-v2.png);
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 50% auto;
@@ -337,7 +337,7 @@ h6 {
 
   .top-hero-box {
     display: block;
-    background-image: url(../images/main-page/hero-bg-mobile.webp);
+    background-image: url(../images/main-page/hero-bg-mobile-v2.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: auto 100%;
