@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>リダイレクト中...</title>
+</head>
+<body>
+ <script>
+
+// EVENTS and CAMPAIGNS NAMES - EDIT THESE AS AND WHEN WE LAUNCH ONE
+
+const campaignMapping = {
+
+    // Seasonal School 1 Landing Page URL Slug and Campaign Name
+    "se1": { url: "events/spring-school-2025", campaign: "spring_school_2025" },
+
+
+    // Seasonal School 2 Landing Page URL Slug and Campaign Name
+    "se2": { url: "events/summer-school-2025", campaign: "summer_school_2025" },
+
+
+    // Event 1 Landing Page URL Slug and Campaign Name
+    "ev1": { url: "events/halloween-party-2025", campaign: "halloween_party_2025" },
+    "ev2": { url: "events/chocolate-party-2025", campaign: "chocolate_party_2025" }
+};
+
+
+
+// School list - add as necessary
+const schoolCodes = {
+    "01DY": "denenchofu-yukigaya",
+    "02KE": "kamata-ekimae",
+    "03IG": "ikegami",
+    "04TY": "toyocho",
+    "05NG": "nagahara",
+    "06MN": "monzennakacho",
+    "07TG": "togoshi",
+    "08SJ": "seijo",
+    "09OM": "omori",
+    "10WS": "waseda",
+    "11RS": "rinkai-shinonome",
+    "12SK": "shinkawasaki",
+    "13TD": "todoroki",
+    "14OJ": "ojima",
+    "15MT": "mitaka",
+    "16FT": "futamatagawa",
+    "17SU": "shin-urayasu",
+    "18TN": "tennocho",
+    "19MG": "minami-machida-grandberry-park",
+    "20OI": "oi",
+    "21HM": "harumi",
+    "22YT": "yotsuya",
+    "23AB": "akabane",
+    "24KS": "kita-shinagawa",
+    "25MZ": "mizonokuchi",
+    "26YK": "yakou",
+    "27SM": "socola-minami-gyotoku",
+    "28SG": "saginomiya",
+    "29MG": "magome",
+    "30OK": "okurayama",
+    "31MS": "musashi-shinjo",
+    "32MK": "musashi-kosugi",
+    "33KW": "kawaguchi",
+    "34IB": "ikebukuro",
+    "35UN": "ueno",
+    "36KC": "kanamecho"
+};
+
+// different advertising mediums - Add as and when we need them
+const mediumCodes = {
+    "fl": "flyer",
+    "tv": "tv",
+    "wi": "window",
+    "sb": "sandwich-board",
+    "tx": "ticket",
+    "lv": "looping-video"
+};
+
+
+
+
+
+
+
+// ======================================
+// DO NOT CHANGE ANYTHING BELOW THIS LINE
+// ======================================
+
+
+
+
+
+
+
+
+
+function handleRedirect() {
+    // Get everything after '#' in the URL
+    const hash = window.location.hash.substring(1);
+    if (!hash) {
+        // Redirect to homepage if no hash is found
+        window.location.href = "https://kids-up.jp/";
+        return;
+    }
+
+    // Split hash into parts using '-' as delimiter
+    const parts = hash.split("-");
+    if (parts.length < 3) {
+        // Redirect to homepage if format is incorrect
+        window.location.href = "https://kids-up.jp/";
+        return;
+    }
+
+    const campaignKey = parts[0]; // First segment determines the campaign
+    const schoolKey = parts[1];   // Second segment determines the school
+    const mediumKey = parts[2];   // Third segment determines the medium
+
+    // Retrieve campaign data based on campaign key
+    const campaignData = campaignMapping[campaignKey];
+    if (!campaignData) {
+        // Redirect to homepage if campaign key is invalid
+        window.location.href = "https://kids-up.jp/";
+        return;
+    }
+
+    // Retrieve school and medium from lookup tables, default to "unknown" if not found
+    const school = schoolCodes[schoolKey] || "unknown";
+    const medium = mediumCodes[mediumKey] || "unknown";
+
+    // Construct final redirect URL with UTM parameters for tracking
+    const redirectUrl = `https://kids-up.jp/${campaignData.url}?utm_source=${school}&utm_medium=${medium}&utm_campaign=${campaignData.campaign}`;
+    
+    // Redirect the user to the final URL
+    window.location.href = redirectUrl;
+}
+
+// Execute the redirection logic when the page loads
+window.onload = handleRedirect;
+
+ </script>
+   
+</body>
+</html>

@@ -1,0 +1,5 @@
+.hero{
+    background-color: red;
+    width: 100%;
+    height: calc(100vh -  3.65rem);
+}

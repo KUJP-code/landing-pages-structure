@@ -134,14 +134,18 @@
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   try {
-    const cutoffDate = new Date(2025, 1, 27, 23, 59, 59);
+    // Define the cutoff date in JST (UTC+9)
+    const cutoffDate = new Date(Date.UTC(2025, 0, 27, 14, 59, 59)); // Convert to UTC equivalent
+    const currentDateUTC = new Date();
+    
+    // Convert current UTC time to JST
+    const currentDateJST = new Date(currentDateUTC.getTime() + 9 * 60 * 60 * 1000);
 
-    const currentDate = new Date();
-    console.log("Cutoff Date:", cutoffDate);
-    console.log("Current Date:", currentDate);
-    console.log("Should show earlybird?", currentDate <= cutoffDate);
+    console.log("Cutoff Date (JST):", cutoffDate);
+    console.log("Current Date (JST):", currentDateJST);
+    console.log("Should show earlybird?", currentDateJST <= cutoffDate);
 
-    if (currentDate <= cutoffDate) {
+    if (currentDateJST <= cutoffDate) {
       document.querySelectorAll('.earlybird').forEach(element => {
         console.log("Revealing element:", element);
         element.classList.remove('hidden-before-cutoff');
@@ -151,9 +155,8 @@ document.addEventListener("DOMContentLoaded", () => {
     console.error("Error in script:", error);
   }
 });
-
-
 </script>
+
 
 
     <!-- ABOUT EVENT ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
