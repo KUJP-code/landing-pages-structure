@@ -166,7 +166,7 @@
           <div class="footer-subarea-submenu-wrapper ">
 
             <a
-              href="https://www.p-up.world/cookie-policy/"
+              href="https://kids-up.jp/cookie-policy/"
               style="font-size: 0.75rem"
               class="policy-section"
               >Cookieポリシーについて</a
