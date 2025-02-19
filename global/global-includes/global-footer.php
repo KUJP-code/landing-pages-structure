@@ -186,3 +186,11 @@
     </div>
   </div>
 </section>
+
+<script>document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll(".page-img-wrapper").forEach(el => {
+        const bg = el.getAttribute("data-back");
+        if (bg) el.style.backgroundImage = `url(${bg})`;
+    });
+});
+</script>
