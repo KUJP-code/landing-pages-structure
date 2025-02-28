@@ -1,0 +1,569 @@
+/* Font Definitions */
+@font-face {
+  font-family: "Shin-Maru-GP-Regular";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Bold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-DeBold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Ultra";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF%20Shin%20Maru%20Go%20Pro%20U.otf); /* Corrected URL escaping */
+}
+
+/* Base Styles */
+html {
+  overflow-x: hidden;
+  font-size: 16px; /* Base font size */
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Container Width (Mobile) */
+@media (max-width: 576.98px) {
+  .container {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+/* Responsive Font Sizes */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+/* Bootstrap Fifths Columns */
+.col-xs-5ths,
+.col-sm-5ths,
+.col-md-5ths,
+.col-lg-5ths {
+  position: relative;
+  min-height: 1px;
+  padding: 0 15px;
+  float: left;
+  width: 20%;
+}
+
+@media (min-width: 768px) {
+  .col-sm-5ths,
+  .col-md-5ths,
+  .col-lg-5ths {
+    float: left;
+    width: 20%;
+  }
+}
+
+/* Navbar */
+.navbar, nav {
+  z-index: 9999;
+  width: 100%;
+  height: 3.65rem;
+  background-color: var(--navbar-color, rgba(0, 0, 0, 0)); /* Default to transparent if var not set*/
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.navbar-nav {
+  height: auto;
+  margin: auto 0 auto 0.75rem; /* Corrected right margin */
+  background-color: var(--navbar-color, rgba(0, 0, 0, 0));
+}
+
+@media (max-width: 767.9px) {
+  .navbar-nav {
+    margin: auto 0;
+    padding-bottom: 1rem;
+    -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+  }
+}
+
+.nav-link,
+.dropdown-item {
+  text-decoration: none;
+  font-family: "Noto Sans JP";
+  font-weight: bold;
+  text-align: center;
+  padding: 0.7rem 0.2rem;
+  margin: 0 0.2rem;
+  font-size: 0.8rem;
+  display: inline-block;
+  transition: 0.2s ease-in-out;
+}
+
+.nav-link {
+  color: var(--navlink-color);
+  paint-order: stroke fill;
+}
+
+.dropdown-item {
+  background-color: #fff;
+  color: #ee8207;
+}
+
+.nav-link:hover {
+  color: var(--navlink-hover-color);
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  border: none;
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 0px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.nav-btn {
+  text-decoration: none !important;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  background: var(--navbar-btn-bg-color);
+  text-align: center;
+  transition: 0.4s ease-in-out;
+  border-radius: 1.8rem;
+  color: var(--navbar-btn-txt-color);
+  padding: 0.5rem 1.5rem;
+  margin-top: 0.2rem;
+  font-size: 0.75rem;
+  display: block;
+  height: 2rem;
+  margin-right: 1rem;
+}
+
+.nav-btn:hover {
+  background: var(--navbar-btn-bg-hover-color);
+  color: var(--navbar-btn-txt-hover-color);
+}
+
+@media (max-width: 767.9px) {
+  .nav-btn {
+    width: fit-content;
+    padding: 0.35rem 2rem;
+    margin: 0 auto;
+  }
+}
+
+.nav-logo {
+  height: 2.25rem;
+  width: auto;
+  transition: 0.4s ease-in-out;
+  margin: auto 1rem;
+}
+
+.nav-logo:hover {
+  opacity: 0.6;
+}
+
+@media (min-width: 767.9px) {
+  .nav-logo {
+    height: 2.3rem;
+  }
+}
+
+@media (max-width: 767.9px) {
+  .nav-logo {
+    height: 2rem;
+  }
+}
+
+/* Hamburger Button */
+.navbar-toggler {
+  width: 2.5rem;
+  height: 2.5rem;
+  position: relative;
+  transition: 0.5s ease-in-out;
+  margin-right: 1rem;
+  background-color: #5a544b;
+  border-radius: 1.25rem;
+  outline: none;
+  box-shadow: none;
+  border: 0;
+}
+
+.toggler-icon,
+.top-bar,
+.bottom-bar {
+  display: block;
+  position: absolute;
+  background-color: #fff;
+  width: 1.75rem;
+  height: 3px;
+  border-radius: 2px;
+  left: 0.35rem;
+  transition: 0.25s ease-in-out;
+}
+
+.top-bar,
+.bottom-bar {
+  width: 1.75rem;
+}
+
+.top-bar {
+  margin-top: -0.3rem;
+}
+
+.bottom-bar {
+  margin-top: 0.25rem;
+}
+
+.navbar-toggler:not(.collapsed) .top-bar {
+  margin-top: -0.1rem;
+  transform: rotate(135deg);
+}
+
+.navbar-toggler:not(.collapsed) .bottom-bar {
+  margin-top: -0.1rem;
+  transform: rotate(-135deg);
+}
+
+
+
+
+
+/* SCHOOL LOCATIONS LISTS */
+
+.prefecture-title, .location-outer {
+  filter: drop-shadow(0px 5px 0px var(--location-shadow));
+}
+
+.location-name-1, .location-name-2, .location-name-3, .location-name-4 {
+  font-family: "Shin-Maru-GP-Bold";
+  background-color: var(--location-contrast);
+}
+
+.location-school {
+  color: var(---text-color);
+}
+
+.map-pin-1-bg-color, .map-pin-2-bg-color, .map-pin-3-bg-color, .map-pin-4-bg-color {
+  fill: var(--location-contrast);
+}
+
+/* Location Styles (Prefecture Specific) */
+
+/* Tokyo */
+.location-name-1,
+.map-pin-1-main-color,
+.prefecture-tokyo-bg {
+  color: var(--tokyo-color); /* For location-name-1 */
+  fill: var(--tokyo-color); /* For map-pin-1-main-color and prefecture-tokyo-bg */
+}
+
+.prefecture-tokyo-text {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* Kanagawa */
+.location-name-2,
+.map-pin-2-main-color,
+.prefecture-kanagawa-bg {
+  color: var(--kanagawa-color);
+  fill: var(--kanagawa-color);
+}
+
+.prefecture-kanagawa-text {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* Chiba */
+.location-name-3,
+.map-pin-3-main-color,
+.prefecture-chiba-bg {
+  color: var(--chiba-color);
+  fill: var(--chiba-color);
+}
+
+.prefecture-chiba-text {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+/* Saitama */
+.location-name-4,
+.map-pin-4-main-color,
+.prefecture-saitama-bg {
+  color: var(--saitama-color);
+  fill: var(--saitama-color);
+}
+
+.prefecture-saitama-text {
+  fill: #fff;
+  stroke-width: 0px;
+}
+
+
+
+/* Pre-Footer */
+.pre-footer {
+  background-color: #fff;
+  padding-bottom: 3rem;
+}
+
+.pre-footer-img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 750px;
+}
+
+.pre-footer-h2,
+.pre-footer-p {
+  font-family: "Noto Sans JP", sans-serif;
+  text-align: center;
+  color: #000;
+}
+
+/* Footer */
+ol,
+ul {
+  list-style: none;
+  font-family: "Noto Sans JP";
+}
+
+a {
+  font-family: "Noto Sans JP";
+  text-decoration: none !important;
+  color: inherit;
+  list-style: none;
+}
+
+.footer-link {
+  padding: 0 10px;
+}
+
+.footer-1-right .footer-subarea {
+  display: table;
+  width: 100%;
+}
+
+.footer-1-right .footer-subarea .footer-subarea-cta {
+  width: 60%;
+  vertical-align: middle;
+  display: table-cell;
+}
+
+.footer-1-right .footer-subarea .footer-subarea-cta .footer-subarea-submenu-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer-1-right .footer-subarea .footer-subarea-submenu {
+  width: 40%;
+  vertical-align: bottom;
+  display: table-cell;
+  font-size: 12px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper a {
+  padding: 0 10px;
+}
+
+#footer {
+  padding: 50px 50px 30px;
+  background-color: #ef8200;
+  overflow-x: hidden;
+}
+
+#footer .sns_area {
+  display: flex;
+  max-width: 100px;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.footer-logo a img {
+  display: block;
+  max-width: 230px;
+  margin: 0 auto 20px;
+  max-height: 68px;
+}
+
+.footer-list-item {
+  height: 2rem;
+}
+
+.footer-1 {
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer-1-left {
+  width: 25%;
+  text-align: center;
+}
+
+.footer-1-right {
+  width: 73%;
+  padding-left: 2%;
+}
+
+.footer-1-right .footer-list-group {
+  margin: 1.5rem auto 50px;
+  font-size: 0.8rem;
+}
+
+.footer-1-right ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-1-right .footer-list-group li {
+  margin: 0 12px 3px;
+  transition: 0.2s ease-in-out;
+}
+
+.footer-1-right .footer-list-group a:hover {
+  opacity: 0.6;
+}
+
+.btn_trial-footer {
+  font-family: "Noto Sans JP";
+  max-width: 350px;
+  width: 95%;
+  height: 64px;
+  display: block;
+  background: #5a534a;
+  color: #fff;
+  line-height: 60px;
+  border-radius: 30px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  border: 1px #fff solid;
+  margin: 0 5% 0 0;
+  text-align: center;
+  transition: 0.25s ease-in-out;
+}
+
+.btn_trial-footer:hover {
+  opacity: 0.85;
+}
+
+.btn_trial-left {
+  margin-left: auto;
+}
+
+.btn_trial-right {
+  margin-right: auto;
+}
+
+.policy-section {
+  color: #fff;
+  padding: 10px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  float: right;
+}
+
+.policy-section:hover {
+  opacity: 0.6;
+}
+
+/* Media Queries */
+@media (max-width: 1080px) {
+  .footer-1-right ul {
+    width: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  #footer {
+    padding: 15px;
+  }
+
+  .footer-1-left,
+  .footer-1-right,
+  .footer-1-right .menu {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .footer-1-left {
+    padding-right: 0;
+  }
+
+  .footer-list-item {
+    height: 2.8rem;
+  }
+
+  .footer-link {
+    font-size: 1rem;
+    padding: 0 1px;
+  }
+
+  .footer-1-right .footer-subarea .footer-subarea-submenu-wrapper a {
+    display: block;
+    padding: 10px;
+  }
+
+  .btn_trial-footer {
+    width: 100%;
+  }
+
+  .footer-1-right .footer-subarea .footer-subarea-submenu {
+    width: 100%;
+    display: block;
+  }
+
+  .footer-1-right .footer-subarea .footer-subarea-submenu-wrapper {
+    display: block;
+    margin-top: 20px;
+  }
+
+  .btn_trial-left,
+  .btn_trial-right {
+    margin: 0 auto;
+  }
+
+  .policy-section {
+    float: none;
+    padding: 0;
+    margin-top: 0.5rem;
+    padding-bottom: 1rem;
+  }
+}

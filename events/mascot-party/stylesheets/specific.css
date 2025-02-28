@@ -1,0 +1,277 @@
+:root {
+
+    /* ------------------------NAVBAR COLOURS------------------------ */
+  
+    --navbar-color: #1f2f17;
+    --navlink-color: #ffffff;
+    --navlink-hover-color: #ffffff7f;
+  
+  
+    /* COMMUNICATION BUTTON COLOURS */
+    --navbar-btn-bg-color: #142940;
+    --navbar-btn-txt-color: #fff;
+  
+    --navbar-btn-bg-hover-color: #f9af24;
+    --navbar-btn-txt-hover-color: #ffffff;
+  
+    /* DROPDOWN COLOURS */
+    --navbar-dropdown-color: #F594A4;
+    
+  
+    /* ------------------------LOCATIONS COLOURS------------------------ */
+  
+    --tokyo-color: #ea7c08;
+    --kanagawa-color: #35bad8;
+    --chiba-color: #7faf4a;
+    --saitama-color: #ec76ab;  
+
+    ---text-color: white;
+    --location-shadow: #3e5a49;
+    --location-contrast: white;
+  
+    /* ------------------------BUTTON ICON COLOURS------------------------ */
+  
+    /* ACCORDION ICON */
+    --accordion-icon-color: #7AC263;
+  
+    /* SWIPER NAV ARROWS */
+    --swiper-button-bg: #F16883;
+    --swiper-button-arrow: #ffffff;
+  
+  }
+  
+
+
+
+
+
+  
+  /* ------------- HERO ------------- */
+  
+  .hero {
+    background-color: #d5d6b7;
+    width: 100%;
+    height: calc(100vh - 3.65rem); /* Default height for landscape */
+    margin-top: 3.65rem;
+  }
+  
+  @media (orientation: portrait) {
+    .hero {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+    }
+  }
+  
+  .hero-inner,
+  .hero-logo,
+  .timer-wrapper {
+    width: 90%;
+    display: block;
+    margin: 0 auto; /* Shorthand for margin-left: auto; margin-right: auto; */
+  }
+
+  .hero-cta-button {
+    position: relative;
+    width: fit-content;
+    margin: 1rem auto;
+    background-color: #f9af24;
+    font-family: "Shin-Maru-GP-Bold";
+    border-radius: 6rem;
+    border: .5rem solid #142940;
+    transition: ease-in-out 0.2s;
+    filter: drop-shadow(0px 0.75rem 0px #142940);
+    color: #142940;
+    font-size: 1.5rem;
+    padding: 0.75rem 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+  }
+  
+  .hero-cta-button:hover {
+    color: #fff;
+    background-color: #142940;
+    border-color: #f9af24;
+    filter: drop-shadow(0px 0.5rem 0px #f9af24);
+  }
+  
+  .hero-cta-button__arrow {
+    width: 1.75rem; /* Adjust as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 1.5rem;
+    fill: currentColor;
+    transition: fill 0.2s ease-in-out;
+    display: inline-block; /* Or block, depending on desired layout */
+    vertical-align: middle; /* Align vertically with text */
+    /* Add these if you want to control the stroke (outline) */
+    stroke: currentColor;
+    stroke-width: 1.5rem; /* Adjust as needed */
+    stroke-linejoin: round; /* Optional: for smoother corners */
+    stroke-linecap: round; /* Optional: for smoother ends */
+    margin-right: .1rem;
+    transform: translateY(-0.1rem);
+  }
+  
+  
+  .hero-cta-button:hover .hero-cta-button__arrow {
+    fill: #fff;
+    stroke: #fff; /* If you're using stroke, change it on hover too */
+  }
+
+
+  .jot-header-mobile {
+    padding-top: 0rem;
+  }
+  
+  #timer {
+    display: flex;
+    width: fit-content;
+    margin: 0 auto; /* Center the timer */
+    font-family: "Shin-Maru-GP-DeBold";
+  }
+  
+  .segment {
+    color: white;
+    padding: 1rem 0; /* Shorthand for padding-top and padding-bottom */
+    margin: 0.5rem;
+    border-radius: 1rem; /* Consistent border radius */
+    text-align: center;
+    width: 6rem;
+    border: 0.3rem solid white; /* Shorthand for border properties */
+  }
+  
+  .label {
+    font-family: "Shin-Maru-GP-Regular";
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 2.2rem;
+    font-weight: bold;
+  }
+  
+  /* Style the individual segments */
+  .segment:nth-child(1) {
+    background-color: #ea7c08;
+  } /* Days - Orange */
+  .segment:nth-child(2) {
+    background-color: #35bad8;
+  } /* Hours - Green */
+  .segment:nth-child(3) {
+    background-color: #7faf4a;
+  } /* Minutes - Red */
+  .segment:nth-child(4) {
+    background-color: #ec76ab;
+  } /* Seconds - Purple */
+  
+  /* Media Queries */
+  @media (max-width: 991px) {
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+      font-size: 1.75rem;
+    }
+  
+    .segment {
+      padding: 0.6rem 0;
+      margin: 0.2rem;
+      width: 5rem;
+      border-radius: 1rem;
+    }
+  
+    .label {
+      font-size: 1rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .hero {
+      height: fit-content;
+      margin-bottom: -5px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #days,
+    #hours,
+    #minutes,
+    #seconds {
+      font-size: 1.5rem;
+    }
+  
+    .segment {
+      padding: 0.25rem 0;
+      margin: 0.2rem;
+      width: 4rem;
+      border-radius: 1rem;
+    }
+  
+    .label {
+      font-size: .75rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+  
+  /* ------------- ABOUT EVENT ------------- */
+  
+  .event-about {
+    background-color: #7aaf57;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .about-h2 {
+    color: white;
+    font-family: "Shin-Maru-GP-Ultra";
+  }
+
+
+  .about-p{
+    color: white;
+    font-weight: 500;
+  }
+
+  .about-cta-button {
+    position: relative;
+    width: fit-content;
+    margin: 1rem auto;
+    background-color: #7aaf57;
+    font-family: "Shin-Maru-GP-Bold";
+    border-radius: 6rem;
+    border: .5rem solid #fff;
+    transition: ease-in-out 0.2s;
+    filter: drop-shadow(0px 0.75rem 0px #fff);
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.75rem 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    margin-left: 0;
+    margin-right: auto;
+    cursor: pointer;
+  }
+
+  .about-cta-button:hover {
+    color: #fff;
+    background-color: #142940;
+    border-color: #f9af24;
+    filter: drop-shadow(0px 0.75rem 0px #f9af24);
+  }

@@ -1,4 +1,4 @@
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/events/global-includes/lp-head.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/events/global-includes/lp-head-v2.php'; ?>
 
 
 
@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./stylesheets/specific.css">
 
 
-    <title>TEMPLATE</title>
+    <title>Kids UPマスコットパーテイー</title>
   </head>
 
   <body>
@@ -23,17 +23,64 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-    <?php include $_SERVER['DOCUMENT_ROOT'] . '/events/global-includes/seasonal-navbar.php'; ?>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/events/global-includes/event-navbar.php'; ?>
 
 
 
     <!-- HERO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <section class="hero">
-      
-      
+      <div class="hero-inner">
+    <div class="row">
 
-    </section>
+<div class="col-sm-6 hero-row-1">
+
+    <img src="./images/hero-logo.svg" alt="" class="hero-logo">
+
+
+    <div class="timer-wrapper">
+    <div id="timer">
+    <div class="segment">
+      <span id="days">00</span>
+      <br>
+      <span class="label">日</span>
+    </div>
+    <div class="segment">
+      <span id="hours">00</span>
+      <br>
+      <span class="label">時</span>
+    </div>
+    <div class="segment">
+      <span id="minutes">00</span>
+      <br>
+      <span class="label">分</span>
+    </div>
+    <div class="segment">
+      <span id="seconds">00</span>
+      <br>
+      <span class="label">秒</span>
+    </div>
+    </div>
+  </div>
+
+  
+  </div>
+  </div>
+  </div>
+<div class="d-block d-sm-none">
+
+  
+  <button class="hero-cta-button" onclick="formLink()">
+    お申込みはこちら
+    <svg class="hero-cta-button__arrow" viewBox="0 0 1006.31 837.38" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z" fill="currentColor"/>
+    </svg>
+  </button>
+<img src="./images/jot-header-mobile.png" alt="jot-header-mobile" class="img-fluid jot-header-mobile">
+</div>   
+</section>
+
+
 
 
 
@@ -43,23 +90,39 @@
     <section class="event-about">
       <div class="container" id="event-info">
         <div class="row">
-          <div class="col-sm-7 explainer-top-left">
+          <div class="col-sm-6 explainer-top-left">
             <h2 class="section-h2 about-h2">
-              今年の春、Kids UPで<br>楽しい留学体験を！
+              ついに会える！<br>
+              ドキドキの瞬間を見逃すな！
             </h2>
+            <br>
             <p class="about-p">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt sequi doloribus necessitatibus tempora distinctio fugit, assumenda minima nesciunt, delectus possimus quidem nam consequuntur, incidunt numquam. Rem fuga facilis odio atque! Ad iste distinctio voluptatem voluptatum minima consequuntur debitis labore ipsum ducimus voluptates, cupiditate blanditiis magni optio incidunt? Cupiditate commodi iusto animi autem harum nemo quisquam laborum cum nihil ratione nam, saepe adipisci, distinctio sunt quidem recusandae iste neque fugit eveniet, ipsa voluptas ea! Dicta labore, iusto eius laudantium earum reiciendis.
+              新マスコット誕生記念イベント<br>
+            楽しいアクティビティ満載！絶対に見逃さないでね！<br>
+            <br>
+            イベント内容<br>
+            <br>
+            •白熱ビデオゲーム<br>
+            •キャラクターカップケーキ作り<br>
+            •巨大ペンでアート体験<br>
+            •限定グッズプレゼント<br>
+            •満員必至！<br>
+            <br>
+            限定イベントのため、早めの申し込みがオススメ！
             </p>
 
 
-            <button class=" about-cta-button" onclick="formLink()">
+            <button class="about-cta-button" onclick="formLink()">
               お申込みはこちら
+              <svg class="hero-cta-button__arrow" viewBox="0 0 1006.31 837.38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z" fill="currentColor"/>
+              </svg>
             </button>
           </div>
           
-          <div class="col-sm-5 explainer-img">
+          <div class="col-sm-6 explainer-img">
             <img
-              src="./spring-school-images/about-event-img.png"
+              src="./images/about-img.png"
               alt="explainer-top"
               class="img-fluid about-event-img"
             />
@@ -67,7 +130,7 @@
 
           </div>
         </div>
-        <h2 class="section-h2 about-h2">
+        <h2 class="section-h2 about-h2" id="schools">
           スクール一覧
             </h2>
 
