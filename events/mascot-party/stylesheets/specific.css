@@ -35,8 +35,8 @@
     --accordion-icon-color: #7AC263;
   
     /* SWIPER NAV ARROWS */
-    --swiper-button-bg: #F16883;
-    --swiper-button-arrow: #ffffff;
+    --swiper-button-bg: #f9af24;
+    --swiper-button-arrow: #142941;
   
   }
   
@@ -235,7 +235,7 @@
     padding-bottom: 1rem;
   }
   
-  .about-h2 {
+  .section-h2 {
     color: white;
     font-family: "Shin-Maru-GP-Ultra";
   }
@@ -275,3 +275,329 @@
     border-color: #f9af24;
     filter: drop-shadow(0px 0.75rem 0px #f9af24);
   }
+
+
+  /* ------------- ABOUT EVENT ------------- */
+
+.merit-row{
+  padding: 2rem;
+  padding-bottom: 3rem;
+  background-color: white;
+  border-radius: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+  .merit-column{
+    background-color: #142940;
+    width: calc(97%/3);
+    display: block;
+    padding: 1rem;
+    border-radius: 2rem;
+    border-style: solid;
+    border: .5rem solid #f9af24;
+    filter: drop-shadow(0px 0.975rem 0px #f9af24);
+  }
+
+
+  .merit-icon{
+    width: 7.5rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 1rem;
+    fill: white;
+  }
+
+  .merit-h3{
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Shin-Maru-GP-Bold";
+    color: white;
+    padding-bottom: .5rem
+    ;
+  }
+
+  .merit-p{
+    color: white;
+  }
+
+  .merit-column-1{
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .merit-column-2{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .merit-column-3{
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  @media (max-width: 575px) {
+
+    .merit-row{
+      margin-top: 0rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .merit-column{
+      border: .5rem solid #f9af24;
+      width:auto;
+      aspect-ratio: 1 / 1.2;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .merit-column-1, .merit-column-2{
+    margin-bottom: 3rem;
+    }
+    .merit-h3{
+      font-size: 1.2rem;
+      ;
+    }
+  }
+
+
+  /* Image Carousel ------------------------------------------------------------------*/
+#gallery{
+  background-color: pink;
+}
+
+  
+.decoration-gallery-top{
+  width: 100%;
+  transform: translate(0, -10px);
+  padding-bottom: 0rem;
+}
+
+.carousel-div {
+  background-color: none
+  ;
+  padding-bottom: 4rem;
+}
+
+.swiper-img {
+  display: block;
+  width: 96%;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.swiper-img::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    background: radial-gradient(
+        circle, 
+        rgba(255, 255, 255, 0.4) 0%, /* Adjust color and opacity */
+        rgba(0, 0, 0, 0) 70%
+    );
+    filter: blur(20px); /* Adjust the blur to control the spread of the light */
+    transition: opacity 0.3s ease;
+}
+
+
+.swiper-custom-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  padding: 25%;
+  justify-content: space-between;
+}
+
+.swiper-custom-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-custom-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.swiper-activities-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+}
+
+.swiper-activities-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-activities-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.transition-gallery-signup{
+  width: 102%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2px;
+}
+
+
+@media (max-width: 576px) {
+  .swiper-img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  .swiper-custom-nav {
+    padding: 7.5%;
+  }
+  .swiper-custom-nav-arrow {
+    width: 3rem;
+  }
+}
+
+
+
+
+/* Sign Up and Pre Footer ------------------------------------------------------------------*/
+
+
+.sign-up-bg {
+  fill: #fff;
+}
+
+.sign-up-stroke {
+  fill: #313133;
+}
+
+
+.sign-up-main-colour {
+  fill: black;
+}
+
+
+.sign-up-instruction-header {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.bottom-button-right {
+  float: left;
+}
+
+.bottom-button-left {
+  float: right;
+}
+
+@media (max-width: 576px) {
+  .bottom-button-left,
+  .bottom-button-right {
+    float: none;
+    align-items: center;
+  }
+}
+
+.sign-up {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: #7BC263;
+}
+.sign-up-row {
+  padding-bottom: 1rem;
+}
+
+.sign-up-wrapper-left,
+.sign-up-wrapper-middle,
+.sign-up-wrapper-right {
+  width: 97.5%;
+  display: block;
+}
+
+.sign-up-wrapper-left {
+  margin-right: auto;
+}
+
+.sign-up-wrapper-middle {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.sign-up-wrapper-right {
+  margin-left: auto;
+}
+
+@media (max-width: 576px) {
+  .sign-up-wrapper-left,
+  .sign-up-wrapper-middle,
+  .sign-up-wrapper-right {
+    width: 100;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.sign-up-h2 {
+  font-family: "Shin-Maru-GP-Bold";
+  font-weight: bold;
+  padding-bottom: 3rem;
+  color: white;
+
+}
+
+.sign-up-h3 {
+  font-size: 1.5rem;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+  padding-top: 1rem;
+  padding-bottom: 0.25rem;
+  color: white;
+}
+
+.sign-up-p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 1.2rem;
+  color: white;
+}
+
+
+.pre-footer {
+  background-color: #e8dccd;
+ margin-top: -3px;
+}
+
+.pre-footer-h2,
+.pre-footer-p {
+  color: #303135;
+}
