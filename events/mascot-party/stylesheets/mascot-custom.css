@@ -51,17 +51,11 @@
   .hero {
     background-color: #d5d6b7;
     width: 100%;
-    height: calc(100vh - 3.65rem); /* Default height for landscape */
+    height: calc((9 / 16 * 100vw) - 3.65rem);
     margin-top: 3.65rem;
   }
   
-  @media (orientation: portrait) {
-    .hero {
-        width: 100%;
-        height: auto;
-        aspect-ratio: 16 / 9;
-    }
-  }
+
   
   .hero-inner,
   .hero-logo,
@@ -277,7 +271,7 @@
   }
 
 
-  /* ------------- ABOUT EVENT ------------- */
+  /* ------------- EVENT MERITS ------------- */
 
 .merit-row{
   padding: 2rem;
@@ -366,9 +360,406 @@
   }
 
 
+
+/* ACTIVITY INFO ------------------------------------------------------------------*/
+.event-activities {
+  background-color: #355c48;
+  position: relative;
+  z-index: 2;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.activity-header{
+  text-align: center;
+  color: #f9af24;
+  background-color: none;
+  line-height: 1;
+  padding: 0rem;
+  font-size: 2.5rem;
+  font-family: "Shin-Maru-GP-Bold";
+
+}
+
+.activity-1-row, .activity-2-row, .activity-3-row, .activity-4-row{
+  border-style: solid;
+  border-width: .5rem;
+  border-color: white;
+  padding: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 3rem;
+}
+
+.activity-h3-1, .activity-h3-2, .activity-h3-3, .activity-h3-4 {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 2rem;
+  color: white;
+}
+
+
+.activity-1-row{
+  background-color: #ea7c08;
+  border-radius: 25rem 3rem 3rem 25rem;
+}
+
+.activity-2-row{
+  background-color: #18bfd8;
+  border-radius: 3rem 25rem 25rem 3rem;
+}
+
+.activity-3-row{
+  background-color: #7ab158;
+  border-radius: 25rem 3rem 3rem 25rem;
+}
+
+.activity-4-row{
+  background-color: #ed78af;
+  border-radius: 3rem 25rem 25rem 3rem;
+}
+
+
+.activity-p{
+  color: white;
+  font-size: 1.5rem;
+}
+
+.activity-p-sub{
+  font-size: 1rem;
+}
+
+.activity-img-wrapper{
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-img{
+  border-radius: 50%;
+  border-style: solid;
+  border-width: .5rem;
+  border-color: white;
+}
+
+
+.activity-text-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.activity-text-wrapper{
+  padding: 2rem;
+}
+
+
+.side-events{
+  border-style: solid;
+  border-width: .5rem;
+  border-color: #f9af24;
+  background-color: #022741;
+  border-radius: 3rem;
+  padding: 2rem;
+  margin-top: 2rem;
+  filter: drop-shadow(0px 1rem 0px #f9af24);
+}
+
+.side-events-title{
+  color: #f9af24;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-bottom: .5rem;
+  line-height: 1;
+}
+
+.bottom-section-text{
+  font-size: 1.25rem;
+  color: #f9af24;
+  width: 95%;
+}
+
+.bottom-section-divider-horizontal{
+  border-style: solid;
+  border-width: .25rem;
+  border-color: #f9af24;
+  border-radius: .25rem;
+  height: .25rem;
+  margin-bottom: 2rem;
+}
+
+.bottom-section-text-1{
+  padding-bottom: 2rem;
+}
+
+.card-box{
+  position: relative;
+}
+
+.bottom-card-img{
+  position: absolute;
+  width: 100%;
+  bottom: 0%;
+}
+
+.bottom-section-row-2{
+  position: relative;
+}
+
+.bottom-section-divider-vertical{
+  position: absolute;
+  border-style: solid;
+  border-width: .25rem;
+  border-color: #f9af24;
+  border-radius: .25rem;
+  height: .25rem;
+  height: 100%;
+  width: 0;
+  margin: 0 !important;
+  padding: 0% !important;
+  left: 50%;
+  transform: translate(-100%);
+}
+
+
+/* Extra large devices (large desktops, 1200px to 1399.98px) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+  .event-section{
+    width: 1140px;
+  }
+  
+
+
+  .activity-text{
+    color: #FCB552;
+    font-size: 1rem;
+  }
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    background-size:80%, auto;
+    background-repeat: no-repeat;
+  }
+
+  .bottom-card-img{
+    width: 120%;
+  }
+}
+
+/* Large devices (desktops, 992px to 1199.98px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .event-section{
+    width: 960px;
+  }
+  
+
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    background-size:80%, auto;
+    background-repeat: no-repeat;
+  }
+
+  .bottom-card-img{
+    width: 120%;
+  }
+}
+
+/* Medium devices (tablets, 768px to 991.98px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .event-section{
+    width: 720px;
+  }
+  
+
+
+  .activity-text-container{
+    padding: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  .bottom-card-img{
+    width: 135%;
+    transform: translate(-2.5rem, 0);
+  }
+
+}
+
+/* Small devices (landscape phones, 576px to 767.98px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+  .event-section{
+    width: 540px;
+  }
+  
+
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    background-size:100%, auto;
+    background-repeat: no-repeat;
+  }
+
+  .activity-text-container{
+    padding: 6rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+  }
+
+    .bottom-card-img{
+    width: 135%;
+    transform: translate(-2.5rem, 0);
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+.event-section {
+  width: 100% !important;
+  padding: none !important;
+  margin: none !important;
+}
+
+.step-img-wrapper{
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2rem;
+}
+
+.activity-text-container{
+  position: relative;
+
+  list-style: none;
+  display: block !important;
+  margin-left: auto !important;
+  margin-left: auto !important;
+  padding: 1rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+  padding-bottom: 1rem !important;
+  justify-content: center;
+}
+
+.activity-text{
+  color: #FCB552;
+  font-size: 1.2rem;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+}
+
+
+
+  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
+    width: 100% !important;
+    display: block !important;
+    margin-right: auto !important;
+    margin-right: auto !important;
+    background-image: none;
+    background-color: #7B3632;
+
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    padding: 0rem !important;
+  }
+
+  .activity-title-wrapper{
+    width: 100%;
+    aspect-ratio:  113 / 31;
+    background-size: 100%, auto;
+    background-repeat: no-repeat;
+    position: relative;
+    transform: translate(0%, 0%);
+    top: 0%;
+    left: 0%;
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    
+  }
+
+  .activity-title{
+    font-size: 1.25rem;
+  }
+  
+  .topbox{
+    margin-top: 3.5rem;
+  }
+
+  .bottombox{
+    margin-bottom: 3.5rem;
+  }
+  
+
+  .mobile-activity-top{
+    transform: translate(0, -100%);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+  }
+
+
+  .mobile-activity-bottom{
+    transform: translate(0, 0%);
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    
+  }
+
+  .activity-decoration-2{
+    width: 60%;
+    transform: translate(-100%, -80%);
+    top: 100%;
+    left: 100%;
+    z-index: 1;
+  }
+
+.decoration-blob-1, .decoration-blob-2{
+  display: none;
+}
+
+
+.side-events{
+  margin-top: 6rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.bottom-card-img{
+  width: 100%;
+  transform: translate(0, 0);
+  position: relative;
+}
+}
+
+
   /* Image Carousel ------------------------------------------------------------------*/
-#gallery{
-  background-color: pink;
+.gallery-h2{
+  margin: 2rem;
+}
+
+  #gallery{
+    padding-top: 2rem;
+  background-color: #022741;
 }
 
   
@@ -503,7 +894,7 @@
 
 
 .sign-up-main-colour {
-  fill: black;
+  fill: #faad36;
 }
 
 
@@ -601,3 +992,4 @@
 .pre-footer-p {
   color: #303135;
 }
+

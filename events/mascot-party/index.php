@@ -5,7 +5,7 @@
     <meta name="twitter:image" content="https://kids-up.jp/events/science-fair-2024/winter-school-images/fb-main.webp"/>
 
 
-    <link rel="stylesheet" href="./stylesheets/specific.css">
+    <link rel="stylesheet" href="./stylesheets/mascot-custom.css">
 
 
     <title>Kids UPマスコットパーテイー</title>
@@ -180,10 +180,148 @@
     </section>
 
 
+ <!-- ACTIVITY INFO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+    
 
+    <div class="event-activities" id="activities">
+      <div class="container">
+      <h2 class="activity-header">ついにマスコット登場！</h2>
+      
+      <div class="row activity-1-row">
+
+      <div class="col-sm-4 col-md-5 activity-img-wrapper">
+        <img src="./images/activity-1.webp" alt="" class="img-fluid activity-img">
+      </div>
+
+      <div class="col-sm-8 col-md-7 activity-text-col">
+
+        <div class="activity-text-wrapper">
+        <h3 class="activity-h3-1">巨大ペンでお絵描きチャレンジ！</h3>
+        <p class="activity-p">巨大ペンでお絵かきに挑戦！まっすぐ描けるかな？思わず笑っちゃうような作品ができること間違いなし！みんなでおもしろアート体験を楽しもう！</p>
+      </div>
+
+      </div>
+
+
+      </div>
+
+
+      <div class="row activity-2-row">
+
+
+  
+        <div class="col-sm-8 col-md-7 activity-text-col">
+  
+          <div class="activity-text-wrapper">
+          <h3 class="activity-h3-2">カラオケパーティ！</h3>
+          <p class="activity-p">好きな歌を思いっきり歌おう！マイクに向かって歌って気分はスパースター！？君の声にみんなも大注目！まずはみんなが知ってるあの人気曲からスタート！時間があればグループ対決もあるかも？</p>
+        </div>
+  
+        </div>
+  
+        <div class="col-sm-4 col-md-5 activity-img-wrapper">
+          <img src="./images/activity-2.webp" alt="" class="img-fluid activity-img">
+        </div>
+        </div>
+
+
+        <div class="row activity-3-row">
+
+          <div class="col-sm-4 col-md-5 activity-img-wrapper">
+            <img src="./images/activity-3.webp" alt="" class="img-fluid activity-img">
+          </div>
+    
+          <div class="col-sm-8 col-md-7 activity-text-col">
+    
+            <div class="activity-text-wrapper">
+            <h3 class="activity-h3-3">キュートカップケーキ！</h3>
+            <p class="activity-p">抹茶ホイップでふわふわデコレーション！ミニオレオめがねやチョコの角をつけて、かわいいキャラクターカップケーキを作っちゃおう！作ったらその場でパクッと食べられるよ！食べるのはかわいそう！？<br>
+              <span class="activity-p-sub">アレルゲン：小麦 - 乳 - 大豆 - 卵</span></p>
+          </div>
+    
+          </div>
+    
+
+          </div>
+
+          <div class="row activity-4-row">
+
+
+      
+            <div class="col-sm-8 col-md-7 activity-text-col">
+      
+              <div class="activity-text-wrapper">
+              <h3 class="activity-h3-4">空飛べマスコット！</h3>
+              <p class="activity-p">フワフワ飛んで障害物をよけるシンプルだけどハマるゲームにチャレンジ！ハラハラドキドキ白熱バトル！誰が一番遠くまで飛べるかな？さあ、最高得点を狙おう！</p>
+            </div>
+      
+            </div>
+      
+            <div class="col-sm-4 col-md-5 activity-img-wrapper">
+              <img src="./images/activity-4.webp" alt="" class="img-fluid activity-img">
+            </div>
+            </div>
+  
+
+
+ <!-- SIDE ATTRACTIONS ------------------------------>
+
+<div class="side-events">
+<div class="row bottom-section-row-1">
+
+<div class="col-12 col-sm-5 col-lg-7">
+  <h3 class="side-events-title">マスコットグッズ</h3>
+  <p class="bottom-section-text bottom-section-text-1">
+    新登場のマスコットグッズをゲットしよう！キーホルダーや、楽しい絵本、スペシャルプロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！
+  </p>
+</div>
+
+<div class="col-12 col-sm-7 col-lg-5 card-box">
+
+  <img src="./choco-2025-images/card-img.png" alt="" class="bottom-card-img">
+</div>
+
+</div>
+<div class="bottom-section-divider-horizontal"></div>
+
+<div class="row bottom-section-row-2">
+
+
+
+
+
+<div class="col-sm-6">
+
+  <h3 class="side-events-title">マスコットと一緒に写真を撮ろう♪</h3>
+  <p class="bottom-section-text bottom-section-text-1">
+    パーティの写真閲覧とダウンロードが可能！楽しい思い出を家族やお友達とシェアしよう。
+  </p>
+
+  <div class="d-block d-sm-none bottom-section-divider-horizontal"></div>
+</div>
+
+<div class="d-none d-sm-block bottom-section-divider-vertical"></div>
+<div class="col-sm-6">
+
+  <h3 class="side-events-title">マスコットがいよいよ登場！</h3>
+  <p class="bottom-section-text bottom-section-text-1">
+    ついにやってくる！マスコットたちがスクリーンに登場する瞬間を見逃すな！ 自己紹介を聞いて推しのマスコットを見つけよう！
+  </p>
+
+</div>
+
+
+
+</div>
+
+
+</div>
+ 
+    </div>
+  </div>
     <!-- GALLERY START ------------------------------------------------------------------------------------------------------------------>
 
-    <div class="bottom-section bg-snow-decoration" id="gallery">
+    <section id="gallery">
 
 
 
@@ -330,17 +468,17 @@
 
 
 
-    </div>
+    </section>
 
     <!---------------------------------------------------------------- sign-up ---------------------------------------------------------------->
 
 
-      <?php
-      $eventTitle = "マスコットパーティー"; // Change this to the name of the event to make sure the module displays the correct text. 
-      $eventType = "マスコットパーティー"; // Change this to the name of the event to make sure the module displays the correct text. 
-      $colThreeTitle = "マスコットパーティー当日"; // Change this to the name of the third column title to match what has been outlined . 
-      include '../global-includes/sign-up-module.php';
-      ?>
+    <?php
+    $eventTitle = "マスコットパーティー"; // Change this to the name of the event to make sure the module displays the correct text. 
+    $eventType = "マスコットパーティー"; // Change this to the name of the event to make sure the module displays the correct text. 
+    $colThreeTitle = "マスコットパーティー当日"; // Change this to the name of the third column title to match what has been outlined . 
+    include '../global-includes/sign-up-module.php';
+    ?>
 
 
     <!---------------------------------------------------------------- pre-footer ---------------------------------------------------------------->

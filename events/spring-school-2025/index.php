@@ -1044,11 +1044,11 @@
 
     <!-- GALLERY START ------------------------------------------------------------------------------------------------------------------>
 
-    <div class="bottom-section bg-snow-decoration" id="gallery">
+    <div class="bottom-section" id="gallery">
 
 
 
-      <div class="container">
+      <div class="container gallery-container">
         <h2 class="section-h2 gallery-h2">ギャラリー</h2>
       </div>
       <div class="carousel-div" style="position: relative">
