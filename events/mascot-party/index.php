@@ -477,7 +477,7 @@
     $eventTitle = "マスコットパーティー"; // Change this to the name of the event to make sure the module displays the correct text. 
     $eventType = "マスコットパーティー"; // Change this to the name of the event to make sure the module displays the correct text. 
     $colThreeTitle = "マスコットパーティー当日"; // Change this to the name of the third column title to match what has been outlined . 
-    include '../global-includes/sign-up-module.php';
+    include '../global-includes/sign-up-module-v2.php';
     ?>
 
 
