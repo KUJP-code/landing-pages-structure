@@ -44,7 +44,7 @@ school_codes = {
 
 
 # Output directory for QR codes
-output_dir = "qr_codes/event_2/flyer"
+output_dir = "qr_codes/event_2/looping_video"
 os.makedirs(output_dir, exist_ok=True)
 
 # File to save all the QR code filenames
@@ -53,7 +53,7 @@ file_list_path = os.path.join(output_dir, "qr_code_filenames.txt")
 # Function to generate QR code
 def generate_qr_code(school_code, school_name):
     # Build the QR code URL
-    url = f"https://kids-up.jp/qr#ev2-{school_code}-fl"
+    url = f"https://kids-up.jp/qr#ev2-{school_code}-lv"
     
     # Create QR code
     qr = qrcode.QRCode(
@@ -69,7 +69,7 @@ def generate_qr_code(school_code, school_name):
     img = qr.make_image(fill='black', back_color='white')
     
     # Generate the filename for the SVG image
-    img_filename = os.path.join(output_dir, f"{school_code}-{school_name}_event-2_qr.png")
+    img_filename = os.path.join(output_dir, f"{school_code}-{school_name}_event-2_looping_video_qr.png")
     
     # Save the SVG image
     img.save(img_filename)
