@@ -214,11 +214,14 @@
 </div>
 
 
+<!-- ACTIVITY 1 ------------------->
+<img src="./images/activity-1-top.svg" alt="activity-decoration" class="activity-decoration-top">
 <div class="container activity-bg-1">
+
   <img src="./images/activity-1.jpg" alt="activity-1" class="activity-img-1">
 <div class="activity-inner-1">
   <h2 class="activity-h2">巨大ペンでアート体験！</h2>
-  <p class="activity-p">巨大ペンでお絵描きに挑戦！まっすぐ描け
+  <p class="activity-p"  style="color: #fceadf;">巨大ペンでお絵描きに挑戦！まっすぐ描け
 るかな？思わず笑っちゃうような作品がで
 きること間違いなし！みんなでおもしろア
 ート体験を楽しもう！</p>
@@ -227,45 +230,90 @@
 <img src="./images/mascot-1.svg" alt="mascot-1" class="mascot-1">
 
 </div>
+<img src="./images/activity-1-bottom.svg" alt="activity-decoration" class="activity-decoration-bottom">
 
+
+
+
+<!-- ACTIVITY 2 ------------------->
+<img src="./images/activity-2-top.svg" alt="activity-decoration" class="activity-decoration-top">
 <div class="container activity-bg-2">
-  <img src="./images/mascot-2.svg" alt="mascot-2" class="mascot-2">
+  <img src="./images/mascot-2.svg" alt="mascot-2" class="d-none d-sm-block mascot-2">
+  <img src="./images/activity-2.jpg" alt="activity-2" class="d-block d-sm-none activity-img-2">
 
   <div class="activity-inner-2">
     <h2 class="activity-h2">ミュージックパーティ！</h2>
-    <p class="activity-p">マスコットはカラオケが大好きだよ！
+    <p class="activity-p" style="color: #e6f4f9;">マスコットはカラオケが大好きだよ！
       みんなで大好きな歌を思いっきり歌え
       ば気分はスーパースター！？まずはみん
       なが知ってるあの人気曲からスタート！
       時間があればグループ対決もあるかも？</p>
   
   </div>
-  <img src="./images/activity-2.jpg" alt="activity-2" class="activity-img-2">
+  <img src="./images/mascot-2.svg" alt="mascot-2" class="d-block d-sm-none mascot-2">
+  <img src="./images/activity-2.jpg" alt="activity-2" class="d-none d-sm-block activity-img-2">
 </div>
+<img src="./images/activity-2-bottom.svg" alt="activity-decoration" class="activity-decoration-bottom">
 
+
+<!-- ACTIVITY 3 ------------------->
+<img src="./images/activity-3-top.svg" alt="activity-decoration" class="activity-decoration-top">
 <div class="container activity-bg-3">
   <img src="./images/activity-3.jpg" alt="activity-1" class="activity-img-3">
   <div class="activity-inner-3">
     <h2 class="activity-h2">キュートカップケーキ！</h2>
-    <p class="activity-p">抹茶ホイップでふわふわデコレーション！ミニオレオめがねやチョコの角をつけて、かわいいキャラクターカップケーキを作ろう！作ったらその場でパクッと食べられるよ！食べるのはかわいそう！？<br>
-      <span class="activity-p-sub">*アレルゲン：小麦 - 乳 - 大豆 - 卵</span></p>
- 
+    <p class="activity-p" style="color: #ecf2e2;">抹茶ホイップでふわふわデコレーション！ミニオレオめがねやチョコの角をつけて、かわいいキャラクターカップケーキを作ろう！作ったらその場でパクッと食べられるよ！食べるのはかわいそう！？<br>
+      <span class="activity-p-sub" style="color: #ecf2e2;">*アレルゲン：小麦 - 乳 - 大豆 - 卵</span></p>
       <img src="./images/mascot-3.svg" alt="mascot-3" class="mascot-3">
   </div>
 </div>
+<img src="./images/activity-3-bottom.svg" alt="activity-decoration" class="activity-decoration-bottom">
 
+
+<!-- ACTIVITY 4 ------------------->
+<img src="./images/activity-4-top.svg" alt="activity-decoration" class="activity-decoration-top">
 <div class="container activity-bg-4">
+<img src="./images/mascot-4.svg" alt="mascot-4" class="d-none d-sm-block mascot-4">
+<img src="./images/activity-4.jpg" alt="activity-4" class="d-block d-sm-none activity-img-4">
 
-  <img src="./images/mascot-4.svg" alt="mascot-4" class="mascot-4">
   <div class="activity-inner-2">
     <h2 class="activity-h2">空飛べマスコット！</h2>
-    <p class="activity-p">フワフワと飛ぶ可愛いマスコットを操作して
+    <p class="activity-p" style="color: #f9ecf1;">フワフワと飛ぶ可愛いマスコットを操作して
       障害物をよけるスリリングなゲームにチャレンジ！
       ハラハラドキドキ白熱バトル！誰が一番遠くまで飛
       べるかな？最高得点を目指して盛り上がろう！！</p>
-  
   </div>
-  <img src="./images/activity-4.jpg" alt="activity-4" class="activity-img-4">
+  <img src="./images/mascot-4.svg" alt="mascot-4" class="d-block d-sm-none mascot-4">
+  <img src="./images/activity-4.jpg" alt="activity-4" class="d-none d-sm-block activity-img-4">
+</div>
+<img src="./images/activity-4-bottom.svg" alt="activity-decoration" class="activity-decoration-bottom">
+
+<!-- ADDITIONAL INFO ------------------->
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-4 col-xl-6 addition-info-col">
+      
+      <img src="./images/teachers-img.png" alt="teachers" class="img-fluid teachers-img">
+    </div>
+
+    <div class="col-sm-8 col-xl-6 addition-info-col">
+      
+      <div class="addition-info-wrapper">
+      <h3 class="activity-h3"><span><img src="./images/additional-icon-1.svg" alt="" class="addition-info-icon"></span>スコットグッズ</h3>
+      <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホ
+        ルダーや、楽しい絵本、スペシャルプロモカード、
+        さらに記念バッジもあるよ！ここでしか手に入らな
+        いグッズを手に入れて、お友達に自慢しちゃおう！</p>
+        <br>
+        <h3 class="activity-h3"><span><img src="./images/additional-icon-2.svg" alt="" class="addition-info-icon"></span>マスコットと一緒に写真を撮ろう</h3>
+        <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホ
+          ルダーや、楽しい絵本、スペシャルプロモカード、
+          さらに記念バッジもあるよ！ここでしか手に入らな
+          いグッズを手に入れて、お友達に自慢しちゃおう！</p>
+        </div>
+    </div>
+  </div>
 </div>
 
   </div>
@@ -276,7 +324,9 @@
 
 
       <div class="container">
-        <h2 class="section-h2 ">ギャラリー</h2>
+        <div class="activity-header-wrapper">
+          <h2 class="activity-header">ギャラリー</h2>
+        </div>
       </div>
       <div class="carousel-div" style="position: relative">
         <div class="padding-0">
@@ -285,7 +335,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./spring-school-images/gallery/gallery-1.webp"
+                    src="./images/gallery/gallery-1.webp"
                     alt="img-1"
                     class="swiper-img"
                   />
@@ -296,7 +346,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./spring-school-images/gallery/gallery-2.webp"
+                    src="./images/gallery/gallery-2.webp"
                     alt="img-2"
                     class="swiper-img"
                   />
@@ -307,7 +357,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./spring-school-images/gallery/gallery-3.webp"
+                    src="./images/gallery/gallery-3.webp"
                     alt="img-3"
                     class="swiper-img"
                   />
@@ -318,7 +368,7 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./spring-school-images/gallery/gallery-4.webp"
+                    src="./images/gallery/gallery-4.webp"
                     alt="img-4"
                     class="swiper-img"
                   />
@@ -329,58 +379,14 @@
               <div class="swiper-slide">
                 <figure>
                   <img
-                    src="./spring-school-images/gallery/gallery-5.webp"
+                    src="./images/gallery/gallery-5.webp"
                     alt="img-5"
                     class="swiper-img"
                   />
                 </figure>
               </div>
-              <!-- End Slide 5 -->
-
-              <div class="swiper-slide">
-                <figure>
-                  <img
-                    src="./spring-school-images/gallery/gallery-6.webp"
-                    alt="img-6"
-                    class="swiper-img"
-                  />
-                </figure>
-              </div>
-              <!-- End Slide 6 -->
-
-              <div class="swiper-slide">
-                <figure>
-                  <img
-                    src="./spring-school-images/gallery/gallery-7.webp"
-                    alt="img-7"
-                    class="swiper-img"
-                  />
-                </figure>
-              </div>
-              <!-- End Slide 7 -->
-
-
-              <div class="swiper-slide">
-                <figure>
-                  <img
-                    src="./spring-school-images/gallery/gallery-8.webp"
-                    alt="img-8"
-                    class="swiper-img"
-                  />
-                </figure>
-              </div>
-              <!-- End Slide 8 -->          
-               
-              <div class="swiper-slide">
-                <figure>
-                  <img
-                    src="./spring-school-images/gallery/gallery-9.webp"
-                    alt="img-9"
-                    class="swiper-img"
-                  />
-                </figure>
-              </div>
-              <!-- End Slide 9 -->
+                  <!-- End Slide 5 -->
+              
             </div>
 
 

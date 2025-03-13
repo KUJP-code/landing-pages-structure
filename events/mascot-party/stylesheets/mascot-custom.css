@@ -39,8 +39,8 @@ html{
     --accordion-icon-color: #7AC263;
   
     /* SWIPER NAV ARROWS */
-    --swiper-button-bg: #f9af24;
-    --swiper-button-arrow: #142941;
+    --swiper-button-bg: #ffffff;
+    --swiper-button-arrow: #45986a;
   
   }
   
@@ -94,10 +94,10 @@ html{
 
 
   .timer-wrapper{
-
     width: fit-content;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
   }
 
   .hero-cta-button {
@@ -120,7 +120,7 @@ html{
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
-    z-index: 2;
+    z-index: 1;
   }
   
   .hero-cta-button:hover {
@@ -386,6 +386,7 @@ html{
 
     .hero-inner{
       width: 100%;
+      height: auto;
 
     }
     .hero-row-1, .hero-row-2{
@@ -398,13 +399,16 @@ html{
     }
 
     .hero-row-2-text-wrapper{
+      top: 0 !important;
       position: relative;
       display: block;
+      margin: unset ;
       margin-left: auto;
       margin-right: auto;
-      transform: translate(0%,0%);
-      left: 0%;
+      transform: unset !important;
+      left: unset !important;
       width: 90%;
+
     }
 
     .hero-logo{
@@ -412,7 +416,8 @@ html{
     }
     
     .hero-h2{
-      padding-top: 1rem;
+      transform: unset !important;
+      position: relative;
       font-size: 1.5rem;
       padding-bottom: 0rem;
     }
@@ -471,6 +476,7 @@ html{
 
     .hero-cta-button {
     font-size: 1.2rem;
+    margin-bottom: 10px;
     }
 
     .hero-cta-button__arrow {
@@ -791,6 +797,10 @@ html{
   padding-left: .5rem;
 } 
 
+.activity-decoration-top, .activity-decoration-bottom{
+  display: none;
+}
+
 .activity-bg-1{
   background-image: url(../images/activity-bg-1.svg);
   aspect-ratio: 3300 / 1451;
@@ -820,6 +830,15 @@ html{
   text-align: left;
 }
 
+
+.activity-h3{
+  font-size: 2rem;
+  font-family: "Shin-Maru-GP-Bold";
+  color: #032741;
+}
+
+
+
 .activity-p{
   font-family: "Shin-Maru-GP-Regular";
   font-size: 1.2rem;
@@ -832,6 +851,16 @@ html{
   font-family: "Shin-Maru-GP-Regular";
   color: #fff;
   text-align: left;
+}
+
+.addition-info-col{
+  display: flex;
+  align-items: center;
+}
+
+.addition-info-icon{
+  width: 2.5rem;
+  height: auto;
 }
 
 @media (max-width: 1600px) {
@@ -905,6 +934,12 @@ html{
     text-align: left;
   }
   
+  .activity-h3{
+    font-size: 1.5rem;
+    font-family: "Shin-Maru-GP-Bold";
+    color: #032741;
+  }
+
   .activity-p{
     font-size: 1rem;
   }
@@ -913,6 +948,10 @@ html{
     font-size: .8rem;
   }
   
+  .addition-info-icon{
+    width: 2rem;
+    height: auto;
+  }
 
 }
 
@@ -942,11 +981,16 @@ html{
   }
 
   .activity-bg-1, .activity-bg-2, .activity-bg-3, .activity-bg-4{
-background-image: none;
-aspect-ratio: unset;
-width: 100%;
-padding: 0;
+  background-image: none;
+  aspect-ratio: unset;
+  width: 100%;
+  padding: 0;
   height: auto;
+  display: flex;
+  flex-direction: column; /* Stack elements vertically */
+  align-items: center;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
   }
   
   .activity-inner-1, .activity-inner-2, .activity-inner-3, .activity-inner-4 {
@@ -954,8 +998,28 @@ padding: 0;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
   }
   
+
+  .activity-decoration-top, .activity-decoration-bottom{
+    display: block;
+    width: 101%;
+    margin-left: -0.5%;
+
+  }
+
+  .activity-decoration-top{
+    padding-top: 1rem;
+    margin-bottom: -1px;
+  }
+
+  .activity-decoration-bottom{
+    padding-bottom: 1rem;
+    margin-top: -1px;
+  }
+
+
   .activity-bg-1 {
     background-color: #f89e75;
   }
@@ -971,6 +1035,66 @@ padding: 0;
   .activity-bg-4 {
     background-color: #f3a0c4;
   }
+
+  .activity-img-1, .activity-img-2, .activity-img-3, .activity-img-4{
+    left: unset;
+    top: unset;
+    position: relative;
+    transform: translate(0%, 0%);
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 1rem;
+    
+  }
+
+  .mascot-1, .mascot-2, .mascot-3, .mascot-4{
+    transform: translate(0%, 0%);
+    position: relative;
+    padding: .5rem;
+    left: unset;
+    top: unset;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  .mascot-1{
+    width: calc(7.63% *  9);
+  }
+  
+  .mascot-2{
+    width: calc(10% * 9);
+  }
+  
+  .mascot-3{
+    width: calc(5.26% * 9);
+  }
+  
+  
+  .mascot-4{
+    width: calc(8.43% * 9);
+  }
+  
+  .activity-h2{
+    padding-top: 1rem;
+    padding-bottom: 0rem;
+  }
+  
+
+  
+  .activity-p{
+    font-size: 1.25rem;
+  }
+
+  .teachers-img{
+    margin-bottom: 2rem;
+  }
+
 
 
 }
@@ -991,7 +1115,7 @@ padding: 0;
 
   #gallery{
     padding-top: 2rem;
-  background-color: #022741;
+  background-color: #d6d6b7;
 }
 
   
@@ -1005,6 +1129,7 @@ padding: 0;
   background-color: none
   ;
   padding-bottom: 4rem;
+  padding-top: 4rem;
 }
 
 .swiper-img {
@@ -1296,7 +1421,7 @@ padding: 0;
   
 }
 .pre-footer {
-  background-color: #faeaaa;
+  background-color: #d6d6b7;
 }
 
 .pre-footer-h2,
