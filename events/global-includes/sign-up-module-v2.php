@@ -31,9 +31,10 @@
         <div class="sign-up-wrapper-right">
           <div w3-include-html="../global-images/sign-up-step-3.html"></div>
           <h3 class="sign-up-h3">
-            <?php echo htmlspecialchars($colThreeTitle); ?><br>
+            <?php echo htmlspecialchars($colThreeTitle); ?>
 
           </h3>
+          <br>
           <p class="sign-up-p">
             フレンドリーな先生たちがお子様をお待ちしております！<br />
             <br />

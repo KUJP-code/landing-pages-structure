@@ -30,8 +30,7 @@
     <!-- HERO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <section class="hero">
-      <div class="hero-inner">
-    <div class="row">
+      <div class="hero-inner row">
 
 <div class="col-sm-6 hero-row-1">
 
@@ -65,19 +64,42 @@
 
   
   </div>
-  </div>
-  </div>
-<div class="d-block d-sm-none">
 
-  
+<div class="col-sm-6 hero-row-2">
+
+  <div class="hero-row-2-text-wrapper">
+
+
+  <h2 class="hero-h2">
+    新マスコットお披露目<br>
+パーティへ君を招待! <br>
+楽しいアクティビティ満載& <br>
+限定グッズがもらえる特別な <br>
+イベントに参加しよう！
+  </h2>
+  <br>
+
   <button class="hero-cta-button" onclick="formLink()">
     お申込みはこちら
     <svg class="hero-cta-button__arrow" viewBox="0 0 1006.31 837.38" fill="none" xmlns="http://www.w3.org/2000/svg">
       <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z" fill="currentColor"/>
     </svg>
   </button>
-<img src="./images/jot-header-mobile.png" alt="jot-header-mobile" class="img-fluid jot-header-mobile">
-</div>   
+
+</div>
+
+
+  <img src="./images/hero-jot.svg" alt="" class="hero-jot">
+</div>
+
+
+  </div>
+
+
+
+
+
+<img src="./images/mascot-hero-bottom.svg" alt="" class="hero-bottom">
 </section>
 
 
@@ -90,7 +112,7 @@
     <section class="event-about">
       <div class="container" id="event-info">
         <div class="row">
-          <div class="col-sm-6 explainer-top-left">
+          <div class="col-sm-7 col-md-6 explainer-top-left">
             <h2 class="section-h2 about-h2">
               ついに会える！<br>
               ドキドキの瞬間を見逃すな！
@@ -120,7 +142,7 @@
             </button>
           </div>
           
-          <div class="col-sm-6 explainer-img">
+          <div class="col-sm-5 col-md-6 explainer-img">
             <img
               src="./images/about-img.png"
               alt="explainer-top"
@@ -184,140 +206,68 @@
     
 
     <div class="event-activities" id="activities">
-      <div class="container">
-      <h2 class="activity-header">ついにマスコット登場！</h2>
-      
-      <div class="row activity-1-row">
-
-      <div class="col-sm-4 col-md-5 activity-img-wrapper">
-        <img src="./images/activity-1.webp" alt="" class="img-fluid activity-img">
-      </div>
-
-      <div class="col-sm-8 col-md-7 activity-text-col">
-
-        <div class="activity-text-wrapper">
-        <h3 class="activity-h3-1">巨大ペンでお絵描きチャレンジ！</h3>
-        <p class="activity-p">巨大ペンでお絵かきに挑戦！まっすぐ描けるかな？思わず笑っちゃうような作品ができること間違いなし！みんなでおもしろアート体験を楽しもう！</p>
-      </div>
-
-      </div>
+<img src="./images/mascot-events-top.svg" alt="mascot-events-top" class="mascot-events-top">
 
 
-      </div>
+<div class="activity-header-wrapper">
+  <h2 class="activity-header">ついにマスコット登場！</h2>
+</div>
 
 
-      <div class="row activity-2-row">
+<div class="container activity-bg-1">
+  <img src="./images/activity-1.jpg" alt="activity-1" class="activity-img-1">
+<div class="activity-inner-1">
+  <h2 class="activity-h2">巨大ペンでアート体験！</h2>
+  <p class="activity-p">巨大ペンでお絵描きに挑戦！まっすぐ描け
+るかな？思わず笑っちゃうような作品がで
+きること間違いなし！みんなでおもしろア
+ート体験を楽しもう！</p>
 
+</div>
+<img src="./images/mascot-1.svg" alt="mascot-1" class="mascot-1">
 
+</div>
+
+<div class="container activity-bg-2">
+  <img src="./images/mascot-2.svg" alt="mascot-2" class="mascot-2">
+
+  <div class="activity-inner-2">
+    <h2 class="activity-h2">ミュージックパーティ！</h2>
+    <p class="activity-p">マスコットはカラオケが大好きだよ！
+      みんなで大好きな歌を思いっきり歌え
+      ば気分はスーパースター！？まずはみん
+      なが知ってるあの人気曲からスタート！
+      時間があればグループ対決もあるかも？</p>
   
-        <div class="col-sm-8 col-md-7 activity-text-col">
-  
-          <div class="activity-text-wrapper">
-          <h3 class="activity-h3-2">カラオケパーティ！</h3>
-          <p class="activity-p">好きな歌を思いっきり歌おう！マイクに向かって歌って気分はスパースター！？君の声にみんなも大注目！まずはみんなが知ってるあの人気曲からスタート！時間があればグループ対決もあるかも？</p>
-        </div>
-  
-        </div>
-  
-        <div class="col-sm-4 col-md-5 activity-img-wrapper">
-          <img src="./images/activity-2.webp" alt="" class="img-fluid activity-img">
-        </div>
-        </div>
-
-
-        <div class="row activity-3-row">
-
-          <div class="col-sm-4 col-md-5 activity-img-wrapper">
-            <img src="./images/activity-3.webp" alt="" class="img-fluid activity-img">
-          </div>
-    
-          <div class="col-sm-8 col-md-7 activity-text-col">
-    
-            <div class="activity-text-wrapper">
-            <h3 class="activity-h3-3">キュートカップケーキ！</h3>
-            <p class="activity-p">抹茶ホイップでふわふわデコレーション！ミニオレオめがねやチョコの角をつけて、かわいいキャラクターカップケーキを作っちゃおう！作ったらその場でパクッと食べられるよ！食べるのはかわいそう！？<br>
-              <span class="activity-p-sub">アレルゲン：小麦 - 乳 - 大豆 - 卵</span></p>
-          </div>
-    
-          </div>
-    
-
-          </div>
-
-          <div class="row activity-4-row">
-
-
-      
-            <div class="col-sm-8 col-md-7 activity-text-col">
-      
-              <div class="activity-text-wrapper">
-              <h3 class="activity-h3-4">空飛べマスコット！</h3>
-              <p class="activity-p">フワフワ飛んで障害物をよけるシンプルだけどハマるゲームにチャレンジ！ハラハラドキドキ白熱バトル！誰が一番遠くまで飛べるかな？さあ、最高得点を狙おう！</p>
-            </div>
-      
-            </div>
-      
-            <div class="col-sm-4 col-md-5 activity-img-wrapper">
-              <img src="./images/activity-4.webp" alt="" class="img-fluid activity-img">
-            </div>
-            </div>
-  
-
-
- <!-- SIDE ATTRACTIONS ------------------------------>
-
-<div class="side-events">
-<div class="row bottom-section-row-1">
-
-<div class="col-12 col-sm-5 col-lg-7">
-  <h3 class="side-events-title">マスコットグッズ</h3>
-  <p class="bottom-section-text bottom-section-text-1">
-    新登場のマスコットグッズをゲットしよう！キーホルダーや、楽しい絵本、スペシャルプロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！
-  </p>
+  </div>
+  <img src="./images/activity-2.jpg" alt="activity-2" class="activity-img-2">
 </div>
 
-<div class="col-12 col-sm-7 col-lg-5 card-box">
-
-  <img src="./choco-2025-images/card-img.png" alt="" class="bottom-card-img">
-</div>
-
-</div>
-<div class="bottom-section-divider-horizontal"></div>
-
-<div class="row bottom-section-row-2">
-
-
-
-
-
-<div class="col-sm-6">
-
-  <h3 class="side-events-title">マスコットと一緒に写真を撮ろう♪</h3>
-  <p class="bottom-section-text bottom-section-text-1">
-    パーティの写真閲覧とダウンロードが可能！楽しい思い出を家族やお友達とシェアしよう。
-  </p>
-
-  <div class="d-block d-sm-none bottom-section-divider-horizontal"></div>
-</div>
-
-<div class="d-none d-sm-block bottom-section-divider-vertical"></div>
-<div class="col-sm-6">
-
-  <h3 class="side-events-title">マスコットがいよいよ登場！</h3>
-  <p class="bottom-section-text bottom-section-text-1">
-    ついにやってくる！マスコットたちがスクリーンに登場する瞬間を見逃すな！ 自己紹介を聞いて推しのマスコットを見つけよう！
-  </p>
-
-</div>
-
-
-
-</div>
-
-
-</div>
+<div class="container activity-bg-3">
+  <img src="./images/activity-3.jpg" alt="activity-1" class="activity-img-3">
+  <div class="activity-inner-3">
+    <h2 class="activity-h2">キュートカップケーキ！</h2>
+    <p class="activity-p">抹茶ホイップでふわふわデコレーション！ミニオレオめがねやチョコの角をつけて、かわいいキャラクターカップケーキを作ろう！作ったらその場でパクッと食べられるよ！食べるのはかわいそう！？<br>
+      <span class="activity-p-sub">*アレルゲン：小麦 - 乳 - 大豆 - 卵</span></p>
  
-    </div>
+      <img src="./images/mascot-3.svg" alt="mascot-3" class="mascot-3">
+  </div>
+</div>
+
+<div class="container activity-bg-4">
+
+  <img src="./images/mascot-4.svg" alt="mascot-4" class="mascot-4">
+  <div class="activity-inner-2">
+    <h2 class="activity-h2">空飛べマスコット！</h2>
+    <p class="activity-p">フワフワと飛ぶ可愛いマスコットを操作して
+      障害物をよけるスリリングなゲームにチャレンジ！
+      ハラハラドキドキ白熱バトル！誰が一番遠くまで飛
+      べるかな？最高得点を目指して盛り上がろう！！</p>
+  
+  </div>
+  <img src="./images/activity-4.jpg" alt="activity-4" class="activity-img-4">
+</div>
+
   </div>
     <!-- GALLERY START ------------------------------------------------------------------------------------------------------------------>
 

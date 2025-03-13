@@ -1,8 +1,12 @@
+html{
+  background-color: #d6d6b7;
+}
+
 :root {
 
     /* ------------------------NAVBAR COLOURS------------------------ */
   
-    --navbar-color: #1f2f17;
+    --navbar-color: #46986a;
     --navlink-color: #ffffff;
     --navlink-hover-color: #ffffff7f;
   
@@ -20,13 +24,13 @@
   
     /* ------------------------LOCATIONS COLOURS------------------------ */
   
-    --tokyo-color: #ea7c08;
-    --kanagawa-color: #35bad8;
-    --chiba-color: #7faf4a;
-    --saitama-color: #ec76ab;  
+    --tokyo-color: #f79752;
+    --kanagawa-color: #f16883;
+    --chiba-color: #7ac263;
+    --saitama-color: #5bbcb3;  
 
     ---text-color: white;
-    --location-shadow: #3e5a49;
+    --location-shadow: #5b936e;
     --location-contrast: white;
   
     /* ------------------------BUTTON ICON COLOURS------------------------ */
@@ -49,26 +53,56 @@
   /* ------------- HERO ------------- */
   
   .hero {
-    background-color: #d5d6b7;
+    background-color: #d6d6b7;
     width: 100%;
     height: calc((9 / 16 * 100vw) - 3.65rem);
     margin-top: 3.65rem;
+    position: relative;
+    background-image: url(../images/hero-bg.svg);
+    background-position: bottom center;
+    background-size: cover;
   }
   
+.hero-bottom{
+  position: absolute;
+  width: 101%;
+  bottom: 0%;
+  margin-left: -0.5%;
+  transform-origin: 0% 100%;
+  margin-bottom: -1px
+}
+
 
   
-  .hero-inner,
-  .hero-logo,
-  .timer-wrapper {
-    width: 90%;
+  .hero-inner{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+
+  }
+
+  .hero-logo{
+    width: 85%;
     display: block;
-    margin: 0 auto; /* Shorthand for margin-left: auto; margin-right: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 2rem;
+  }
+
+
+  .timer-wrapper{
+
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .hero-cta-button {
     position: relative;
     width: fit-content;
-    margin: 1rem auto;
     background-color: #f9af24;
     font-family: "Shin-Maru-GP-Bold";
     border-radius: 6rem;
@@ -86,6 +120,7 @@
     margin-left: auto;
     margin-right: auto;
     cursor: pointer;
+    z-index: 2;
   }
   
   .hero-cta-button:hover {
@@ -132,11 +167,11 @@
   
   .segment {
     color: white;
-    padding: 1rem 0; /* Shorthand for padding-top and padding-bottom */
+    padding: 1rem; /* Shorthand for padding-top and padding-bottom */
     margin: 0.5rem;
     border-radius: 1rem; /* Consistent border radius */
     text-align: center;
-    width: 6rem;
+    width: auto;
     border: 0.3rem solid white; /* Shorthand for border properties */
   }
   
@@ -153,7 +188,7 @@
   #hours,
   #minutes,
   #seconds {
-    font-size: 2.2rem;
+    font-size: 2rem;
     font-weight: bold;
   }
   
@@ -171,32 +206,242 @@
     background-color: #ec76ab;
   } /* Seconds - Purple */
   
-  /* Media Queries */
-  @media (max-width: 991px) {
-    #days,
-    #hours,
-    #minutes,
-    #seconds {
-      font-size: 1.75rem;
-    }
+
+
+.hero-row-1{
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center; /* Center items vertically */
+  height: 80%; /* Ensure it takes the full height of the parent row */
+}
   
-    .segment {
-      padding: 0.6rem 0;
-      margin: 0.2rem;
-      width: 5rem;
-      border-radius: 1rem;
-    }
-  
-    .label {
-      font-size: 1rem;
-      margin-bottom: 0.3rem;
-    }
+
+.hero-row-2{
+  position: relative; /* Or absolute, if needed */
+
+
+
+}
+
+.hero-row-2-text-wrapper{
+  position: absolute;
+  transform: translate(-50%, -100%);
+  left: 50%;
+  top: 47.5%;
+  width: 90%;
+}
+
+.hero-h2{
+  text-align: center;
+  font-size: 1.75rem;
+  font-family: "Shin-Maru-GP-Bold";
+  color: #46986a;
+  -webkit-text-stroke: 10px #d6d6b7; 
+  text-stroke: 10px #d6d6b7; 
+  paint-order:  stroke fill;
+}
+
+
+.hero-jot{
+  position: absolute;
+  height: 50%;
+  width: auto;
+  top: 100%;
+  transform: translate(-50%, -100%);
+  left: 50%;
+  z-index: 0;
+}
+
+
+
+/* Media Queries */
+
+@media (max-width: 1399.9px) {
+  .hero {
+    height: calc((11 / 16 * 100vw) - 3.65rem);
   }
+
+  .hero-logo{
+    width: 95%;
+  }
+
+
+}
+
+@media (max-width: 1199.9px) {
+
+  .hero {
+    height: calc((12 / 16 * 100vw) - 3.65rem);
+  }
+  .hero-logo{
+    width: 97.5%;
+  }
+
+
+
+
+  .hero-row-2-text-wrapper{
+    width: 95%;
+  }
+
+
+}
+
+
+
+@media (max-width: 990.9px) {
+
+  .hero-logo{
+    width: 95%;
+  }
+
+  .hero {
+    height: calc((14.5 / 16 * 100vw) - 3.65rem);
+  }
+
+
+  .hero-inner{
+    width: 85%;
+  }
+
+  .hero-row-2-text-wrapper{
+    width: 98.5%;
+  }
+
+  #days,
+  #hours,
+  #minutes,
+  #seconds {
+    font-size: 1.8rem;
+  }
+
+  .segment {
+    color: white;
+    padding: .8rem; /* Shorthand for padding-top and padding-bottom */
+    margin: 0.5rem;
+  }
+
+  .label {
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+  }
+
+
+}
+
+
+@media (max-width: 767.9px) {
+  
+
+  .hero {
+    height: calc((14 / 16 * 100vw) - 3.65rem);
+  }
+
+
+  .hero-inner{
+    width: 90%;
+  }
+
+  .hero-logo{
+    width: 95%;
+    margin-top: 0rem;
+  }
+
+  .hero-row-2-text-wrapper{
+    width: 100%;
+  }
+
+
+}
+
+
+
+@media (max-width: 609.9px) {
+
+
+
+
+.hero-h2{
+  font-size: 1.5rem;
+}
+
+.hero-cta-button {
+  font-size: 1.25rem;
+}
+
+.hero-cta-button__arrow {
+  margin-left: 1.5rem;
+}
+
+}
+
+
   
   @media (max-width: 575px) {
     .hero {
       height: fit-content;
       margin-bottom: -5px;
+      background-image: url(../images/hero-bg-mobile.svg);
+    }
+
+    .hero-inner{
+      width: 100%;
+
+    }
+    .hero-row-1, .hero-row-2{
+      width: 95%;
+      position: relative;
+      height: fit-content;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .hero-row-2-text-wrapper{
+      position: relative;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      transform: translate(0%,0%);
+      left: 0%;
+      width: 90%;
+    }
+
+    .hero-logo{
+      width: 100%;
+    }
+    
+    .hero-h2{
+      padding-top: 1rem;
+      font-size: 1.5rem;
+      padding-bottom: 0rem;
+    }
+
+    .hero-cta-button {
+      padding-top: 1rem;
+      font-size: 1.75rem;
+      padding: 0.5rem 1rem;
+      width: 100%;
+    }
+    
+
+    
+    .hero-cta-button__arrow {
+      width: 1.75rem; /* Adjust as needed */
+      margin-left: 1rem;
+      margin-right: .1rem;
+    }
+    
+
+    .hero-jot{
+      position: relative;
+      height: auto;
+      width: auto;
+      top: 100%;
+      transform: translate(0%, 0%);
+      left: 0%;
+      z-index: 0;
+      padding-top: 2rem;
     }
   }
   
@@ -219,12 +464,27 @@
       font-size: .75rem;
       margin-bottom: 0.3rem;
     }
+
+    .hero-h2{
+ font-size: 1.2rem;
+    }
+
+    .hero-cta-button {
+    font-size: 1.2rem;
+    }
+
+    .hero-cta-button__arrow {
+      width: 1.25rem; /* Adjust as needed */
+      margin-left: 1rem;
+      margin-right: .1rem;
+    }
+    
   }
   
   /* ------------- ABOUT EVENT ------------- */
   
   .event-about {
-    background-color: #7aaf57;
+    background-color: #46986a;
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
@@ -240,11 +500,21 @@
     font-weight: 500;
   }
 
+  .explainer-img{
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+  }
+
+  .about-event-img{
+    padding: 1rem;
+  }
+
   .about-cta-button {
     position: relative;
     width: fit-content;
     margin: 1rem auto;
-    background-color: #7aaf57;
+    background-color: #46986a;
     font-family: "Shin-Maru-GP-Bold";
     border-radius: 6rem;
     border: .5rem solid #fff;
@@ -269,7 +539,23 @@
     border-color: #f9af24;
     filter: drop-shadow(0px 0.75rem 0px #f9af24);
   }
+  @media (max-width: 575px) {
+    .about-event-img{
+     padding-left: 0rem;
+     padding-right: 0rem;
+    }
+    .about-cta-button{
+      width: 100%;
+    }
+  }
 
+
+  @media (max-width: 375px) {
+    .about-cta-button {
+      font-size: 1.2rem;
+    }
+  }
+  
 
   /* ------------- EVENT MERITS ------------- */
 
@@ -359,398 +645,344 @@
     }
   }
 
+  
+
 
 
 /* ACTIVITY INFO ------------------------------------------------------------------*/
 .event-activities {
-  background-color: #355c48;
+  background-color: #d6d6b7;
   position: relative;
   z-index: 2;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-bottom: 6rem;
+  padding-top: 6rem;
 }
 
+.mascot-events-top{
+  position: absolute;
+  width: 101%;
+  margin-left: -0.5%;
+  z-index: -1;
+  margin-top: -1px;
+  top: 0%;
+}
+
+
+
+.activity-header-wrapper{
+  background-image: url(../images/activities-header-bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  aspect-ratio: 3455 / 604;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
 .activity-header{
+  font-family: "Shin-Maru-GP-Bold";
   text-align: center;
-  color: #f9af24;
+  color: #fff;
   background-color: none;
   line-height: 1;
   padding: 0rem;
   font-size: 2.5rem;
-  font-family: "Shin-Maru-GP-Bold";
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.activity-bg-1, .activity-bg-2, .activity-bg-3, .activity-bg-4{
+  display: flex;
+  height: auto;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  padding: 4rem;
+  position: relative;
 
 }
 
-.activity-1-row, .activity-2-row, .activity-3-row, .activity-4-row{
+.activity-inner-1, .activity-inner-2, .activity-inner-3, .activity-inner-4 {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.activity-img-1, .activity-img-2, .activity-img-3, .activity-img-4{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: calc(30% + 1rem);
   border-style: solid;
-  border-width: .5rem;
   border-color: white;
-  padding: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  border-radius: 3rem;
+  border-width: .5rem;
+  border-radius: 50%;
 }
 
-.activity-h3-1, .activity-h3-2, .activity-h3-3, .activity-h3-4 {
+.mascot-1, .mascot-2, .mascot-3, .mascot-4{
+  position: absolute;
+  padding: .5rem;
+}
+
+.mascot-1{
+  transform: translate(0%, -50%);
+  left: 85%;
+  top: 60%;
+  width: calc(7.63% *  2.7);
+}
+
+.mascot-2{
+  transform: translate(-100%, -50%);
+  left: 16.5%;
+  top: 15%;
+  width: calc(10% * 2.7);
+}
+
+.mascot-3{
+  transform: translate(0%, -50%);
+  left: 80%;
+  top: 15%;
+  width: calc(5.26% * 2.7);
+}
+
+
+.mascot-4{
+  transform: translate(-100%, -50%);
+  left: 16.5%;
+  top: 15%;
+  width: calc(8.43% * 2.7);
+}
+
+
+
+
+.activity-img-1, .activity-img-3{
+  left: 5%;
+  top: 40%;
+}
+
+.activity-img-2, .activity-img-4{
+  left: 95%;
+  top: 40%;
+}
+
+
+
+.activity-inner-1, .activity-inner-3{
+  margin-left: 20%;
+  margin-right: 10%;
+  padding-left: .5rem;
+} 
+
+
+.activity-inner-2, .activity-inner-4{
+  margin-left: 10%;
+  margin-right: 20%;
+  padding-left: .5rem;
+} 
+
+.activity-bg-1{
+  background-image: url(../images/activity-bg-1.svg);
+  aspect-ratio: 3300 / 1451;
+}
+
+.activity-bg-2{
+  background-image: url(../images/activity-bg-2.svg);
+  aspect-ratio: 660 / 299;
+}
+
+.activity-bg-3{
+  background-image: url(../images/activity-bg-3.svg);
+  aspect-ratio: 330 / 119;
+
+}
+
+.activity-bg-4{
+  background-image: url(../images/activity-bg-4.svg);
+  aspect-ratio: 88 / 29;
+}
+
+
+.activity-h2{
+  font-size: 2.5rem;
   font-family: "Shin-Maru-GP-Bold";
-  font-size: 2rem;
-  color: white;
+  color: #fff;
+  text-align: left;
 }
-
-
-.activity-1-row{
-  background-color: #ea7c08;
-  border-radius: 25rem 3rem 3rem 25rem;
-}
-
-.activity-2-row{
-  background-color: #18bfd8;
-  border-radius: 3rem 25rem 25rem 3rem;
-}
-
-.activity-3-row{
-  background-color: #7ab158;
-  border-radius: 25rem 3rem 3rem 25rem;
-}
-
-.activity-4-row{
-  background-color: #ed78af;
-  border-radius: 3rem 25rem 25rem 3rem;
-}
-
 
 .activity-p{
-  color: white;
-  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Regular";
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: left;
 }
 
 .activity-p-sub{
   font-size: 1rem;
-}
-
-.activity-img-wrapper{
-  border-radius: 50%;
-  aspect-ratio: 1/1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.activity-img{
-  border-radius: 50%;
-  border-style: solid;
-  border-width: .5rem;
-  border-color: white;
-}
-
-
-.activity-text-col{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.activity-text-wrapper{
-  padding: 2rem;
-}
-
-
-.side-events{
-  border-style: solid;
-  border-width: .5rem;
-  border-color: #f9af24;
-  background-color: #022741;
-  border-radius: 3rem;
-  padding: 2rem;
-  margin-top: 2rem;
-  filter: drop-shadow(0px 1rem 0px #f9af24);
-}
-
-.side-events-title{
-  color: #f9af24;
-  font-family: "Shin-Maru-GP-Bold";
-  text-align: center;
-  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Regular";
+  color: #fff;
   text-align: left;
-  padding-bottom: .5rem;
-  line-height: 1;
 }
 
-.bottom-section-text{
-  font-size: 1.25rem;
-  color: #f9af24;
-  width: 95%;
-}
+@media (max-width: 1600px) {
 
-.bottom-section-divider-horizontal{
-  border-style: solid;
-  border-width: .25rem;
-  border-color: #f9af24;
-  border-radius: .25rem;
-  height: .25rem;
-  margin-bottom: 2rem;
-}
-
-.bottom-section-text-1{
-  padding-bottom: 2rem;
-}
-
-.card-box{
-  position: relative;
-}
-
-.bottom-card-img{
-  position: absolute;
-  width: 100%;
-  bottom: 0%;
-}
-
-.bottom-section-row-2{
-  position: relative;
-}
-
-.bottom-section-divider-vertical{
-  position: absolute;
-  border-style: solid;
-  border-width: .25rem;
-  border-color: #f9af24;
-  border-radius: .25rem;
-  height: .25rem;
-  height: 100%;
-  width: 0;
-  margin: 0 !important;
-  padding: 0% !important;
-  left: 50%;
-  transform: translate(-100%);
-}
-
-
-/* Extra large devices (large desktops, 1200px to 1399.98px) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
-
-  .event-section{
-    width: 1140px;
+  .activity-img-1, .activity-img-2, .activity-img-3, .activity-img-4{
+    width: calc(25% + 1rem);
   }
   
 
+  .activity-img-1, .activity-img-3{
+    left: calc(10% + .5rem);
+    top: 30%;
+  }
 
-  .activity-text{
-    color: #FCB552;
+  .activity-img-2, .activity-img-4{
+    left: calc(90% - .5rem);
+    top: 30%;
+  }
+  
+  .mascot-1{
+    left: 85%;
+    width: calc(7.63% * 2.5);
+    top: 70%;
+  }
+  
+
+  .mascot-2{
+    width: calc(7.63% * 2.5);
+    top: 40%;
+    left: 15%;
+  }
+  
+
+  .mascot-3{
+    width: calc(5.26% * 2.5);
+    left: 82.5%;
+  }
+
+  .mascot-4{
+    width: calc(8.43% * 2.5);
+    top: 10%;
+    left: 20%;
+  }
+  
+  
+}
+
+@media (max-width: 991px) {
+
+  .activity-bg-1, .activity-bg-2, .activity-bg-3, .activity-bg-4{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  } 
+
+} 
+
+
+@media (max-width: 767.9px) {
+
+  
+  .activity-bg-1, .activity-bg-2, .activity-bg-3, .activity-bg-4{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  } 
+  
+
+  .activity-h2{
+    font-size: 2rem;
+    font-family: "Shin-Maru-GP-Bold";
+    color: #fff;
+    text-align: left;
+  }
+  
+  .activity-p{
     font-size: 1rem;
   }
-
-  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
-    background-size:80%, auto;
-    background-repeat: no-repeat;
-  }
-
-  .bottom-card-img{
-    width: 120%;
-  }
-}
-
-/* Large devices (desktops, 992px to 1199.98px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-  .event-section{
-    width: 960px;
+  
+  .activity-p-sub{
+    font-size: .8rem;
   }
   
 
-
-  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
-    background-size:80%, auto;
-    background-repeat: no-repeat;
-  }
-
-  .bottom-card-img{
-    width: 120%;
-  }
 }
 
-/* Medium devices (tablets, 768px to 991.98px) */
-@media (min-width: 768px) and (max-width: 991.98px) {
 
-  .event-section{
-    width: 720px;
+
+
+@media (max-width: 575px) {
+
+  .activity-header-wrapper{
+    width: 95%;
   }
   
 
-
-  .activity-text-container{
-    padding: 6rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 4rem;
-  }
-
-  .bottom-card-img{
-    width: 135%;
-    transform: translate(-2.5rem, 0);
-  }
-
-}
-
-/* Small devices (landscape phones, 576px to 767.98px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-
-
-  .event-section{
-    width: 540px;
-  }
-  
-
-
-  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
-    background-size:100%, auto;
-    background-repeat: no-repeat;
-  }
-
-  .activity-text-container{
-    padding: 6rem;
-    padding-left: 4rem;
-    padding-right: 4rem;
-    padding-bottom: 4rem;
-  }
-
-    .bottom-card-img{
-    width: 135%;
-    transform: translate(-2.5rem, 0);
-  }
-}
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-.event-section {
-  width: 100% !important;
-  padding: none !important;
-  margin: none !important;
-}
-
-.step-img-wrapper{
-  width: 90%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-bottom: 2rem;
-}
-
-.activity-text-container{
-  position: relative;
-
-  list-style: none;
-  display: block !important;
-  margin-left: auto !important;
-  margin-left: auto !important;
-  padding: 1rem !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-  padding-bottom: 1rem !important;
-  justify-content: center;
-}
-
-.activity-text{
-  color: #FCB552;
-  font-size: 1.2rem;
-  padding-left: 2.5%;
-  padding-right: 2.5%;
-}
-
-
-
-  .activity-step-1-wrapper, .activity-step-2-wrapper, .activity-step-3-wrapper{
-    width: 100% !important;
-    display: block !important;
-    margin-right: auto !important;
-    margin-right: auto !important;
-    background-image: none;
-    background-color: #7B3632;
-
-    margin-top: 7rem;
-    margin-bottom: 7rem;
-    padding: 0rem !important;
-  }
-
-  .activity-title-wrapper{
-    width: 100%;
-    aspect-ratio:  113 / 31;
-    background-size: 100%, auto;
-    background-repeat: no-repeat;
-    position: relative;
-    transform: translate(0%, 0%);
-    top: 0%;
-    left: 0%;
-    list-style: none;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 2rem;
-    
-  }
-
-  .activity-title{
-    font-size: 1.25rem;
-  }
-  
-  .topbox{
-    margin-top: 3.5rem;
-  }
-
-  .bottombox{
-    margin-bottom: 3.5rem;
-  }
-  
-
-  .mobile-activity-top{
-    transform: translate(0, -100%);
-    width: 100%;
+  .activity-header{
+    font-family: "Shin-Maru-GP-Bold";
+    text-align: center;
+    color: #fff;
+    background-color: none;
+    line-height: 1;
+    padding: 0rem;
+    font-size: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
   }
 
-
-  .mobile-activity-bottom{
-    transform: translate(0, 0%);
-    width: 100%;
+  .activity-bg-1, .activity-bg-2, .activity-bg-3, .activity-bg-4{
+background-image: none;
+aspect-ratio: unset;
+width: 100%;
+padding: 0;
+  height: auto;
+  }
+  
+  .activity-inner-1, .activity-inner-2, .activity-inner-3, .activity-inner-4 {
+    width: 90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    position: absolute;
-    
+  }
+  
+  .activity-bg-1 {
+    background-color: #f89e75;
   }
 
-  .activity-decoration-2{
-    width: 60%;
-    transform: translate(-100%, -80%);
-    top: 100%;
-    left: 100%;
-    z-index: 1;
+  .activity-bg-2 {
+    background-color: #78cfe4;
   }
 
-.decoration-blob-1, .decoration-blob-2{
-  display: none;
+  .activity-bg-3 {
+    background-color: #a5c883;
+  }
+
+  .activity-bg-4 {
+    background-color: #f3a0c4;
+  }
+
+
 }
 
 
-.side-events{
-  margin-top: 6rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  margin-left: 1rem;
-  margin-right: 1rem;
-}
+@media (max-width: 375px) {
 
-.bottom-card-img{
-  width: 100%;
-  transform: translate(0, 0);
-  position: relative;
-}
-}
+  .activity-header{
+    font-size: 1.5rem;
+  }
 
+}
 
   /* Image Carousel ------------------------------------------------------------------*/
 .gallery-h2{
@@ -923,8 +1155,8 @@
 .sign-up {
   padding-top: 2rem;
   padding-bottom: 2rem;
-  background-color: #7BC263;
-  margin-bottom: -2rem !important;
+  background-color: #46986a;
+  padding-bottom: 2rem;
 }
 .sign-up-row {
   padding-bottom: 1rem;
@@ -1000,7 +1232,7 @@
   position: relative;
   width: fit-content;
   margin: 1rem auto;
-  background-color: #7aaf57;
+  background-color: #46986a;
   font-family: "Shin-Maru-GP-Bold";
   border-radius: 6rem;
   border: .5rem solid #fff;
