@@ -8,44 +8,27 @@
 <body>
  <script>
 
-// WELCOME TO SWITCHING YARD v2.0
-
+// WELCOME TO SWITCHING YARD v2.2
 
 // THIS TOOL HAS BEEN CREATED TO SIMPLIFY QR CODE CREATION, REDIRECTION AND METRIC TRACKING.
 // PLEASE CONTACT MIKE FARADAY IF YOU WISH TO ADD A QR CODE AND TRACK AN AD CAMPAIGN
 
-
 // EVENTS and CAMPAIGNS NAMES - EDIT THESE AS AND WHEN WE LAUNCH ONE
 
-
-
-
-
-const campaignMapping = {
-
-    // SET THE DESTINATION OF THE STATIC QR CODES HERE
-
-    // Seasonal School 1 Landing Page URL Slug and Campaign Name - SPRING SCHOOL 2025
-    "se1": { url: "events/spring-school-2025", campaign: "spring_school_2025" },
-
-
-    // Seasonal School 2 Landing Page URL Slug and Campaign Name - SPRING SCHOOL 2025
-    "se2": { url: "events/summer-school-2025", campaign: "summer_school_2025" },
-
-
-    // Event 1 Landing Page URL Slug and Campaign Name - MASCOT PARTY 2025
-    "ev1": { url: "events/mascot-party", campaign: "mascot_party" },
-
-    // Event 1 Flyer Direct Forwarding to App and Campaign Name - MASCOT PARTY 2025
-    "ea1": { url: "qr/app-forward", campaign: "mascot_party" },
-
-
-
-    // Event 1 Landing Page URL Slug and Campaign Name - SCIENCE FAIR 2025
-    "ev2": { url: "events/science-fair-2025", campaign: "science_fair_2025" }
+const appUrl = "https://kids-up.app/"; // Base URL of your app
+const urlSlugs = {
+    seasonal1: "events/spring-school-2025",
+    seasonal2: "events/summer-school-2025",
+    event1: "events/mascot-party",
+    event2: "events/science-fair-2025",
 };
 
-
+const campaignNames = {
+    seasonal1: "spring_school_2025",
+    seasonal2: "summer_school_2025",
+    event1: "mascot_party",
+    event2: "science_fair_2025",
+};
 
 // School list - add as necessary
 const schoolCodes = {
@@ -99,23 +82,33 @@ const mediumCodes = {
     "pv": "promo-video",
 };
 
-
-
-
-
-
-
 // ==================================================
 // ---===DO NOT CHANGE ANYTHING BELOW THIS LINE===---
 // ==================================================
 
+const campaignMapping = {
+    // SET THE DESTINATION OF THE STATIC QR CODES HERE
 
+    // Seasonal School 1 Landing Page URL Slug and Campaign Name
+    "se1": { url: urlSlugs.seasonal1, campaign: campaignNames.seasonal1 },
+    // Event 1 Flyer Direct Forwarding to App and Campaign Name
+    "sa1": { url: appUrl, campaign: campaignNames.seasonal1  },
 
+    // Seasonal School 2 Landing Page URL Slug and Campaign Name
+    "se2": { url: urlSlugs.seasonal2, campaign: campaignNames.seasonal2 },
+    // Event 1 Flyer Direct Forwarding to App and Campaign Name
+    "sa2": { url: appUrl, campaign: campaignNames.seasonal2  },
 
+    // Event 1 Landing Page URL Slug and Campaign Name
+    "ev1": { url: urlSlugs.event1, campaign: campaignNames.event1 },
+    // Event 1 Flyer Direct Forwarding to App and Campaign Name
+    "ea1": { url: appUrl, campaign: campaignNames.event1 },
 
-
-
-
+    // Event 2 Landing Page URL Slug and Campaign Name
+    "ev2": { url: urlSlugs.event2, campaign: campaignNames.event2 },
+    // Event 2 Landing Page URL Slug and Campaign Name
+    "ea2": { url: urlSlugs.event2, campaign: campaignNames.event2 }
+};
 
 function handleRedirect() {
     // Get everything after '#' in the URL
@@ -152,7 +145,7 @@ function handleRedirect() {
 
     // Construct final redirect URL with UTM parameters for tracking
     const redirectUrl = `https://kids-up.jp/${campaignData.url}?utm_source=${school}&utm_medium=${medium}&utm_campaign=${campaignData.campaign}`;
-    
+
     // Redirect the user to the final URL
     window.location.href = redirectUrl;
 }
