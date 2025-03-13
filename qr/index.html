@@ -8,7 +8,7 @@
 <body>
  <script>
 
-// WELCOME TO SWITCHING YARD v2.2
+// WELCOME TO SWITCHING YARD v2.3
 
 // THIS TOOL HAS BEEN CREATED TO SIMPLIFY QR CODE CREATION, REDIRECTION AND METRIC TRACKING.
 // PLEASE CONTACT MIKE FARADAY IF YOU WISH TO ADD A QR CODE AND TRACK AN AD CAMPAIGN
@@ -71,7 +71,7 @@ const schoolCodes = {
     "36KC": "kanamecho"
 };
 
-// diferent advertising mediums - Add as and when we need them
+// Different advertising mediums - add as necessary
 const mediumCodes = {
     "fl": "flyer",
     "tv": "tv",
@@ -91,23 +91,23 @@ const campaignMapping = {
 
     // Seasonal School 1 Landing Page URL Slug and Campaign Name
     "se1": { url: urlSlugs.seasonal1, campaign: campaignNames.seasonal1 },
-    // Event 1 Flyer Direct Forwarding to App and Campaign Name
+    // Seasonal School 1 Direct Forwarding to App
     "sa1": { url: appUrl, campaign: campaignNames.seasonal1  },
 
     // Seasonal School 2 Landing Page URL Slug and Campaign Name
     "se2": { url: urlSlugs.seasonal2, campaign: campaignNames.seasonal2 },
-    // Event 1 Flyer Direct Forwarding to App and Campaign Name
+    // Seasonal School 2 Direct Forwarding to App
     "sa2": { url: appUrl, campaign: campaignNames.seasonal2  },
 
     // Event 1 Landing Page URL Slug and Campaign Name
     "ev1": { url: urlSlugs.event1, campaign: campaignNames.event1 },
-    // Event 1 Flyer Direct Forwarding to App and Campaign Name
+    // Event 1 Direct Forwarding to App
     "ea1": { url: appUrl, campaign: campaignNames.event1 },
 
     // Event 2 Landing Page URL Slug and Campaign Name
     "ev2": { url: urlSlugs.event2, campaign: campaignNames.event2 },
-    // Event 2 Landing Page URL Slug and Campaign Name
-    "ea2": { url: urlSlugs.event2, campaign: campaignNames.event2 }
+    // Event 2 Direct Forwarding to App
+    "ea2": { url: appUrl, campaign: campaignNames.event2 }
 };
 
 function handleRedirect() {
@@ -143,8 +143,13 @@ function handleRedirect() {
     const school = schoolCodes[schoolKey] || "unknown";
     const medium = mediumCodes[mediumKey] || "unknown";
 
+    // Check if the campaign URL is absolute (starts with "http")
+    const isAbsoluteUrl = campaignData.url.startsWith("http");
+
     // Construct final redirect URL with UTM parameters for tracking
-    const redirectUrl = `https://kids-up.jp/${campaignData.url}?utm_source=${school}&utm_medium=${medium}&utm_campaign=${campaignData.campaign}`;
+    const redirectUrl = isAbsoluteUrl
+        ? `${campaignData.url}?utm_source=${school}&utm_medium=${medium}&utm_campaign=${campaignData.campaign}`
+        : `https://kids-up.jp/${campaignData.url}?utm_source=${school}&utm_medium=${medium}&utm_campaign=${campaignData.campaign}`;
 
     // Redirect the user to the final URL
     window.location.href = redirectUrl;
@@ -154,6 +159,5 @@ function handleRedirect() {
 window.onload = handleRedirect;
 
  </script>
-   
 </body>
 </html>
