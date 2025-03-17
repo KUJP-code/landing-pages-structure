@@ -69,10 +69,12 @@
 
   <div class="hero-row-2-text-wrapper">
 
+<h1 class="hero-h1">
+  新マスコットお披露目<br>
+  パーティへ君を招待! <br>
+</h1>
 
   <h2 class="hero-h2">
-    新マスコットお披露目<br>
-パーティへ君を招待! <br>
 楽しいアクティビティ満載& <br>
 限定グッズがもらえる特別な <br>
 イベントに参加しよう！
