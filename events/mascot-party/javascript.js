@@ -1,9 +1,25 @@
 
 
-// Open Form Link
 function formLink() {
+  // Get the current URL
+  const currentUrl = window.location.href;
+
+  // Parse the URL to get the query parameters
+  const urlParams = new URLSearchParams(new URL(currentUrl).search);
+
+  // Get the utm_source parameter from the current URL
+  let utmSource = urlParams.get('utm_source');
+
+  // Set the default utm_source if it's not present in the current URL
+  if (!utmSource) {
+    utmSource = 'online';
+  }
+
+  // Construct the new URL with the utm parameters
+  const newUrl = `https://www.kids-up.app?utm_source=${encodeURIComponent(utmSource)}&utm_medium=landing-page&utm_campaign=mascot_party`;
+
   // Opens the specified URL in a new tab
-  window.open("https://www.kids-up.app", "_blank");
+  window.open(newUrl, "_blank");
 }
 
 // Open Inquiry Link

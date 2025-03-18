@@ -38,6 +38,7 @@
 
 
     <div class="timer-wrapper">
+      <h3 class="countdown">パーティーまで残り、、、</h3>
     <div id="timer">
     <div class="segment">
       <span id="days">00</span>
@@ -268,12 +269,10 @@
       
       <div class="addition-info-wrapper">
       <h3 class="activity-h3"><span><img src="./images/additional-icon-1.svg" alt="" class="addition-info-icon"></span>スコットグッズ</h3>
-      <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホ
-        ルダーや、楽しい絵本、スペシャルプロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！</p>
+      <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホルダーや、楽しい絵プロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！</p>
         <br>
         <h3 class="activity-h3"><span><img src="./images/additional-icon-2.svg" alt="" class="addition-info-icon"></span>マスコットと一緒に写真を撮ろう</h3>
-        <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホ
-          ルダーや、楽しい絵本、スペシャルプロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！</p>
+        <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホ ルダーや、楽しい絵本、スペシャルプロモカード、 さらに記念バッジもあるよ！ここでしか手に入らな いグッズを手に入れて、お友達に自慢しちゃおう！</p>
         </div>
     </div>
   </div>

@@ -251,6 +251,15 @@ html{
   paint-order:  stroke fill;
 }
 
+.countdown{
+  font-size: 1.5rem;
+  text-align: center;
+  font-family: "Shin-Maru-GP-regular";
+  color: white;
+  -webkit-text-stroke: 10px #46986a; 
+  text-stroke: 10px #46986a; 
+  paint-order:  stroke fill;
+}
 
 .hero-jot{
   position: absolute;
@@ -369,7 +378,9 @@ html{
 @media (max-width: 609.9px) {
 
 
-
+  .hero-h1{
+    font-size: 2rem;
+  }
 
 .hero-h2{
   font-size: 1.5rem;
@@ -424,6 +435,11 @@ html{
     .hero-logo{
       width: 100%;
     }
+
+    .hero-h1{
+      font-size: 1.75rem;
+    }
+  
     
     .hero-h2{
       transform: unset !important;
@@ -479,6 +495,11 @@ html{
       font-size: .75rem;
       margin-bottom: 0.3rem;
     }
+    .hero-h1{
+      font-size: 1.5rem;
+    }
+  
+
 
     .hero-h2{
  font-size: 1.2rem;

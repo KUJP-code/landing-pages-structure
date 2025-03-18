@@ -99,9 +99,6 @@
 
 
     <link rel="stylesheet" href="./stylesheets/specific.css">
-
-
-    <title>TEMPLATE</title>
   </head>
 
   <body>
