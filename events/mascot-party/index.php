@@ -70,7 +70,7 @@
 
   <div class="hero-row-2-text-wrapper">
 
-<h1 class="hero-h1">新マスコットお披露目<br>パーティへ君を招待!<br></h1>
+<h1 class="hero-h1">新マスコットお披露目<br>パーティーへ君を招待!<br></h1>
 
   <h2 class="hero-h2">楽しいアクティビティ満載&<br>限定グッズがもらえる特別な<br>イベントに参加しよう！</h2>
   <br>
@@ -145,7 +145,7 @@
               <div w3-include-html="../global-images/merit-1.html"></div>
               <h3 class="merit-h3">初心者から上級生まで、<br>
                 全ての方にご参加いただけます</h3>
-                <p class="merit-p">満３歳以上のお子様ならどなたでも<br>楽しくご参加いただけますので<br>ご安心ください！<br>上級生は海外留学をしたような経験が得られます！</p>
+                <p class="merit-p">満３歳以上のお子様ならどなたでも楽しくご参加いただけますのでご安心ください！<br>上級生は海外留学をしたような経験が得られます！</p>
             </div>
             
             <div class="col-sm-4 merit-column merit-column-2">
@@ -217,7 +217,7 @@
   <img src="./images/activity-2.jpg" alt="activity-2" class="d-block d-sm-none activity-img-2">
 
   <div class="activity-inner-2">
-    <h2 class="activity-h2">ミュージックパーティ！</h2>
+    <h2 class="activity-h2">ミュージックパーティー！</h2>
     <p class="activity-p" style="color: #e6f4f9;">マスコットはカラオケが大好きだよ！みんなで大好きな歌を思いっきり歌えば気分はスーパースター！？まずはみんなが知ってるあの人気曲からスタート！時間があればグループ対決もあるかも？</p>
   
   </div>
@@ -268,11 +268,11 @@
     <div class="col-sm-8 col-xl-6 addition-info-col">
       
       <div class="addition-info-wrapper">
-      <h3 class="activity-h3"><span><img src="./images/additional-icon-1.svg" alt="" class="addition-info-icon"></span>スコットグッズ</h3>
-      <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホルダーや、楽しい絵プロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！</p>
+      <h3 class="activity-h3"><span><img src="./images/additional-icon-1.svg" alt="" class="addition-info-icon"></span>マスコットグッズ</h3>
+      <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホルダーや、楽しい絵本、スペシャルプロモカード、さらに記念バッジもあるよ！ここでしか手に入らないグッズを手に入れて、お友達に自慢しちゃおう！</p>
         <br>
         <h3 class="activity-h3"><span><img src="./images/additional-icon-2.svg" alt="" class="addition-info-icon"></span>マスコットと一緒に写真を撮ろう</h3>
-        <p class="activity-p" style="color: #032741;">新登場のマスコットグッズをゲットしよう！キーホ ルダーや、楽しい絵本、スペシャルプロモカード、 さらに記念バッジもあるよ！ここでしか手に入らな いグッズを手に入れて、お友達に自慢しちゃおう！</p>
+        <p class="activity-p" style="color: #032741;">パーティーのお写真の閲覧とダウンロードが可能!楽しい思い出を家族やお友達とシェアしよう。</p>
         </div>
     </div>
   </div>

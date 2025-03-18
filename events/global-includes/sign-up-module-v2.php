@@ -12,7 +12,7 @@
             WEBフォームよりお申込み<br /><br class="d-none d-sm-block" />
           </h3>
           <p class="sign-up-p">
-            WEBフォームよりKids UPの<?php echo htmlspecialchars($eventType); ?>にお申込みが可能です。お申し込みフォームより入力のうえ、お申込みください。
+            WEBフォームよりKids UPの<?php echo htmlspecialchars($eventType); ?>にお申込みが可能です。お申込みフォームより入力のうえ、お申込みください。
           </p>
         </div>
       </div>
@@ -23,7 +23,7 @@
             お申込み内容のご確認<br /><br class="d-none d-sm-block" />
           </h3>
           <p class="sign-up-p">
-          WEBフォーム送信後、スクールからメールにてお申込内容の確認をさせていただきます。お申込内容に相違があった場合には、お気軽にお申し出ください。
+          WEBフォーム送信後、スクールからメールにてお申込み内容の確認をさせていただきます。お申込み内容に相違があった場合には、お気軽にお申し出ください。
           </p>
         </div>
       </div>
