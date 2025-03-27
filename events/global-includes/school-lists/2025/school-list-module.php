@@ -1,4 +1,7 @@
- <!-- LOCATION LISTS --------------------->
+
+
+
+<!-- LOCATION LISTS --------------------->
  <div class="d-none d-sm-block">
 <!-- TOKYO --------------------->  
 <?xml version="1.0" encoding="UTF-8"?>
@@ -68,11 +71,11 @@
 
 </div>
  <!-- COLLAPSES FOR LOCATIONS --------------------->
- <div class="d-block d-sm-none">
+ <div class="d-block d-sm-none location-accordion-top">
 <div class="accordion" id="locationsCollapseMobile">
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingOne">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseOne" aria-expanded="false" aria-controls="locationCollapseOne" style="background-color: transparent; padding: 0; border: none;">
+      <button class="accordion-button location-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseOne" aria-expanded="false" aria-controls="locationCollapseOne" style="background-color: transparent; padding: 0; border: none;">
         <?xml version="1.0" encoding="UTF-8"?>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.5 62.33"  alt="東京都" class="mobile-accordion-button">
           <path class="prefecture-tokyo-bg" d="M310.33,2H8.08c-3.36,0-6.08,2.72-6.08,6.08v46.17c0,3.36,2.72,6.08,6.08,6.08h302.68c1.26,0,2.1-1.31,1.58-2.46l-11.96-26.19,11.55-27.27c.48-1.14-.36-2.41-1.6-2.41Z"/>
@@ -98,7 +101,7 @@
   </div>
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseTwo" aria-expanded="false" aria-controls="locationCollapseTwo" style="background-color: transparent; padding: 0; border: none;">
+      <button class="accordion-button location-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseTwo" aria-expanded="false" aria-controls="locationCollapseTwo" style="background-color: transparent; padding: 0; border: none;">
       <?xml version="1.0" encoding="UTF-8"?>
       <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.5 62.33" alt="神奈川県" class="mobile-accordion-button">
         <path class="prefecture-kanagawa-bg" d="M310.33,2H8.08c-3.36,0-6.08,2.72-6.08,6.08v46.17c0,3.36,2.72,6.08,6.08,6.08h302.68c1.26,0,2.1-1.31,1.58-2.46l-11.96-26.19,11.55-27.27c.48-1.14-.36-2.41-1.6-2.41Z"/>
@@ -119,7 +122,7 @@
   </div>
   <div class="mobile-accordion-item">
     <h2 class="accordion-header" id="locationHeadingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseThree" aria-expanded="false" aria-controls="locationCollapseThree" style="background-color: transparent; padding: 0; border: none;">
+      <button class="accordion-button location-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseThree" aria-expanded="false" aria-controls="locationCollapseThree" style="background-color: transparent; padding: 0; border: none;">
         
         
   
@@ -148,7 +151,7 @@
     <h2 class="accordion-header" id="locationHeadingFour">
 
 
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseFour" aria-expanded="false" aria-controls="locationCollapseFour" style="background-color: transparent; padding: 0; border: none;">
+      <button class="accordion-button location-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseFour" aria-expanded="false" aria-controls="locationCollapseFour" style="background-color: transparent; padding: 0; border: none;">
         <?xml version="1.0" encoding="UTF-8"?>
         <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 314.5 62.33" alt="埼玉県" class="mobile-accordion-button">
           <path class="prefecture-saitama-bg" d="M310.33,2H8.08c-3.36,0-6.08,2.72-6.08,6.08v46.17c0,3.36,2.72,6.08,6.08,6.08h302.68c1.26,0,2.1-1.31,1.58-2.46l-11.96-26.19,11.55-27.27c.48-1.14-.36-2.41-1.6-2.41Z"/>
@@ -175,3 +178,53 @@
       </div>
 
     </div>
+
+
+    <script>
+document.querySelectorAll('.location-button').forEach((button) => {
+    button.addEventListener('click', function () {
+        const targetDiv = document.querySelector('.location-accordion-top');  // Target the div with the class 'loction-accordion-top'
+        if (!targetDiv) return;
+
+        const offset = 64;  // Adjust offset if needed
+
+        // Calculate the position of the target div relative to the top of the page
+        const targetY = targetDiv.getBoundingClientRect().top + window.scrollY - offset;
+
+        // Get the current scroll position
+        const startY = window.scrollY;
+
+        // Calculate the scroll distance and the time based on your desired animation duration
+        const distance = targetY - startY;
+        const duration = 000;  // Adjust this value for desired speed (ms)
+
+        // Start scroll immediately without delay
+        window.scrollTo(0, startY);
+
+        // Smooth scroll to the target with linear motion
+        linearScrollTo(targetY, duration);
+    });
+});
+
+// Function to smoothly scroll to a target with linear motion (no easing)
+function linearScrollTo(targetY, duration) {
+    const startY = window.scrollY;
+    const distance = targetY - startY;
+    const startTime = performance.now();
+
+    function scrollStep(timestamp) {
+        const progress = (timestamp - startTime) / duration;
+        const currentY = startY + (distance * progress);  // Linear interpolation
+        window.scrollTo(0, currentY);
+
+        if (progress < 1) {
+            requestAnimationFrame(scrollStep);
+        } else {
+            window.scrollTo(0, targetY); // Ensure the final position is exact
+        }
+    }
+
+    requestAnimationFrame(scrollStep);
+}
+
+    </script>
