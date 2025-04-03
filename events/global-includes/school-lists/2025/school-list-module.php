@@ -174,6 +174,9 @@
   </div>
 </div>
 
+<button class="accordion-button location-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#locationCollapseFour" aria-expanded="false" aria-controls="locationCollapseFour" style="background-color: transparent; padding: 0; border: none;">
+
+      </button>
 
       </div>
 
@@ -183,30 +186,30 @@
     <script>
 document.querySelectorAll('.location-button').forEach((button) => {
     button.addEventListener('click', function () {
-        const targetDiv = document.querySelector('.location-accordion-top');  // Target the div with the class 'loction-accordion-top'
-        if (!targetDiv) return;
+        const offset = 64;
+        const duration = 0;
+        let timeoutId;
 
-        const offset = 64;  // Adjust offset if needed
+        function debouncedScroll() {
+            clearTimeout(timeoutId);
+            timeoutId = setTimeout(scrollToLocationAccordionTop, 100); // 100ms delay
+        }
 
-        // Calculate the position of the target div relative to the top of the page
-        const targetY = targetDiv.getBoundingClientRect().top + window.scrollY - offset;
+        function scrollToLocationAccordionTop() {
+            const targetDiv = document.querySelector('.location-accordion-top');
+            if (!targetDiv) {
+                console.error("Target div '.location-accordion-top' not found.");
+                return;
+            }
 
-        // Get the current scroll position
-        const startY = window.scrollY;
+            const targetY = targetDiv.getBoundingClientRect().top + window.scrollY - offset;
+            linearScrollTo(targetY, duration);
+        }
 
-        // Calculate the scroll distance and the time based on your desired animation duration
-        const distance = targetY - startY;
-        const duration = 000;  // Adjust this value for desired speed (ms)
-
-        // Start scroll immediately without delay
-        window.scrollTo(0, startY);
-
-        // Smooth scroll to the target with linear motion
-        linearScrollTo(targetY, duration);
+        debouncedScroll();
     });
 });
 
-// Function to smoothly scroll to a target with linear motion (no easing)
 function linearScrollTo(targetY, duration) {
     const startY = window.scrollY;
     const distance = targetY - startY;
@@ -214,17 +217,16 @@ function linearScrollTo(targetY, duration) {
 
     function scrollStep(timestamp) {
         const progress = (timestamp - startTime) / duration;
-        const currentY = startY + (distance * progress);  // Linear interpolation
+        const currentY = startY + (distance * progress);
         window.scrollTo(0, currentY);
 
         if (progress < 1) {
             requestAnimationFrame(scrollStep);
         } else {
-            window.scrollTo(0, targetY); // Ensure the final position is exact
+            window.scrollTo(0, targetY); // Ensure final position
         }
     }
 
     requestAnimationFrame(scrollStep);
 }
-
     </script>

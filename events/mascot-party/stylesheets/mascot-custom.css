@@ -1537,10 +1537,3 @@ html{
 .pre-footer-p {
   color: #303135;
 }
-
-
-
-
-#locationsCollapseMobile .collapsing {
-  transition: height 0.7s ease-in-out; /* Example: 0.5 seconds, ease-in-out */
-}

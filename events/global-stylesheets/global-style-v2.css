@@ -329,6 +329,10 @@ body {
 }
 
 
+#locationsCollapseMobile .collapsing {
+  transition: height 0.29s ease-in-out; /* Example: 0.5 seconds, ease-in-out */
+}
+
 
 
 .swiper-button-arrow {
