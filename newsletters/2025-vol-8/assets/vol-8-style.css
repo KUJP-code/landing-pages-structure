@@ -196,6 +196,9 @@ h3{
   padding-bottom: 2rem;
 }
 
+.sub-row{
+  margin-bottom: 2rem;
+}
 
 .section-1-box{
   background-color: #9c318e;
@@ -211,6 +214,28 @@ h3{
   color: white;
 }
 
+.section-1 .minibox-outer{
+  background-color: #d8a3d3;
+  position: relative;
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 50%;
+  position: relative;
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: left; /* Horizontally center */
+  border-radius: 2rem 0rem 0rem 2rem;
+
+}
+
+.skill-img-box{
+  background-color: #d8a3d3;
+  border-radius: 0rem 2rem 2rem 0rem;
+  width: calc(50% - 2rem);
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
 
 .section-1-minibox p {
   color: white;
@@ -227,7 +252,25 @@ h3{
   align-items: center; /* Vertically center */
   justify-content: center; /* Horizontally center */
   height: 100%;
-  margin: unset;
+  margin: 0;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  aspect-ratio: 1 / 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #9c318e;
+  border-radius: 2rem;
+}
+
+
+.minibox-outer .section-1-minibox {
+  position: relative;
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+  width: 100%;
+  margin: 0;
   padding: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -266,6 +309,24 @@ h3{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.section-1 table { text-align: center; font-size: .9rem; }
+.section-1 th, .section-1 td { padding: .5rem; border: 1px solid #d8a3d3; }
+.section-1 th { background-color: #9c318e; color: white; }
+.section-1 .header { color: #9c318e; font-weight: bold; font-size: 1.25rem; text-align: center; margin-bottom: 1rem; }
+
+
+
+@media (max-width: 990.98px) {
+  .skill-img-box{
+    width: 50%;
+  }
+
+  .row{
+    width: 100%;
+    margin: 0 !important;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -307,6 +368,41 @@ h3{
 
   .section-1 .benchmark{
     width: 95%;
+  }
+
+  .section-1 .minibox-outer{
+    background-color: #d8a3d3;
+    position: relative;
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: left; /* Horizontally center */
+    border-radius: 2rem 2rem 0rem 0rem
+  }
+
+
+  .minibox-outer .section-1-minibox {
+    aspect-ratio: 2/1;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0 !important;
+  }
+
+  .skill-img-box{
+    background-color: #d8a3d3;
+    border-radius: 0rem 0rem 1rem 1rem;
+    width: 100%;
+    display: flex;
+    align-items: center; /* Vertically center */
+    justify-content: center; /* Horizontally center */
+    margin-bottom: 2rem;
   }
 }
 

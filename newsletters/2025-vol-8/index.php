@@ -53,16 +53,10 @@
 
   <div class="hero-banner">
   <svg id="hero-desktop-h1-banner" class="hero-banner-inner" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 902.69 200" style="display: block; margin: 0 auto;">
-    <defs>
-
-      <path id="textPathCurve" class="cls-1" d="M5.36,5.36c295.24,54.52,596.73,54.52,891.97,0"/>
-    </defs>
-    <text width="902.69"  class="banner-text">
-      <textPath xlink:href="#textPathCurve" startOffset="50%" dy="50">
-        Kids UP Newsletter
-      </textPath>
-    </text>
   </svg>
+
+
+  
 
 </div>
   
@@ -75,12 +69,121 @@
 
 
 </div>
+
+<div class="container overflow-hidden swiper-parent-container">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-1.png"
+          alt="Card 1"
+        />
+        <p class="swiper-slide-text">
+          Pearson Young Learners Test<br>
+           導入開始のお知らせ
+          <a class="button-swiper-link" href="#section-1">READ MORE</a>
+        </p>
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-2.png"
+          alt="Card 1"
+        />
+        <p class="swiper-slide-text">
+          Kids UPで頑張る中高生<br>
+          （中学受験生）
+          <a class="button-swiper-link" href="#section-2">READ MORE</a>
+        </p>
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-3.png"
+          alt="Card 2"
+        />
+        <p class="swiper-slide-text">
+          もうすぐマスコット<br>
+          お披露目パーティー！
+          <a class="button-swiper-link" href="#section-3">READ MORE</a>
+        </p>
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-4.png"
+          alt="Card 3"
+        />
+        <p class="swiper-slide-text">
+          カンボジアを訪問した<br>
+          スタディツアーの記録
+          <a class="button-swiper-link" href="#section-4">READ MORE</a>
+        </p>
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-5.png"
+          alt="Card 4"
+        />
+        <p class="swiper-slide-text">
+         Kids UP Events
+          <a class="button-swiper-link" href="#section-5">READ MORE</a>
+        </p>
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-6.png"
+          alt="Card 5"
+        />
+        <p class="swiper-slide-text">
+          トレーナーからの<br>
+          ワンポイントレッスン
+          <a class="button-swiper-link" href="#section-6">READ MORE</a>
+        </p>
+      </div>
+
+      <div class="swiper-slide">
+        <img
+          src="./assets/images/top-slider/article-7.png"
+          alt="Card 6"
+        />
+        <p class="swiper-slide-text">
+          お友達と一緒に通学して<br>
+          さらに英語力を伸ばそう!
+          <a class="button-swiper-link" href="#section-7">READ MORE</a>
+        </p>
+      </div>
+
+
+
+    </div>
+    <!-- Navigation arrows ---->
+
+    <!--- Pagination -->
+    <div class="swiper-pagination child-element"></div>
+  </div>
+  <img
+     src="../newsletter-common-assets/arrow-prev.svg"
+    alt=" arrow-prev"
+    class="swiper-button-prev"
+
+  />
+  <img
+    src="../newsletter-common-assets/arrow-next.svg"
+    alt=" arrow-next"
+    class="swiper-button-next"
+
+  />
+</div>
 <!-----------------------------------------------SLIDER END------------------------------------------------------------->
 
 <!----------------------------------------------- SECTION 1 - PEARSON ------------------------------------------------------------->
-<section class="section-1">
+<section class="section-1 " id="section-1">
+  <img src="./assets/images/section-1/section-10-header.jpg" alt="mascot-party" class="header-fullwidth" loading="lazy">
 <div class="container">
-  <div class="img-placeholder"></div>
+
   <h2>Pearson Young Learners Test 導入開始のお知らせ</h2>
 
   <p>この度、新たな外部テスト「Pearson Young Learners Test」を取り入れる運びとなり、保護者の皆様にご案内させていただきます。<br>
@@ -108,9 +211,9 @@
   </p>
 </div>
 
-<div class="row">
 
-  <div class="col-sm-6">
+
+
 
   <h3>テストの詳細について:</h3>
   <p>
@@ -129,67 +232,81 @@
   <span class="section-1-text-header">•　言語：</span>インターナショナル・イングリッシュ<br>
   <br>
   <span class="section-1-text-header">•　レポート：</span>保護者向けに詳細なテスト結果を報告（下記の画像参照）<br><br></p>
+  <img src="./assets/images/section-1/chart.webp" alt="chart" class="chart-img"> 
 
-</div>
 
-<div class="col-sm-6">
 
-</div>
+
+
 <h3>テスト内容</h3>
 
 <div class="row main-row">
 
-  <div class="col-lg-6">
-    <div class="row">
-      <div class="col-sm-6 section-1-minibox ">
+  <div class="col-lg-6 ">
+    <div class="row sub-row">
+      <div class="col-sm-6 minibox-outer">
+
+        <div class="section-1-minibox">
+
         <p style="text-align: center;">
           <span class="section-1-text-header">スピーキング：</span><br>
           文章を繰り返す、質問に答える、または短い映像を視聴し、その内容を説明します。
         </p>
+
       </div>
-      <div class="col-sm-6">
+      </div>
+
+
+
+      <div class="col-sm-6 skill-img-box">
         <img src="./assets/images/section-1/section-1-speaking.webp" alt="" class="img-fluid skill-img" loading="lazy">
       </div>
     </div>
   </div>
 
   <div class="col-lg-6">
-    <div class="row">
-      <div class="col-sm-6 section-1-minibox ">
+    <div class="row  sub-row">
+      <div class="col-sm-6 minibox-outer">
+      <div class=" section-1-minibox ">
         <p style="text-align: center;">
           <span class="section-1-text-header">リスニング：</span><br>
           聞こえた単語を選んだり、状況について話したり、質問に答えたりします。
         </p>
       </div>
-      <div class="col-sm-6">
+    </div>
+      <div class="col-sm-6 skill-img-box">
         <img src="./assets/images/section-1/section-1-listening.webp" alt="" class="img-fluid skill-img" loading="lazy">
       </div>
     </div>
   </div>
 
   <div class="col-lg-6">
-    <div class="row">
-      <div class="col-sm-6 section-1-minibox ">
+    <div class="row  sub-row">
+      <div class="col-sm-6 minibox-outer">
+      <div class=" section-1-minibox ">
         <p style="text-align: center;">
           <span class="section-1-text-header">リーディング：</span><br>
           表示された文章を読み上げたり、表示された指示文どおりに絵をタッチしたりドラッグで移動します。
         </p>
       </div>
-      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6 skill-img-box">
         <img src="./assets/images/section-1/section-1-reading.webp" alt="" class="img-fluid skill-img" loading="lazy">
       </div>
     </div>
   </div>
 
   <div class="col-lg-6">
-    <div class="row">
-      <div class="col-sm-6 section-1-minibox ">
+    <div class="row  sub-row">
+      <div class="col-sm-6 minibox-outer">
+      <div class="section-1-minibox ">
         <p style="text-align: center;">
           <span class="section-1-text-header">ライティング<br>（レベル2以上）：</span><br>
           単語を入力して文章を完成させることや、画面に表示された写真を元に物語を書きます。
         </p>
       </div>
-      <div class="col-sm-6">
+      </div>
+      <div class="col-sm-6 skill-img-box">
         <img src="./assets/images/section-1/section-1-writing.webp" alt="" class="img-fluid skill-img" loading="lazy">
       </div>
     </div>
@@ -198,7 +315,7 @@
 </div>
 
 
-</div>
+
 
 <h3>Kids UPで取り組むレベル</h3>
 <p>
@@ -213,7 +330,63 @@
 
 </p>
 
-<img src="./assets/images/section-1/section-1-bencmark.webp" alt="benchmark" class="img-fluid benchmark" loading="lazy">
+<div class="container mt-4">
+  <div class="header">English Benchmark は B1+ までのすべてのレベルで利用可能です</div>
+  <table class="table table-bordered">
+      <thead>
+          <tr>
+              <th></th>
+              <th>レベル 1</th>
+              <th>レベル 2</th>
+              <th>レベル 3</th>
+              <th>レベル 4</th>
+              <th>レベル 5</th>
+              <th>レベル 6</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr>
+              <th>テスト数</th>
+              <td>5 利用可能なテスト</td>
+              <td>5 利用可能なテスト</td>
+              <td>5 利用可能なテスト</td>
+              <td>5 利用可能なテスト</td>
+              <td>5 利用可能なテスト</td>
+              <td>5 利用可能なテスト</td>
+          </tr>
+          <tr>
+              <th>試験時間</th>
+              <td>16 分</td>
+              <td>22 分</td>
+              <td>30 分</td>
+              <td>30 分</td>
+              <td>36 分</td>
+              <td>36 分</td>
+          </tr>
+          <tr>
+              <th>GSE</th>
+              <td>10–27</td>
+              <td>16–34</td>
+              <td>22–40</td>
+              <td>27–45</td>
+              <td>33–52</td>
+              <td>42–58</td>
+          </tr>
+          <tr>
+              <th>CEFR</th>
+              <td>&lt;A1–A1</td>
+              <td>&lt;A1–A2</td>
+              <td>A1–A2+</td>
+              <td>A1–B1</td>
+              <td>A2–B1+</td>
+              <td>A2+–B1+</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
+
+<!-------------
+<img src="./assets/images/section-1/section-1-bencmark.webp" alt="benchmark" class="img-fluid benchmark" loading="lazy">-------->
 
 <h3>テストのスケジュールと詳細 </h3>
 <p>
@@ -223,12 +396,12 @@
   <span class="section-1-text-header">•　受験対象者：</span>GALAXY、Keep UP、および Specialist コースのお子さま（将来的には、SKYレベルのお子さまにもこのテストを実施する予定です。）</p>
 
 </div>
-
+</div>
 </section>
 
 
 <!----------------------------------------------- SECTION 2 - NAKAGAWA ------------------------------------------------------------->
-<section class="section-2">
+<section class="section-2" id="section-2">
   <img src="./assets/images/section-2/junior-high-exam.jpg" alt="" class="header-fullwidth" loading="lazy">
 <div class="container">
 
@@ -273,7 +446,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 </section>
 
 <!----------------------------------------------- SECTION 3 - MASCOT PARTY ------------------------------------------------------------->
-<section class="section-3">
+<section class="section-3" id="section-3">
 <img src="./assets/images/section-3/section-3-header.svg" alt="mascot-party" class="header-fullwidth" loading="lazy">
 <div class="container">
 
@@ -296,12 +469,13 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
     きっとお子さまにとって忘れられない体験になることでしょう。どのマスコットが一番のお気に入りになるのか、楽しみにしていてください！
 
   </p>
+  <img src="./assets/images/section-3/mascots.png" alt="mascots" class="">
 </div>
 
 </section>
 
 <!----------------------------------------------- SECTION 4 - CAMBODIA------------------------------------------------------------->
-<section class="section-4">
+<section class="section-4" id="section-4">
   <img src="./assets/images/section-4/cambodia-header.svg" alt="cambodia-header" class="header-fullwidth" loading="lazy">
   <div class="container">
     <h2>カンボジアを訪問したスタディツアーの記録</h2>
@@ -332,7 +506,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 
 
 <!----------------------------------------------- SECTION 5 - UPCOMING------------------------------------------------------------->
-<section class="section-5">
+<section class="section-5" id="section-5">
 
 <div class="container">
   <h2>Kids UP Events</h2>
@@ -410,7 +584,7 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 
   </section>
 <!----------------------------------------------- SECTION 6 - ONE POINT LESSON------------------------------------------------------------->
-<section class="section-6">
+<section class="section-6" id="section-6">
   <img src="./assets/images/section-6/onepoint-header.jpg" alt="トレーナーからのワンポイントレッスン" class="header-fullwidth" loading="lazy">
   <div class="container">
     <h2>言語習得における「インプット」の重要性</h2>
@@ -443,10 +617,10 @@ Kids UPも行う臨界期説に基づいた教育理論を我が子にリアル�
 <!----------------------------------------------- SECTION 7 - SPECIAL OFFER------------------------------------------------------------->
 
 
-  <section class="section-7">
+  <section class="section-7" id="section-7">
     <img src="./assets/images/section-7/friend-referral-header.png" alt="" class="header-fullwidth">
 
-    <div class="section-7-inner">
+
     <div class="container">
       <div class="container article-5-container">
         <h2>お友達と一緒に通学して<br>
@@ -518,6 +692,28 @@ anchor.addEventListener('click', function (e) {
 });
 
 </script>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      document.querySelectorAll(".button-swiper-link").forEach(link => {
+          link.addEventListener("click", function (event) {
+              event.preventDefault();
+              
+              const targetId = this.getAttribute("href").substring(1);
+              const targetElement = document.getElementById(targetId);
+  
+              if (targetElement) {
+                  window.scrollTo({
+                      top: targetElement.offsetTop - 100,
+                      behavior: "smooth"
+                  });
+              }
+          });
+      });
+  });
+  </script>
+  </body>
+  
 
 </body>
 </html>
