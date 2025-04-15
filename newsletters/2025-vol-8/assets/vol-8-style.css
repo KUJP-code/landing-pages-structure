@@ -192,13 +192,11 @@ h3{
 
 /* --------SECTION 1-------- */
 .section-1{
-  padding-top: 2rem;
+  
   padding-bottom: 2rem;
 }
 
-.sub-row{
-  margin-bottom: 2rem;
-}
+
 
 .section-1-box{
   background-color: #9c318e;
@@ -212,6 +210,15 @@ h3{
 
 .section-1-box h3, .section-1-box p {
   color: white;
+}
+
+.section-1 .chart-img{
+  display: block;
+  width: 90%;
+  max-width: 576px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .section-1 .minibox-outer{
@@ -329,6 +336,10 @@ h3{
   }
 }
 
+.sub-row{
+  padding-bottom: 2rem;
+}
+
 @media (max-width: 575.98px) {
 
 .main-row{
@@ -439,6 +450,15 @@ h3{
   color: white;
   font-weight: 500;
 }
+
+.mascot-pic{
+  width: 90%;
+  max-width: 975px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+}
 /* --------SECTION 4-------- */
 .section-4{
   padding-top: 0;
@@ -506,6 +526,12 @@ text-align: left;
 margin: 0 !important;
 padding-bottom: 2rem !important;
 background-color: #ffecce;
+
+background-image: url(./images/section-7/special-offer-bg.webp);
+background-size: cover;
+background-repeat: no-repeat;
+background-position: bottom;
+
 }
 
 .section-7-header{
@@ -513,12 +539,6 @@ background-color: #ffecce;
   display: block;
   margin-left: auto;
   margin-right: auto;
-}
-
-.section-7-inner{
-  background-image: url(./images/section-7/special-offer-bg.webp);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .section-7 h2{
