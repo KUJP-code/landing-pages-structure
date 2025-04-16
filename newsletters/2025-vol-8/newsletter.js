@@ -37,7 +37,65 @@ var swiper = new Swiper(".swiper-container", {
       },
     },
   });
+  document.addEventListener('DOMContentLoaded', function() {
+    // --- Configuration ---
+    const fixedHeader = document.getElementById('template-nav'); // Replace with your actual fixed header ID
+    const additionalOffset = 20; // Adjust as needed
   
+    // --- Helper Function ---
+    function getFixedHeaderHeight() {
+      return fixedHeader ? fixedHeader.offsetHeight : 0;
+    }
+  
+    // --- Modified Smooth Scroll Function ---
+    function smoothScrollTo(targetId) {
+      const targetElement = document.getElementById(targetId);
+  
+      if (targetElement) {
+        const targetTop = targetElement.offsetTop - getFixedHeaderHeight() - additionalOffset;
+        window.scrollTo({
+          top: targetTop,
+          behavior: 'smooth'
+        });
+      } else {
+        console.warn('Target element not found:', targetId);
+      }
+    }
+  
+    // --- Handle Anchor Link Clicks ---
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', function(event) {
+        event.preventDefault();
+  
+        const targetId = this.getAttribute('href').substring(1);
+        smoothScrollTo(targetId);
+      });
+    });
+  
+    // --- Handle Initial Hash (if any) ---
+    if (window.location.hash) {
+      const hash = window.location.hash.substring(1);
+      smoothScrollTo(hash);
+    }
+  });
 
   
   
+
+  document.addEventListener("DOMContentLoaded", function () {
+    const hash = window.location.hash.substring(1); // Get hash without #
+
+    if (hash.startsWith("article-")) {
+        // Show the selected article
+        const selectedArticle = document.querySelector("." + hash + "-selected");
+        if (selectedArticle) {
+            selectedArticle.style.display = "block";
+        }
+
+        // Hide only the matching default article
+        const defaultArticle = document.querySelector("." + hash + "-default");
+        if (defaultArticle) {
+            defaultArticle.style.display = "none";
+        }
+    }
+});

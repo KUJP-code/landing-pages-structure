@@ -12,6 +12,13 @@ p{
   ;
 }
 
+.selected-article{
+  display: none;
+}
+
+.default-article {
+  display: block;
+}
 
 @media (max-width: 576px) {
   p{

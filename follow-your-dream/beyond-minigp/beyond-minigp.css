@@ -1,0 +1,36 @@
+.head-img {
+  position: relative;
+  width: 100%;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+}
+
+.flex-images {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.flex-images .flex-inner {
+  flex: 1;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.flex-images h3 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.flex-images .flex-img {
+  border-radius: 50%;
+  width: calc(100% - 2rem);
+}
+
+.graduates {
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+.indent {
+  padding-left: 3rem;
+}/*# sourceMappingURL=beyond-minigp.css.map */
