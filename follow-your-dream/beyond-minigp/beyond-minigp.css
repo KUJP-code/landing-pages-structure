@@ -18,8 +18,9 @@
   margin-bottom: 1rem;
 }
 .flex-images h3 {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   margin-bottom: 1rem;
+  font-size: 1.5rem;
 }
 .flex-images .flex-img {
   border-radius: 50%;
@@ -33,4 +34,49 @@
 
 .indent {
   padding-left: 3rem;
+}
+
+.video-row {
+  margin-bottom: 2rem;
+}
+
+.player-wrapper {
+  padding: 56.25% 0 0 0;
+  position: relative;
+}
+
+.rider-portrait-waku {
+  background-image: url(./images/waku-desktop.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.rider-portrait-kanon-hayato {
+  background-image: url(./images/kanon-hayato-desktop.jpg);
+  background-size: cover;
+  background-position: top center;
+}
+
+.page-subtitle {
+  margin-top: 3rem;
+}
+
+.online-img {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 576px) {
+  .rider-portrait-waku {
+    background-image: url(./images/waku-mobile.jpg);
+    aspect-ratio: 1.75/1;
+    width: 100%;
+  }
+  .rider-portrait-kanon-hayato {
+    background-image: url(./images/kanon-hayato-mobile.jpg);
+    aspect-ratio: 1.75/1;
+    width: 100%;
+  }
 }/*# sourceMappingURL=beyond-minigp.css.map */

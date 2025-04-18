@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Follow Your Dreams! - MiniGP 22024 | 学童保育型 英語・英会話スクール Kids UP （キッズアップ）</title>
+<title>Follow Your Dreams! - Beyond MiniGP! | 学童保育型 英語・英会話スクール Kids UP （キッズアップ）</title>
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
 
 
@@ -59,7 +59,7 @@
 <div class="flex-images">
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/waku-mobile.webp" alt="" class="flex-img">
-		<h3>国立　和玖</h3>
+		<h3 >国立　和玖</h3>
 	</div>
 
 	<div class="flex-inner">
@@ -94,44 +94,54 @@
 
 <h3 class="page-subtitle">Waku - World Champion</h3>
 
-<div class="row header-row">
+<div class="row video-row">
 
-	<div class=" col-sm-8"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/982422756?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Waku Interview"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
-<div class="d-none d-sm-block col-sm-4 rider-portrait-waku">
+	<div class=" col-sm-8">
+
+		<div class="player-wrapper"><iframe src="https://player.vimeo.com/video/1076619183?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Waku Interview 2"></iframe>
+		<script src="https://player.vimeo.com/api/player.js"></script>
+		</div>
+
+	</div>
+
+	<div class="col-sm-4 rider-portrait-waku"></div>
 	
-</div>
-</div>
-<img src="./mini-gp-2024/mini-gp-2024-images/waku-mobile.webp" alt="Waku" class="d-block d-sm-none img-fluid">
-<p class="p_normal-otherpage">
 
-	MiniGP世界チャンピオンの栄冠を手にした和玖ですが、その栄光に甘んじることはありません。彼の視線はすでに、MotoGPチャンピオンへの次なるステージにしっかりと向けられています。スペインでのMiniGP優勝は確かに素晴らしい成果でしたが、和玖にとってそれはあくまでも「大きな計画の一歩」に過ぎません。彼はすでに、さらに先を見据えているのです。<br>
+
+
+</div>
+<p class="p_normal-otherpage ">
+
+	MiniGP世界チャンピオンの栄冠を手にした和玖ですが、その栄光に甘んじることはありません。彼の視線はすでに、次なるステージ——MotoGP——へと向けられています。スペインでの優勝は素晴らしい成果でしたが、和玖にとっては「大きな計画の第一歩」に過ぎません。<br>
 <br>
-	2025年、和玖は大きな飛躍を遂げるべく、名高いMFJ全日本カップに挑戦します。目標は表彰台に立ち、できればシーズンチャンピオンを獲得すること。この大会には年齢制限がなく、和玖は自分より年上で経験豊富なライダーたちと競うことになります。MiniGPからの大きなステップアップですが、和玖はその挑戦に備えています。<br>
+2025年、和玖はさらに大きな飛躍を目指し、MFJ全日本カップに参戦します。目標は表彰台、できればシリーズチャンピオンの獲得。年齢制限のないこの大会では、年上で経験豊富なライダーたちとの戦いになりますが、和玖はすでにその挑戦に備えています。<br>
 <br>	
-	彼のキャリアプランは明確に描かれています。和玖は今後5年間の計画をこう語ります：<br>
+彼の5年計画は明確です：<br>
 <br>	
 </p>
 
 <p class="p_normal-otherpage indent">
-<b>• 今年：</b> 全日本カップで表彰台に立つ  <br>
-<b>• 来年：</b> アジアタレントカップでチャンピオンに  <br>
-<b>• 再来年：</b> レッドブル・ルーキーズカップでチャンピオンに  <br>
-<b>• その翌年：</b> ジュニアGPでチャンピオンに  <br>
-<b>• 最終目標：</b> Moto3に到達すること<br>
+<b>• 2025年：</b>全日本カップで表彰台に立つ<br>
+<b>• 2026年：</b>アジアタレントカップで優勝<br>
+<b>• 2027年：</b>レッドブル・ルーキーズカップで優勝<br>
+<b>• 2028年：</b>ジュニアGPで優勝<br>
+<b>• 最終目標：</b>Moto3に到達すること<br>
 </p>
 
 <p class="p_normal-otherpage">
 	<br>
-	レースキャリアが進化するにつれて、和玖の「国際的な舞台でのプレッシャーへの対応力」も着実に成長しています。スペインでのMiniGP優勝後、彼は国際メディアからのインタビューにも落ち着いて対応しました。しかし、すべてのインタビューが簡単とは限りません。専門用語の使い方や、自分の答えがしっかり伝わるようにする工夫が必要な場面もあるのです。こうした経験を通して、和玖は「将来、英語の重要性がますます増すこと」に気づいています。特にMoto3、Moto2、ジュニアGPなど海外でのレースが増えるにつれて、英語を使う機会も格段に増えることでしょう。<br>
+	今年は、全日本ロードレース選手権J-GP3クラス（NSF250）にフル参戦し、さらに台湾のTSSシリーズ（CBR250RR）にも現地チームからフル参戦します。TSSは2026年のアジアロードレース選手権に向けた重要なステップ。日本との違いに対応しながら、現地ではマシンセッティングやレース当日の流れなど、すべて英語でコミュニケーションを取り、結果を出すことを目指します。<br>
 <br>	
-	和玖は、言語こそがキャリアの鍵だと理解しており、これからさらに英語力を高めていくつもりです。<br>
+また、2025年は「自立の年」でもあります。これまでは家族と共に行動していたレース活動も、今後はチームと共に動き、レース当日の準備や身の回りのこともすべて自分でこなす覚悟です。国内外で一段と成長する1年になるでしょう。<br>
 <br>	
-	そんな彼が語るアドバイスは、年齢を超えた深い知恵に満ちています。<br>
-<br>	
+国際舞台での経験が増える中で、和玖の「プレッシャーへの対応力」も進化しています。MiniGP優勝後、世界中のメディアからのインタビューにも冷静に対応しましたが、専門用語や伝え方に工夫が求められる場面も多く、その中で「英語の重要性」に強く気づくようになりました。今後、Moto3やMoto2、ジュニアGPといった海外レースが中心になるにつれて、英語力の向上は不可欠です。<br>
+<br>
+言語こそがキャリアの鍵——和玖はそのことを理解し、英語力をさらに高めていく意欲にあふれています。<br>
+<br>
+そんな彼のアドバイスには、年齢を超えた力強さがあります。<br>
 	<b>「あきらめないこと。目標を立てて、それを一歩ずつクリアしていくこと。」</b><br>
 <br>
-	この言葉こそ、和玖の強い意志と揺るぎない努力を体現するものであり、彼がレーシング界の頂点へと上り詰めていくであろうことを確信させてくれます。
-	
+この言葉こそ、和玖の確かな意志と努力を体現するものであり、彼がレーシング界の頂点へと上り詰めていく未来を感じさせてくれます。
 </p>
 
 
@@ -140,40 +150,64 @@
 
 
 <h3 class="page-subtitle">Kanon & Hayato: Siblings Racing to the World Stage</h3>
-<div class=" col-sm-8"><div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/982422756?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Waku Interview"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script></div>
-<div class="d-none d-sm-block col-sm-4 rider-portrait-waku">
-	
-</div>
 
-<img src="./mini-gp-2024/mini-gp-2024-images/waku-mobile.webp" alt="Waku" class="d-block d-sm-none img-fluid">
+<div class="row video-row">
+
+	<div class="col-sm-8">
+	
+		<div class="player-wrapper"><iframe src="https://player.vimeo.com/video/1076619379?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Waku Interview"></iframe></div>
+		<script src="https://player.vimeo.com/api/player.js"></script>
+
+	</div>	
+	
+	<div class="col-sm-4 rider-portrait-kanon-hayato"></div>
+</div>
 
 <p class="p_normal-otherpage">
-	2024年、知識隼和（はやと）選手はMiniGP Japanシリーズでチャンピオンに輝き、世界大会でも6位という快挙を達成。そんな素晴らしいシーズンを終えたばかりの知識兄妹ですが、スピードを緩める気配はまったくありません。むしろ、ここからが本当のスタートです。<br>
+	2024年シーズン、知識 隼和選手はMiniGP日本チャンピオンに輝き、世界大会でも6位という快挙を達成。そんな素晴らしいシーズンの後も、知識兄妹の勢いは止まりません。むしろ、ここからが本当のスタートです。<br>
 <br>
-	今回は隼和選手と、数年前にMiniGPを卒業した姉・可穏（かのん）選手にインタビューを実施。今後の挑戦や、目指す未来について語ってもらいました。<br>
+今回は、隼和選手とお姉さんの知識 可穏選手にインタビューを行い、これからの目標や夢について語ってもらいました。<br>
 <br>	
-	「とても嬉しかったです」と少し得意げな笑みを浮かべながら日本チャンピオンの喜びを振り返った隼和選手ですが、すでに目は次のステージ——全日本チャレンジクラスに向いています。目標はもちろん、チャンピオンを獲ること。そして、その先にあるMoto3の舞台を見据えています。「競争は激しいと思うけど、すでにトレーニングを始めて準備しています」と意気込みは十分です。<br>
+隼和選手は日本チャンピオンのタイトルについて、少し照れながらも「とても嬉しかったです」と笑顔で振り返りました。しかし、彼の視線はすでに次の舞台、全日本ロードレース選手権JGP3チャレンジクラスに向いています。今年の目標はチャンピオンを獲得し、アジア・タレント・カップ（ATC）への切符を手に入れること。そして最終的にはMotoGPチャンピオンになることが夢です。「今年はその夢にとってすごく大事な年なので、全力で頑張ります」と力強く語ってくれました。<br>
 <br>	
-	一方、数年前にMiniGPを卒業した可穏選手は、現在筑波サーキットでのGP3クラス参戦に向けて日々努力を重ねています。彼女が目指すのは、Women's GPへの出場と、世界を舞台にしたレース活動。「どこでレースしたいか？」という質問に「全部！」と笑顔で即答するほど、世界中のサーキットで走る未来を見据えています。2025年のWomen's GPは、イギリス、スペイン、フランス、オランダなど様々な国でレースが予定されており、可穏選手の挑戦はまさに世界を舞台に広がっていくことでしょう。<br>
+トレーニングにも力を入れており、最近では体力作りの一環として空手にも通い始めたとのこと。電車での移動中に外国人に英語で話しかけられることも多く、その際には英語のレッスンの成果を活かして会話することもあるそうです。「少しずつスペイン語も独学で勉強してます」と、多方面での努力を重ねています。<br>
 <br>	
-	そんな2人が口を揃えて語ってくれたのが、英語の重要性です。海外レースを視野に入れる中で、すでにインタビューやレースブリーフィング、さらには他国のライダーたちとの交流にも英語を使い始めています。隼和選手は、すでに海外で積極的に英語を活用する意志を固めており、可穏選手もこれからますます英語を使う機会が増えていくと感じているそうです。<br>
-<br>	
-	そんな2人が、これから大きな夢を追いかける仲間たちに伝えたいメッセージは——<br>
-	<br>
+一方、お姉さんの可穏選手は数年前にMiniGPを卒業し、現在は筑波ロードレース選手権 J-GP3クラスに参戦中。3月のデビューレースではいきなりナショナルクラスで優勝し、今年はシリーズチャンピオンを狙っています。さらに、規定タイムを突破すれば、全日本ロードレース選手権への出場資格も得られるため、さらなる飛躍を目指しています。<br>
+<br>
+最終的な目標は、<b>FIM女子世界選手権（Women’s GP）</b>に出場し、世界で戦うライダーになること。「将来はどこで走りたいですか？」という質問には、「どこでも！」と笑顔で即答。今年中にも海外でのトレーニングの可能性があり、英語力の向上にも力を入れています。<br>
+<br>
+二人とも、今後のキャリアにおいて英語の重要性を強く感じており、インタビューやレースブリーフィングだけでなく、海外のライダーたちとの交流にも英語を活用しています。隼和選手はすでに日常生活で英語を使う機会が増えており、可穏選手も今後ますます英語が必要になると感じ、しっかり準備を進めています。<br>
+<br>
+そんな二人が夢を追う仲間たちに伝えたいことは、<br>
 	<b>「たくさん練習して、絶対にあきらめないこと。そして、一歩一歩着実に進むこと」。</b><br>
 	<br>
-	情熱と努力、そして明確なビジョンを持つ知識兄妹の存在が、日本のモータースポーツ界に新たな光を灯しています。
+	情熱、努力、そして明確なビジョンを持つ知識兄妹。彼らの存在が、日本のモーターサイクルレーシングの未来を明るく照らしています。
 </p>
+
+
+
+
+
+
+
+<h3 class="page-subtitle">Kids UP Online Course</h3>
+<p class="p_normal-otherpage">
+	Kids UPは、和久さん、可穏さん、隼和さんの3人をオンラインコースを通じてサポートできることを誇りに思っています。世界を舞台に活躍するために必要な英語力を身につけるお手伝いができることは、私たちにとって大きな喜びです。<br>
+	<br>
+	多忙なトレーニングやレースの合間でも、柔軟にレッスンを受けられるKids UPオンラインコースは、3人にとって理想的な学習スタイルです。限られた時間の中でも、自分のペースで継続的に英語力を伸ばすことができるのは、将来の国際舞台を目指す彼らにとって大きな強みとなっています。<br>
+	<br>
+	夢に向かって新たなステージへと踏み出すこのチャレンジングな3人を、Kids UPはこれからも全力で応援し、グローバルな世界を生き抜く力を育んでまいります。<br>
+	<br>	
+	和久さん、可穏さん、隼和さんのさらなる飛躍を心より応援しています。<br>
+	<br>
+	お子さまの英語力を伸ばすKids UPオンラインコースについて詳しく知りたい方は、<a href="https://kids-up.jp/course/online/">[こちらをクリック]</a>してください。
+
+</p>
+
+<img src="./beyond-minigp/images/online-img.png" alt="online team" class="img-fluid online-img">
+
 </div>
-
-
-
-
-
 </div>
-
-
-
 <!-- End point1 -->
 
 
