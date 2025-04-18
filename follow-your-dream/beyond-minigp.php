@@ -59,16 +59,19 @@
 <div class="flex-images">
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/waku-mobile.webp" alt="" class="flex-img">
+		<p class="furigana">くにたて　ワク</p>
 		<h3 >国立　和玖</h3>
 	</div>
 
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/hayato-mobile.webp" alt="" class="flex-img">
+		<p class="furigana">ちしき　ハヤト</p>
 		<h3>知識　隼和</h3>
 	</div>
 
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/kanon-mobile.webp" alt="" class="flex-img">
+		<p class="furigana">ちしき　カノン</p>
 		<h3>知識　可穏</h3>
 	</div>
 </div>

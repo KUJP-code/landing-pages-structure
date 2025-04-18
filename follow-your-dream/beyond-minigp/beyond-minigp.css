@@ -17,8 +17,15 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+.flex-images .furigana {
+  margin-top: 1rem;
+  font-size: 0.75rem;
+  line-height: 1;
+  font-weight: bold;
+  margin-bottom: 0.25rem;
+}
 .flex-images h3 {
-  margin-top: 1.25rem;
+  line-height: 1;
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
@@ -69,6 +76,34 @@
 }
 
 @media only screen and (max-width: 576px) {
+  .flex-images {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .flex-images .flex-inner {
+    flex: 1;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .flex-images .furigana {
+    margin-top: 1rem;
+    font-size: 0.65rem;
+    line-height: 1;
+    font-weight: bold;
+    margin-bottom: 0.25rem;
+  }
+  .flex-images h3 {
+    line-height: 1;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  .flex-images .flex-img {
+    border-radius: 1rem;
+    width: calc(100% - 0.25rem);
+  }
   .rider-portrait-waku {
     background-image: url(./images/waku-mobile.jpg);
     aspect-ratio: 1.75/1;
