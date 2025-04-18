@@ -59,20 +59,20 @@
 <div class="flex-images">
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/waku-mobile.webp" alt="" class="flex-img">
-		<p class="furigana">くにたて　ワク</p>
-		<h3 >国立　和玖</h3>
+
+		<h3>
+			<ruby>国<rt>くに</rt></ruby><ruby>立<rt>たて</rt></ruby>　<ruby>和<rt>わ</rt></ruby><ruby>玖<rt>く</rt></ruby>
+		  </h3>
 	</div>
 
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/hayato-mobile.webp" alt="" class="flex-img">
-		<p class="furigana">ちしき　ハヤト</p>
-		<h3>知識　隼和</h3>
+		<h3><ruby>知<rt>ち</rt></ruby><ruby>識<rt>しき</rt></ruby>　<ruby>隼<rt>はや</rt></ruby><ruby>和<rt>と</rt></ruby></h3>
 	</div>
 
 	<div class="flex-inner">
 		<img src="./beyond-minigp/images/kanon-mobile.webp" alt="" class="flex-img">
-		<p class="furigana">ちしき　カノン</p>
-		<h3>知識　可穏</h3>
+		<h3><ruby>知<rt>ち</rt></ruby><ruby>識<rt>しき</rt></ruby>　<ruby>可<rt>か</rt></ruby><ruby>穏<rt>のん</rt></ruby></h3>
 	</div>
 </div>
 
