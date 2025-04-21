@@ -3,27 +3,28 @@
   <img src="./assets/images/section-1/section-10-header.jpg" alt="mascot-party" class="header-fullwidth" loading="lazy">
 <div class="container">
 
-  <h2>Pearson Young Learners Test 導入開始のお知らせ</h2>
+  <h2>Pearson Young Learners Test 導入のお知らせ</h2>
 
-  <p>この度、新たな外部テスト「Pearson Young Learners Test」を取り入れる運びとなり、保護者の皆様にご案内させていただきます。<br>
-    Pearsonは現在世界70か国に教育サービスを提供しており、AIを使ったシステムを長年にわたって開発しています。国際的に認証されているPearson Young Learners Testでは、4技能の英語スキルを短時間のテストで測ることができます。
-    受験する毎に成長過程も追跡できますので、お子さまがご自身の成長を実感でき、さらに自信を高められることを期待しております</p>
+  <p>この度、外部テスト「Pearson Young Learners Test」導入する運びとなりました。<br>
+  Pearsonは現在世界70か国に教育サービスを提供しており、AIを使ったシステムを長年にわたって開発しています。国際的に認証されているPearson Young Learners Testでは、4技能の英語スキルを短時間のテストで測ることができます。 受験する毎に成長過程も追跡できますので、お子さまがご自身の成長を実感でき、さらに自信を高められることを期待しております。<br>
+  これまで、外部テストはTOEFLPrimaryを採用しておりましたが、テスト結果にエラーが出やすいことに加え、テスト結果が出るまでに約1か月の時間を要する部分に課題がありました。Pearsonのテストではこれらの課題をクリアできるため、TOEFL Primaryから切り替える運びとなりました。
+</p>
 
 
 <div class="section-1-box">
   <h3>Pearson Young Learners Testを導入するメリット</h3>
 
   <p>
-    <span class="section-1-text-header">1. 英語の「全」4技能を総合的に習得</span><br>
-    このテストは、リスニング、スピーキング、リーディング、ライティングの4つの技能を評価し、バランスの取れた英語の基礎力を確実に身につけることができます。<br>
+    <span class="section-1-text-header">1. 英語の「4技能」を総合的に習得</span><br>
+    このテストは、リスニング、スピーキング、リーディング、ライティングの4つの技能を評価し、バランスの取れた英語の基礎力を確実に身につけることができます。（レベル1はライティングがありません。）<br>
     <br>
     <span class="section-1-text-header">2. Kids UPとともにレベルアップ</span><br>
     お子さまはKids UP独自のレベルテストを進めておりますが、より難易度の高いテストに挑戦することができ、ご自身の成長と成果を実感することができます。<br>    
     <br>
-    <span class="section-1-text-header">3. 楽しさと魅力的な形式</span><br>
+    <span class="section-1-text-header">3. 楽しみながら受けられるテスト形式</span><br>
     このテストは、実生活のシナリオ、写真、インタラクティブな課題を活用しており、楽しさを感じながら学び、積極的に取り組むことができます。<br>
     <br>
-    <span class="section-1-text-header">4. 将来の成功に向けて準備</span><br>
+    <span class="section-1-text-header">4. 将来に向けての準備</span><br>
     外部のテスト形式を早期に体験できることで、自信を高め、今後の学業における重要なスキルを身につけることができます。
 
 
@@ -37,20 +38,25 @@
   <h3>テストの詳細について:</h3>
   <p>
   <span class="section-1-text-header">•　評価する技能：</span>スピーキング、リスニング、リーディング、ライティング<br>
+  ※レベル1には、ライティングが含まれません。<br>
   <br>
   <span class="section-1-text-header">•　対象年齢：</span>6～14歳<br>
   <br>
   <span class="section-1-text-header">•　形式：</span>タブレットとヘッドセットを使用、お通いの
   Kids UPスクールで実施<br>
   <br>
-  <span class="section-1-text-header">•　レベル：</span>CEFRの(A1からB1+)までの6つのレベル<br>
+  <span class="section-1-text-header">•　テストレベル：</span>CEFRの(A1からB1+)までの6つの試験レベル<br>
   <br>
   <span class="section-1-text-header">•　出題形式：</span>各レベルにつき5種類用意された問題から
   ランダム出題<br>
   <br>
   <span class="section-1-text-header">•　言語：</span>インターナショナル・イングリッシュ<br>
   <br>
-  <span class="section-1-text-header">•　レポート：</span>保護者向けに詳細なテスト結果を報告（下記の画像参照）<br><br></p>
+  <span class="section-1-text-header">•　レポート：</span>保護者向けに詳細なテスト結果を報告（下記の画像参照）<br>
+  <br>
+  <span class="section-1-text-header">•　英語の種類：</span>インターナショナル・イングリッシュ<br>
+  ※アメリカ英語やイギリス英語への偏りがありません。
+</p>
 
 
 
@@ -137,14 +143,14 @@
 
 <h3>Kids UPで取り組むレベル</h3>
 <p>
-  初回に受験するテストレベルは以下の通りです：<br>
+初回の6月実施のテストレベルは以下の通りです：<br>
   <span class="section-1-text-header">•　GALAXYレベル:</span> Level 3 <br>
 <br>
 
 <span class="section-1-text-header">•　SP Course:</span> Level 5 <br>
 <br>
 
-下記のチャートでは、各レベルの詳細（期間、GSE、CEFRレベル）をご覧いただけます。
+下記のチャートでは、各レベルの詳細（所要時間、GSE、CEFRレベル）をご覧いただけます。
 
 </p>
 
@@ -208,12 +214,12 @@
 <!-------------
 <img src="./assets/images/section-1/section-1-bencmark.webp" alt="benchmark" class="img-fluid benchmark" loading="lazy">-------->
 
-<h3>テストのスケジュールと詳細 </h3>
+<h3>テストのスケジュールと対象者</h3>
 <p>
-  <span class="section-1-text-header">•　日程：</span>2026年6月<br>
+  <span class="section-1-text-header">•　実施日程：</span>2025年6月中<br>
   <br>
   
-  <span class="section-1-text-header">•　受験対象者：</span>GALAXY、Keep UP、および Specialist コースのお子さま（将来的には、SKYレベルのお子さまにもこのテストを実施する予定です。）</p>
+  <span class="section-1-text-header">•　受験対象者：</span>GALAXY、Keep UP、および Specialist コースのお子さま（将来的にSKYレベルにも導入予定）</p>
 
 </div>
 </div>
