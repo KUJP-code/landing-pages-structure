@@ -159,10 +159,7 @@
 
 <div class="contents">
 
-<div class="selected-article article-1-selected">
 
-  <?php include $_SERVER['DOCUMENT_ROOT'] . '/newsletters/2025-vol-8/articles/vol-8-article-1.php'; ?>
- </div>
  
  
  <div class="selected-article article-2-selected">

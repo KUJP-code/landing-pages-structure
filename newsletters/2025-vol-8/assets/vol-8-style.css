@@ -735,10 +735,21 @@ background-position: bottom;
   margin-top: 0rem;
   margin-bottom: 0rem
 }
+
+.section-8 h2{
+  color: white;
+  font-size: 2rem;
+}
+
 .section-8 p{
   color: white;
   padding-bottom: 1rem;
 }
+.section-8 p span {
+font-size: 1.75rem;
+}
+
+
 
 .section-8 a{
   margin-left: 0;
@@ -760,7 +771,7 @@ background-position: bottom;
 }
 
 .section-8 .container{
-  padding-right: 33%;
+  padding-right: 20%;
 }
 
 .mini-gp-img{
@@ -768,21 +779,11 @@ background-position: bottom;
   height: 100%;
   top: 0%;
   transform: translate(-50%, 0%);
-  left: 80%;
+  left: 85%;
   z-index: 0;
 }
 
 @media screen and (max-width: 1200px) {
-  .mini-gp-img{
-    position: absolute;
-    height: 100%;
-    top: 0%;
-    left: 82.55%;
-    z-index: 0;
-  }
-  
-}
-@media screen and (max-width: 768px) {
   .mini-gp-img{
     position: relative;
     height: unset;
@@ -812,6 +813,5 @@ background-position: bottom;
   padding-right: 2rem;
 
 }
-
   
 }
