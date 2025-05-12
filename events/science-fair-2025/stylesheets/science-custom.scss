@@ -163,6 +163,41 @@ p{
         background-color: white ;
         color: $science-purple-dark;
     }
+
+
+}
+@media (max-width: 991px){
+
+.navbar-collapse{
+  background-color: $science-purple-dark;
+
+}
+.navbar{
+
+.nav-link{
+  font-size: 1.25rem;
+  margin-top: .5rem;
+  margin-top: .5rem
+  ;
+}
+
+.nav-btn{
+  font-size: 1.25rem;
+  background-color: $science-pink ;
+  color: white;
+  font-weight: bolder;
+  width: fit-content;
+  display: block;
+  margin: auto;
+  height: fit-content;
+ padding: 1rem !important;
+ padding-left: 4rem !important;
+ padding-right: 4rem !important;
+ border-radius: 4rem;
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+}
 }
 
 
@@ -1055,6 +1090,7 @@ p{
 
 
   }
+
 
 
   .event-info-container{

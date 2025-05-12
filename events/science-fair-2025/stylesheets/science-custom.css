@@ -132,6 +132,34 @@ p {
   color: #331078;
 }
 
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background-color: #331078;
+  }
+  .navbar .nav-link {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .navbar .nav-btn {
+    font-size: 1.25rem;
+    background-color: #df589a;
+    color: white;
+    font-weight: bolder;
+    width: -moz-fit-content;
+    width: fit-content;
+    display: block;
+    margin: auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    padding: 1rem !important;
+    padding-left: 4rem !important;
+    padding-right: 4rem !important;
+    border-radius: 4rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
 .hero-cta-button {
   background-color: #df589a;
   border: 0.5rem solid #553d90;
