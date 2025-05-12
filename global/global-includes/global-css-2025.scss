@@ -1,13 +1,77 @@
-$color-orange:
+
+$kidsup-orange: #EF8200;
+
+
 
 nav{
-background-color: red;
+background-color: $kidsup-orange;
+height: auto;
 
 
 .navbar-brand{
     img{
-        height: 2.5rem;
+        height: 2rem;
     }
 }
 
+
+
+.nav-toggle {
+    position: relative;
+    background: transparent;
+    border: 1px solid transparent;
+    background-color: white;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+
+    
+  }
+
+  .nav-toggle:focus {
+    outline-width: 10;
+     background-color: white;
+  }
+
+  .nav-toggle [class*='bar-'] {
+    display: block;
+    background: $kidsup-orange;
+    position: absolute;
+    transition: .2s ease all;
+    border-radius: .125rem;
+    height: .25rem;
+    width: 66%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(0deg);
+    transform-origin: center;
+  }
+
+  .nav-toggle .bar-top {
+    top: 30%;
+  }
+
+
+  .nav-toggle .bar-bot {
+    top: 70%;
+  }
+
+
+  .opened .bar-top {
+    transform: translate(-50%, -50%) rotate(45deg);
+    top: 50%;
+
+  }
+
+  .opened .bar-mid {
+    opacity: 0;
+  }
+
+  .opened .bar-bot {
+
+    transform: translate(-50%, -50%) rotate(-45deg);
+    top: 50%;
+
+
+  }
 }

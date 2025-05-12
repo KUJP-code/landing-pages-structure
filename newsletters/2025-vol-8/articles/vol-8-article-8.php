@@ -5,7 +5,7 @@
   <div class="inner">
   <h3>FOLLOW YOUR DREAMS</h3>
   <p>
-    <span>“夢を追いかける子どもたち"　を大募集！</span><br>
+    <span>“夢を追いかける子どもたち”　を大募集！</span><br>
 
 「世界中を飛び回るパイロットになりたい！」<br>
 「海外で活躍するプロのサッカー選手になりたい！」<br>

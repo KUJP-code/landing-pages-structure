@@ -1,6 +1,50 @@
 nav {
-  background-color: red;
+  background-color: #EF8200;
+  height: auto;
 }
 nav .navbar-brand img {
+  height: 2rem;
+}
+nav .nav-toggle {
+  position: relative;
+  background: transparent;
+  border: 1px solid transparent;
+  background-color: white;
+  width: 2.5rem;
   height: 2.5rem;
+  border-radius: 50%;
+}
+nav .nav-toggle:focus {
+  outline-width: 10;
+  background-color: white;
+}
+nav .nav-toggle [class*=bar-] {
+  display: block;
+  background: #EF8200;
+  position: absolute;
+  transition: 0.2s ease all;
+  border-radius: 0.125rem;
+  height: 0.25rem;
+  width: 66%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transform-origin: center;
+}
+nav .nav-toggle .bar-top {
+  top: 30%;
+}
+nav .nav-toggle .bar-bot {
+  top: 70%;
+}
+nav .opened .bar-top {
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 50%;
+}
+nav .opened .bar-mid {
+  opacity: 0;
+}
+nav .opened .bar-bot {
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
 }/*# sourceMappingURL=global-css-2025.css.map */
