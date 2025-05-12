@@ -1,0 +1,1436 @@
+html {
+  background-color: #331078;
+}
+
+.blueprint-bg {
+  background-image: url(../assets/images/science-fair-blueprint-bg.png);
+  background-position: top center;
+}
+
+.transition-top {
+  width: 101%;
+  display: block;
+  margin: auto;
+  bottom: 0;
+  z-index: 3;
+}
+
+.transition-bottom {
+  width: 101%;
+  display: block;
+  margin: auto;
+  top: 0;
+  z-index: 3;
+}
+
+h2 {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.75rem;
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+:root {
+  --tokyo-color: #7eaf3a;
+  --kanagawa-color: #dda536;
+  --chiba-color: #dd73a0;
+  --saitama-color: #5696d0;
+  ---text-color: white;
+  --location-shadow: #603a8c;
+  --location-contrast: white;
+  /* SWIPER NAV ARROWS */
+  --swiper-button-bg: #df589a;
+  --swiper-button-arrow: white;
+}
+
+.decoration {
+  position: absolute;
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+}
+
+.button {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: "Shin-Maru-GP-Bold";
+  border-radius: 6rem;
+  border: 0.5rem solid;
+  transition: ease-in-out 0.2s;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  z-index: 1;
+  display: block;
+}
+
+.button:hover {
+  transform: translateY(-0.15rem);
+}
+
+.button:active {
+  transform: translateY(0.5rem);
+}
+
+.button__arrow {
+  width: 1.75rem; /* Adjust as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-left: 1.5rem;
+  fill: currentColor;
+  transition: fill 0.2s ease-in-out;
+  display: inline-block; /* Or block, depending on desired layout */
+  vertical-align: middle; /* Align vertically with text */
+  /* Add these if you want to control the stroke (outline) */
+  stroke: currentColor;
+  stroke-width: 1.5rem; /* Adjust as needed */
+  stroke-linejoin: round; /* Optional: for smoother corners */
+  stroke-linecap: round; /* Optional: for smoother ends */
+  margin-right: 0.1rem;
+  transform: translateY(-0.1rem);
+}
+
+.button:hover .button__arrow {
+  fill: #fff;
+  stroke: #fff; /* If you're using stroke, change it on hover too */
+}
+
+@media (max-width: 575px) {
+  .button {
+    width: 97.5%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+@media (max-width: 341px) {
+  .button {
+    font-size: 1.2rem;
+  }
+}
+.navbar {
+  background-color: #553d90;
+}
+.navbar .nav-link {
+  color: white;
+}
+.navbar .nav-btn {
+  background-color: #331078;
+  color: white;
+  font-weight: bolder;
+}
+.navbar .nav-link:hover {
+  opacity: 0.6;
+}
+.navbar .nav-btn:hover {
+  background-color: white;
+  color: #331078;
+}
+
+.hero-cta-button {
+  background-color: #df589a;
+  border: 0.5rem solid #553d90;
+  box-shadow: 0 0.75rem 0 #553d90;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+.hero-cta-button:hover {
+  color: #553d90;
+  background-color: white;
+  border-color: #df589a;
+  box-shadow: 0 0.8rem 0 #df589a;
+  transform: translateY(-0.15rem);
+}
+
+.hero-cta-button:active {
+  color: #553d90;
+  background-color: white;
+  border-color: #df589a;
+  box-shadow: 0 0.25rem 0 #df589a;
+  transform: translateY(0.5rem);
+}
+
+.hero {
+  margin-top: 1.5rem;
+  position: relative;
+  background-color: #331078;
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-top: 3.5rem;
+  color: white;
+  overflow: hidden;
+  z-index: 0;
+}
+.hero .hero-sinewave {
+  left: 0;
+  top: 15%;
+  width: 35%;
+}
+.hero .hero-formula {
+  left: 30%;
+  top: 12.5%;
+  width: 10%;
+}
+.hero .exponential-1-hero {
+  left: 60%;
+  width: 20%;
+  top: 10%;
+}
+.hero .exponential-2-hero {
+  left: 58%;
+  width: 25%;
+  top: 80%;
+}
+.hero .organic-chemistry-hero {
+  left: 95%;
+  width: 25%;
+  top: 20%;
+}
+.hero .triangle-hero {
+  left: 90%;
+  width: 30%;
+  top: 80%;
+}
+.hero .atom-hero {
+  left: 55%;
+  top: 20%;
+  width: 12.5%;
+}
+.hero .molecule-hero {
+  left: 90%;
+  top: 20%;
+  width: 15%;
+}
+.hero .magnet-hero {
+  left: 55%;
+  top: 80%;
+  width: 15%;
+}
+.hero .microscope-hero {
+  left: 90%;
+  top: 75%;
+  width: 15%;
+}
+.hero .transition-top {
+  position: absolute;
+}
+.hero .earlybirdOffer {
+  display: none;
+}
+.hero .hero-flex {
+  padding: 0;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  z-index: 2;
+}
+.hero .hero-col {
+  height: 100%;
+}
+.hero .hero-splash {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  width: 50%;
+  z-index: 1;
+}
+.hero .hero-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.hero .hero-info h1 {
+  font-family: "Shin-Maru-GP-Ultra";
+  font-size: 2rem;
+  text-align: center;
+  color: #331078;
+  line-height: 1;
+  padding: 0 1rem;
+}
+.hero .hero-info h2,
+.hero .hero-info p {
+  text-shadow: 0px 0px 10px #272958, 0px 0px 10px #272958;
+}
+.hero .hero-info h2 {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.25rem;
+  text-align: center;
+}
+.hero .hero-info p {
+  font-weight: bolder;
+  text-align: center;
+}
+.hero .splash-wrapper {
+  position: relative;
+  aspect-ratio: 821/889;
+  padding-bottom: 2rem;
+}
+.hero .splash-wrapper .plasmaball-splash {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hero .splash-wrapper .event-logo {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+}
+.hero .h1-wrapper {
+  background-image: url(../assets/images/h1-bg.svg);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  margin: 0 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 2.25rem;
+  padding-bottom: 1.75rem;
+}
+.hero .earlybirdOffer {
+  width: 25rem;
+  display: block;
+  margin: 0 auto;
+}
+@media (max-width: 1220px) {
+  .hero .hero-splash {
+    width: 47.5%;
+  }
+  .hero .hero-info {
+    width: 52.5%;
+  }
+}
+@media (max-width: 990px) {
+  .hero .hero-info {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 890px) {
+  .hero .hero-splash {
+    width: 45%;
+  }
+  .hero .hero-info {
+    width: 55%;
+  }
+}
+@media (max-width: 790px) {
+  .hero .hero-splash {
+    width: 40%;
+  }
+  .hero .hero-info {
+    width: 60%;
+  }
+}
+@media (max-width: 650px) {
+  .hero .hero-info h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 575px) {
+  .hero .organic-chemistry-hero {
+    left: 10%;
+    width: 45%;
+    top: 10%;
+  }
+  .hero .triangle-hero {
+    left: 90%;
+    width: 50%;
+    top: 12.5%;
+  }
+  .hero .hero-formula {
+    left: 10%;
+    top: 40%;
+    width: 20%;
+  }
+  .hero .hero-sinewave {
+    left: 80%;
+    top: 60%;
+    width: 60%;
+  }
+  .hero .exponential-2-hero {
+    left: 10%;
+    width: 45%;
+    top: 70%;
+  }
+  .hero .exponential-1-hero {
+    left: 100%;
+    width: 50%;
+    top: 90%;
+  }
+  .hero .atom-hero {
+    left: 10%;
+    top: 15%;
+    width: 40%;
+  }
+  .hero .molecule-hero {
+    left: 95%;
+    top: 60%;
+    width: 40%;
+    z-index: 2;
+  }
+  .hero .microscope-hero {
+    left: 50%;
+    top: 40%;
+    width: 50%;
+  }
+  .hero .magnet-hero {
+    left: 50%;
+    top: 95%;
+    width: 35%;
+  }
+  .hero .h1-wrapper {
+    background-image: url(../assets/images/h1-bg-mobile.svg);
+    z-index: 5;
+  }
+  .hero .hero-flex {
+    display: block;
+    width: 100%;
+    align-items: center;
+    height: auto;
+    gap: 0;
+    z-index: 2;
+  }
+  .hero .hero-col {
+    width: 100%;
+    height: auto;
+  }
+  .hero .hero-info {
+    display: block;
+    width: 100%;
+  }
+  .hero .hero-info h1 {
+    font-size: 1.3rem;
+  }
+  .hero .hero-info h2 {
+    padding-top: 1rem;
+    font-size: 1.2rem;
+  }
+  .hero .hero-info p {
+    font-size: 1rem;
+  }
+  .hero .earlybirdOffer {
+    margin-bottom: 3rem;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+}
+@media (max-width: 403px) {
+  .hero .hero-info h1 {
+    font-size: 1.2rem;
+  }
+  .hero .hero-info h2 {
+    font-size: 1.2rem;
+  }
+  .hero .hero-info p {
+    font-size: 1rem;
+  }
+}
+
+.event-about {
+  background-color: #553d90;
+}
+
+.explainer-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.explainer-flex .explainer-col-info {
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+}
+.explainer-flex .explainer-col-img {
+  width: 40%;
+}
+.explainer-flex .explainer-img {
+  width: 75%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.explainer-button {
+  background-color: #df589a;
+  border: 0.5rem solid #331078;
+  box-shadow: 0 0.75rem #331078;
+  color: #fff;
+  display: block;
+  margin-left: 0;
+  margin-bottom: 0rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: left;
+}
+
+.explainer-button:hover {
+  color: #553d90;
+  background-color: white;
+  border-color: #df589a;
+  box-shadow: 0 0.85rem #df589a;
+  transform: translateY(-0.15rem);
+}
+
+.explainer-button:active {
+  color: #553d90;
+  background-color: white;
+  border-color: #df589a;
+  box-shadow: 0 0.25rem #df589a;
+  transform: translateY(0.5rem);
+}
+
+@media (max-width: 575px) {
+  .explainer-flex {
+    display: block;
+    gap: unset;
+  }
+  .explainer-flex .explainer-col-img, .explainer-flex .explainer-col-info {
+    width: 100%;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .explainer-button {
+    text-align: center;
+    display: block;
+    margin-left: unset;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 97.5%;
+  }
+}
+.three-points-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.three-points {
+  aspect-ratio: 1/1;
+  width: 100%;
+}
+
+.three-points {
+  position: relative;
+  background-size: auto;
+  background-position: center;
+  color: white;
+  background-color: white;
+  margin: 1rem;
+  background-image: url(../assets/images/science-fair-blueprint-bg.png);
+  border-width: 0.5rem;
+  border: solid;
+  border-width: 0.5rem;
+  border-radius: 2rem;
+}
+
+.three-points-inner {
+  position: absolute;
+  transform: scale(0.9);
+  display: flex;
+  justify-content: center;
+  filter: drop-shadow(0px 0.75rem 10px #553d90);
+}
+
+.merit-icon {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  fill: #998cbb;
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.three-points-wrapper {
+  padding: 1rem;
+  padding-top: 0.5rem;
+}
+.three-points-wrapper h3 {
+  padding-top: 0.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.three-points-wrapper p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bold;
+}
+.three-points-wrapper p .p-sub {
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1399px) {
+  .three-points {
+    aspect-ratio: 1/1.1;
+  }
+}
+@media (max-width: 991px) {
+  .three-points {
+    aspect-ratio: 1/1.5;
+  }
+  .three-points .three-points-wrapper {
+    padding: 0.75rem;
+    padding-top: 0.375rem;
+  }
+}
+@media (max-width: 767px) {
+  .three-points {
+    aspect-ratio: 1/1.75;
+  }
+  .three-points .three-points-wrapper {
+    padding: 0.5rem;
+    padding-top: 0.25rem;
+  }
+}
+@media (max-width: 575px) {
+  .three-points-swiper {
+    margin-bottom: 2rem;
+  }
+  .three-points-swiper .three-points {
+    aspect-ratio: 1/1;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 469px) {
+  .three-points-swiper .three-points {
+    aspect-ratio: 1/1.1;
+    margin: 0 !important;
+  }
+}
+@media (max-width: 424px) {
+  .three-points-swiper .three-points {
+    aspect-ratio: 1/1.4;
+  }
+  .three-points-swiper .three-points h3 {
+    font-size: 1.15rem;
+  }
+}
+@media (max-width: 370px) {
+  .three-points-swiper .three-points {
+    aspect-ratio: 1/1.5;
+  }
+}
+@media (max-width: 350px) {
+  .three-points-swiper .three-points {
+    aspect-ratio: 1/1.6;
+  }
+}
+/* GALLERY */
+.gallery {
+  background-color: #553d90;
+}
+
+#gallery {
+  padding-top: 2rem;
+}
+
+.decoration-gallery-top {
+  width: 100%;
+  transform: translate(0, -10px);
+  padding-bottom: 0rem;
+}
+
+.carousel-div {
+  background-color: none;
+  padding-bottom: 2rem;
+}
+
+.swiper-img {
+  display: block;
+  width: 96%;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.swiper-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0.4) 0%, rgba(255, 0, 0, 0) 70%);
+  filter: blur(20px); /* Adjust the blur to control the spread of the light */
+  transition: opacity 0.3s ease;
+}
+
+.swiper-custom-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+  display: flex;
+  padding: 25%;
+  justify-content: space-between;
+}
+
+.swiper-custom-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 3.5rem;
+}
+
+.swiper-custom-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.swiper-activities-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 100%;
+}
+
+.swiper-activities-nav-arrow {
+  cursor: pointer;
+  opacity: 1;
+  transition: all 0.3 ease-in-out;
+  width: 4rem;
+}
+
+.swiper-activities-nav-arrow:hover {
+  cursor: pointer;
+  opacity: 0.6;
+  transition: all 0.3 ease-in-out;
+}
+
+.transition-gallery-signup {
+  width: 102%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -2px;
+}
+
+@media (max-width: 576px) {
+  .swiper-img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  .swiper-custom-nav {
+    padding: 0.25%;
+  }
+  .swiper-custom-nav-arrow {
+    width: 4rem;
+  }
+}
+/* Event Details */
+.event-details {
+  position: relative;
+}
+.event-details .details-sinewave {
+  z-index: 0;
+  left: 0;
+  top: 10%;
+  width: 50%;
+}
+.event-details .details-formula {
+  left: 95%;
+  top: 20%;
+  width: 15%;
+}
+.event-details .exponential-1-details {
+  left: 10%;
+  width: 35%;
+  top: 30%;
+}
+.event-details .exponential-2-details {
+  left: 90%;
+  width: 25%;
+  top: 40%;
+}
+.event-details .organic-chemistry-details {
+  left: 10%;
+  width: 35%;
+  top: 50%;
+}
+.event-details .triangle-details {
+  left: 90%;
+  width: 35%;
+  top: 65%;
+}
+.event-details .molecule-details {
+  left: 90%;
+  top: 10%;
+  width: 17.5%;
+}
+.event-details .atom-details {
+  left: 10%;
+  top: 25%;
+  width: 17.5%;
+}
+.event-details .magnet-details {
+  left: 90%;
+  top: 35%;
+  width: 17.5%;
+}
+.event-details .microscope-details {
+  left: 10%;
+  top: 65%;
+  width: 17.5%;
+}
+
+.event-info-container {
+  position: relative;
+  z-index: 1 !important;
+}
+
+.event-h2-wrapper {
+  background-image: url(../assets/images/event-h2-wrapper-bg.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.event-h2-wrapper .event-h2 {
+  font-size: 2rem;
+  text-align: center;
+  color: white;
+  padding: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.activity {
+  aspect-ratio: 3/1;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.activity-details {
+  position: relative;
+  width: 66.6666666667%;
+  height: 100%;
+}
+
+.activity-details-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+.activity-details-inner p {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  padding-left: 10%;
+}
+
+.details-inner-1 p {
+  padding-left: 10%;
+}
+
+.details-inner-2 p {
+  padding-right: 10%;
+}
+
+.activity-title-wrapper {
+  width: 75%;
+  aspect-ratio: 7/1;
+  background-image: url(../assets/images/activity-title-box.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: absolute;
+  transform-origin: top center;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.activity-title-wrapper h3 {
+  padding-top: 0.5rem;
+  color: #553d90;
+  font-family: "Shin-Maru-GP-Bold";
+}
+
+.activity-image {
+  width: 33.3333333333%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+.activity-image .image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.activity-1 {
+  background-image: url(../assets/images/activity-bg-1.svg);
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.activity-2 {
+  background-image: url(../assets/images/activity-bg-2.svg);
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.activity-3 {
+  margin-top: 4rem;
+}
+.activity-3 .img-wrapper, .activity-3 .activity-3-details {
+  position: relative;
+  aspect-ratio: 3/1;
+}
+.activity-3 .activity-3-img {
+  position: absolute;
+  width: 33.3333333333%;
+  transform-origin: center center;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.activity-3 .image-left {
+  left: 20%;
+  top: 75%;
+}
+.activity-3 .image-middle {
+  left: 50%;
+  top: calc(50% - 2rem);
+}
+.activity-3 .image-right {
+  left: 80%;
+  top: 65%;
+}
+.activity-3 .activity-3-details {
+  background-image: url(../assets/images/activity-bg-3.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.activity-3 .activity-3-details .activity-title-wrapper {
+  width: 52%;
+  z-index: 3;
+}
+.activity-3 .activity-3-details .details-inner-3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.activity-3 .activity-3-details .details-inner-3 p {
+  color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: bolder;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.event-details-extra {
+  border-radius: 2.5rem;
+  background-color: #553d90;
+  margin-top: 4rem;
+  padding: 2rem;
+  border: 0.5rem solid white;
+  display: block;
+}
+.event-details-extra .top {
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+.event-details-extra .top .image-left {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.event-details-extra .top .image-left .bubble {
+  width: 90%;
+}
+.event-details-extra .top .image-right {
+  width: 40%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.event-details-extra .top .image-right .jot {
+  width: 90%;
+}
+.event-details-extra .bottom {
+  position: relative;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center top;
+  gap: 3rem;
+}
+.event-details-extra .bottom .content {
+  width: 45%;
+  padding-left: 2rem;
+}
+.event-details-extra .divider-horizontal {
+  border-style: solid;
+  border-width: 0.25rem;
+  border-color: white;
+  border-radius: 0.25rem;
+  height: 0.25rem;
+  margin-bottom: 2rem;
+}
+.event-details-extra .divider-vertical {
+  position: absolute;
+  border-style: solid;
+  border-width: 0.25rem;
+  border-color: white;
+  border-radius: 0.25rem;
+  height: 0.25rem;
+  height: 100%;
+  width: 0;
+  margin: 0 !important;
+  padding: 0% !important;
+  left: 50%;
+  transform: translate(-100%);
+}
+.event-details-extra h3 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+
+@media (max-width: 991px) {
+  .activity {
+    aspect-ratio: 3/1.25;
+  }
+  .activity-details {
+    width: 65%;
+  }
+  .activity-title-wrapper {
+    width: 75%;
+  }
+  .details-inner-1 p {
+    padding-left: 2.25rem;
+  }
+  .details-inner-2 p {
+    padding-right: 2.25rem;
+  }
+  .activity-image {
+    width: 40%;
+    padding: 0.25rem;
+  }
+  .activity-3 .activity-3-details {
+    aspect-ratio: 3/1.25;
+  }
+  .activity-3 .activity-3-details .activity-title-wrapper {
+    width: 59.8%;
+  }
+}
+@media (max-width: 767px) {
+  .activity {
+    aspect-ratio: 3/1.4;
+  }
+  .activity-details {
+    width: 75%;
+  }
+  .activity-title-wrapper {
+    width: 70%;
+  }
+  .details-inner-1 p {
+    padding-left: 2.25rem;
+  }
+  .details-inner-2 p {
+    padding-right: 2.25rem;
+  }
+  .activity-image {
+    width: 35%;
+    padding: 0rem;
+  }
+  .activity-3 .activity-3-img {
+    width: 40%;
+  }
+  .activity-3 .image-middle {
+    z-index: 3;
+  }
+  .activity-3 .activity-3-details {
+    aspect-ratio: 3/1.4;
+  }
+  .activity-3 .activity-3-details .activity-title-wrapper {
+    width: 65%;
+  }
+}
+@media (max-width: 575px) {
+  .event-details .details-sinewave {
+    z-index: 0;
+    left: 0;
+    top: 5%;
+    width: 100%;
+    filter: blur(3px);
+  }
+  .event-details .details-formula {
+    left: 95%;
+    top: 15%;
+    width: 50%;
+    filter: blur(3px);
+  }
+  .event-details .exponential-1-details {
+    left: 10%;
+    width: 100%;
+    top: 30%;
+    filter: blur(3px);
+  }
+  .event-details .exponential-2-details {
+    left: 90%;
+    width: 100%;
+    top: 40%;
+    filter: blur(3px);
+  }
+  .event-details .organic-chemistry-details {
+    left: 10%;
+    width: 100%;
+    top: 50%;
+    filter: blur(3px);
+  }
+  .event-details .triangle-details {
+    left: 90%;
+    width: 100%;
+    top: 65%;
+    filter: blur(3px);
+  }
+  .event-details .molecule-details {
+    left: 90%;
+    top: 5%;
+    width: 40%;
+    filter: blur(3px);
+  }
+  .event-details .magnet-details {
+    left: 10%;
+    top: 35%;
+    width: 40%;
+    filter: blur(3px);
+  }
+  .event-details .atom-details {
+    left: 90%;
+    top: 47.5%;
+    width: 40%;
+    filter: blur(3px);
+  }
+  .event-details .microscope-details {
+    left: 10%;
+    top: 60%;
+    width: 40%;
+    filter: blur(3px);
+  }
+  .event-details h3 {
+    font-size: 1.15rem !important;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    text-align: center;
+  }
+  .event-details p {
+    font-size: 1rem !important;
+  }
+  .event-details .mobile-activity-wrapper {
+    background-color: #df589a;
+    margin-left: none;
+    position: relative;
+    margin-bottom: 6rem;
+  }
+  .event-details .mobile-activity-wrapper .mobile-activity-wrapper-decoration-top, .event-details .mobile-activity-wrapper .mobile-activity-wrapper-decoration-bottom {
+    position: absolute;
+    width: 110%;
+    transform-origin: top center;
+    left: 50%;
+  }
+  .event-details .mobile-activity-wrapper .mobile-activity-wrapper-decoration-top {
+    transform-origin: top center;
+    transform: translate(-50%, -99.1%);
+  }
+  .event-details .mobile-activity-wrapper .mobile-activity-wrapper-decoration-bottom {
+    transform-origin: top center;
+    transform: translate(-50%, -0.1%);
+  }
+  .event-h2-wrapper {
+    background-image: url(../assets/images/event-h2-wrapper-bg-mobile.svg);
+    width: 100%;
+    padding: 0;
+  }
+  .event-h2-wrapper .event-h2 {
+    font-size: 1.2rem;
+    text-align: center;
+    color: white;
+    padding: 1rem;
+  }
+  .activity-1, .activity-2 {
+    background-image: unset;
+  }
+  .activity {
+    aspect-ratio: unset;
+    display: block;
+    margin-top: 0rem;
+  }
+  .activity-details {
+    width: 100%;
+  }
+  .activity-title-wrapper {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .details-inner-1 p {
+    padding: unset;
+    text-align: center;
+  }
+  .details-inner-2 p {
+    padding: unset;
+    text-align: center;
+  }
+  .activity-image {
+    display: flex;
+    width: 100%;
+    padding: 0rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    z-index: 3;
+  }
+  .activity-image .image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .activity-3-mobile-img-wrapper {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2/1;
+    margin-bottom: -4rem;
+    margin-top: 3rem;
+  }
+  .activity-3-mobile-img-wrapper .activity-3-img {
+    width: 45%;
+    position: absolute;
+    z-index: 2;
+    transform-origin: center center;
+    transform: translate(-50%, -50%);
+  }
+  .activity-3-mobile-img-wrapper .img-1 {
+    left: 21%;
+    top: 60%;
+  }
+  .activity-3-mobile-img-wrapper .img-2 {
+    left: 50%;
+    top: 35%;
+    z-index: 3;
+  }
+  .activity-3-mobile-img-wrapper .img-3 {
+    left: 79%;
+    top: 60%;
+  }
+  .activity-3 .activity-3-img {
+    width: 33.3333333333;
+  }
+  .activity-3 .image-middle {
+    z-index: 3;
+  }
+  .activity-3 .activity-3-details {
+    aspect-ratio: unset;
+    background-image: unset;
+  }
+  .activity-3 .activity-3-details .activity-title-wrapper {
+    width: 100%;
+    position: relative;
+    margin-bottom: 1rem;
+    background-size: auto;
+    background-image: url(../assets/images/activity-title-box-3.svg);
+  }
+  .event-details-extra {
+    border-radius: 2.5rem;
+    background-color: #553d90;
+    margin-top: 4rem;
+    padding: 1rem;
+    border: 0.5rem solid white;
+    display: block;
+  }
+  .event-details-extra .divider-horizontal {
+    margin-top: 0.5;
+    margin-bottom: 0.5rem;
+  }
+  .event-details-extra h3 {
+    text-align: left;
+  }
+  .event-details-extra .bottom {
+    position: relative;
+    height: -moz-fit-content;
+    height: fit-content;
+    display: block;
+    align-items: unset;
+    gap: unset;
+  }
+  .event-details-extra .bottom .content {
+    width: 100%;
+    padding-left: unset;
+  }
+}
+/* Sign UP Steps */
+.sign-up {
+  margin-top: -0.5rem;
+}
+.sign-up h2 {
+  padding-bottom: 2rem;
+}
+.sign-up h3 {
+  font-family: "Shin-Maru-GP-Bold";
+  padding-top: 1rem;
+  font-size: 1.25rem;
+  color: white;
+  padding-bottom: 0rem;
+}
+.sign-up p {
+  padding-top: 0rem;
+}
+
+.sign-up-bg {
+  fill: #fff;
+}
+
+.sign-up-stroke {
+  fill: #313133;
+}
+
+.sign-up-main-colour {
+  fill: #df589a;
+}
+
+.sign-up-instruction-header {
+  font-size: 1.15rem;
+  font-weight: bold;
+}
+
+.sign-up-button {
+  position: relative;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 1rem auto;
+  background-color: #df589a;
+  font-family: "Shin-Maru-GP-Bold";
+  border-radius: 6rem;
+  border: 0.5rem solid #553d90;
+  transition: ease-in-out 0.2s;
+  box-shadow: 0 0.75rem #553d90;
+  color: #fff;
+  font-size: 1.25rem;
+  padding: 0.75rem 2.5rem;
+  display: flex; /* Change to flexbox */
+  align-items: center;
+  justify-content: space-between; /* Distribute space between text and SVG */
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  width: 95%;
+}
+
+.sign-up-button:hover {
+  color: #553d90;
+  background-color: white;
+  border-color: #df589a;
+  box-shadow: 0 0.95rem #df589a;
+  transform: translateY(-0.15rem);
+}
+
+.sign-up-button:active {
+  color: #553d90;
+  background-color: white;
+  border-color: #df589a;
+  box-shadow: 0 0.4rem #df589a;
+  transform: translateY(0.5rem);
+}
+
+.sign-up-button__arrow {
+  width: 1.5rem;
+  height: auto;
+  fill: currentColor;
+  transition: fill 0.2s ease-in-out;
+  vertical-align: middle;
+  stroke: currentColor;
+  stroke-width: 1.5rem;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  transform: translateY(-0.1rem);
+}
+
+@media (max-width: 576px) {
+  .sign-up-button {
+    width: 100%;
+    text-align: left;
+    padding: 0.75rem 1.5rem;
+  }
+  .sign-up-button__arrow {
+    width: 1.5rem;
+    height: auto;
+    fill: currentColor;
+    transition: fill 0.2s ease-in-out;
+    vertical-align: middle;
+    stroke: currentColor;
+    stroke-width: 1.5rem;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    transform: translateY(0rem);
+  }
+}
+.pre-footer {
+  background-color: #d6d6b7;
+}
+
+.pre-footer-h2,
+.pre-footer-p {
+  color: #303135;
+}
+
+/* Pre Footer */
+.pre-footer {
+  background-color: #553d90;
+}
+.pre-footer h2 {
+  color: white;
+}
+.pre-footer p {
+  color: white;
+}/*# sourceMappingURL=science-custom.css.map */

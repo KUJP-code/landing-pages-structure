@@ -136,45 +136,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
-  /*
-COUNTDOWN TIMER
-*/
-const daysEl = document.getElementById("days");
-const hoursEl = document.getElementById("hours");
-const minutesEl = document.getElementById("minutes");
-const secondsEl = document.getElementById("seconds");
-
-const endDate = "2025-05-24T10:00:00"; // Set your end date and time
-let countdownInterval; // Store the interval ID
-
-function countdown() {
-  const endDateParsed = new Date(endDate);
-  const now = new Date();
-  let totalSeconds = (endDateParsed - now) / 1000;
-
-  // Check if the countdown is over
-  if (totalSeconds < 0) {
-    clearInterval(countdownInterval); // Stop the interval
-    totalSeconds = 0; // Set all values to 0
-  }
-
-  const days = Math.floor(totalSeconds / 3600 / 24);
-  const hours = Math.floor(totalSeconds / 3600) % 24;
-  const minutes = Math.floor(totalSeconds / 60) % 60;
-  const seconds = Math.floor(totalSeconds) % 60;
-
-  daysEl.innerHTML = formatTime(days);
-  hoursEl.innerHTML = formatTime(hours);
-  minutesEl.innerHTML = formatTime(minutes);
-  secondsEl.innerHTML = formatTime(seconds);
-}
-
-function formatTime(time) {
-  return time < 10 ? `0${time}` : time;
-}
-
-// Initial call
-countdown();
-
-// Set the interval and store its ID
-countdownInterval = setInterval(countdown, 1000);
+  const swiper = new Swiper('.three-points-swiper', {
+    slidesPerView: 1.2,
+    spaceBetween: 16,
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  });

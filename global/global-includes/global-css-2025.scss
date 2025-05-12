@@ -1,3 +1,47 @@
+@font-face {
+  font-family: "Shin-Maru-GP-Regular";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Bold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-DeBold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Ultra";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
+}
+
+
+body {
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  font-size: 16px; /* Base font size */
+}
+
+
+/* Max Container Width at Mobile */
+@media (max-width: 576.98px) {
+  .container {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+
+
 
 $kidsup-orange: #EF8200;
 
@@ -5,15 +49,50 @@ $kidsup-orange: #EF8200;
 
 nav{
 background-color: $kidsup-orange;
-height: auto;
+height: 4rem;
+font-family: "Noto Sans JP";
+
+.nav-link{
+  color: white !important;
+  font-weight: 600;
+  transition: ease-in-out;
+  transition-duration: .2s;
+  margin-left: .5rem;
+  margin-right: .5rem;
+  font-size: 1rem;
+}
+
+.nav-button{
+background-color: white;
+padding-left: 1rem;
+padding-right: 1rem;
+font-weight: bolder;
+
+
+}
+
+.nav-button-text{
+color: #EF8200 !important;
+padding-left: 1.5rem !important;
+padding-right: 1.5rem !important;
+margin-left: .25rem !important;
+border-radius: 2rem !important;
+}
 
 
 .navbar-brand{
+  transition-duration: .2s;
     img{
-        height: 2rem;
+        height: 2.5rem;
+        
     }
 }
 
+.navbar-brand:hover{
+  opacity: .6;
+  transition: ease-in-out;
+  transition-duration: .2s;
+}
 
 
 .nav-toggle {
