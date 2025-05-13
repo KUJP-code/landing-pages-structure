@@ -1103,9 +1103,11 @@ p {
     width: 70%;
   }
   .details-inner-1 p {
+    font-size: 1.1rem;
     padding-left: 2.25rem;
   }
   .details-inner-2 p {
+    font-size: 1.1rem;
     padding-right: 2.25rem;
   }
   .activity-image {
@@ -1123,6 +1125,9 @@ p {
   }
   .activity-3 .activity-3-details .activity-title-wrapper {
     width: 65%;
+  }
+  .activity-3 .activity-3-details .details-inner-3 p {
+    font-size: 1.1rem;
   }
 }
 @media (max-width: 575px) {

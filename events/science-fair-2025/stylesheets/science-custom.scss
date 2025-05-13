@@ -1434,12 +1434,14 @@ p{
 
 .details-inner-1{
     p{
+        font-size: 1.1rem;
         padding-left: 2.25rem;
     }
 }
 
 .details-inner-2{
     p{
+      font-size: 1.1rem;
         padding-right: 2.25rem;
     }
 }
@@ -1464,8 +1466,15 @@ p{
         .activity-3-details{
             aspect-ratio: 3 / 1.4;
 
+         
             .activity-title-wrapper{
                 width: 65%;
+            }
+
+            .details-inner-3{
+              p{
+                font-size: 1.1rem;
+              }
             }
         }
     }
