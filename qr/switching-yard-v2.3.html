@@ -8,7 +8,7 @@
 <body>
  <script>
 
-// WELCOME TO SWITCHING YARD v2.4
+// WELCOME TO SWITCHING YARD v2.3
 
 // THIS TOOL HAS BEEN CREATED TO SIMPLIFY QR CODE CREATION, REDIRECTION AND METRIC TRACKING.
 // PLEASE CONTACT MIKE FARADAY IF YOU WISH TO ADD A QR CODE AND TRACK AN AD CAMPAIGN
@@ -142,13 +142,7 @@ function handleRedirect() {
 
     // Retrieve school and medium from lookup tables, default to "unknown" if not found
     const school = schoolCodes[schoolKey] || "unknown";
-    let medium = mediumCodes[mediumKey] || "unknown";
-
-    // Append _app_direct if it's a direct app forwarding campaign
-    const directAppCampaigns = ["sa1", "sa2", "ea1", "ea2"];
-    if (directAppCampaigns.includes(campaignKey)) {
-        medium += "_app_direct";
-    }
+    const medium = mediumCodes[mediumKey] || "unknown";
 
     // Check if the campaign URL is absolute (starts with "http")
     const isAbsoluteUrl = campaignData.url.startsWith("http");
