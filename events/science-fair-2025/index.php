@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="./stylesheets/science-custom.css">
 
 
+
 <title>Kids UP サイエンスフェア 2025!</title>
 </head>
 
@@ -97,36 +98,43 @@
 <!-- Earlybird Cutoff Script -->
 
 
+<script src="https://cdn.jsdelivr.net/npm/luxon@3/build/global/luxon.min.js"></script>
 <script>
-    function displayElementsBeforeDate(elementClass, cutoffDateString, replacementId) {
-      const cutoffDate = new Date(cutoffDateString);
-      const currentDate = new Date();
-      const replacementElement = document.getElementById(replacementId);
-      const elements = document.querySelectorAll('.' + elementClass);
+  const { DateTime } = luxon;
 
-      if (currentDate < cutoffDate) {
-        elements.forEach(element => {
-          element.style.display = 'block';
-        });
-        if (replacementElement) {
-          replacementElement.style.display = 'none';
-        }
-      } else {
-        elements.forEach(element => {
-          element.style.display = 'none';
-        });
-        if (replacementElement) {
-          replacementElement.style.display = 'block';
-        }
+  function displayElementsBeforeDateTokyo(elementClass, cutoffDateString, replacementId) {
+    // Interpret cutoff as Tokyo time
+    const cutoffDateTokyo = DateTime.fromISO(cutoffDateString, { zone: 'Asia/Tokyo' });
+    // Get current time in Tokyo
+    const nowTokyo = DateTime.now().setZone('Asia/Tokyo');
+
+    const elements = document.querySelectorAll('.' + elementClass);
+    const replacementElement = document.getElementById(replacementId);
+
+    if (nowTokyo < cutoffDateTokyo) {
+      elements.forEach(element => {
+        element.style.display = 'block';
+      });
+      if (replacementElement) {
+        replacementElement.style.display = 'none';
+      }
+    } else {
+      elements.forEach(element => {
+        element.style.display = 'none';
+      });
+      if (replacementElement) {
+        replacementElement.style.display = 'block';
       }
     }
+  }
 
-    const elementClassToDisplay = 'earlybirdOffer'; 
-    const cutoffDate = '2025-05-12T23:59:59';
-    const replacementElementId = 'earlybirdExpired';
+  const elementClassToDisplay = 'earlybirdOffer';
+  const cutoffDate = '2025-06-23T23:59:59'; // interpreted as Tokyo time
+  const replacementElementId = 'earlybirdExpired';
 
-    displayElementsBeforeDate(elementClassToDisplay, cutoffDate, replacementElementId);
-  </script>
+  displayElementsBeforeDateTokyo(elementClassToDisplay, cutoffDate, replacementElementId);
+</script>
+
 
 
 <!-- Event Intro ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
