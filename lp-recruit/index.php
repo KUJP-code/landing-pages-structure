@@ -197,7 +197,8 @@
 
     <p class="company-info-text">
       2022年度　100％<br />
-      2023年度　100％
+      2023年度　67％<br />
+      2024年度　100％
     </p>
 
     <div class="padding-band-3rem"></div>
