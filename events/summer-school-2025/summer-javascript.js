@@ -43,10 +43,10 @@ var swiper = new Swiper(".swiper-container", {
   lazy: true, // Enable lazy loading
 
   // Navigation buttons
-  navigation: {
-    nextEl: ".swiper-button-activity-next",
-    prevEl: ".swiper-button-activity-prev",
-  },
+navigation: {
+  nextEl: "#activity-slider-right-arrow", // ID of right arrow
+  prevEl: "#activity-slider-left-arrow",  // ID of left arrow
+},
 
   // Responsive breakpoints
   breakpoints: {

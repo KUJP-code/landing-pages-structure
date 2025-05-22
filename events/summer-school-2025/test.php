@@ -107,6 +107,8 @@
 
        <div class="container about-wrapper">
 
+                <img src="./includes/summer-school-images/about-event/event-about-swimming-1-mobile.svg" alt="swimming" class="d-block d-sm-none img">
+
     <div class="about-text-box">
         <h2>今年の夏、Kids UPでプチ留学体験！</h2>
         <p>
@@ -135,7 +137,6 @@
 
         <div class="about-img-box">
         <img src="./includes/summer-school-images/about-event/event-about-swimming-1-desktop.svg" alt="swimming" class="d-none d-sm-block img">
-        <img src="./includes/summer-school-images/about-event/event-about-swimming-1-mobile.svg" alt="swimming" class="d-block d-sm-none img">
         </div>
 
 
@@ -150,7 +151,7 @@
       <?php include '../global-includes/school-lists/2025/school-list-module.php' ?>
 
 <img src="./includes/summer-school-images/about-event/event-about-swimming-2-desktop.svg" alt="snorkel" class="d-none d-sm-block img">
-<img src="./includes/summer-school-images/about-event/event-about-swimming-2-mobile.svg" alt="snorkel" class="d-block d-sm-none img">
+<img src="./includes/summer-school-images/about-event/event-about-swimming-2-mobile.svg" alt="snorkel" class="d-block d-sm-none img-mob">
 </div>
     </section>
     <!----------------------------------------------------------------THREE MERITS--------------------------------------------------------->
@@ -1066,12 +1067,33 @@
  
             </div>
 
+        </div>
+
             <!-- Navigation arrows ---->
 
-
-
-
-        </div>
+            <div id="activity-slider-left-arrow">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="swiper-button-activity-prev">
+                <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
+                <g class="cls-4">
+                  <g id="Group_134" data-name="Group 134">
+                    <path id="Path_151" data-name="Path 151" class="swiper-button-arrow-yellow" d="M29.82,39.85l-9.88-9.31,9.88-9.31c.88-.8,2.24-.74,3.04.14.78.86.74,2.18-.09,2.99l-4.27,4.02h11.01c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-11.01l4.27,4.03c.85.83.87,2.19.04,3.04-.81.83-2.13.87-2.99.09"/>
+                  </g>
+                </g>
+              </svg>
+            </div>
+    
+            <div id="activity-slider-right-arrow">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="swiper-button-activity-next">
+                <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
+                <g class="cls-4">
+                  <g id="Group_134" data-name="Group 134">
+                    <path id="Path_151" data-name="Path 151" class="swiper-button-arrow-yellow" d="M31.78,21.22l9.88,9.31-9.88,9.31c-.88.8-2.24.74-3.04-.14-.78-.86-.74-2.18.09-2.99l4.27-4.02h-11.01c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15h11.01l-4.27-4.03c-.85-.83-.87-2.19-.04-3.04.81-.83,2.13-.87,2.99-.09"/>
+                  </g>
+                </g>
+              </svg>
+            </div>
 
         
 </div>
@@ -1160,15 +1182,14 @@
           >
            
               <img
-                src="./spring-school-images/spring-school-calendar.jpg"
+                src="./includes/summer-school-images/event-info/summer-calendar.jpg"
                 alt="Calendar"
                 class="img-fluid calendar-img"
-                style="width: 100%"
               />
 
               <div class="form-download-wrapper">
                 
-                <a href="./spring-school-2025-calendar.pdf"  target="_blank"
+                <a href="./includes/summer-school-images/event-info/summer-school-calendar.pdf"  target="_blank"
                   >
                     カレンダーをダウンロード
                 </a>
@@ -1259,9 +1280,9 @@
                 style="width: 100%"
               />
               <img
-                src="./spring-school-images/activity-calendar.jpg"
+                src="./includes/summer-school-images/event-info/summer-details.jpg"
                 alt="Calendar"
-                class="img-fluid calendar-img"
+                class="img-fluid event-details"
                 style="width: 100%"
               />
               <div class="form-download-wrapper">
@@ -1270,7 +1291,7 @@
                     ご案内をダウンロード
          
 
-                  <a href="./spring-school-2025-activity-calendar.pdf"  target="_blank">
+                  <a href="./includes/summer-school-images/event-info/activity-details.pdf"  target="_blank">
                  
                     アクティビティ情報をダウンロード
 
@@ -1323,63 +1344,63 @@
         <!-- SLIDE 1 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-1.webp" alt="img-1" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-1.webp" alt="img-1" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 2 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-2.webp" alt="img-2" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-2.webp" alt="img-2" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 3 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-3.webp" alt="img-3" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-3.webp" alt="img-3" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 4 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-4.webp" alt="img-4" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-4.webp" alt="img-4" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 5 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-5.webp" alt="img-5" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-5.webp" alt="img-5" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 6 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-6.webp" alt="img-6" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-6.webp" alt="img-6" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 7 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-7.webp" alt="img-7" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-7.webp" alt="img-7" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 8 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-8.webp" alt="img-8" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-8.webp" alt="img-8" class="swiper-img" />
           </figure>
         </div>
 
         <!-- SLIDE 9 -->
         <div class="swiper-slide">
           <figure>
-            <img src="./spring-school-images/gallery/gallery-9.webp" alt="img-9" class="swiper-img" />
+            <img src="./includes/summer-school-images/gallery/gallery-9.webp" alt="img-9" class="swiper-img" />
           </figure>
         </div>
       </div>

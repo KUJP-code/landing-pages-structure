@@ -64,7 +64,9 @@ html{
     background-color: $summer-beige;
 }
 
-
+.swiper-button-arrow-yellow{
+  fill: $summer-yellow;
+}
 
   /* NAVBAR */
 .navbar {
@@ -442,7 +444,7 @@ html{
   .schools-list-container{
     position: relative;
 
-    .img{
+    .img-mob{
         transform-origin:  unset;
         left: unset;
         top: unset;
@@ -1197,6 +1199,9 @@ html{
 
 .swiper-button-wrapper{
   position: relative;
+  height: fit-content;
+
+
 }
 
 .swiper-container {
@@ -1214,27 +1219,7 @@ html{
 }
 
 
-.activity-slider-left-arrow {
-    width: 4rem;
-    position: absolute;
-    transform: translate(calc(-50% + 2.5rem), -50%);
-    left: .5rem;
-    z-index: 6;
-    left: 0%;
-    top: 50%;
-    overflow: none;
-}
 
-.activity-slider-right-arrow {
-    width: 4rem;
-    position: absolute;
-    transform: translate(calc(-50% - 2.5rem), -50%);
-    right: .5rem;
-    z-index: 1;
-   left: 100%;
-    top: 50%;
-    overflow: none;
-}
 
 .activity-slide {
   position: relative;
@@ -1470,9 +1455,7 @@ h2 {
 
 
 }
-.activities-swiper-button-arrow{
-  fill: $summer-yellow;
-}
+
   }
 
 
@@ -1757,6 +1740,10 @@ p{
   }
  }
 
+ .event-details{
+  margin-top: 2rem;
+  border-radius: 1rem;
+ }
 
 }
 
@@ -1844,7 +1831,7 @@ border-radius: 1.5rem;
 }
 
 .swiper-button-gallery-prev {
-    width: 4rem;
+    width: 3rem;
     position: absolute;
     transform: translate(calc(-50% + 2.5rem), -50%);
     left: .5rem;
@@ -1855,7 +1842,7 @@ border-radius: 1.5rem;
 }
 
 .swiper-button-gallery-next {
-    width: 4rem;
+    width: 3rem;
     position: absolute;
     transform: translate(calc(-50% - 2.5rem), -50%);
     right: .5rem;
