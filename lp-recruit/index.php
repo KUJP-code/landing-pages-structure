@@ -182,7 +182,8 @@
       2020年度　97％<br />
       2021年度　96％<br />
       2022年度　98％<br />
-      2022年度　98％
+      2022年度　98％<br />
+      2024年度　99％<br />
     </p>
     <div class="padding-band-1rem"></div>
     <h3 class="company-info">

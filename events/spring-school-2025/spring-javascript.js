@@ -44,7 +44,7 @@ new Swiper("#image-carousel", {
 var swiper = new Swiper(".swiper-container", {
   slidesPerView: 3, // Number of slides visible at a time
   centeredSlides: true, // Center the slides
-  spaceBetween: 30, // Space between slides
+  spaceBetween: 20, // Space between slides
   loop: true, // Enable looping
   lazy: true, // Enable lazy loading
 
@@ -61,7 +61,7 @@ var swiper = new Swiper(".swiper-container", {
       slidesPerView: 4.5, // Number of slides for viewports >= 1025px
     },
     992: {
-      slidesPerView: 4, // Number of slides for viewports >= 992px
+      slidesPerView: 3.75, // Number of slides for viewports >= 992px
     },
     768: {
       slidesPerView: 3.5, // Number of slides for viewports >= 768px

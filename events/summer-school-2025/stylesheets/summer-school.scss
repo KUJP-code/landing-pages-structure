@@ -1,0 +1,2113 @@
+  /* INITIAL */
+
+
+$summer-beige: #f7e2d7;
+$summer-blue: #92c5eb;
+$summer-yellow: #ffc759;
+$summer-red: #e95651;
+$summer-dark-red: #a64343;
+$summer-brown: #5d3d2d;
+$summer-light-brown: #8f6f5f;
+$summer-offwhite: #fff8ed;
+
+$slide-color-1-light: #c5df9d;
+$slide-color-1-dark: #7c994b;
+
+$slide-color-2-light: #f3acac;
+$slide-color-2-dark: #c16f6f;
+
+$slide-color-3-light: #ed7a7a;
+$slide-color-3-dark: #a64343;
+
+$slide-color-4-light: #71cac4;
+$slide-color-4-dark: #23877d;
+
+
+$slide-color-special-1-light: #ffd10f;
+$slide-color-special-1-lighter:#ffd10f;
+$slide-color-special-1-dark: #5d3d2c;
+
+$slide-color-special-2-light: #f390bc;
+$slide-color-special-2-lighter:#f390bc;
+$slide-color-special-2-dark: #512846;
+
+
+
+
+:root {
+  --tokyo-color: #f79752;
+  --kanagawa-color: #f16883;
+  --chiba-color: #7ac263;
+  --saitama-color: #5696d0;
+
+    ---text-color: white;
+  --location-shadow: #9bb8da;
+  --location-contrast: white;
+
+  /* SWIPER NAV ARROWS */
+  --swiper-button-bg: #ffffff;
+  --swiper-button-arrow: #e95651;
+  
+
+
+}
+
+h1 {
+  font-family: "Shin-Maru-GP-Ultra";
+}
+
+h2 {
+  font-family: "Shin-Maru-GP-Bold";
+}
+
+html{
+    background-color: $summer-beige;
+}
+
+
+
+  /* NAVBAR */
+.navbar {
+  background-color: $summer-red;
+
+  .navbar-nav {
+    background-color: unset;
+  }
+
+  .nav-link {
+    color: white;
+
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+
+  .nav-btn {
+    background-color: $summer-dark-red;
+    color: white;
+    font-weight: bolder;
+
+    &:hover {
+      background-color: white;
+      color: $summer-dark-red;
+    }
+  }
+
+  @media (max-width: 991px) {
+    .navbar-collapse {
+      background-color: $summer-dark-red;
+    }
+
+    .nav-link {
+      font-size: 1.25rem;
+      margin-top: 0.5rem;
+    }
+
+    .nav-btn {
+      font-size: 1.25rem;
+      background-color: $summer-red;
+      color: white;
+      font-weight: bolder;
+      width: fit-content;
+      display: block;
+      margin: auto;
+      height: fit-content;
+      padding: 1rem !important 4rem !important;
+      border-radius: 4rem;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.button {
+  position: relative;
+  width: fit-content;
+  font-family: "Shin-Maru-GP-Bold";
+  border-radius: 6rem;
+  border: 0.5rem solid;
+  transition: ease-in-out 0.2s;
+  color: #fff;
+  font-size: 1.5rem;
+  padding: 0.75rem 2.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  cursor: pointer;
+  z-index: 1;
+  display: block;
+
+  &__arrow {
+    width: 1.75rem;
+    height: auto;
+    margin-left: 1.5rem;
+    fill: currentColor;
+    transition: fill 0.2s ease-in-out;
+    display: inline-block;
+    vertical-align: middle;
+    stroke: currentColor;
+    stroke-width: 1.5rem;
+    stroke-linejoin: round;
+    stroke-linecap: round;
+    margin-right: 0.1rem;
+    transform: translateY(-0.1rem);
+  }
+
+  &:hover .button__arrow {
+    fill: #fff;
+    stroke: #fff;
+  }
+
+  @media (max-width: 575px) {
+    width: 97.5%;
+    display: block;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 341px) {
+    font-size: 1.2rem;
+  }
+}
+
+  /* HERO */
+.hero {
+  background-color: $summer-beige;
+  aspect-ratio: 16 / 9;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+
+.transition-top {
+  position: absolute;
+  width: 101%;
+  display: block;
+  margin: auto;
+  bottom: 0;
+  z-index: 3;
+}
+
+
+  .hero-img-box {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 0;
+
+    .hero-image {
+      display: block;
+      max-width: 100%;
+      height: auto;
+      margin: 0 auto;
+    }
+  }
+
+  .hero-text-box {
+    width: 50%;
+    height: 100%;
+    padding-right: 2rem;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+
+    .hero-text {
+      display: block;
+      margin: auto;
+    }
+
+    h1 {
+      font-family: "Shin-Maru-GP-Ultra";
+      font-size: 2rem;
+      text-align: left;
+      color: $summer-red;
+      line-height: 1;
+    }
+
+    h2 {
+      padding: 1rem 0;
+      font-size: 1.25rem;
+      color: $summer-brown;
+      font-family: "Shin-Maru-GP-Regular";
+    }
+  }
+
+  .hero-cta-button {
+    background-color: $summer-red;
+    border: 0.5rem solid $summer-red;
+    color: #fff;
+    text-align: center;
+    display: block;
+    margin-left: 0;
+    box-shadow: 0px 0px 10px 3px rgba(65, 38, 15, 0.2);
+
+    &:hover {
+      color: $summer-red;
+      background-color: white;
+      border-color: $summer-red;
+    }
+  }
+
+  .transition-top {
+    z-index: 2;
+  }
+
+  @media (max-width: 1199px) {
+    aspect-ratio: 16 / 10;
+
+      .hero-img-box {
+    width: 45%;
+  }
+  .hero-text-box {
+    width: 55%;
+  }
+    
+  }
+  @media (max-width: 991px) {
+    aspect-ratio: 16 / 11;
+  }
+
+
+  @media (max-width: 768px) {
+    aspect-ratio: 16 / 12;
+  }
+
+    @media (max-width: 680px) {
+    aspect-ratio: 16 / 13;
+  }
+
+  @media (max-width: 576px) {
+    aspect-ratio: unset;
+    width: auto;
+    display: block;
+    align-items: unset;
+    justify-content: unset;
+    gap: unset;
+
+    .transition-top {
+  position: relative;
+  padding-top: 2rem;
+
+}
+
+
+    .hero-img-box {
+      width: 100%;
+      padding: 1rem;
+      padding-top:4rem;
+      padding-bottom: 0rem;
+
+
+    }
+
+    .hero-text-box {
+      width: 95%;
+    padding-right: unset;
+    display: block;
+    margin: auto;
+
+    .hero-text {
+      display: block;
+      margin: auto;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    h2 {
+      text-align: center;
+    }
+    
+    }
+  }
+
+   .hero-cta-button{
+    display: block;
+    margin: auto;
+   }
+
+
+}
+
+  /* EVENT ABOUT */
+
+.event-about {
+  background-color: $summer-blue;
+  padding: 2rem 0;
+
+  h2,
+  p {
+    color: white;
+  }
+  p{
+    font-weight: bold;
+  }
+
+  .about-wrapper {
+    display: flex;
+    align-self: center;
+    justify-items: center;
+    gap: 1rem;
+
+    .about-text-box {
+      width: 70%;
+
+      .about-cta-button{
+        color: $summer-blue;
+        background-color: white;
+        border-style: solid white .1rem ;
+        margin-left: 0;
+        margin-bottom: 2rem;
+      }
+
+        .about-cta-button:hover{
+        color: white;
+        background-color: $summer-blue;
+        border-style: solid white .1rem ;
+      }
+    }
+
+    .about-img-box{
+        width: 30%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img{
+            display: block;
+            width: 100%;
+            padding: 1.5rem;
+        }
+    }
+  }
+
+  .schools-list-container{
+    position: relative;
+
+    .img{
+        position: absolute;
+        transform-origin:  center;
+        width: 20rem;
+        left: 60%;
+        top: 75%;
+
+    }
+  }
+}
+
+  @media (max-width: 576px) {
+    .event-about {
+  background-color: $summer-blue;
+  padding: 2rem 0;
+
+  .about-wrapper {
+    display: block;
+    align-self: center;
+    justify-items: center;
+    gap: 1rem;
+
+    .about-text-box {
+      width: 100%;
+
+
+.about-cta-button {
+  width: 100%;
+  font-size: 1.2rem;
+
+
+}
+
+      }
+    }
+
+        .about-img-box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .img{
+            display: block;
+            width: 100%;
+            padding: 1.5rem;
+        }
+    }
+  }
+
+
+  .schools-list-container{
+    position: relative;
+
+    .img{
+        transform-origin:  unset;
+        left: unset;
+        top: unset;
+        position: relative;
+        width: 90%;
+        display: block;
+        margin: auto;
+        padding: 2rem;
+        padding-bottom: 0rem;
+
+    }
+  }
+}
+
+  
+
+
+    /* THREE BENEFITS */
+
+    .three-benefits{
+        position: relative;
+        background-color: $summer-beige;
+        
+
+        .three-benefits-row{
+            padding-top: 2rem;
+            padding-bottom: 2rem;
+            display: flex;
+            gap: .5rem;
+
+
+            .benefit{
+                width: calc(100% / 3);
+         
+            .three-benefits-img{
+                max-width: 100%;
+                height: auto;
+                display: block;
+                border-radius: 1rem;
+                border-style: solid;
+                border-color: $summer-brown;
+                border-width: .25rem;
+                margin: auto;
+            }
+
+            p{
+                padding: 1rem;
+                color: $summer-light-brown;
+            }
+        }
+    }   
+}
+
+  @media (max-width: 576px) {
+        .three-benefits{
+        position: relative;
+        background-color: $summer-beige;
+                  padding-bottom: 0.001rem !important;
+             
+
+        .three-benefits-row{
+            padding-top: 2rem;
+            display: block;
+            gap: .5rem;
+
+            .benefit{
+                width: 100%;
+         
+
+            p{
+                      font-family: "Shin-Maru-GP";
+                padding: 1rem;
+                color: $summer-light-brown;
+            }
+        }
+    }   
+}
+}
+
+  /* TESTIMONY */
+
+  .testimony{
+    background-color: $summer-beige;
+    
+    h2{
+        color: $summer-brown;
+        padding-bottom: 2rem;
+    }
+
+    .customer-testimony-desktop{
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: stretch;
+        padding-bottom: 4rem;
+    }
+
+    .customer-testimony-mobile{
+        display: none;
+    }
+
+    .testimonial-box{
+        width: calc(100%/3);
+        background-color: $summer-blue;
+        background-color: $summer-offwhite;
+        border-radius: 1rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 1rem;
+    
+    .testimonial-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 1rem;
+        padding-bottom: 1rem;
+
+        .testimonial-portrait{
+            position: relative;
+            width: 25%;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            overflow: hidden;
+
+            .testimonial-img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .testimonial-name{
+            width: 75%;
+        h3{
+            font-family: "Shin-Maru-GP-Bold";
+            color: $summer-brown;
+            font-size: 1.5rem;
+            font-weight: bold;
+      
+        }
+         }
+
+    }
+
+
+
+        .testimonial-rank{
+            position: relative;
+            display: block;
+            width: 50%;
+            margin-top: auto;
+        }
+
+        .testimony-rank-fill{
+            fill: $summer-red;
+        }
+
+
+        p{
+            color: $summer-light-brown;
+            padding-bottom: 4rem;
+        }
+
+    }
+  }
+
+  @media (max-width: 576px) {
+    .testimony{
+                    padding-bottom: 2rem;
+          
+        h2{
+            padding-top: 2rem;
+
+        }
+
+        .customer-testimony-desktop{
+            display: none;
+        }
+
+        .customer-testimony-mobile{
+            display: unset;
+            height: fit-content;
+
+        }
+
+
+    .testimonial-box{
+        width: 100%;
+        background-color: $summer-blue;
+        background-color: $summer-offwhite;
+        height: 100%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    
+    .testimonial-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 1rem;
+        padding-bottom: 1rem;
+
+        .testimonial-portrait{
+            position: relative;
+            width: 40%;
+            aspect-ratio: 1/1;
+            border-radius: 50%;
+            overflow: hidden;
+
+            .testimonial-img{
+                display: block;
+                width: 100%;
+                height: auto;
+            }
+        }
+
+        .testimonial-name{
+            width: 60%;
+        h3{
+            font-family: "Shin-Maru-GP-Bold";
+            color: $summer-brown;
+            font-size: 1.5rem;
+            font-weight: bold;
+      
+        }
+         }
+
+    }
+
+
+
+        .testimonial-rank{
+            position: relative;
+            display: block;
+            width: 50%;
+            margin-top: auto;
+        }
+
+        .testimony-rank-fill{
+            fill: $summer-red;
+        }
+
+
+        p{
+            color: $summer-light-brown;
+            padding-bottom: 4rem;
+        }
+
+    }
+
+
+      }
+
+.swiper-container-testimony {
+  overflow-x: hidden;
+  position: relative;
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 255, 255, 1) 95%,
+    rgba(255, 255, 255, 0) 98%
+  );
+}
+
+.swiper-arrow-container{
+    position: relative;
+
+.swiper-button-testimony-prev {
+    width: 4rem;
+    position: absolute;
+    transform: translate(calc(-50% + 2.5rem), -50%);
+    left: .5rem;
+    z-index: 1;
+    left: 0%;
+    top: 50%;
+    overflow: none;
+}
+
+.swiper-button-testimony-next {
+    width: 4rem;
+    position: absolute;
+    transform: translate(calc(-50% - 2.5rem), -50%);
+    right: .5rem;
+    z-index: 1;
+   left: 100%;
+    top: 50%;
+    overflow: none;
+}
+
+  }
+
+    }
+
+
+  /* FOUR BENEFITS */
+
+
+.four-benefits-wrapper {
+  background-color: $summer-beige;
+  padding-bottom: .001rem;
+}
+
+.four-benefits-container {
+    background-color: $summer-red;
+    border-color: $summer-dark-red;
+    box-shadow: 0 1rem $summer-dark-red;
+    border-radius: 1rem;
+    border-style: solid;
+    border-width: .25rem;
+    margin-bottom: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+
+   
+
+  .four-benefits {
+    width: 25%;
+    position: relative;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+    .benefit-icon-box {
+      width: 60%;
+      display: block;
+      margin: auto;
+      margin-bottom: 1rem;
+
+      .benefit-icon {
+        width: 50%;
+        display: block;
+        margin: auto;
+
+        .benefit-icon-colour-1 {
+          fill: $summer-dark-red;
+        }
+
+        .benefit-icon-colour-2 {
+          fill: $summer-offwhite;
+        }
+      }
+    }
+    .benefit-text-box{
+
+        width: 100%;
+    p {
+      text-align: center;
+      color: $summer-offwhite;
+      font-family: "Shin-Maru-GP-Regular";
+      font-size: 1rem;
+    }
+  }
+}
+}
+@media (max-width: 1399px) {
+
+.four-benefits-container {
+
+  .four-benefits {
+    .benefit-text-box{
+
+
+    p {
+      font-size: .9rem;
+    }
+  }
+}
+}
+}
+
+@media (max-width: 1199px) {
+
+.four-benefits-container {
+
+  .four-benefits {
+    .benefit-text-box{
+
+
+    p {
+      font-size: .8rem;
+    }
+  }
+}
+}
+}
+
+
+@media (max-width: 991px) {
+  .four-benefits-container {
+
+     
+
+    .four-benefits {
+      width: 50%;
+      position: relative;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+
+      .benefit-icon-box {
+        width: 40%;
+        margin: auto;
+        margin-bottom: 1rem;
+
+        .benefit-icon {
+          width: 50%;
+          display: block;
+          margin: auto;
+
+          .benefit-icon-colour-1 {
+            fill: $summer-dark-red;
+          }
+
+          .benefit-icon-colour-2 {
+            fill: $summer-offwhite;
+          }
+        }
+      }
+
+          .benefit-text-box{
+
+        width: 100%;
+      p {
+        text-align: center;
+        color: $summer-offwhite;
+        font-family: "Shin-Maru-GP-Regular";
+        font-size: 1rem;
+      }
+    }
+  }
+     }
+}
+
+
+
+
+  @media (max-width: 576px) {
+
+
+      .four-benefits-container {
+        padding: 0.25rem;
+        border-radius: 1rem;
+        border-style: solid;
+        border-width: .25rem;
+        margin-bottom: 2rem;
+       
+
+
+    .four-benefits {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0rem;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+
+      .benefit-icon-box {
+        width: 25%;
+        height: auto;
+        margin-bottom: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: .5rem;
+        margin-bottom: .5rem;
+
+
+        .benefit-icon {
+            width: 95%;
+            display: block;
+            padding-left: .5rem;
+
+          .benefit-icon-colour-1 {
+            fill: $summer-dark-red;
+          }
+
+          .benefit-icon-colour-2 {
+            fill: $summer-offwhite;
+          }
+        }
+      }
+
+      .benefit-text-box{
+        width: 75%;
+      p {
+
+        font-family: "Shin-Maru-GP-Regular";
+        padding-left: .5rem;
+        padding-right: .5rem;
+        text-align: left;
+        margin-bottom: 0;
+        padding-bottom: 0;
+
+      }
+    }
+  }
+}}
+
+  /* CALL TO ACTION */
+
+.call-to-action{
+    background-color: $summer-beige;
+    padding-bottom: 2rem;
+
+    
+
+    .cta-container{
+        display: flex;
+        gap: .5rem;
+
+        .cta-image{
+            width: 50%;
+
+        
+            .img{
+                display: block;
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+        
+         .cta-text{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .cta-text-box{
+                width: 100%;
+                
+
+
+
+            .text-wrapper{
+                background-image: url(../includes/summer-school-images/call-to-action/splash-text-bg.svg);
+                position: relative;
+                aspect-ratio: 287 / 120;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1;
+
+
+                h3{
+                    position: relative;
+                    color: white;
+                    font-family: "Shin-Maru-GP-Bold";
+                    text-align: left;
+                    width: 80%;
+                    display: block;
+                    margin: auto;
+                    z-index: 1;
+                }
+
+                      .arrow{
+                    position: absolute;
+                    transform: translate(-100%, 0%);
+                    left:100%;
+                    top: 50%;
+                    height: 50%;
+                    width: auto;
+        
+                 }
+            }
+            
+        .cta-button{
+        color: white;
+        background-color: $summer-red;
+        border-style: unset ;
+        margin-bottom: 2rem;
+        z-index: 3;
+      }
+
+        .cta-button:hover{
+        color: $summer-red;
+        background-color: white;
+      }
+
+
+    }
+     }    }
+}
+
+
+
+  @media (max-width: 1399px) {
+    .call-to-action{
+
+
+    .cta-container{
+        display: flex;
+        gap: .5rem;
+
+        .cta-image{
+            width: 45%;
+        }
+        
+         .cta-text{
+            width: 55%;
+
+            h3{
+                font-size: 1.5rem;
+            }
+        
+     }    }
+}
+
+  }
+
+    @media (max-width: 991px) {
+    .call-to-action{
+    .cta-container{
+         .cta-text{
+            h3{
+                font-size: 1.3rem;
+                }
+            }    
+        }
+    }
+}
+
+    @media (max-width: 767px) {
+    .call-to-action{
+    .cta-container{
+         .cta-text{
+            h3{
+                font-size: 1.1rem;
+                }
+            }    
+        }
+    }
+}
+
+
+
+    @media (max-width: 576px) {
+.call-to-action{
+    background-color: $summer-beige;
+    padding-bottom: 2rem;
+
+    
+
+    .cta-container{
+        display: block;
+        gap: unset;
+
+        .cta-image{
+            width: 100%;
+
+        
+            .img{
+                display: block;
+                width: 100%;
+                padding: 1rem;
+            }
+        }
+        
+         .cta-text{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+
+            .cta-text-box{
+                width: 100%;
+                
+
+
+
+            .text-wrapper{
+                background-image: url(../includes/summer-school-images/call-to-action/splash-text-bg.svg);
+                position: relative;
+                aspect-ratio: 287 / 120;
+                background-repeat: no-repeat;
+                background-position: center;
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 1;
+
+
+                h3{
+                    position: relative;
+                    color: white;
+                    font-family: "Shin-Maru-GP-Bold";
+                    text-align: left;
+                    width: 80%;
+                    display: block;
+                    margin: auto;
+                    z-index: 1;
+                }
+
+                      .arrow{
+                    position: absolute;
+                    transform: translate(-100%, 0%);
+                    left:100%;
+                    top: 50%;
+                    height: 50%;
+                    width: auto;
+        
+                 }
+            }
+            
+        .cta-button{
+        color: white;
+        background-color: $summer-red;
+        border-style: unset ;
+        margin-bottom: 2rem;
+        z-index: 3;
+      }
+
+        .cta-button:hover{
+        color: $summer-red;
+        background-color: white;
+      }
+
+
+    }
+     }    }
+}
+}
+
+
+
+
+
+  /* ACTIVITIES SLIDER */
+
+
+
+.activities{
+    background-color: $summer-yellow;
+    
+
+       .header{
+        color: $summer-brown;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+.swiper-button-wrapper{
+  position: relative;
+}
+
+.swiper-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  overflow-x: hidden;
+  position: relative;
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(255, 255, 255, 0) 98%
+  );
+}
+
+
+.activity-slider-left-arrow {
+    width: 4rem;
+    position: absolute;
+    transform: translate(calc(-50% + 2.5rem), -50%);
+    left: .5rem;
+    z-index: 6;
+    left: 0%;
+    top: 50%;
+    overflow: none;
+}
+
+.activity-slider-right-arrow {
+    width: 4rem;
+    position: absolute;
+    transform: translate(calc(-50% - 2.5rem), -50%);
+    right: .5rem;
+    z-index: 1;
+   left: 100%;
+    top: 50%;
+    overflow: none;
+}
+
+.activity-slide {
+  position: relative;
+  border-radius: 1rem;
+  border-width: .25rem;
+  border-style: solid;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  z-index: 0;
+}
+
+.slide-date-box {
+  position: absolute;
+  width: fit-content;
+  border-radius: 0rem 0rem 1rem 0rem;
+  display: flex;
+  align-items: center;
+  border-width: .25rem;
+  transform: translateX(-1px);
+  z-index: 1;
+
+  h3{
+    font-size: 1.25rem;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+    font-family: "Shin-Maru-GP-Bold";
+    line-height: 1rem;
+    padding: .5rem;
+    padding-bottom: 0rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .slide-day{
+      font-size: 1rem;
+    }
+
+}
+
+}
+
+.activity-slider-img {
+  width: 100%;
+  border-radius: 0rem 0rem 1rem 1rem;
+
+}
+
+.slide-lower {
+  height: 5.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+h2 {
+  font-size: 1rem;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+}
+}
+
+.special-time{
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: .75rem;
+  position: absolute;
+  bottom: 0;
+  padding-top: .25rem;
+  padding-left: .75rem;
+  padding-right: .75rem;
+  border-radius: 2rem 2rem 0rem 0rem;
+}
+
+.activity-slide-1 {
+  background-color: $slide-color-1-light;
+  border-color:  $slide-color-1-light;
+  color: $slide-color-1-dark;
+
+  .slide-date-box{
+    background-color: $slide-color-1-light;
+   h3{
+     color: $slide-color-1-dark;
+   }
+  }
+  h2{
+         color: $slide-color-1-dark;
+  }
+}
+
+.activity-slide-2 {
+  background-color: $slide-color-2-light;
+  border-color:  $slide-color-2-light;
+  color: $slide-color-2-dark;
+
+  .slide-date-box{
+    background-color: $slide-color-2-light;
+   h3{
+     color: $slide-color-2-dark;
+   }
+  }
+  h2{
+         color: $slide-color-2-dark;
+  }
+}
+
+.activity-slide-3 {
+  background-color: $slide-color-3-light;
+  border-color:  $slide-color-3-light;
+  color: $slide-color-3-dark;
+
+  .slide-date-box{
+    background-color: $slide-color-3-light;
+   h3{
+     color: $slide-color-3-dark;
+   }
+  }
+  h2{
+         color: $slide-color-3-dark;
+  }
+}
+
+.activity-slide-4 {
+  background-color: $slide-color-4-light;
+  border-color:  $slide-color-4-light;
+  color: $slide-color-4-dark;
+
+  .slide-date-box{
+    background-color: $slide-color-4-light;
+   h3{
+     color: $slide-color-4-dark;
+   }
+  }
+  h2{
+         color: $slide-color-4-dark;
+  }
+}
+
+.activity-slide-special-1 {
+  background-color: $slide-color-special-1-light;
+  border-color:  $slide-color-special-1-dark;
+  color: $slide-color-special-1-dark;
+
+  .slide-date-box{
+  background-color: $slide-color-special-1-dark;
+  
+
+  
+   h3{
+     color: $slide-color-special-1-light;
+   }
+  }
+  h2{
+         color: $slide-color-special-1-dark;
+  }
+
+  .special-time{
+  background-color: $slide-color-special-1-dark;
+  color: $slide-color-special-1-light;
+}
+}
+
+.activity-slide-special-2 {
+  background-color: $slide-color-special-2-light;
+  border-color:  $slide-color-special-2-dark;
+  color: $slide-color-special-2-dark;
+
+  .slide-date-box{
+  background-color: $slide-color-special-2-dark;
+  
+  
+   h3{
+     color: $slide-color-special-2-light;
+   }
+  }
+  h2{
+         color: $slide-color-special-2-dark;
+  }
+
+  .special-time{
+  background-color: $slide-color-special-2-dark;
+  color: $slide-color-special-2-light;
+}
+}
+
+.activity-slide-special-1, .activity-slide-special-2 {
+ background-image: linear-gradient(
+    115deg,
+    rgba(255, 255, 255, 0) 25%,
+    rgba(255, 255, 255, 0.25) 50%,
+    rgba(255, 255, 255, 0) 75%
+  );
+  background-size: 200% 100%;
+  animation: shimmer-bg 3.5s infinite linear;
+
+
+}
+
+@keyframes shimmer-bg {
+  0% {
+    background-position: -300% 0;
+  }
+  100% {
+    background-position: 300% 0;
+  }
+}
+
+.swiper-button-activity-prev {
+  width: 3rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  top: 50%;
+  overflow: none;
+}
+
+.swiper-button-activity-next {
+  width: 3rem;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 100%;
+  z-index: 1;
+  top: 50%;
+  overflow: none;
+}
+
+.swiper-container-testimony {
+  overflow-x: hidden;
+  position: relative;
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 1) 5%,
+    rgba(255, 255, 255, 1) 95%,
+    rgba(255, 255, 255, 0) 98%
+  );
+
+
+}
+.activities-swiper-button-arrow{
+  fill: $summer-yellow;
+}
+  }
+
+
+
+
+
+    /* 4 DROPDOWN BUTTONS */
+
+
+.info-dropdowns{
+  background-color: $summer-yellow;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+
+  .dropdown-wrapper{
+    background-color: $summer-yellow;
+  }
+
+.dropdown-row{
+  display: flex;
+  gap: .5rem;
+  margin-bottom: 3rem;
+
+
+
+  .btn-dropdown{
+    width: 25%;
+    position: relative;
+
+
+
+
+
+  .dropdown {
+    background-color: $summer-brown;
+    border: solid 0.2rem $summer-brown;
+    margin-top: .5rem;
+
+    border-radius: 4rem;
+    padding: 1rem;
+    font-family: "Shin-Maru-GP-Bold";
+    overflow-x: hidden;
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+.dropdown-arrow {
+  position: absolute;
+  transform-origin: center;
+  width: 2rem;
+  right: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+      }
+
+
+
+.dropdown:hover,
+.dropdown:focus,
+.dropdown:not(.collapsed) {
+  background-color: white;
+  color: $summer-brown;
+
+}
+
+.dropdown:not(.collapsed) {
+  transition-duration: 0.5s;
+}
+
+.dropdown:not(.collapsed) .dropdown-arrow {
+  transform:rotate(180deg);
+  transition-duration: 0.2s;
+}
+
+}
+
+  @media (max-width: 991px) {
+  .dropdown-row{
+  display: flex;
+
+  .btn-dropdown{
+    width: 25%;
+    position: relative;
+    padding: 0rem;
+  
+
+  .dropdown {
+    padding: .4rem;
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    font-size: .8rem;
+  }
+
+  .dropdown-arrow {
+    width: 1.5rem;
+    right: .75rem;
+  }
+  }
+  }
+}
+
+  @media (max-width: 767px) {
+  .dropdown-row{
+  display: flex;
+
+  .btn-dropdown{
+    width: 25%;
+    position: relative;
+    padding: .5rem;
+
+  .dropdown {
+    font-size: .75rem;
+  }
+
+  .dropdown-arrow {
+    width: 1.2rem;
+    right: .6rem;
+  }
+  }
+  }
+}
+
+@media (max-width: 576px){
+
+  .dropdown-row{
+  display: block;
+  margin-bottom: 0rem;
+
+
+
+  .btn-dropdown{
+    width: 100%;
+    position: relative;
+    padding: unset;
+
+
+
+
+  .dropdown {
+    border-radius: 4rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+.dropdown-arrow {
+  width: 3rem;
+  right: .75rem;
+}
+      }
+}
+
+}
+
+@media (max-width: 375px){
+
+  .dropdown-row{
+  display: block;
+
+
+
+  .btn-dropdown{
+    width: 100%;
+    position: relative;
+    padding: unset;
+
+
+
+
+  .dropdown {
+    border-radius: 4rem;
+    height: auto;
+    font-family: "Shin-Maru-GP-Bold";
+    overflow-x: hidden;
+    color: white;
+    position: relative;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+  }
+
+.dropdown-arrow {
+  width: 2.75rem;
+  right: .5rem;
+}
+      }
+}
+
+}
+
+
+  /* DROPDOWN SECTION CONTENTS */
+
+
+.dropdown-contents{
+background-color: $summer-offwhite;
+padding: 2rem;
+border-radius: 3rem;
+
+
+.calendar-img{
+  border-radius: 1rem;
+}
+
+.daily-Schedule-1, .daily-Schedule-2{
+padding: 1rem;
+
+
+
+h5{
+  font-family: "Shin-Maru-GP-Bold";
+  color: $summer-brown;
+}
+p{
+    font-family: "Noto Sans JP", sans-serif;
+    margin-bottom: 0 !important;
+    padding-bottom: 2rem;
+}
+
+}
+
+ .daily-Schedule-2{
+  background-color: white;
+  border-radius: 1rem;
+ }
+
+ .schedule-lesson{
+  display: flex;
+  gap: .5rem;
+
+  .schedule-level{
+    width: 50%;
+  }
+ }
+
+ .form-download-wrapper{
+  position: relative;
+  display: flex;
+
+
+  a{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    margin: auto;
+    background-color: $summer-yellow;
+    border: .2rem solid $summer-yellow;
+    border-radius: 3rem;
+    font-family: "Shin-Maru-GP-Bold";
+    padding: 1rem;
+
+    margin-top: 1rem;
+    color: white;
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+    font-size: 1.5rem;
+  
+  }
+
+
+    a:hover{
+      background-color: white;
+      color: $summer-yellow;
+      transition: ease-in-out 0.2s;
+  }
+ }
+
+
+}
+
+ @media (max-width: 576px){
+.dropdown-contents{
+background-color: $summer-offwhite;
+padding: 1rem;
+border-radius: 1.5rem;
+
+
+  h5{
+  font-size: 1.25rem;
+}
+
+   .schedule-lesson{
+  display: block;
+  gap: .5rem;
+
+  .schedule-level{
+    width: 100%;
+  }
+ }
+
+ .form-download-wrapper{
+  position: relative;
+  display: block;
+
+
+
+
+  a{
+    width: 100%;
+    justify-content: center;
+    font-family: "Shin-Maru-GP-Bold";
+    font-size: 1rem !important;
+
+  
+  }
+ }
+
+
+}
+  }
+
+
+  /* GALLERY SLIDER */
+
+
+.gallery{
+  background-color: $summer-beige;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  h2{
+    color: $summer-brown;
+  }
+
+
+  .gallery{
+  background-color: none;
+  position: relative;
+
+.swiper{
+  overflow-x: hidden;
+  position: relative;
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 1) 25%,
+    rgba(255, 255, 255, 1) 75%,
+    rgba(255, 255, 255, 0) 100%
+  )
+}
+
+  .swiper-img {
+  display: block;
+  width: 96%;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.swiper-button-gallery-prev {
+    width: 4rem;
+    position: absolute;
+    transform: translate(calc(-50% + 2.5rem), -50%);
+    left: .5rem;
+    z-index: 1;
+    left: 0%;
+    top: 50%;
+    overflow: none;
+}
+
+.swiper-button-gallery-next {
+    width: 4rem;
+    position: absolute;
+    transform: translate(calc(-50% - 2.5rem), -50%);
+    right: .5rem;
+    z-index: 1;
+   left: 100%;
+    top: 50%;
+    overflow: none;
+}
+
+
+}
+
+
+
+}
+
+
+@media (max-width: 576px) {
+  .swiper-img {
+    display: block;
+    width: 100%;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  .swiper-custom-nav {
+    padding: 7.5%;
+  }
+  .swiper-custom-nav-arrow {
+    width: 3rem;
+    
+  }
+}
+
+
+
+
+  /* FAQ */
+
+
+.faq{
+  background-color: $summer-beige;
+
+  h2{
+    color: $summer-brown;
+  }
+}
+  
+.bottom-section {
+  background-color: #e8dccd;
+  padding-bottom: -2rem;
+}
+
+.accordion {
+  padding-bottom: 1rem;
+}
+
+.accordion-item {
+  border: none !important;
+  background-color: $summer-offwhite;
+  border-radius: 3rem !important;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.accordion-btn-icon {
+  transition: transform 0.3s ease-in-out;
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  border-radius: 3rem !important;
+  transform: rotate(0deg);
+}
+
+.accordion-colors-1, .accordion-colors-2 {
+  fill: none;
+  stroke: $summer-blue;
+  stroke-miterlimit: 10;
+  stroke-width: 8px;
+}
+.accordion-button {
+  color: $summer-light-brown;
+  background-color: $summer-offwhite;
+  font-family: "Shin-Maru-GP-DeBold";
+  text-align: left;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 3rem !important;
+  filter: drop-shadow(none);
+}
+
+.accordion-text{
+  font-family: "Shin-Maru-GP-Regular";
+}
+
+.accordion-button::after {
+  display: none;
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+  box-shadow: none !important;
+  border-color: transparent !important;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: transparent !important;
+  border: none !important;
+  color: #63574a;
+  box-shadow: none !important;
+}
+
+.accordion-body {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #63574a;
+  text-align: left;
+  font-weight: 400;
+  padding: 1rem;
+  padding-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+/* Sign Up and Pre Footer ------------------------------------------------------------------*/
+
+
+.sign-up {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background-color: $summer-red;
+
+  .sign-up-button {
+  box-shadow: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.5rem;
+  padding: .5rem;
+  border-radius: 6rem;
+  transition: ease-in-out 0.2s;
+  z-index: 1;
+  width: 60%;
+  margin: auto;
+  color: white;
+  background-color: $summer-brown;
+  border: solid;
+  border-width: .25rem;
+  border-color:  $summer-brown;
+}
+
+.sign-up-button:hover{
+  color: $summer-brown;
+  background-color: white;
+}
+
+
+  .sign-up-bg {
+    fill: #fff;
+  }
+
+  .sign-up-stroke {
+    fill: #313133;
+  }
+
+  .sign-up-main-colour {
+    fill: $summer-brown;
+  }
+
+  .sign-up-instruction-header {
+    font-size: 1.15rem;
+    font-weight: bold;
+  }
+
+  .bottom-button-right {
+    float: left;
+  }
+
+  .bottom-button-left {
+    float: right;
+  }
+
+  .sign-up-row {
+    padding-bottom: 1rem;
+  }
+
+  .sign-up-wrapper-left,
+  .sign-up-wrapper-middle,
+  .sign-up-wrapper-right {
+    width: 97.5%;
+    display: block;
+  }
+
+  .sign-up-wrapper-left {
+    margin-right: auto;
+  }
+
+  .sign-up-wrapper-middle {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .sign-up-wrapper-right {
+    margin-left: auto;
+  }
+
+  .sign-up-h2 {
+    font-family: "Shin-Maru-GP-Bold";
+    font-weight: bold;
+    padding-bottom: 3rem;
+    color: white;
+  }
+
+  .sign-up-h3 {
+    font-size: 1.5rem;
+    font-family: "Noto Sans JP", sans-serif;
+    font-weight: bold;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    color: white;
+  }
+
+  .sign-up-p {
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1rem;
+    color: white;
+  }
+
+  @media (max-width: 576px) {
+  .sign-up-button {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+  }
+}
+
+
+
+
+.pre-footer {
+  background-color: #e8dccd;
+ margin-top: -3px;
+}
+
+.pre-footer-h2,
+.pre-footer-p {
+  color: #303135;
+}
+
+
+
