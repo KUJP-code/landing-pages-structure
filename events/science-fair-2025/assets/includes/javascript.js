@@ -68,6 +68,11 @@ function formLink() {
   window.open(fullUrl, "_blank");
 }
 
+// Open Inquiry Link
+function inquiryLink() {
+  // Opens the specified URL in a new tab
+  window.open("https://kids-up.jp/inquiry/", "_blank");
+}
 
 
 // Initialize Swiper for Image Carousel

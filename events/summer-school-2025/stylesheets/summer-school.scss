@@ -68,6 +68,44 @@ html{
   fill: $summer-yellow;
 }
 
+    .mascot-jot{
+      width: 10.5rem;
+      transform-origin: center;
+    }
+    .mascot-echo{
+      width: 13.95rem;
+    }
+
+    .mascot-tale{
+      width: 6.9rem;
+    }
+
+    .mascot-boom{
+      width: 15rem;
+    }
+
+  @media (max-width: 1400px) {
+
+
+        .mascot-jot{
+        width: calc(10.5rem * .75);
+    }
+    .mascot-echo{
+        width: calc(13.95rem * .75);
+    }
+
+    .mascot-tale{
+        width: calc(6.9rem * .75);
+    }
+
+    .mascot-boom{
+        width: calc(15rem * .75);
+    }
+
+  }
+
+
+
   /* NAVBAR */
 .navbar {
   background-color: $summer-red;
@@ -192,11 +230,12 @@ html{
 
 
   .hero-img-box {
-    width: 50%;
+    width: 55%;
     height: 100%;
     display: flex;
     align-items: center;
     z-index: 0;
+
 
     .hero-image {
       display: block;
@@ -207,7 +246,7 @@ html{
   }
 
   .hero-text-box {
-    width: 50%;
+    width: 45%;
     height: 100%;
     padding-right: 2rem;
     display: flex;
@@ -259,10 +298,22 @@ html{
     aspect-ratio: 16 / 10;
 
       .hero-img-box {
-    width: 45%;
+    width: 50%;
   }
   .hero-text-box {
-    width: 55%;
+    width: 50%;
+  }
+    
+  }
+
+    @media (max-width: 1024px) {
+    aspect-ratio: 16 / 10;
+
+      .hero-img-box {
+    width: 42%;
+  }
+  .hero-text-box {
+    width: 58%;
   }
     
   }
@@ -270,6 +321,17 @@ html{
     aspect-ratio: 16 / 11;
   }
 
+      @media (max-width: 655px) {
+    aspect-ratio: 16 / 10;
+
+      .hero-img-box {
+    width: 40%;
+  }
+  .hero-text-box {
+    width: 58%;
+  }
+}
+    
 
   @media (max-width: 768px) {
     aspect-ratio: 16 / 12;
@@ -478,7 +540,22 @@ html{
 
             .benefit{
                 width: calc(100% / 3);
-         
+                position: relative;
+                z-index: 1;
+
+                display: block;
+
+
+                .mascot-jot{
+                  position: absolute;
+                  z-index: -1;
+                 transform: translate(-50%, -50%);
+                  rotate: 0deg;
+                  top: -2rem;
+                  left: 50%;
+                  height: auto;
+                }
+      
             .three-benefits-img{
                 max-width: 100%;
                 height: auto;
@@ -493,6 +570,7 @@ html{
             p{
                 padding: 1rem;
                 color: $summer-light-brown;
+                font-family: "Noto Sans JP", sans-serif;
             }
         }
     }   
@@ -512,6 +590,11 @@ html{
 
             .benefit{
                 width: 100%;
+
+
+                    .mascot-jot{
+                    display: none;
+                }
          
 
             p{
@@ -528,10 +611,26 @@ html{
 
   .testimony{
     background-color: $summer-beige;
+    position: relative;
+
+    .container{
+      position: relative;
+
+    }
+
+    .mascot-echo{
+      position: absolute;
+      transform: translate(0%, -50%);
+      rotate: 0deg;
+      top: -2rem;
+      left: 80%;
+      height: auto;
+    }
     
     h2{
         color: $summer-brown;
         padding-bottom: 2rem;
+        width: 80%;
     }
 
     .customer-testimony-desktop{
@@ -618,9 +717,16 @@ html{
   @media (max-width: 576px) {
     .testimony{
                     padding-bottom: 2rem;
+
+
+
+                    .mascot-echo{
+                    display: none;
+                }
           
         h2{
             padding-top: 2rem;
+            width: 100%;
 
         }
 
@@ -1189,8 +1295,33 @@ html{
 
 .activities{
     background-color: $summer-yellow;
-    
+    z-index: 2;
+    position: relative;
 
+      .mascot-tale{
+        position: absolute;
+        z-index: -10;
+        transform: translate(-50%, -50%);
+        rotate: 0deg;
+        top: -1rem;
+        left: 50%;
+        height: auto;
+        left: 75%;
+        }
+        .container{
+        background-color: $summer-yellow;
+        }
+
+        .mascot-boom{
+        position: absolute;
+        z-index: 1;
+        transform: translate(-50%, -50%);
+        top: 1rem;
+        left: 50%;
+        height: auto;
+        left: 55%;
+        }
+        
        .header{
         color: $summer-brown;
         padding-top: 2rem;
@@ -1456,9 +1587,19 @@ h2 {
 
 }
 
+
+
+
   }
 
 
+    @media (max-width: 576px) {
+    .mascot-tale, .mascot-boom{
+      display: none;
+    }
+
+
+  }
 
 
 

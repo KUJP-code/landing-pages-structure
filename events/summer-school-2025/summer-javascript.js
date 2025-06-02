@@ -1,16 +1,40 @@
-
-
-// Open Form Link
 function formLink() {
-  // Opens the specified URL in a new tab
-  window.open("https://www.kids-up.app", "_blank");
-}
+  const baseUrl = "https://www.kids-up.app";
+  const currentUrl = new URL(window.location.href);
+  const searchParams = currentUrl.searchParams;
 
+  let utmParams = new URLSearchParams();
+
+  // If UTM parameters exist in the current URL, copy them
+  if (
+    searchParams.has("utm_source") ||
+    searchParams.has("utm_medium") ||
+    searchParams.has("utm_campaign")
+  ) {
+    if (searchParams.has("utm_source")) utmParams.set("utm_source", searchParams.get("utm_source"));
+    if (searchParams.has("utm_medium")) utmParams.set("utm_medium", searchParams.get("utm_medium"));
+    if (searchParams.has("utm_campaign")) utmParams.set("utm_campaign", searchParams.get("utm_campaign"));
+  } else {
+    // If no UTM parameters, add default ones to indicate landing page funnel
+    utmParams.set("utm_source", "landing_page");
+    utmParams.set("utm_medium", "web");
+    utmParams.set("utm_campaign", "summer_school_2025");
+  }
+
+  // Construct the full URL with UTM parameters
+  const fullUrl = `${baseUrl}?${utmParams.toString()}`;
+
+  // Open the new URL in a new tab
+  window.open(fullUrl, "_blank");
+}
 // Open Inquiry Link
 function inquiryLink() {
   // Opens the specified URL in a new tab
   window.open("https://kids-up.jp/inquiry/", "_blank");
 }
+
+
+
 
 // Initialize Swiper for Image Carousel
 new Swiper("#gallery-carousel", {
