@@ -54,13 +54,9 @@
               <a class="nav-link" href="native.php">Native<br> Educator</a>
             </li>
             <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-                >Part-Time</a
+            
+    <a class="nav-link dropdown-toggle" href="javascript:void(0)" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Part-Time</a
               >
               <ul class="dropdown-menu">
                 <li>
