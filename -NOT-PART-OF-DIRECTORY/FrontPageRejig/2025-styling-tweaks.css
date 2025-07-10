@@ -1,0 +1,409 @@
+/*2025 Homepage Updates*/
+
+
+.mascot-img-jot{
+  width: 5rem;
+  position: absolute;
+  transform: translate(-100%, -100%) !important;
+  top: calc(100% -1rem);
+  left: calc(60% - 1rem);
+}
+
+.mascot-img-boom{
+  width: 15%;
+  position: absolute;
+transform: translate(-50%, 0%)  !important;
+  top: 2rem;
+  left: 80%;
+  max-width: 15rem;
+  min-width: 5rem;
+}
+
+.mascot-img-tale{
+  width: 5rem;
+  position: absolute;
+  transform: translate(-100%, -100%) !important;
+  top: calc(100% -1rem);
+  left: calc(60% - 1rem);
+}
+
+/*ECHO BACKGROUND SEASONAL*/
+#top_section7{ 
+  padding: 5vw; 
+  background-image: url("https://kids-up.jp/wp-admin/images/2025-update/echo%20v2.svg"); 
+  background-repeat: no-repeat; 
+    
+  background-position: 85% 2rem; 
+  background-size: clamp(5rem, 15vw, 15rem);
+}
+
+
+
+@media (max-width: 767px) {
+
+  .mascot-img-jot, .mascot-img-tale{
+  width: 5rem;
+  position: absolute;
+  transform: translate(-100%, -100%) !important;
+  top: calc(100% -1rem);
+  left: calc(100% - 1rem);
+  z-index: -1;
+}
+
+.mascot-img-boom{
+  width: 8rem;
+  position: absolute;
+transform: translate(-100%, 0%)  !important;
+  top: 0rem;
+  left: 95%;
+
+}
+
+
+#top_section7{
+  background-image: url("https://kids-up.jp/wp-admin/images/2025-update/echo%20v2.svg"); 
+  background-position: 95% 2rem; 
+  background-size: 8rem;
+}
+}
+
+
+/*Homepage CTA */
+
+#cta-2025{
+  background-image: url(https://kids-up.jp/wp-admin/images/2025-update/2025-cta-background.jpg);
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+  display: flex;
+  padding-top: 10rem;
+  padding-bottom: calc(10rem + 0.7rem);
+  overflow-x: hidden;
+}
+
+#cta-2025 .cta-2025-contents {
+  display: block;
+  margin: auto;
+
+}
+
+
+
+#cta-2025 .top_title_wrapper{ 
+  display: block;
+}
+
+
+#cta-2025 .top_title_wrapper .top_title{text-align: center; margin-bottom: 30px; display: block;}
+#cta-2025 .top_title_wrapper .main_title::before{ bottom: 0;}
+#cta-2025 .top_title_wrapper .sub_title{display: block; margin-top: 20px;}
+#cta-2025 .p_normal{text-align: center; color: #fff; font-weight: bold; margin-bottom: 50px;}
+
+
+.cta_button_wrapper{
+display: flex;
+flex-direction: row;
+gap: 2rem;
+width: 100%;
+}
+
+.cta-button-box{
+  position: relative;
+  width: 30%;
+  display: block;
+}
+
+.cta-btn-orange, .cta-btn-blue {
+
+  padding: 20px; 
+  border-radius: 50px; 
+
+  text-align: center;  
+  transition: .2s; 
+  color: white;
+  font-size: 1.2rem;
+  border: 2px solid;
+  z-index: 1; 
+  display:block; 
+  font-weight: bolder;
+  box-shadow: 0rem 0.7rem white;
+  width: 100%;
+  line-height: 1.4;
+
+}
+
+.cta-btn-orange:hover, .cta-btn-blue:hover{
+  box-shadow: 0rem 0.9rem white;
+  transform: translate(0, -.2rem);
+  opacity: 1;
+}
+
+.cta-btn-orange:active, .cta-btn-blue:active{
+  box-shadow: 0rem 0.3rem white;
+  transform: translate(0, .4rem);
+    opacity: 1;
+}
+
+.cta-btn-inner{
+  position: relative;
+  margin-left: 1.95rem;
+  
+}
+
+.cta-btn-icon{
+  position: absolute;
+  height: auto;
+  width: 1.75rem;
+ transform: translate(-100%, -50%);
+ top: 50%;
+  left: -0.2rem;
+
+}
+
+
+
+  .cta-btn-orange{
+background-color: #f18021;
+margin: auto;
+margin-right: 0;
+  }
+
+    .cta-btn-blue{
+background-color: #79bad4;
+margin: auto;
+margin-left: 0;
+  }
+
+
+
+
+
+.main_title_cta{
+  font-size: 6rem; 
+  position: relative; 
+  font-weight: 600; 
+  line-height: 1; 
+  text-align: center; 
+  justify-content: center;
+  display: flex; 
+  margin: auto; 
+  color: white;
+    color: white;
+    line-height: 1.25;
+}
+
+.main_title_cta::before{ content: none;}
+
+#cta-2025 .top_title{
+  font-size: 1.75rem; 
+  color: white;
+    color: white;
+    line-height: 1;
+}
+
+#cta-2025 .tagline{
+  font-size: 1.25rem; 
+  color: white;
+  line-height: 1.5;
+  margin-top: -1rem;
+  margin-bottom: 1rem;
+}
+
+
+#cta-2025 .cta-2025-contents {
+  width: 1320px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 1399.98px) {
+  #cta-2025 .cta-2025-contents {
+    max-width: 1140px;
+  }
+
+  .cta-button-box{
+  position: relative;
+  width: 40%;
+  display: block;
+}
+}
+
+@media (max-width: 1199.98px) {
+  #cta-2025 .cta-2025-contents {
+    max-width: 960px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  #cta-2025 .cta-2025-contents {
+    max-width: 720px;
+  }
+.cta-button-box{
+  position: relative;
+  width: 45%;
+  display: block;
+}
+
+
+  .main_title_cta{
+    font-size: 5rem;
+  }
+
+
+}
+
+@media (max-width: 767.98px) {
+  #cta-2025 .cta-2025-contents {
+    max-width: 540px;
+  }
+
+  .main_title_cta{
+    font-size: 5rem;
+  }
+
+  .cta_button_wrapper{
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+
+  .cta-button-box{
+    width: 100%;
+  }
+
+  .cta-btn-orange, .cta-btn-blue {
+  width: 70%;
+  margin: auto;
+}
+}
+
+@media (max-width: 575.98px) {
+  #cta-2025 .cta-2025-contents {
+    width: 95%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+
+  .cta-button-box{
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+  .cta-btn-orange, .cta-btn-blue {
+  width: 97.5%;
+  margin: auto;
+}
+}
+
+
+
+/*Pickup Bus*/
+
+.pickupbus-right{
+  background-image: url("https://kids-up.jp/wp-admin/images/2025-update/bus-section-bg.jpg");}
+
+
+@media (max-width: 1080px) {
+.pickupbus-right{   background-image: url("https://kids-up.jp/wp-admin/images/2025-update/bus-section-bg.jpg");}}
+
+
+
+.btn{
+  position: relative;
+  overflow: hidden;
+  text-decoration: none;
+  display: inline-block;
+  border: 3px solid #fff;
+  background: #EF8200;
+  width: 300px;
+  padding: 15px 0px 15px 0px;
+  text-align: center;
+  outline: none;
+  transition: ease-in-out .2s;
+  border-radius: 50px;
+  box-shadow: 0rem 10px white;
+  margin-bottom: calc(1rem + 10px);
+}
+
+
+.btn:hover{
+  box-shadow: 0rem 15px white;
+  transform: translate(0, -5px);
+  opacity: 1;
+}
+
+.btn:active{
+  box-shadow: 0rem 5px #fff;
+  transform: translate(0, 10px);
+  opacity: 1;
+}
+
+
+.btn_main_orange .btn{
+   box-shadow: 0rem 10px #EF8200;
+  border: 3px solid #EF8200;
+  background: #fff;
+  color: #EF8200;
+}
+
+
+
+
+.btn_main_orange .btn:hover{
+  box-shadow: 0rem 15px #EF8200;
+  transform: translate(0, -5px);
+  opacity: 1;
+}
+
+.btn_main_orange .btn:active{
+  box-shadow: 0rem 5px #EF8200;
+  transform: translate(0, 10px);
+  opacity: 1;
+}
+
+
+
+.btn_main_orange .btn_title{
+  color: #EF8200;
+}
+
+.btn_main{
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+
+.btn_main_orange{
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.btn_main::after{
+display: none;
+}
+
+.btn_main_orange::after{
+display: none;
+}
+
+
+
+/* 背景が流れる（斜め） */
+.bgskew::before {
+display: none;
+}
+
+.btn:hover span{
+  color:#fff;
+  font-weight: bold;
+}
+
+
+.btn_main_orange:hover span{
+ color: #EF8200;
+  font-weight: bold;
+}

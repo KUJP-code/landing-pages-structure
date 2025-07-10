@@ -350,7 +350,7 @@ h6 {
 
   .top-hero-box {
     display: block;
-    background-image: url(../images/main-page/hero-bg-mobile-v2.png);
+    background-image: url(./images/hero-bg-mobile-v2.png);
     background-position: top right;
     background-repeat: no-repeat;
     background-size: auto 100%;

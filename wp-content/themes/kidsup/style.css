@@ -104,6 +104,10 @@ img { -ms-interpolation-mode: bicubic; }
 .box {
   animation-fill-mode: forwards;
 }
+
+
+
+
 /* Illust ----------------------------------------------------------------- */
 .img-animal-group{ with: 256px; height: 136px; position: relative; margin-top: -50px; text-align: right; z-index: -1;}
 .img-treeanimal-group{ with: 592px; height: 198px; position: relative; margin-top: -200px; text-align: right;     z-index: -1;}
@@ -561,8 +565,6 @@ a.btn_normal_narrow::hover {
   animation: light .8s infinite;
 }
 
-.btn_white{background: #fff; border: 2px solid #FF8100; width: 90%; max-width: 400px;   position: relative; z-index: 1; display: inline-block; transition: .3s;}
-
 .btn_school{font-weight: bold; color: #FF8100; position: relative; padding-left: 35px;}
 .btn_school::before{
   content: '';
@@ -636,6 +638,8 @@ a.btn-sns--instagram {
 #top_section1{background: #D1E9F0; display: flex;}
 .top_section1_left{width: 60%;}
 .top_section1_right{width: 40%; background-image: url("img/top_sec1_r_back.jpg"); background-position: center;     background-size: cover;}
+
+
 .features_detail{width: 25%; height: auto; background-size: contain; background-repeat: no-repeat; background-position: center; margin-bottom: 25px; transition: 0.5s;}
 .features_detail img{ width: 100%;}
 
@@ -1028,3 +1032,4 @@ content: ''; background-image: url(img/phone-solid.svg); position: absolute; top
 	margin-right:0px;
 	position:relative;
 }
+
