@@ -8,13 +8,16 @@
 <!-- End Google Tag Manager -->
 <title>学童保育型 英語・英会話スクール Kids UP （キッズアップ）</title>
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
-<link href="https://kids-up.jp/wp-content/themes/kidsup/style.css" rel="stylesheet" type="text/css">
+<link href="./front-image.css" rel="stylesheet" type="text/css">
 <link href="./wp-content/themes/kidsup/style.css" rel="stylesheet" type="text/css">
 <link href="https://kids-up.jp/wp-content/themes/kidsup/otherpage.css" rel="stylesheet" type="text/css">
 <link href="https://kids-up.jp/wp-content/themes/kidsup/lity.css" rel="stylesheet" type="text/css">	
 
 
-<link rel="stylesheet" href="cta-2025.css">
+
+<link rel="stylesheet" href="https://kids-up.jp/wp-admin/css/2025-styling-tweaks.css">
+
+
 
 
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&family=Noto+Serif+JP:wght@200;300;400;500;600;700;900&display=swap" rel="stylesheet">
@@ -341,13 +344,16 @@ echo $cta_content;
 				<h2 class="top_title" style="color: #000;"><span class="sub_title">無料送迎バス</span></h2>
 			</div>
 
-				<p class="p_normal">お子様に安心して通っていただく為に、保育園や小学校からKids UPまでと、ご自宅近くまでの無料送迎を行っています。 送迎対象につきましてはお近くのスクールまでお気軽にお問い合わせください。</p>
+				<p class="p_normal">お子様に安心して通っていただけるよう、保育園や小学校からKids UPまで、お帰りはご自宅近くまでの無料送迎サービスをご用意しています。送迎エリアや対象につきましては、お近くのスクールまでお気軽にお問い合わせください。</p>
 				<br>
 			<div class="pickupbus-right only_mb_only"></div>
 			<div class="top_sec1_l_content_detail">
-				<div class="features_detail features_1"><img class="lazyloaded only_pc_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-1.svg" alt="安全で衛生的な教室環境 KidsUP" /><img class="lazyloaded only_mb_only" src="https://kids-up.jp/wp-content/themes/kidsup/img/features_sq-1_sp.svg" alt="安全で衛生的な教室環境 KidsUP" /></div>
-				<div class="features_detail features_1"><img class="lazyloaded only_pc_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-2.svg" alt="全スクール直営校で高いクオリティ KidsUP" /><img class="lazyloaded only_mb_only" src="https://kids-up.jp/wp-content/themes/kidsup/img/features_sq-7_sp.svg" alt="全スクール直営校で高いクオリティ KidsUP" /></div>
-				<div class="features_detail features_1"><img class="lazyloaded only_pc_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-3.svg" alt="無料送迎バス KidsUP" /><img class="lazyloaded only_mb_only" src="https://kids-up.jp/wp-content/themes/kidsup/img/features_sq-8_sp.svg" alt="無料送迎バス KidsUP" /></div>
+				<div class="features_detail features_1"><img class="lazyloaded only_pc_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-1.svg" alt="対象の保育園・小学校にお子様をお迎え" />
+							<img class="lazyloaded only_mb_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-1.svg" alt="対象の保育園・小学校にお子様をお迎え" /></div>
+				<div class="features_detail features_1"><img class="lazyloaded only_pc_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-2.svg" alt="Kids UPに到着" />
+							<img class="lazyloaded only_mb_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-2.svg" alt="Kids UPに到着" /></div>
+				<div class="features_detail features_1 bus_features_detail_special"><img class="lazyloaded only_pc_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-3.svg" alt="レッスン終了後、お子様をご自宅近くまでお送りします" />
+							<img class="lazyloaded only_mb_only" src="https://kids-up.jp/wp-admin/images/2025-update/bus-icon-3.svg" alt="レッスン終了後、お子様をご自宅近くまでお送りします" /></div>
 				
 			</div>
 			<div class="btn_main">

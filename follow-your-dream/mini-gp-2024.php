@@ -63,9 +63,9 @@
 		<div class="row">
 			<p class="p_normal-otherpage congrats-text">
 			オンラインコースから世界<span class="congrats-text-orange">チャンピオン</span>誕生！！<br>
-国立和玖君が見事な1位、知識隼人君は6位に輝く！<br>
+国立和玖君が見事な1位、知識隼和君は6位に輝く！<br>
 <br>
-2024年11月中旬、スペインで行われたWorld Series FINALに、オンラインコースから国立和玖君と知識隼人君が参戦し、その実力を世界に証明しました。<br>
+2024年11月中旬、スペインで行われたWorld Series FINALに、オンラインコースから国立和玖君と知識隼和君が参戦し、その実力を世界に証明しました。<br>
 国立君は圧倒的なパフォーマンスで1位を獲得し、世界チャンピオンの座に輝きました。<br>
 一方、知識君も6位という素晴らしい成績を収め、安定した実力を発揮しました。<br>
 <br>
@@ -210,12 +210,12 @@
 						<br><br>
 						<span class="ranking">
 							<img src="./mini-gp-2024/mini-gp-2024-images/wreath-first.svg" height="50" width="50"></img>
-							1位 国立和玖君
+							1位 国立和玖選手
 						</span>
 						<br><br>
 						<span class="ranking">
 							<img src="./mini-gp-2024/mini-gp-2024-images/wreath-sixth.svg" height="50" width="50"></img>
-							6位 知識隼人
+							6位 知識隼和選手
 						</span>
 					
 					<!--end 

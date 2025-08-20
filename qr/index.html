@@ -8,7 +8,7 @@
 <body>
  <script>
 
-// WELCOME TO SWITCHING YARD v2.5.6
+// WELCOME TO SWITCHING YARD v2.5.7
 
 // THIS TOOL HAS BEEN CREATED TO SIMPLIFY QR CODE CREATION, REDIRECTION AND METRIC TRACKING.
 // PLEASE CONTACT MIKE FARADAY IF YOU WISH TO ADD A QR CODE AND TRACK AN AD CAMPAIGN
@@ -19,18 +19,21 @@ const appUrl = "https://kids-up.app/"; // Base URL of your app
 const urlSlugs = {
     seasonal1: "events/spring-school-2025",
     seasonal2: "events/summer-school-2025",
-    seasonal3: "events/summer-school-2025",
+    seasonal3: "events/winter-school-2025",
     event1: "events/mascot-party",
     event2: "events/science-fair-2025",
-    event3: "events/science-fair-2025",
-    event4: "events/science-fair-2025",
+    event3: "unset",
+    event4: "events/halloween-2025",
 };
 
 const campaignNames = {
     seasonal1: "spring_school_2025",
     seasonal2: "summer_school_2025",
+    seasonal3: "winter_school_2025",
     event1: "mascot_party",
     event2: "science_fair_2025",
+    event3: "unset",
+    event4: "halloween_2025",
 };
 
 // School list - add as necessary
@@ -105,6 +108,11 @@ const campaignMapping = {
     // Seasonal School 2 Direct Forwarding to App
     "sa2": { url: appUrl, campaign: campaignNames.seasonal2  },
 
+    // Seasonal School 3 Landing Page URL Slug and Campaign Name
+    "se3": { url: urlSlugs.seasonal3, campaign: campaignNames.seasonal3 },
+    // Seasonal School 3 Direct Forwarding to App
+    "sa3": { url: appUrl, campaign: campaignNames.seasonal3  },
+
     // Event 1 Landing Page URL Slug and Campaign Name
     "ev1": { url: urlSlugs.event1, campaign: campaignNames.event1 },
     // Event 1 Direct Forwarding to App
@@ -113,7 +121,17 @@ const campaignMapping = {
     // Event 2 Landing Page URL Slug and Campaign Name
     "ev2": { url: urlSlugs.event2, campaign: campaignNames.event2 },
     // Event 2 Direct Forwarding to App
-    "ea2": { url: appUrl, campaign: campaignNames.event2 }
+    "ea2": { url: appUrl, campaign: campaignNames.event2 },
+    
+    // Event 3 Landing Page URL Slug and Campaign Name
+    "ev3": { url: urlSlugs.event3, campaign: campaignNames.event3 },
+    // Event 3 Direct Forwarding to App
+    "ea3": { url: appUrl, campaign: campaignNames.event3 },
+
+    // Event 4 Landing Page URL Slug and Campaign Name
+    "ev4": { url: urlSlugs.event4, campaign: campaignNames.event4 },
+    // Event 4 Direct Forwarding to App
+    "ea4": { url: appUrl, campaign: campaignNames.event4 }
 };
 
 function handleRedirect() {
