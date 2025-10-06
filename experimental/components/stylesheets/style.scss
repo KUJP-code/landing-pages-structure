@@ -1,0 +1,720 @@
+html{
+  overflow-x: hidden;
+  width: 100%;
+  background-color: white;
+}
+
+$kidsup-orange: #f4811f;
+$kidsup-orange-muted: #fddac1;
+
+$kidsup-blue: #83c0da;
+$kidsup-blue-muted: #daecf3;
+
+
+$kidsup-gray: #5A534A;
+$kidsup-gray-muted: #cdcbc8;
+
+
+// -----------------------------
+// Variables
+// -----------------------------
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+$container-sm-max: 540px;
+$container-md-max: 720px;
+$container-lg-max: 960px;
+$container-xl-max: 1140px;
+$container-xxl-max: 1320px;
+
+$container-padding: 1rem; // horizontal padding
+
+// -----------------------------
+// Base container styles
+// -----------------------------
+%container-base {
+  width: 100%;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  @extend %container-base;
+}
+
+// Fluid container
+.container-fluid {
+  @extend %container-base;
+  margin: 0;
+}
+
+// -----------------------------
+// Responsive container
+// -----------------------------
+.container {
+  max-width: 100%;
+
+  @media (min-width: $bp-sm) { max-width: $container-sm-max; }
+  @media (min-width: $bp-md) { max-width: $container-md-max; }
+  @media (min-width: $bp-lg) { max-width: $container-lg-max; }
+  @media (min-width: $bp-xl) { max-width: $container-xl-max; }
+  @media (min-width: $bp-xxl) { max-width: $container-xxl-max; }
+}
+
+// -----------------------------
+// Fixed containers
+// -----------------------------
+.container-sm { 
+  max-width: 100%;
+  @media (min-width: $bp-sm) { max-width: $container-sm-max; }
+}
+
+.container-md {
+  max-width: 100%;
+  @media (min-width: $bp-md) { max-width: $container-md-max; }
+}
+
+.container-lg {
+  max-width: 100%;
+  @media (min-width: $bp-lg) { max-width: $container-lg-max; }
+}
+
+.container-xl {
+  max-width: 100%;
+  @media (min-width: $bp-xl) { max-width: $container-xl-max; }
+}
+
+.container-xxl {
+  max-width: 100%;
+  @media (min-width: $bp-xxl) { max-width: $container-xxl-max; }
+}
+
+
+
+// -----------------------------
+// Font Inclusion
+// -----------------------------
+@font-face {
+  font-family: "Shin-Maru-GP-Regular";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Bold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-DeBold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Ultra";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
+}
+
+
+
+
+// -----------------------------
+// Basic Page Definitions
+// -----------------------------
+body {
+-webkit-font-smoothing: antialiased;
+font-family:'Noto Sans JP','Noto Sans SC','Noto Sans','Noto Serif JP','Noto Serif SC',serif;
+background-color: white;
+}
+
+
+
+h1 {
+font-size: 3rem;
+line-height: 1.2;
+}
+
+h2 {
+font-size: 2.5rem;
+line-height: 1.2;
+}
+
+h3 {
+font-size: 2rem;
+line-height: 1.3;
+}
+
+h4 {
+font-size: 1.5rem;
+line-height: 1.4;
+}
+
+h5 {
+font-size: 1.25rem;
+line-height: 1.25;
+}
+
+p {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+
+.p-sub{
+font-size: .75rem;
+}
+
+@media (max-width: 990.98px) {
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.15rem; }
+p { font-size: 1rem; }
+}
+
+
+
+
+
+@media (max-width: 767.98px) {
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+p { font-size: 1.125rem; }
+}
+
+
+@media (max-width: 575.98px) {
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+p { font-size: 1.125rem; }
+}
+
+// -----------------------------
+// Mobile / Desktop switching
+// -----------------------------
+
+.desktop-only{
+  display: block;
+}
+
+.mobile-only{
+  display: none;
+}
+
+
+@media (max-width: 575.98px) {
+.desktop-only{
+  display: none;
+}
+
+.mobile-only{
+  display: block;
+}
+}
+
+// -----------------------------
+// Navbar Styling
+// -----------------------------
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+nav {
+position: fixed;
+background-color: white;
+height: 6rem;
+padding: 0.625rem, 1rem, 0.625rem, 1rem;
+width: 100%;
+z-index: 9999;
+
+
+.nav-inner {
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+margin: 0 auto;
+height: 100%;
+padding: 0 1rem;
+z-index: 2;
+
+width: calc(100% - 4.5rem);
+border-bottom-style: solid;
+border-bottom-width: 0.125rem;
+border-bottom-color: $kidsup-orange-muted;
+
+}
+
+.navbar-brand {
+display: flex;
+justify-content: center;
+width: 22.375rem;
+max-width: 30%;
+height: auto;
+transition-duration: .3s;
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+}
+
+.mobile{
+display: none;
+}
+
+.nav-links {
+display: flex;
+gap: 1rem;
+padding: 1rem;
+padding-right: 0rem;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-size: 1rem;
+font-family: "Noto Sans JP";
+line-height: unset;
+}
+
+a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+transition-duration: .3s;
+opacity: 0.6;
+}
+
+&.button {
+background-color: white;
+padding: 0.5rem 2rem;
+text-align: center;
+border-radius: 2rem;
+width: fit-content;
+position: relative;
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center; 
+
+transition-duration: .3s;
+border: solid 0.125rem;
+}
+
+&.button-1 {
+color: $kidsup-gray;
+border-color: $kidsup-gray-muted;
+border-color: $kidsup-gray-muted;
+
+&:hover{
+  opacity: 1;
+  color: white;
+  background-color: $kidsup-gray;
+  border-color: $kidsup-gray;
+  transition: ease-in-out .2s;
+}
+}
+
+&.button-2 {
+color: $kidsup-blue;
+border-color: $kidsup-blue-muted;
+border-color: $kidsup-blue-muted;
+&:hover{
+  opacity: 1;
+  color: white;
+  background-color: $kidsup-blue;
+  border-color: $kidsup-blue;
+  transition: ease-in-out .2s;
+}
+}
+
+&.button-3 {
+color: $kidsup-orange;
+border-color: $kidsup-orange-muted;
+border-color: $kidsup-orange-muted;
+&:hover{
+  opacity: 1;
+  color: white;
+  background-color: $kidsup-orange;
+  border-color: $kidsup-orange;
+  transition: ease-in-out .2s;
+}
+}
+
+
+
+
+}
+
+.nav-toggle {
+position: relative;
+background: $kidsup-orange;
+border: 1px solid transparent;
+height: 3rem;
+width: 3rem;
+border-radius: 50%;
+cursor: pointer;
+
+
+&:focus {
+outline: none;
+}
+
+[class*='bar-'] {
+display: block;
+background: white;
+position: absolute;
+transition: 0.2s ease all;
+border-radius: 0.09375rem;
+height: 0.1875rem;
+width: 66%;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%) rotate(0deg);
+transform-origin: center;
+}
+
+
+
+.bar-top {
+top: 30%;
+}
+
+.bar-mid {
+top: 50%;
+}
+
+.bar-bot {
+top: 70%;
+}
+
+
+
+&.opened {
+.bar-top {
+transform: translate(-50%, -50%) rotate(45deg);
+top: 50%;
+}
+
+
+
+.bar-mid {
+opacity: 0;
+}
+
+
+
+.bar-bot {
+transform: translate(-50%, -50%) rotate(-45deg);
+top: 50%;
+}
+}
+}
+
+.sticky-cta{
+display: none;
+}
+
+/* Smaller Desktop Resizing */
+
+@media (max-width: 991px) {
+.navbar-brand {
+width: fit-content;
+width: 27.5%;
+max-width: 22.375rem;
+height: 100%;
+}
+
+.nav-links {
+gap: 0.5rem;
+}
+
+
+
+a {
+&.button {
+padding: 0.5rem 1.25rem;
+}
+}
+}
+
+/* Mobile Styles */
+@media (max-width: 767.98px) {
+.navbar-brand {
+width: 22.375rem;
+max-width: 80%;
+display: flex;
+justify-content: flex-start;
+margin-left: 0;
+
+img {
+height: auto;
+}
+}
+
+.nav-toggle {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+aspect-ratio: 1/1;
+}
+
+.nav-links {
+position: absolute;
+top: 5rem;
+left: 0;
+right: 0;
+background-color: #333;
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+display: flex;
+height: 0;
+padding: unset;
+padding-top: 1rem;
+padding-bottom: 1rem;
+height: fit-content;
+overflow: hidden;
+z-index: -1;
+
+
+
+/* Key changes for the slide-down effect */
+transform: translateY(-100%); /* Start off-screen above the navbar */
+opacity: 0;
+transition: 0.3s ease-out; /* Transition both properties */
+
+&.show {
+transform: translateY(0); /* Slide down to its normal position */
+opacity: 1; /* Fade in */
+visibility: visible;
+z-index: 0;
+}
+}
+
+a {
+&.button {
+width: calc(100% - 2rem);
+max-width: 375px;
+margin-left: 0;
+}
+}
+
+.sticky-cta {
+display: block;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+
+background-color: #333;
+color: white;
+font-weight: bold;
+text-align: center;
+
+padding: 1rem;
+border-radius: 0;
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s ease-out;
+
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.button{
+font-size: 1.2rem;
+}
+
+}
+
+
+
+// hide CTA when nav-toggle is opened
+.nav-toggle.opened ~ .sticky-cta {
+transform: translateY(100%); // slide it down out of view
+opacity: 0;
+transition: 0.3s ease-out;
+}
+}
+}
+
+
+// -----------------------------
+// Page CTA Buttons
+// -----------------------------
+
+
+.cta-button{
+  text-decoration: none;
+  background-color: $kidsup-gray;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+
+}
+
+.cta-primary{
+  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Ultra";
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 3rem;
+
+  .arrow{
+    margin-left: 3rem;
+    width: 1.6rem;
+    height: auto;
+    fill: currentColor;
+    stroke-miterlimit: 1;
+    stroke: currentColor;
+    stroke-width: 70px;
+    overflow: visible;
+  }
+
+}
+
+.cta-secondary{
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-DeBold";
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  border-radius: 3rem;
+
+
+    .arrow{
+    margin-left: 2rem;
+    width: 1.35rem;
+    height: auto;
+    fill: currentColor;
+    stroke-width: 35px;
+    overflow: visible;
+  }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+  .cta-button{
+    width: 95%;
+    max-width: 350px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .arrow{
+      margin-left: unset;
+    }
+  }
+
+
+  .cta-primary{
+  font-size: 1.3rem;
+  .arrow{
+  width: 1.4rem;
+  }
+
+
+
+  .cta-secondary{
+  font-size: 1.15rem;
+  .arrow{
+  width: 1.25rem;
+  }
+
+}
+}
+}
+
+
+
+.contents{
+  width: calc( 100% - 4.5rem);
+  margin: auto;
+  padding-top: 5rem;
+
+// -----------------------------
+// Hero 
+// -----------------------------
+
+.hero-wrapper {
+height: fit-content;
+
+  margin: 0 auto;
+  border-radius: 2rem;
+  padding-top: 2.5rem;
+
+
+  .hero-inner{
+    aspect-ratio: 2 / 1;
+    border-radius: 2.5rem;
+    overflow: hidden; // Hides video edges and respects border-radius
+  .hero-video-container {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; 
+            z-index: 0; 
+        }
+
+        .hero-video-iframe {
+            // Key to video coverage: scale and center the iframe
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            transform: translate(-50%, -50%);
+            z-index: 1;
+            background-color: $kidsup-blue;
+        }
+
+        .hero-overlay{
+          height: 100%;
+          width: 100%;
+          z-index: 2;
+        }
+
+  }
+
+}
+
+}

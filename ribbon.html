@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Curved SVG Ribbon (Text Alignment Fix)</title>
+<style>
+  body {
+    background-color: #555;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+</style>
+</head>
+<body>
+
+<svg width="450" height="200" viewBox="0 0 450 200">
+  <defs>
+    <path id="curve" d="M 50,105 Q 225,135 400,105" /> 
+  </defs>
+
+  <path d="M 10 70 
+           L 50 90 L 10 110 Z" fill="#9c3234"/>
+  <path d="M 440 70 
+           L 400 90 L 440 110 Z" fill="#9c3234"/>
+  <path d="M 15,100 
+           C 100,140 350,140 435,100 
+           L 435,70 
+           C 350,110 100,110 15,70 Z" fill="#c44446"/>
+
+  <text width="450" style="font-size:24px; font-weight:bold; font-family: sans-serif;">
+    <textPath xlink:href="#curve" startOffset="50%" text-anchor="middle" fill="white">
+      フォトブース & フォトサービス！
+    </textPath>
+  </text>
+</svg>
+
+</body>
+</html>

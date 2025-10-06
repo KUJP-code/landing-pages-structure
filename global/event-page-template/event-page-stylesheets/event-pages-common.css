@@ -1,0 +1,1232 @@
+@charset "UTF-8";
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.container-fluid, .container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.container-sm {
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+.container-md {
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  .container-md {
+    max-width: 720px;
+  }
+}
+
+.container-lg {
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .container-lg {
+    max-width: 960px;
+  }
+}
+
+.container-xl {
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+.container-xxl {
+  max-width: 100%;
+}
+@media (min-width: 1400px) {
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Regular";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-Bold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-DeBold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-Ultra";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
+}
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "Noto Sans JP", "Noto Sans SC", "Noto Sans", "Noto Serif JP", "Noto Serif SC", serif;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 2.5rem;
+  line-height: 1.2;
+}
+
+h3 {
+  font-size: 2rem;
+  line-height: 1.3;
+}
+
+h4 {
+  font-size: 1.5rem;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 1.25rem;
+  line-height: 1.25;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.p-sub {
+  font-size: 0.75rem;
+}
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  h5 {
+    font-size: 1.15rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  h1 {
+    font-size: 2rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+}
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+  h2 {
+    font-size: 1.75rem;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1.125rem;
+  }
+}
+.desktop-only {
+  display: block;
+}
+
+.mobile-only {
+  display: none;
+}
+
+@media (max-width: 575.98px) {
+  .desktop-only {
+    display: none;
+  }
+  .mobile-only {
+    display: block;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  position: fixed;
+  background-color: white;
+  height: 5rem;
+  padding: 0.625rem, 1rem, 0.625rem, 1rem;
+  width: 100%;
+  z-index: 9001;
+  /* Smaller Desktop Resizing */
+  /* Mobile Styles */
+}
+nav .nav-inner {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  height: 100%;
+  padding: 0 1rem;
+  z-index: 2;
+}
+nav .navbar-brand {
+  display: flex;
+  justify-content: center;
+  width: 22.375rem;
+  max-width: 30%;
+  height: auto;
+  transition-duration: 0.3s;
+}
+nav .navbar-brand img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+nav .mobile {
+  display: none;
+}
+nav .nav-links {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  padding-right: 0rem;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: "Noto Sans JP";
+  line-height: unset;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  transition-duration: 0.3s;
+  opacity: 0.6;
+}
+nav a.button {
+  background-color: #EF8200;
+  padding: 0.5rem 2rem;
+  text-align: center;
+  border-radius: 2rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-text-stroke: 0.03125rem white;
+  text-stroke: 0.03125rem white;
+  transition-duration: 0.3s;
+}
+nav .nav-toggle {
+  position: relative;
+  background: #5A534A;
+  border: 1px solid transparent;
+  width: 2.75rem;
+  height: 2.75;
+  border-radius: 50%;
+  cursor: pointer;
+  display: none;
+}
+nav .nav-toggle:focus {
+  outline: none;
+}
+nav .nav-toggle [class*=bar-] {
+  display: block;
+  background: white;
+  position: absolute;
+  transition: 0.2s ease all;
+  border-radius: 0.1rem;
+  height: 0.2rem;
+  width: 66%;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) rotate(0deg);
+  transform-origin: center;
+}
+nav .nav-toggle .bar-top {
+  top: 30%;
+}
+nav .nav-toggle .bar-mid {
+  top: 50%;
+}
+nav .nav-toggle .bar-bot {
+  top: 70%;
+}
+nav .nav-toggle.opened .bar-top {
+  transform: translate(-50%, -50%) rotate(45deg);
+  top: 50%;
+}
+nav .nav-toggle.opened .bar-mid {
+  opacity: 0;
+}
+nav .nav-toggle.opened .bar-bot {
+  transform: translate(-50%, -50%) rotate(-45deg);
+  top: 50%;
+}
+nav .sticky-cta {
+  display: none;
+}
+@media (max-width: 991px) {
+  nav .navbar-brand {
+    width: -moz-fit-content;
+    width: fit-content;
+    width: 27.5%;
+    max-width: 22.375rem;
+    height: 100%;
+  }
+  nav .nav-links {
+    gap: 0.5rem;
+  }
+  nav a.button {
+    padding: 0.5rem 1.25rem;
+  }
+}
+@media (max-width: 767.98px) {
+  nav .navbar-brand {
+    width: 22.375rem;
+    max-width: 80%;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 0;
+  }
+  nav .navbar-brand img {
+    height: auto;
+  }
+  nav .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    aspect-ratio: 1/1;
+  }
+  nav .nav-links {
+    position: absolute;
+    top: 5rem;
+    left: 0;
+    right: 0;
+    background-color: #333;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    display: flex;
+    height: 0;
+    padding: unset;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    height: -moz-fit-content;
+    height: fit-content;
+    overflow: hidden;
+    z-index: -1;
+    /* Key changes for the slide-down effect */
+    transform: translateY(-100%); /* Start off-screen above the navbar */
+    opacity: 0;
+    transition: 0.3s ease-out; /* Transition both properties */
+  }
+  nav .nav-links.show {
+    transform: translateY(0); /* Slide down to its normal position */
+    opacity: 1; /* Fade in */
+    visibility: visible;
+    z-index: 0;
+  }
+  nav a.button {
+    width: calc(100% - 2rem);
+    max-width: 375px;
+    margin-left: 0;
+  }
+  nav .sticky-cta {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background-color: #333;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease-out;
+  }
+  nav .sticky-cta a {
+    color: inherit;
+    text-decoration: none;
+  }
+  nav .sticky-cta .button {
+    font-size: 1.2rem;
+  }
+  nav .nav-toggle.opened ~ .sticky-cta {
+    transform: translateY(100%);
+    opacity: 0;
+    transition: 0.3s ease-out;
+  }
+}
+
+.cta-button {
+  text-decoration: none;
+  background-color: #5A534A;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.cta-primary {
+  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Ultra";
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  border-radius: 3rem;
+}
+.cta-primary .arrow {
+  margin-left: 3rem;
+  width: 1.6rem;
+  height: auto;
+  fill: currentColor;
+  stroke-miterlimit: 1;
+  stroke: currentColor;
+  stroke-width: 70px;
+  overflow: visible;
+}
+
+.cta-secondary {
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-DeBold";
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  border-radius: 3rem;
+}
+.cta-secondary .arrow {
+  margin-left: 2rem;
+  width: 1.35rem;
+  height: auto;
+  fill: currentColor;
+  stroke-width: 35px;
+  overflow: visible;
+}
+
+@media (max-width: 575.98px) {
+  .cta-button {
+    width: 100%;
+    max-width: 350px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .cta-button .arrow {
+    margin-left: unset;
+  }
+  .cta-primary {
+    font-size: 1.3rem;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+  .cta-primary .arrow {
+    width: 1.4rem;
+  }
+  .cta-primary .cta-secondary {
+    font-size: 1.15rem;
+  }
+  .cta-primary .cta-secondary .arrow {
+    width: 1.25rem;
+  }
+}
+.hero {
+  width: 100%;
+  /* 1) Oldest fallback — always fill viewport height */
+  height: 100vh;
+  min-height: 500px; /* legacy safety floor */
+  /* 2) Modern override for mobile viewport quirks */
+  height: 100dvh;
+  /* 3) Enforce minimum aspect ratio for modern browsers */
+  min-height: 56.25vw;
+  /* 4) Extra safeguard in modern browsers */
+  min-height: clamp(500px, 56.25vw, 100dvh);
+  padding-top: 5rem;
+  background-color: #EF8200;
+}
+
+.party-event-about {
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+@media (max-width: 991.98px) {
+  .party-event-about .three-reasons-row {
+    margin-top: 1rem;
+    gap: 1rem;
+  }
+  .party-event-about .three-reasons-row .reason-box {
+    padding: 1rem;
+  }
+}
+
+.about-event-wrapper {
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+}
+.about-event-wrapper .text {
+  width: 55%;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.about-event-wrapper .image-column {
+  width: 45%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+}
+@media (max-width: 991.98px) {
+  .about-event-wrapper {
+    gap: 1rem;
+  }
+  .about-event-wrapper .text {
+    width: 60%;
+    padding: unset;
+  }
+  .about-event-wrapper .image-column {
+    width: 40%;
+  }
+}
+@media (max-width: 767.98px) {
+  .about-event-wrapper {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+  .about-event-wrapper .text {
+    width: 100%;
+  }
+  .about-event-wrapper .text .cta-button {
+    margin: auto;
+  }
+  .about-event-wrapper .image-column {
+    width: 100%;
+  }
+}
+
+.three-reasons-swiper {
+  display: none;
+}
+
+.three-reasons-row {
+  width: 100%;
+  height: 10rem;
+  margin-top: 2rem;
+  display: flex;
+  gap: 2rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  align-items: stretch;
+}
+.three-reasons-row .reason-box {
+  width: 33%;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.three-reasons-row .reason-box .icon {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  fill: white;
+}
+.three-reasons-row .reason-box h5 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.three-reasons-row .reason-box p {
+  color: white;
+  font-weight: bolder;
+}
+
+@media (max-width: 767.98px) {
+  .three-reasons-row {
+    display: none;
+  }
+  .three-reasons-swiper {
+    display: block;
+    padding-bottom: 2rem;
+  }
+  .three-reasons-swiper .swiper-slide {
+    width: 66% !important;
+  }
+  .three-reasons-swiper .swiper-slide .reason-box {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 100%;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media (max-width: 767.98px) and (max-width: 575.98px) {
+  .three-reasons-swiper .swiper-slide .reason-box {
+    padding: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .three-reasons-swiper .swiper-slide .reason-box .icon {
+    width: 5rem;
+    aspect-ratio: 1/1;
+    fill: white;
+  }
+  .three-reasons-swiper .swiper-slide .reason-box h5 {
+    color: white;
+    font-family: "Shin-Maru-GP-Bold";
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  .three-reasons-swiper .swiper-slide .reason-box p {
+    color: white;
+    font-weight: bolder;
+  }
+}
+.prefecture-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  position: relative;
+}
+.prefecture-wrapper h3 {
+  font-size: 1.5rem;
+}
+.prefecture-wrapper svg {
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 767.98px) {
+  .prefecture-wrapper {
+    padding: 1rem;
+    padding-top: 0;
+  }
+}
+.prefecture-wrapper .prefecture {
+  position: relative;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: calc(50% - 0.5rem);
+}
+.prefecture-wrapper .prefecture .prefecture-header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1rem;
+  padding: 0.5rem 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+}
+.prefecture-wrapper .prefecture .prefecture-header svg {
+  width: 2rem;
+  height: auto;
+  padding-right: 0.5rem;
+}
+.prefecture-wrapper .prefecture .prefecture-header h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 0;
+  padding-bottom: 0.25rem;
+}
+.prefecture-wrapper .prefecture .wards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+.prefecture-wrapper .prefecture .wards-container .ward {
+  display: block;
+  width: calc(50% - 0.5rem);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.prefecture-wrapper .prefecture .wards-container .ward h3 {
+  margin: 0;
+}
+.prefecture-wrapper .prefecture .wards-container .ward h3 svg {
+  width: 1rem;
+  height: 1rem;
+}
+.prefecture-wrapper .prefecture .wards-container .ward ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo {
+  width: 100%;
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo .wards-container .ward {
+  width: calc(25% - 0.75rem);
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo .prefecture-header {
+  background-color: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo .prefecture-header h2 {
+  color: white;
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo .prefecture-header svg .map-pin-3-main-color {
+  fill: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-tokyo h3, .prefecture-wrapper .prefecture.prefecture-tokyo svg {
+  color: unset;
+  fill: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-kanagawa .prefecture-header {
+  background-color: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-kanagawa .prefecture-header h2 {
+  color: white;
+}
+.prefecture-wrapper .prefecture.prefecture-kanagawa .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-wrapper .prefecture.prefecture-kanagawa .prefecture-header svg .map-pin-3-main-color {
+  fill: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-kanagawa h3, .prefecture-wrapper .prefecture.prefecture-kanagawa svg {
+  color: unset;
+  fill: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-chiba .prefecture-header {
+  background-color: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-chiba .prefecture-header h2 {
+  color: white;
+}
+.prefecture-wrapper .prefecture.prefecture-chiba .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-wrapper .prefecture.prefecture-chiba .prefecture-header svg .map-pin-3-main-color {
+  fill: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-chiba h3, .prefecture-wrapper .prefecture.prefecture-chiba svg {
+  color: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-saitama .prefecture-header {
+  background-color: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-saitama .prefecture-header h2 {
+  color: white;
+}
+.prefecture-wrapper .prefecture.prefecture-saitama .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-wrapper .prefecture.prefecture-saitama .prefecture-header svg .map-pin-3-main-color {
+  fill: unset;
+}
+.prefecture-wrapper .prefecture.prefecture-saitama h3, .prefecture-wrapper .prefecture.prefecture-saitama svg {
+  color: unset;
+}
+@media screen and (max-width: 991.9px) {
+  .prefecture-wrapper .prefecture {
+    width: 100%;
+  }
+  .prefecture-wrapper .prefecture .wards-container .ward {
+    width: calc(50% - 0.5rem);
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .prefecture-wrapper .prefecture {
+    width: 100%;
+    padding: 0;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    gap: 0rem;
+  }
+  .prefecture-wrapper .prefecture .prefecture-header {
+    margin: unset;
+    padding: 1rem;
+    border-radius: 0;
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-bottom: 0.8rem;
+  }
+  .prefecture-wrapper .prefecture .wards-container {
+    padding: 0 1rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    display: flex;
+    flex-direction: column;
+  }
+  .prefecture-wrapper .prefecture .wards-container .ward {
+    width: 100% !important;
+    margin: unset;
+    background-color: white;
+  }
+  .prefecture-wrapper .prefecture .wards-container .ward ul li {
+    padding: 0.25rem 0;
+  }
+  .prefecture-wrapper .prefecture.expanded .wards-container {
+    max-height: 2000px;
+    padding: 1rem;
+  }
+}
+
+.cta-party-times {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding-bottom: 2rem;
+}
+.cta-party-times .party-times-box {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2rem;
+  padding-bottom: 1rem;
+  background-color: #EF8200;
+}
+.cta-party-times .party-times-box h2, .cta-party-times .party-times-box h3, .cta-party-times .party-times-box p {
+  text-align: center;
+}
+.cta-party-times .party-times-box h2 {
+  padding-bottom: 1rem;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.cta-party-times .party-times-box h3 {
+  font-family: "Shin-Maru-GP-DeBold";
+  padding-bottom: 1rem;
+}
+.cta-party-times .party-times-box p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.cta-party-times .party-times-box p a {
+  color: white;
+}
+@media (max-width: 575.98px) {
+  .cta-party-times .party-times-box p {
+    font-size: 1rem;
+  }
+}
+.cta-party-times .cta-primary {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lower-cta {
+  background-color: #EF8200;
+}
+.lower-cta .lower-cta-contents {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.lower-cta .lower-cta-contents .image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-cta .lower-cta-contents .image img {
+  margin: auto;
+}
+.lower-cta .lower-cta-contents .text {
+  width: 60%;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-left: 0;
+}
+.lower-cta .lower-cta-contents .text h2 {
+  text-align: left;
+  padding-bottom: 1rem;
+  margin-left: 10%;
+}
+.lower-cta .lower-cta-contents .text .cta-button {
+  margin: auto;
+  margin-left: 10%;
+}
+@media screen and (max-width: 767.98px) {
+  .lower-cta .lower-cta-contents .image {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lower-cta .lower-cta-contents .image img {
+    margin: auto;
+  }
+  .lower-cta .lower-cta-contents .text {
+    width: 70%;
+  }
+  .lower-cta .lower-cta-contents .text h2 {
+    margin-left: 5%;
+  }
+  .lower-cta .lower-cta-contents .text .cta-button {
+    margin-left: 5%;
+  }
+}
+@media (max-width: 575.98px) {
+  .lower-cta .lower-cta-contents {
+    flex-direction: column;
+  }
+  .lower-cta .lower-cta-contents .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .lower-cta .lower-cta-contents .image img {
+    margin: auto;
+  }
+  .lower-cta .lower-cta-contents .text {
+    width: 100%;
+  }
+  .lower-cta .lower-cta-contents .text h2 {
+    margin-left: unset;
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    font-size: 1.3rem;
+  }
+  .lower-cta .lower-cta-contents .text .cta-button {
+    margin: auto;
+  }
+}
+
+/* Swiper Container Styling */
+.gallery-swiper {
+  width: 100%; /* Swiper container is full width */
+  height: auto;
+}
+
+.swiper-slide {
+  /* Center the content (the container div) within the slide */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Let Swiper control the width of the slide itself */
+  width: auto;
+  aspect-ratio: 3/2;
+  border-radius: 2rem;
+  overflow: hidden;
+  background-color: #EF8200;
+  border: solid white 1rem;
+}
+
+.swiper-slide .container {
+  padding: 0;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  cursor: pointer;
+  margin: auto;
+}
+
+/* Custom Navigation Styling */
+.gallery-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding-top: 0.5rem;
+}
+
+.gallery-nav-prev,
+.gallery-nav-next {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  width: 4rem;
+  transition: ease-in-out 0.2s;
+  opacity: 0.9;
+}
+.gallery-nav-prev .swiper-button-bg,
+.gallery-nav-next .swiper-button-bg {
+  fill: #EF8200;
+}
+.gallery-nav-prev .swiper-button-arrow,
+.gallery-nav-next .swiper-button-arrow {
+  fill: white;
+}
+
+.gallery-nav-prev:hover,
+.gallery-nav-next:hover {
+  opacity: 0.6;
+}
+
+/* Modal Styling */
+.image-modal {
+  display: none; /* Hidden by default */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.image-modal.show {
+  display: flex; /* Show the modal */
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(51, 51, 51, 0.7); /* Corresponds to --kidsup-gray at 66% opacity */
+}
+
+.modal-content {
+  margin: auto;
+  display: block;
+  max-width: 90%;
+  max-height: 90%;
+  z-index: 9999; /* Above the background */
+}
+
+.close-modal {
+  position: absolute;
+  top: 6rem;
+  right: 1rem;
+  color: white;
+  background-color: #EF8200;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 9003; /* Above the image */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1;
+}
+
+.sign-up {
+  margin-bottom: 1rem;
+}
+.sign-up .sign-up-row {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.sign-up .sign-up-row .step {
+  width: 33.3333333333%;
+}
+.sign-up .sign-up-row .step .step-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin-bottom: 1rem;
+}
+.sign-up .sign-up-row .step .step-image .sign-up-bg {
+  fill: white;
+}
+.sign-up .sign-up-row .step .step-image .sign-up-main-colour {
+  fill: #EF8200;
+}
+.sign-up .sign-up-row .step .step-image .sign-up-stroke {
+  fill: #5A534A;
+}
+.sign-up .sign-up-row .step h3 {
+  margin-bottom: 1rem;
+  font-size: 1.75rem;
+}
+.sign-up .button-box {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  justify-content: space-between;
+  width: 60%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.sign-up .button-box .cta-button {
+  width: 40%;
+}
+@media (max-width: 1399.98px) {
+  .sign-up .button-box {
+    width: 65%;
+  }
+}
+@media (max-width: 1199.98px) {
+  .sign-up .button-box {
+    width: 75%;
+  }
+}
+@media (max-width: 991.98px) {
+  .sign-up .button-box {
+    width: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .sign-up .sign-up-row {
+    flex-direction: column;
+  }
+  .sign-up .sign-up-row .step {
+    width: 100%;
+  }
+  .sign-up .button-box {
+    flex-direction: column;
+    justify-content: unset;
+    gap: 1rem;
+  }
+  .sign-up .button-box .cta-button {
+    width: 100%;
+    max-width: 425px;
+  }
+}
+
+.bottom {
+  background-color: #5A534A;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.bottom h3 {
+  font-size: 1.5rem;
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+  padding-top: 1rem;
+}
+.bottom p {
+  text-align: center;
+  color: white;
+}
+.bottom .bottom-image {
+  display: flex;
+  width: 50%;
+  margin: auto;
+}/*# sourceMappingURL=event-pages-common.css.map */

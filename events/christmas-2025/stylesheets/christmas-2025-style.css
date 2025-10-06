@@ -1,0 +1,1978 @@
+@charset "UTF-8";
+html {
+  background-color: #852221;
+}
+
+body {
+  background-color: #ce2b27;
+}
+
+nav {
+  background-color: #ce2b27;
+}
+nav .nav-links .button {
+  background-color: unset;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+nav .nav-links .button-1 {
+  background-color: #d2ac5f;
+  background-image: url(../images/generic-images/stars-bg.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+nav .nav-links .button-1:hover {
+  opacity: 1;
+  background-color: rgb(198.243902439, 151.1609756098, 55.756097561) !important;
+}
+nav .nav-links .button-1:active {
+  opacity: 0.6;
+}
+nav .nav-links .button-2 {
+  background-color: #ce2b27;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+nav .nav-links .button-2:hover {
+  opacity: 1;
+  background-color: rgb(163.1183673469, 34.0489795918, 30.8816326531) !important;
+}
+nav .nav-links .button-2:active {
+  opacity: 0.6;
+}
+nav .nav-links .button-3 {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+nav .nav-links .button-3:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+}
+nav .nav-links .button-3:active {
+  opacity: 0.6;
+}
+@media (max-width: 767.98px) {
+  nav .nav-toggle {
+    background-color: #852221;
+  }
+  nav .nav-links {
+    background-color: #852221;
+  }
+  nav .sticky-cta {
+    background-color: #13a457;
+    background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+    background-size: 30rem;
+    border-top: solid #d2ac5f 3px;
+  }
+  nav .sticky-cta .button-4 {
+    font-family: "Shin-Maru-GP-Ultra";
+    font-size: 1.5rem;
+    background-color: #ce2b27;
+    background-image: url(../images/generic-images/polka-dots.svg);
+    background-size: 30rem;
+    background-position: top center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 3rem;
+  }
+  nav .sticky-cta .button-4:hover {
+    opacity: 1;
+    background-color: rgb(163.1183673469, 34.0489795918, 30.8816326531) !important;
+  }
+  nav .sticky-cta .button-4:active {
+    opacity: 0.6;
+  }
+}
+
+.hero {
+  background-color: #ce2b27;
+  background: linear-gradient(180deg, rgb(206, 43, 39) 10%, rgb(133, 34, 33) 100%);
+}
+@media (max-width: 575.98px) {
+  .hero {
+    height: auto !important;
+  }
+}
+.hero .hero-top {
+  width: 100%;
+  height: 33.3333333333%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  position: relative;
+}
+.hero .hero-top .logo-box {
+  width: 45%;
+  height: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .hero-top .logo-box .hero-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 18rem;
+  padding: 1rem;
+}
+.hero .hero-top .text-box {
+  width: 55%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.hero .hero-top .text-box h1 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  text-align: left;
+  font-size: 2.5rem;
+}
+.hero .hero-top .text-box .hero-date {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.5rem;
+}
+.hero .hero-top .text-box .p-sub {
+  color: white;
+}
+.hero .hero-top .text-box h2 {
+  padding-left: 0;
+  margin-left: 0 !important;
+  font-family: "Noto Sans JP", "Noto Sans SC", "Noto Sans", "Noto Serif JP", "Noto Serif SC", serif;
+  color: white;
+  font-size: 1.5rem;
+  text-align: left;
+}
+@media (max-width: 1199.98px) {
+  .hero .hero-top .logo-box {
+    width: 40%;
+  }
+  .hero .hero-top .logo-box .hero-logo {
+    max-height: 16rem;
+  }
+  .hero .hero-top .text-box {
+    width: 60%;
+  }
+  .hero .hero-top .text-box h1 {
+    font-size: 1.75rem;
+  }
+  .hero .hero-top .text-box .hero-date {
+    font-size: 1.25rem;
+  }
+  .hero .hero-top .text-box h2 {
+    padding-left: 0;
+    margin-left: 0 !important;
+    font-family: "Noto Sans JP", "Noto Sans SC", "Noto Sans", "Noto Serif JP", "Noto Serif SC", serif;
+    color: white;
+    font-size: 1.25rem;
+    text-align: left;
+  }
+}
+@media (max-width: 990.98px) {
+  .hero .hero-top .logo-box {
+    width: 40%;
+  }
+  .hero .hero-top .text-box {
+    width: 60%;
+  }
+  .hero .hero-top .text-box h1 {
+    font-family: "Shin-Maru-GP-Ultra";
+    color: white;
+    text-align: left;
+    font-size: 1.5rem;
+  }
+  .hero .hero-top .text-box .hero-date {
+    color: white;
+    font-family: "Shin-Maru-GP-Bold";
+    font-size: 1.25rem;
+  }
+  .hero .hero-top .text-box .p-sub {
+    color: white;
+  }
+  .hero .hero-top .text-box h2 {
+    padding-left: 0;
+    margin-left: 0 !important;
+    font-family: "Noto Sans JP", "Noto Sans SC", "Noto Sans", "Noto Serif JP", "Noto Serif SC", serif;
+    color: white;
+    font-size: 1.2rem;
+    text-align: left;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero .hero-top {
+    flex-direction: column;
+    height: auto;
+  }
+  .hero .hero-top .logo-box,
+  .hero .hero-top .text-box {
+    width: 100%;
+  }
+  .hero .hero-top .logo-box .hero-logo {
+    max-width: 70%;
+    height: auto;
+    padding: 0;
+  }
+  .hero .hero-top .text-box {
+    width: 95%;
+    margin: auto;
+  }
+  .hero .hero-top .text-box h1 {
+    text-align: center;
+    font-size: clamp(1.3rem, 0.7308rem + 1.6026vw, 1.75rem);
+    justify-content: center;
+    margin: auto;
+  }
+  .hero .hero-top .text-box .hero-date {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: clamp(1.15rem, 0.7308rem + 1.6026vw, 1.5rem);
+  }
+  .hero .hero-top .text-box .p-sub {
+    text-align: center;
+    margin: auto;
+    display: flex;
+  }
+  .hero .hero-top .text-box h2 {
+    text-align: center;
+    font-size: clamp(1rem, 0.7308rem + 1.6026vw, 1.25rem);
+  }
+}
+.hero .hero-mid {
+  margin-top: 1rem;
+  display: flex;
+  height: 50%;
+  width: 100%;
+  gap: 1rem;
+  overflow: hidden;
+  /* states controlled by JS */
+}
+.hero .hero-mid .time-break {
+  display: none;
+}
+.hero .hero-mid .santas-workshop,
+.hero .hero-mid .christmas-market {
+  flex: 1 1 50%;
+  transition: flex-basis 0.6s cubic-bezier(0.25, 1, 0.3, 1);
+  cursor: pointer;
+  max-width: 1920px;
+  border-width: 0.5rem;
+  border-style: solid;
+  border-color: white;
+  padding: 2rem;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero .hero-mid .santas-workshop .hero-logo,
+.hero .hero-mid .christmas-market .hero-logo {
+  max-height: 30%;
+}
+.hero .hero-mid .santas-workshop .inner-contents,
+.hero .hero-mid .christmas-market .inner-contents {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: auto;
+}
+.hero .hero-mid .santas-workshop .inner-contents .hero-side,
+.hero .hero-mid .christmas-market .inner-contents .hero-side {
+  width: 12.5rem;
+  margin: auto;
+}
+.hero .hero-mid .santas-workshop .inner-contents .hero-center,
+.hero .hero-mid .christmas-market .inner-contents .hero-center {
+  display: flex;
+  width: 12.5rem;
+  margin: auto;
+}
+.hero .hero-mid .santas-workshop {
+  border-left: none;
+  border-radius: 0rem 2rem 2rem 0rem;
+  background-image: url(../images/hero-images/workshop-bg.jpg);
+}
+.hero .hero-mid .santas-workshop h3 {
+  background-color: white;
+  color: #ce2b27;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.hero .hero-mid .christmas-market {
+  border-right: none;
+  background-color: green;
+  border-radius: 2rem 0rem 0rem 2rem;
+  background-image: url(../images/hero-images/market-bg.jpg);
+}
+.hero .hero-mid .christmas-market h3 {
+  background-color: #13a457;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+@media (max-width: 990.98px) {
+  .hero .hero-mid .time-break {
+    display: block;
+  }
+}
+.hero .hero-mid .active {
+  flex-basis: 80%;
+  max-width: unset;
+}
+.hero .hero-mid .inactive {
+  flex-basis: 20%;
+}
+@media (max-width: 575.98px) {
+  .hero .hero-mid {
+    height: 20rem;
+  }
+  .hero .hero-mid .santas-workshop, .hero .hero-mid .christmas-market {
+    padding: 0.5rem;
+  }
+  .hero .hero-mid .santas-workshop .hero-logo, .hero .hero-mid .christmas-market .hero-logo {
+    max-height: 20%;
+  }
+  .hero .hero-mid .santas-workshop h3, .hero .hero-mid .christmas-market h3 {
+    font-size: 1rem;
+  }
+  .hero .hero-mid .active {
+    flex-basis: 100%;
+    padding: 1rem;
+  }
+  .hero .hero-mid .inactive {
+    flex-basis: 0%;
+    padding: 0.75rem;
+  }
+}
+@media (max-width: 374.98px) {
+  .hero .hero-mid .santas-workshop h3, .hero .hero-mid .christmas-market h3 {
+    font-size: 0.75rem;
+  }
+}
+.hero .show-both {
+  display: block;
+}
+.hero .inactive .show-both {
+  display: none;
+}
+.hero .show-accordion {
+  display: none;
+}
+.hero .show-accordion.visible {
+  display: block;
+  width: 100%;
+  background-color: red;
+}
+.hero .hero-bottom {
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.hero .cta-primary {
+  border: solid 0.15rem white;
+  background-color: #ce2b27;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 30rem;
+  background-position: top center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  transition: 0.3s;
+  justify-content: center;
+}
+.hero .cta-primary:hover {
+  opacity: 1;
+  background-color: rgb(163.1183673469, 34.0489795918, 30.8816326531) !important;
+  border-color: white;
+}
+.hero .cta-primary:active {
+  opacity: 0.6;
+}
+@media (max-width: 575.98px) {
+  .hero .cta-primary {
+    width: 90%;
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
+.party-event-about {
+  background-color: #852221;
+  padding-top: 0rem;
+}
+.party-event-about .about-images {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: auto;
+}
+.party-event-about .text h2 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+}
+.party-event-about .text p {
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  padding-left: 0;
+}
+.party-event-about .text .cta-secondary {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: cover;
+  border: solid 0.15rem white;
+  transition: 0.3s;
+}
+.party-event-about .text .cta-secondary:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+  border-color: white;
+}
+
+.reason-box-1, .reason-box-2, .reason-box-3 {
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+  background-size: 300%;
+}
+
+.reason-box-1 {
+  background-color: #ce2b27;
+  background-image: url(../images/generic-images/polka-dots.svg);
+}
+
+.reason-box-2 {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+}
+
+.reason-box-3 {
+  background-color: #d2ac5f;
+  background-image: url(../images/generic-images/stars-bg.svg);
+}
+
+.three-reasons-swiper {
+  background-color: #852221;
+}
+
+.schools-list {
+  background-color: #852221;
+  background-image: url(../images/about-event/about-event-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.schools-list .prefecture-tokyo {
+  background-color: #B25C5C !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+}
+.schools-list .prefecture-tokyo .prefecture-header {
+  background-color: #B25C5C !important;
+  color: #B25C5C;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-tokyo .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #B25C5C;
+}
+.schools-list .prefecture-tokyo .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-tokyo .ward h3, .schools-list .prefecture-tokyo .ward h3 svg {
+  color: #B25C5C;
+  fill: #B25C5C;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-tokyo .ward ul li {
+  color: #B25C5C;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-tokyo {
+    background-color: #B25C5C;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-tokyo .prefecture-header {
+    background-color: #B25C5C;
+    color: #B25C5C;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward h3, .schools-list .prefecture-tokyo .wards-container .ward h3 svg {
+    color: #B25C5C;
+    fill: #B25C5C;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward ul li {
+    color: #B25C5C;
+  }
+}
+.schools-list .prefecture-kanagawa {
+  background-color: #5A7D9A !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+}
+.schools-list .prefecture-kanagawa .prefecture-header {
+  background-color: #5A7D9A !important;
+  color: #5A7D9A;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-kanagawa .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #5A7D9A;
+}
+.schools-list .prefecture-kanagawa .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-kanagawa .ward h3, .schools-list .prefecture-kanagawa .ward h3 svg {
+  color: #5A7D9A;
+  fill: #5A7D9A;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-kanagawa .ward ul li {
+  color: #5A7D9A;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-kanagawa {
+    background-color: #5A7D9A;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-kanagawa .prefecture-header {
+    background-color: #5A7D9A;
+    color: #5A7D9A;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward h3, .schools-list .prefecture-kanagawa .wards-container .ward h3 svg {
+    color: #5A7D9A;
+    fill: #5A7D9A;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward ul li {
+    color: #5A7D9A;
+  }
+}
+.schools-list .prefecture-chiba {
+  background-color: #DAA520 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+}
+.schools-list .prefecture-chiba .prefecture-header {
+  background-color: #DAA520 !important;
+  color: #DAA520;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-chiba .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #DAA520;
+}
+.schools-list .prefecture-chiba .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-chiba .ward h3, .schools-list .prefecture-chiba .ward h3 svg {
+  color: #DAA520;
+  fill: #DAA520;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-chiba .ward ul li {
+  color: #DAA520;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-chiba {
+    background-color: #DAA520;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-chiba .prefecture-header {
+    background-color: #DAA520;
+    color: #DAA520;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward h3, .schools-list .prefecture-chiba .wards-container .ward h3 svg {
+    color: #DAA520;
+    fill: #DAA520;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-chiba .wards-container .ward ul li {
+    color: #DAA520;
+  }
+}
+.schools-list .prefecture-saitama {
+  background-color: #6B8E72 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+}
+.schools-list .prefecture-saitama .prefecture-header {
+  background-color: #6B8E72 !important;
+  color: #6B8E72;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-saitama .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #6B8E72;
+}
+.schools-list .prefecture-saitama .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-saitama .ward h3, .schools-list .prefecture-saitama .ward h3 svg {
+  color: #6B8E72;
+  fill: #6B8E72;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-saitama .ward ul li {
+  color: #6B8E72;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-saitama {
+    background-color: #6B8E72;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-saitama .prefecture-header {
+    background-color: #6B8E72;
+    color: #6B8E72;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward h3, .schools-list .prefecture-saitama .wards-container .ward h3 svg {
+    color: #6B8E72;
+    fill: #6B8E72;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-saitama .wards-container .ward ul li {
+    color: #6B8E72;
+  }
+}
+
+.party-logo-times-row {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.party-logo-times-row .logo-box {
+  width: 55%;
+  margin: auto;
+}
+@media screen and (max-width: 575.9px) {
+  .party-logo-times-row .logo-box {
+    width: 90%;
+  }
+}
+.party-logo-times-row .time-box {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  flex-direction: row;
+}
+.party-logo-times-row .time-box h3 {
+  font-family: "Shin-Maru-GP-Ultra";
+}
+@media screen and (max-width: 475.9px) {
+  .party-logo-times-row .time-box {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .party-logo-times-row .time-box h3 {
+    padding: unset;
+    font-size: 1.5rem;
+  }
+}
+.party-logo-times-row .time-disclaimer {
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.party-1 {
+  background-image: url("../images/santa-workshop/party-1-bg-top.svg"), url("../images/santa-workshop/party-1-bg-bottom.svg"), url("../images/santa-workshop/workshop-background.webp");
+  background-size: 105%, 105%, cover;
+  background-position: top, bottom, center center;
+  background-repeat: no-repeat;
+  padding-top: calc(11.7416642782% + 2rem); /* ≈ 11.74% */
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+}
+.party-1 .time-disclaimer {
+  color: #ce2b27;
+  font-weight: bold;
+  background-color: white;
+}
+.party-1 .party-textbox {
+  background-color: #ce2b27;
+  box-shadow: 0px 0px 105px 10px rgba(42, 17, 23, 0.9);
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 0.5rem;
+  border-color: #d2ac5f;
+  padding: 2rem;
+}
+.party-1 .party-textbox h3 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0px 5px 0px #852221);
+}
+.party-1 .party-textbox p {
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .party-textbox {
+    padding: 1rem;
+  }
+}
+.party-1 .activity-img {
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  background-color: #d2ac5f;
+}
+.party-1 .party-logo-times-row {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.party-1 .party-logo-times-row .logo-box {
+  width: 55%;
+  margin: auto;
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .party-logo-times-row .logo-box {
+    width: 90%;
+  }
+}
+.party-1 .party-logo-times-row .time-box {
+  background-color: white;
+  box-shadow: 0 0 3.25rem 1rem #852221;
+}
+.party-1 .party-logo-times-row .time-box h3 {
+  color: #ce2b27;
+  padding: 1rem;
+}
+.party-1 .meet-santa {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 12/7;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.party-1 .meet-santa .activity-img {
+  position: absolute;
+  margin: 3rem;
+  transform-origin: center;
+  rotate: 10deg;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  left: 55%;
+  top: 50%;
+}
+.party-1 .meet-santa .activity-img .img-fluid {
+  position: relative;
+  border-radius: 2rem;
+  height: 66%;
+  width: auto;
+  z-index: 1;
+  margin-bottom: 0 !important;
+}
+.party-1 .meet-santa .party-textbox {
+  position: relative;
+  width: 35%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: -5deg;
+  margin-left: 15%;
+}
+.party-1 .meet-santa .party-textbox p {
+  margin-right: 3rem;
+}
+.party-1 .meet-santa .party-textbox .decoration-present {
+  position: absolute;
+  transform: translate(-50%, -75%);
+  left: 100%;
+  top: 100%;
+  width: 7.5rem;
+  rotate: 10deg;
+  transform-origin: center, center;
+}
+@media screen and (max-width: 1399.98px) {
+  .party-1 .meet-santa .party-textbox {
+    width: 40%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .party-1 .meet-santa {
+    aspect-ratio: 12/9;
+  }
+  .party-1 .meet-santa .activity-img {
+    width: 60%;
+  }
+  .party-1 .meet-santa .party-textbox {
+    width: 45%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .party-1 .meet-santa .party-textbox {
+    width: 50%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .party-1 .meet-santa {
+    aspect-ratio: unset;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding-bottom: 4rem;
+  }
+  .party-1 .meet-santa .activity-img {
+    position: relative;
+    margin: 1rem;
+    transform-origin: center;
+    rotate: 10deg;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    top: unset;
+    margin-bottom: -5rem;
+  }
+  .party-1 .meet-santa .activity-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .party-1 .meet-santa .party-textbox {
+    width: 100%;
+  }
+  .party-1 .meet-santa .party-textbox p {
+    margin-right: unset;
+  }
+  .party-1 .meet-santa .party-textbox .decoration-present {
+    position: absolute;
+    transform: translate(-50%, -10%);
+    left: 85%;
+    top: 100%;
+    width: 6.5rem;
+    rotate: 20deg;
+    transform-origin: center, center;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .meet-santa .activity-img {
+    margin-bottom: -3rem;
+  }
+}
+.party-1 .pass-the-parcel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9/4;
+  display: flex;
+  align-items: center;
+}
+.party-1 .pass-the-parcel .activity-img {
+  position: absolute;
+  margin: 0rem;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  left: 35%;
+  top: 45%;
+  rotate: -7deg;
+}
+.party-1 .pass-the-parcel .activity-img .img-fluid {
+  position: relative;
+  border-radius: 2rem;
+  height: 66%;
+  width: auto;
+  z-index: 1;
+  margin-bottom: 0 !important;
+}
+.party-1 .pass-the-parcel .party-textbox {
+  position: relative;
+  width: 40%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: 5deg;
+  margin-right: 10%;
+  margin-left: auto;
+}
+.party-1 .pass-the-parcel .party-textbox .decoration-stars {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 8rem;
+  top: 75%;
+  left: 100%;
+}
+@media screen and (max-width: 1399.98px) {
+  .party-1 .pass-the-parcel .party-textbox {
+    rotate: 5deg;
+    margin-right: 5%;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .party-1 .pass-the-parcel {
+    aspect-ratio: 9/5;
+  }
+  .party-1 .pass-the-parcel .activity-img {
+    width: 55%;
+    transform: translate(10%, -50%);
+    left: 0%;
+    top: 50%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .party-1 .pass-the-parcel {
+    aspect-ratio: 9/6;
+  }
+  .party-1 .pass-the-parcel .party-textbox {
+    width: 40%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .party-1 .pass-the-parcel {
+    aspect-ratio: unset;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding-bottom: 2rem;
+  }
+  .party-1 .pass-the-parcel .activity-img {
+    position: relative;
+    margin: 1rem;
+    transform-origin: center;
+    rotate: -4deg;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    top: unset;
+    margin-bottom: -2rem;
+  }
+  .party-1 .pass-the-parcel .activity-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .party-1 .pass-the-parcel .party-textbox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .pass-the-parcel .activity-img {
+    margin-bottom: -1rem;
+  }
+}
+.party-1 .ornament {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/1;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.party-1 .ornament .activity-img {
+  position: absolute;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  left: 65%;
+  top: 55%;
+  rotate: 7deg;
+}
+.party-1 .ornament .activity-img .img-fluid {
+  position: relative;
+  border-radius: 2rem;
+  margin-bottom: 0 !important;
+}
+.party-1 .ornament .party-textbox {
+  position: relative;
+  width: 40%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: -7deg;
+  margin-left: 10%;
+  margin-right: auto;
+}
+@media screen and (max-width: 1399.98px) {
+  .party-1 .ornament .party-textbox {
+    margin-left: 5%;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .party-1 .ornament {
+    aspect-ratio: 2/1.25;
+  }
+  .party-1 .ornament .activity-img {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .party-1 .ornament {
+    aspect-ratio: 2/1.5;
+  }
+  .party-1 .ornament .party-textbox {
+    width: 40%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .party-1 .ornament {
+    aspect-ratio: unset;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding-bottom: 2rem;
+  }
+  .party-1 .ornament .activity-img {
+    position: relative;
+    margin: 1rem;
+    transform-origin: center;
+    rotate: 3deg;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    top: unset;
+    margin-bottom: -2rem;
+  }
+  .party-1 .ornament .activity-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .party-1 .ornament .party-textbox {
+    width: 100%;
+    margin-left: unset;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .ornament .activity-img {
+    margin-bottom: -1rem;
+  }
+}
+
+.cta-party-times {
+  background: #DFB862;
+  background: linear-gradient(180deg, rgb(223, 184, 98) 10%, rgb(249, 240, 202) 35%, rgb(235, 229, 176) 57%, rgb(203, 163, 90) 90%);
+}
+.cta-party-times .party-times-box {
+  background-color: unset;
+}
+.cta-party-times .party-times-box h2 {
+  color: white;
+  -webkit-text-stroke: 10px #caa159;
+  text-stroke: 1rem #caa159;
+  paint-order: stroke fill;
+}
+.cta-party-times .party-times-box h3 {
+  color: white;
+  -webkit-text-stroke: 10px #caa159;
+  text-stroke: 1rem #caa159;
+  paint-order: stroke fill;
+}
+.cta-party-times .party-times-box p {
+  color: white;
+  background-color: #caa159;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.cta-party-times .cta-primary {
+  border: solid 0.15rem white;
+  background-color: #ce2b27;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 30rem;
+  background-position: top center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  transition: 0.3s;
+  justify-content: center;
+}
+.cta-party-times .cta-primary:hover {
+  opacity: 1;
+  background-color: rgb(163.1183673469, 34.0489795918, 30.8816326531) !important;
+  border-color: white;
+}
+.cta-party-times .cta-primary:active {
+  opacity: 0.6;
+}
+@media (max-width: 575.98px) {
+  .cta-party-times .cta-primary {
+    width: 90%;
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
+.party-2 {
+  background-image: url("../images/christmas-markets/party-2-bg-top.svg"), url("../images/santa-workshop/party-2-bg-bottom.svg"), url("../images/christmas-markets/christmas-market-bg.webp");
+  background-size: 105%, 105%, cover;
+  background-position: top, bottom, top center;
+  background-repeat: no-repeat;
+  padding-top: calc(6.0047881956% + 2rem); /* ≈ 11.74% */
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+}
+.party-2 .time-disclaimer {
+  color: white;
+  font-weight: bold;
+  background-color: #13a457;
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 30;
+}
+
+.time-box {
+  background-color: #13a457;
+  box-shadow: 0 0 2rem 1rem white;
+}
+.time-box h3 {
+  color: white;
+  padding: 1rem;
+}
+
+.christmas-games {
+  margin-top: 2rem;
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0px 105px 10px white;
+}
+.christmas-games .h3-box {
+  background-color: #d2ac5f;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0 0 2rem 2rem;
+}
+.christmas-games .h3-box h3 {
+  font-size: 3rem;
+  padding: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: white;
+  filter: drop-shadow(0px 5px 0px #cba159);
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.christmas-games .decoration-tickets-1, .christmas-games .decoration-tickets-2, .christmas-games .decoration-tickets-3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 25%;
+}
+.christmas-games .decoration-tickets-1 {
+  top: 7.5%;
+  left: 7.5%;
+}
+.christmas-games .decoration-tickets-2 {
+  top: 100%;
+  left: 60%;
+}
+.christmas-games .decoration-tickets-3 {
+  top: 7.5%;
+  left: 92.5%;
+}
+.christmas-games .card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.christmas-games .card-container .card {
+  background-color: #13a457;
+  border-radius: 2rem;
+  border: solid #127f40 0.5rem;
+  padding: 1rem;
+  filter: drop-shadow(0px 5px 0px rgba(19, 164, 87, 0.5019607843));
+}
+.christmas-games .card-container .card h3 {
+  color: white;
+  filter: drop-shadow(0px 5px 0px #127f40);
+  text-align: center;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.christmas-games .card-container .card .img-fluid {
+  padding: 2rem;
+}
+.christmas-games .card-container .card p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+}
+.christmas-games .card-container .top-trumps {
+  width: 45%;
+  position: relative;
+  padding: 1rem;
+}
+.christmas-games .card-container .top-trumps .card {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: -10deg;
+}
+.christmas-games .card-container .reindeer-game {
+  width: 55%;
+  position: relative;
+  padding: 1rem;
+}
+.christmas-games .card-container .reindeer-game .card {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: 7deg;
+}
+@media screen and (max-width: 1399.98px) {
+  .christmas-games .h3-box h3 {
+    font-size: 2rem;
+    padding: 3.00030003rem;
+    padding-left: 4.500450045rem;
+    padding-right: 4.500450045rem;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .christmas-games .h3-box {
+    border-radius: 0 0 1rem 1rem;
+  }
+  .christmas-games .h3-box h3 {
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .christmas-games {
+    background-size: cover;
+  }
+  .christmas-games .decoration-tickets-1, .christmas-games .decoration-tickets-2, .christmas-games .decoration-tickets-3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  .christmas-games .decoration-tickets-1 {
+    top: 45%;
+    left: 7.5%;
+  }
+  .christmas-games .decoration-tickets-2 {
+    top: 55%;
+    left: 100%;
+  }
+  .christmas-games .decoration-tickets-3 {
+    top: 100%;
+    left: 7.5%;
+  }
+  .christmas-games .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .christmas-games .card-container .card .img-fluid {
+    padding: unset;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .christmas-games .card-container .top-trumps, .christmas-games .card-container .reindeer-game {
+    width: 100%;
+  }
+}
+
+/* A new reusable class for the card styling */
+.card-style, .lower-container .raffle, .lower-container .snack-buffet {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  margin-top: 4rem;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 105px 10px white;
+}
+
+/* A new reusable class for the card styling */
+.card-style, .lower-container .raffle, .lower-container .snack-buffet {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  margin-top: 4rem;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 105px 10px white;
+}
+
+.lower-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  /* --- RESPONSIVE STYLES --- */
+}
+.lower-container h3 {
+  color: white;
+  filter: drop-shadow(0px 5px 0px #127f40);
+  text-align: center;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.lower-container p {
+  color: white;
+  font-weight: bolder;
+}
+.lower-container .snack-buffet {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.lower-container .snack-buffet .buffet-img {
+  width: 40%;
+  border-radius: 2rem 0 0 2rem;
+}
+.lower-container .snack-buffet .text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lower-container .raffle {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.lower-container .raffle h3 {
+  text-align: center;
+}
+.lower-container .raffle .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lower-container .raffle .text p {
+  text-align: center;
+}
+@media screen and (max-width: 767.98px) {
+  .lower-container {
+    /* FIX: This now correctly targets .lower-container */
+    flex-direction: column;
+    gap: 1rem;
+    /* IMPROVEMENT: Stack the snack-buffet content vertically on mobile */
+  }
+  .lower-container .card-style, .lower-container .snack-buffet, .lower-container .raffle {
+    box-shadow: 0px 0px 45px 5px white;
+  }
+  .lower-container .snack-buffet, .lower-container .raffle {
+    width: 100%;
+  }
+  .lower-container .snack-buffet {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center; /* Optional: centers the content */
+    /* IMPROVEMENT: Adjust border-radius for the stacked layout */
+  }
+  .lower-container .snack-buffet .buffet-img, .lower-container .snack-buffet .text {
+    width: 100%;
+  }
+  .lower-container .snack-buffet .buffet-img {
+    border-radius: 2rem 2rem 0 0;
+  }
+  .lower-container .raffle {
+    margin-top: unset;
+  }
+}
+
+/* ALL PARTIES (Final Refinements) */
+.all-parties .features .feature-3 .text, .all-parties .features .feature-2 .text, .all-parties .features .feature-1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 55%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.all-parties .features .feature-3 .text h3, .all-parties .features .feature-2 .text h3, .all-parties .features .feature-1 .text h3 {
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+}
+.all-parties .features .feature-3 .text p, .all-parties .features .feature-2 .text p, .all-parties .features .feature-1 .text p {
+  font-weight: bold;
+}
+@media screen and (max-width: 991.98px) {
+  .all-parties .features .feature-3 .text, .all-parties .features .feature-2 .text, .all-parties .features .feature-1 .text {
+    width: 60%;
+    max-width: none;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-3 .text, .all-parties .features .feature-2 .text, .all-parties .features .feature-1 .text {
+    width: 100%;
+  }
+}
+
+.all-parties {
+  background-color: #ece5d9;
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+  background-image: url(../images/all-parties/all-parties-transition-bottom.svg);
+  background-position: bottom;
+  background-size: 105%;
+  background-repeat: no-repeat;
+}
+.all-parties .transition-bar {
+  width: 100%;
+  height: 3rem;
+  background-color: #ce2b27;
+}
+.all-parties .title-box {
+  display: flex;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: #ce2b27;
+  margin-bottom: 1rem;
+}
+.all-parties .title-box .decoration-row {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.all-parties .title-box .christmas-lights {
+  width: 100%;
+}
+.all-parties .title-box h2 {
+  flex-shrink: 0;
+  margin: auto 1rem;
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+}
+.all-parties .title-box h2 .mobile-break {
+  display: none;
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .title-box h2 .mobile-break {
+    display: block;
+  }
+}
+.all-parties .both-parties-general {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ce2b27;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+}
+.all-parties .features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.all-parties .features > [class^=feature-] {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+}
+.all-parties .features .feature-1 .image,
+.all-parties .features .feature-1 .text {
+  width: 50%;
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-1 {
+    flex-direction: column-reverse;
+  }
+  .all-parties .features .feature-1 .image,
+  .all-parties .features .feature-1 .text {
+    width: 100%;
+  }
+}
+.all-parties .features .feature-1 .text {
+  background-color: #ce2b27;
+}
+.all-parties .features .feature-1 .text h3, .all-parties .features .feature-1 .text p {
+  color: white;
+}
+.all-parties .features .feature-2 .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  min-width: 45%;
+  max-width: 720px;
+  margin: auto;
+}
+.all-parties .features .feature-2 .images .ribbon {
+  z-index: 2;
+  margin-bottom: -5rem;
+}
+.all-parties .features .feature-2 .images .ribbon .ribbon-front {
+  fill: #ce2b27;
+}
+.all-parties .features .feature-2 .images .ribbon .ribbon-fold {
+  fill: #8a181a;
+}
+.all-parties .features .feature-2 .images .ribbon .ribbon-back {
+  fill: #c13630;
+}
+.all-parties .features .feature-2 .images .ribbon .svg-text {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 12px;
+  font-weight: 700;
+  fill: white;
+}
+.all-parties .features .feature-2 .images .photo {
+  width: 90%;
+  margin: auto;
+  border: solid 1rem whitesmoke;
+  rotate: -7deg;
+  z-index: 1;
+}
+.all-parties .features .feature-2 .text {
+  position: relative;
+  background-color: #13a457;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 300%;
+}
+.all-parties .features .feature-2 .text p {
+  color: white;
+}
+.all-parties .features .feature-2 .text .camera-decoration {
+  position: absolute;
+  width: 7.5rem;
+  top: 95%;
+  left: calc(100% - 3.75rem);
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-2 {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .all-parties .features .feature-2 .images {
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+  }
+}
+.all-parties .features .feature-3 .image {
+  width: 45%;
+  max-width: 720px;
+}
+.all-parties .features .feature-3 .text {
+  border: solid 0.15rem #13a457;
+}
+.all-parties .features .feature-3 .text h3 {
+  color: #ed2024;
+}
+.all-parties .features .feature-3 .text p {
+  color: #13a457;
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-3 {
+    flex-direction: column-reverse;
+  }
+  .all-parties .features .feature-3 .image {
+    width: 90%;
+  }
+}
+
+.lower-cta {
+  background-color: #ce2b27;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.lower-cta .lower-cta-contents .image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-cta .lower-cta-contents .image img {
+  width: 75%;
+}
+.lower-cta .lower-cta-contents .text h2 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  -webkit-text-stroke: 10px #852221;
+  text-stroke: 1rem #852221;
+  paint-order: stroke fill;
+  filter: drop-shadow(0px 5px 0px #852221);
+}
+.lower-cta .lower-cta-contents .text .cta-button {
+  border: solid 0.15rem white;
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.3s;
+  justify-content: center;
+}
+.lower-cta .lower-cta-contents .text .cta-button:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+  border-color: white;
+}
+.lower-cta .lower-cta-contents .text .cta-button:active {
+  opacity: 0.6;
+}
+@media (max-width: 575.98px) {
+  .lower-cta .lower-cta-contents .text .cta-button {
+    width: 90%;
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+@media (max-width: 575.98px) {
+  .lower-cta .lower-cta-contents .image {
+    width: 80%;
+  }
+}
+
+.gallery .gallery-nav-prev .swiper-button-bg,
+.gallery .gallery-nav-next .swiper-button-bg {
+  fill: #d2ac5f;
+}
+.gallery .gallery-nav-prev .swiper-button-arrow,
+.gallery .gallery-nav-next .swiper-button-arrow {
+  fill: white;
+}
+.gallery .close-modal {
+  background-color: #d2ac5f;
+}
+
+.sign-up h2 {
+  padding-top: 2rem;
+}
+.sign-up .sign-up-bg {
+  fill: white;
+}
+.sign-up .sign-up-main-colour {
+  fill: #852221 !important;
+}
+.sign-up .sign-up-stroke {
+  fill: #852221 !important;
+}
+.sign-up .button-1, .sign-up .button-2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 425px;
+  transition: ease-in-out 0.2s;
+  border: solid 0.15rem white;
+}
+.sign-up .button-1 {
+  background-color: #d2ac5f;
+  background-image: url(../images/generic-images/stars-bg.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.sign-up .button-1:hover {
+  opacity: 1;
+  background-color: rgb(198.243902439, 151.1609756098, 55.756097561) !important;
+}
+.sign-up .button-2 {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.sign-up .button-2:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+}
+
+.sign-up {
+  padding-top: 2rem;
+}
+.sign-up h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.sign-up h3 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  text-align: center;
+}
+.sign-up p {
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 767.98px), screen and (max-aspect-ratio: 1/1) {
+  .sign-up {
+    padding-top: 0rem;
+  }
+}
+
+.form-body {
+  background: linear-gradient(180deg, rgb(206, 43, 39) 10%, rgb(133, 34, 33) 100%);
+}
+.form-body .form-page {
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 7rem;
+}
+.form-body .form-page .logo-wrapper {
+  width: 35%;
+  padding: 2rem;
+}
+.form-body .form-page .logo-wrapper .logo {
+  width: 100%;
+  height: auto;
+}
+.form-body .form-page .mid-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.form-body .form-page .mid-wrapper h1 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.form-body .form-page .mid-wrapper .button-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+.form-body .form-page .mid-wrapper .button-box .cta-button {
+  border: solid white 0.15rem;
+  text-align: center;
+  justify-content: center;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-1, .form-body .form-page .mid-wrapper .button-box .btn-2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 425px;
+  transition: ease-in-out 0.2s;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-1 {
+  background-color: #d2ac5f;
+  background-image: url(../images/generic-images/stars-bg.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-1:hover {
+  opacity: 1;
+  background-color: rgb(198.243902439, 151.1609756098, 55.756097561) !important;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-2 {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-2:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-2:active {
+  opacity: 0.6;
+}
+.form-body .form-page .mid-wrapper p {
+  color: white;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-body .form-page .jot {
+  width: 30%;
+}
+@media screen and (max-width: 576.98px), screen and (max-aspect-ratio: 1/1) {
+  .form-body .form-page {
+    padding-top: 5rem;
+    flex-direction: column;
+  }
+  .form-body .form-page .logo-wrapper {
+    width: 100%;
+    padding-top: 0;
+  }
+  .form-body .form-page .logo-wrapper .logo {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding-top: 0 !important;
+  }
+  .form-body .form-page .mid-wrapper {
+    width: 100%;
+  }
+  .form-body .form-page .mid-wrapper h1 {
+    text-align: center;
+  }
+  .form-body .form-page .mid-wrapper .button-box {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .form-body .form-page .mid-wrapper .button-box .cta-button {
+    display: flex;
+    margin: auto;
+  }
+  .form-body .form-page .mid-wrapper .button-box p {
+    width: 80%;
+  }
+  .form-body .form-page .jot {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+.bottom {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/bottom-transition-top.svg), url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 105%, 300%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+}/*# sourceMappingURL=christmas-2025-style.css.map */

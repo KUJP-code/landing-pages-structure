@@ -19,7 +19,12 @@
 }
 
 
-
+.hero-img{
+    background-size: cover;
+    width: 40%;
+    aspect-ratio: 3 / 2 !important;
+    background-position: center center;
+}
 
 body {
   overflow-x: hidden;

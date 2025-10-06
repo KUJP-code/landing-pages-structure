@@ -1,0 +1,129 @@
+{
+"Tokyo": {
+"日本語": "東京都",
+"Ota Ward": {
+"日本語": "大田区",
+"schools": [
+"Kids UP 馬込",
+"Kids UP 大森",
+"Kids UP 長原",
+"Kids UP 池上",
+"Kids UP 蒲田駅前",
+"Kids UP 田園調布雪谷"
+]
+},
+"Koto Ward": {
+"日本語": "江東区",
+"schools": [
+"Kids UP りんかい東雲",
+"Kids UP 大島",
+"Kids UP 門前仲町",
+"Kids UP 東陽町"
+]
+},
+"Shinagawa Ward": {
+"日本語": "品川区",
+"schools": [
+"Kids UP 大井",
+"Kids UP 北品川",
+"Kids UP 戸越"
+]
+},
+"Setagaya Ward": {
+"日本語": "世田谷区",
+"schools": [
+"Kids UP 等々力",
+"Kids UP 成城"
+]
+},
+"Shinjuku Ward": {
+"日本語": "新宿区",
+"schools": [
+"Kids UP 四谷",
+"Kids UP 早稲田"
+]
+},
+"Toshima Ward": {
+"日本語": "豊島区",
+"schools": [
+"Kids UP 池袋",
+"Kids UP 要町"
+]
+},
+"Taito Ward": {
+"日本語": "台東区",
+"schools": [
+"Kids UP 上野"
+]
+},
+"Nakano Ward": {
+"日本語": "中野区",
+"schools": [
+"Kids UP 鷺ノ宮"
+]
+},
+"Musashino City": {
+"日本語": "三鷹市",
+"schools": [
+"Kids UP 三鷹"
+]
+},
+"Machida City": {
+"日本語": "町田市",
+"schools": [
+"Kids UP 南町田グランベリーパーク"
+]
+},
+"Kita Ward": {
+"日本語": "北区",
+"schools": [
+"Kids UP 赤羽"
+]
+}
+},
+"Kanagawa": {
+"日本語": "神奈川県",
+"Kawasaki City": {
+"日本語": "川崎市",
+"schools": [
+"Kids UP 新川崎",
+"Kids UP 溝の口",
+"Kids UP 矢向",
+"Kids UP 武蔵新城",
+"Kids UP 武蔵小杉"
+]
+},
+"Yokohama City": {
+"日本語": "横浜市",
+"schools": [
+"Kids UP 二俣川",
+"Kids UP 天王町",
+"Kids UP 大倉山"
+]
+}
+},
+"Chiba": {
+"日本語": "千葉県",
+"Ichikawa City": {
+"日本語": "市川市",
+"schools": [
+"Kids UP ソコラ南行徳"
+]
+},
+"Urayasu City": {
+"日本語": "浦安市",
+"schools": [
+"Kids UP 新浦安"
+]
+}
+},
+"Saitama": {
+"日本語": "埼玉県",
+"Kawaguchi City": {
+"日本語": "川口市",
+"schools": [
+"Kids UP 川口"
+]
+}
+}
+}

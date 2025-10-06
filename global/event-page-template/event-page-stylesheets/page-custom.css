@@ -1,0 +1,27 @@
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero h1 {
+  text-align: center;
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  max-width: 90%;
+}
+
+.div-1 {
+  height: 120vh;
+  background-color: #5A534A;
+}
+
+.div-2 {
+  height: 120vh;
+  background-color: antiquewhite;
+}
+
+.placeholder-img-4-3 {
+  width: 100%;
+  aspect-ratio: 4/3;
+  background-color: orange;
+}/*# sourceMappingURL=page-custom.css.map */

@@ -2532,25 +2532,24 @@ p{
     /* TIMES TABLE */
 
     .times-table{
-
-        margin-top: 2rem;
+    margin-top: 2rem;
         padding-bottom: 2rem;
 
-         .note{ 
-      color: $halloween-cream; 
-      font-size: 0.95rem; 
-      margin-bottom: 1.5rem; }
+    .note{ 
+    color: $halloween-cream; 
+    font-size: 0.95rem; 
+    margin-bottom: 1.5rem; }
 
     .block{ 
       background: $halloween-cream; 
-      border-radius: 16px; 
-      padding: 1rem; margin: 1rem 0 1.5rem; 
+      border-radius: 2rem; 
+      padding: 1rem;
       box-shadow: 0 1px 2px rgba(0,0,0,.05); 
     }
 
     .times{ 
       display: flex; 
-      gap: .5rem; 
+ 
       flex-wrap: wrap; 
       align-items: center; 
       border-bottom: .3rem dashed $halloween-cream;; 
@@ -2565,51 +2564,82 @@ p{
     }
 
     .chip{ display: inline-block; 
-      padding: .35rem .6rem; 
-      border-radius: 999px;
-      background: $halloween-dark-purple; 
-      border: 1px solid $halloween-light-purple; 
-      font-size: .9rem; 
-      color: $halloween-cream;
-      white-space: nowrap; 
-    font-family: "Noto Sans JP";
+        padding: .35rem .6rem; 
+        border-radius: 999px;
+        background: $halloween-dark-purple; 
+        border: 1px solid $halloween-light-purple; 
+        font-size: .9rem; 
+        color: $halloween-cream;
+        white-space: nowrap; 
+        font-family: "Noto Sans JP";
     }
 
     .day{ 
-      margin-top: 1rem; 
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        height: fit-content;
+        border-radius: 1.75rem;
     }
+
+
 
     .day h3{ 
-      display: inline-flex; 
-      color: $halloween-dark-purple;
-      align-items: center; 
-      gap: .5rem; 
-      font-size: 1.05rem; 
-      margin: 0 0 .5rem; 
+        display: block; 
+        color: $halloween-cream;
+        align-items: center; 
+        gap: .5rem;
+        font-size: 1.25rem; 
+        margin: auto;
+        width: fit-content;
+        margin-bottom: 1rem;
+        padding-top: 0rem;
+        width: calc(100% - 1rem);
+        min-width: 60%;
+        text-align: center;
+        max-width: 266.25px;
+        padding: 1rem;
+        border-radius: 1rem;
+
     }
 
-    .day h3 .dot{ width: .6rem; 
-      height: .6rem; 
-      background: $costume-party-orange; 
-      border-radius: 50%; 
-      display: inline-block; }
+
 
     .schools{ 
-      display: grid; 
-      grid-template-columns: repeat( auto-fit, minmax(220px, 1fr) ); 
-      gap: .5rem; 
+        display: grid; 
+        grid-template-columns: repeat( auto-fit, minmax(220px, 1fr) ); 
+        gap: 1rem; 
+        margin: auto;
+        padding: unset;
     }
 
     .schools li{ 
-      list-style: none; 
-      background: $halloween-dark-purple; 
-      border: 1px solid rgba(0,0,0,.08); 
-      border-radius: 12px; 
-      padding: .6rem .75rem; 
-      max-width: 239px;
-      text-align: center;
-      font-weight: bolder;
-      color: $halloween-cream;
+    list-style: none; 
+    margin: auto;
+    margin-top: 0;
+    background: $halloween-dark-purple; 
+    border-radius: 0.75rem; 
+    padding: .6rem .75rem; 
+    width: calc(100% - 2rem);
+    max-width: 266.25px;
+    text-align: center;
+    font-weight: bolder;
+    color: $halloween-cream;
+    height: fit-content;
+    font-size: 1rem; 
+    }
+
+
+
+    .day-1 .schools li, .day-1 h3 {
+        background: $halloween-light-purple;
+    }
+
+    .day-2 .schools li, .day-2 h3{
+        background: $costume-party-orange;
+    }
+
+        .day-3 .schools li, .day-3 h3{
+        background: $costume-party-green;
     }
 
     /* Utility: 2-column layout for paired dates in one block */
@@ -2636,6 +2666,10 @@ p{
         margin-left: auto;
         margin-right: auto;
         padding: unset;
+    }
+
+    .schools li{
+        width: 90%;
     }
        
     } }

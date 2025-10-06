@@ -1,0 +1,387 @@
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.container-fluid, .container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  width: 100%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  margin: 0;
+}
+
+.container {
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+.container-sm {
+  max-width: 100%;
+}
+@media (min-width: 576px) {
+  .container-sm {
+    max-width: 540px;
+  }
+}
+
+.container-md {
+  max-width: 100%;
+}
+@media (min-width: 768px) {
+  .container-md {
+    max-width: 720px;
+  }
+}
+
+.container-lg {
+  max-width: 100%;
+}
+@media (min-width: 992px) {
+  .container-lg {
+    max-width: 960px;
+  }
+}
+
+.container-xl {
+  max-width: 100%;
+}
+@media (min-width: 1200px) {
+  .container-xl {
+    max-width: 1140px;
+  }
+}
+
+.container-xxl {
+  max-width: 100%;
+}
+@media (min-width: 1400px) {
+  .container-xxl {
+    max-width: 1320px;
+  }
+}
+
+.prefecture-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  padding: 0;
+  position: relative;
+}
+.prefecture-wrapper .prefecture-header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 1rem;
+  padding: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  list-style: 1;
+  border-radius: 1rem;
+}
+.prefecture-wrapper .prefecture-header svg {
+  width: 2rem;
+  height: auto;
+  padding-right: 0.5rem;
+}
+.prefecture-wrapper .prefecture-header h2 {
+  font-size: 2rem;
+  font-weight: bolder;
+  line-height: 0;
+}
+.prefecture-wrapper h3 {
+  font-size: 1.5rem;
+}
+.prefecture-wrapper svg {
+  width: 2rem;
+  height: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.prefecture {
+  position: relative;
+  background: #f9f9f9;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: calc(50% - 2.5rem);
+}
+.prefecture .wards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  position: relative;
+}
+.prefecture .wards-container .ward {
+  display: block;
+  width: calc(50% - 2.5rem);
+  border-radius: 1rem;
+  padding: 1rem;
+}
+.prefecture .wards-container .ward h3 {
+  margin: 0;
+}
+.prefecture .wards-container .ward ul {
+  margin: 0;
+  padding-left: 1rem;
+}
+
+.prefecture-tokyo {
+  width: 100%;
+}
+.prefecture-tokyo .wards-container {
+  flex-direction: row;
+}
+.prefecture-tokyo .wards-container .ward {
+  width: calc(25% - 2.75rem);
+}
+
+.prefecture-tokyo .prefecture-header {
+  background-color: purple;
+}
+.prefecture-tokyo .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-tokyo .prefecture-header svg .map-pin-3-main-color {
+  fill: purple;
+}
+.prefecture-tokyo .prefecture-header h2 {
+  color: white;
+}
+.prefecture-tokyo h3 {
+  color: purple;
+}
+.prefecture-tokyo svg {
+  fill: purple;
+}
+
+.prefecture-kanagawa .prefecture-header {
+  background-color: #0055aa;
+}
+.prefecture-kanagawa .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-kanagawa .prefecture-header svg .map-pin-3-main-color {
+  fill: #0055aa;
+}
+.prefecture-kanagawa .prefecture-header h2 {
+  color: white;
+}
+.prefecture-kanagawa h3 {
+  color: #0055aa;
+}
+.prefecture-kanagawa svg {
+  fill: #0055aa;
+}
+
+.prefecture-chiba .prefecture-header {
+  background-color: #aa5500;
+}
+.prefecture-chiba .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-chiba .prefecture-header svg .map-pin-3-main-color {
+  fill: #aa5500;
+}
+.prefecture-chiba .prefecture-header h2 {
+  color: white;
+}
+.prefecture-chiba h3 {
+  color: #aa5500;
+}
+
+.prefecture-saitama .prefecture-header {
+  background-color: #228822;
+}
+.prefecture-saitama .prefecture-header svg .map-pin-3-bg-color {
+  fill: white;
+}
+.prefecture-saitama .prefecture-header svg .map-pin-3-main-color {
+  fill: #228822;
+}
+.prefecture-saitama .prefecture-header h2 {
+  color: white;
+}
+.prefecture-saitama h3 {
+  color: #228822;
+}
+.prefecture-saitama svg {
+  fill: #228822;
+}
+
+.ward h3 svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+@media screen and (max-width: 991.9px) {
+  .prefecture {
+    width: 100%;
+  }
+  .prefecture .wards-container .ward {
+    width: calc(50% - 2.5rem);
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .prefecture {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    display: block;
+  }
+  .prefecture .prefecture-header {
+    position: relative;
+    margin: unset;
+    padding: 1rem;
+    border-radius: 2rem 2rem 0 0;
+  }
+  .prefecture .prefecture-header svg {
+    width: 2rem;
+    height: auto;
+  }
+  .prefecture .prefecture-header h2 {
+    font-size: 2rem;
+    line-height: 0;
+  }
+  .prefecture .wards-container {
+    position: relative;
+    flex-direction: unset;
+    padding: 1rem;
+    padding-top: 0;
+    border-radius: 0 0 2rem 2rem;
+  }
+  .prefecture .wards-container .ward {
+    width: 100%;
+    margin: unset;
+    background-color: white;
+  }
+  .prefecture .wards-container .ward ul li {
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
+  .prefecture-tokyo {
+    background-color: purple;
+  }
+  .prefecture-tokyo .prefecture-header {
+    background-color: unset;
+  }
+  .prefecture-tokyo .prefecture-header svg .map-pin-3-bg-color {
+    fill: white;
+  }
+  .prefecture-tokyo .prefecture-header svg .map-pin-3-main-color {
+    fill: purple;
+  }
+  .prefecture-tokyo .prefecture-header h2 {
+    color: white;
+  }
+  .prefecture-tokyo .wards-container {
+    background-color: purple;
+  }
+  .prefecture-tokyo h3 {
+    color: purple;
+  }
+  .prefecture-tokyo svg {
+    fill: purple;
+  }
+  .prefecture-kanagawa {
+    background-color: #0055aa;
+  }
+  .prefecture-kanagawa .prefecture-header {
+    background-color: unset;
+  }
+  .prefecture-kanagawa .prefecture-header svg {
+    fill: white;
+  }
+  .prefecture-kanagawa .prefecture-header h2 {
+    color: white;
+  }
+  .prefecture-kanagawa .wards-container {
+    background-color: #0055aa;
+  }
+  .prefecture-kanagawa h3 {
+    color: #0055aa;
+  }
+  .prefecture-kanagawa svg {
+    fill: #0055aa;
+  }
+  .prefecture-chiba {
+    background-color: #aa5500;
+  }
+  .prefecture-chiba .prefecture-header {
+    background-color: unset;
+  }
+  .prefecture-chiba .prefecture-header svg {
+    fill: white;
+  }
+  .prefecture-chiba .prefecture-header h2 {
+    color: white;
+  }
+  .prefecture-chiba .wards-container {
+    background-color: #aa5500;
+  }
+  .prefecture-chiba h3 {
+    color: #aa5500;
+  }
+  .prefecture-chiba svg {
+    fill: #aa5500;
+  }
+  .prefecture-saitama {
+    background-color: #228822;
+  }
+  .prefecture-saitama .prefecture-header {
+    background-color: unset;
+  }
+  .prefecture-saitama .prefecture-header svg {
+    fill: white;
+  }
+  .prefecture-saitama .prefecture-header h2 {
+    color: white;
+  }
+  .prefecture-saitama .wards-container {
+    background-color: #228822;
+  }
+  .prefecture-saitama h3 {
+    color: #228822;
+  }
+  .prefecture-saitama svg {
+    fill: #228822;
+  }
+}/*# sourceMappingURL=dynamic-schools-style.css.map */

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Parallax Demo</title>
+  <style>
+    body {
+      margin: 0;
+      height: 200vh; /* just to allow scrolling */
+      font-family: sans-serif;
+      background: #111;
+      color: white;
+      overflow-x: hidden;
+    }
+
+    .parallax {
+      position: relative;
+      height: 100vh;
+      overflow: hidden;
+    }
+
+    .parallax img, 
+    .parallax .layer {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: auto;
+      min-width: 100%;
+      height: auto;
+    }
+
+    .content {
+      position: relative;
+      z-index: 10;
+      padding: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="parallax">
+    <img src="https://picsum.photos/1600/900?random=1" data-speed="0.2" alt="">
+    <img src="https://picsum.photos/1600/900?random=2" data-speed="0.5" alt="">
+    <div class="layer" data-speed="0.8" style="font-size:4rem; top:40%; text-align:center;">Parallax Text</div>
+  </div>
+
+  <div class="content">
+    <h1>Scroll down</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae eros eget lorem ultrices tincidunt. Scroll to see parallax effect.</p>
+  </div>
+
+  <script>
+    document.addEventListener("scroll", () => {
+      const scrolled = window.scrollY;
+      document.querySelectorAll("[data-speed]").forEach(el => {
+        const speed = parseFloat(el.getAttribute("data-speed"));
+        el.style.transform = `translate(-50%, ${scrolled * speed}px)`;
+      });
+    });
+  </script>
+</body>
+</html>

@@ -24,7 +24,7 @@
     <meta name="twitter:url" content="https://kids-up.jp" />
     <meta name="twitter:card" content="summary_large_image" />
     
-        <link href="./stylesheets/summer-school.css" rel="stylesheet" />
+        <link href="./stylesheets/summer-school-2.css" rel="stylesheet" />
     <title>Summer School 2025 at Kids UP</title>
   </head>
 
@@ -40,6 +40,13 @@
     ></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+
+    <wrapper class="event-over">
+ 
+    <img src="./includes/summer-school-images/ended.svg" alt="" class="ended"> 
+
+    
+</wrapper>
 
     <?php include '../global-includes/seasonal-navbar.php' ?>
 

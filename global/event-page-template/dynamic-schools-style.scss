@@ -1,0 +1,492 @@
+html {
+  overflow-x: hidden;
+  width: 100%;
+}
+
+// -----------------------------
+// Variables
+// -----------------------------
+$kidsup-orange: #ef8200;
+$kidsup-gray: #5a534a;
+
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+$container-sm-max: 540px;
+$container-md-max: 720px;
+$container-lg-max: 960px;
+$container-xl-max: 1140px;
+$container-xxl-max: 1320px;
+
+$container-padding: 1rem; // horizontal padding
+
+// -----------------------------
+// Base container styles
+// -----------------------------
+%container-base {
+  width: 100%;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  @extend %container-base;
+}
+
+// Fluid container
+.container-fluid {
+  @extend %container-base;
+  margin: 0;
+}
+
+// -----------------------------
+// Responsive container
+// -----------------------------
+.container {
+  max-width: 100%;
+
+  @media (min-width: $bp-sm) {
+    max-width: $container-sm-max;
+  }
+  @media (min-width: $bp-md) {
+    max-width: $container-md-max;
+  }
+  @media (min-width: $bp-lg) {
+    max-width: $container-lg-max;
+  }
+  @media (min-width: $bp-xl) {
+    max-width: $container-xl-max;
+  }
+  @media (min-width: $bp-xxl) {
+    max-width: $container-xxl-max;
+  }
+}
+
+// -----------------------------
+// Fixed containers
+// -----------------------------
+.container-sm {
+  max-width: 100%;
+  @media (min-width: $bp-sm) {
+    max-width: $container-sm-max;
+  }
+}
+
+.container-md {
+  max-width: 100%;
+  @media (min-width: $bp-md) {
+    max-width: $container-md-max;
+  }
+}
+
+.container-lg {
+  max-width: 100%;
+  @media (min-width: $bp-lg) {
+    max-width: $container-lg-max;
+  }
+}
+
+.container-xl {
+  max-width: 100%;
+  @media (min-width: $bp-xl) {
+    max-width: $container-xl-max;
+  }
+}
+
+.container-xxl {
+  max-width: 100%;
+  @media (min-width: $bp-xxl) {
+    max-width: $container-xxl-max;
+  }
+}
+
+
+
+
+
+.prefecture-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  padding: 0;
+  position: relative;
+
+  .prefecture-header {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem;
+    padding: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    height: fit-content;
+    width: fit-content;
+    list-style: 1;
+    border-radius: 1rem;
+
+            svg{
+            width: 2rem;
+            height: auto;
+            padding-right: .5rem;
+        }
+
+        h2{
+            font-size: 2rem;
+            font-weight: bolder;
+            line-height: 0;
+
+        }
+  }
+
+
+    h3 {
+      font-size: 1.5rem;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  // every prefecture block
+  .prefecture {
+    position: relative;
+    background: #f9f9f9;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: calc(50% - 2.5rem);
+
+    .wards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+
+      .ward {
+        display: block;
+        width: calc(50% - 2.5rem);
+        border-radius: 1rem;
+        padding: 1rem;
+
+        h3 {
+          margin: 0;
+        }
+
+        ul {
+          margin: 0;
+          padding-left: 1rem;
+          
+        }
+      }
+    }
+  }
+
+  .prefecture-tokyo {
+    width: 100%;
+
+    .wards-container {
+      flex-direction: row;
+
+      .ward {
+        width: calc(25% - 2.75rem);
+      }
+    }
+  }
+
+  // 🔹 Prefecture-specific overrides (examples)
+  .prefecture-tokyo {
+    .prefecture-header {
+      background-color: purple;
+
+      svg {
+        .map-pin-3-bg-color {
+          fill: white;
+        }
+        .map-pin-3-main-color {
+          fill: purple;
+        }
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    h3 {
+      color: purple;
+    }
+
+    svg {
+      fill: purple;
+    }
+  }
+
+  .prefecture-kanagawa {
+    .prefecture-header {
+      background-color: #0055aa;
+
+      svg {
+        .map-pin-3-bg-color {
+          fill: white;
+        }
+        .map-pin-3-main-color {
+          fill: #0055aa;
+        }
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    h3 {
+      color: #0055aa;
+    }
+
+    svg {
+      fill: #0055aa;
+    }
+  }
+
+  .prefecture-chiba {
+    .prefecture-header {
+      background-color: #aa5500;
+
+      svg {
+        .map-pin-3-bg-color {
+          fill: white;
+        }
+        .map-pin-3-main-color {
+          fill: #aa5500;
+        }
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    h3 {
+      color: #aa5500;
+    }
+  }
+
+  .prefecture-saitama {
+    .prefecture-header {
+      background-color: #228822;
+
+      svg {
+        .map-pin-3-bg-color {
+          fill: white;
+        }
+        .map-pin-3-main-color {
+          fill: #228822;
+        }
+      }
+
+      h2 {
+        color: white;
+      }
+    }
+
+    h3 {
+      color: #228822;
+    }
+
+    svg {
+      fill: #228822;
+    }
+  }
+
+  .ward h3 svg {
+    width: 1rem;
+    height: 1rem;
+  }
+
+  @media screen and (max-width: 991.9px) {
+    .prefecture {
+      width: 100%;
+
+      .wards-container {
+        .ward {
+          width: calc(50% - 2.5rem);
+        }
+      }
+    }
+  }
+
+  @media screen and (max-width: 575.9px) {
+    .prefecture {
+      width: 100%;
+      padding: 0;
+      position: relative;
+      display: block;
+
+      .prefecture-header {
+        position: relative;
+        margin: unset;
+        padding: 1rem;
+        border-radius: 2rem 2rem 0 0;
+
+
+        svg{
+            width: 2rem;
+            height: auto;
+        }
+
+        h2{
+            font-size: 2rem;
+            line-height: 0;
+        }
+      }
+
+      .wards-container {
+        position: relative;
+        flex-direction: unset;
+        padding: 1rem;
+        padding-top: 0;
+        border-radius: 0 0 2rem 2rem;
+
+        .ward {
+          width: 100%;
+          margin: unset;
+          background-color: white;
+
+          ul{
+            li{
+                padding-top: .25rem;
+                padding-bottom: .25rem;
+            }
+          }
+        }
+      }
+    }
+
+    .prefecture-tokyo {
+               background-color: purple;
+      .prefecture-header {
+        background-color: unset;
+
+        svg {
+          .map-pin-3-bg-color {
+            fill: white;
+          }
+          .map-pin-3-main-color {
+            fill: purple;
+          }
+        }
+
+        h2 {
+          color: white;
+        }
+      }
+
+      .wards-container {
+        background-color: purple;
+      }
+
+      h3 {
+        color: purple;
+      }
+
+      svg {
+        fill: purple;
+      }
+    }
+
+    .prefecture-kanagawa {
+        background-color: #0055aa;
+
+      .prefecture-header {
+        background-color: unset;
+
+        svg {
+          fill: white;
+        }
+
+        h2 {
+          color: white;
+        }
+      }
+
+      .wards-container {
+        background-color: #0055aa;
+      }
+
+      h3 {
+        color: #0055aa;
+      }
+
+      svg {
+        fill: #0055aa;
+      }
+    }
+
+    .prefecture-chiba {
+        background-color: #aa5500;
+      .prefecture-header {
+        background-color: unset;
+
+        svg {
+          fill: white;
+        }
+
+        h2 {
+          color: white;
+        }
+      }
+
+      .wards-container {
+        background-color: #aa5500;
+      }
+
+      h3 {
+        color: #aa5500;
+      }
+
+      svg {
+        fill: #aa5500;
+      }
+    }
+
+    .prefecture-saitama {
+           background-color: #228822;
+      .prefecture-header {
+        background-color: unset;
+
+        svg {
+          fill: white;
+        }
+
+        h2 {
+          color: white;
+        }
+      }
+
+      .wards-container {
+        background-color: #228822;
+      }
+
+      h3 {
+        color: #228822;
+      }
+
+      svg {
+        fill: #228822;
+      }
+    }
+  }

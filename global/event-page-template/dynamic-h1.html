@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kids UP Event Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #F3F4F6;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+
+    <div class="container mx-auto p-8 max-w-4xl bg-white rounded-xl shadow-lg">
+        <!-- Hero Section -->
+        <section class="text-center p-8 rounded-lg">
+            <h1 id="dynamic-h1" class="text-4xl sm:text-5xl md:text-6xl font-extrabold text-blue-800 mb-4 transition-all duration-300 ease-in-out transform hover:scale-105">
+                Welcome to the Kids UP Event!
+            </h1>
+            <p class="text-lg text-gray-600">
+                Join us for a fun and educational experience for your kids.
+            </p>
+        </section>
+
+        <!-- Placeholder Content Section -->
+        <section class="p-8 mt-8 bg-gray-50 rounded-lg">
+            <h2 class="text-2xl font-bold text-gray-800 mb-4">Event Details</h2>
+            <p class="text-gray-600 mb-2">
+                This page will display specific dates and times for your location.
+            </p>
+            <p class="text-gray-600">
+                Please check back for more information or contact your school directly.
+            </p>
+        </section>
+    </div>
+
+    <script>
+        // Array of school names from the provided JSON file
+        const schoolNames = [
+            "denenchofu-yukigaya",
+            "kamata-ekimae",
+            "ikegami",
+            "toyocho",
+            "nagahara",
+            "monzennakacho",
+            "togoshi",
+            "seijo",
+            "omori",
+            "waseda",
+            "rinkai-shinonome",
+            "shinkawasaki",
+            "todoroki",
+            "ojima",
+            "mitaka",
+            "futamatagawa",
+            "shin-urayasu",
+            "tennocho",
+            "minami-machida-grandberry-park",
+            "oi",
+            "harumi",
+            "yotsuya",
+            "akabane",
+            "kita-shinagawa",
+            "mizonokuchi",
+            "yakou",
+            "socola-minami-gyotoku",
+            "saginomiya",
+            "magome",
+            "okurayama",
+            "musashi-shinjo",
+            "musashi-kosugi",
+            "kawaguchi",
+            "ikebukuro",
+            "ueno",
+            "kanamecho"
+        ];
+
+        // Function to update the hero title based on the URL
+        function updateHeroTitle() {
+            // Corrected ID to match the h1 element in the HTML
+            const heroTitle = document.getElementById('dynamic-h1');
+            const url = window.location.href;
+
+            for (const name of schoolNames) {
+                // Check if the URL contains the school name. Using a case-insensitive check.
+                if (url.toLowerCase().includes(name.toLowerCase())) {
+                    // Capitalize the first letter of each word for a clean display
+                    const capitalizedName = name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+                    heroTitle.textContent = `Welcome to Kids UP ${capitalizedName}!`;
+                    // Exit the loop once a match is found
+                    break; 
+                }
+            }
+        }
+
+        // Call the function when the page loads
+        document.addEventListener('DOMContentLoaded', updateHeroTitle);
+    </script>
+</body>
+</html>

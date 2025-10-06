@@ -167,7 +167,9 @@ aria-expanded="false"
   <img src="./assets/images/hero/earlybird-desktop.svg" alt="" class="earlybirdOffer">
 
         <div class="common-button-wrapper">
-             <button class="common-button box-shadow-common-cream" onclick="formLink()">お申込みはこちら<svg class="button__arrow" viewBox="0 0 1006.31 837.38" fill="none" xmlns="http://www.w3.org/2000/svg">
+             <button class="common-button box-shadow-common-cream" onclick="formLink()">お申込みはこちら
+              
+             <svg class="button__arrow" viewBox="0 0 1006.31 837.38" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z" fill="currentColor"/>
               </svg>
             </button>
@@ -944,48 +946,16 @@ include '../global-includes/sign-up-module-v2.php';
 
 <div class="container times-table" id="party-times">
 
-  <h2 class="sign-up-h2"></h2>
+
 
     <!-- Block 1: shared time set (9:00/11:00/14:00/16:00), pair of dates -->
     <section class="block">
-      <div class="times">
-        <span class="label">開催時間:</span>
-        <span class="chip">❶ 9:00–10:20</span>
-        <span class="chip">❷ 11:00–12:20</span>
-        <span class="chip">❸ 14:00–15:20</span>
-        <span class="chip">❹ 16:00–17:20</span>
-      </div>
-      <div class="combined">
-        <span class="chip">❶&❷ 9:00–12:20</span>
-        <span class="chip">❸&❹ 14:00–17:20</span>
-      </div>
 
       <div class="pair">
-        <!-- 10/19 -->
-        <section class="day">
-          <h3><span class="dot" aria-hidden="true"></span>10月19日（日）</h3>
-          <ul class="schools">
-            <li>Kids UP田園調布雪谷</li>
-            <li>Kids UP四谷</li>
-            <li>Kids UP長原</li>
-            <li>Kids UP赤羽</li>
-            <li>Kids UP戸越</li>
-            <li>Kids UP溝の口</li>
-            <li>Kids UP成城</li>
-            <li>Kids UP馬込</li>
-            <li>Kids UP早稲田</li>
-            <li>Kids UP池袋</li>
-            <li>Kids UP三鷹</li>
-            <li>Kids UP上野</li>
-            <li>Kids UP二俣川</li>
-            <li>Kids UP要町</li>
-            <li>Kids UP天王町</li>
-          </ul>
-        </section>
 
         <!-- 10/18 -->
-        <section class="day">
-          <h3><span class="dot" aria-hidden="true"></span>10月18日（土）</h3>
+        <section class="day day-1">
+          <h3>10月18日（土）</h3>
           <ul class="schools">
             <li>Kids UP蒲田駅前</li>
             <li>Kids UP晴海</li>
@@ -996,7 +966,7 @@ include '../global-includes/sign-up-module-v2.php';
             <li>Kids UP門前仲町</li>
             <li>Kids UP鷺宮</li>
             <li>Kids UPりんかい東雲</li>
-            <li>Kids UP大倉山</li>
+            <li>※Kids UP大倉山</li>
             <li>Kids UP新川崎</li>
             <li>Kids UP武蔵新城</li>
             <li>Kids UP等々力</li>
@@ -1004,81 +974,52 @@ include '../global-includes/sign-up-module-v2.php';
             <li>Kids UP大島</li>
             <li>Kids UP川口</li>
             <li>Kids UP大井</li>
-          </ul>
-        </section>
-      </div>
-    </section>
-
-    <!-- Block 2: same time set, single date/school -->
-    <section class="block">
-      <div class="times">
-        <span class="label">開催時間:</span>
-        <span class="chip">❶ 9:00–10:20</span>
-        <span class="chip">❷ 11:00–12:20</span>
-        <span class="chip">❸ 14:00–15:20</span>
-        <span class="chip">❹ 16:00–17:20</span>
-      </div>
-      <div class="combined">
-        <span class="chip">❶&❷ 9:00–12:20</span>
-        <span class="chip">❸&❹ 14:00–17:20</span>
-      </div>
-      <section class="day">
-        <h3><span class="dot" aria-hidden="true"></span>10月25日（土）</h3>
-        <ul class="schools">
-          <li>Kids UP大森</li>
-        </ul>
-      </section>
-    </section>
-
-    <!-- Block 3: 9:15/11:15 variant -->
-    <section class="block">
-      <div class="times">
-        <span class="label">開催時間:</span>
-        <span class="chip">❶ 9:15–10:35</span>
-        <span class="chip">❷ 11:15–12:35</span>
-        <span class="chip">❸ 14:00–15:20</span>
-        <span class="chip">❹ 16:00–17:20</span>
-      </div>
-      <div class="combined">
-        <span class="chip">❶&❷ 9:00–12:20</span>
-        <span class="chip">❸&❹ 14:00–17:20</span>
-      </div>
-      <section class="day">
-        <h3><span class="dot" aria-hidden="true"></span>10月18日（土）</h3>
-        <ul class="schools">
-          <li>Kids UP新浦安</li>
-        </ul>
-      </section>
-    </section>
-
-    <!-- Block 4: 10:15/13:00/15:00/17:00 variant with two dates -->
-    <section class="block">
-      <div class="times">
-        <span class="label">開催時間:</span>
-        <span class="chip">❶ 10:15–11:35</span>
-        <span class="chip">❷ 13:00–14:20</span>
-        <span class="chip">❸ 15:00–16:20</span>
-        <span class="chip">❹ 17:00–18:20</span>
-      </div>
-      <div class="combined">
-        <span class="chip">❷&❸ 13:00–16:20</span>
-        <span class="chip">❸&❹ 15:00–18:20</span>
-      </div>
-      <div class="pair">
-        <section class="day">
-          <h3><span class="dot" aria-hidden="true"></span>10月18日（土）</h3>
-          <ul class="schools">
+            <li>Kids UP新浦安</li>
             <li>Kids UPソコラ南行徳</li>
           </ul>
         </section>
-        <section class="day">
-          <h3><span class="dot" aria-hidden="true"></span>10月19日（日）</h3>
+
+
+
+        <!-- 10/19 -->
+        <section class="day day-2">
+          <h3>10月19日（日）</h3>
           <ul class="schools">
+            <li>Kids UP田園調布雪谷</li>
+            <li>Kids UP四谷</li>
+            <li>Kids UP長原</li>
+            <li>Kids UP赤羽</li>
+            <li>Kids UP戸越</li>
+            <li>Kids UP溝の口</li>
+            <li>Kids UP成城</li>
+            <li>Kids UP馬込</li>
+            <li>Kids UP早稲田</li>
+            <li>※Kids UP大倉山</li>
+            <li>Kids UP池袋</li>
+            <li>Kids UP三鷹</li>
+            <li>Kids UP上野</li>
+            <li>Kids UP二俣川</li>
+            <li>Kids UP要町</li>
+            <li>Kids UP天王町</li>
             <li>Kids UP南町田<br>グランベリーパーク</li>
           </ul>
         </section>
+
+           <section class=" day day-3">
+        <h3>10月25日（土）</h3>
+        <ul class="schools">
+          <li>Kids UP大森</li>
+          
+        </ul>
+
+        <p style="color: #45184c; padding-top: 1rem; font-weight: bold;">※大倉山校は10/18(土)、19(日)の２日間開催いたします。</p>
+      </section>
       </div>
     </section>
+
+
+
+
 
 </div>
 

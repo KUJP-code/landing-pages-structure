@@ -599,3 +599,5 @@ a {
     margin-right: auto;
   }
 }
+
+.slider-wide .slick-slide .thumnail-area{ width: 90%; height: auto; aspect-ratio: 3 / 2; margin: 0 auto; display: block; background-position: top center; background-size: cover;}

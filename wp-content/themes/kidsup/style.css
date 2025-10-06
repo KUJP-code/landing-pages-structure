@@ -373,7 +373,7 @@ a.link_txt{ font-size: 1.2em; border-bottom: 1px solid #EF8200; color: #EF8200;}
 .col2_contents5-1{ width: 56%; margin: 0 2%; }
 .col2_contents5-2{ width: 40%; margin: 0 auto; }
 
-.col3_wrapper{ width: 100%; display: flex;}
+.col3_wrapper{ width: 100%; display: flex; gap: 10px; }
 .col3_contents{ width: 30%; margin: 0 auto ; padding: 0;}
 
 .col3_wrapper2{ display: flex; flex-wrap: wrap; justify-content: space-evenly;}
@@ -890,7 +890,7 @@ a.btn-sns--instagram {
 /* top_section7 ----------------------------------------------------------------- */
 #top_section7{ padding: 5vw; background-image: url("img/top_sec7_01.png"); background-position: top right; background-repeat: no-repeat;}
 .slider-wide{ width: 100%; margin: 50px auto; color: #5A534A; text-align: center;}
-.slider-wide .slick-slide .thumnail-area{ width: 90%; height: 200px; margin: 0 auto; display: block; background-position: top center; background-size: cover;}
+.slider-wide .slick-slide .thumnail-area{ width: 90%; height: auto; aspect-ratio: 3 / 2; margin: 0 auto; display: block; background-position: top center; background-size: cover;}
 .seasonal-title{ text-align: center; line-height: 2em;}
 
 
@@ -899,7 +899,7 @@ a.btn-sns--instagram {
 .columnnews-wrapper p.p_normal{ height: 5em;}
 #top_section8{ padding: 2vw 5vw 2vw 30px;}
 .slider-wide1{ width: 100%; }
-.slider-wide1 .slick-slide .thumnail-area{ width: 90%; height: 200px; margin: 0 auto; display: block; background-position: top center; background-size: cover;}
+.slider-wide1 .slick-slide .thumnail-area{ width: 90%; height: auto; aspect-ratio: 3 / 2; margin: 0 auto; display: block; background-position: top center; background-size: cover;}
 .seasonal-title2{ text-align: left; line-height: 2em; width: 90%; height: 5em;; margin: 0 auto; }
 
 .time_area{font-size: 14px; line-height: 30px;}
@@ -925,12 +925,12 @@ a.btn-sns--instagram {
 .footer-1-right .menu li{ padding: 0; margin: 0 12px 3px; border-bottom: none;}
 .footer-1-right .menu-area{display: flex; align-items: flex-start; justify-content: space-evenly;}
 .footer-1-right .footer-subarea{ display: table; width: 100%;}
-.footer-1-right .footer-subarea .footer-subarea-cta{ width: 60%; vertical-align: middle; display: table-cell;}
+.footer-1-right .footer-subarea .footer-subarea-cta{ width: 55%; vertical-align: middle; display: table-cell;}
 .footer-1-right .footer-subarea .footer-subarea-cta .footer-subarea-submenu-wrapper{ display: flex; justify-content: flex-end; align-items: flex-end;}
-.footer-1-right .footer-subarea .footer-subarea-submenu{ width: 40%; vertical-align: bottom; display: table-cell; font-size: 12px; font-weight: bold; color: #fff;}
+.footer-1-right .footer-subarea .footer-subarea-submenu{ width: 45%; vertical-align: bottom; display: table-cell; font-size: 12px; font-weight: bold; color: #fff;}
 .footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper{ display: flex; justify-content: flex-end; align-items: flex-end;}
-.footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper a{ padding: 0 10px;}
-.btn_trial-footer{ max-width: 350px;width: 95%; height: 64px; display: block; background: #5A534A; color: #fff; line-height: 60px; border-radius: 30px; font-size: 16px; font-weight: bold; border: 1px #fff solid; margin: 0 5% 0 0; text-align: center;}
+.footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper a{ padding: 0 10px; text-align: left;}
+.btn_trial-footer{ max-width: 350px;width: 97.5%; height: 64px; display: block; background: #5A534A; color: #fff; line-height: 60px; border-radius: 30px; font-size: 16px; font-weight: bold; border: 1px #fff solid; margin: 0 5% 0 0; }
 
 /* 固定ページ 共通 ----------------------------------------------------------------- */
 .pageHeader {display: none;}
@@ -1161,7 +1161,7 @@ header{ width: 100%; height : auto;}
 .btn_trial-footer{margin: 0 1%;}
 .footer-1-right .footer-subarea .footer-subarea-submenu{ width: 100%; display: block;}
 .footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper{ display: block; margin-top: 20px;}
-.footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper a{ padding: 10px; display: block;}
+.footer-1-right .footer-subarea .footer-subarea-submenu .footer-subarea-submenu-wrapper a{ padding: 10px; display: block; text-align: center;}
 
 /* footer bar ----------------------------------------------------------------- */
 #footer-bar{ bottom: 0; z-index: 1000; width: calc( 100% - 50px);}
@@ -1532,18 +1532,6 @@ margin-left: 0;
   background-image: url("https://kids-up.jp/wp-admin/images/2025-update/bus-section-bg.jpg");}
 
 
-
-
-
-/*Aspect Ratio Correction for thumbnails on bottom sliders*/
-
-.slider-wide1 .slick-slide .thumnail-area {
-    width: 95% !important;
-    aspect-ratio: 3 / 2 !important;
-	height: unset !important;
-	}
-
-
 @media (max-width: 1080px) {
 .pickupbus-right{   background-image: url("https://kids-up.jp/wp-admin/images/2025-update/bus-section-bg.jpg");}}
 
@@ -1564,6 +1552,7 @@ margin-left: 0;
   border-radius: 50px;
   box-shadow: 0rem 10px white;
   margin-bottom: calc(1rem + 10px);
+  font-size: 1.25rem
 }
 
 
@@ -1645,15 +1634,4 @@ display: none;
 .btn_main_orange:hover span{
  color: #EF8200;
   font-weight: bold;
-}
-
-
-
-/* Thumbnail Tweaks */
-
-.slick-slide .thumnail-area{
-  width: 95% !important;
-  aspect-ratio: 3 / 2 !important;
-  height: unset !important;
-
 }

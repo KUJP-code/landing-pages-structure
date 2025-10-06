@@ -1882,14 +1882,12 @@ p {
 }
 .times-table .block {
   background: #f7f0e5;
-  border-radius: 16px;
+  border-radius: 2rem;
   padding: 1rem;
-  margin: 1rem 0 1.5rem;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
 }
 .times-table .times {
   display: flex;
-  gap: 0.5rem;
   flex-wrap: wrap;
   align-items: center;
   border-bottom: 0.3rem dashed #f7f0e5;
@@ -1913,38 +1911,61 @@ p {
   font-family: "Noto Sans JP";
 }
 .times-table .day {
-  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  border-radius: 1.75rem;
 }
 .times-table .day h3 {
-  display: inline-flex;
-  color: #45184c;
+  display: block;
+  color: #f7f0e5;
   align-items: center;
   gap: 0.5rem;
-  font-size: 1.05rem;
-  margin: 0 0 0.5rem;
-}
-.times-table .day h3 .dot {
-  width: 0.6rem;
-  height: 0.6rem;
-  background: #f19023;
-  border-radius: 50%;
-  display: inline-block;
+  font-size: 1.25rem;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 1rem;
+  padding-top: 0rem;
+  width: calc(100% - 1rem);
+  min-width: 60%;
+  text-align: center;
+  max-width: 266.25px;
+  padding: 1rem;
+  border-radius: 1rem;
 }
 .times-table .schools {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 0.5rem;
+  gap: 1rem;
+  margin: auto;
+  padding: unset;
 }
 .times-table .schools li {
   list-style: none;
+  margin: auto;
+  margin-top: 0;
   background: #45184c;
-  border: 1px solid rgba(0, 0, 0, 0.08);
-  border-radius: 12px;
+  border-radius: 0.75rem;
   padding: 0.6rem 0.75rem;
-  max-width: 239px;
+  width: calc(100% - 2rem);
+  max-width: 266.25px;
   text-align: center;
   font-weight: bolder;
   color: #f7f0e5;
+  height: -moz-fit-content;
+  height: fit-content;
+  font-size: 1rem;
+}
+.times-table .day-1 .schools li, .times-table .day-1 h3 {
+  background: #7a4f9f;
+}
+.times-table .day-2 .schools li, .times-table .day-2 h3 {
+  background: #f19023;
+}
+.times-table .day-3 .schools li, .times-table .day-3 h3 {
+  background: #178141;
 }
 .times-table .pair {
   display: grid;
@@ -1977,6 +1998,9 @@ p {
     margin-left: auto;
     margin-right: auto;
     padding: unset;
+  }
+  .times-table .schools li {
+    width: 90%;
   }
 }
 

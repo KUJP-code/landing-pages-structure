@@ -158,7 +158,7 @@ ul, ol {
 
 /*すべて解決*/
 .problem-cause3 {
-    background-image: url(/image/problem-cause3_bg.webp);
+    background-image: url(../image/problem-cause3_bg.webp);
     padding-top: 6%;
     background-size: cover;
     background-position: center;
@@ -241,7 +241,7 @@ filter: drop-shadow(5px 5px 5px #4e4e4e98);
     width: 100%;
 }
 .price-tex {
-    background-image: url(/image/price-bg.webp);
+    background-image: url(../image/price-bg.webp);
     background-repeat: no-repeat;
     margin-top: -8px;
     padding-top: 10em;
@@ -263,7 +263,7 @@ filter: drop-shadow(5px 5px 5px #4e4e4e98);
     color: #EF8300;
 }
 .price-footer {
-    background-image: url(/image/price-bg2.webp);
+    background-image: url(../image/price-bg2.webp);
     background-repeat: no-repeat;
     padding-bottom: 5%;
     background-size: cover;
@@ -366,7 +366,7 @@ right: 0;
 
 /*voice*/
 .voice {
-    background-image: url(/image/voice_bg.webp);
+    background-image: url(../image/voice_bg.webp);
     padding-top: 5%;
     padding-bottom: 10%;
     background-size: cover;

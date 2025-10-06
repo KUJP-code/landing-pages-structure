@@ -52,6 +52,29 @@ $slide-color-special-2-dark: #512846;
 
 }
 
+.event-over{
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.3); /* Semi-transparent background for visibility */
+  backdrop-filter: blur(8px); /* Apply blur to content behind this div */
+  -webkit-backdrop-filter: blur(3px); /* For Webkit browsers */
+  width: 100vw;
+  height: 100%;
+  top: 0;
+  z-index: 999;
+  display: flex;
+
+  .ended{
+    justify-content: center;
+    align-items: center;
+    width: 90vw;
+    height: auto;
+    margin: auto;
+
+  }
+}
+
+
+
 h1 {
   font-family: "Shin-Maru-GP-Ultra";
 }

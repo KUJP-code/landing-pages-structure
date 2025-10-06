@@ -1,0 +1,1477 @@
+html{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+$kidsup-orange: #EF8200;
+$kidsup-gray: #5A534A;
+
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+
+// -----------------------------
+// Variables
+// -----------------------------
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+$container-sm-max: 540px;
+$container-md-max: 720px;
+$container-lg-max: 960px;
+$container-xl-max: 1140px;
+$container-xxl-max: 1320px;
+
+$container-padding: 1rem; // horizontal padding
+
+// -----------------------------
+// Base container styles
+// -----------------------------
+%container-base {
+  width: 100%;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  @extend %container-base;
+}
+
+// Fluid container
+.container-fluid {
+  @extend %container-base;
+  margin: 0;
+}
+
+// -----------------------------
+// Responsive container
+// -----------------------------
+.container {
+  max-width: 100%;
+
+  @media (min-width: $bp-sm) { max-width: $container-sm-max; }
+  @media (min-width: $bp-md) { max-width: $container-md-max; }
+  @media (min-width: $bp-lg) { max-width: $container-lg-max; }
+  @media (min-width: $bp-xl) { max-width: $container-xl-max; }
+  @media (min-width: $bp-xxl) { max-width: $container-xxl-max; }
+}
+
+// -----------------------------
+// Fixed containers
+// -----------------------------
+.container-sm { 
+  max-width: 100%;
+  @media (min-width: $bp-sm) { max-width: $container-sm-max; }
+}
+
+.container-md {
+  max-width: 100%;
+  @media (min-width: $bp-md) { max-width: $container-md-max; }
+}
+
+.container-lg {
+  max-width: 100%;
+  @media (min-width: $bp-lg) { max-width: $container-lg-max; }
+}
+
+.container-xl {
+  max-width: 100%;
+  @media (min-width: $bp-xl) { max-width: $container-xl-max; }
+}
+
+.container-xxl {
+  max-width: 100%;
+  @media (min-width: $bp-xxl) { max-width: $container-xxl-max; }
+}
+
+
+
+// -----------------------------
+// Font Inclusion
+// -----------------------------
+@font-face {
+  font-family: "Shin-Maru-GP-Regular";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Bold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-DeBold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
+}
+
+@font-face {
+  font-family: "Shin-Maru-GP-Ultra";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
+}
+
+
+
+
+// -----------------------------
+// Basic Page Definitions
+// -----------------------------
+body {
+-webkit-font-smoothing: antialiased;
+font-family:'Noto Sans JP','Noto Sans SC','Noto Sans','Noto Serif JP','Noto Serif SC',serif;
+}
+
+
+
+h1 {
+font-size: 3rem;
+line-height: 1.2;
+}
+
+h2 {
+font-size: 2.5rem;
+line-height: 1.2;
+}
+
+h3 {
+font-size: 2rem;
+line-height: 1.3;
+}
+
+h4 {
+font-size: 1.5rem;
+line-height: 1.4;
+}
+
+h5 {
+font-size: 1.25rem;
+line-height: 1.25;
+}
+
+p {
+font-size: 1rem;
+line-height: 1.5;
+}
+
+
+.p-sub{
+font-size: .75rem;
+
+}
+
+@media (max-width: 991.98px) {
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1.15rem; }
+p { font-size: 1rem; }
+}
+
+
+
+
+
+@media (max-width: 767.98px) {
+h1 { font-size: 2rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+p { font-size: 1.125rem; }
+}
+
+
+@media (max-width: 575.98px) {
+h1 { font-size: 1.8rem; }
+h2 { font-size: 1.75rem; }
+h3 { font-size: 1.5rem; }
+h4 { font-size: 1.25rem; }
+h5 { font-size: 1rem; }
+p { font-size: 1.125rem; }
+}
+
+// -----------------------------
+// Mobile / Desktop switching
+// -----------------------------
+
+.desktop-only{
+  display: block;
+}
+
+.mobile-only{
+  display: none;
+}
+
+
+@media (max-width: 575.98px) {
+.desktop-only{
+  display: none;
+}
+
+.mobile-only{
+  display: block;
+}
+}
+
+// -----------------------------
+// Navbar Styling
+// -----------------------------
+
+* {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+
+nav {
+position: fixed;
+background-color: white;
+height: 5rem;
+padding: 0.625rem, 1rem, 0.625rem, 1rem;
+width: 100%;
+z-index: 9001;
+
+.nav-inner {
+position: relative;
+display: flex;
+justify-content: space-between;
+align-items: center; 
+margin: 0 auto;
+height: 100%;
+padding: 0 1rem;
+z-index: 2;
+}
+
+.navbar-brand {
+display: flex;
+justify-content: center;
+width: 22.375rem;
+max-width: 30%;
+height: auto;
+transition-duration: .3s;
+
+img {
+max-width: 100%;
+height: auto;
+display: block;
+}
+}
+
+.mobile{
+display: none;
+}
+
+.nav-links {
+display: flex;
+gap: 1rem;
+padding: 1rem;
+padding-right: 0rem;
+justify-content: center;
+align-items: center;
+text-decoration: none;
+font-size: 1rem;
+font-family: "Noto Sans JP";
+line-height: unset;
+}
+
+a {
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+&:hover {
+transition-duration: .3s;
+opacity: 0.6;
+}
+
+&.button {
+background-color: $kidsup-orange;
+padding: 0.5rem 2rem;
+text-align: center;
+border-radius: 2rem;
+width: fit-content;
+position: relative;
+height: 3rem;
+display: flex;
+justify-content: center;
+align-items: center; 
+-webkit-text-stroke: 0.03125rem white;
+text-stroke: 0.03125rem white;
+transition-duration: .3s;
+}
+}
+
+.nav-toggle {
+position: relative;
+background: $kidsup-gray;
+border: 1px solid transparent;
+width: 2.75rem;
+height: 2.75;
+border-radius: 50%;
+cursor: pointer;
+display: none; // hidden by default
+
+&:focus {
+outline: none;
+}
+
+[class*='bar-'] {
+display: block;
+background: white;
+position: absolute;
+transition: 0.2s ease all;
+border-radius: 0.1rem;
+height: 0.2rem;
+width: 66%;
+left: 50%;
+top: 50%;
+transform: translate(-50%, -50%) rotate(0deg);
+transform-origin: center;
+}
+
+
+
+.bar-top {
+top: 30%;
+}
+
+.bar-mid {
+top: 50%;
+}
+
+.bar-bot {
+top: 70%;
+}
+
+
+
+&.opened {
+.bar-top {
+transform: translate(-50%, -50%) rotate(45deg);
+top: 50%;
+}
+
+
+
+.bar-mid {
+opacity: 0;
+}
+
+
+
+.bar-bot {
+transform: translate(-50%, -50%) rotate(-45deg);
+top: 50%;
+}
+}
+}
+
+.sticky-cta{
+display: none;
+}
+
+/* Smaller Desktop Resizing */
+
+@media (max-width: 991px) {
+.navbar-brand {
+width: fit-content;
+width: 27.5%;
+max-width: 22.375rem;
+height: 100%;
+}
+
+.nav-links {
+gap: 0.5rem;
+}
+
+
+
+a {
+&.button {
+padding: 0.5rem 1.25rem;
+}
+}
+}
+
+/* Mobile Styles */
+@media (max-width: 767.98px) {
+.navbar-brand {
+width: 22.375rem;
+max-width: 80%;
+display: flex;
+justify-content: flex-start;
+margin-left: 0;
+
+img {
+height: auto;
+}
+}
+
+.nav-toggle {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+aspect-ratio: 1/1;
+}
+
+.nav-links {
+position: absolute;
+top: 5rem;
+left: 0;
+right: 0;
+background-color: #333;
+width: 100%;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+display: flex;
+height: 0;
+padding: unset;
+padding-top: 1rem;
+padding-bottom: 1rem;
+height: fit-content;
+overflow: hidden;
+z-index: -1;
+
+
+
+/* Key changes for the slide-down effect */
+transform: translateY(-100%); /* Start off-screen above the navbar */
+opacity: 0;
+transition: 0.3s ease-out; /* Transition both properties */
+
+&.show {
+transform: translateY(0); /* Slide down to its normal position */
+opacity: 1; /* Fade in */
+visibility: visible;
+z-index: 0;
+}
+}
+
+a {
+&.button {
+width: calc(100% - 2rem);
+max-width: 375px;
+margin-left: 0;
+}
+}
+
+.sticky-cta {
+display: block;
+position: fixed;
+bottom: 0;
+left: 0;
+right: 0;
+z-index: 9999;
+
+background-color: #333;
+color: white;
+font-weight: bold;
+text-align: center;
+
+padding: 1rem;
+border-radius: 0;
+width: 100%;
+
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.3s ease-out;
+
+
+a {
+color: inherit;
+text-decoration: none;
+}
+
+.button{
+font-size: 1.2rem;
+}
+
+}
+
+
+
+// hide CTA when nav-toggle is opened
+.nav-toggle.opened ~ .sticky-cta {
+transform: translateY(100%); // slide it down out of view
+opacity: 0;
+transition: 0.3s ease-out;
+}
+}
+}
+
+
+// -----------------------------
+// Page CTA Buttons
+// -----------------------------
+
+
+.cta-button{
+  text-decoration: none;
+  background-color: $kidsup-gray;
+  color: white;
+
+  display: flex;
+  justify-content: space-between;
+  width: fit-content;
+
+}
+
+.cta-primary{
+  font-size: 1.5rem;
+  font-family: "Shin-Maru-GP-Ultra";
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+  border-radius: 3rem;
+
+  .arrow{
+    margin-left: 3rem;
+    width: 1.6rem;
+    height: auto;
+    fill: currentColor;
+    stroke-miterlimit: 1;
+    stroke: currentColor;
+    stroke-width: 70px;
+    overflow: visible;
+  }
+
+}
+
+.cta-secondary{
+  font-size: 1.25rem;
+  font-family: "Shin-Maru-GP-DeBold";
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  border-radius: 3rem;
+
+
+    .arrow{
+    margin-left: 2rem;
+    width: 1.35rem;
+    height: auto;
+    fill: currentColor;
+    stroke-width: 35px;
+    overflow: visible;
+  }
+
+}
+
+
+@media (max-width: 575.98px) {
+
+  .cta-button{
+    width: 100%;
+    max-width: 350px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
+    .arrow{
+      margin-left: unset;
+    }
+  }
+
+
+  .cta-primary{
+  font-size: 1.3rem;
+  width: fit-content;
+  
+  .arrow{
+  width: 1.4rem;
+  }
+
+
+
+  .cta-secondary{
+  font-size: 1.15rem;
+  .arrow{
+  width: 1.25rem;
+  }
+
+}
+}
+}
+
+// -----------------------------
+// Hero Scale
+// -----------------------------
+
+.hero {
+  width: 100%;
+
+  /* 1) Oldest fallback — always fill viewport height */
+  height: 100vh;
+  min-height: 500px; /* legacy safety floor */
+
+  /* 2) Modern override for mobile viewport quirks */
+  height: 100dvh;
+
+  /* 3) Enforce minimum aspect ratio for modern browsers */
+  min-height: calc(100vw * 9 / 16);
+
+  /* 4) Extra safeguard in modern browsers */
+  min-height: clamp(500px, calc(100vw * 9 / 16), 100dvh);
+  padding-top: 5rem;
+  background-color: $kidsup-orange;
+
+}
+
+// -----------------------------
+// Event About 
+// -----------------------------
+
+.party-event-about{
+  height: fit-content;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+
+
+
+
+@media (max-width: 991.98px) {
+
+    .three-reasons-row{
+      margin-top: 1rem;
+      gap: 1rem;
+
+      .reason-box{
+        padding: 1rem;
+      }
+    }
+
+}
+
+
+
+}
+
+
+.about-event-wrapper{
+  display: flex;
+  gap: 2rem;
+  flex-direction: row;
+     
+  
+  .text{
+      width: 55%;
+      padding: 1rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .image-column{
+      width: 45%;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex: 1;
+    }
+
+    @media (max-width: 991.98px) {
+    gap: 1rem;
+      
+    .text{
+      width: 60%;
+      padding: unset;
+    }
+
+    .image-column{
+      width: 40%;
+    }
+    }
+
+    @media (max-width: 767.98px) {
+      flex-direction: column-reverse;
+      gap: 0;
+      .text{
+        width: 100%;
+
+        .cta-button{
+          margin: auto;
+        }
+
+      }
+
+      .image-column{
+      width: 100%;
+
+    }
+    }
+}
+
+// -----------------------------
+// Three Reasons 
+// -----------------------------
+.three-reasons-swiper{
+  display: none;
+}
+
+
+    .three-reasons-row{
+      width: 100%;
+      height: 10rem;
+      margin-top: 2rem;
+      display: flex;
+      gap: 2rem;
+      height: fit-content;
+      align-items: stretch;
+
+      
+
+
+      .reason-box{
+      width: 33%;
+
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .icon{
+        width: 5rem;
+        aspect-ratio: 1/1;
+        fill: white;
+      }
+
+      h5{
+        color: white;
+        font-family: "Shin-Maru-GP-Bold";
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      p{
+        color: white;
+        font-weight: bolder;
+      }
+
+      
+      }
+}
+
+
+@media (max-width: 767.98px) {
+  .three-reasons-row {
+    display: none;
+  }
+
+  .three-reasons-swiper{
+  display: block;
+  padding-bottom: 2rem;
+      .swiper-slide {
+      width: 66% !important;
+      
+      .reason-box{
+      width: fit-content;
+      height: 100%;
+      padding: 2rem;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      @media (max-width: 575.98px) {
+        padding: 1rem;
+      }
+
+      
+
+      .icon{
+        width: 5rem;
+        aspect-ratio: 1/1;
+        fill: white;
+      }
+
+      h5{
+        color: white;
+        font-family: "Shin-Maru-GP-Bold";
+        text-align: center;
+        margin-bottom: 1rem;
+      }
+
+      p{
+        color: white;
+        font-weight: bolder;
+      }
+
+      
+
+
+
+
+
+      }
+    }
+}
+}
+
+// -----------------------------
+// School List Container
+// -----------------------------
+
+.prefecture-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 100%;
+  padding: 1rem;
+  padding-top: 0rem;
+  padding-bottom: 2rem;
+  position: relative;
+
+  // General element styles within the wrapper
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+  
+  // Responsive padding adjustment for the entire wrapper
+  @media (max-width: 767.98px) {
+    padding: 1rem;
+    padding-top: 0;
+  }
+
+  // Each prefecture block
+  .prefecture {
+    position: relative;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: calc(50% - 0.5rem);
+
+    .prefecture-header {
+      display: flex;
+      align-items: center;
+      margin: 0 0 1rem;
+      padding: .5rem 1rem;
+      height: fit-content;
+      width: fit-content;
+      border-radius: 1rem;
+      
+      svg {
+        width: 2rem;
+        height: auto;
+        padding-right: .5rem;
+      }
+
+      h2 {
+        font-size: 2rem;
+        font-weight: bolder;
+        line-height: 0;
+        padding-bottom: .25rem;
+      }
+    }
+
+    .wards-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+
+      .ward {
+        display: block;
+        width: calc(50% - 0.5rem);
+        border-radius: 1rem;
+        padding: 1rem;
+
+        h3 {
+          margin: 0;
+          svg {
+            width: 1rem;
+            height: 1rem;
+          }
+        }
+
+        ul {
+          margin: 0;
+          padding-left: 1rem;
+        }
+      }
+    }
+
+    // 🔹 Prefecture-specific overrides
+    &.prefecture-tokyo {
+      width: 100%; // Tokyo is full-width by default
+
+      .wards-container .ward {
+        width: calc(25% - 0.75rem);
+      }
+
+      .prefecture-header {
+        background-color: unset;
+        h2 { color: white; }
+        svg {
+          .map-pin-3-bg-color { fill: white; }
+          .map-pin-3-main-color { fill: unset; }
+        }
+      }
+      h3, svg { color: unset; fill: unset; }
+    }
+
+    &.prefecture-kanagawa {
+      .prefecture-header {
+        background-color: unset;
+        h2 { color: white; }
+        svg {
+          .map-pin-3-bg-color { fill: white; }
+          .map-pin-3-main-color { fill: unset; }
+        }
+      }
+      h3, svg { color: unset; fill: unset; }
+    }
+
+    &.prefecture-chiba {
+      .prefecture-header {
+        background-color: unset;
+        h2 { color: white; }
+        svg {
+          .map-pin-3-bg-color { fill: white; }
+          .map-pin-3-main-color { fill: unset; }
+        }
+      }
+      h3, svg { color: unset; }
+    }
+
+    &.prefecture-saitama {
+      .prefecture-header {
+        background-color: unset;
+        h2 { color: white; }
+        svg {
+          .map-pin-3-bg-color { fill: white; }
+          .map-pin-3-main-color { fill: unset; }
+        }
+      }
+      h3, svg { color: unset; }
+    }
+    
+    // --- Responsive Breakpoints Nested ---
+
+    // Tablet view
+    @media screen and (max-width: 991.9px) {
+      width: 100%;
+      .wards-container .ward {
+        width: calc(50% - .5rem);
+      }
+    }
+
+    // Mobile / Accordion view
+    @media screen and (max-width: 575.9px) {
+      width: 100%;
+      padding: 0;
+      padding-bottom: 0rem;
+      margin-bottom: 0rem;
+      border-radius: 2rem;
+      overflow: hidden;
+      gap: 0rem;
+
+
+      .prefecture-header {
+        margin: unset;
+        padding: 1rem;
+        border-radius: 0;
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        padding-bottom: .8rem;
+
+        
+      }
+
+      .wards-container {
+        padding: 0 1rem;
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+        display: flex;
+        flex-direction: column;
+
+        .ward {
+        width: 100% !important;
+          margin: unset;
+          background-color: white;
+          ul li {
+            padding: .25rem 0;
+          }
+        }
+      }
+      
+      // Accordion expanded state
+      &.expanded .wards-container {
+        max-height: 2000px;
+        padding: 1rem;
+      }
+      
+      // Mobile-specific color overrides
+     
+    }
+  }
+}
+
+
+// -----------------------------
+// Times CTA
+// -----------------------------
+
+.cta-party-times{
+  width: 100%;
+  height: fit-content;
+  padding-bottom: 2rem;
+
+
+  .party-times-box{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+
+    padding: 2rem;
+    padding-bottom: 1rem;
+
+      background-color: $kidsup-orange;
+
+      h2, h3, p{
+        text-align: center;
+      }
+
+      h2{
+        padding-bottom: 1rem;
+          font-family: "Shin-Maru-GP-Ultra";
+      }
+
+      h3{
+          font-family: "Shin-Maru-GP-DeBold";
+        padding-bottom: 1rem;
+      }
+
+      p{
+        font-size: 1.25rem;
+        font-weight: bold;
+
+        a{
+          color: white;
+        }
+      }
+               @media (max-width: 575.98px) {
+                p{
+                  font-size: 1rem;
+                }
+              }
+  }
+  
+
+      .cta-primary{
+
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+     
+}
+
+
+// -----------------------------
+// Lower CTA
+// -----------------------------
+
+
+.lower-cta{
+  background-color: $kidsup-orange;
+
+  .lower-cta-contents{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+
+    .image{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        margin: auto;
+      }
+    }
+
+    .text{
+      width: 60%;
+      height: fit-content;
+      margin-left: 0;
+
+      h2{
+        text-align: left;
+        padding-bottom: 1rem;
+        margin-left: 10%;
+      }
+      .cta-button {
+        margin: auto;
+        margin-left: 10%;
+      }
+    }
+    
+
+
+
+  @media screen and (max-width: 767.98px){
+        .image{
+      width: 30%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        margin: auto;
+      }
+    }
+
+    .text{
+      width: 70%;
+
+      h2{
+        margin-left: 5%;
+      }
+      .cta-button{
+        margin-left: 5%;
+      }
+    }
+  }
+
+     @media (max-width: 575.98px) {
+      flex-direction: column;
+
+      .image{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        margin: auto;
+      }
+    }
+
+    .text{
+      width: 100%;
+
+      h2{
+        margin-left: unset;
+        text-align: center;
+        padding-bottom: 2rem;
+        padding-top: 1rem;
+        font-size: 1.3rem;
+
+        }
+
+      .cta-button{
+        margin: auto;
+      }
+    }
+     }
+}  
+}
+
+
+// -----------------------------
+// Gallery
+// -----------------------------
+
+
+/* Swiper Container Styling */
+.gallery-swiper {
+    width: 100%; /* Swiper container is full width */  
+    height: auto;
+}
+
+.swiper-slide {
+    /* Center the content (the container div) within the slide */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Let Swiper control the width of the slide itself */
+    width: auto;
+    aspect-ratio: 3 / 2;
+
+    border-radius: 2rem;
+    overflow: hidden;
+    background-color: #EF8200;
+
+        border: solid white 1rem;
+}
+
+.swiper-slide .container {
+    padding: 0;
+
+    
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+    margin: auto;
+    
+
+}
+
+/* Custom Navigation Styling */
+.gallery-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: fit-content;
+    margin: auto;
+    padding-top: .5rem;
+}
+
+.gallery-nav-prev,
+.gallery-nav-next {
+    cursor: pointer;
+    transition: color 0.3s ease;
+    width: 4rem;
+    .swiper-button-bg{
+      fill: $kidsup-orange;
+    }
+    .swiper-button-arrow{
+      fill: white;
+    }
+
+    transition: ease-in-out .2s;
+
+    opacity: .9;
+}
+
+.gallery-nav-prev:hover,
+.gallery-nav-next:hover {
+    opacity: .6;
+}
+
+
+/* Modal Styling */
+.image-modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+.image-modal.show {
+    display: flex; /* Show the modal */
+}
+
+.modal-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.7); /* Corresponds to --kidsup-gray at 66% opacity */
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 9999; /* Above the background */
+}
+
+.close-modal {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+    color: white;
+    background-color: $kidsup-orange;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 9003; /* Above the image */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
+}
+
+
+
+// -----------------------------
+// SIGN UP
+// -----------------------------
+
+.sign-up{
+  margin-bottom: 1rem;
+
+  .sign-up-row{
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    .step{
+      width: calc(100% / 3);
+
+      .step-image{
+        width: 100%;
+        aspect-ratio: 1 /1;
+        margin-bottom: 1rem;
+
+
+        .sign-up-bg{
+        fill: white;
+      }
+
+      .sign-up-main-colour{
+        fill:  $kidsup-orange;
+      }
+
+      .sign-up-stroke{
+          fill: $kidsup-gray;
+      }
+
+
+
+      }
+
+      h3{
+      margin-bottom: 1rem;
+      font-size: 1.75rem;
+      }
+    }
+    
+  }
+
+
+    .button-box{
+    display: flex;
+    flex-direction: row;
+
+    margin: auto;
+    width: fit-content;
+    justify-content: space-between;
+    width: 60%;
+
+ padding-top: 1rem;
+ padding-bottom: 1rem;
+
+ .cta-button{
+  width: 40%;
+ }
+  }
+
+  @media (max-width: 1399.98px) {
+     .button-box{
+width: 65%;
+}
+}
+
+
+  @media (max-width: 1199.98px) {
+
+         .button-box{
+width: 75%;
+}
+  }
+  @media (max-width: 991.98px) {
+
+         .button-box{
+width: 100%;
+}
+  }
+
+    @media (max-width: 767.98px) {
+
+ .sign-up-row{
+  flex-direction: column;
+
+      .step{
+        width: 100%;
+      }
+ }
+
+         .button-box{
+          flex-direction: column;
+          justify-content: unset;
+
+          gap: 1rem;
+    
+
+         .cta-button{
+          width: 100%;
+          max-width: 425px;
+         }
+              }
+  }
+  }
+
+// -----------------------------
+// BOTTOM
+// -----------------------------
+
+.bottom{
+    background-color: $kidsup-gray;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+  h3{
+    font-size: 1.5rem;
+    color: white;
+    font-family: "Shin-Maru-GP-Bold";
+    text-align: center;
+    padding-top: 1rem;
+
+  }
+
+  p{
+
+    text-align: center;
+    color: white;
+  }
+
+  .bottom-image{
+    display: flex;
+    width: 50%;
+    margin: auto;
+
+
+  }
+}
