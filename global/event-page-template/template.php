@@ -182,15 +182,31 @@
   </div>
 
   <!-- Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
+    <div class="three-reasons-nav">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="three-reasons-nav-prev">
+                <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
+                <g class="cls-4">
+                  <g id="Group_134" data-name="Group 134">
+                    <path id="Path_151" data-name="Path 151" class="swiper-button-arrow" d="M29.82,39.85l-9.88-9.31,9.88-9.31c.88-.8,2.24-.74,3.04.14.78.86.74,2.18-.09,2.99l-4.27,4.02h11.01c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-11.01l4.27,4.03c.85.83.87,2.19.04,3.04-.81.83-2.13.87-2.99.09"/>
+                  </g>
+                </g>
+              </svg>
 
-
-
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="three-reasons-nav-next">
+                <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
+                <g class="cls-4">
+                  <g id="Group_134" data-name="Group 134">
+                    <path id="Path_151" data-name="Path 151" class="swiper-button-arrow" d="M31.78,21.22l9.88,9.31-9.88,9.31c-.88.8-2.24.74-3.04-.14-.78-.86-.74-2.18.09-2.99l4.27-4.02h-11.01c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15h11.01l-4.27-4.03c-.85-.83-.87-2.19-.04-3.04.81-.83,2.13-.87,2.99-.09"/>
+                  </g>
+                </g>
+              </svg>
+    </div>
 
 
 
 </div>
+
 
 
 </div>
@@ -413,13 +429,10 @@ document.addEventListener('DOMContentLoaded', () => {
     centeredSlides: true,
     slidesPerView: "auto",
     spaceBetween: 16, // 1rem
-    pagination: {
-      el: ".three-reasons-swiper .swiper-pagination",
-      clickable: true,
-    },
+
     navigation: {
-      nextEl: ".three-reasons-swiper .swiper-button-next",
-      prevEl: ".three-reasons-swiper .swiper-button-prev",
+      nextEl: ".three-reasons-swiper .three-reasons-nav-next",
+      prevEl: ".three-reasons-swiper .three-reasons-nav-prev",
     },
     on: {
       init: equalizeHeights,

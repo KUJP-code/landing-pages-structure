@@ -1,0 +1,15 @@
+{
+  "default": "12月20日（土）",
+  "dateGroups": [
+    {
+      "date": "12月21日（日）",
+      "schools": [
+        "Kids UP 田園調布雪谷",
+        "Kids UP 長原",
+        "Kids UP 戸越",
+        "Kids UP 成城"
+      ]
+    }
+
+  ]
+}

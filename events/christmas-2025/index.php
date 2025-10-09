@@ -2,8 +2,9 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Responsive Navbar with Custom Hamburger</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+  <title>Christmas 2025</title>
 
 
  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
@@ -17,7 +18,7 @@
   <!-- NAV -->
   <nav>
     <div class="nav-inner">
-      <a class="navbar-brand" href="#"><img src="/global/event-page-template/event-page-images/hero-logo-white.svg" alt="nav logo" /></a>
+      <a class="navbar-brand" href="https://kids-up.jp/"><img src="/global/event-page-template/event-page-images/hero-logo-white.svg" alt="nav logo" /></a>
 
       <button class="nav-toggle" aria-label="Toggle navigation">
         <span class="bar-top"></span>
@@ -27,15 +28,14 @@
 
 
       <div class="nav-links">
-        <a href="#" class="button button-1">イベント内容</a>
-        <a href="#" class="button button-2">アクティビティ内容</a>
-        <a href="#" class="button button-3">お申込みはこちら</a>
-
+        <a href="#about" class="button button-1">イベント概要</a>
+        <a href="#activities" class="button button-2">アクティビティ内容</a>
+        <a href="/events/christmas-2025/form/" class="button button-3" target="_blank">お申込みはこちら</a>
       </div>
 
 
         <div class="sticky-cta">
-    <a href="#signup" class="button button-4">お申込みはこちら</a>
+    <a href="/events/christmas-2025/form/" class="button button-4" target="_blank">お申込みはこちら</a>
   </div>
 </div>
 </nav>
@@ -58,8 +58,9 @@
 <p class="p-sub">※開催日はスクールにより異なります。</p>
 </p>
 
-<h2>クラフトやゲーム、スナックビュッフェなど内容は盛りだくさん！<br>
-クリスマスプレゼントももらえるよ♪</h2>
+<h2>クラフトやゲーム、スナックビュッフェなど、<br>
+  楽しいアクティビティが盛りだくさん！<br>
+  クリスマスプレゼントももらえるよ♪</h2>
 </div>
 </div>
 
@@ -71,17 +72,37 @@
 <div class="inner-contents">
 
 <div class="show-accordion">
-   <img src="./images/hero-images/hero-mini-images/hero-workshop-parcel.jpg" alt="" class="hero-side">
+
+<div class="hero-side  hero-side-left">
+
+   <img src="./images/hero-images/hero-mini-images/hero-workshop-parcel.jpg" alt="" class=" parcel">
+
+  <h4 class="parcel-h4">プレゼントリレー</h4>
+</div>
 </div>
 
 <div class="show-both">
 
-  <img src="./images/hero-images/hero-mini-images/hero-workshop-santa.jpg" alt="" class="hero-center">
+
+  <div class="hero-center">
+  <img src="./images/hero-images/hero-mini-images/hero-workshop-santa.jpg" alt="" class="santa">
+
+
+  <h4 class="santa-h4">サンタがやってくる！</h4>
+
+
+</div>
 
 </div>
 
 <div class="show-accordion">
-   <img src="./images/hero-images/hero-mini-images/hero-workshop-ornament.jpg" alt="" class="hero-side">
+
+  <div class="hero-side  hero-side-right">
+   <img src="./images/hero-images/hero-mini-images/hero-workshop-ornament.jpg" alt="" class="bauble">
+
+     <h4 class="santa-h4">オーナメント作り</h4>
+
+</div>
 </div>
 
 </div>
@@ -102,16 +123,49 @@
   <div class="christmas-market">
 <img src="./images/hero-images/christmas-market.svg" alt="Christmas Market" class="hero-logo">
 
+<div class="inner-contents">
+
 <div class="show-accordion">
-  This content shows only in accordion mode (under 576px).
+
+<div class="hero-side hero-side-left">
+
+   <img src="./images/hero-images/hero-mini-images/hero-market-buffet.jpg" alt="" class="buffet">
+
+  <h4 class="buffet-h4">スナックビュッフェ</h4>
+</div>
 </div>
 
+<div class="show-both">
 
+
+  <div class="hero-center">
+  <img src="./images/hero-images/hero-mini-images/hero-market-reindeer.jpg" alt="" class="reindeer">
+
+
+  <h4 class="reindeer-h4">トナカイの輪投げ</h4>
+
+
+</div>
+
+</div>
+
+<div class="show-accordion">
+
+  <div class="hero-side hero-side-right">
+   <img src="./images/hero-images/hero-mini-images/hero-market-top-trumps.jpg" alt="" class="trumps">
+
+     <h4 class="trumps-h4">巨大カードゲーム</h4>
+
+</div>
+</div>
+
+</div>
 
 <div class="show-both">
-  <h3>❷ 11:00-12:20<br class="time-break"> ❹ 16:00-17:20</h3>
+  <h3>
+  ❶ 9:00-10:20<br class="time-break"> ❸ 14:00-15:20
+</h3>
 
-        
 </div>
   </div>
 
@@ -188,74 +242,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </div>
 
-
-
-      <script>
-        // Array of school names from the provided JSON file
-        const schoolNames = [
-            "denenchofu-yukigaya",
-            "kamata-ekimae",
-            "ikegami",
-            "toyocho",
-            "nagahara",
-            "monzennakacho",
-            "togoshi",
-            "seijo",
-            "omori",
-            "waseda",
-            "rinkai-shinonome",
-            "shinkawasaki",
-            "todoroki",
-            "ojima",
-            "mitaka",
-            "futamatagawa",
-            "shin-urayasu",
-            "tennocho",
-            "minami-machida-grandberry-park",
-            "oi",
-            "harumi",
-            "yotsuya",
-            "akabane",
-            "kita-shinagawa",
-            "mizonokuchi",
-            "yakou",
-            "socola-minami-gyotoku",
-            "saginomiya",
-            "magome",
-            "okurayama",
-            "musashi-shinjo",
-            "musashi-kosugi",
-            "kawaguchi",
-            "ikebukuro",
-            "ueno",
-            "kanamecho"
-        ];
-
-        // Function to update the hero title based on the URL
-        function updateHeroTitle() {
-            // Corrected ID to match the h1 element in the HTML
-            const heroTitle = document.getElementById('dynamic-h1');
-            const url = window.location.href;
-
-            for (const name of schoolNames) {
-                // Check if the URL contains the school name. Using a case-insensitive check.
-                if (url.toLowerCase().includes(name.toLowerCase())) {
-                    // Capitalize the first letter of each word for a clean display
-                    const capitalizedName = name.split('-').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-                    heroTitle.textContent = `Welcome to Kids UP ${capitalizedName}!`;
-                    // Exit the loop once a match is found
-                    break; 
-                }
-            }
-        }
-
-        // Call the function when the page loads
-        document.addEventListener('DOMContentLoaded', updateHeroTitle);
-    </script>
     
     <div class="hero-bottom">
 
- <a href="" class="cta-button cta-primary">お申込みはこちら</a>
+ <a href="/events/christmas-2025/form/" class="cta-button cta-primary" target="_blank">お申込みはこちら</a>
     </div>
 
 </section>
@@ -268,17 +258,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <!-- Event About Section -->
 
-<div class="party-event-about">
+<div class="party-event-about" id="about">
   <div class="container">
 
     <div class="mobile-cta-hide about-event-wrapper">
     <div class="text">
     <h2>Kids UP クリスマスパーティー 2025</h2>
     <p>2種類のパーティー両方参加も大歓迎！！<br>
-        2つのパーティーの合間の時間も無料でお子様をお預かりします♪<br>
-        クリスマスを120％楽しめること間違いなし！</p>
+      2つのパーティーの合間の時間も無料でお子様をお預かりします♪<br>
+      クリスマスを120％楽しめること間違いなし！
+    </p>
    
-    <a class="cta-button cta-secondary" href="">お申込みはこちら
+    <a class="cta-button cta-secondary" href="/events/christmas-2025/form/" target="_blank">お申込みはこちら
         <svg class="arrow" viewBox="0 0 1006.31 837.38" xmlns="http://www.w3.org/2000/svg">
         <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z"/>
         </svg>
@@ -333,22 +324,43 @@ document.addEventListener('DOMContentLoaded', () => {
     </div>
   </div>
 
+
   <!-- Navigation -->
-  <div class="swiper-button-next"></div>
-  <div class="swiper-button-prev"></div>
 
 
 
+    <div class="swiper-nav">
+              <?xml version="1.0" encoding="UTF-8"?>
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="three-reasons-swiper-nav-prev previous">
+                <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
+                <g class="cls-4">
+                  <g id="Group_134" data-name="Group 134">
+                    <path id="Path_151" data-name="Path 151" class="swiper-button-arrow" d="M29.82,39.85l-9.88-9.31,9.88-9.31c.88-.8,2.24-.74,3.04.14.78.86.74,2.18-.09,2.99l-4.27,4.02h11.01c1.19,0,2.15.96,2.15,2.15s-.96,2.15-2.15,2.15h-11.01l4.27,4.03c.85.83.87,2.19.04,3.04-.81.83-2.13.87-2.99.09"/>
+                  </g>
+                </g>
+              </svg>
 
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="three-reasons-swiper-nav-next next">
+                <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
+                <g class="cls-4">
+                  <g id="Group_134" data-name="Group 134">
+                    <path id="Path_151" data-name="Path 151" class="swiper-button-arrow" d="M31.78,21.22l9.88,9.31-9.88,9.31c-.88.8-2.24.74-3.04-.14-.78-.86-.74-2.18.09-2.99l4.27-4.02h-11.01c-1.19,0-2.15-.96-2.15-2.15s.96-2.15,2.15-2.15h11.01l-4.27-4.03c-.85-.83-.87-2.19-.04-3.04.81-.83,2.13-.87,2.99-.09"/>
+                  </g>
+                </g>
+              </svg>
+    </div>
+
+</div>
 
 
 </div>
 </div>
-</div>
 
 
-<div class="schools-list">
+<div class="schools-list" id="party-times">
+
 <div class="container prefecture-wrapper">
+    <h2 class="section-h2">スクール一覧</h2>
   <p id="loading-message">Loading school list...</p>
   <!-- JS will inject .prefecture.tokyo, .prefecture.kanagawa, etc. here -->
 </div>
@@ -359,13 +371,34 @@ document.addEventListener('DOMContentLoaded', () => {
   const loadingMessage = document.getElementById('loading-message');
   if (loadingMessage) loadingMessage.remove();
 
-  fetch('/global/event-page-template/event-page-common-components/school-lists/2025/school_info.json')
+  const schoolInfoPromise = fetch('/global/event-page-template/event-page-common-components/school-lists/2025/school_info.json')
     .then(response => {
-      if (!response.ok) throw new Error('Network response was not ok');
+      if (!response.ok) throw new Error('Network response was not ok for school_info.json');
       return response.json();
-    })
-    .then(schoolInfo => {
-      // This loop builds the HTML from your JSON
+    });
+
+  const schoolDatesPromise = fetch('/events/christmas-2025/stylesheets/includes/school_dates.json')
+    .then(response => {
+      if (!response.ok) throw new Error('Network response was not ok for school_dates.json');
+      return response.json();
+    });
+
+  Promise.all([schoolInfoPromise, schoolDatesPromise])
+    .then(([schoolInfo, schoolDates]) => {
+
+      // Helper function to find the correct date for a school
+      const findDateForSchool = (schoolName, dateData) => {
+        // Search through each group in the dateGroups array
+        for (const group of dateData.dateGroups) {
+          if (group.schools.includes(schoolName)) {
+            return group.date; // Return the date if school is found in a group
+          }
+        }
+        // If not found in any group, return the default date
+        return dateData.default;
+      };
+
+      // Build HTML from JSON
       for (const prefectureKey in schoolInfo) {
         if (!schoolInfo.hasOwnProperty(prefectureKey)) continue;
         const prefectureData = schoolInfo[prefectureKey];
@@ -407,65 +440,67 @@ document.addEventListener('DOMContentLoaded', () => {
 
           const schoolList = document.createElement('ul');
           wardData.schools.forEach(school => {
+            // Call the new helper function to get the date
+            const eventDate = findDateForSchool(school, schoolDates);
             const li = document.createElement('li');
-            li.textContent = school;
+            li.innerHTML = `${school}<br><small class="school-date">${eventDate}</small>`;
             schoolList.appendChild(li);
           });
           wardDiv.appendChild(schoolList);
           wardsContainer.appendChild(wardDiv);
         }
+
         prefectureDiv.appendChild(wardsContainer);
         wrapper.appendChild(prefectureDiv);
       }
-      
-      // ✨ NEW: Helper function for smooth scrolling with a top offset ✨
-      const scrollToElementWithOffset = (element, remOffset) => {
-        const remInPixels = parseFloat(getComputedStyle(document.documentElement).fontSize);
-        const offsetInPixels = remOffset * remInPixels;
-        const elementPosition = element.getBoundingClientRect().top + window.scrollY;
-        const targetPosition = elementPosition - offsetInPixels;
 
-        window.scrollTo({
-          top: targetPosition,
-          behavior: 'smooth'
-        });
+      // Smooth scroll helper with offset
+      const scrollToElementWithOffset = (element, pixelOffset) => {
+        const elementPosition = element.getBoundingClientRect().top + window.scrollY;
+        const targetPosition = elementPosition - pixelOffset;
+        window.scrollTo({ top: targetPosition, behavior: 'smooth' });
       };
 
-      // Accordion logic with auto-close and scroll functionality
+      // Accordion with delayed scroll to the clicked header
       const allPrefectures = document.querySelectorAll('.prefecture');
 
       allPrefectures.forEach(prefecture => {
         const header = prefecture.querySelector('.prefecture-header');
         header.addEventListener('click', () => {
           const wasOpen = prefecture.classList.contains('expanded');
+          const transitionDuration = parseFloat(getComputedStyle(prefecture).transitionDuration) * 1000 || 250;
 
           allPrefectures.forEach(p => p.classList.remove('expanded'));
 
           if (!wasOpen) {
             prefecture.classList.add('expanded');
-            // Use the new helper function for scrolling
-            scrollToElementWithOffset(prefecture, 7);
+            setTimeout(() => {
+              scrollToElementWithOffset(header, 224);
+            }, transitionDuration);
           } else {
-            // Use the new helper function for scrolling
-            scrollToElementWithOffset(wrapper, 7);
+            setTimeout(() => {
+              scrollToElementWithOffset(header, 224);
+            }, transitionDuration / 2);
           }
         });
       });
-      // Accordion logic ends here
-
     })
     .catch(error => {
       console.error('There was a problem fetching the school data:', error);
       const msg = document.createElement('p');
       msg.textContent =
-        'Failed to load school data. Please ensure "school_info.json" is in the same directory and you are using a local web server.';
+        'Failed to load school data. Please check your file paths and ensure both JSON files are available.';
       document.querySelector('main').appendChild(msg);
     });
 });
 </script>
+
+
 </div>
 
-<section class="party-1">
+
+
+<section class="party-1" id="activities">
 <div class="container">
 
   <div class="party-logo-times-row">
@@ -493,7 +528,8 @@ document.addEventListener('DOMContentLoaded', () => {
     </h3>
 
     <p>
-      大きな袋をかついだサンタさんがKids UPにやってくる！一人ひとりに、プレゼントを配ってくれるよ♪<br>
+      サンタさんが大きな袋をかついで、笑顔いっぱいでKids UPに登場！<br>
+      みんなが待ちに待ったプレゼントを持って遊びに来るよ！<br>
       <br>
     </p>
 
@@ -561,12 +597,12 @@ document.addEventListener('DOMContentLoaded', () => {
       ❸&❹ 14:00 - 17:20
     </h3>
 
-    <p>❶&❷、もしくは❸&❹をお申込みの方は、<br class="break-hide">1回目のパーティー後、2回目のパーティー スタートまでのお時間は<br class="break-hide">無料でお預かりいたします。<br>
+    <p>①&②、もしくは③&④をお申込みの方は、<br class="break-hide">1回目のパーティー後、2回目のパーティー スタートまでのお時間は<br class="break-hide">無料でお預かりいたします。<br>
      <a href="#party-times" class="party-times-link"> ※一部のスクールは開催時間が異なります。</a>
   </p>
 
   </div>
-           <a class="cta-button cta-primary" href="">お申込みはこちら
+           <a class="cta-button cta-primary" href="/events/christmas-2025/form/" target="_blank">お申込みはこちら
         
         </a>
 
@@ -645,8 +681,8 @@ document.addEventListener('DOMContentLoaded', () => {
     <div class="text">
       <h3>スナックビュッフェ</h3>
       <p>クリスマスマーケットへようこそ！<br>
-      ゲームでゲットしたチケットを使って<br>
-      スナックをゲットしよう♪<br>
+ゲームでゲットしたチケットを使って<br>
+スナックをゲットしよう♪<br>
       <br>
       <span class="p-sub">アレルゲン： 小麦, 卵, 乳, 大豆, ゼラチン, りんご</span>
       </p>
@@ -658,9 +694,10 @@ document.addEventListener('DOMContentLoaded', () => {
     <img src="./images/christmas-markets/raffle-img.jpg" alt="">
     <div class="text">
       <p>
-        クリスマスバージョンのくじ引きタイム♪<br>
-チケットをもらい、自分の番号が呼ばれたら...<br>
-その番号のプレゼントが当たるよ！
+くじ引きのドキドキ感にワクワクしながら、<br>
+プレゼントをゲットしちゃおう♪<br>
+お友だちと一緒に、笑顔いっぱいの<br>
+クリスマスを楽しもう!
       </p>
     </div>
   </div>
@@ -704,8 +741,8 @@ document.addEventListener('DOMContentLoaded', () => {
   オリジナル
 カードゲーム！</h3>
 <p>
-  KidsUPオリジナル！<br>
-駆け引きが楽しいわくわくの新カードゲームが登場★<br>
+KidsUPオリジナル！<br>
+駆け引きが楽しい、わくわくの新カードゲームが登場★<br>
 <br>
 ルールは簡単だから誰でも楽しめるよ！<br>
 遊んだ後はカードゲームをプレゼント！<br>
@@ -749,8 +786,21 @@ document.addEventListener('DOMContentLoaded', () => {
 </svg>
 
   </div>
+  
+  <div class="photo-wrapper">
+
   <img src="./images/all-parties/photo-service.jpg" alt="" class="photo">
+  <div class="santa-photoshoot-box">
+      <p>サンタさんと一緒に写真を撮ろう！</p>
+      <p class="p-sub">※パーティー①&③のみ</p>
+
+      <img src="./images/all-parties/santa-photos.jpg" alt="" class="santa-photos">
+
+
+  </div>
 </div>
+</div>
+
 
 <div class="text">
 <p>  クリスマスムードにデコレーション
@@ -807,7 +857,7 @@ document.addEventListener('DOMContentLoaded', () => {
 お申込みはお早めに!
 </h2>
 
-    <a class="cta-button cta-secondary" href="">お申込みはこちら
+    <a class="cta-button cta-secondary" href="/events/christmas-2025/form/" target="_blank">お申込みはこちら
         <svg class="arrow" viewBox="0 0 1006.31 837.38" xmlns="http://www.w3.org/2000/svg">
         <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z"/>
         </svg>
@@ -823,14 +873,18 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <section class="gallery">
 
+  <div class="container">
+    <h2>ギャラリー</h2>
+  </div>
+
   <div class="swiper gallery-swiper">
         <div class="swiper-wrapper">
             </div>
     </div>
 
-    <div class="gallery-nav">
+    <div class="swiper-nav">
               <?xml version="1.0" encoding="UTF-8"?>
-              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="gallery-nav-prev">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="gallery-nav-prev previous">
                 <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
                 <g class="cls-4">
                   <g id="Group_134" data-name="Group 134">
@@ -839,7 +893,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </g>
               </svg>
 
-              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="gallery-nav-next">
+              <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 62 62" class="gallery-nav-next next">
                 <circle id="Ellipse_12" data-name="Ellipse 12" class="swiper-button-bg" cx="31" cy="31" r="31"/>
                 <g class="cls-4">
                   <g id="Group_134" data-name="Group 134">
@@ -922,7 +976,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     <h3>WEBフォームよりお申込み</h3>
-    <p>WEBフォームよりKids UPのハロウィンパーティーにお申込みが可能です。お申込みフォームより入力のうえ、お申込みください。</p>
+    <p>WEBフォームよりKids UPのクリスマスパーティーにお申込みが可能です。お申込みフォームより入力のうえ、お申込みください。</p>
 
   </div>
 
@@ -1041,19 +1095,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 <div class="button-box">
-    <a class="cta-button cta-secondary button-1" href="">お申込みはこちら
+    <a class="cta-button cta-secondary button-1" href="/events/christmas-2025/form/" target="_blank">お申込みはこちら
         <svg class="arrow" viewBox="0 0 1006.31 837.38" xmlns="http://www.w3.org/2000/svg">
         <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z"/>
         </svg>
     </a>
 
-        <a class="cta-button cta-secondary button-2" href="">お問い合わせ
+        <a class="cta-button cta-secondary button-2" href="https://kids-up.jp/inquiry/" target="_blank">お問い合わせ
         <svg class="arrow" viewBox="0 0 1006.31 837.38" xmlns="http://www.w3.org/2000/svg">
         <path d="M1006.22,415.05c-.03-.58-.08-1.15-.12-1.73-.04-.62-.08-1.24-.14-1.86-.07-.72-.17-1.44-.26-2.16-.06-.46-.11-.93-.18-1.39-.11-.78-.25-1.55-.39-2.32-.07-.4-.14-.8-.21-1.2-.15-.78-.33-1.56-.51-2.34-.09-.39-.17-.79-.27-1.18-.19-.75-.39-1.5-.6-2.24-.12-.42-.23-.84-.36-1.25-.21-.69-.44-1.38-.67-2.06-.16-.47-.31-.94-.48-1.4-.22-.61-.45-1.22-.69-1.83-.21-.53-.41-1.07-.63-1.59-.22-.53-.45-1.05-.68-1.57-.26-.59-.52-1.19-.8-1.78-.21-.45-.44-.89-.66-1.33-.32-.64-.64-1.29-.99-1.92-.21-.39-.42-.76-.64-1.14-.38-.67-.76-1.34-1.15-2.01-.21-.35-.43-.68-.64-1.03-.42-.67-.84-1.35-1.29-2.01-.23-.34-.47-.67-.7-1-.45-.64-.89-1.29-1.36-1.92-.28-.38-.58-.74-.86-1.12-.44-.57-.88-1.14-1.34-1.7-.4-.49-.82-.95-1.23-1.43-.37-.43-.74-.87-1.12-1.3-.82-.9-1.65-1.78-2.51-2.64L639.74,21.59c-28.78-28.78-75.45-28.78-104.23,0h0c-28.78,28.78-28.78,75.45,0,104.23l219.17,219.17H73.7c-40.7,0-73.7,33-73.7,73.7h0c0,40.71,33,73.7,73.7,73.7h680.97l-219.17,219.17c-28.78,28.78-28.78,75.45,0,104.23h0c28.78,28.78,75.45,28.78,104.23,0l344.99-344.99c.86-.86,1.7-1.74,2.51-2.64.38-.42.75-.86,1.12-1.29.41-.48.83-.95,1.23-1.43.46-.56.9-1.13,1.34-1.7.29-.37.58-.74.86-1.12.47-.63.92-1.28,1.36-1.92.23-.34.47-.67.7-1,.45-.66.87-1.34,1.29-2.01.21-.34.43-.68.64-1.03.4-.66.78-1.33,1.15-2.01.21-.38.43-.76.64-1.14.34-.64.66-1.28.99-1.92.22-.44.45-.89.66-1.33.28-.59.54-1.18.8-1.78.23-.52.46-1.04.68-1.57.22-.53.42-1.06.63-1.59.24-.61.47-1.21.69-1.83.17-.47.32-.94.48-1.4.23-.68.46-1.37.67-2.06.13-.42.24-.84.36-1.25.21-.74.42-1.49.6-2.24.1-.39.18-.78.27-1.18.18-.78.36-1.55.51-2.34.08-.4.14-.8.21-1.2.14-.77.28-1.54.39-2.32.07-.46.12-.93.18-1.39.09-.72.19-1.43.26-2.16.06-.62.1-1.24.14-1.86.04-.58.1-1.15.12-1.73.06-1.21.09-2.43.09-3.64h0c0-1.22-.03-2.43-.09-3.65Z"/>
         </svg>
     </a>
 
 </div>
+
 
 
 </div>
@@ -1073,6 +1128,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </section>
 
+
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-common-components/event-page-footer.php'; ?>
 
 </div>
 
@@ -1105,13 +1162,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   const cta = document.querySelector('.sticky-cta');
-  const hideTriggers = document.querySelectorAll('.hero, .cta-party-times, .lower-cta, .footer, .gallery, .sign-up, .mobile-cta-hide'); // Now includes the ID
+  const hideTriggers = document.querySelectorAll('.hero, .cta-party-times, .lower-cta, .footer, .gallery, .sign-up, .bottom, .mobile-cta-hide, #footer'); // Now includes the ID
 
   if (cta && hideTriggers.length > 0) {
     const observerOptions = {
       root: null,
       rootMargin: '0px',
-      threshold: 0.7
+      threshold: 0.4
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -1146,8 +1203,8 @@ document.addEventListener('DOMContentLoaded', () => {
       clickable: true,
     },
     navigation: {
-      nextEl: ".three-reasons-swiper .swiper-button-next",
-      prevEl: ".three-reasons-swiper .swiper-button-prev",
+      nextEl: ".three-reasons-swiper-nav-next",
+      prevEl: ".three-reasons-swiper-nav-prev",
     },
     on: {
       init: equalizeHeights,

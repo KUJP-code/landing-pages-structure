@@ -134,6 +134,23 @@ nav{
 }
 }
 
+// SWIPER NAV COMMON
+
+
+.swiper-nav{
+    .previous,
+.next{
+
+
+      .swiper-button-bg{
+      fill: $christmas-gold;
+    }
+    .swiper-button-arrow{
+      fill: white;
+    }
+}
+}
+
 
 // HERO SECTION
 
@@ -384,25 +401,201 @@ nav{
       justify-content: center;
       width: 100%;
       margin: auto;
+      gap: 1rem;
+
+      .show-accordion, .show-both{
+        justify-content: center;
+        align-items: center;
+        position: relative;
+      }
+
 
       .hero-side{
-                width: 12.5rem;
-                margin: auto;
+        width: 15.5rem;
+        margin: auto;
+        position: relative;
       }
 
       .hero-center{
         display: flex;
         width: 12.5rem;
         margin: auto;
+        position: relative;
+
       }
+
+      .hero-side{
+        display: flex;
+        justify-content: center;
+        margin: auto;
+      }
+
+      .hero-center, .hero-side{
+        position: relative;
+
+
+        h4{
+          position: absolute;
+          width: 100%;
+          transform: translate(-50%, -100%);
+          font-size: 1rem;
+          left: 50%;
+          top: 100%;
+          text-align: center;
+          color: white;
+          padding: .25rem;
+          border-radius: .5rem;
+          font-family: "Shin-Maru-GP-Bold";
+        }
+      }
+
+          @media (max-width: 991.98px) {
+          gap: .5rem;
+          .hero-side{
+        width: 13rem;
+
+      }
+
+      .hero-center{
+        width: 12rem;
+      }
+
+          }
+
+        @media (max-width: 767.98px) {
+          gap: 0rem;
+          .hero-side{
+        width: 9rem;
+        z-index: 2;
+
+      }
+
+
+            .hero-center, .hero-side{
+        h4{
+          font-size: 0.9rem ;
+        }
+      }
+      .hero-center{
+        width: 11rem;
+        z-index: 1;
+      }
+
+
+            .hero-side-left{
+        margin-right: -1rem;
+      }
+      .hero-side-right{
+        margin-left: -1rem;
+      }
+
+          }
+
+                  @media (max-width: 575.98px) {
+
+          .hero-side{
+        width: 7rem;
+
+      }
+
+   
+
+      .hero-center, .hero-side{
+        h4{
+          font-size: 0.7rem ;
+        }
+      }
+        .hero-center{
+          width: 10rem ;
+          z-index: 1;
+        }
+
+        .hero-side{
+          z-index:20;
+          width: 8rem;
+          position: absolute;
+          transform: translate(-50%, -50%);
+
+      
+        }
+
+            .hero-side-left{
+              left: 60%;
+              top: 50%;
+              margin-right: unset;
+            }
+
+                  .hero-side-right{
+              left: 40%;
+              top: 50%;
+              margin-left: unset;
+            }
+
+          }
+
+    @media (max-width: 374.98px) {
+
+        .hero-center{
+          max-width: 130px;
+        }
+
+        .hero-side{
+          max-width: 108px;
+        }
+          }
+
+
+
     }
-    
   }
 
   .santas-workshop {
     border-left: none;
     border-radius: 0rem 2rem 2rem 0rem;
     background-image: url(../images/hero-images/workshop-bg.jpg);
+
+
+
+
+      .parcel, .santa, .bauble{
+        border: solid .25rem $christmas-gold;
+        border-radius: 1rem;
+        width: 100%;
+
+      }
+
+      .parcel-h4, .santa-h4, .bauble-h4{
+        background-color: $christmas-red;
+        -webkit-box-shadow:0px 0px 105px 10px rgba(42,17,23,0.9);
+        -moz-box-shadow: 0px 0px 105px 10px rgba(42,17,23,0.9);
+        box-shadow: 0px 0px 105px 10px rgba(42,17,23,0.9);
+        border: $christmas-gold solid .125rem;
+      }
+
+      .parcel{
+        rotate: -7deg;
+      }
+      .parcel-h4{
+        rotate: 2deg;
+      }
+
+      .santa{
+        rotate: -4deg;
+        height: auto;
+      }
+
+      .santa-h4{
+        rotate: 4deg;
+      }
+
+      .bauble{
+        rotate: 5deg;
+      }
+
+      .bauble-h4{
+        rotate: -4deg;
+      }
+
 
     h3{
       background-color: white;
@@ -419,6 +612,44 @@ nav{
     background-color: green;
     border-radius: 2rem 0rem 0rem 2rem;
     background-image: url(../images/hero-images/market-bg.jpg);
+
+
+          .buffet, .reindeer, .trumps{
+        border: solid .25rem $christmas-green;
+        border-radius: 1rem;
+        width: 100%;
+
+      }
+
+      .buffet-h4, .reindeer-h4, .trumps-h4{
+        background-color: $christmas-green;
+         filter: drop-shadow(0px 3px 0px $christmas-dark-green);
+        border: $christmas-dark-green solid .125rem;
+      }
+
+      .buffet{
+        rotate: -7deg;
+      }
+      .buffet-h4{
+        rotate: 2deg;
+      }
+
+      .reindeer{
+        rotate: 3deg;
+        height: auto;
+      }
+
+      .reindeer-h4{
+        rotate: -2deg;
+      }
+
+      .trumps{
+        rotate: 5deg;
+      }
+
+      .trumps-h4{
+        rotate: -4deg;
+      }
 
 
         h3{
@@ -483,6 +714,7 @@ nav{
 
 .show-both {
   display: block; // visible by default (50/50 and expanded)
+
 }
 
 .inactive .show-both {
@@ -491,11 +723,13 @@ nav{
 
 .show-accordion {
   display: none; // only visible when expanded
+  opacity: 0;
 }
 .show-accordion.visible {
-  display: block;
+  display: flex;
   width: 100%;
-  background-color: red;
+  opacity: 1;
+
 }
 
 .hero-bottom{
@@ -628,6 +862,12 @@ nav{
   background-position: bottom center;
   background-repeat: no-repeat;
 
+  .section-h2{
+    color: white;
+    font-family: "Shin-Maru-GP-Ultra";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
 
   // ===== THEME GENERATOR =====
 // This loop creates the CSS for every theme defined in the map.
@@ -1853,14 +2093,82 @@ background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 20
           }
         }
 
-        .photo {
+        .photo-wrapper{
           width: 90%;
+          margin: auto;
+          display: flex;
+
+        .photo {
+          width: 100%;
           margin: auto;
           border: solid 1rem whitesmoke;
           rotate: -7deg;
           z-index: 1;
         }
+
+        .santa-photoshoot-box{
+          position: absolute;
+          display: flex;
+          height: 33%; 
+          width: 75%;
+          max-width: 375px;
+          bottom: 0;
+          right: 0;
+          z-index: 3;
+          rotate: 3deg;
+          transform-origin: bottom right;
+          flex-direction: column;
+            
+            p{
+              background-color: $christmas-gold;
+              color: white;
+              padding: 1rem;
+              border-radius: 1rem;
+              font-weight: bold;
+              height: fit-content;
+              width: 80%;
+              padding-right: 25%;
+              font-family: "Shin-Maru-GP-Bold";
+              z-index: 4;
+              margin-top: 1rem;
+            }
+
+            .p-sub{
+              margin-top: -1rem;
+              width: fit-content;
+              padding-right: unset;
+              padding: 1rem;
+              padding-top: 0rem;
+              margin-left: 1rem;
+              margin-right: 1rem;
+            }
+
+
+            .santa-photos{
+              height: 100%;
+              width: auto;
+              border-radius: 50%;
+              position: absolute;
+              right:0;
+              top: 0;
+              z-index: 5;
+              border: solid .5rem $christmas-gold;
+              rotate: -3deg;
+
+          
+            }
+
+            @media screen and (max-width: 424.98px) {
+          width: 90%;
+          max-width: unset;
+          height: 40%;
+
+                        p{           
+                padding-right: 10%;}
+          }
+        }
       }
+       }
 
       .text {
         @extend %feature-text-base;
@@ -1999,16 +2307,10 @@ background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 20
 
 .gallery{
 
-  .gallery-nav-prev,
-.gallery-nav-next{
-
-
-      .swiper-button-bg{
-      fill: $christmas-gold;
-    }
-    .swiper-button-arrow{
-      fill: white;
-    }
+h2{
+  padding-bottom: 2rem;
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
 }
 
 .close-modal{

@@ -43,6 +43,21 @@
 "Kids UP 早稲田"
 ]
 },
+
+"Chuo Ward": {
+"日本語": "中央区",
+"schools": [
+"Kids UP 晴海"
+]
+},
+
+"Kita Ward": {
+"日本語": "北区",
+"schools": [
+"Kids UP 赤羽"
+]
+},
+
 "Toshima Ward": {
 "日本語": "豊島区",
 "schools": [
@@ -59,25 +74,20 @@
 "Nakano Ward": {
 "日本語": "中野区",
 "schools": [
-"Kids UP 鷺ノ宮"
+"Kids UP 鷺宮"
 ]
 },
-"Musashino City": {
+"Mitaka City": {
 "日本語": "三鷹市",
 "schools": [
 "Kids UP 三鷹"
 ]
+
 },
 "Machida City": {
 "日本語": "町田市",
 "schools": [
 "Kids UP 南町田グランベリーパーク"
-]
-},
-"Kita Ward": {
-"日本語": "北区",
-"schools": [
-"Kids UP 赤羽"
 ]
 }
 },
@@ -86,19 +96,20 @@
 "Kawasaki City": {
 "日本語": "川崎市",
 "schools": [
-"Kids UP 新川崎",
-"Kids UP 溝の口",
-"Kids UP 矢向",
 "Kids UP 武蔵新城",
-"Kids UP 武蔵小杉"
+"Kids UP 武蔵小杉",
+"Kids UP 溝の口",
+"Kids UP 新川崎"
 ]
 },
 "Yokohama City": {
 "日本語": "横浜市",
 "schools": [
-"Kids UP 二俣川",
+"Kids UP 大倉山",
+"Kids UP 矢向",
 "Kids UP 天王町",
-"Kids UP 大倉山"
+"Kids UP 二俣川"
+
 ]
 }
 },

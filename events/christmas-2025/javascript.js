@@ -18,13 +18,11 @@ document.addEventListener('DOMContentLoaded', function () {
                 return;
             }
 
-            // MODIFIED: Create img tags with src directly
+            // Create img tags with src directly
             images.forEach(imageUrl => {
                 const slide = `
                     <div class="swiper-slide">
-                        <div class="container">
                             <img src="${imageUrl}">
-                        </div>
                     </div>
                 `;
                 swiperWrapper.insertAdjacentHTML('beforeend', slide);
@@ -40,25 +38,55 @@ document.addEventListener('DOMContentLoaded', function () {
     function initializeSwiper() {
         mySwiper = new Swiper('.gallery-swiper', {
 
-            
-              // Slide Formatting
-            centeredSlides: true,
+            // Slide Formatting
             lazyLoading: true,
             loop: true,
             keyboard: {enabled: true,},
-
-
-
+            
+            // General Settings
             pagination: false,
             simulateTouch: true,
             grabCursor: true,
-            slidesPerView: 2,
             centeredSlides: true,
-            spaceBetween: 32,
 
+            // Navigation
             navigation: {
                 nextEl: '.gallery-nav-next',
                 prevEl: '.gallery-nav-prev',
+            },
+
+            // Responsive breakpoints -- ADDED HERE
+            breakpoints: {
+                1400: {
+                    slidesPerView: 3.75,
+                         spaceBetween: 16,
+                },
+
+                1200: {
+                    slidesPerView: 3.5,
+                    spaceBetween: 16,
+
+                },
+
+
+                992: {
+                    slidesPerView: 3.25,
+                    spaceBetween: 16,
+                },
+                768: {
+                    slidesPerView: 2.75,
+                    spaceBetween: 16,
+                },
+
+              576: {
+                    slidesPerView: 2.5,
+                    spaceBetween: 16,
+                },
+
+                0: {
+                    slidesPerView: 1.25,
+                    spaceBetween: 16,
+                },
             },
         });
 
@@ -68,11 +96,11 @@ document.addEventListener('DOMContentLoaded', function () {
         const modalBackground = document.querySelector('.modal-background');
 
         swiperWrapper.addEventListener('click', (event) => {
-            // MODIFIED: Find any img tag, not just one with a specific class
+            // Find any img tag, not just one with a specific class
             const clickedImg = event.target.closest('img');
             if (clickedImg) {
                 modal.classList.add('show');
-                // MODIFIED: Use the direct src from the clicked image
+                // Use the direct src from the clicked image
                 modalImg.src = clickedImg.src;
             }
         });
