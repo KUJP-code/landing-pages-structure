@@ -7,6 +7,8 @@ $kidsup-orange: #EF8200;
 $kidsup-gray: #5A534A;
 $kidsup-blue: #84c1da;
 
+$kidsup-gray-light: #f7f7f7;
+
 
 $global-transition: ease-in-out .2s;
 
@@ -475,8 +477,6 @@ margin-left: 0;
 
 .sticky-cta {
 
-
-
 background-color: #333;
 color: white;
 font-weight: bold;
@@ -628,7 +628,7 @@ transition: 0.3s ease-out;
 
   /* 1) Oldest fallback — always fill viewport height */
   height: 100vh;
-  min-height: 500px; /* legacy safety floor */
+  min-height: fit-content; /* legacy safety floor */
 
   /* 2) Modern override for mobile viewport quirks */
   height: 100dvh;
@@ -668,7 +668,6 @@ transition: 0.3s ease-out;
         padding: 1rem;
       }
     }
-
 }
 
 
@@ -697,6 +696,10 @@ transition: 0.3s ease-out;
       align-items: center;
       justify-content: center;
       flex: 1;
+
+      img{
+        padding: 2rem;
+      }
     }
 
     @media (max-width: 991.98px) {
@@ -732,7 +735,7 @@ transition: 0.3s ease-out;
 }
 
 // -----------------------------
-// Three Reasons 
+// Party Three Reasons 
 // -----------------------------
 .three-reasons-swiper{
   display: none;
@@ -828,6 +831,8 @@ transition: 0.3s ease-out;
     }
 }
 }
+
+
 
 // -----------------------------
 // School List Container
@@ -1063,7 +1068,7 @@ transition: 0.3s ease-out;
       
       // Accordion expanded state
       &.expanded .wards-container {
-        max-height: 2000px;
+        max-height: fit-content;
         padding: 1rem;
       }
       
@@ -1072,6 +1077,323 @@ transition: 0.3s ease-out;
     }
   }
 }
+
+
+// -----------------------------
+// Seasonal Three Benefits
+// -----------------------------
+
+.seasonal-three-benefits{
+  background-color: $kidsup-gray;
+
+
+  .container{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+    
+    .benefit-column{
+      background-color: $kidsup-orange;
+      width: calc(100% / 3);
+      padding: 1rem;
+      border-radius: 2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      align-items: center;
+
+
+      img{
+        width: 100%;
+        height: auto;
+        border-radius: 1rem !important;
+        border-style: solid;
+        border-width: 0.15rem;
+        border-color: white;
+        
+      }
+      p{
+        width: 100%;
+        font-size: 1.25rem;
+        color: white;
+        padding-top: unset;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+    }
+
+       @media (max-width: 991.98px) {
+        gap: 1rem;
+            .benefit-column{
+              p{
+                font-size: 1rem;
+                padding-left: .5rem;
+                padding-right: .5rem;
+              }
+            }
+       }
+
+       @media (max-width: 767.98px) {
+        gap: 1rem;
+        flex-direction: column;
+            .benefit-column{
+              width: 100%;
+              p{
+                font-size: 1.25rem;
+                padding-left: 1rem;
+                padding-right: 1rem;
+              }
+            }
+       }
+
+  }
+
+
+}
+
+
+// -----------------------------
+// Customer Feedback
+// -----------------------------
+
+
+.customer-feedback{
+  background-color: $kidsup-orange;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  h2{
+    color: white;
+  }
+.customer-feedback-column-wrapper{
+ display: flex;
+ flex-direction: row;
+ gap: 1rem;
+
+
+.item{
+  width: calc(100%/3);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  background-color: $kidsup-gray;
+
+  .picture-name-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+    
+
+    .img-wrapper{
+      width: calc(100%/3);
+      aspect-ratio: 1 / 1;
+      overflow: hidden;
+
+
+    img{
+      width: fit-content;
+    }
+     }
+
+
+    .name-wrapper{
+      width: calc(100%/3 * 2);
+      display: flex;
+      align-items: center;
+      height: 100%;
+
+      h4{
+      color: white;
+      }
+
+    }
+    
+  
+   
+
+  }
+
+  p{
+ 
+    color: white;
+  }
+
+
+  @media (max-width: 991.98px) {
+padding: 1rem;
+  .picture-name-wrapper{
+
+    flex-direction: column;
+    height: fit-content;
+    
+
+    .img-wrapper{
+      width: 50%;
+      height: auto;
+      margin: auto;
+      position: relative;
+ 
+
+
+    img{
+      width: 100%;
+      height: 100%;
+      aspect-ratio: 1/1;
+    }
+     }
+
+
+    .name-wrapper{
+      width: 100%;
+      display: flex;
+      text-align: center;
+      height: fit-content;
+
+      h4{
+      color: white;
+      width: fit-content;
+      margin: auto;
+      }
+
+    }
+    
+  
+   
+
+  }
+
+
+  }
+  
+
+}
+  @media (max-width: 767.98px){
+    flex-direction: column;
+    .item{
+        width:100%;
+        padding: 2rem;
+
+  .picture-name-wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    width: 100%;
+    justify-content: center;
+    height: fit-content;
+    
+
+    .img-wrapper{
+      width: 40%;
+      height: auto;
+      background-color: white;
+
+    img{
+      width: 100%;
+      
+    }
+     }
+
+
+    .name-wrapper{
+      width: 60%;
+      display: flex;
+      margin: auto;
+
+
+
+
+      h4{
+        font-size: 1.5rem;
+        text-align: left;
+        width: 100%;
+      }
+    }
+    
+  
+   
+
+  }
+
+}
+  }
+
+}
+}
+
+// -----------------------------
+// Four Benefits
+// -----------------------------
+
+.four-benefits {
+  background-color: $kidsup-gray;
+  padding: 2rem 0; // Combined top and bottom padding
+
+
+    .four-benefits-wrapper {
+      width: 100%;
+      background-color: $kidsup-orange;
+      display: flex;
+      flex-direction: row; // flex-direction: row is default, but explicit here
+      gap: 1rem;
+
+      .benefit {
+        width: 25%;
+        padding: 2rem;
+
+        .benefit-icon-box {
+          width: 6.5rem;
+          margin: auto;
+          padding-bottom: 0.5rem;
+
+          .benefit-icon-colour-1 {
+            fill: white;
+          }
+          .benefit-icon-colour-2 {
+            fill: $kidsup-gray;
+          }
+        }
+
+        h4 {
+          font-size: 1.15rem;
+          text-align: center;
+          color: white;
+
+          .h4-sub {
+            font-size: .85rem;
+          }
+        }
+      }
+
+      // Media query moved inside the element it modifies
+      @media (max-width: 991.98px) {
+        flex-wrap: wrap; // Allows items to wrap into a 2x2 grid
+
+        .benefit {
+          // Corrected width for a 2-column layout with a 1rem gap
+          width: calc(50% - 0.5rem); 
+        }
+      }
+
+      @media (max-width: 576.98px) {
+        flex-wrap: unset; // Allows items to wrap into a 2x2 grid
+        flex-direction: column;
+
+        .benefit {
+          // Corrected width for a 2-column layout with a 1rem gap
+          width: 100%; 
+          margin: auto;
+        }
+      }
+    }
+  }
 
 
 // -----------------------------
@@ -1134,14 +1456,444 @@ transition: 0.3s ease-out;
      
 }
 
+// -----------------------------
+// Activity Slider and Modal
+// -----------------------------
+
+.activity-slider{
+  height: fit-content;
+  background-color: $kidsup-gray;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+p{
+  color: white;
+  padding-bottom: 1rem;
+  font-family: "Shin-Maru-GP-Bold";
+}
+
+.swiper{
+  mask-image: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 2%,
+    rgba(255, 255, 255, 1) 10%,
+    rgba(255, 255, 255, 1) 90%,
+    rgba(255, 255, 255, 0) 98%
+  );
+}
+
+
+  .swiper-wrapper{
+
+    .swiper-card{
+      width: fit-content;
+      border-radius: 1.5rem;
+      overflow: hidden;
+
+      padding: .5rem;
+      background-color: $kidsup-orange;;
+      position: relative;
+      border: solid 3px $kidsup-orange;;
+      cursor: pointer;
+      transition: $global-transition;
+      aspect-ratio: 5 / 8;
+
+      &:hover{
+        border-color: white ;
+      }
+
+      .img-wrapper{
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        aspect-ratio: 1/1;
+        width: 100%;
+      img{
+        width: 100%;
+        border-radius: 1rem;
+      }
+
+      .date-container{
+        position: absolute;
+        top: 0;
+        background-color: $kidsup-orange;
+        border-radius: 0 0 1.5rem 0;
+        margin-top: -0.5rem;
+
+        h5{
+          color: white;
+          padding: .75rem;
+          padding-left: 1rem;
+          padding-right: 1.5rem;
+          font-family: "Shin-Maru-GP-Bold";
+
+
+          .h5-sub{
+            font-size: 1rem;
+          }
+
+        }
+      }
+     .time-container{
+        position: absolute;
+        background-color:  $kidsup-orange;
+        border-radius: 1.5rem 0 0 0 ;
+        left: 100%;
+        width: fit-content;
+        transform: translate(-100%, -100%);
+        color: white;
+        font-family: "Shin-Maru-GP-Bold";
+        padding: .75rem;
+        font-size: .85rem;
+        width: 3.5rem;
+        font-size: 1rem;
+      
+        
+ 
+      }
+}
+
+    .card-lower{
+
+      height: 40%;
+    
+
+      display: flex;
+      align-items: center;
+      h4{
+        text-align: center;
+        font-family: "Shin-Maru-GP-Bold";
+        color: white;
+        text-decoration: none !important;
+        font-size: 1.25rem;
+        margin: auto;
+      }
+    }
+
+    @media screen and (max-width: 576.98px){
+      
+      width: 75%;
+
+      .img-wrapper{
+      .date-container{
+        h5{
+      font-size: 1.5rem;
+
+
+          .h5-sub{
+            font-size: 1.25rem;
+          }
+
+        }
+      }
+     .time-container{
+        font-size: 1.5rem;
+        width: 4.5rem; 
+      }
+      }
+          .card-lower{
+      h4{
+
+        font-size: 1.75rem;
+        margin: auto;
+      }
+    }
+    }
+  }
+}
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+
+  &.open {
+    display: flex;
+    // We don't need flex-direction: row here, as this just centers the content
+  }
+
+  .contents-wrapper{
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+.container{
+  justify-content: center;
+  align-items: center;
+  padding: none;
+
+
+  .activity-modal-content {
+    margin: unset !important;
+    background: $kidsup-orange;
+    border-radius: 2.5rem;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: row; 
+    align-items: center;
+    gap: 1.5rem;
+
+    img {
+      border-radius: 2rem;
+      width: calc(100% / 4);
+    }
+
+    .modal-info-wrapper {
+      flex-grow: 1;
+      width: calc(100% / 4 * 3);
+      text-align: left;
+
+      h2, h3, p{
+        color: white;
+      }
+
+      h3{
+        font-family: "Shin-Maru-GP-Bold";
+      }
+      p{
+        padding-bottom: 1rem;
+      }
+
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      color: white;
+      background-color: $kidsup-orange; 
+      width: 3rem;
+      height: 3rem;
+      border-radius: 1.5rem;
+      font-size: 2rem;
+      font-weight: bold;
+      cursor: pointer !important;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      line-height: 1;
+      transition: $global-transition;
+
+      &:hover{
+        opacity: .6;
+      }
+    }
+
+ @media screen and (max-width: 768.98px){
+  flex-direction: column; 
+
+      img {
+      border-radius: 2rem;
+      width: 70%;
+    }
+        .modal-info-wrapper {
+      flex-grow: 1;
+      width: 90%;
+      margin: auto;
+      text-align: left;
+
+      .cta-secondary{
+        margin: auto;
+      }
+    }
+
+ }
+
+  }
+}
+}
+}
+
+// -----------------------------
+// Seasonal Dropdowns
+// -----------------------------
+
+.seasonal-dropdowns{
+  background-color: $kidsup-gray;
+  padding-bottom: 2rem;
+
+
+
+.button-row{
+  display: flex;
+  flex-direction: row;
+  gap: .5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+.dropdown-button {
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2.75rem;
+  font-size: 1.25rem;
+  width: 25%;
+  background-color: $kidsup-orange;
+  margin-left: auto;
+  margin-right: auto;
+  padding: .75rem 1rem;
+  font-family: "Noto Sans";
+  font-weight: bold;
+  text-align: left;
+  color: white;
+  border: solid .15rem white;
+  cursor: pointer;
+
+  .dropdown-arrow {
+    width: 2rem;
+    fill: currentColor;
+    transition: transform 0.3s ease;
+    transform: rotate(180deg);
+  }
+
+  &:hover {
+    color: $kidsup-orange;
+    background-color: white;
+    transition: $global-transition;
+  }
+
+  &.active {
+    color: $kidsup-orange;
+    background-color: white;
+
+    .dropdown-arrow {
+      transform: rotate(0deg);
+    }
+  }
+
+  @media (max-width: 1199.98px){
+      font-size: .9rem;
+        .dropdown-arrow {
+    width: 1.25rem;
+  }
+  }
+
+  @media (max-width: 991.98px){
+      font-size: .75rem;
+        .dropdown-arrow {
+    width: 1rem;
+  }
+  }
+
+}
+
+  @media (max-width: 767.98px){
+ flex-direction: column;
+
+ .dropdown-button {
+  width: 100%;
+  font-size: 1.25rem;
+  
+
+    .dropdown-arrow {
+    width: 2rem;
+  }
+ }
+}
+
+}
+
+
+
+
+
+
+
+
+
+.dropdown-section {
+  width: 100%;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: none; 
+
+  img{
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .cta-secondary{
+
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    width: fit-content;
+
+  }
+}
+
+
+  #schedule{
+
+    .box-1, .box-2{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      padding: 1rem;
+      border-radius: 1rem;
+    }
+
+    .box-1{
+      background-color: $kidsup-gray-light;
+    }
+
+    h4{
+      font-family:"Noto Sans JP";;
+      color: $kidsup-orange;
+      font-weight:900;
+      font-size: 1.25rem;
+      padding-bottom: .5rem;
+    }
+    h5{
+      font-size: 1rem !important;
+      font-weight: bold;
+    }
+
+    .english-class-row{
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+
+      .elementary, .kindy{
+        width: 50%;
+      }
+      @media (max-width: 767.98px){
+        flex-direction: column;
+
+              .elementary, .kindy{
+        width: 100%;
+      }
+      }
+    }
+    
+  }
+
+
+
+
+}
 
 // -----------------------------
 // Lower CTA
 // -----------------------------
 
-
 .lower-cta{
   background-color: $kidsup-orange;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
   .lower-cta-contents{
     display: flex;
@@ -1236,7 +1988,6 @@ transition: 0.3s ease-out;
      }
 }  
 }
-
 
 // -----------------------------
 // Gallery
@@ -1370,6 +2121,104 @@ transition: 0.3s ease-out;
     justify-content: center;
     align-items: center;
     line-height: 1;
+}
+
+// -----------------------------
+// FAQ
+// -----------------------------
+
+.FAQ {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+  .accordion-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 1.25rem;
+    padding-top: 1rem;
+
+    .accordion-item {
+      border-radius: 2rem;
+      overflow: hidden;
+
+      .accordion-button {
+        display: flex;
+        align-items: center;
+        gap: 0.75rem;
+        width: 100%;
+        padding: 1rem;
+        cursor: pointer;
+        background-color: $kidsup-gray;
+        border: none;
+        color: white;
+        text-align: left;
+        border-radius: 2rem;
+        transition: background-color 0.3s ease, border-radius 0.3s ease; 
+
+        h3 {
+          font-size: 1.5rem;
+          font-family: "Shin-Maru-GP-Bold";
+          color: inherit;
+        }
+
+        .accordion-icon {
+          width: 3rem;
+          height: 3rem;
+          transition: transform 0.3s ease;
+
+          line {
+            stroke: currentColor;
+            stroke-width: 2;
+            transition: opacity 0.3s ease;
+            stroke-linecap: round;
+          }
+
+          .vert {
+            opacity: 1;
+          }
+        }
+      }
+
+      .accordion-content {
+        height: 0;
+        overflow: hidden;
+        transition: background-color 0.3s ease, height 0.3s ease-in-out;
+        padding: 0 2rem;
+        background: #fff;
+        color: #333;
+        border-radius: 0 0 2rem 2rem;
+
+        p {
+          margin: 1rem 0;
+        }
+      }
+
+      /* Expanded state */
+      &.active {
+
+        .accordion-button {
+          border-radius: 2rem 2rem 0 0;           // top rounded, bottom flat
+          transition: background-color 0.3s ease,
+                      border-radius 0.3s ease 0s; // immediate on expand
+        }
+
+        .accordion-icon .vert {
+          opacity: 0;
+        }
+
+        .accordion-content {
+          border-radius: 0 0 2rem 2rem;
+        }
+      }
+
+      /* Collapsing state (delay border-radius) */
+      &:not(.active) .accordion-button {
+        border-radius: 2rem;                     // fully rounded
+        transition: background-color 0.3s ease,
+                    border-radius 0.3s ease 0.3s; // delay rounding bottom corners
+      }
+    }
+  }
 }
 
 

@@ -103,9 +103,12 @@ nav .nav-links .button-3:active {
 .hero {
   background-color: #ce2b27;
   background: linear-gradient(180deg, rgb(206, 43, 39) 10%, rgb(133, 34, 33) 100%);
+  min-height: 900px;
+  background-color: red !important;
 }
 @media (max-width: 575.98px) {
   .hero {
+    min-height: unset;
     height: auto !important;
   }
 }
@@ -576,10 +579,16 @@ nav .nav-links .button-3:active {
   height: -moz-fit-content;
   height: fit-content;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.hero .hero-bottom .p-sub {
+  color: white;
+  margin-bottom: 1rem;
+  margin-top: -1rem;
 }
 .hero .cta-primary {
   border: solid 0.15rem white;
@@ -2233,4 +2242,12 @@ nav .nav-links .button-3:active {
   background-position: top;
   background-repeat: no-repeat;
   padding-top: 5rem;
+}
+
+.tutorial {
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+.tutorial:hover {
+  opacity: 0.6;
 }/*# sourceMappingURL=christmas-2025-style.css.map */

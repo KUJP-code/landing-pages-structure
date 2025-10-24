@@ -90,6 +90,12 @@ aria-expanded="false"
 
 <!-- HERO ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
+<div style="position: fixed; z-index: 10; width: 100vw; height: 100vh; backdrop-filter: blur(10px); display: flex; justify-content: center; align-items: center;">
+
+  <img src="./assets/images/halloween-ended.svg" alt="" style="width: 75%; height: auto;">
+</div>
+
+
 <section class="hero">
 <div class="hero-top">
 
@@ -1037,6 +1043,8 @@ include '../global-includes/sign-up-module-v2.php';
 
 
 </section>
+
+
 <!---------------------------------------------------------------- footer ---------------------------------------------------------------->
 <?php include '../global-includes/global-footer.php' ?>
 

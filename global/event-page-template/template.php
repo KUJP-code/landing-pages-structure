@@ -1,44 +1,14 @@
 <!DOCTYPE html>
 <html lang="en" style="background-color: gray;">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Responsive Navbar with Custom Hamburger</title>
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-head.php'; ?>
 
-
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+SC&family=Noto+Serif+JP&family=Noto+Serif+SC&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/global/event-page-template/event-page-stylesheets/event-pages-common.css" />
   <link rel="stylesheet" href="./page-custom.css" />
 
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav>
-    <div class="nav-inner">
-      <a class="navbar-brand" href="#"><img src="https://kids-up.jp/wp-content/themes/kidsup/img/logo.svg" alt="nav logo" /></a>
-
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span class="bar-top"></span>
-        <span class="bar-mid"></span>
-        <span class="bar-bot"></span>
-      </button>
-
-
-      <div class="nav-links">
-        <a href="#" class="button button-1">イベント内容</a>
-        <a href="#" class="button button-2">アクティビティ内容</a>
-        <a href="#" class="button button-3">お申込みはこちら</a>
-
-      </div>
-
-
-        <div class="sticky-cta">
-    <a href="#signup" class="button button-3">お申込みはこちら</a>
-  </div>
-</div>
-</nav>
+    <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-party-nav.php'; ?>
 
 
 
@@ -304,60 +274,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 </div>
 
-  <script>
-    const toggle = document.querySelector('.nav-toggle');
-    const navLinks = document.querySelector('.nav-links');
 
-    toggle.addEventListener('click', () => {
-      toggle.classList.toggle('opened');
-      navLinks.classList.toggle('show');
-    });
-
-    // Close when clicking outside
-    document.addEventListener('click', (e) => {
-      if (!toggle.contains(e.target) && !navLinks.contains(e.target)) {
-        toggle.classList.remove('opened');
-        navLinks.classList.remove('show');
-      }
-    });
-
-    // Close when clicking any link
-    document.querySelectorAll('.nav-links a').forEach(link => {
-      link.addEventListener('click', () => {
-        toggle.classList.remove('opened');
-        navLinks.classList.remove('show');
-      });
-    });
-
-
-
-document.addEventListener('DOMContentLoaded', () => {
-  const cta = document.querySelector('.sticky-cta');
-  const hideTriggers = document.querySelectorAll('.hero, .footer, .mobile-cta-hide'); // Now includes the ID
-
-  if (cta && hideTriggers.length > 0) {
-    const observerOptions = {
-      root: null,
-      rootMargin: '0px',
-      threshold: 0.7
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      const isAnyTriggerIntersecting = entries.some(entry => entry.isIntersecting);
-
-      if (isAnyTriggerIntersecting) {
-        cta.style.transform = 'translateY(100%)';
-      } else {
-        cta.style.transform = 'translateY(0%)';
-      }
-    }, observerOptions);
-
-    hideTriggers.forEach(trigger => {
-      observer.observe(trigger);
-    });
-  }
-});
-  </script>
 
 
 <script>

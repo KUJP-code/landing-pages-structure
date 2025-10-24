@@ -1,0 +1,1191 @@
+$winter-pale-blue: #94d4cb;
+$winter-pale-blue-shadow: #56b3af;
+
+$winter-dark-blue: #224488;
+$winter-dark-blue-shadow: #18396d;
+
+$theme-colour-1: #58b980;
+$theme-colour-2: #007eab;
+
+$winter-purple: #5f5ba8;
+$winter-dark-purple: #37376d;
+
+$common-border: solid, 1px, #224488;
+
+$light-blue-gray: #def0ff;
+
+$three-points-bg: #3863a8;
+
+
+
+// --- Template Color Variables (Change these three for the primary rotation!) ---
+// These control the cyclic colors applied via :nth-child rules.
+$activity-color-1: #59ba81; 
+$activity-color-2: #007fab; 
+$activity-color-3: #5f5da9; 
+$activity-color-special: purple; 
+
+
+@use "sass:map";
+
+$prefecture-themes: (
+  tokyo:    ( color: #605ba8 ),
+  kanagawa: ( color: #57aac0),
+  chiba:    ( color: #be96c5 ),
+  saitama:  ( color: #58b981 )
+);
+
+$drop-shadow: drop-shadow(0rem .5rem 0rem $winter-pale-blue-shadow);
+
+$drop-shadow-extra-dark:  drop-shadow(0rem .5rem 0rem $winter-dark-blue-shadow);
+
+$global-transition: ease-in-out .2s;
+
+
+
+.swiper-button-bg{
+  fill: $winter-dark-blue !important;
+}
+
+
+.snowcap-1{
+  position: absolute;
+  transform: translate(-50%, -80%);
+  border: none !important;
+}
+
+.snowcap-2{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: none !important;
+}
+
+
+
+html, body{
+    background-color: $winter-pale-blue;
+}
+
+    h2{
+        font-family: "Shin-Maru-GP-Ultra";
+        color: white;
+        paint-order:  stroke fill;
+
+    }
+
+nav{
+    background-color: $winter-pale-blue;
+
+
+
+.nav-links{
+
+    .button{
+        background-color: white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: $winter-dark-blue;
+        color: $winter-dark-blue;
+        -webkit-text-stroke-color: $winter-dark-blue;
+        filter: drop-shadow(0rem .25rem 0rem $winter-pale-blue-shadow);
+
+
+
+
+            &:hover {
+        opacity: 1;
+        color: white;
+        -webkit-text-stroke-color: white;
+        background-color: $winter-dark-blue;
+    }
+
+    &:active{
+        opacity: .6;
+    }
+    }
+
+
+}
+
+@media (max-width: 767.98px) {
+  
+    .nav-toggle{
+        background-color: $winter-dark-blue;
+    }
+
+
+    .nav-links{
+        background-color: $winter-pale-blue;
+
+    }
+
+    .sticky-cta{
+        background-color: $winter-dark-blue;
+        border-top: solid white 3px ;
+
+    .button-4{
+        font-family: "Shin-Maru-GP-Ultra";
+        font-size: 1.5rem;
+        background-color: $activity-color-2;
+        border-style: solid;
+        border-width: 1px;
+        border-color: white;
+        height: fit-content;
+        border-radius: 3rem;
+        filter: $drop-shadow-extra-dark;
+
+            &:hover {
+        opacity: 1;
+        background-color: white;
+        color: $activity-color-2;
+    }
+
+    &:active{
+        opacity: .6;
+    }
+        }
+
+    }
+}
+
+
+}
+
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1750px;
+  }
+}
+
+.hero {
+  background-color: $winter-pale-blue;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 50 50'%3E%3Cstyle type='text/css'%3E.st3%7Bopacity:0.1%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Ccircle class='st3' cx='4' cy='14' r='1'/%3E%3Ccircle class='st3' cx='43' cy='3' r='1'/%3E%3Ccircle class='st3' cx='31' cy='30' r='2'/%3E%3Ccircle class='st3' cx='19' cy='23' r='1'/%3E%3Ccircle class='st3' cx='37' cy='22' r='1'/%3E%3Ccircle class='st3' cx='43' cy='16' r='1'/%3E%3Ccircle class='st3' cx='8' cy='45' r='1'/%3E%3Ccircle class='st3' cx='29' cy='39' r='1'/%3E%3Ccircle class='st3' cx='13' cy='37' r='1'/%3E%3Ccircle class='st3' cx='47' cy='32' r='1'/%3E%3Ccircle class='st3' cx='15' cy='4' r='2'/%3E%3Ccircle class='st3' cx='9' cy='27' r='1'/%3E%3Ccircle class='st3' cx='30' cy='9' r='1'/%3E%3Ccircle class='st3' cx='25' cy='15' r='1'/%3E%3Ccircle class='st3' cx='21' cy='45' r='2'/%3E%3Ccircle class='st3' cx='42' cy='45' r='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: auto;
+  animation: animatedBackground 40s linear infinite;
+
+  overflow: hidden;
+  min-height: 960px;
+  height: 100vh;
+  max-height: 1200px;
+  position: relative;
+
+  .hero-inner {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    margin: auto;
+
+    .text-col {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      width: 50%;
+      z-index: 3;
+
+      .contents-wrapper {
+        width: 80%;
+        max-width: 720px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+
+        img {
+          width: 90%;
+          padding-bottom: 1rem;
+          margin: auto;
+        }
+
+        h1 {
+          font-family: "Shin-Maru-GP-Ultra";
+          color: white;
+          font-size: 2.25rem;
+          text-align: left;
+          padding-bottom: 1rem;
+          width: 90%;
+          margin: 0 auto;
+          filter: drop-shadow(.3rem .3rem 0 $winter-dark-blue)
+            drop-shadow(-.1rem .4rem 0 $winter-pale-blue-shadow);
+
+            .break{
+              display: none;
+            }
+        }
+
+        p {
+          font-family: "Shin-Maru-GP-Bold";
+          color: white;
+          font-size: 1.25rem;
+          text-align: left;
+          padding-bottom: 1rem;
+          width: 90%;
+          margin: 0 auto;
+          -webkit-text-stroke: 1px $winter-dark-blue;
+          paint-order: stroke fill;
+          filter: drop-shadow(.075rem .075rem 0 $winter-dark-blue)
+            drop-shadow(-.1rem .2rem 0 $winter-pale-blue-shadow);
+        }
+
+        .cta-primary {
+          margin: auto;
+          font-size: 1.5rem;
+          background-color: white;
+          color: $winter-dark-blue;
+          border: 1px solid $winter-dark-blue;
+          filter: drop-shadow(0 .5rem 0 $winter-pale-blue-shadow);
+          transition: ease-in-out .2s;
+
+          .arrow {
+            margin-left: 2rem;
+          }
+
+          &:hover {
+            background-color: $winter-dark-blue;
+            color: white;
+          }
+
+          &:active {
+            opacity: .6;
+          }
+        }
+      }
+    }
+
+    .image-col {
+      width: 50%;
+      z-index: 1;
+
+      .image-slider {
+        position: absolute;
+        top: 50%;
+        left: 75%;
+        transform: translate(-50%, -50%) rotate(25deg);
+        transform-origin: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        width: fit-content;
+        height: 160%;
+        overflow: hidden;
+
+        .image-track-1,
+        .image-track-2,
+        .image-track-3,
+        .image-track-4 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          width: 10rem;
+          gap: 1rem;
+          filter: $drop-shadow;
+          animation: scroll-up 30s linear infinite;
+
+          img {
+            width: 10rem;
+            height: auto;
+            object-fit: cover;
+            border-radius: 1rem;
+          }
+        }
+
+        .image-track-2,
+        .image-track-4 {
+          animation-name: scroll-down;
+        }
+      }
+    }
+
+    // MEDIA QUERIES
+    @media screen and (max-width: 1399.98px) {
+      .text-col {
+        width: 60%;
+
+        .contents-wrapper {
+          h1 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .image-col {
+        width: 40%;
+   
+
+      .image-slider {
+        .image-track-1,
+        .image-track-2,
+        .image-track-3,
+        .image-track-4 {
+          width: 7rem;
+
+          img {
+            width: 7rem;
+            border-radius: .7rem;
+          }
+        }
+      }
+    }
+       }
+
+    @media screen and (max-width: 1199.98px) {
+      .text-col {
+        width: 65%;
+
+        .contents-wrapper {
+          h1 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .image-col {
+        width: 40%;
+   
+
+      .image-slider {
+      transform: translate(-50%, -50%) rotate(15deg);
+           left: 80%;
+
+        .image-track-1,
+        .image-track-2,
+        .image-track-3,
+        .image-track-4 {
+          width: 6rem;
+
+          img {
+            width: 6rem;
+            border-radius: .6rem;
+          }
+        }
+      }
+    }
+    }
+
+    @media screen and (max-width: 991.98px) {
+
+
+      .text-col {
+        width: 75%;
+
+        .contents-wrapper {
+          h1 {
+            font-size: 2rem;
+          }
+          p {
+            font-size: 1rem;
+          }
+        }
+      }
+
+      .image-col {
+        width: 40%;
+   
+
+      .image-slider {
+      transform: translate(-50%, -50%) rotate(10deg);
+           left: 85.5%;
+
+        .image-track-1,
+        .image-track-2,
+        .image-track-3,
+        .image-track-4 {
+          width: 5.5rem;
+
+          img {
+            width: 5.5rem;
+            border-radius: .55rem;
+          }
+        }
+      }
+    }
+    }
+
+        @media screen and (max-width: 767.98px) {
+
+
+      .text-col {
+        width: 85%;
+
+        .contents-wrapper {
+
+          img{
+            width: 100%;
+          }
+
+          h1 {
+            font-size: 2rem;
+            width: 100%;
+          }
+          p {
+            font-size: 1rem;
+            width: 100%;
+          }
+        }
+      }
+
+      .image-col {
+        width: 40%;
+   
+
+      .image-slider {
+      transform: translate(-50%, -50%) rotate(7.5deg);
+           left: 85.5%;
+
+        .image-track-1,
+        .image-track-2,
+        .image-track-3,
+        .image-track-4 {
+          width: 5rem;
+
+          img {
+            width: 5rem;
+            border-radius: .5rem;
+          }
+        }
+      }
+    }
+    }
+
+    
+
+    @media (max-width: 576.98px) {
+      flex-direction: column;
+      height: fit-content !important;
+      min-height: unset;
+
+      .text-col {
+        width: 100%;
+        margin-top: 0 !important;
+
+        .contents-wrapper {
+          width: 90%;
+          margin: 0 auto;
+          padding-bottom: 2rem;
+
+          img {
+            width: 100%;
+            padding: 2rem 0;
+          }
+
+          h1, p {
+            width: 100%;
+          }
+
+          h1 {
+            font-size: 1.75rem;
+            text-align: center;
+
+            .break{
+              display: unset;
+            }
+          }
+        }
+      }
+
+      .image-col {
+        .image-slider {
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%) rotate(20deg);
+          filter: blur(5px);
+          -webkit-filter: blur(5px);
+
+          .image-track-1,
+          .image-track-2,
+          .image-track-3,
+          .image-track-4 {
+            display: unset;
+            width: 10rem;
+            opacity: 0.3;
+
+            img {
+              width: 10rem;
+              border-radius: .1rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Overall height adjustments
+  @media screen and (max-width: 1399.98px) {
+    min-height: 860px;
+    max-height: 1100px;
+  }
+
+  @media screen and (max-width: 1199.98px) {
+    min-height: 820px;
+        max-height: 1100px;
+  }
+    @media screen and (max-width: 991.98px) {
+    min-height: 840px;
+    max-height: 1300px;
+  }
+
+      @media screen and (max-width: 767.98px) {
+    min-height: 860px;
+    max-height: 900px;
+  }
+
+        @media screen and (max-width: 576.98px) {
+    min-height: unset;
+    max-height: unset;
+    height: fit-content;
+  }
+}
+
+// Animations
+@keyframes scroll-up {
+  0% {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-25%);
+  }
+  100% {
+    transform: translateY(25%);
+  }
+}
+
+
+// ABOUT EVENT 
+.party-event-about{
+    background-image: url(../assets/images/background-transitions/about-bg-top.svg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: $winter-dark-blue;
+    padding-top: 8rem;
+
+          .hero-bottom-transition{
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 1px;
+    z-index: 2;
+    transform: translate(-50%, -100%);
+
+    overflow-x: hidden;
+}  
+
+    h2{
+            -webkit-text-stroke: 10px $winter-dark-blue-shadow;
+            paint-order: stroke fill;
+             stroke-linecap: round;
+    }
+
+
+
+
+    p{
+        color: white;
+        font-weight: bold;
+        padding-bottom: 2rem;
+    }
+
+  .three-points{
+  background-color: $three-points-bg;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  border: solid .3rem $winter-dark-blue-shadow;
+  margin-bottom: 2rem;
+  height: fit-content;
+  
+    h3{
+            -webkit-text-stroke: 7px $winter-dark-blue-shadow;
+            paint-order: stroke fill;
+            color: white;
+             font-family: "Shin-Maru-GP-Ultra";
+             font-size: 1.5rem;
+             padding: 1rem;
+             padding-left: 2.5rem;
+             padding-right: 2.5rem;
+             background-color: $theme-colour-1;
+             width: fit-content;
+             border-radius: 1rem;
+             margin-bottom: 2rem;
+             filter: $drop-shadow-extra-dark;
+              background: #94D4CB;
+              background: linear-gradient(90deg,rgba(148, 212, 203, 1) 10%, rgba(95, 91, 168, 1) 90%);
+              margin-top: -4rem;
+              border: solid .3rem $winter-dark-blue-shadow;
+    }
+
+
+
+  p{
+    padding-bottom: unset;
+  }
+
+      
+.point{
+    font-family: "Shin-Maru-GP-Ultra";
+    font-size: 1.5rem;
+    -webkit-text-stroke: 3px $winter-dark-blue-shadow;
+    paint-order: stroke fill;
+    color: white;
+    
+}
+
+}
+
+
+
+    .cta-secondary{
+        background-color: white;
+        color: $winter-dark-blue;
+        border: solid 2px $winter-dark-blue-shadow;
+        filter: drop-shadow(0rem .5rem 0rem $winter-dark-blue-shadow);
+        transition: ease-in-out .2s;    
+
+        &:hover{
+            background-color: $winter-pale-blue;
+            color: white;
+        }
+
+        &:active{
+            opacity: .6;
+        }
+
+    }
+
+@media (max-width: 767.98px){
+  padding-top: 2rem;
+}
+
+
+
+}
+
+// SCHOOLS LIST
+
+.schools-list{
+  background-color: $winter-dark-blue;
+  background-image: url(../assets/images/background-transitions/hero-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  .section-h2{
+    color: white;
+    font-family: "Shin-Maru-GP-Ultra";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+
+@each $name, $theme in $prefecture-themes {
+  // Use the modern map.get() function
+  $primary-color: map.get($theme, color);
+
+  .prefecture-#{$name} {
+      background-color: $primary-color !important;
+      border-width: 0.2rem;
+      border-color: white;
+      border: solid .15rem white;
+      filter: $drop-shadow-extra-dark;
+
+    // --- Desktop Styles ---
+    .prefecture-header {
+        background-color: $primary-color !important;
+        color: $primary-color;
+        padding-top: .75rem;
+        padding-right: 1.5rem;
+        border-style: solid;
+
+        
+      h2 {
+        color: white;
+                font-family: "Shin-Maru-GP-Bold";
+      }
+      svg.location-pin {
+        .map-pin-3-bg-color {
+          fill: white;
+        }
+        .map-pin-3-main-color {
+          fill: $primary-color;
+        }
+      }
+    }
+
+    // --- Ward Title & Icon Styles ---
+   .ward {
+
+        background-color: white;
+        border-style: solid;
+        border-width: 0.2rem;
+        border-color: white;
+
+      h3, h3 svg {
+        color: $primary-color ;
+        fill: $primary-color ;
+        font-family: "Shin-Maru-GP-Bold";
+
+  
+      }
+
+      // Target the list items (li) inside the ul
+      ul li {
+        color: $primary-color ;
+      }
+    }
+
+    // --- Mobile/Accordion Styles ---
+    @media screen and (max-width: 575.9px) {
+      background-color: $primary-color;
+      border: solid .15rem white;
+
+      .prefecture-header {
+        background-color: $primary-color;
+        color: $primary-color;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        border: unset;
+  
+      }
+      .wards-container {
+        background-color: unset;
+
+        .ward{
+          background-color: white;
+           h3, h3 svg {
+        color: $primary-color;
+        fill: $primary-color;
+        font-family: "Shin-Maru-GP-Bold";
+      }
+
+      // Target the list items (li) inside the ul
+      ul li {
+        color: $primary-color;
+      }
+        }
+      }
+    }
+  }
+}
+
+.boom-tale{
+  transform: translate(-50%, -85%);
+  position: absolute;
+  width: 33%;
+  left: 75%;
+  top: 100%;
+
+  @media (max-width: 991.98px){
+    display: none;
+  }
+}
+  
+}
+
+
+// Three Benefits
+
+.seasonal-three-benefits{
+  background-color: $winter-pale-blue;
+  padding-top: 4rem;
+  background-image: url(../assets/images/background-transitions/about-bg-top.svg);
+  background-size: 105%;
+    background-position: top center;
+  background-repeat: no-repeat;
+
+    .container{
+
+
+  .benefit-column{
+    background-color: $winter-purple;
+    filter: $drop-shadow
+
+  }
+
+  .column-1{
+          position: relative;
+    .snowcap-1{
+      width: 55%;
+      left: 0%;
+      border-radius: 0;
+      filter: none !important;
+      left: 30%;
+    }
+  }
+
+  .column-3{
+    position: relative;
+    .snowcap-2{
+      width: 40%;
+      left: 85% !important;
+      top: 10%;
+      border-radius: 0;
+      left: 30%;
+    }
+  }
+}
+}
+
+// Customer-feedback
+
+.customer-feedback{
+  background-color: $winter-pale-blue;
+    .container{
+
+
+        h2{
+            padding-bottom: 2rem;
+        }
+        
+        .item{
+              filter: $drop-shadow;
+              background-color: $theme-colour-2;
+        
+        }
+
+        .img-wrapper{
+          border-radius: 50%;
+          height: 100%;
+          aspect-ratio: 1/1 !important;
+        }
+
+    }
+    
+}
+
+// Four Benefits
+
+.four-benefits{
+  background-color: $winter-pale-blue;
+
+  .four-benefits-wrapper{
+    background-color:unset;
+    border-radius: 2rem;
+
+    .benefit{
+     background-color: $winter-purple;
+     border-radius: 2rem;
+     transition: ease-in-out .2s;
+      border: solid 1px $winter-purple;
+      filter: $drop-shadow;
+     
+
+     }
+
+
+          .benefit-icon-box {
+
+          .benefit-icon-colour-1 {
+            fill: white;
+          }
+          .benefit-icon-colour-2 {
+            fill: $winter-dark-purple !important;
+          }
+        }
+
+   
+    }
+  }
+
+// Main CTA 
+.lower-cta{
+    background-color: $winter-pale-blue;
+
+  .winter-girl{
+    width: 75%;
+    margin: auto;
+  }
+
+       .cta-secondary{
+        background-color: white;
+        color: $winter-dark-blue;
+        border: solid 2px $winter-dark-blue-shadow;
+        filter: drop-shadow(0rem .5rem 0rem $winter-dark-blue-shadow);
+        transition: ease-in-out .2s;    
+
+        &:hover{
+            background-color: $winter-dark-blue;
+            color: white;
+        }
+
+        &:active{
+            opacity: .6;
+        }
+
+  }
+
+}
+
+// Dynamically define classes
+.activity-slider {
+
+background-color: $winter-pale-blue;
+
+  --activity-color-1: #{$activity-color-1};
+  --activity-color-2: #{$activity-color-2};
+  --activity-color-3: #{$activity-color-3};
+  --activity-color-special: #{$activity-color-special};
+
+  .swiper-card {
+transition: $global-transition;
+
+    &:hover {
+      border-color: white !important; 
+    }
+  }
+  
+}
+
+#eventModal{
+  .activity-modal-content{
+    border: solid 0.15rem white;
+    background-color: $winter-pale-blue;
+
+
+    .modal-close {
+      background-color: $winter-dark-blue; 
+      color: $winter-pale-blue;
+
+    }
+
+    .cta-secondary{
+      background-color: $winter-dark-blue;
+      border: $common-border;
+      transition: $global-transition;
+      filter: $drop-shadow;
+      &:hover{
+        background-color: white;
+        color: $winter-dark-blue;
+      }
+      &:active{
+        opacity: 0.6;
+      }
+    }
+  }
+}
+
+// Dropdown Boxes
+
+.seasonal-dropdowns{
+  background-color: $winter-pale-blue;
+
+
+
+
+.button-row{
+  .dropdown-button {
+  background-color: $winter-dark-blue;
+  border: solid .15rem $winter-dark-blue;
+  filter: $drop-shadow;
+
+  &:hover {
+    color: $winter-dark-blue;
+    background-color: white;
+    border-color: $winter-dark-blue;
+  }
+
+  &.active {
+    color: $winter-dark-blue;
+    background-color: white;
+    border-color: $winter-dark-blue;
+  }
+}
+}
+
+.dropdown-section {
+  width: 100%;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: none; 
+
+  img{
+    border-radius: 1rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .cta-secondary{
+    background-color: $winter-dark-blue;
+    border: solid 0.15rem $winter-dark-blue;
+    color: white;
+    transition: $global-transition;
+    filter: $drop-shadow;
+
+     &:hover{
+      color: $winter-dark-blue;
+      background-color: white;
+     }
+
+  }
+}
+
+  #schedule{
+    .box-1{
+      background-color: $light-blue-gray;
+    }
+
+    h4{
+      color: $winter-dark-blue;
+    }  
+  }
+}
+
+// GALLERY
+.gallery{
+  h2{
+    padding-bottom: 2rem;
+  }
+}
+
+
+// FAQ Styling
+.FAQ {
+
+  background-image: url(../assets/images/background-transitions/hero-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  .echo-jot{
+    width: 55%;
+    padding-top: 2rem;
+    margin-bottom: -4rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+  .accordion-wrapper {
+    .accordion-item {
+
+      filter: $drop-shadow;
+      .accordion-button {
+        background-color: $winter-dark-blue ;
+        color: white;
+        border: solid $winter-dark-blue 0.15rem;
+        transition: background-color 0.3s ease, border-bottom 0.3s ease;
+      }
+
+      .accordion-content {
+        border: none  ;
+        background-color: $winter-dark-blue;
+      }
+
+      &.active {
+
+        .accordion-button {
+          background-color: white;
+          color: $winter-dark-blue;
+          border-bottom: none;
+          transition: border-bottom 0.3s ease;
+        }
+
+        .accordion-content {
+          border: solid $winter-dark-blue 0.15rem;
+          border-top: none;
+          margin-top: -1px;
+          background-color: white;
+        }
+      }  
+    }
+  }
+}
+
+
+// -----------------------------
+// SIGN UP STEPS SECTION
+// -----------------------------
+
+
+.sign-up{
+
+  background-color: $winter-dark-blue;
+  background-image: url(../assets/images/background-transitions/about-bg-top.svg);
+  background-size: 105%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  margin-bottom: unset;
+
+h2{
+  padding-top: 2rem;
+}
+
+.step-image{
+     filter: $drop-shadow-extra-dark;
+}
+
+.sign-up-bg{
+  fill: white;
+}
+
+.sign-up-main-colour{
+  fill: $winter-dark-blue-shadow !important;
+}
+
+.sign-up-stroke{
+    fill: $winter-dark-blue-shadow !important;
+
+}
+
+h3{
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  text-align: center;
+}
+
+p{
+  color: white;
+  font-weight: bold;
+}
+
+      .button-1, .button-2{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 425px;
+        transition: ease-in-out .2s;
+        border:solid .15rem white;
+        background-color: $winter-dark-blue ;
+        filter: $drop-shadow-extra-dark;
+
+    &:hover {
+        opacity: 1;
+        background-color: white;
+        color: $winter-dark-blue;
+        border-color: $winter-dark-blue;
+    }
+
+  }
+
+
+  
+
+  }
+
+
+.bottom{
+  background-color: $winter-dark-blue;
+
+  
+  img{
+    filter: $drop-shadow-extra-dark;
+  }
+}

@@ -1,0 +1,1499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1320 1866.86">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22 {
+        fill: none;
+      }
+
+      .cls-23, .cls-24 {
+        fill: #e4772c;
+      }
+
+      .cls-25 {
+        fill: #80b755;
+      }
+
+      .cls-26 {
+        font-size: 55.44px;
+      }
+
+      .cls-26, .cls-27, .cls-28, .cls-29 {
+        fill: #fff;
+      }
+
+      .cls-26, .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-29, .cls-35 {
+        font-weight: 700;
+      }
+
+      .cls-26, .cls-29 {
+        font-family: ShinMGoPro-Bold-83pv-RKSJ-H, 'A-OTF Shin Maru Go Pro';
+      }
+
+      .cls-27 {
+        fill-rule: evenodd;
+      }
+
+      .cls-24, .cls-36 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-37 {
+        fill: #a0ce6a;
+      }
+
+      .cls-38 {
+        fill: #a1ce6b;
+      }
+
+      .cls-39 {
+        fill: #0c0a0b;
+      }
+
+      .cls-40 {
+        fill: #4d394f;
+      }
+
+      .cls-41 {
+        fill: #a0ce6b;
+      }
+
+      .cls-42 {
+        fill: #0e0a0d;
+      }
+
+      .cls-43 {
+        fill: #e4809d;
+      }
+
+      .cls-44, .cls-45, .cls-46, .cls-47, .cls-48, .cls-49, .cls-50, .cls-51, .cls-52, .cls-53, .cls-54, .cls-55, .cls-56, .cls-57, .cls-58, .cls-59, .cls-60, .cls-61, .cls-62, .cls-63, .cls-64, .cls-65, .cls-66, .cls-30, .cls-31, .cls-32, .cls-33, .cls-67, .cls-68, .cls-69, .cls-70, .cls-35 {
+        fill: #231f20;
+      }
+
+      .cls-45 {
+        font-size: 21.51px;
+      }
+
+      .cls-45, .cls-46, .cls-47, .cls-48, .cls-71, .cls-67 {
+        font-family: ShinMGoPro-Regular-83pv-RKSJ-H, 'A-OTF Shin Maru Go Pro';
+      }
+
+      .cls-72 {
+        fill: #0c090c;
+      }
+
+      .cls-46, .cls-50, .cls-73, .cls-35 {
+        font-size: 26.61px;
+      }
+
+      .cls-74 {
+        fill: #fcfdff;
+      }
+
+      .cls-75 {
+        fill: #df819c;
+      }
+
+      .cls-47, .cls-76 {
+        font-size: 17.74px;
+      }
+
+      .cls-48, .cls-77 {
+        font-size: 19.96px;
+      }
+
+      .cls-78 {
+        fill: #f2c7aa;
+        stroke-width: 2.22px;
+      }
+
+      .cls-78, .cls-79, .cls-2, .cls-3, .cls-4, .cls-5, .cls-6, .cls-7, .cls-8, .cls-9, .cls-10, .cls-11, .cls-12, .cls-13, .cls-14, .cls-15, .cls-16, .cls-17, .cls-18, .cls-19, .cls-20, .cls-21, .cls-22, .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-88, .cls-89, .cls-90, .cls-91, .cls-92 {
+        stroke: #231f20;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-79 {
+        fill: #bfe5ec;
+        stroke-width: 2.22px;
+      }
+
+      .cls-93 {
+        fill: #ecb6c5;
+      }
+
+      .cls-94 {
+        fill: #f2b6c5;
+      }
+
+      .cls-49 {
+        letter-spacing: 0em;
+      }
+
+      .cls-2 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-3 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-4 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-5 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-6 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-7 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-8 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-9 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-10 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-11 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-12 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-13 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-14 {
+        stroke-width: 2.37px;
+      }
+
+      .cls-15 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-16 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-17 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-18 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-19 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-20 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-21 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-22 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-95 {
+        fill: #7fbcd5;
+      }
+
+      .cls-80 {
+        stroke-width: 2.38px;
+      }
+
+      .cls-80, .cls-81, .cls-82, .cls-83, .cls-84, .cls-85, .cls-86, .cls-87, .cls-92 {
+        fill: #e9f4f4;
+      }
+
+      .cls-81 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-82 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-83 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-84 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-85 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-86 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-87 {
+        stroke-width: 2.22px;
+      }
+
+      .cls-96 {
+        fill: #7abbd5;
+      }
+
+      .cls-97 {
+        fill: #80b955;
+      }
+
+      .cls-98 {
+        fill: #80b855;
+      }
+
+      .cls-99 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-100 {
+        letter-spacing: 0em;
+      }
+
+      .cls-101 {
+        fill: #e3829d;
+      }
+
+      .cls-102, .cls-30 {
+        font-size: 15.53px;
+      }
+
+      .cls-103 {
+        fill: #f9efd5;
+      }
+
+      .cls-51 {
+        letter-spacing: -.37em;
+      }
+
+      .cls-52 {
+        letter-spacing: -.37em;
+      }
+
+      .cls-53 {
+        letter-spacing: -.26em;
+      }
+
+      .cls-54 {
+        letter-spacing: -.36em;
+      }
+
+      .cls-104 {
+        letter-spacing: 0em;
+      }
+
+      .cls-105 {
+        letter-spacing: 0em;
+      }
+
+      .cls-88 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-88, .cls-89, .cls-90, .cls-91 {
+        fill: #b2d9a3;
+      }
+
+      .cls-89 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-90 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-91 {
+        stroke-width: 2.21px;
+      }
+
+      .cls-92 {
+        filter: url(#drop-shadow-1);
+        stroke-width: 2.87px;
+      }
+
+      .cls-55 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-106 {
+        letter-spacing: 0em;
+      }
+
+      .cls-56 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-57 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-58 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-59 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-60 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-61 {
+        letter-spacing: -.18em;
+      }
+
+      .cls-62 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-63 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-107 {
+        fill: #a077b3;
+      }
+
+      .cls-64 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-108 {
+        letter-spacing: 0em;
+      }
+
+      .cls-109 {
+        letter-spacing: 0em;
+      }
+
+      .cls-110 {
+        fill: #0e0b0c;
+      }
+
+      .cls-65 {
+        letter-spacing: -.53em;
+      }
+
+      .cls-66 {
+        letter-spacing: -.53em;
+      }
+
+      .cls-111 {
+        fill: #f6f3f5;
+      }
+
+      .cls-112 {
+        opacity: .99;
+      }
+
+      .cls-30, .cls-31, .cls-32, .cls-33, .cls-34, .cls-35 {
+        font-family: ShinMGoPro-DeBold-83pv-RKSJ-H, 'A-OTF Shin Maru Go Pro';
+      }
+
+      .cls-31, .cls-34 {
+        font-size: 31.04px;
+      }
+
+      .cls-113 {
+        fill: #f1b5c5;
+      }
+
+      .cls-114 {
+        letter-spacing: -.39em;
+      }
+
+      .cls-115 {
+        letter-spacing: -.39em;
+      }
+
+      .cls-116 {
+        letter-spacing: -.39em;
+      }
+
+      .cls-117 {
+        letter-spacing: -.39em;
+      }
+
+      .cls-118 {
+        fill: #f38020;
+      }
+
+      .cls-119 {
+        letter-spacing: -.43em;
+      }
+
+      .cls-120 {
+        letter-spacing: -.43em;
+      }
+
+      .cls-121 {
+        letter-spacing: -.44em;
+      }
+
+      .cls-122 {
+        letter-spacing: -.43em;
+      }
+
+      .cls-123 {
+        letter-spacing: -.36em;
+      }
+
+      .cls-124 {
+        letter-spacing: -.36em;
+      }
+
+      .cls-125 {
+        letter-spacing: -.35em;
+      }
+
+      .cls-126 {
+        letter-spacing: -.26em;
+      }
+
+      .cls-127 {
+        letter-spacing: -.26em;
+      }
+
+      .cls-128 {
+        letter-spacing: -.26em;
+      }
+
+      .cls-129 {
+        letter-spacing: -.26em;
+      }
+
+      .cls-130 {
+        fill: #0a090b;
+      }
+
+      .cls-32 {
+        font-size: 22.16px;
+      }
+
+      .cls-131 {
+        letter-spacing: -.51em;
+      }
+
+      .cls-132 {
+        letter-spacing: -.5em;
+      }
+
+      .cls-133 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-134 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-135 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-136 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-137 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-138 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-139 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-140 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-141 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-142 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-143 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-144 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-145 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-146 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-147 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-148 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-149 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-150 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-151 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-152 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-153 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-154 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-155 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-156 {
+        letter-spacing: -.09em;
+      }
+
+      .cls-157 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-158 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-159 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-160 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-161 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-162 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-163 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-164 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-165 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-166 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-167 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-168 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-169 {
+        letter-spacing: -.08em;
+      }
+
+      .cls-170 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-171 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-172 {
+        letter-spacing: -.07em;
+      }
+
+      .cls-173 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-174 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-175 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-176 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-177 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-178 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-179 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-180 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-181 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-182 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-183 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-184 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-185 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-186 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-187 {
+        letter-spacing: -.17em;
+      }
+
+      .cls-188 {
+        letter-spacing: -.19em;
+      }
+
+      .cls-189 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-190 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-191 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-192 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-193 {
+        letter-spacing: -.13em;
+      }
+
+      .cls-194 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-195 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-196 {
+        letter-spacing: -.15em;
+      }
+
+      .cls-197 {
+        letter-spacing: -.14em;
+      }
+
+      .cls-198 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-199 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-200 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-201 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-202 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-203 {
+        letter-spacing: -.1em;
+      }
+
+      .cls-204 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-205 {
+        fill: #fff100;
+      }
+
+      .cls-206 {
+        letter-spacing: -.12em;
+      }
+
+      .cls-207 {
+        letter-spacing: -.11em;
+      }
+
+      .cls-208 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-209 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-210 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-211 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-212 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-213 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-214 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-215 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-216 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-217 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-218 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-219 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-220 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-221 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-222 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-223 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-224 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-225 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-226 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-227 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-228 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-229 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-230 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-231 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-232 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-233 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-234 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-235 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-236 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-237 {
+        letter-spacing: -.02em;
+      }
+
+      .cls-238 {
+        fill: #ede3d2;
+      }
+
+      .cls-239 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-240 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-241 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-242 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-243 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-244 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-245 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-246 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-247 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-248 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-249 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-250 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-251 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-252 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-253 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-254 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-255 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-256 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-257 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-258 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-259 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-260 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-261 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-262 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-263 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-264 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-265 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-266 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-267 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-268 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-269 {
+        fill: #0c090b;
+      }
+
+      .cls-270 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-271 {
+        fill: #fafbfb;
+      }
+
+      .cls-272 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-273 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-274 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-275 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-276 {
+        letter-spacing: -.05em;
+      }
+
+      .cls-277 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-278 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-279 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-280 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-281 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-282 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-283 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-284 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-285, .cls-69 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-286 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-287 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-288 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-289 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-290 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-291 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-292 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-293 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-294 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-295 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-296 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-297 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-298 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-299 {
+        letter-spacing: 0em;
+      }
+
+      .cls-300 {
+        letter-spacing: 0em;
+      }
+
+      .cls-301 {
+        letter-spacing: 0em;
+      }
+
+      .cls-302 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-303 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-304 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-305 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-306 {
+        letter-spacing: 0em;
+      }
+
+      .cls-307 {
+        letter-spacing: 0em;
+      }
+
+      .cls-308 {
+        letter-spacing: 0em;
+      }
+
+      .cls-309 {
+        letter-spacing: 0em;
+      }
+
+      .cls-310 {
+        letter-spacing: 0em;
+      }
+
+      .cls-311 {
+        letter-spacing: 0em;
+      }
+
+      .cls-312 {
+        letter-spacing: 0em;
+      }
+
+      .cls-313 {
+        letter-spacing: 0em;
+      }
+
+      .cls-314 {
+        letter-spacing: 0em;
+      }
+
+      .cls-315 {
+        letter-spacing: 0em;
+      }
+
+      .cls-316 {
+        letter-spacing: 0em;
+      }
+
+      .cls-317 {
+        fill: #0b090a;
+      }
+
+      .cls-318 {
+        fill: #f1b7c5;
+      }
+
+      .cls-68 {
+        letter-spacing: 0em;
+      }
+
+      .cls-29 {
+        font-size: 30.51px;
+      }
+
+      .cls-70 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-319 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-320 {
+        letter-spacing: .02em;
+      }
+
+      .cls-76 {
+        fill: #808184;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="-1380" y="-3.39" width="1320" height="1866.86"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-1" x=".5" y="-.07" width="1320" height="1867"/>
+    </clipPath>
+    <filter id="drop-shadow-1" x="15.56" y="492.99" width="232.14" height="116.14" filterUnits="userSpaceOnUse">
+      <feOffset dx="6.27" dy="6.27"/>
+      <feGaussianBlur result="blur" stdDeviation="0"/>
+      <feFlood flood-color="#231f20" flood-opacity=".2"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g class="cls-112">
+    <g class="cls-319">
+      <rect class="cls-95" x="-102" y="-118.22" width="1413.96" height="255.95"/>
+      <rect class="cls-95" x="-102" y="1827.68" width="1413.96" height="157.39"/>
+    </g>
+  </g>
+  <g class="cls-99">
+    <rect class="cls-83" x="28.5" y="1541.93" width="292" height="49"/>
+    <rect class="cls-82" x="28.5" y="1590.93" width="292" height="49"/>
+    <rect class="cls-81" x="28.5" y="1277.93" width="292" height="49"/>
+    <rect class="cls-81" x="28.5" y="1326.93" width="292" height="49"/>
+    <rect class="cls-80" x="28.5" y="1639.93" width="292" height="156"/>
+    <rect class="cls-95" x="-41.5" y="-114.07" width="1414" height="256"/>
+    <rect class="cls-95" x="-41.5" y="1831.93" width="1414" height="157"/>
+    <text class="cls-26" transform="translate(28.59 100.92)"><tspan x="0" y="0">2025 Winter School 料金表</tspan></text>
+    <text class="cls-29" transform="translate(882.96 103.44)"><tspan x="0" y="0">(税込み</tspan><tspan class="cls-125" x="103.39" y="0">）</tspan></text>
+    <text class="cls-34" transform="translate(28.59 1255.12)"><tspan class="cls-23" x="0" y="0">◆</tspan><tspan class="cls-49" x="31.04" y="0">延長料金 (8:3</tspan><tspan class="cls-68" x="226.53" y="0">0～</tspan><tspan class="cls-44" x="276.82" y="0">10:00 / 18:3</tspan><tspan class="cls-68" x="469.48" y="0">0～</tspan><tspan class="cls-44" x="519.77" y="0">20:30)　</tspan></text>
+    <text class="cls-34" transform="translate(28.59 1518.62)"><tspan class="cls-24" x="0" y="0">◆</tspan><tspan class="cls-64" x="30.17" y="0">オ</tspan><tspan class="cls-63" x="59.08" y="0">プ</tspan><tspan class="cls-57" x="88.29" y="0">シ</tspan><tspan class="cls-58" x="114.99" y="0">ョ</tspan><tspan class="cls-56" x="141.25" y="0">ン</tspan></text>
+    <text class="cls-47" transform="translate(665.91 1250.68)"><tspan x="0" y="0">※新浦安校の前延長</tspan><tspan class="cls-230" x="159.66" y="0">は</tspan><tspan x="177.06" y="0">9:0</tspan><tspan class="cls-300" x="203.99" y="0">0～</tspan><tspan class="cls-121" x="232.39" y="0">、</tspan><tspan class="cls-108" x="242.41" y="0">南町田校</tspan><tspan class="cls-230" x="313.37" y="0">は</tspan><tspan class="cls-108" x="330.77" y="0">前延長対</tspan><tspan class="cls-313" x="401.73" y="0">応</tspan><tspan class="cls-274" x="419.29" y="0">がご</tspan><tspan class="cls-307" x="453.11" y="0">ざ</tspan><tspan class="cls-295" x="470.69" y="0">い</tspan><tspan class="cls-262" x="487.93" y="0">ま</tspan><tspan class="cls-313" x="504.85" y="0">せん</tspan><tspan class="cls-117" x="539.98" y="0">。</tspan></text>
+    <text class="cls-48" transform="translate(605.89 1360.96)"><tspan x="0" y="0">※幼児</tspan><tspan class="cls-235" x="59.87" y="0">は</tspan><tspan x="79.45" y="0">後延</tspan><tspan class="cls-301" x="119.36" y="0">長～</tspan><tspan class="cls-106" x="159.08" y="0">20:0</tspan><tspan class="cls-290" x="201.57" y="0">0</tspan><tspan class="cls-264" x="213.2" y="0">ま</tspan><tspan class="cls-254" x="232.24" y="0">で</tspan><tspan class="cls-165" x="251.46" y="0">と</tspan><tspan class="cls-306" x="270.12" y="0">さ</tspan><tspan x="289.9" y="0">せて</tspan><tspan class="cls-312" x="329.81" y="0">い</tspan><tspan class="cls-214" x="349.57" y="0">た</tspan><tspan class="cls-283" x="369.13" y="0">だ</tspan><tspan class="cls-176" x="388.33" y="0">きま</tspan><tspan class="cls-312" x="426.01" y="0">す</tspan><tspan class="cls-115" x="445.76" y="0">。</tspan></text>
+    <text class="cls-46" transform="translate(148.12 1362.95)"><tspan x="0" y="0">幼児</tspan></text>
+    <text class="cls-46" transform="translate(136.78 1313.4)"><tspan x="0" y="0">小学生</tspan></text>
+    <text class="cls-46" transform="translate(343.45 1362.95)"><tspan x="0" y="0">660円/30</tspan><tspan class="cls-123" x="121.21" y="0">分</tspan><tspan x="138.21" y="0">（</tspan><tspan class="cls-268" x="164.82" y="0">1</tspan><tspan class="cls-288" x="179.99" y="0">コ</tspan><tspan class="cls-315" x="205.9" y="0">マ</tspan><tspan class="cls-109" x="232.3" y="0">) </tspan></text>
+    <text class="cls-46" transform="translate(343.45 1313.4)"><tspan x="0" y="0">550円/30</tspan><tspan class="cls-123" x="121.21" y="0">分</tspan><tspan x="138.21" y="0">（</tspan><tspan class="cls-268" x="164.82" y="0">1</tspan><tspan class="cls-288" x="179.99" y="0">コ</tspan><tspan class="cls-315" x="205.9" y="0">マ</tspan><tspan class="cls-109" x="232.3" y="0">)</tspan></text>
+    <text class="cls-46" transform="translate(343.45 1627.11)"><tspan x="0" y="0">200円/1食 (通学生</tspan><tspan class="cls-151" x="230.6" y="0">は</tspan><tspan class="cls-255" x="254.73" y="0">レ</tspan><tspan class="cls-148" x="280.36" y="0">ギ</tspan><tspan class="cls-189" x="304.49" y="0">ュ</tspan><tspan class="cls-263" x="327.91" y="0">ラ</tspan><tspan x="353.29" y="0">ー通</tspan><tspan class="cls-220" x="406.51" y="0">学</tspan><tspan class="cls-231" x="432.64" y="0">日</tspan><tspan x="458.75" y="0">以外</tspan><tspan class="cls-220" x="511.97" y="0">の</tspan><tspan class="cls-231" x="538.1" y="0">日</tspan><tspan x="564.2" y="0">の</tspan><tspan class="cls-255" x="590.81" y="0">み</tspan><tspan class="cls-234" x="616.44" y="0">ご</tspan><tspan x="642.54" y="0">請求)</tspan></text>
+    <text class="cls-46" transform="translate(56.47 1627.11)"><tspan x="0" y="0">午</tspan><tspan class="cls-268" x="26.61" y="0">後</tspan><tspan class="cls-218" x="52.13" y="0">コ</tspan><tspan class="cls-293" x="78.34" y="0">ース</tspan><tspan x="130.07" y="0">おやつ代</tspan></text>
+    <text class="cls-46" transform="translate(86.05 1574.73)"><tspan x="0" y="0">昼</tspan><tspan class="cls-293" x="26.61" y="0">食</tspan><tspan class="cls-177" x="52.47" y="0">ま</tspan><tspan class="cls-311" x="77.59" y="0">た</tspan><tspan class="cls-246" x="103.94" y="0">は</tspan><tspan class="cls-286" x="129.11" y="0">夕</tspan><tspan x="154.68" y="0">食</tspan></text>
+    <text class="cls-46" transform="translate(343.45 1574.73)"><tspan x="0" y="0">880円/1食</tspan></text>
+    <rect class="cls-22" x="320.5" y="1277.93" width="966" height="49"/>
+    <rect class="cls-22" x="320.5" y="1326.93" width="966" height="49"/>
+    <rect class="cls-21" x="320.5" y="1541.93" width="966" height="49"/>
+    <rect class="cls-20" x="320.5" y="1590.93" width="966" height="49"/>
+    <text class="cls-46" transform="translate(343.45 1737.42)"><tspan x="0" y="0">1,100円</tspan></text>
+    <text class="cls-47" transform="translate(484.07 1671.71)"><tspan class="cls-292" x="0" y="0">イ</tspan><tspan class="cls-273" x="17.24" y="0">ベ</tspan><tspan class="cls-187" x="34.2" y="0">ン</tspan><tspan class="cls-274" x="48.94" y="0">ト</tspan><tspan x="65.85" y="0">中のお写</tspan><tspan class="cls-222" x="136.81" y="0">真</tspan><tspan class="cls-239" x="154.23" y="0">を</tspan><tspan class="cls-158" x="171.08" y="0">ダ</tspan><tspan class="cls-144" x="187.74" y="0">ウ</tspan><tspan class="cls-209" x="204.04" y="0">ン</tspan><tspan class="cls-302" x="221.39" y="0">ロ</tspan><tspan class="cls-198" x="238.95" y="0">ー</tspan><tspan class="cls-135" x="253.91" y="0">ド</tspan><tspan class="cls-216" x="269.86" y="0">し</tspan><tspan class="cls-108" x="287.24" y="0">て</tspan><tspan class="cls-302" x="304.98" y="0">い</tspan><tspan class="cls-229" x="322.54" y="0">た</tspan><tspan class="cls-313" x="339.93" y="0">だ</tspan><tspan class="cls-295" x="357.49" y="0">け</tspan><tspan class="cls-262" x="374.73" y="0">る</tspan><tspan class="cls-108" x="391.66" y="0">サ</tspan><tspan class="cls-174" x="409.4" y="0">ー</tspan><tspan class="cls-164" x="426.14" y="0">ビ</tspan><tspan class="cls-292" x="442.71" y="0">ス</tspan><tspan class="cls-302" x="459.96" y="0">です</tspan><tspan class="cls-117" x="495.08" y="0">。</tspan><tspan class="cls-292" x="0" y="21.29">イ</tspan><tspan class="cls-273" x="17.24" y="21.29">ベ</tspan><tspan class="cls-187" x="34.2" y="21.29">ン</tspan><tspan class="cls-274" x="48.94" y="21.29">ト</tspan><tspan x="65.85" y="21.29">終了3週間</tspan><tspan class="cls-222" x="147.65" y="21.29">後</tspan><tspan class="cls-211" x="165.07" y="21.29">を</tspan><tspan class="cls-307" x="182.33" y="21.29">目</tspan><tspan class="cls-292" x="199.91" y="21.29">安</tspan><tspan class="cls-166" x="217.15" y="21.29">に</tspan><tspan class="cls-143" x="233.74" y="21.29">メ</tspan><tspan x="250.17" y="21.29">ール(会員様</tspan><tspan class="cls-274" x="345.76" y="21.29">は</tspan><tspan class="cls-181" x="362.67" y="21.29">ア</tspan><tspan class="cls-207" x="379.29" y="21.29">プ</tspan><tspan class="cls-155" x="395.01" y="21.29">リ</tspan><tspan class="cls-295" x="411.12" y="21.29">)に</tspan><tspan class="cls-281" x="434.76" y="21.29">て</tspan><tspan class="cls-158" x="451.94" y="21.29">ダ</tspan><tspan class="cls-144" x="468.59" y="21.29">ウ</tspan><tspan class="cls-209" x="484.9" y="21.29">ン</tspan><tspan class="cls-313" x="502.25" y="21.29">ロ</tspan><tspan class="cls-199" x="519.81" y="21.29">ー</tspan><tspan class="cls-274" x="534.76" y="21.29">ド</tspan><tspan x="551.67" y="21.29">方</tspan><tspan class="cls-222" x="569.41" y="21.29">法を</tspan><tspan class="cls-108" x="604.25" y="21.29">お</tspan><tspan class="cls-262" x="621.99" y="21.29">知</tspan><tspan class="cls-292" x="638.91" y="21.29">ら</tspan><tspan x="656.16" y="21.29">せ</tspan><tspan class="cls-313" x="673.9" y="21.29">い</tspan><tspan class="cls-161" x="691.46" y="21.29">た</tspan><tspan class="cls-242" x="708.06" y="21.29">し</tspan><tspan class="cls-174" x="724.95" y="21.29">ま</tspan><tspan class="cls-313" x="741.7" y="21.29">す</tspan><tspan class="cls-114" x="759.26" y="21.29">。</tspan><tspan class="cls-257" x=".5" y="42.58">※</tspan><tspan class="cls-230" x="17.58" y="42.58">ご</tspan><tspan x="34.98" y="42.58">参加</tspan><tspan class="cls-302" x="70.46" y="42.58">い</tspan><tspan class="cls-229" x="88.02" y="42.58">た</tspan><tspan class="cls-274" x="105.41" y="42.58">だ</tspan><tspan class="cls-147" x="122.32" y="42.58">く</tspan><tspan class="cls-213" x="138.41" y="42.58">全</tspan><tspan class="cls-236" x="155.83" y="42.58">日</tspan><tspan x="173.23" y="42.58">程の午</tspan><tspan class="cls-278" x="226.45" y="42.58">前</tspan><tspan class="cls-296" x="243.57" y="42.58">プ</tspan><tspan class="cls-141" x="260.76" y="42.58">ロ</tspan><tspan class="cls-143" x="277.17" y="42.58">グ</tspan><tspan class="cls-241" x="293.59" y="42.58">ラ</tspan><tspan class="cls-313" x="310.46" y="42.58">ム</tspan><tspan class="cls-108" x="328.03" y="42.58">のお写</tspan><tspan class="cls-213" x="381.25" y="42.58">真を</tspan><tspan x="416.09" y="42.58">1,100円</tspan><tspan class="cls-297" x="482.43" y="42.58">で</tspan><tspan class="cls-157" x="499.6" y="42.58">ダ</tspan><tspan class="cls-144" x="516.26" y="42.58">ウ</tspan><tspan class="cls-209" x="532.56" y="42.58">ン</tspan><tspan class="cls-313" x="549.91" y="42.58">ロ</tspan><tspan class="cls-198" x="567.48" y="42.58">ー</tspan><tspan class="cls-135" x="582.43" y="42.58">ド</tspan><tspan class="cls-216" x="598.38" y="42.58">し</tspan><tspan x="615.76" y="42.58">て</tspan><tspan class="cls-313" x="633.5" y="42.58">い</tspan><tspan class="cls-216" x="651.07" y="42.58">た</tspan><tspan class="cls-313" x="668.45" y="42.58">だ</tspan><tspan class="cls-292" x="686.01" y="42.58">け</tspan><tspan class="cls-179" x="703.26" y="42.58">ま</tspan><tspan class="cls-313" x="720" y="42.58">す</tspan><tspan class="cls-114" x="737.57" y="42.58">。</tspan><tspan x=".5" y="63.86">※午後</tspan><tspan class="cls-278" x="53.72" y="63.86">の</tspan><tspan class="cls-296" x="70.83" y="63.86">プ</tspan><tspan class="cls-141" x="88.02" y="63.86">ロ</tspan><tspan class="cls-143" x="104.43" y="63.86">グ</tspan><tspan class="cls-247" x="120.86" y="63.86">ラ</tspan><tspan class="cls-302" x="137.73" y="63.86">ム</tspan><tspan class="cls-236" x="155.29" y="63.86">は</tspan><tspan x="172.7" y="63.86">対象</tspan><tspan class="cls-256" x="208.18" y="63.86">外と</tspan><tspan class="cls-155" x="242.34" y="63.86">な</tspan><tspan class="cls-138" x="258.45" y="63.86">り</tspan><tspan class="cls-179" x="274.36" y="63.86">ま</tspan><tspan class="cls-313" x="291.11" y="63.86">す</tspan><tspan class="cls-114" x="308.67" y="63.86">。</tspan><tspan class="cls-292" x=".5" y="85.15">※</tspan><tspan class="cls-147" x="17.74" y="85.15">ア</tspan><tspan class="cls-161" x="33.83" y="85.15">ク</tspan><tspan class="cls-200" x="50.43" y="85.15">テ</tspan><tspan class="cls-183" x="66.29" y="85.15">ィ</tspan><tspan class="cls-179" x="80.66" y="85.15">ビ</tspan><tspan class="cls-200" x="97.41" y="85.15">テ</tspan><tspan class="cls-191" x="113.27" y="85.15">ィ</tspan><tspan x="128.63" y="85.15">内</tspan><tspan class="cls-292" x="146.37" y="85.15">容</tspan><tspan class="cls-262" x="163.61" y="85.15">に</tspan><tspan class="cls-133" x="180.54" y="85.15">よ</tspan><tspan class="cls-142" x="196.66" y="85.15">り</tspan><tspan x="213.07" y="85.15">枚</tspan><tspan class="cls-313" x="230.81" y="85.15">数が</tspan><tspan x="265.94" y="85.15">異</tspan><tspan class="cls-274" x="283.68" y="85.15">な</tspan><tspan class="cls-262" x="300.58" y="85.15">る</tspan><tspan x="317.51" y="85.15">場</tspan><tspan class="cls-313" x="335.25" y="85.15">合</tspan><tspan class="cls-274" x="352.81" y="85.15">がご</tspan><tspan class="cls-307" x="386.62" y="85.15">ざ</tspan><tspan class="cls-292" x="404.2" y="85.15">い</tspan><tspan class="cls-174" x="421.44" y="85.15">ま</tspan><tspan class="cls-313" x="438.19" y="85.15">す</tspan><tspan class="cls-114" x="455.75" y="85.15">。</tspan><tspan x=".5" y="106.44" xml:space="preserve">  </tspan><tspan class="cls-295" x="12.31" y="106.44"> </tspan><tspan class="cls-179" x="17.72" y="106.44">ま</tspan><tspan class="cls-313" x="34.47" y="106.44">た</tspan><tspan class="cls-131" x="52.03" y="106.44">、</tspan><tspan class="cls-198" x="60.74" y="106.44">レ</tspan><tspan class="cls-193" x="75.7" y="106.44">ッ</tspan><tspan class="cls-172" x="91.13" y="106.44">ス</tspan><tspan class="cls-304" x="107.59" y="106.44">ン</tspan><tspan x="125.12" y="106.44">の様</tspan><tspan class="cls-213" x="160.6" y="106.44">子を</tspan><tspan x="195.44" y="106.44">撮影</tspan><tspan class="cls-313" x="230.92" y="106.44">い</tspan><tspan class="cls-160" x="248.48" y="106.44">た</tspan><tspan class="cls-240" x="265.09" y="106.44">し</tspan><tspan class="cls-179" x="281.97" y="106.44">ま</tspan><tspan class="cls-302" x="298.72" y="106.44">す</tspan><tspan class="cls-108" x="316.28" y="106.44">ので</tspan><tspan class="cls-122" x="351.76" y="106.44">、</tspan><tspan x="361.79" y="106.44">集合写真</tspan><tspan class="cls-213" x="432.74" y="106.44">の</tspan><tspan class="cls-249" x="450.16" y="106.44">よ</tspan><tspan class="cls-174" x="466.93" y="106.44">う</tspan><tspan class="cls-230" x="483.67" y="106.44">な</tspan><tspan class="cls-108" x="501.08" y="106.44">写真で</tspan><tspan class="cls-230" x="554.3" y="106.44">は</tspan><tspan class="cls-170" x="571.7" y="106.44">あ</tspan><tspan class="cls-140" x="588.14" y="106.44">り</tspan><tspan class="cls-262" x="604.06" y="106.44">ま</tspan><tspan class="cls-313" x="620.98" y="106.44">せん</tspan><tspan class="cls-114" x="656.11" y="106.44">。</tspan></text>
+    <text class="cls-46" transform="translate(88.88 1737.42)"><tspan class="cls-197" x="0" y="0">フ</tspan><tspan class="cls-127" x="22.78" y="0">ォ</tspan><tspan class="cls-275" x="42.5" y="0">ト</tspan><tspan class="cls-109" x="67.85" y="0">サ</tspan><tspan class="cls-173" x="94.46" y="0">ー</tspan><tspan class="cls-163" x="119.58" y="0">ビ</tspan><tspan class="cls-293" x="144.44" y="0">ス</tspan></text>
+    <rect class="cls-14" x="320.5" y="1639.93" width="966" height="156"/>
+    <g>
+      <g>
+        <path class="cls-28" d="M1229.65,78.02c0-2.86,0-5.71,0-8.57,0-1.4.78-2.61,2.03-3.11,2.32-.93,4.62.75,4.62,3.06,0,5.46,0,10.92,0,16.38,0,1.06.1,2.11.39,3.14.28.98.74,1.86,1.57,2.5.68.52,1.46.8,2.29.94,1.27.2,2.53.19,3.78-.13,1.7-.43,2.75-1.52,3.24-3.19.32-1.08.42-2.19.43-3.3,0-5.43,0-10.86,0-16.3,0-1.55.94-2.78,2.31-3.21,2.06-.65,4.11.73,4.32,2.78.03.32.05.65.05.97,0,5.12.02,10.24-.01,15.36-.01,1.9-.17,3.8-.73,5.64-.77,2.54-2.3,4.43-4.67,5.63-1.39.7-2.87,1.08-4.41,1.27-1.08.14-2.17.19-3.25.16-2.06-.06-4.08-.33-5.99-1.16-2.67-1.16-4.45-3.13-5.28-5.93-.35-1.17-.53-2.36-.62-3.57-.17-2.39-.05-4.78-.08-7.16-.01-.74,0-1.47,0-2.21Z"/>
+        <path class="cls-28" d="M1259.56,81.79c0-4.14,0-8.29,0-12.43,0-1.65,1.09-2.93,2.62-3.26.29-.06.58-.09.88-.09,3.4,0,6.79-.02,10.19,0,1.94.01,3.82.32,5.57,1.22,1.48.76,2.67,1.83,3.46,3.32.49.93.77,1.94.95,2.97.1.57.11,1.15.1,1.73,0,.89.04,1.79-.03,2.67-.15,1.99-.67,3.86-2.02,5.41-.71.81-1.6,1.38-2.57,1.82-1.27.58-2.61.88-4,1.01-1.69.16-3.39.04-5.09.08-.84.02-1.62.22-2.27.77-.83.71-1.2,1.61-1.19,2.69,0,1.54,0,3.08,0,4.63,0,1.33-.63,2.31-1.78,2.91-1.19.62-2.39.5-3.48-.29-.91-.66-1.33-1.59-1.33-2.7,0-4.16,0-8.32,0-12.48ZM1270.5,80.78s0,0,0,.01c.42,0,.85,0,1.27,0,.47.01.93-.04,1.39-.14,1.62-.35,2.72-1.26,3.11-2.91.25-1.06.25-2.14.02-3.21-.21-1-.84-1.89-1.74-2.38-.95-.51-1.97-.6-3.01-.63-.75-.02-1.5,0-2.25,0-.31,0-.62.03-.92.1-1.56.38-2.54,1.57-2.59,3.19-.03.9-.03,1.81,0,2.72.05,1.73,1.24,3.05,2.93,3.24.59.06,1.19.01,1.78.01Z"/>
+        <path class="cls-28" d="M1161.13,80.17c.37-.61.74-1.22,1.12-1.83,1.38-2.22,2.86-4.37,4.37-6.5.51-.71,1.02-1.42,1.53-2.13.25-.35.6-.52,1.02-.46.81.12,1.18.99.71,1.69-.32.48-.68.94-1.01,1.41-1.95,2.75-3.86,5.54-5.6,8.43-.7,1.16-1.35,2.35-1.95,3.57-.17.35-.11.49.27.54.55.07,1.09.14,1.64.17,1.13.08,2.22.38,3.32.65,2.22.55,4.37,1.32,6.52,2.11.64.23,1.28.44,1.92.66.72.24,1,1.02.59,1.65-.24.38-.73.56-1.19.41-.77-.26-1.54-.55-2.31-.82-2.34-.83-4.67-1.69-7.11-2.2-1.08-.23-2.17-.36-3.26-.47-.11-.01-.22-.04-.29,0,0,.38,0,.73,0,1.07.02.78.04,1.55.09,2.33.08,1.38.14,2.76.18,4.14,0,.34.06.67.04,1.01-.02.5-.38.93-.82,1.02-.46.09-1-.17-1.21-.59-.06-.12-.09-.24-.09-.37-.03-.78-.04-1.55-.09-2.33-.05-.89-.04-1.78-.13-2.66-.03-.28-.02-.56-.03-.85-.03-.73-.05-1.47-.09-2.2-.02-.32-.08-.64-.06-.97.01-.13-.06-.2-.15-.28-.54-.41-.57-.93-.35-1.52.05-.13.09-.27.16-.39.3-.46.25-.96.19-1.47-.04-.31-.03-.62-.03-.93-.02-.92-.11-1.83-.1-2.75,0-.45-.08-.9-.06-1.35.1-1.79.02-3.59.1-5.38.05-1.27.06-2.54.03-3.81-.03-1.11-.04-2.23-.2-3.33-.05-.3-.04-.62.15-.9.28-.4.66-.56,1.14-.45.47.11.76.43.82.91.1.85.14,1.71.19,2.57.08,1.31.07,2.63.03,3.94-.04,1.6-.04,3.19-.09,4.79-.02.73-.03,1.47-.04,2.2-.01.55.11,1.09.13,1.67Z"/>
+        <path class="cls-28" d="M1200.33,82.61c.06-.09.03-.19.03-.28.01-2.96-.02-5.91.04-8.87.04-2.22.07-4.43.07-6.65,0-.75-.06-1.49-.16-2.23-.02-.15-.03-.31-.03-.46.02-.55.45-.98,1-1.03.52-.04,1.03.36,1.12.89.04.26.06.53.08.8.09,1.73.17,3.47.09,5.21,0,.01,0,.03,0,.04.04,1.4-.07,2.8-.06,4.19.01,2.09.02,4.19-.03,6.28-.04,1.54-.03,3.08-.08,4.62-.04,1.04-.03,2.09-.08,3.13-.04.9-.04,1.81-.09,2.71-.04.79-.02,1.58-.08,2.37-.07.99-.03,1.98-.05,2.96-.02.63-.32,1.03-.86,1.15-.6.13-1.23-.33-1.25-.95-.01-.49-.04-.98.04-1.48.05-.34,0-.7,0-1.06-.13-.08-.24.02-.34.06-.84.32-1.73.47-2.61.45-2.18-.06-4.22-.6-5.93-2.04-1.4-1.18-2.17-2.69-2.33-4.54-.11-1.29.06-2.53.56-3.72.66-1.58,1.72-2.79,3.31-3.46,1.67-.7,3.34-.55,4.97.19.87.39,1.65.93,2.37,1.54.08.06.15.13.23.18.02.01.05,0,.08,0ZM1197.05,92.33c1.03.01,1.98-.27,2.87-.78.15-.09.18-.18.19-.33.02-.79.02-1.58.07-2.37.05-.83.03-1.67.04-2.5,0-.15-.02-.31.04-.46.06-.15-.01-.26-.12-.38-.47-.51-.94-1.02-1.47-1.46-1.01-.84-2.09-1.54-3.45-1.67-1.02-.1-1.93.16-2.69.86-.9.84-1.42,1.87-1.6,3.09-.3,2.02.43,3.6,2.05,4.77,1.21.87,2.61,1.15,4.07,1.22Z"/>
+        <path class="cls-28" d="M1213.95,92.31c-.01-1.19-.37-2.3-.87-3.37-.85-1.81-2.01-3.43-3.2-5.03-.96-1.29-1.91-2.59-2.71-4-.62-1.09-1.11-2.22-1.25-3.48-.09-.84-.08-1.7,0-2.54.08-.87.21-1.73.48-2.57.54-1.73,1.45-3.19,3.01-4.17,1.95-1.23,3.97-1.25,5.99-.14,1.71.94,2.78,2.44,3.49,4.22.07.18.12.38.19.56.22.57-.25,1.21-.72,1.34-.56.15-1.11-.11-1.32-.69-.2-.54-.41-1.08-.7-1.59-.52-.89-1.21-1.6-2.14-2.05-1.46-.71-2.82-.53-4.08.47-1.04.83-1.54,1.97-1.81,3.22-.16.77-.24,1.56-.3,2.34-.13,1.53.33,2.88,1.11,4.17.78,1.28,1.66,2.49,2.55,3.7,1.2,1.64,2.38,3.3,3.27,5.14.45.93.84,1.88,1.03,2.9.2,1.11.21,2.22-.06,3.32-.33,1.36-1.16,2.36-2.36,3.07-.64.38-1.32.65-2.07.7-1.04.08-1.94-.28-2.71-.98-.83-.76-1.36-1.72-1.76-2.76-.31-.81-.51-1.64-.67-2.49-.06-.34-.1-.7.12-1.03.22-.34.52-.51.92-.5.41.01.72.2.93.57.16.28.16.6.22.9.21,1.06.51,2.08,1.08,3.01.17.28.37.53.61.75.41.38.9.46,1.42.33,1.24-.31,2.1-1.3,2.26-2.57.03-.25.06-.5.06-.76Z"/>
+        <path class="cls-28" d="M1182.37,94.37c0-.71.02-1.42,0-2.12-.09-2.06-.03-4.12-.09-6.18-.04-1.11-.02-2.23-.08-3.34-.05-.89-.04-1.78-.09-2.66-.04-.68-.03-1.35-.08-2.03-.09-1.25-.11-2.5-.21-3.75-.05-.7-.08-1.41-.13-2.11-.08-1.22-.16-2.44-.3-3.66-.03-.29-.08-.59.05-.88.2-.45.66-.7,1.14-.64.47.06.82.4.9.89.04.25.07.5.08.76.04.97.15,1.94.21,2.91.09,1.42.18,2.84.25,4.26.06,1.32.12,2.65.17,3.97.03.86.04,1.72.08,2.58.06,1.19.04,2.37.09,3.56.08,1.89.05,3.78.08,5.68.03,1.67.07,3.33.06,5,0,.26-.04.5-.18.73-.3.49-.76.57-1.21.47-.42-.1-.73-.52-.74-.98,0-.81,0-1.61,0-2.42Z"/>
+        <path class="cls-28" d="M1183.24,62.14c.08-.11.06-.21.06-.31,0-.28-.03-.57.08-.84.07-.16-.05-.23-.16-.29-.12-.06-.19.01-.23.11-.11.23-.38.33-.48.59-.04.11-.17.13-.29.09-.19-.06-.38-.14-.49-.32-.13-.22-.25-.43-.32-.69-.1-.39,0-.68.32-.92.32-.24.6-.53.99-.71.27-.13.47-.42.65-.71.28-.45.54-.5.99-.23.58.35.91.91,1.17,1.52.27.62.39,1.27.33,1.94-.04.53-.26,1.01-.57,1.43-.13.17-.3.29-.53.32-.34.05-.63.2-.9.43-.3.25-.63.48-1.06.46-.38-.02-.56-.2-.58-.58-.02-.33.04-.62.29-.85.02-.02.05-.04.06-.06.14-.3.37-.44.69-.39Z"/>
+        <path class="cls-28" d="M1180.81,63.69c.54.43,1.24.68,2.46.88-1.01.31-1.94.19-2.82-.26-.58-.29-.89-.86-1.2-1.39-.16-.27-.28-.56-.29-.91,0-.31-.15-.62-.13-.95.02-.42.2-.49.6-.39.76.19,1.24.75,1.78,1.24.17.15.3.34.39.55.04.09.08.18.15.25.25.26.22.59-.09.8-.16.1-.34.13-.52.15-.11,0-.22-.03-.32.05Z"/>
+        <path class="cls-28" d="M1182.52,57.4c.05,0,.19-.01.33,0,.29.03.35.11.3.39-.04.22-.25.4-.45.35-.12-.03-.24-.09-.34-.16-.15-.1-.27-.08-.37.05-.32.39-.72.7-.93,1.19-.2.49-.68.74-1.1,1.01-.25.16-.45-.03-.63-.19-.18-.15-.19-.31-.1-.53.57-1.37,2.14-2.19,3.3-2.1Z"/>
+      </g>
+      <g>
+        <ellipse class="cls-28" cx="1098.5" cy="78.43" rx="39" ry="37.5"/>
+        <g>
+          <g>
+            <path class="cls-96" d="M1062.26,78.44c.01,19.49,16.69,35.28,37.24,35.27l-.04-70.58c-20.56.01-37.21,15.82-37.2,35.31Z"/>
+            <path class="cls-118" d="M1135.74,78.4c-.01-19.49-16.69-35.28-37.24-35.27l.04,70.58c20.56-.01,37.21-15.82,37.2-35.31Z"/>
+          </g>
+          <path class="cls-28" d="M1132.19,78.4s-.26.03-.75.07c-.49.04-1.2.12-2.11.18-.91.07-2.01.16-3.28.24-1.27.08-2.7.18-4.26.25-1.56.08-3.25.17-5.04.23-1.79.06-3.67.14-5.62.18-1.95.05-3.96.09-6.01.11-2.05.03-4.13.04-6.2.04-2.08,0-4.16,0-6.2-.03-2.05-.02-4.06-.06-6.01-.1-1.95-.04-3.83-.11-5.62-.18-1.79-.06-3.48-.14-5.04-.22-1.56-.07-2.99-.16-4.26-.25-1.27-.07-2.37-.17-3.28-.24-.91-.07-1.62-.14-2.11-.18-.49-.05-.75-.07-.75-.07,0,0,.26-.03.75-.07.49-.04,1.2-.12,2.11-.18.91-.07,2.01-.16,3.28-.24,1.27-.08,2.7-.18,4.26-.25,1.56-.08,3.25-.17,5.03-.23,1.79-.07,3.67-.14,5.62-.18,1.95-.05,3.96-.09,6.01-.11,2.05-.03,4.13-.03,6.2-.04,2.08,0,4.16,0,6.2.04,2.05.02,4.06.06,6.01.11,1.95.04,3.83.12,5.62.18,1.79.05,3.48.14,5.04.22,1.56.07,2.99.16,4.26.24,1.27.07,2.37.17,3.28.23.91.07,1.62.14,2.11.18.49.05.75.07.75.07Z"/>
+          <path class="cls-28" d="M1123.49,55.99s-.16.12-.47.34c-.31.21-.76.54-1.34.92-.59.38-1.35.79-2.22,1.27-.11.06-.22.12-.33.18-.12.05-.23.11-.35.16-.24.11-.48.22-.74.34-.51.23-1.04.48-1.6.7-.57.21-1.17.43-1.78.65-.16.06-.31.11-.47.17l-.24.08-.27.08c-.32.09-.65.18-.98.28-.66.18-1.34.37-2.03.56-.71.17-1.46.3-2.22.45-1.52.33-3.08.49-4.68.66-.8.11-1.6.13-2.41.16-.82.03-1.65.06-2.48.09-.8-.03-1.59-.06-2.39-.08-.8-.03-1.58-.05-2.39-.15-1.61-.17-3.2-.33-4.69-.65-.75-.15-1.49-.27-2.2-.44-.71-.19-1.4-.38-2.08-.57-.34-.09-.67-.19-.99-.28l-.12-.03-.06-.02-.06-.02h-.03s-.23-.09-.23-.09c-.15-.06-.31-.11-.46-.17-.61-.22-1.19-.44-1.76-.64-.56-.23-1.1-.48-1.61-.71-.25-.12-.5-.23-.74-.34-.12-.05-.24-.11-.35-.16-.11-.06-.22-.12-.33-.18-.87-.48-1.62-.88-2.22-1.27-.59-.39-1.04-.71-1.35-.93-.31-.22-.47-.33-.47-.33,0,0,.19.07.54.2.35.14.87.33,1.51.6.32.14.7.24,1.09.37.4.13.82.28,1.28.43.45.17.95.27,1.46.42.52.14,1.04.31,1.62.45.58.13,1.19.27,1.82.42.16.04.32.07.48.11l.24.06.22.04c.32.06.65.11.98.17.66.12,1.34.24,2.04.37.7.1,1.42.18,2.14.27.36.05.73.09,1.1.14.18.02.37.05.55.07l.56.04c.75.05,1.5.1,2.26.17.75.08,1.55.07,2.34.1.79.02,1.59.04,2.39.06.77-.02,1.53-.04,2.3-.06.78-.03,1.56-.01,2.32-.1.77-.06,1.53-.12,2.28-.17l.56-.04c.18-.02.37-.05.55-.07.37-.05.73-.09,1.09-.14.72-.09,1.43-.17,2.13-.27.71-.13,1.4-.26,2.08-.38.34-.06.67-.12,1-.17l.21-.04.24-.06c.16-.04.31-.07.47-.11.62-.14,1.22-.28,1.79-.41.57-.14,1.11-.31,1.63-.45.52-.15,1.02-.26,1.47-.43.45-.15.88-.3,1.27-.43.4-.14.77-.23,1.09-.38.65-.27,1.17-.46,1.51-.6.35-.13.54-.2.54-.2Z"/>
+          <path class="cls-28" d="M1098.94,111.69s-.03-.26-.07-.75c-.04-.49-.12-1.2-.18-2.11-.07-.91-.16-2.01-.24-3.28-.08-1.27-.18-2.7-.25-4.26-.08-1.56-.17-3.25-.23-5.04-.06-1.79-.14-3.67-.18-5.62-.05-1.95-.09-3.96-.11-6.01-.03-2.05-.03-4.13-.04-6.2,0-2.08,0-4.16.04-6.2.02-2.05.06-4.06.1-6.01.04-1.95.11-3.83.18-5.62.06-1.79.14-3.48.22-5.04.07-1.56.16-2.99.25-4.26.07-1.27.17-2.37.24-3.28.07-.91.14-1.62.18-2.11.05-.49.07-.75.07-.75,0,0,.03.26.07.75.04.49.12,1.2.18,2.11.07.91.16,2.01.24,3.28.08,1.27.18,2.7.25,4.26.08,1.56.17,3.25.23,5.04.07,1.79.14,3.67.18,5.62.05,1.95.09,3.96.11,6.01.03,2.05.03,4.13.04,6.2,0,2.08,0,4.16-.04,6.2-.02,2.05-.06,4.06-.11,6.01-.04,1.95-.12,3.83-.18,5.62-.05,1.79-.14,3.48-.22,5.04-.07,1.56-.16,2.99-.24,4.26-.07,1.27-.17,2.37-.23,3.28-.07.91-.14,1.62-.18,2.11-.05.49-.07.75-.07.75Z"/>
+          <path class="cls-28" d="M1098.91,45.16s-.41.04-1.17.11c-.19.02-.4.03-.64.05-.23.03-.49.07-.76.11-.27.04-.57.08-.88.12-.31.04-.64.12-.99.18-1.4.24-3.07.67-4.93,1.3-1.85.64-3.88,1.53-5.96,2.72-2.07,1.2-4.17,2.74-6.18,4.59-.98.95-1.96,1.94-2.86,3.06l-.35.43-.32.42c-.21.29-.44.56-.65.85-.42.59-.85,1.19-1.23,1.82-1.59,2.49-2.83,5.31-3.72,8.27-.43,1.49-.77,3.01-.99,4.56-.21,1.55-.31,3.12-.32,4.69l.03,1.19c0,.42.04.79.06,1.17.04.76.15,1.55.24,2.32.22,1.55.57,3.07,1,4.56.9,2.96,2.14,5.77,3.73,8.26.39.63.81,1.23,1.23,1.82.21.29.44.57.66.86.21.29.44.57.67.84.22.26.46.57.67.8.25.27.49.54.74.8.24.28.49.51.73.75.24.24.48.48.72.71,2.01,1.85,4.11,3.38,6.18,4.58,2.08,1.19,4.11,2.08,5.96,2.72,1.86.63,3.53,1.06,4.93,1.3.35.06.68.13.99.18.31.04.61.08.88.12.27.04.53.07.76.11.23.02.45.04.64.05.76.07,1.17.11,1.17.11,0,0-.41.01-1.18.04-.19,0-.41.01-.64.02-.24,0-.49-.01-.77-.02-.28,0-.58-.01-.9-.02-.32-.01-.66-.05-1.02-.08-1.44-.1-3.18-.36-5.14-.86-1.96-.49-4.14-1.23-6.38-2.36-2.24-1.11-4.56-2.57-6.76-4.45-.27-.24-.55-.49-.82-.74-.28-.25-.56-.5-.81-.75-.26-.25-.51-.51-.77-.77-.29-.29-.52-.56-.79-.85-1.03-1.12-1.98-2.36-2.86-3.67-.88-1.32-1.7-2.71-2.4-4.18-.71-1.47-1.34-3.01-1.81-4.61-.48-1.6-.87-3.24-1.12-4.91-.11-.84-.23-1.67-.28-2.54-.03-.43-.07-.87-.08-1.27l-.03-1.25c.02-1.7.15-3.39.39-5.06.25-1.67.64-3.31,1.12-4.91.47-1.6,1.11-3.14,1.81-4.61.7-1.48,1.52-2.87,2.4-4.18.43-.66.91-1.29,1.37-1.91.24-.31.49-.61.74-.91l.37-.45.37-.41c1-1.13,2.1-2.15,3.18-3.1,2.2-1.88,4.52-3.34,6.76-4.45,2.24-1.12,4.42-1.87,6.38-2.36,1.96-.5,3.7-.76,5.14-.86.36-.03.7-.07,1.02-.08.32,0,.62-.02.9-.02.28,0,.54-.01.77-.02.24,0,.45.01.64.02.77.03,1.18.04,1.18.04Z"/>
+          <path class="cls-28" d="M1099.1,111.69s.32-.05.91-.13c.07-.01.15-.02.24-.03.08-.02.17-.04.25-.07.18-.05.37-.09.58-.15.21-.04.42-.13.65-.22.23-.09.48-.17.73-.28,1-.45,2.13-1.17,3.26-2.17,1.13-1,2.24-2.32,3.28-3.87,1.03-1.56,1.96-3.37,2.78-5.34.19-.5.41-1,.59-1.52.17-.51.38-1.06.53-1.56.17-.55.34-1.11.51-1.68.16-.56.29-1.11.43-1.67.55-2.27.98-4.67,1.27-7.12.12-1.23.25-2.47.3-3.71.03-.62.08-1.25.08-1.88l.03-1.86c-.01-2.6-.16-5.02-.43-7.5-.29-2.45-.72-4.84-1.28-7.12-.15-.57-.28-1.13-.44-1.69-.17-.55-.33-1.1-.49-1.64l-.05-.18-.07-.2-.14-.41c-.09-.27-.19-.54-.28-.81-.19-.53-.39-1.01-.59-1.51-.83-1.97-1.76-3.78-2.79-5.34-1.04-1.55-2.15-2.86-3.28-3.86-1.13-1-2.26-1.71-3.26-2.16-.25-.11-.5-.19-.73-.28-.23-.09-.44-.18-.65-.22-.21-.05-.4-.1-.58-.15-.09-.02-.17-.04-.25-.07-.08-.01-.16-.02-.23-.03-.59-.08-.91-.13-.91-.13,0,0,.32,0,.93-.02.61.01,1.5.09,2.61.41,1.1.34,2.39.93,3.7,1.87,1.32.94,2.65,2.2,3.87,3.76,1.23,1.56,2.37,3.38,3.35,5.42.24.52.5,1.05.72,1.57.11.26.22.52.33.79l.17.4.08.2.08.23c.2.56.4,1.12.6,1.69.19.57.36,1.16.54,1.75.19.59.33,1.19.48,1.79.07.3.15.61.23.91.07.31.13.62.19.92.12.62.26,1.24.36,1.87.1.63.19,1.27.29,1.9.34,2.53.5,5.23.52,7.76l-.04,1.99c0,.65-.06,1.3-.1,1.95-.06,1.3-.23,2.59-.38,3.87-.1.64-.19,1.27-.29,1.9-.1.63-.24,1.25-.36,1.87-.06.31-.12.62-.19.93-.08.3-.15.61-.22.91-.15.61-.29,1.2-.48,1.8.21.85-.11,1.23-.3,1.8-.2.55-.39,1.13-.59,1.67-.22.59-.34,1.07-.69,1.69-.22.53-.57,1.27-.81,1.78-.98,2.04-1.51,3.26-2.74,4.81-1.22,1.56-3.28,3.12-4.59,4.05-1.31.95-2.6,1.54-3.7,1.87-1.1.32-2.02.4-2.61.41-.6-.01-.92-.02-.92-.02Z"/>
+          <path class="cls-28" d="M1098.91,45.16s-.32.05-.91.13c-.07.01-.15.02-.24.03-.08.02-.17.04-.25.07-.18.05-.37.09-.58.15-.21.04-.42.13-.65.22-.23.09-.48.17-.73.28-1,.45-2.13,1.17-3.26,2.17-1.13,1-2.24,2.32-3.28,3.87-1.03,1.56-1.96,3.37-2.78,5.34-.19.5-.41,1-.59,1.52-.17.51-.38,1.06-.53,1.56-.17.55-.33,1.11-.5,1.68-.16.56-.29,1.11-.43,1.67-.5,2.1-.53,4.84-1.15,7.06-.1.36-.15.73-.15,1.11,0,2.36-.37,4.1-.38,6.42.01,2.55.16,5.01.43,7.47.29,2.45.72,4.84,1.28,7.12.15.57.28,1.13.44,1.69.17.55.33,1.1.49,1.64l.05.18.07.2.14.41c.09.27.19.54.28.81.19.53.39,1.01.59,1.51.83,1.97,3.65,2.87,4.68,4.42,1.03,1.55.26,3.77,1.39,4.78,1.14,1,2.26,1.71,3.26,2.16.25.11.5.19.73.28.23.09.44.18.65.22.21.05.4.1.58.15.09.02.17.04.25.07.08.01.16.02.23.03.59.08.91.13.91.13,0,0-.32,0-.93.02-.6-.01-1.5-.09-2.61-.41-1.1-.34-2.39-.93-3.7-1.87-1.31-.93-2.65-2.2-3.87-3.76-1.23-1.55-2.37-3.38-3.35-5.42-.24-.52-.5-1.05-.72-1.57-.11-.26-.22-.52-.33-.79l-.16-.4-.08-.2-.08-.23c-.2-.56-.4-1.12-.61-1.69-.19-.57-.36-1.16-.54-1.75-.19-.59-.33-1.19-.48-1.79-.07-.3-.15-.61-.23-.91-.07-.3-.13-.61-.19-.92-.12-.62-.26-1.24-.36-1.87-.1-.63-.19-1.27-.29-1.9-.34-2.54-.5-5.21-.52-7.78.02-2.61.18-5.23.52-7.78.1-.64.19-1.27.29-1.9.1-.63.24-1.25.36-1.87.06-.31.12-.62.19-.92.07-.31.15-.61.22-.91.15-.61.29-1.2.48-1.8.18-.59.35-1.19.54-1.76.2-.56.4-1.11.59-1.65.22-.59.45-1.1.67-1.65.22-.53.48-1.05.71-1.56.98-2.04,2.12-3.87,3.34-5.42,1.22-1.56,2.55-2.83,3.86-3.77,1.31-.95,2.6-1.54,3.7-1.87,1.1-.32,2.02-.4,2.61-.41.6.01.92.02.92.02Z"/>
+          <path class="cls-28" d="M1100.1,111.73c-.09,0-.09-.14,0-.15,0,0,.02,0,.02,0,.19-.02.4-.03.64-.05h0c.23-.03.48-.07.76-.11.27-.04.57-.08.88-.12.31-.04.64-.12.99-.18,1.4-.24,3.07-.67,4.93-1.3,1.85-.64,3.88-1.53,5.96-2.72,2.07-1.2,4.17-2.74,6.18-4.59.98-.95,1.96-1.94,2.86-3.06l.35-.43.32-.42c.21-.29.44-.56.65-.85.42-.59.85-1.19,1.23-1.82,1.59-2.49,2.83-5.31,3.72-8.27.43-1.49.77-3.01.99-4.56.09-.78.2-1.55.24-2.34.02-.39.06-.78.06-1.17l.02-1.15c-.01-1.68-.11-3.15-.33-4.72-.22-1.55-.57-3.07-1-4.56-.9-2.96-2.13-5.77-3.73-8.26-.39-.63-.81-1.23-1.23-1.82-.21-.29-.44-.57-.66-.86-.21-.29-.44-.57-.67-.84-.23-.26-.46-.57-.67-.8-.25-.27-.49-.54-.74-.8-.24-.28-.49-.51-.73-.75-.24-.24-.48-.48-.72-.71-2-1.85-3.92-3.59-6.18-4.58,0,0,0,0,0,0-2.08-1.19-4.11-2.08-5.96-2.72-1.86-.63-3.53-1.06-4.93-1.3-.35-.06-.68-.13-.99-.18-.31-.04-.61-.08-.88-.12-.27-.04-.53-.07-.76-.11h0c-.23-.02-.44-.04-.63-.05,0,0-.02,0-.03,0-.09,0-.09-.14,0-.15,0,0,.02,0,.03,0,.19,0,.41-.01.64-.02,0,0,0,0,0,0,.24,0,.49.01.77.02.28,0,.58.01.9.02.32.01.66.05,1.02.08,1.44.1,3.18.36,5.14.86,1.96.49,5.92,1.76,8.16,2.88,0,0,0,0,0,0,2.25,1.46,2.77,2.05,4.97,3.92.27.24.55.49.82.74.28.25.56.5.81.75.26.25.51.51.77.77.29.29.52.56.79.85,1.03,1.12,1.98,2.36,2.86,3.67.88,1.32,1.7,2.71,2.4,4.18.71,1.47,1.34,3,1.81,4.61.48,1.6,1.08,2.97,1.33,4.64.24,1.65.17,3.71.18,5.3l-.03,1.3c0,.42-.05.85-.08,1.27-.05.85-.17,1.68-.28,2.52-.25,1.67-.64,3.31-1.12,4.91-.47,1.6-1,3.76-1.7,5.23-.7,1.48-1.63,2.25-2.51,3.56-.43.66-.91,1.29-1.37,1.91-.24.31-.49.61-.74.91l-.37.45-.37.41c-1,1.13-2.1,2.15-3.18,3.1-2.2,1.88-4.52,3.34-6.76,4.46-2.24,1.12-4.42,1.87-6.38,2.36-1.96.5-3.7.76-5.14.86-.36.03-.7.07-1.02.08-.32,0-.62.01-.9.02-.28,0-.54.01-.77.02-.24,0-.45-.01-.64-.02,0,0-.02,0-.02,0Z"/>
+          <path class="cls-28" d="M1074.36,100.85s.16-.12.47-.34c.31-.21.76-.54,1.34-.92.59-.38,1.35-.79,2.22-1.27.11-.06.22-.12.33-.18.12-.05.23-.11.35-.16.24-.11.48-.22.74-.34.51-.23,1.04-.48,1.6-.7.57-.21,1.17-.43,1.79-.65.16-.06.31-.11.47-.17l.24-.08.27-.08c.32-.09.65-.18.98-.28.66-.18,1.34-.37,2.04-.56.71-.17,1.46-.3,2.21-.45,1.52-.33,3.08-.49,4.67-.66.8-.11,1.6-.13,2.41-.16.81-.03,1.62-.06,2.44-.09.81.03,1.62.06,2.43.08.79.03,1.58.05,2.39.15,1.61.17,3.2.33,4.69.65.75.15,1.49.27,2.2.44.71.19,1.4.38,2.08.57.34.09.67.19.99.28l.12.03.06.02.06.02h.03s.23.09.23.09c.15.06.31.11.46.16.61.22,1.19.44,1.76.64.56.23,1.1.48,1.61.7.25.12.5.23.74.34.12.06.24.11.35.16.11.06.22.12.33.18.87.48,1.62.88,2.22,1.27.59.39,1.04.71,1.35.93.31.22.47.33.47.33,0,0-.19-.07-.54-.2-.35-.14-.87-.33-1.51-.6-.32-.14-.69-.24-1.09-.37-.4-.13-.82-.28-1.28-.43-.45-.17-.95-.27-1.46-.42-.52-.14-1.04-.31-1.62-.45-.58-.13-1.19-.27-1.82-.42-.16-.04-.32-.07-.48-.11l-.24-.06-.22-.04c-.32-.06-.65-.11-.98-.17-.66-.12-1.34-.24-2.04-.37-.7-.1-1.42-.18-2.14-.27-.36-.05-.73-.09-1.1-.14-.18-.02-.37-.05-.55-.07l-.56-.04c-.75-.05-1.5-.1-2.26-.17-.75-.08-1.55-.07-2.34-.1-.78-.02-1.56-.04-2.35-.06-.78.02-1.56.04-2.34.06-.78.03-1.55.01-2.32.1-.77.06-1.53.12-2.28.17l-.56.04c-.19.02-.37.05-.55.07-.36.05-.73.09-1.09.14-.72.09-1.43.17-2.13.27-.71.13-1.4.25-2.08.38-.34.06-.67.12-1,.17l-.21.04-.24.06c-.16.04-.31.07-.47.11-.62.14-1.22.28-1.79.41-.57.14-1.11.31-1.63.45-.52.15-1.02.26-1.47.43-.45.15-.88.3-1.27.43-.39.14-.77.23-1.09.38-.65.27-1.17.46-1.52.6-.35.13-.54.2-.54.2Z"/>
+          <g>
+            <path class="cls-28" d="M1111.72,56.43c.09-.08.17-.14.25-.21l.22-.2c-.08-.08-.17-.15-.26-.19-.17-.09-.4-.2-.65-.23-.22-.03-.42,0-.62.08-.24-.31-.69-.72-1.48-.83-.08-.01-.17-.02-.25-.02-1.45-.12-2.7.49-3.51,1.64-1.57.87-2.29,2.81-2.08,4.26.18,1.24.63,3.54,1.62,5.09.73,1.14,1.16,2.03,1.01,2.83-.08-.02-.14-.06-.17-.12-.01-.02-.03-.03-.06-.03l-.23.04s-.08-.01-.09-.04c-.04-.07-.07-.11-.1-.16-.01-.02-.02-.04-.02-.06-.03-.23,0-.54.25-.76l-.19-.32c-.44.14-1.14.55-1.21,1.2l-.05-.12c-.5.1-1.45.79-1.15,1.7.29.92,1.24,1.52,1.98,1.63.17.02.33.02.47,0,.12-.02.26-.05.41-.08.28.09.56.11.8.07.59-.1,1.96-.35,2.46-1.8.21-.35.32-.75.33-1.19,0-.16,0-.33-.04-.52.05-.19.08-.39.09-.6.02-.76-.32-1.54-.71-2.45-.49-1.12-1.04-2.38-1.11-4,0-.12,0-.24.03-.35.15-.68.76-3.01,1.48-3.41-.25.34-.3.66.15,1.18.03.04.07.08.11.11l.67-.6c.54-.55,1.09-.98,1.66-1.5ZM1104.4,69.53c-.05-.01-.18.02-.31-.33,0-.02-.01-.05-.02-.07l-.02-.19c-.01-.13.05-.42.1-.49,0,.02.06.35.07.37.02.07.02.12.07.19.07.07.13.49.11.52Z"/>
+            <path class="cls-27" d="M1128.46,74.8c-.54-.24-2.09.24-2.23.38-.44.44-.72,1.18-.68,1.47.06.56-.58,1.04-2.91,1.99-1.12.45-1.49-.13-1.76-1.04-.68-2.37-.46-2.49-2.34-4.25-1.06-.99-1.41-1.34-.78-1.62.06-.03.13-.04.2-.03.89.08,2.46-.23,3.54-1.01.03-.02.09-.07.16-.12.21-.17.54-.43.65-.51,0,0,.01-.01.02-.02,3.31-2.89,1.13-4.24,1.44-7.77.02-.21.23-.3.25-.61l.17-.89c.06-.72-.04-1.09-.15-1.35-1.35-3.39-4.36-4.21-7.66-4.14-3.07.08-4.6.36-6.99,3.25,0,0-.01.02-.02.03-.92,1.32-1.7,3.29-1.73,4.84,0,0,.03,1.34.14,1.99,0,0,0,.02,0,.03.02.08.04.17.05.26,0,0,0,.02,0,.03.21,1.04.3,1.56,1.02,2.57.1.14.28.34.41.45.71.61,1.18,1.38,2.43,2.2.42.27.87.49,1.29.66.35.14.32.65-.05.74-3.62.88-10.48,2.69-10.91,5.28-.41,2.39-3.91,1.37-3.2,6.23.19,1.29,1.35,1.16,2.39.64,2.37-1.16,1.43-1.31,1.39-2.9-.09-2.9,4.06-4.71,6.8-5.25.31-.06.57.26.43.55-.58,1.26.3,4.81-1.93,7.63-2.97,3.78-6.84,2.98-5.86,3.52,1.22.67,3.9,4.32.67,4.67-2.26.23-1.78-3.24-3.06-3.86-.83-.41-3.01,2.37-3.28,4.15-.23,1.54-.03,2.38.22,2.81.05.09.35.53.45.55.92.21,1.57-1.4,1.94-2.63.1-.33.55-.38.72-.07,1.29,2.37,3.08,4.15,5.39,1.03.58-.79,2.66-1.79,3.61-1.06,1.88,1.48,7.31,2.25,9.59.45.19-.15.47-.09.58.13.3.58.86,1.64,1.44,2.78.89,1.68.08,3.94,1.12,4.56.35.19,2.34.1,3.75-.67,5.81-3.2,1.25-4.87-1.24-3.35-.27.16-.61-.04-.59-.36.06-1.03.1-2.75-.12-3.81-.35-1.6-2.37-2.74-1.52-3.09.85-.33,1.89-1.16,1.1-1.45-.79-.27-4.83-2.8-5.04-4.88-.16-1.54.67-3.47,1.11-4.37.12-.25.45-.3.64-.1,2.44,2.61,4.44,2.45,6.53-.8.06-.09.14-.15.24-.17.48-.11,1.91-.53,2.49-1.82.37-.81.27-1.62-.33-1.87Z"/>
+            <path class="cls-27" d="M1089.26,86.87c3.36,2.29,2.73,7,3.21,11.03.04.34,1.49-.86,3.64.54,1.33.87-8.11,4.18-7.78,1.87.66-4.52-.63-10.57-5.7-12.23-.1-.03-.22.03-.24.13-1.15,4.53-5.49,6.95-9.86,5.29-2.1-.78-3.36-3.21-3.91-3.07-.25.08-1.23,1.82-1.44,2.7-.19.86-1.6,1.78-1.43-1.47.1-1.89.76-4.43,1.6-5.61,1.89-2.63,2.16.42,3.36,2.23.8,1.22,3.06,2.16,4.3,1.68,1.83-.69,3.26-3.07,3.26-3.83s-.35-1.65,1.01-4.52c.93-1.95.69-3.79,1.11-4.34.11-.14-.01-.33-.18-.3-1.21.2-4.4.81-5.52,1.84-1.41,1.26-.95.63-1.8.31-1.53-.61-1.07,4.29-3.97,1.7-2.2-1.98.71-4.22,2.08-4.18.44.02,1.62-.29,2-.94,1.68-2.88,7.39-2.19,10.04-3.26.72-.29,1.38-.84,1.69-1.12.09-.08.08-.23-.03-.3-.08-.06-.16-.11-.24-.16-.02-.01-.04-.02-.06-.02-2.32-.58-2.51-.57-3.78-1.7-.15-.14-.24,1.04-.75.55-.03-.03-1.23-.82-1.45-2.99-.16-1.56-.73-4,.13-6.67.98-3.02,3.61-5.81,7.52-6.55.15-.03.26.11.21.25-.01.03-.02.07-.03.1-.04.18.18.31.31.18.89-.82,1.87-1.36,3.07-1.37.17,0,.17.5.06.62-.16.18-.21.4-.18.65.03.19.22.09.37-.04.39-.34,1.17-.11,1.99-.23.32-.05.24.22.11.33,0,0,0,0,0,0-.12.11-.2.25-.04.26,2.68.25.4,2.46,4.74,2.09,1.32-.11,1.09,2.09-1.15,3.39-.06.03-.12.06-.14.13-.72,2.42.52,5.16-.1,7.29-1.01,3.44-4.1,4.1-6.92,4.22-.19,0-.25.26-.08.36,2.66,1.48,1.31,3.66,4.16,6.42.88.84,2.14,1.74,4.05,2.69,1.07.54.61,1.39,1.2.86,4.26-3.82,5.23,4.47,1.49,2.77-.61-.29-1.24-.63-1.76-.46-2.86.97-2.5,1.04-5.78-.96-.77-.47-2.1-1.72-2.27-2.52-.42-2.16-1.78,4.16-.13,6.36h0Z"/>
+          </g>
+        </g>
+      </g>
+    </g>
+    <text class="cls-34" transform="translate(28.59 211.25)"><tspan class="cls-23" x="0" y="0">◆</tspan><tspan class="cls-49" x="31.04" y="0">小学</tspan><tspan class="cls-53" x="93.13" y="0">生・</tspan><tspan class="cls-44" x="139.27" y="0">幼</tspan><tspan class="cls-69" x="170.31" y="0">児</tspan><tspan class="cls-55" x="200.14" y="0">コ</tspan><tspan class="cls-70" x="230.66" y="0">ース</tspan><tspan class="cls-44" x="291.01" y="0">共通</tspan><tspan class="cls-54" x="353.1" y="0">　</tspan><tspan class="cls-49" x="372.94" y="0">（午前</tspan><tspan class="cls-61" x="466.07" y="0"> </tspan><tspan class="cls-51" x="470.67" y="0">１</tspan><tspan class="cls-66" x="490.22" y="0">０：</tspan><tspan class="cls-51" x="519.59" y="0">０</tspan><tspan class="cls-60" x="539.15" y="0">０～</tspan><tspan class="cls-52" x="589.44" y="0">１</tspan><tspan class="cls-65" x="609" y="0">３：</tspan><tspan class="cls-52" x="638.37" y="0">３</tspan><tspan class="cls-61" x="657.93" y="0">０</tspan><tspan class="cls-44" x="683.23" y="0" xml:space="preserve"> / 午後</tspan><tspan class="cls-61" x="781.51" y="0"> </tspan><tspan class="cls-52" x="786.11" y="0">１</tspan><tspan class="cls-65" x="805.67" y="0">３：</tspan><tspan class="cls-51" x="835.04" y="0">３</tspan><tspan class="cls-59" x="854.59" y="0">０～</tspan><tspan class="cls-51" x="904.89" y="0">１</tspan><tspan class="cls-65" x="924.44" y="0">８：</tspan><tspan class="cls-51" x="953.81" y="0">３</tspan><tspan class="cls-62" x="973.37" y="0">０</tspan><tspan class="cls-54" x="998.67" y="0">）</tspan></text>
+    <rect class="cls-85" x="27.5" y="331.93" width="200" height="86"/>
+    <rect class="cls-84" x="27.5" y="417.93" width="200" height="86"/>
+    <rect class="cls-79" x="27.5" y="232.93" width="200" height="99"/>
+    <rect class="cls-78" x="228.5" y="232.93" width="325" height="99"/>
+    <rect class="cls-89" x="553.5" y="233.93" width="735" height="36"/>
+    <rect class="cls-90" x="553.5" y="269.93" width="208" height="62"/>
+    <rect class="cls-88" x="761.5" y="269.93" width="209" height="62"/>
+    <rect class="cls-91" x="970.5" y="269.93" width="318" height="62"/>
+    <rect class="cls-6" x="228.5" y="503.93" width="325" height="86"/>
+    <rect class="cls-13" x="553.5" y="503.93" width="208" height="86"/>
+    <rect class="cls-3" x="761.5" y="503.93" width="209" height="86"/>
+    <rect class="cls-16" x="970.5" y="503.93" width="318" height="86"/>
+    <rect class="cls-87" x="27.5" y="588.93" width="200" height="86"/>
+    <rect class="cls-8" x="228.5" y="588.93" width="325" height="86"/>
+    <rect class="cls-10" x="553.5" y="588.93" width="208" height="86"/>
+    <rect class="cls-5" x="761.5" y="588.93" width="209" height="86"/>
+    <rect class="cls-15" x="970.5" y="588.93" width="318" height="86"/>
+    <rect class="cls-86" x="27.5" y="674.93" width="200" height="86"/>
+    <rect class="cls-6" x="228.5" y="674.93" width="325" height="86"/>
+    <rect class="cls-13" x="553.5" y="674.93" width="208" height="86"/>
+    <rect class="cls-3" x="761.5" y="674.93" width="209" height="86"/>
+    <rect class="cls-16" x="970.5" y="674.93" width="318" height="86"/>
+    <rect class="cls-84" x="27.5" y="760.93" width="200" height="86"/>
+    <rect class="cls-7" x="228.5" y="760.93" width="325" height="86"/>
+    <rect class="cls-12" x="553.5" y="760.93" width="208" height="86"/>
+    <rect class="cls-4" x="761.5" y="760.93" width="209" height="86"/>
+    <rect class="cls-17" x="970.5" y="760.93" width="318" height="86"/>
+    <text class="cls-35" transform="translate(88.06 293.27)"><tspan class="cls-223" x="0" y="0">コ</tspan><tspan class="cls-293" x="26.16" y="0">ース</tspan></text>
+    <text class="cls-33" transform="translate(335.13 282.18)"><tspan class="cls-73"><tspan x="0" y="0" xml:space="preserve"> 会員料金</tspan></tspan><tspan class="cls-102"><tspan x="-77.56" y="18.63">(通学</tspan><tspan class="cls-129" x="-40.47" y="18.63">生・</tspan><tspan x="-17.39" y="18.63">予約</tspan><tspan class="cls-128" x="13.66" y="18.63">生・</tspan><tspan class="cls-100" x="36.73" y="18.63">予約</tspan><tspan class="cls-152" x="67.79" y="18.63">キ</tspan><tspan class="cls-190" x="81.87" y="18.63">ャ</tspan><tspan class="cls-258" x="95.33" y="18.63">ン</tspan><tspan class="cls-291" x="110.19" y="18.63">セ</tspan><tspan x="125.29" y="18.63">ル</tspan><tspan class="cls-226" x="140.81" y="18.63">待</tspan><tspan class="cls-217" x="156.08" y="18.63">ち</tspan><tspan x="171.29" y="18.63">生)</tspan></tspan></text>
+    <text class="cls-35" transform="translate(854.3 262.22)"><tspan x="0" y="0">非会員料金</tspan></text>
+    <text class="cls-35" transform="translate(796.34 300.76)"><tspan x="0" y="0">初回登録料</tspan></text>
+    <text class="cls-30" transform="translate(777.9 322.39)"><tspan x="0" y="0">※初め</tspan><tspan class="cls-298" x="46.58" y="0">て</tspan><tspan class="cls-210" x="61.61" y="0">ご</tspan><tspan x="76.77" y="0">参加の方のみ</tspan></text>
+    <text class="cls-35" transform="translate(606.06 312.45)"><tspan x="0" y="0">基本料金</tspan></text>
+    <text class="cls-46" transform="translate(601.39 560.04)"><tspan x="0" y="0">31,500円</tspan></text>
+    <text class="cls-71" transform="translate(272.32 560.04)"><tspan class="cls-50" x="0" y="0">19,600円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (5,400円OFF)</tspan></text>
+    <text class="cls-71" transform="translate(1008.7 560.04)"><tspan class="cls-50" x="0" y="0">32,600円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (3,150円OFF)</tspan></text>
+    <text class="cls-46" transform="translate(813.53 560.04)"><tspan x="0" y="0">1,100円</tspan></text>
+    <rect class="cls-7" x="228.5" y="417.93" width="325" height="86"/>
+    <rect class="cls-12" x="553.5" y="417.93" width="208" height="86"/>
+    <rect class="cls-4" x="761.5" y="417.93" width="209" height="86"/>
+    <rect class="cls-17" x="970.5" y="417.93" width="318" height="86"/>
+    <text class="cls-46" transform="translate(601.39 472.03)"><tspan x="0" y="0">19,100円</tspan></text>
+    <text class="cls-71" transform="translate(1008.7 472.03)"><tspan class="cls-50" x="0" y="0">20,200円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (1,690円OFF)</tspan></text>
+    <text class="cls-46" transform="translate(813.53 472.03)"><tspan x="0" y="0">1,100円</tspan></text>
+    <text class="cls-46" transform="translate(65.7 472.03)"><tspan x="0" y="0">3</tspan><tspan class="cls-268" x="16.26" y="0">回</tspan><tspan class="cls-218" x="41.78" y="0">コ</tspan><tspan class="cls-293" x="67.99" y="0">ース</tspan></text>
+    <rect class="cls-9" x="228.5" y="331.93" width="325" height="86"/>
+    <rect class="cls-11" x="553.5" y="331.93" width="208" height="86"/>
+    <rect class="cls-2" x="761.5" y="331.93" width="209" height="86"/>
+    <rect class="cls-18" x="970.5" y="331.93" width="318" height="86"/>
+    <text class="cls-46" transform="translate(609.52 386.09)"><tspan x="0" y="0">6,930円</tspan></text>
+    <text class="cls-46" transform="translate(343.02 386.09)"><tspan x="0" y="0">5,000円</tspan></text>
+    <text class="cls-46" transform="translate(1079.41 386.09)"><tspan x="0" y="0">8,030円</tspan></text>
+    <text class="cls-46" transform="translate(813.53 386.09)"><tspan x="0" y="0">1,100円</tspan></text>
+    <text class="cls-46" transform="translate(104.12 386.09)"><tspan x="0" y="0">1回</tspan></text>
+    <text class="cls-46" transform="translate(601.39 642.37)"><tspan x="0" y="0">57,750円</tspan></text>
+    <text class="cls-71" transform="translate(266.9 642.37)"><tspan class="cls-50" x="0" y="0">34,600円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (15,400円OFF)</tspan></text>
+    <text class="cls-71" transform="translate(1003.28 642.37)"><tspan class="cls-50" x="0" y="0">58,850円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (11,550円OFF)</tspan></text>
+    <text class="cls-46" transform="translate(813.53 642.37)"><tspan x="0" y="0">1,100円</tspan></text>
+    <text class="cls-46" transform="translate(57.57 642.37)"><tspan x="0" y="0">10</tspan><tspan class="cls-260" x="32.52" y="0">回</tspan><tspan class="cls-218" x="58.04" y="0">コ</tspan><tspan class="cls-293" x="84.25" y="0">ース</tspan></text>
+    <text class="cls-46" transform="translate(601.39 726.18)"><tspan x="0" y="0">84,000円</tspan></text>
+    <text class="cls-71" transform="translate(266.9 726.18)"><tspan class="cls-50" x="0" y="0">51,900円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (23,100円OFF)</tspan></text>
+    <text class="cls-71" transform="translate(1003.28 726.18)"><tspan class="cls-50" x="0" y="0">85,100円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (19,950円OFF)</tspan></text>
+    <text class="cls-46" transform="translate(813.53 726.18)"><tspan x="0" y="0">1,100円</tspan></text>
+    <text class="cls-46" transform="translate(57.57 726.18)"><tspan x="0" y="0">15</tspan><tspan class="cls-260" x="32.52" y="0">回</tspan><tspan class="cls-218" x="58.04" y="0">コ</tspan><tspan class="cls-293" x="84.25" y="0">ース</tspan></text>
+    <text class="cls-46" transform="translate(593.26 814.16)"><tspan x="0" y="0">105,000円</tspan></text>
+    <text class="cls-71" transform="translate(266.9 814.16)"><tspan class="cls-50" x="0" y="0">69,200円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (30,800円OFF)</tspan></text>
+    <text class="cls-71" transform="translate(995.15 814.16)"><tspan class="cls-50" x="0" y="0">106,100円</tspan><tspan class="cls-76" x="132.04" y="0" xml:space="preserve"> (33,600円OFF)</tspan></text>
+    <text class="cls-46" transform="translate(813.53 814.16)"><tspan x="0" y="0">1,100円</tspan></text>
+    <text class="cls-46" transform="translate(57.57 814.16)"><tspan x="0" y="0">20</tspan><tspan class="cls-260" x="32.52" y="0">回</tspan><tspan class="cls-218" x="58.04" y="0">コ</tspan><tspan class="cls-293" x="84.25" y="0">ース</tspan></text>
+    <text class="cls-71" transform="translate(272.32 472.03)"><tspan class="cls-50" x="0" y="0">11,900円</tspan><tspan class="cls-76" x="115.78" y="0" xml:space="preserve"> (3,100円OFF)</tspan></text>
+    <rect class="cls-19" x="553.5" y="845.93" width="735" height="86"/>
+    <text class="cls-67" transform="translate(700.9 889.07)"><tspan class="cls-73"><tspan x="0" y="0">非会</tspan><tspan class="cls-151" x="53.22" y="0">員</tspan><tspan class="cls-195" x="77.35" y="0">リ</tspan><tspan class="cls-220" x="100.03" y="0">ピ</tspan><tspan class="cls-279" x="126.16" y="0">ー</tspan><tspan class="cls-253" x="151.91" y="0">タ</tspan><tspan x="177.41" y="0">ー割引　10,000円OFF</tspan></tspan><tspan class="cls-77"><tspan x="58.99" y="23.95">※割引</tspan><tspan class="cls-235" x="118.86" y="23.95">は</tspan><tspan class="cls-106" x="138.44" y="23.95">5</tspan><tspan class="cls-259" x="150.63" y="23.95">回</tspan><tspan class="cls-219" x="169.77" y="23.95">コ</tspan><tspan class="cls-290" x="189.43" y="23.95">ー</tspan><tspan class="cls-284" x="208.83" y="23.95">ス</tspan><tspan class="cls-176" x="228.03" y="23.95">か</tspan><tspan class="cls-290" x="246.87" y="23.95">ら</tspan><tspan x="266.26" y="23.95">適</tspan><tspan class="cls-254" x="286.22" y="23.95">用と</tspan><tspan class="cls-154" x="324.66" y="23.95">な</tspan><tspan class="cls-137" x="342.78" y="23.95">り</tspan><tspan class="cls-176" x="360.68" y="23.95">ま</tspan><tspan class="cls-312" x="379.52" y="23.95">す</tspan></tspan></text>
+    <text class="cls-35" transform="translate(1075.95 312.45)"><tspan x="0" y="0">合計金額</tspan></text>
+    <text class="cls-45" transform="translate(16.92 974.62)"><tspan class="cls-320" x="0" y="0">【</tspan><tspan x="21.87" y="0">会員の</tspan><tspan class="cls-320" x="86.4" y="0">方</tspan><tspan class="cls-132" x="108.27" y="0">】</tspan><tspan class="cls-171" x="10.73" y="25.81">※</tspan><tspan class="cls-277" x="30.69" y="25.81">レ</tspan><tspan class="cls-145" x="51.44" y="25.81">ギ</tspan><tspan class="cls-206" x="70.99" y="25.81">ュ</tspan><tspan class="cls-272" x="89.96" y="25.81">ラ</tspan><tspan class="cls-171" x="110.51" y="25.81">ー</tspan><tspan class="cls-184" x="130.47" y="25.81">レ</tspan><tspan class="cls-192" x="148.64" y="25.81">ッ</tspan><tspan class="cls-159" x="167.39" y="25.81">ス</tspan><tspan class="cls-303" x="187.39" y="25.81">ン</tspan><tspan class="cls-105" x="208.68" y="25.81">通</tspan><tspan class="cls-228" x="230.23" y="25.81">学</tspan><tspan class="cls-224" x="251.39" y="25.81">日</tspan><tspan class="cls-105" x="272.53" y="25.81">の午</tspan><tspan class="cls-289" x="315.63" y="25.81">後</tspan><tspan class="cls-146" x="336.57" y="25.81">ア</tspan><tspan class="cls-180" x="356.12" y="25.81">ク</tspan><tspan class="cls-202" x="376.29" y="25.81">テ</tspan><tspan class="cls-188" x="395.56" y="25.81">ィ</tspan><tspan class="cls-244" x="413.02" y="25.81">ビ</tspan><tspan class="cls-203" x="433.37" y="25.81">テ</tspan><tspan class="cls-185" x="452.63" y="25.81">ィ</tspan><tspan class="cls-287" x="470.7" y="25.81">に</tspan><tspan class="cls-105" x="491.64" y="25.81">お申込みの場合</tspan><tspan class="cls-225" x="642.48" y="25.81">は</tspan><tspan class="cls-119" x="663.62" y="25.81">、</tspan><tspan class="cls-105" x="675.81" y="25.81">追加料金2,500</tspan><tspan class="cls-124" x="821.13" y="25.81">円</tspan><tspan class="cls-104" x="834.91" y="25.81">（税込み</tspan><tspan class="cls-124" x="921.1" y="25.81">）</tspan><tspan class="cls-105" x="934.89" y="25.81">のみ</tspan><tspan class="cls-289" x="977.98" y="25.81">で</tspan><tspan class="cls-134" x="998.93" y="25.81">カ</tspan><tspan class="cls-169" x="1018.28" y="25.81">レ</tspan><tspan class="cls-252" x="1038.09" y="25.81">ン</tspan><tspan class="cls-208" x="1058.69" y="25.81">ダ</tspan><tspan class="cls-105" x="1079.72" y="25.81">ー記載</tspan><tspan class="cls-267" x="1144.36" y="25.81">の</tspan><tspan class="cls-299" x="1164.88" y="25.81">シ</tspan><tspan class="cls-289" x="1186.26" y="25.81">ー</tspan><tspan class="cls-225" x="1207.2" y="25.81">ズ</tspan><tspan class="cls-309" x="1228.34" y="25.81">ナ</tspan><tspan x="1249.67" y="25.81">ル</tspan><tspan class="cls-149" x="10.13" y="51.62">ア</tspan><tspan class="cls-162" x="29.64" y="51.62">ク</tspan><tspan class="cls-201" x="49.77" y="51.62">テ</tspan><tspan class="cls-182" x="69" y="51.62">ィ</tspan><tspan class="cls-175" x="86.42" y="51.62">ビ</tspan><tspan class="cls-204" x="106.72" y="51.62">テ</tspan><tspan class="cls-186" x="125.95" y="51.62">ィ</tspan><tspan class="cls-261" x="143.97" y="51.62">に</tspan><tspan class="cls-248" x="164.49" y="51.62">も</tspan><tspan class="cls-237" x="184.82" y="51.62">ご</tspan><tspan x="205.92" y="51.62">参加</tspan><tspan class="cls-310" x="248.93" y="51.62">い</tspan><tspan class="cls-215" x="270.23" y="51.62">た</tspan><tspan class="cls-310" x="291.3" y="51.62">だ</tspan><tspan class="cls-294" x="312.6" y="51.62">け</tspan><tspan class="cls-175" x="333.5" y="51.62">ま</tspan><tspan class="cls-310" x="353.81" y="51.62">す</tspan><tspan class="cls-116" x="375.1" y="51.62">。</tspan><tspan class="cls-294" x="10.73" y="77.43">※</tspan><tspan class="cls-245" x="31.64" y="77.43">ス</tspan><tspan class="cls-196" x="51.98" y="77.43">ポ</tspan><tspan class="cls-126" x="70.27" y="77.43">ッ</tspan><tspan class="cls-276" x="86.2" y="77.43">ト</tspan><tspan x="106.7" y="77.43">利用</tspan><tspan class="cls-168" x="149.72" y="77.43">は</tspan><tspan class="cls-314" x="169.78" y="77.43">シ</tspan><tspan class="cls-294" x="191.12" y="77.43">ー</tspan><tspan class="cls-232" x="212.02" y="77.43">ズ</tspan><tspan class="cls-310" x="233.12" y="77.43">ナ</tspan><tspan class="cls-294" x="254.42" y="77.43">ル</tspan><tspan class="cls-150" x="275.32" y="77.43">ス</tspan><tspan class="cls-265" x="294.83" y="77.43">ク</tspan><tspan x="315.35" y="77.43">ール期間中</tspan><tspan class="cls-232" x="422.89" y="77.43">は</tspan><tspan x="443.99" y="77.43">当料金表の価</tspan><tspan class="cls-310" x="573.03" y="77.43">格が</tspan><tspan x="615.62" y="77.43">適</tspan><tspan class="cls-250" x="637.13" y="77.43">用と</tspan><tspan class="cls-153" x="678.55" y="77.43">な</tspan><tspan class="cls-139" x="698.08" y="77.43">り</tspan><tspan class="cls-175" x="717.37" y="77.43">ま</tspan><tspan class="cls-310" x="737.68" y="77.43">す</tspan><tspan class="cls-116" x="758.97" y="77.43">。</tspan><tspan class="cls-320" x="0" y="103.24">【</tspan><tspan x="21.87" y="103.24">非会員の</tspan><tspan class="cls-320" x="107.9" y="103.24">方</tspan><tspan class="cls-132" x="129.78" y="103.24">】</tspan><tspan x="10.73" y="129.04">※申込み回</tspan><tspan class="cls-294" x="118.27" y="129.04">数に</tspan><tspan class="cls-266" x="160.08" y="129.04">限</tspan><tspan class="cls-282" x="180.6" y="129.04">ら</tspan><tspan class="cls-310" x="201.29" y="129.04">ず</tspan><tspan x="222.58" y="129.04">初め</tspan><tspan class="cls-243" x="265.6" y="129.04">て</tspan><tspan class="cls-314" x="286.08" y="129.04">シ</tspan><tspan class="cls-294" x="307.41" y="129.04">ー</tspan><tspan class="cls-237" x="328.32" y="129.04">ズ</tspan><tspan class="cls-310" x="349.42" y="129.04">ナ</tspan><tspan class="cls-294" x="370.71" y="129.04">ル</tspan><tspan class="cls-149" x="391.62" y="129.04">ス</tspan><tspan class="cls-266" x="411.12" y="129.04">ク</tspan><tspan x="431.64" y="129.04">ー</tspan><tspan class="cls-221" x="453.15" y="129.04">ルを</tspan><tspan x="495.39" y="129.04">お申込みの非会員の方</tspan><tspan class="cls-233" x="710.47" y="129.04">は</tspan><tspan x="731.57" y="129.04">初回登録</tspan><tspan class="cls-310" x="817.6" y="129.04">料が</tspan><tspan x="860.19" y="129.04">必</tspan><tspan class="cls-250" x="881.69" y="129.04">要と</tspan><tspan class="cls-153" x="923.12" y="129.04">な</tspan><tspan class="cls-136" x="942.65" y="129.04">り</tspan><tspan class="cls-178" x="961.94" y="129.04">ま</tspan><tspan class="cls-305" x="982.24" y="129.04">す</tspan><tspan class="cls-116" x="1003.54" y="129.04">。</tspan><tspan x="10.73" y="154.85">※以</tspan><tspan class="cls-243" x="53.75" y="154.85">前</tspan><tspan class="cls-316" x="74.22" y="154.85">シ</tspan><tspan class="cls-294" x="95.56" y="154.85">ー</tspan><tspan class="cls-232" x="116.46" y="154.85">ズ</tspan><tspan class="cls-310" x="137.56" y="154.85">ナ</tspan><tspan class="cls-294" x="158.86" y="154.85">ル</tspan><tspan class="cls-150" x="179.76" y="154.85">ス</tspan><tspan class="cls-265" x="199.27" y="154.85">ク</tspan><tspan x="219.79" y="154.85">ー</tspan><tspan class="cls-294" x="241.3" y="154.85">ル</tspan><tspan class="cls-167" x="262.2" y="154.85">に</tspan><tspan class="cls-233" x="282.31" y="154.85">ご</tspan><tspan x="303.41" y="154.85">参</tspan><tspan class="cls-294" x="324.92" y="154.85">加</tspan><tspan class="cls-308" x="345.82" y="154.85">さ</tspan><tspan class="cls-310" x="367.14" y="154.85">れ</tspan><tspan class="cls-270" x="388.43" y="154.85">た</tspan><tspan class="cls-237" x="408.93" y="154.85">ご</tspan><tspan x="430.03" y="154.85">本人</tspan><tspan class="cls-310" x="473.04" y="154.85">様が</tspan><tspan x="515.63" y="154.85">5回以上お申込みの場合</tspan><tspan class="cls-120" x="743.85" y="154.85">、</tspan><tspan x="756" y="154.85">非会</tspan><tspan class="cls-149" x="799.02" y="154.85">員</tspan><tspan class="cls-194" x="818.52" y="154.85">リ</tspan><tspan class="cls-212" x="836.85" y="154.85">ピ</tspan><tspan class="cls-280" x="857.97" y="154.85">ー</tspan><tspan class="cls-251" x="878.79" y="154.85">タ</tspan><tspan x="899.39" y="154.85">ー割</tspan><tspan class="cls-310" x="942.41" y="154.85">引が</tspan><tspan x="985" y="154.85">適</tspan><tspan class="cls-250" x="1006.5" y="154.85">用と</tspan><tspan class="cls-156" x="1047.93" y="154.85">な</tspan><tspan class="cls-139" x="1067.46" y="154.85">り</tspan><tspan class="cls-178" x="1086.75" y="154.85">ま</tspan><tspan class="cls-310" x="1107.05" y="154.85">す</tspan><tspan class="cls-116" x="1128.35" y="154.85">。</tspan></text>
+    <rect class="cls-92" x="17" y="494.43" width="223" height="107"/>
+    <text class="cls-31" transform="translate(57.9 560.03)"><tspan x="0" y="0">5</tspan><tspan class="cls-285" x="19.56" y="0">回</tspan><tspan class="cls-227" x="49.39" y="0">コ</tspan><tspan class="cls-36" x="79.91" y="0">ース</tspan></text>
+    <g>
+      <rect class="cls-205" x="15.55" y="496.37" width="84.36" height="35.93" transform="translate(-80.45 15.56) rotate(-9.08)"/>
+      <text class="cls-32" transform="translate(26.87 528.52) rotate(-9.08)"><tspan x="0" y="0">お勧め</tspan></text>
+    </g>
+    <g>
+      <path class="cls-130" d="M1116.79,1375.14c3.16-2.17,6.42-3.44,10.13-3.56,3.4-.12,7.82,3.54,7.99,7.13.06,1.16-1.06,1.54-2.01,1.64-1.23.14-2.39.48-3.58.78-1.09.28-2.01.87-2.92,1.46-.89.58-.94,1.77-.15,2.57.77.77,1.76,1.18,2.79,1.46.67.18,1.04-.29,1.4-.76.94-1.24,1.86-2.5,3.17-3.39,1.96-1.33,2.96-1.22,4.02.83.47.91.96.9,1.69.83,3.81-.34,7.6-.3,11.39.25,3.41.49,6.53,1.74,9.45,3.48.67-.89.69-1.93.91-2.9.28-1.29.74-2.5,1.35-3.66.32-.61.69-.94,1.46-.73,1.12.31,1.85-.08,2.18-1.29.28-1.01.73-1.99,1.18-2.95.6-1.27,1.51-1.46,2.57-.61,1.35,1.08,1.95.96,2.65-.73,1.01-2.44,1.95-4.92,2.89-7.4.47-1.24,1.1-2.35,1.98-3.35,2.59-2.96,5.17-5.92,7.91-8.75,3.39-3.51,7.49-5.91,11.88-7.83,3.03-1.32,6.19-2.33,9.27-3.54,4.21-1.66,8.61-2.17,13.09-2.27,15.02-.36,29.46,2.23,43.22,8.4,5.19,2.33,9.9,5.32,13.97,9.31,1.9,1.86,4.04,3.36,6.49,4.51,2.61,1.22,4.49,3.24,4.88,6.32.09.67.04,1.17-.43,1.67-.74.8-.83,1.74-.41,2.74.14.34.3.68.38,1.03.46,1.83-.23,2.98-2.05,3.48-.68.19-1.37.24-2.07.23-1.35-.01-2.71.06-4.05-.06-2.24-.19-4.02.35-5.03,2.56-.34.74-1.05.89-1.85.94-5.55.38-11.15.52-16.57,1.75-8.46,1.93-16.34,5.25-23.18,10.83-4.95,4.03-8.57,9.03-11.74,14.45-1.39,2.37-2.97,4.59-5.09,6.38-.66.56-.7,1.19-.31,1.97,1.63,3.27,1.82,4.09-2.07,6.47-2.62,1.6-5.48,2.81-8.26,4.21.29.38.61.26.91.16,3.74-1.21,7.56-2.2,10.76-4.66,1.07-.82,1.9-1.77,2.35-3.04.14-.4.31-.85.83-.64.44.18.49.65.35,1.06-.19.53-.46,1.03-.68,1.55-.15.36-.47.74.09,1.09.55-.47.58-1.2.82-1.83.15-.38.36-.52.74-.45.38.07.36.38.36.67,0,.89-.36,1.67-.83,2.39-.22.34-.29.59.03.82.5.36.5-.21.61-.41.25-.46.48-.94.61-1.44.1-.37.18-.65.61-.57.42.08.42.45.4.78-.06.91-.4,1.76-.91,2.46-.39.54-.23.87.07,1.33.5-.63.84-1.29.85-2.1,0-.46.17-.88.66-.85.49.02.59.46.61.91.07,1.57-.54,2.93-1.26,4.29,1.3-1.01,2.9-1.8,3.64-3.23.74-1.42.63-3.12.18-4.75-.79-2.82.11-5.19,2.48-6.88.83-.59,1.7-1.15,2.66-1.5,2.37-.87,4.74-1.75,7.13-2.54,1.78-.59,3.46-1.43,5.17-2.18.53-.23,1.06-.45,1.37.2.31.66-.23.94-.73,1.18-.26.12-.52.23-.78.34-.29.12-.74.17-.52.62.2.4.57.12.85.03.65-.22,1.48-.94,1.85.11.33.95-.78.94-1.35,1.2-.49.22-1.05.29-.79,1.06.28.85.77.26,1.18.19.24-.04.46-.18.7-.22.41-.06.72.11.86.52.12.38-.08.64-.39.8-.43.22-.88.44-1.34.57-.44.13-.67.35-.53.78.16.51.51.18.78.1.56-.16,1.11-.24,1.69-.1.3.07.58.17.64.48.07.34-.22.53-.47.63-.56.23-1.15.41-1.72.6-3,1.04-5.65,2.69-8.13,4.64-1.5,1.18-1.92,2.82-1.89,4.58.09,6.61-3.43,12.03-9.61,14.34-4.4,1.64-8.88,3.05-13.63,3.29-.74.04-.93.34-.76,1.11.44,2.04.81,4.07.45,6.2-.55,3.25-2.14,5.81-4.78,7.72-1.85,1.34-3.79,2.57-5.67,3.87-.5.35-1.01.46-1.61.45-1.82-.03-2.55.46-2.44,2.2.15,2.24-1.16,3.73-2.15,5.43-.04.07-.11.12-.16.19-2.16,2.65-2.15,2.65-1.71,5.85.07.49.36.54.71.68,2.78,1.06,3.51,2.69,2.48,5.51-.81,2.21-2.29,3.76-4.57,4.45-.69.21-1.28.52-1.8.99-1.96,1.81-4.27,2.87-6.92,3.13-2.52.25-5.03.5-7.56-.08-1.53-.35-2.81-1.08-3.99-2.03-.69-.56-1.25-.53-1.91.13-3.15,3.18-7.22,4.12-11.47,4.53-.87.08-1.42.18-2.06,1.01-1.14,1.48-3.03,1.87-4.86,1.96-4.15.2-7.82-1.4-11.43-3.19-.29-.15-.55-.35-.85-.49-.46-.23-.97-.66-1.46-.26-.5.41.13.8.25,1.18.39,1.34.02,2.18-1.21,2.84-1.35.73-2.82.38-4.22.54-1.7.19-3.42.38-5.13-.03-2.47-.6-4.25-2.02-5.22-4.39-.23-.57-.48-1.13-.69-1.7-.63-1.69-1.81-2.77-3.54-3.29-2.31-.69-4.41-1.73-6.04-3.57-.23-.26-.6-.48-.94-.56-2.12-.5-4.07-1.49-6.42-1.21-2.64.31-4.89-1.04-6.85-2.76-.4-.35-.48-.83-.52-1.33-.07-1.06-.21-2.12-.26-3.18-.09-1.9-1.12-3.18-2.6-4.21-1.72-1.2-2.08-3.6-.81-5.26,1.49-1.94,1.5-1.95.05-3.94-1.02-1.39-2.13-2.73-1.7-4.65.1-.47-.31-.74-.61-1-1.61-1.41-2.68-3.18-3.57-5.08-.79-1.69-.45-3.16,1.03-4.16.52-.35.34-.64.2-1.01-.26-.73-.5-1.45-.29-2.27.25-.97.69-1.75,1.69-2.07.83-.26,1.05-.77.84-1.6-.21-.83-.37-1.69-.26-2.55.09-.69-.26-.73-.83-.82-2.28-.33-4.66-.3-6.61-1.91-2.81-2.31-5.18-4.82-4.87-8.83.02-.19,0-.45-.11-.59-1.26-1.59-1.79-3.57-2.83-5.29-3.54-5.86-5.7-12.18-6.17-19.05-.57-8.38.11-16.65,2.8-24.6,2.3-6.81,6.12-12.83,10.93-18.19.3-.34.61-.67.95-.96,3.97-3.23,8.09-6.26,12.61-8.67,1.97-1.05,4.08-1.84,6.18-2.63,4.38-1.66,8.02-4.53,11.82-7.12,1.79-1.22,3.64-2.35,5.68-3.08,2.26-.81,4.52-.97,6.65.48.45.3,1.01.39,1.54.34,5.43-.5,10.54.94,15.64,2.47,1.64.49,3.29.91,4.66,2.07,1.58,1.34,1.78,2.92.48,4.56-.64.81-1.49,1.25-2.52,1.35-1.48.14-2.87.58-4.24,1.15-.6.25-.95.56-.85,1.28.18,1.29-.55,2.04-1.61,2.61-2.12,1.14-4.5,1.69-6.57,2.98-1.46.92-2.89,1.86-4.17,3.02-3.91,3.55-7.67,7.26-11.09,11.3-.92,1.09-1.4,2.35-1.96,3.77Z"/>
+      <path class="cls-113" d="M1109.39,1405.34c-1.56-.59-2.9-.17-4.08.9-2.56,2.34-4.7,4.92-4.87,8.62-.03.59-.38.96-.79,1.32-.92.83-1.66,1.8-2.31,2.85-.2.32-.37.73-.02.99.3.22.62-.08.86-.29.58-.51,1.04-1.16,1.8-1.46.36-.14.73-.53,1.01.07.22.49.67,1.02-.06,1.5-.44.29-.86.62-1.29.93-1.47,1.05-2.93,2.09-4.15,3.44-.15.17-.31.5-.55.37-.21-.12-.36-.43-.44-.68-.22-.7.28-1.35.21-2.05-.44-4.07,1.22-7.59,2.92-11.11.28-.58.66-1.11,1.34-1.12,1.06-.02,1.47-.71,1.84-1.52,1.29-2.78,2.59-5.56,4.74-7.83,1.54-1.63,3.44-2.75,5.46-3.68.61-.28.91-.18.93.55.02.53.14,1.06.2,1.58.31,2.59,2.63,4.99,5.2,5.38.4.06.77,0,.93-.4.21-.5-.06-.87-.48-1.13-1.02-.62-1.98-1.3-2.77-2.21-1.44-1.68-1.6-3.43-.45-5.29.36-.59.79-1.16,1.56-.76.72.38.34.93.1,1.47-.37.87.69,2.78,1.84,3.41,1.77.97,3.65.76,5.51.43.57-.1.9-.57.77-1.2-.15-.7-.77-.65-1.17-.49-1.7.66-3.03-.14-4.35-.99-.99-.64-1.28-2.13-.6-3.11.3-.44.52-.85.21-1.34-.34-.55-.9-.46-1.44-.42-.9.07-1.6.76-2.64.65-.77-.08-1.17-.29-1.36-.89-1.19-3.64-1.22-7.12.83-10.61,2.01-3.42,4.65-5.86,8.47-6.97,2.46-.72,4.93-.72,7.37.1,1.27.43,2.35,1.15,2.96,2.42.64,1.33.34,2.1-1.06,2.53-1.17.36-2.34.7-3.49,1.14-4.65,1.78-7.44,5.27-9.12,9.81-.2.54-.09.89.36,1.12.62.32.93-.18,1.14-.6.65-1.27,1.19-2.6,1.89-3.84.78-1.39,1.06-1.4,2.08-.18,1.12,1.33,2.42,2.43,3.99,3.21,1.09.54,1.89,1.28,1.94,2.6.01.27.18.53.32.78.19.36.49.56.91.39.41-.17.32-.53.25-.84-.25-1.07-.49-2.14-.58-3.25-.18-2.21,1-3.79,2.29-5.34.41-.49,1.01-.56,1.58-.36.59.21.94.69.96,1.31.02.48-.06.98-.14,1.46-.49,2.78,1.47,5.7,4.24,6.22.98.18,1.83-.05,2.53-1.05-1.88,0-3.3-.65-4.38-1.99-.5-.62-.81-1.32-.65-2.15.13-.65.51-1.09,1.15-1.07,4.24.11,8.53-.51,12.7.73,4.12,1.23,8.18,2.59,11.94,4.72.21.12.43.24.66.32.4.14.84.23,1.07-.24.22-.44,0-.79-.39-1.03-.34-.22-.68-.46-1.05-.62-1.35-.59-1.39-1.84-1.11-2.89.23-.87.22-1.75.41-2.6.1-.48.2-.96.38-1.41.21-.52.61-.88,1.2-.91.61-.04.98.32,1.22.84.29.63.58,1.26.89,1.88.2.39.39,1.02.88.86.63-.2.26-.83.2-1.29-.17-1.26-.45-2.5-.31-3.78.09-.86.27-1.7.73-2.44.27-.44.69-.77,1.22-.67.57.1.88.52.95,1.13.16,1.46.06,2.94.42,4.39.13.54,0,1.25.83,1.25.91,0,.98-.72,1.03-1.39.18-3.07.62-6.1,1.63-9.02,1.08-3.14,2.31-6.2,4.23-8.94,2.77-2.14,6.23-.81,7.88,1.22.47.57.87,1.2,1.11,1.9.5,1.44,1.21,2.68,2.74,3.25-.48,1.73,1.06,2.16,1.95,2.97,1.16,1.07,1.25,1.3.46,2.66-.33.56-.72,1.1-1.03,1.67-.43.8-.53,1.66-.01,2.45,1.07,1.62.75,3.2-.13,4.74-.92,1.61-2.11,3.03-3.55,4.2-.85.7-1.2,1.45-.96,2.56.26,1.22-.05,2.28-1.26,2.91-.32.17-.62.26-.33.8.47.87-.15,2.6-1.02,3.08-1.11.61-1.79-.21-2.4-.87-1.55-1.68-3.51-2.55-5.85-3.37.52,1.11,1.3,1.54,2.01,2.03,4.5,3.09,7.99,6.97,9.72,12.26.87,2.68,1.78,5.35,2.67,8.03.67,1.98,1.59,3.84,2.7,5.62.59.93.86,1.88-.19,2.72-.46.37-.25.69.1,1,.48.42,1.06.63,1.65.76.76.17,1.34.57,1.84,1.14.4.45.51.94.14,1.45-.39.55-.96.68-1.51.34-.83-.5-1.73-.72-2.66-.88-.45-.08-.9-.06-1.33.1-.42.15-1.01.28-.95.8.07.62.67.22,1.02.26.71.07,1.21.47,1.7.9.76.67,1.65,1.13,2.61,1.28,4.17.67,4.57,2.46,3.13,5.78-2.04,4.71-5.07,8.87-10.18,10.88-.3.12-.62.22-.9.39-.42.26-.87.54-.75,1.14.13.62.58.85,1.16.9.6.05,1.21.04,1.8.17,1.01.22,1.17.72.54,1.51-1.02,1.28-2.4,2.09-3.82,2.81-.73.37-1.46.72-2.09,1.26-1.59,1.36-3.35,2.29-5.6,2.28.18.38.33.66.46.95.45,1.01.18,1.64-.9,1.97-1.18.36-2.39.61-3.63.36-.92-.19-1.76,0-2.61.39-4.91,2.21-10.03,3.74-15.3,4.81-14.21,2.9-28.42,3.04-42.63-.05-.31-.07-.66-.11-.97-.04-2.08.49-4.22.46-6.21-.11-3.56-1.02-7.16-2.05-10.18-4.38-1.31-1.01-2.48-2.36-2.54-3.9-.05-1.34-.86-1.66-1.51-2.33-1.66-1.7-2.94-3.61-3.21-6.05-.14-1.24.24-2.01,1.68-2-.39-.97-.76-1.86-.7-2.86.1-1.69,1.2-2.46,2.8-2.01.43.12.61.34.71.72.23.82.47,1.64.7,2.46.2.3.05.53-.12.77-1.29,1.79-1.36,4.22.04,5.87,2.35,2.77,5.37,4.19,9.05,4.08,1.15-.04,2.04-.52,2.54-1.61.5-1.1.43-2.16-.31-3.12-.86-1.1-1.84-2.06-3.21-2.56-1.65-.6-3.2-1.45-4.68-2.39-.44-.28-.96-.56-.6-1.24,1.7-.31,3.26.53,4.91.57.58.02,1.5.31,1.01-.91.18-.83.88-.75,1.46-.77,2.17-.06,4.3-.35,6.4-.91,2.61.31,4.93-.44,7.02-1.98,2.02-1.49,2.8-4.4,1.96-7.49-1.31-4.85-3.8-9.09-6.79-13.07-.31-.42-.76-.73-1.15-1.1-.24-.23-.78-.27-.53-.79.17-.37.41-.67.89-.75.84-.15,1.61-.08,2.32.44.63.46,1.27.89,1.93,1.31.25.16.56.19.81-.02.3-.25.12-.55-.02-.78-.48-.75-.99-1.5-1.51-2.22-.52-.73-.51-1.29.15-2.01,1.69-1.88,2.96-4.02,3.39-6.56.3-1.79-.57-3.67-2.11-4.62-.6-.02-1.2.13-1.78-.19-1.64-.9-3.43-.96-5.24-.86-.48.03-.99.1-1.37-.32Z"/>
+      <path class="cls-40" d="M1190.32,1371.91c-.99.18-1.63-.32-2.07-1.13-.31-.57-.61-1.15-.86-1.76-1.47-3.66-4.52-5.01-8.22-3.64-.19.07-.39.11-.59.16.71-1.87,2.06-3.33,3.24-4.88,2.93-3.87,6.74-6.79,10.84-9.23,2.36-1.4,5.1-2.16,7.66-3.23,3.54-1.48,7.05-3.05,10.81-3.89,2.7-.61,5.45-.98,8.22-1.21,7.94-.66,15.61.84,23.21,2.8,5.93,1.53,11.79,3.31,17.51,5.48,6.17,2.34,11.72,5.77,16.29,10.59,1.46,1.54,2.91,2.83,5.05,3.42,1.8.5,3.34,1.68,4.69,3.04,1.3,1.32,1.17,2.88-.46,3.71-1.01.52-1.09.98-.28,1.69.12.11.25.22.33.36.55.89,1.39,1.71.82,2.89-.58,1.2-1.68,1.43-2.88,1.46-2.87.08-5.69-.63-8.56-.54-.91.03-1.63-.01-.98,1.25.26.51.1,1.1-.39,1.56-.89.85-1.88,1.42-3.16,1.39-1.23-.03-2.45,0-3.67-.22-1.9-.34-3.72.32-5.58.51-5.81.59-11.41,2.09-16.73,4.42-5.55,2.43-10.88,5.24-15.13,9.8-3.07,3.29-6.42,6.36-8.68,10.28-1.41,2.45-3.67,4.28-4.67,6.99-.23.62-.84,1.15-1.48,1.42-1.07.46-1.17,1.34-.78,2.12,1.4,2.76.08,4.38-1.98,6.13-3.07,2.63-6.74,3.97-10.35,5.48-.75.32-1.46.1-1.93-.68-.71-1.17-1.57-2.18-3-2.52-1.03-.24-1.45-1-1.55-1.97-.34-3.2.92-5.92,2.56-8.52.68-1.09,1.85-1.61,3.04-1.96,1.28-.37,2.05.5,2.53,2.73,0,.03.02.07.02.1.07-.07.14-.15.21-.22.4-.05.49.25.57.54-.1.46-.31.9-.43,1.56.56-1.45,1.87-2.09,2.48-3.28,1.9-1.05,2.46-2.62,2.61-4.81.16-2.29,1.55-4.35,2.85-6.3.18-.26.36-.56.76-.53.45.57.08,1.09-.1,1.61-.3.89-.81,1.71-.84,2.76,1.46-2.44,2.66-4.95,4.25-7.24,2.51-3.65,5.28-7.09,8.26-10.36.72-.79,1.56-1.65,2.86-.79.53.35,1.01-.12,1.45-.41,1.83-1.24,3.59-2.57,5.41-3.83,1.94-1.35,4.06-2.11,6.26-2.75.9-.26,1.67-.63,2.26-1.36,3.06-1.2,6.22-2.08,9.47-2.45,4.47-.51,8.87-1.44,13.34-1.92.28-.03.57-.12.85-.09,2.39.29,4.31-.6,5.95-2.26.43-.41,1.04-.46,1.54-.72.99-.5,1.57-1.26,1.66-2.4.09-1.11-.56-1.66-1.39-2.24-3.65-2.57-7.4-4.98-11.28-7.16-4.46-2.5-9.08-4.69-14.06-5.99-1.15-.3-2.26-.3-3.31.33-4.27-.85-8.48-2-12.72-2.98-.31-.07-.66-.13-.71-.55.69-.02,1.39-.03,2.08-.05.24,0,.52,0,.6-.3.08-.33-.11-.58-.41-.66-.71-.19-1.42-.44-2.14-.48-5.32-.29-10.64-.02-15.84,1.13-3.37.75-6.26,2.75-9.24,4.45-4.47,2.55-8.41,5.79-12.03,9.42-1.7,1.7-3.31,3.52-4.07,5.89Z"/>
+      <path class="cls-103" d="M1231.37,1352.49c3.98.97,7.95,1.93,11.93,2.91.55.13,1.07.35,1.61.52.88.58,1.93.6,2.91.87,6.14,1.68,11.93,4.19,17.31,7.61,2.03,1.29,4.27,2.24,6.12,3.82.4.35.81.69,1.15,1.09,1.41,1.68,1.34,2.96-.25,4.47-.19.18-.38.31-.2.59-1.69,1.9-3.8,2.55-6.34,2.54-3.73,0-7.33,1.26-11.04,1.52-4.16.28-8.1,1.46-12.07,2.56-.19.05-.37.17-.55.26-.91.24-1.86.25-2.79.38-3.19.41-5.8,2.12-8.43,3.77-.99.62-1.82,1.31-3.23.97-1.03-.25-2.06.5-2.94,1.25-3.18,2.69-5.61,6.03-8.12,9.3-.39.5-.64,1.16-1.36,1.34-.7-.18-.78-.9-1.17-1.34-1.68-1.89-1.93-4.01-1.87-6.53.09-4.16-.48-8.35-2.92-11.99-2.53-3.77-5.78-6.54-10.28-7.64-1.48-.36-2.87-1.06-4.42-1.13,1.71-3.37,4.46-5.84,7.33-8.12,5.58-4.43,11.95-7.35,18.88-8.91,3.52-.79,7.16-.54,10.74-.12Z"/>
+      <path class="cls-40" d="M1095.51,1391.3c-.6-1.49-.4-3.07-.23-4.56.67-5.85,2.05-11.56,4.11-17.08,1.23-3.3,3.31-6.07,5.5-8.78,1.64-2.03,3.32-4.04,4.97-6.06,1.33-1.63,3.02-2.87,4.68-4.11,1.87-1.4,3.29-3.29,5.18-4.68.25-.18.38-.45.11-.73-.27-.28-.61-.27-.91-.11-.84.45-1.78.58-2.69.81-.75.19-1.36-.06-1.91-.56-.46-.43-.44-.89-.05-1.29,2.31-2.4,5.1-4.08,8.24-5.13,1.46-.49,2.14-.07,2.72,1.28.16.38.38.34.67.27,6.37-1.41,12.47-.15,18.51,1.81,1,.33,2.05.48,2.98,1.09.89.59,1.32,1.32,1.17,2.36-.14.99-.78,1.63-1.69,1.91-1.52.47-3.12.58-4.69.8-.97.13-1.93.28-2.89.44-.26.04-.65.04-.66.4,0,.18.27.37.45.53.15.14.34.23.51.34.61.42,1.35.81,1.28,1.66-.08.97-.94,1.33-1.73,1.51-2.9.65-5.61,1.78-8.09,3.39-6.05,3.92-11.17,8.77-14.71,15.14-.77,1.39-1.56,2.78-2.33,4.17-.17.32-.37.67-.4,1.02-.24,2.77-2.37,4.64-3.37,7.05-2.73-2.57-5.83-2.73-9.08-1.25-2.1.96-3.06,3-4.06,4.92-.4.76-.66,1.58-.88,2.42-.11.41-.12.93-.7,1.04Z"/>
+      <path class="cls-113" d="M1173.82,1477.53c2.3-1.16,4.33-2.64,6.08-4.56,2.48-2.72,3.68-6.02,4.54-9.49.11-.46.11-1.02-.05-1.46-.44-1.22.02-1.86,1.13-2.39,1.83-.88,3.62-1.87,5.38-2.9,1.84-1.07,2.25-1.9,1.66-3.96-.43-1.48-.06-2.48,1.01-3.49,1.19-1.12,1.96-2.62,2.97-3.87,2.15-2.66,3.57-5.77,5.58-8.49,1.37-1.85,3.15-2.65,5.46-2.14,2.3.51,3.62,2.49,2.79,4.7-.83,2.24-.82,4.57-1.21,6.85-.11.65.24,1.18.54,1.72,1.57,2.91,1.04,6.31-1.36,8.62-3.06,2.95-6.54,5.28-10.42,7.02-.98.44-1.89.3-2.86,0-.5-.16-1.07-.46-1.51.26-.42.7.04.97.44,1.42,1.24,1.37,1.7,2.95,1.01,4.75-.61,1.59-1.69,2.78-3.09,3.71-.65.44-1,.89-.75,1.81.86,3.2-.53,6.08-3.51,7.52-1.25.6-2.52,1.17-3.76,1.8-.23.12-.76.11-.56.6.14.32.46.42.84.32,2.85-.74,5.62-1.63,7.4-4.2.52-.75,1.31-1.08,1.99-1.52.74-.49,1.36.14,1.71.89,1.04,2.26-.44,5.33-3.02,5.86-1.55.32-2.69.96-3.79,2.12-2.75,2.88-6.29,3.27-10.01,2.53-1.95-.39-2.81-1.51-3.06-3.46-.08-.61.35-.66.67-.85.29-.17.64-.32.5-.72-.15-.4-.5-.14-.74-.1-1.02.19-2.04.03-3.06-.02-.87-.05-1.72-.02-2.54.3-.28-1.2.55-1.99,1.11-2.85.69-1.06,1.5-2.04,2-3.22.42-1,.7-2,.5-3.1Z"/>
+      <path class="cls-40" d="M1086.89,1406.03c.63-.59.37-1.37.45-2.09.12-1.13-.1-2.43,1.41-2.93.4-.13.55-.58.54-1.03-.04-1.28.36-2.5.59-3.74.34-1.87,1.84-2.49,3.23-1.47.39.29.61.63.63,1.12.05,1.12.58,2.12.85,3.18.23.91.93,1.17,1.8,1.06.17-.05.36-.02.42.13.84,2,1.38,4.04.61,6.2-.14.68-.67,1.12-1.06,1.62-2.36,2.99-2.97,6.67-4.1,10.15-.57,1.75-.72,3.59-1.17,5.37-.3,1.21-1.08,1.5-2.13.81-.49-.32-.78-.82-1.14-1.27-.14-.18-.19-.6-.62-.42-.32.14-.42.41-.34.71.58,2.08,1.06,4.21,2.66,5.83.29.29.64.55.85.88.29.48.31,1.04-.07,1.48-.38.43-.83.14-1.23-.04-.07-.03-.14-.09-.21-.12-.51-.18-.93-1.05-1.41-.63-.63.55.13,1.19.39,1.74.71,1.49,1.71,2.76,3.29,3.71-1.05.39-1.89.45-2.82.12-2.44-.86-4.43-2.34-5.94-4.38-.86-1.16-1.62-2.54-.74-4.13.18-.32-.23-.57-.41-.83-4.16-5.85-6.95-12.32-8.05-19.4-.76-4.91-1.06-9.87-.66-14.89.28-3.58.62-7.14,1.02-10.71.52-4.67,2.53-8.74,4.71-12.77,1.16-2.15,2.16-4.4,4.07-6.08,2.85-2.52,5.95-4.72,9-6.97.23-.17.48-.3,1.01-.11-1.39,1.31-2.28,2.82-3.01,4.43-.36.8-.32,1.27.72,1.18.25.38.02.72-.15,1.02-1.38,2.45-3,4.75-4.4,7.19-.08.14-.23.23-.36.32-.46.21-.82.54-1.09.97-2.9,4.65-4.78,9.64-5.45,15.12-.44,3.59.06,7.1.39,10.64.08.86.13,1.71.16,2.57.11,2.8,1.15,5.34,2.07,7.93.21.59.44.74,1.08.45,1.06-.49,1.66-.2,2.16.85.25.52.36,1.09.44,1.66.36,2.64,1.16,5.17,2.07,7.76-.17-1.47-1-2.78-.47-4.24.73-.32,1.49-2.42,1.19-3.43-.34-1.13-.77-2.23-.88-3.42-.04-.38-.25-.8.13-1.14Z"/>
+      <path class="cls-113" d="M1194.41,1369.64c3.96.07,7.51,1.4,10.6,3.8,3.67,2.84,6.14,6.52,6.81,11.19.37,2.59,1.05,5.19.45,7.86-.2.87-.03,1.68.68,2.46.86.95,1.45,2.14,2.16,3.23.07.06.14.14.11.2-.83,1.76-1.68,3.51-2.97,5-1.65,2.02-2.68,4.35-3.46,6.8-.22.68-.08,1.37.01,2.06.12.85-.06,1.47-1.02,1.79-.63.21-1.17.7-1.75,1.07-.65.61-1.17,1.41-2.16,1.55-.32-.03-.26-.41-.49-.53-.09-.89-.13-1.79-.28-2.68-.19-1.14-1.24-1.31-2.09-1.64-.71-.29-1.35-.05-1.84.57-1.52,1.92-3.05,3.83-4.58,5.74-.25.32-.51.63-.9,1.1-1.18-3.12-2.09-6.15-2.87-9.23.24-.52.75-.6,1.21-.74,2.58-.81,4.62-2.36,6.27-4.47.38-.48.76-.97,1.38-1.17.59-.55.92-1.23,1.06-2.02.14-.79-.06-1.43-.9-1.6-1.14-.22-.93-.71-.42-1.41,1.86-2.59,2.97-5.52,3.71-8.57.38-1.59-.02-2.12-1.61-2.61-1.04-.32-1.38-.76-.93-1.85.67-1.63.9-3.39,1.01-5.14.11-1.83-1.04-2.83-2.86-2.47-.76.15-1.49.43-2.22.67-.45.14-.95.68-1.34.36-.51-.4.06-.98.15-1.46.17-.88.47-1.73.42-2.65-.04-.63-.06-1.1-1-.77-1.05.36-2-.81-1.83-2.08.14-1.01.9-1.61,1.48-2.33Z"/>
+      <path class="cls-103" d="M1085.1,1370.16c1.41-2.92,3.52-5.44,4.9-8.37.07-.1.12-.21.2-.3,5.79-6.84,12.4-12.33,21.81-13.17.53-.05,1.06,0,1.74,0-1.33,1.35-2.56,2.68-3.87,3.91-6.36,5.99-11.1,13.01-13.54,21.47-.83,2.89-.86,5.95-1.64,8.84-.52,1.92-.68,3.9-1.27,5.8-.17.03-.35,0-.44-.15-.86-1.33-1.85-1.21-3.26-.72-3.64,1.26-5.16,4.17-6.33,7.42-.4,1.12-.42,2.32-.46,3.51-.04,1.26-.56,1.82-1.64,2.01-2.04-2.63-2.6-5.62-2.3-8.89.3-3.26.7-6.5,1.41-9.7.62-2.77,1.5-5.46,3.06-7.85.77-1.19,1.11-2.52,1.62-3.8Z"/>
+      <path class="cls-103" d="M1173.82,1477.53c.78.75.36,1.57.12,2.37-.44,1.42-1.23,2.65-2.14,3.81-.71.91-1.27,1.89-1.59,3-1.18,3.22-3.64,4.83-6.83,5.71-2.61.72-5.19,1.47-7.91,1.47-.52,0-.57.2-.59.65-.04,1-.69,1.52-1.61,1.76-1.25.32-2.52.29-3.78.11-3.67-.54-6.88-1.97-9.38-4.81-.38-.44-.77-.95-1.43-.65-3.62,1.63-7.21.84-10.79-.09-5.18-1.36-10.23-3.03-14.62-6.28-1.88-1.39-2.69-3.24-3.2-5.61,4.26,2.33,8.72,3.36,13.25,3.99,5.63.78,11.27,1.52,16.95,1.87,7.08.43,14.07.03,20.92-1.82,4.11-1.11,7.95-2.9,11.65-4.99.32-.18.59-.44.98-.46Z"/>
+      <path class="cls-38" d="M1211.8,1443.1c.52-2.02.47-4.01.18-6.01-.07-.51,0-.75.65-.84,4.45-.63,8.61-2.09,12.47-4.41,1.45-.88,2.67-2.02,3.71-3.36.98-1.26.79-2.74.56-4.13-.21-1.29-.11-2.6-.36-3.89-.21-1.11.47-2.03,1.34-2.73,1.29-1.04,2.79-1.7,4.32-2.27,1.72-.64,3.44-1.27,5.16-1.91,1.44-.53,2.36-.13,2.96,1.32.23.56.4,1.15.59,1.73.14.44,0,.73-.35,1.06-.57.55-1.22.95-1.94,1.23-2.24.88-4.21,2.18-5.87,3.9-.71.74-1.06.54-1.32-.3-.26-.87-.42-1.75.09-2.61.1-.17.46-.32.15-.59-.28-.25-.56-.03-.79.09-.91.46-1.25,2.1-.81,3.55.53,1.7,1.18,3.38,1.03,5.22-.28,3.33-1.09,6.46-3.48,8.94-1.83,1.89-4.2,2.97-6.62,3.83-3.5,1.23-7.04,2.41-10.84,2.24-.24-.01-.48-.03-.82-.06Z"/>
+      <path class="cls-40" d="M1199.69,1403.59c-2.24,3.12-5.07,5.41-8.86,6.38-.73-.91-1.08-2.01-1.6-3.03-.27-.54-.03-1.01.19-1.51.39-.89.25-1.6-.84-1.86-.56-.14-1.12-.26-1.19-1.02-.08-.77.29-1.24.9-1.6.18-.1.37-.18.55-.27.38-.18,1-.13.94-.75-.05-.54-.54-.52-.95-.54-.44-.03-.64-.32-.72-.71-.27-1.33-.47-2.64.16-3.94.81-1.65,1.53-3.35,2.66-4.82.77-1,1.84-1.68,2.56-2.77.84-1.26,1.24-2.55,1.25-4,.01-1.58.94-2.51,2.23-3.08,1.62-.72,2.91.22,2.97,2.03.03.88-.28,1.69-.52,2.5-.29.94-.67,1.85-.9,2.8-.13.55-.3,1.19.84,1.01,1.58-.25,2.64,1.3,2.14,2.97-.86,2.82-1.8,5.61-3.14,8.24-.33.64-.44,1.14.27,1.52,1,.55.67,1.65,1.07,2.45Z"/>
+      <path class="cls-113" d="M1097.43,1406.47c.02-2.17.05-4.34-1.03-6.33.24-1.86-.65-3.56-.83-5.36-.1-.95.05-1.94-.35-2.86-.11-.26.19-.42.29-.63.7-2.4,1.68-4.65,3.12-6.71,2.05-2.92,7.65-3.86,10.51-1.7.46.35.91.71,1.08,1.29-.55,2.62-.82,5.24-.02,7.86.23.76-.06,1.28-.7,1.76-1.4,1.05-2.75,2.18-4.1,3.29-2.72,2.23-4.93,4.85-6.3,8.14-.3.71-.64,1.48-1.68,1.24Z"/>
+      <path class="cls-43" d="M1109.39,1405.34c.65-.01,1.3.01,1.94-.05,1.75-.15,3.39.2,4.97.96.46.22.98.31,1.48.46-.56.1-.69.49-.44.9,2.36,3.83.22,6.55-2.36,9.01-2.87,2.74-6.97,3.29-10.09,1.6-2.15-1.16-2.83-3.18-1.92-5.79,1.05-3.02,2.72-5.48,5.92-6.56.27-.09.59-.13.5-.54Z"/>
+      <path class="cls-74" d="M1111.44,1446.35c-.31.59-.94.63-1.46.72-1.63.28-3.26.57-4.93.52-.53-.02-1.05.02-1.46.43-.49.17-.98.15-1.43-.07-4.18-2-7.67-4.66-8.32-9.66-.7-5.36,1.49-10.29,6.45-12.93.9-.48,1.89-.87,2.88-.17.56.4.83.69.05,1.34-2.54,2.14-4.03,4.92-4.05,8.29-.03,3.86,1.91,6.72,4.9,8.99,1.96,1.48,4.17,2.19,6.59,2.27.3.01.56.08.8.25Z"/>
+      <path class="cls-113" d="M1098.45,1467.51c.37-.02.74-.06,1.07.16,1.74,1.12,3.67,1.98,5.06,3.58,1.05,1.2,2.11,2.4,3.11,3.63.97,1.19,1.75,2.44.44,3.92-.31.35-.17.76.08,1.13.5.75.98,1.51,1.46,2.27.27.43.84.95.41,1.39-.38.38-1.09.21-1.62-.06-1.46-.75-3.04-.91-4.63-1.02-1.53-.1-2.85-.66-3.96-1.71-1.27-1.2-1.51-1.96-.83-3.6.37-.89.25-1.52-.41-2.2-1.08-1.12-2.12-2.27-3.11-3.47-.98-1.18-.86-1.97.3-2.93,1.16-.94,1.5-1.09,2.62-1.09Z"/>
+      <path class="cls-318" d="M1081.46,1400.38c.94-.57,1.23-1.42,1.22-2.5-.02-2.83,1.07-5.22,2.68-7.56,1.34-1.95,3.19-2.77,5.18-3.56.87-.34,1.69-.21,2.25.67.19.31.43.59.65.88.03.28.06.57.09.85.27,2.67-.07,3.01-2.72,2.72-1.15-.13-2.71,1.69-2.73,3.27-.02,1.06.07,2.12.14,3.18.04.55-.05.94-.69,1.08-1.24.26-1.49,1.21-1.49,2.3,0,1.49.45,2.89.84,4.31.15,1.51.56,2.96,1.05,4.38.32.92-.29,3.2-1,3.77,0,0-.19-.21-.3-.32-.35-.24-.34-.63-.38-.99-.22-2.29-.8-4.51-1.18-6.77-.07-.4-.19-.8-.35-1.18-.27-.65-.64-.87-1.33-.47-1.22.69-1.63.54-1.86-.88-.17-1.04-.76-2.11-.08-3.19Z"/>
+      <path class="cls-107" d="M1108.19,1431.65c-.98,1.4-.7,2.94-.46,4.46.45,2.82,1.89,4.8,4.73,5.65,1.84.55,3.38.18,4.65-1.28.26-.3.5-.61.78-.96.39,1.88-.03,2.91-1.51,3.9-3.86,2.6-9.46,1.14-12.42-2.75-2.59-3.41-2.47-7.05-.7-10.74.68-1.41,1.84-2.37,3.36-2.84.74-.23,1.42-.27,2.05.32.63.6.44,1.25.23,1.92-.09.29-.42.57.04.83-.05.6-.36,1.07-.76,1.49Z"/>
+      <path class="cls-101" d="M1097.67,1448.37c-.05.49.27.69.65.92,1.65.98,3.32,1.89,5.13,2.57,1.52.57,2.58,1.74,3.36,3.1.97,1.67-.05,3.95-1.91,4.5-3.55,1.06-9.84-1.97-10.99-5.34-.46-1.37-.41-2.71-.13-4.07.14-.68,1.16-.68,1.19-1.46.73.77.99,1.87,1.79,2.59.27.25.47.83.96.46.36-.27.24-.76.07-1.13-.33-.71-.61-1.39-.12-2.13Z"/>
+      <path class="cls-38" d="M1212.11,1434.54c-.38,0-.68-.05-1.01-.32-2.64-2.18-4.06-2.25-6.92-.42-1.58,1.01-1.92,1-3.38-.09-.44-.33-.79-.67-.63-1.32.18-.76.72-.92,1.36-.99,2.23-.26,4.44-.63,6.61-1.18,3.42-.87,6.63-2.25,9.65-4.08,1.23-.74,1.52-.66,2.2.57.1.18.17.37.28.54,1.66,2.47,1.5,2.56-.96,4.45-2.14,1.65-4.6,2.41-7.2,2.83Z"/>
+      <path class="cls-38" d="M1152.24,1472.18c2.62-.5,5.24-1,7.86-1.5.98.71,1.16,1.83,1.35,2.89.42,2.34.42,4.67-.36,6.96-2.63.9-5.31,1.55-8.1,1.67-.22-.24-.21-.53-.16-.81.52-2.88-.09-5.68-.6-8.49-.04-.24-.1-.48.02-.72Z"/>
+      <path class="cls-38" d="M1170.41,1476.79c-2.38,1.45-4.85,2.68-7.6,3.25-.96.17-.69-.54-.67-.99.09-1.75.16-3.5-.15-5.25-.14-.77-.4-1.5-.6-2.24-.12-.45-.4-.95.18-1.31,2.54-.76,5.09-1.52,7.63-2.28,1.33,1.78,1.35,3.86,1.3,5.93-.02.96-.15,1.93-.09,2.9Z"/>
+      <path class="cls-38" d="M1151.75,1482.25c-2.54.17-5.08.34-7.63.51-.43-.42-.35-.98-.43-1.5-.25-1.82-.39-3.66-.63-5.48-.1-.72-.2-1.48.32-2.12,2.63-.38,5.21-1.04,7.87-1.27.24.18.36.45.42.73.53,2.81.87,5.63.39,8.49-.04.25-.15.46-.31.65Z"/>
+      <path class="cls-38" d="M1143.15,1482.76c-2.96.13-5.91.11-8.86-.27-.59-.74-.4-1.65-.51-2.48-.22-1.78-.24-3.58.04-5.37.12-.8.49-1.23,1.39-1.14.93.1,1.87-.09,2.8.1,1.38.01,2.76.02,4.14.04.49,2.22.46,4.51.86,6.74.14.77.54,1.56.13,2.37Z"/>
+      <path class="cls-37" d="M1170.44,1467.52c2.24-1.41,4.83-1.3,7.31-1.68.6-.09,1.2-.24,1.78-.41,1.48-.44,2.19-1.39,2.19-2.97,0-.41.01-.82.48-.8.51.02.25.49.23.75-.19,3.08-1.26,5.78-3.43,8.03-2.22,2.31-4.72,4.25-7.57,5.72-.41-.37-.39-.88-.37-1.35.05-2.15-.13-4.28-.71-6.36-.09-.31-.15-.64.09-.92Z"/>
+      <path class="cls-38" d="M1132.53,1482.29c-2.49-.03-4.93-.4-7.35-1.01-.63-1.92-.67-3.9-.57-5.89.03-.53.16-1.05.21-1.57.08-.89.51-1.24,1.39-.95,2.2.19,4.4.38,6.6.57.58.28.51.79.42,1.27-.44,2.18-.3,4.37-.22,6.56.01.39.24.95-.48,1.02Z"/>
+      <path class="cls-38" d="M1123.96,1481.08c-3.03-.29-5.86-1.24-8.59-2.54-.34-1.89-.62-3.79-.09-5.68.18-.65.36-1.4,1.34-1.19,2.32,0,4.59.38,6.86.8.33.08.67.2.6.62-.41,2.66.12,5.33-.12,7.99Z"/>
+      <path class="cls-94" d="M1136.85,1495.87c.02.97-.87,1.75-1.9,1.54-1.49-.31-2.89-.32-4.24.52-.32.2-.8.25-1.19.2-1.81-.22-3.47-.9-4.91-2.01-.67-.52-1.05-1.24-.76-2.16.28-.9.79-1.35,1.8-1.22,2.7.35,5.33,1.26,8.08,1.18,1.03-.03,1.8.36,2.57.91.35.25.56.58.56,1.03Z"/>
+      <path class="cls-41" d="M1114.38,1478.07c-1.65-.67-4.1-4.13-4.09-5.73,0-.26.08-.38.31-.42,1.35-.22,2.61-.95,4.04-.68.36.16.47.46.38.8-.45,1.75-.22,3.53-.27,5.3,0,.27.13.67-.36.73Z"/>
+      <path class="cls-271" d="M1108.19,1431.65c.04-.6.22-1.14.76-1.49,1.79-1,1.89-.97,3.15.68.12.16.24.33.36.49,1.12,1.57,1.24,2.21.38,2.68-1.36.73-2.95.75-3.93-.6-.37-.51-.72-1.07-.72-1.76Z"/>
+      <path class="cls-25" d="M1132.53,1482.29c.17-.13.28-.29.25-.52-.34-2.52-.41-5.03.22-7.52.08-.32-.04-.56-.18-.81,1.74,0,3.47-.11,5.2.18-.98.01-1.96.04-2.94.04-.48,0-.71.13-.8.67-.35,1.95-.3,3.89-.07,5.84.09.77.06,1.55.09,2.32-.61.14-1.2.08-1.76-.2Z"/>
+      <path class="cls-97" d="M1151.75,1482.25c.35-3.32.05-6.6-.5-9.87.28-.32.64-.25.99-.2.71,1.16.67,2.49.87,3.76.34,2.08.5,4.18-.13,6.26-.41.02-.82.03-1.23.05Z"/>
+      <path class="cls-98" d="M1123.96,1481.08c-.24-1.95-.69-3.86-.35-5.86.15-.89.45-1.86-.14-2.75.94-.07,1.85.11,2.74.41-.76-.05-.91.3-1.06,1.05-.5,2.47.15,4.91.03,7.36-.42.03-.86.14-1.22-.21Z"/>
+      <path class="cls-25" d="M1161.57,1470.25c-.14,1.42.76,2.6.87,4,.13,1.67.19,3.33.01,4.99-.04.41-.18.73.36.81-.53.3-1.09.52-1.72.49-.16-1.22.2-2.41.26-3.62.1-2.19-.31-4.26-1.25-6.23.4-.45.96-.34,1.46-.43Z"/>
+      <path class="cls-98" d="M1143.15,1482.76c-.7-2.76-.85-5.61-1.21-8.42-.03-.22.14-.46.21-.69.41-.24.82-.07,1.23,0-.09,3.06.76,6.05.74,9.1-.32.29-.65.15-.98,0Z"/>
+      <path class="cls-98" d="M1170.44,1467.52c1.02,2.8,1.03,5.72,1,8.64-.26.34-.6.54-1.02.63-.35-.42-.58-.88-.46-1.45.5-2.37.25-4.66-.71-6.89-.06-.14-.03-.32-.04-.48.35-.32.77-.44,1.23-.45Z"/>
+      <path class="cls-98" d="M1114.38,1478.07c.15-2.13-.38-4.3.42-6.38.04-.11-.1-.3-.16-.45.66.17,1.37.04,1.98.42-1.28.35-1.1,1.53-1.21,2.41-.12.99-.18,2.03.15,3.04.15.47.09.98-.19,1.42-.41,0-.73-.16-.99-.46Z"/>
+      <path class="cls-130" d="M1158.37,1402.13c.98.75,1.94,1.52,2.45,2.68.21.48.57.51,1,.49.74-.03,1.47-.04,2.21-.05.45,0,.96-.02,1.02.61.07.64-.36.82-.89.94-.51.12-1.01.33-1.51.48-.63.19-.89.66-1.02,1.25-.28,1.32-.06,1.62,1.27,1.42,3.57-.53,6.68.66,9.58,2.56.6.39.91.41,1.42-.12,1.38-1.44,2.44-3.05,3-4.98.06-.22.04-.66.42-.64.4.01.43.4.54.71,1.13,3.36,1.07,6.59-.99,9.62-.34.49-.33,1,.11,1.45.47.48,1.02.47,1.57.18,1.31-.68,1.73-1.99,2.18-3.24.11-.31.09-.68.51-.7.42-.02.63.28.79.64.32.71.35,1.49.13,2.17-.53,1.66-.85,3.42-2.05,4.8-.71.81-.94,1.74-.85,2.84.32,3.52-.11,6.94-1.68,10.16-1.69,3.45-4.38,5.64-8.17,6.41-.26.05-.55.26-.75-.11.26-.62.87-.85,1.39-1.15,4.31-2.48,6.14-6.37,6.46-11.17.38-5.72-2.56-9.7-6.69-13.09-.79-.64-1.7-.99-2.75-.72-.4.1-.85.22-.94.68-.09.42.29.64.58.87,2.71,2.08,4.17,4.91,4.77,8.19,1.03,5.64-.79,10.4-5.23,13.82-2.42,1.87-5.46,2.95-8.54,3.58-.37.08-.73,0-1.09-.09-2.81-.09-5.55-.55-7.98-2.05-2.19-1.35-3.12-3.56-3.28-6.02-.25-3.9.86-7.51,2.63-10.94.67-1.31,1.41-2.58,2.09-3.88.48-.92,1.11-1.73,1.96-2.32.48-.33.8-.7.66-1.31-.15-.64-.68-.79-1.21-.87-2.44-.39-4.59,0-6.02,2.3-.2.32-.35,1.05-.91.75-.45-.24-.08-.81-.03-1.24.13-1.03,1.13-2.01.91-2.84-.23-.86-1.71-.84-2.51-1.48-2.3-1.84-3.96-4.12-4.84-6.93-.61-1.93.29-4.32,2.05-5.34,3.53-2.04,7.3-2.79,11.34-1.95.89.19,1.58.64,2.07,1.4.12.64-.27.57-.66.46-2.79-.79-5.52-.33-8.23.39-.92.24-1.76.7-2.48,1.31-1.13.95-1.57,2.17-1.23,3.63.77,3.3,3.89,6.26,7.33,6.57,2.93.27,5.89.41,8.63-1.14,1.05-.59,1.81-1.34,1.94-2.51.25-2.1.33-4.19-1.54-5.74-.24-.19-.61-.47-.28-.79.41-.39.91-.24,1.35.06Z"/>
+      <path class="cls-43" d="M1158.37,1402.13c-.44-.02-.89-.05-1.33-.07,1.87.92,1.97,2.69,2.26,4.4.4,2.37-.48,4.29-2.7,5.14-4.72,1.8-9.3,2.03-13.46-1.52-1.51-1.29-2.33-2.94-2.65-4.84-.33-1.97,1.04-3.83,3.57-4.64,3.01-.96,6.09-1.55,9.22-.39.19.07.24-.16.26-.32,1.31.71,2.9.68,4.14,1.6.25.19.59.27.69.63Z"/>
+      <path class="cls-74" d="M1156.61,1442.62c2.44-.46,4.7-1.44,7-2.36,3.86-1.55,6.04-4.54,7.22-8.28,1.46-4.65.4-8.96-2.39-12.87-.52-.74-1.29-1.24-2.03-1.75-.45-.31-.91-.65-.81-1.25.1-.57.69-.61,1.13-.79.96-.4,1.89-.26,2.68.32,6.74,4.97,9.67,11.46,5.76,20.15-1.28,2.86-3.85,4.48-6.51,5.92-1.87,1.4-4.08,1.71-6.3,1.94-1.21.13-2.44.04-3.66.02-.85-.01-1.58-.31-2.09-1.04Z"/>
+      <path class="cls-101" d="M1186.66,1438.34c-.21,2.26-.8,4.63-2.74,6.46-1.08,1.03-1.78,2.45-3.32,3-2.02.72-4.04.55-5.92-.24-1.84-.78-2.19-3.65-.74-5.29.75-.85,1.56-1.66,2.48-2.37,1.47-1.14,2.51-2.67,3.5-4.21,1.15-1.79,2.17-2.34,3.74-1.9,1.55.43,2.92,2.17,2.99,3.8,0,.16,0,.33,0,.76Z"/>
+      <path class="cls-317" d="M1137.14,1456.93c-.14.07-.23.08-.28.14-2.37,2.9-5.23,3.42-8.53,1.77-.37-.18-.49-.16-.83.23-1.33,1.56-2.29,1.06-2.86-.48-.44-1.19-1.06-1.65-2.27-1.77-1.16-.11-2.36-.27-3.41-.9-.84-.51-1.5-1.18-1.55-2.21-.02-.45.2-.9.73-1,1.05-.21,1.89.29,2.5,1.01,1.15,1.34,2.56,1.66,4.2,1.41,1.54-.24,3.04-.61,4.42-1.38,1.68-.94,3.46-.79,5.26-.43.72.14,1.44.3,2.17.4,2.23.3,4.09-.4,5.63-2.05.75-.8,1.52-1.63,2.56-2.06.88-.37,1.84-.47,2.46.38.67.91.13,1.71-.58,2.36-1.21,1.11-2.79,1.56-4.2,2.31-.86.46-1.71.75-1.68,1.95,0,.25-.2.53-.36.77-.46.69-.99,1.43-1.89,1.38-1-.05-1.17-1-1.49-1.82Z"/>
+      <path class="cls-269" d="M1128.73,1451.23c-1.51-.09-2.88-.72-3.99-1.92-.54-.59-.55-1.29-.2-1.93.34-.62.9-1.15,1.69-.91,1.35.4,2.57.06,3.8-.44.68-.28,1.37-.51,2.13-.44,1.25.13,1.84,1.02,1.46,2.23-.56,1.76-2.86,3.4-4.89,3.41Z"/>
+      <path class="cls-39" d="M1137.3,1466.54c-.57.07-1.37-.06-2.17-.24-.43-.1-.82-.23-.82-.73,0-.58.4-.72.9-.78,1.46-.18,2.92-.34,4.33-.75,1.5-.44,2.9-1.08,4.11-2.09.49-.41,1.05-.85,1.77-.42.78.46.87,1.26.17,1.91-2.26,2.1-4.97,3.06-8.29,3.11Z"/>
+      <path class="cls-110" d="M1139.91,1431.65c.25-2.24.2-4.48,1.42-6.45.26-.42.53-.83.96-1.09.28-.17.53-.13.8.05.33.22.22.45.08.73-1.26,2.56-1.53,5.31-1.55,8.1,0,.37-.01.74-.03,1.1-.02.38-.04.74-.55.79-.57.06-.71-.31-.78-.73-.13-.85-.23-1.7-.34-2.5Z"/>
+      <path class="cls-42" d="M1123.94,1436.44c-.87-.4-1.12-1.1-1.19-1.91-.18-2.24-.95-4.27-2.24-6.11-.16-.23-.36-.46-.45-.72-.14-.42-.31-.93.1-1.25.44-.34.73.21,1,.4,2.2,1.58,3.76,7.01,2.77,9.59Z"/>
+      <path class="cls-42" d="M1129.78,1466.26c-.93-.2-2.07-.37-2.98-1.12-.5-.41-.81-.91-.42-1.6.42-.74.99-.53,1.57-.27.85.39,1.71.74,2.54,1.17.46.24.73.66.55,1.22-.17.51-.58.63-1.25.6Z"/>
+      <path class="cls-269" d="M1212.24,1403.37c.72-1.86,2.01-3.41,2.86-5.2,2.77-3.64,5.41-7.39,8.85-10.47.88-.78,1.83-1.36,2.93-1.7.23-.07.56-.19.7-.09,1.19.83,1.93-.11,2.78-.65,2.72-1.72,5.42-3.53,8.72-3.94.93-.12,1.9-.5,2.86-.07-.17.62-.6.94-1.21,1.06-4.47.87-8.02,3.47-11.55,6.12-.52.39-1.07.75-1.6,1.13-.46.33-.92.38-1.32-.06-.52-.57-.93-.41-1.44.05-1.96,1.74-3.54,3.82-5.19,5.84-3.14,3.83-5.79,7.98-8.05,12.39-.12.24-.2.55-.61.64-.19-1.17.25-2.19.68-3.21.25-.6.58-1.17.59-1.85Z"/>
+      <path class="cls-72" d="M1271.95,1374.38c-.2-.05-.39-.1-.6-.15,2.42-2.55,2.43-3.52-.39-5.78-2.94-2.36-6.3-4.11-9.61-5.87-4.87-2.59-9.9-4.88-15.41-5.84-.44-.08-1.03-.11-1.04-.81.4-.95,1.24-.83,2-.75,2.09.22,4.03,1,5.97,1.75,6.16,2.36,11.81,5.69,17.28,9.32,1.22.81,2.35,1.83,3.67,2.42,1.88.83,1.75,3.91,0,4.86-.6.32-1.23.58-1.85.87Z"/>
+      <path class="cls-130" d="M1203.87,1416.64c.7-.55,1.27-1.26,2.16-1.55.19.13.33.31.1.48-1.13.84-1.9,1.99-2.98,3.36.31-.99-.08-1.8.73-2.29Z"/>
+      <path class="cls-269" d="M1081.46,1400.38c.05,1.51.31,2.98.73,4.45.51-.15.85-.44,1.17-.76.77-.76,1.28-.52,1.61.41.74,2.05.89,4.22,1.36,6.33.22.99.34,2.01.3,3.04-.23,1.34.27,2.58.51,3.85.06.32.14.64.17.96.02.19.06.45-.18.52-.32.1-.43-.18-.49-.41-.67-2.52-1.67-4.95-2.03-7.55-.1-.72-.22-1.46-.47-2.14-.47-1.28-1.08-1.46-2.07-.57-.61.55-.76.4-1.05-.29-1.71-4.04-2.41-8.27-2.57-12.63-.06-1.63-.44-3.24-.45-4.87-.04-6.5,1.5-12.6,4.87-18.21.38-.63.71-1.29,1.14-1.88.23-.32.49-.84,1.08-.5.22,1.08-.2,2.02-.75,2.88-3.49,5.49-4.42,11.68-4.95,17.98-.18,2.14-.09,4.23.51,6.31.32,1.13,1.49,1.81,1.56,3.05Z"/>
+      <path class="cls-107" d="M1162.61,1423.5c-.1-.61-.62-.94-.98-1.36-.39-.46-1.07-.82-.71-1.53.38-.74.97-1.34,1.92-1.29,2.04.1,3.58,1.06,4.6,2.81,1.5,2.58,1.6,5.38,1.14,8.22-1.3,8.1-8.54,11.91-16.15,9.89-3.84-1.02-5.64-4.38-4.45-8.17.15-.49.23-1.12.91-1.16.66-.04.91.55,1.08,1.02.58,1.65,1.35,3.11,2.8,4.21,2.12,1.6,4.4,2.23,6.89,1.19,2.59-1.08,4.16-3.08,4.6-5.9.08-.2.26-.29.44-.38.71-.37.82-.83.19-1.39-.15-.14-.26-.3-.33-.49-.01-.24-.03-.48-.04-.71-.18-.5.24-.74.47-1.04,1.27-1.61.79-3.04-1.2-3.59-.39-.11-.82-.09-1.18-.31Z"/>
+      <path class="cls-74" d="M1162.61,1423.5c1.37-.22,2.69.35,3.22,1.38.5.98.22,1.96-.85,3.02-.17.17-.31.36-.46.54-.84.13-1.68.32-2.53.37-1.79.11-2.69-1.29-1.92-2.93.53-1.13,1.53-1.76,2.54-2.39Z"/>
+      <path class="cls-111" d="M1164.56,1429.16c.53.27,1.21.44,1.12,1.23-.09.8-.75.96-1.42,1.04-.49-.04-.86-.24-.9-.78-.05-.84.63-1.12,1.19-1.48Z"/>
+      <path class="cls-75" d="M1128.84,1456.56c1.93-1.13,3.93-1.4,6.06-.75-1.15,2.13-4.04,2.5-6.06.75Z"/>
+      <path class="cls-93" d="M1138.42,1456.66c-.04-.56.07-.98.76-.96.3,0,.63.01.56.41-.09.54-.17,1.19-.85,1.3-.61.1-.34-.48-.46-.75Z"/>
+      <path class="cls-238" d="M1126.68,1458.03c.02.25-.04.63-.47.6-.65-.04-.59-.7-.75-1.11-.12-.32.25-.55.52-.54.59,0,.69.46.7,1.05Z"/>
+    </g>
+  </g>
+</svg>

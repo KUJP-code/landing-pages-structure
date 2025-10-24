@@ -1,4 +1,6 @@
 $seasonal-purple: #8754a1;
+$seasonal-green: #117f40;
+$autumn-red: #b13828;
 $kidsup-orange: #f48120;
 
 
@@ -33,10 +35,10 @@ $kidsup-orange: #f48120;
 
 .seasonal-cta {
     
-  background-color: $seasonal-purple;
-  background-image: url('/lp-setsumeikai-2023/images/banner/halloween-bg.png'), 
+  background-color: $autumn-red;
+  background-image: url('/lp-setsumeikai-2023/images/banner/christmas-bg.png'), 
                     url('/lp-setsumeikai-2023/images/banner/lesson-bg.png'), 
-                    url('/lp-setsumeikai-2023/images/banner/background-leaves.svg');
+                    url('/lp-setsumeikai-2023/images/banner/autumn-leaves.svg');
   
   background-position: bottom left, top right, center;
   background-size: 40% auto ,  40% auto, cover;
@@ -89,7 +91,7 @@ h2{
 
 .h3-container{
     padding: 1rem;
-    background-color: $kidsup-orange;
+    background-color: $seasonal-green;
     margin: auto;
     width: fit-content;
     border-radius: 1rem;
@@ -131,7 +133,7 @@ h3{
     padding-left: 4rem;
     padding-right: 4rem;
     margin: auto;
-    background-color: $kidsup-orange;
+    background-color: $seasonal-green;
     border-radius: 4rem;
     border: solid .25rem white;
     font-family: "Shin-Maru-GP-Bold";
@@ -143,16 +145,16 @@ h3{
 
     &:hover{
         background-color: white;
-        color: $kidsup-orange;
-        border-color: $kidsup-orange;
-        box-shadow: 0 1rem 0 $kidsup-orange;
+        color: $seasonal-green;
+        border-color: $seasonal-green;
+        box-shadow: 0 1rem 0 $seasonal-green;
         transition: ease-in-out .2s;
         transform: translateY(-0.25rem);
     }
 
     &:active{
           transform: translateY(0.95rem);
-        box-shadow: 0 .05rem 0 $kidsup-orange;
+        box-shadow: 0 .05rem 0 $seasonal-green;
     }
 }
 .finger{

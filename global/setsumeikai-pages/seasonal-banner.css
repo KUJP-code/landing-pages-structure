@@ -19,8 +19,8 @@
   src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
 }
 .seasonal-cta {
-  background-color: #8754a1;
-  background-image: url("/lp-setsumeikai-2023/images/banner/halloween-bg.png"), url("/lp-setsumeikai-2023/images/banner/lesson-bg.png"), url("/lp-setsumeikai-2023/images/banner/background-leaves.svg");
+  background-color: #b13828;
+  background-image: url("/lp-setsumeikai-2023/images/banner/christmas-bg.png"), url("/lp-setsumeikai-2023/images/banner/lesson-bg.png"), url("/lp-setsumeikai-2023/images/banner/autumn-leaves.svg");
   background-position: bottom left, top right, center;
   background-size: 40% auto, 40% auto, cover;
   background-repeat: no-repeat;
@@ -72,7 +72,7 @@
 }
 .text-stack .h3-container {
   padding: 1rem;
-  background-color: #f48120;
+  background-color: #117f40;
   margin: auto;
   width: -moz-fit-content;
   width: fit-content;
@@ -107,7 +107,7 @@
   padding-left: 4rem;
   padding-right: 4rem;
   margin: auto;
-  background-color: #f48120;
+  background-color: #117f40;
   border-radius: 4rem;
   border: solid 0.25rem white;
   font-family: "Shin-Maru-GP-Bold";
@@ -119,15 +119,15 @@
 }
 .text-stack .button-wrapper .special-offer-button:hover {
   background-color: white;
-  color: #f48120;
-  border-color: #f48120;
-  box-shadow: 0 1rem 0 #f48120;
+  color: #117f40;
+  border-color: #117f40;
+  box-shadow: 0 1rem 0 #117f40;
   transition: ease-in-out 0.2s;
   transform: translateY(-0.25rem);
 }
 .text-stack .button-wrapper .special-offer-button:active {
   transform: translateY(0.95rem);
-  box-shadow: 0 0.05rem 0 #f48120;
+  box-shadow: 0 0.05rem 0 #117f40;
 }
 .text-stack .button-wrapper .finger {
   width: 33%;

@@ -1,0 +1,199 @@
+[
+  {
+    "title": "不思議な雪で遊ぼう！",
+    "date": "12/18",
+    "date_sub": "金",
+    "image_src": "./assets/images/activity-images/activity-01.png",
+    "details": "色々な素材を使って「溶けない真っ白な雪」をみんなで作るよ!教室の中で雪を使って遊んだり、雪だるまを作ったり♪溶けないフシギな雪をどうやって作るかは当日のお楽しみ!この冬初めての雪遊びはキッズアップで!",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+
+
+
+  {
+    "title": "マシュマロでかまくら作り",
+    "date": "12/19",
+    "date_sub": "金",
+    "image_src": "./assets/images/activity-images/activity-02.png",
+    "details": "りんご、チョコレートスプレッドとふわふわのマシュマロを使って、自分だけの食べられる小さなかまくらを作ろう！りんごが雪のおうちに大変身！かわいく飾って、最後はおいしく食べよう！",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+    
+  {
+    "title": "食べられる★ ミニクリスマスツリー",
+    "date": "12/22",
+    "date_sub": "月",
+    "image_src": "./assets/images/activity-images/activity-03.png",
+    "details": "食べられるミニクリスマスツリーを作ろう！お菓子を一緒に作って、クリスマス気分を盛り上げよう！",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+    {
+    "title": "テイルのミステリーアドベンチャー！",
+    "date": "12/23",
+    "date_sub": "火",
+    "image_src": "./assets/images/activity-images/activity-04.png",
+    "details": "魔法の絵本の中を冒険するアドベンチャーゲームだよ！川をジャンプで渡ったり、秘密の暗号を解読したり、へんてこなモンスターとバトルしたりと様々な挑戦が待ってるよ！最後の謎を解き明かして、景品が詰まった「ミステリーボックス」を手に入れよう！",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+      {
+    "title": "ブームのゲームショー！",
+    "date": "12/24",
+    "date_sub": "水",
+    "image_src": "./assets/images/activity-images/activity-05.png",
+    "details": "ブームのゲームショーに参加しよう！音楽に合わせて踊ったり、チームでドキドキのチャレンジを楽しもう！フリーズダンスやブームかくれんぼ、ミニロボットを操ってティーチャーとダンスバトルだ！勝てばティーチャーにいたずらできちゃうかも？！大盛り上がり間違いなしの、特別なゲームイベントだよ！",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+    
+  {
+    "title": "サンタスライム",
+    "date": "12/25",
+    "date_sub": "木",
+    "image_src": "./assets/images/activity-images/activity-06.png",
+    "details": "赤いスライムに白い雪玉、そして黒いベルトでサンタさんのようなぷにぷにスライムを作るよ！のばして、つぶして、振ってみて…クリスマスムード満点のクラフトを楽しもう♪",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+
+    {
+    "title": "ラジコンでサッカーバトル！",
+    "date": "12/26",
+    "date_sub": "金",
+    "image_src": "./assets/images/activity-images/activity-07.png",
+    "details": "ラジコンは好き？サッカーも好き？だったら、両方まとめて楽しもう！ハイスピードのラジコンを操って、パス、タックル、そしてゴールを決めよう！",
+    "morning": true,
+    "afternoon": false,
+    "special_day": false
+  },
+
+      {
+    "title": "お菓子の家作り",
+    "date": "12/26",
+    "date_sub": "金",
+    "image_src": "./assets/images/activity-images/activity-08.png",
+    "details": "みんなが大好きなお菓子でかわいくておいしいお家を作るよ！食パンやクッキーで土台を作って、ホイップクリームやチョコレートでトッピングしよう♪",
+    "morning": false,
+    "afternoon": true,
+    "special_day": false
+  },
+
+      {
+    "title": "ニューイヤーパーティー！",
+    "date": "1/5",
+    "date_sub": "月",
+    "image_src": "./assets/images/activity-images/activity-09.png",
+    "details": "教室が神社に！？キッズアップ神社でおみくじを引いたり、新年をお祝いするゲームをするよ♪　楽しいパーティーで年明けを過ごそう！",
+    "morning": true,
+    "afternoon": false,
+    "special_day": false
+  },
+
+
+      {
+    "title": "もふもふ雪だるま",
+    "date": "1/5",
+    "date_sub": "月",
+    "image_src": "./assets/images/activity-images/activity-10.png",
+    "details": "ふわふわの白い靴下を使って、かわいい雪だるまを作ろう！中に詰め物をして、ボタンやマフラー、帽子をつけるよ。冬にぴったりの、ふわふわで楽しいお友だちができるよ！",
+    "morning": false,
+    "afternoon": true,
+    "special_day": false
+  },
+
+        {
+    "title": "インドア雪合戦",
+    "date": "1/6",
+    "date_sub": "火",
+    "image_src": "./assets/images/activity-images/activity-11.png",
+    "details": "自分だけの要塞を作ったら、いざ室内で雪合戦だ！自分のチームのマスコットを守りながら、相手を狙おう！頑張ったチームには景品が待ってるよ♪",
+    "morning": true,
+    "afternoon": false,
+    "special_day": false
+  },
+
+
+      {
+    "title": "マスコットランプ",
+    "date": "1/6",
+    "date_sub": "火",
+    "image_src": "./assets/images/activity-images/activity-12.png",
+    "details": "おうちに飾れるランタンを一緒に作ろう！瓶に雪の結晶をペイントして、Kids UPのマスコットキャラクターを瓶の中に入れるよ♪ライトを入れれば、あたたかな光が広がるよ！",
+    "morning": false,
+    "afternoon": true,
+    "special_day": false
+  },
+
+        {
+    "title": "冬のチョコレート工場",
+    "date": "1/7",
+    "date_sub": "火",
+    "image_src": "./assets/images/activity-images/activity-13.png",
+    "details": "チョコレートをデコレーションして、自分だけの特別なお菓子を作ろう!海外で定番のミントキャンディーを砕いてのせてもいいし、チョコレートやクッキーなどのデコレーションも選べるよ♪",
+    "morning": true,
+    "afternoon": false,
+    "special_day": false
+  },
+
+
+      {
+    "title": "マグカップをデザインしよう",
+    "date": "1/7",
+    "date_sub": "火",
+    "image_src": "./assets/images/activity-images/activity-14.png",
+    "details": "世界にひとつだけの特別なマグカップを作ろう！動物や星、食べ物、Kids UPのマスコットなど、自分の好きなものを描いてね。かわいくデコレーションして出来上がったマグカップで何を飲もうかな？",
+    "morning": false,
+    "afternoon": true,
+    "special_day": false
+  },
+
+          {
+    "title": "にぎにぎベア",
+    "date": "1/8",
+    "date_sub": "木",
+    "image_src": "./assets/images/activity-images/activity-15.png",
+    "details": "好きな色のフェルトを選んで、シロクマを作ろう！縫わずに簡単に作れるよ。中に綿をつめて、にぎにぎして遊んでね♪",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  },
+
+
+      {
+    "title": "ウィンターカフェ",
+    "date": "1/9",
+    "date_sub": "金",
+    "image_src": "./assets/images/activity-images/activity-16.png",
+    "details": "冬がテーマのカフェを作って、冬らしい飲み物やお菓子を作るよ！店員さんとお客さんに分かれて、英語で好きな飲み物とお菓子を注文してみよう！",
+    "morning": false,
+    "afternoon": false,
+    "special_day": false
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+]

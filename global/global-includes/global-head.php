@@ -60,6 +60,19 @@
 
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<meta property="og:url" content="https://kids-up.jp/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="学童保育型 英語・英会話スクール Kids UP （キッズアップ）">
+<meta property="og:description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
+<meta property="og:site_name" content="学童保育型 英語・英会話スクール Kids UP （キッズアップ）">
+<meta property="og:image" content="https://kids-up.jp/wp-content/themes/kidsup/img/kidsup_ogp.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kids-up.jp/wp-content/themes/kidsup/img/kidsup_ogp.png">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
+
+
+
 <!-- Bootstrap CSS -->
 
 <link

@@ -20,6 +20,8 @@ $prefecture-themes: (
   chiba:    ( color: #DAA520 ),
   saitama:  ( color: #6B8E72 )
 );
+
+
 html{
     background-color: $christmas-claret;
 }
@@ -161,9 +163,15 @@ nav{
     rgba(206, 43, 39, 1) 10%,
     rgba(133, 34, 33, 1) 100%);
 
+    min-height: 900px;
+
         @media (max-width: 575.98px) {
+          min-height: unset;
           height: auto !important;
         }
+
+        background-color: red !important; 
+
 
   .hero-top {
     width: 100%;
@@ -735,13 +743,21 @@ nav{
 .hero-bottom{
   height: fit-content;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   padding-top: 2rem;
   padding-bottom: 2rem;
   
+        .p-sub{
+        color: white;
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+      }
 
 }
+
+
 
 .cta-primary{
     border: solid .15rem white;
@@ -2600,4 +2616,14 @@ flex-direction: column;
   background-position: top;
   background-repeat: no-repeat;
   padding-top: 5rem;
+}
+
+
+.tutorial{
+  color: white;
+  transition: ease-in-out .2s;
+
+  &:hover{
+    opacity: .6;
+  }
 }

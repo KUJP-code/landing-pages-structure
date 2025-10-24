@@ -1,0 +1,1092 @@
+.swiper-button-bg {
+  fill: #224488 !important;
+}
+
+.snowcap-1 {
+  position: absolute;
+  transform: translate(-50%, -80%);
+  border: none !important;
+}
+
+.snowcap-2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border: none !important;
+}
+
+html, body {
+  background-color: #94d4cb;
+}
+
+h2 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  paint-order: stroke fill;
+}
+
+nav {
+  background-color: #94d4cb;
+}
+nav .nav-links .button {
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #224488;
+  color: #224488;
+  -webkit-text-stroke-color: #224488;
+  filter: drop-shadow(0rem 0.25rem 0rem #56b3af);
+}
+nav .nav-links .button:hover {
+  opacity: 1;
+  color: white;
+  -webkit-text-stroke-color: white;
+  background-color: #224488;
+}
+nav .nav-links .button:active {
+  opacity: 0.6;
+}
+@media (max-width: 767.98px) {
+  nav .nav-toggle {
+    background-color: #224488;
+  }
+  nav .nav-links {
+    background-color: #94d4cb;
+  }
+  nav .sticky-cta {
+    background-color: #224488;
+    border-top: solid white 3px;
+  }
+  nav .sticky-cta .button-4 {
+    font-family: "Shin-Maru-GP-Ultra";
+    font-size: 1.5rem;
+    background-color: #007fab;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 3rem;
+    filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+  }
+  nav .sticky-cta .button-4:hover {
+    opacity: 1;
+    background-color: white;
+    color: #007fab;
+  }
+  nav .sticky-cta .button-4:active {
+    opacity: 0.6;
+  }
+}
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 1750px;
+  }
+}
+.hero {
+  background-color: #94d4cb;
+  background-image: url("data:image/svg+xml,%3Csvg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 50 50'%3E%3Cstyle type='text/css'%3E.st3%7Bopacity:0.1%3Bfill:%23FFFFFF%3B%7D%3C/style%3E%3Ccircle class='st3' cx='4' cy='14' r='1'/%3E%3Ccircle class='st3' cx='43' cy='3' r='1'/%3E%3Ccircle class='st3' cx='31' cy='30' r='2'/%3E%3Ccircle class='st3' cx='19' cy='23' r='1'/%3E%3Ccircle class='st3' cx='37' cy='22' r='1'/%3E%3Ccircle class='st3' cx='43' cy='16' r='1'/%3E%3Ccircle class='st3' cx='8' cy='45' r='1'/%3E%3Ccircle class='st3' cx='29' cy='39' r='1'/%3E%3Ccircle class='st3' cx='13' cy='37' r='1'/%3E%3Ccircle class='st3' cx='47' cy='32' r='1'/%3E%3Ccircle class='st3' cx='15' cy='4' r='2'/%3E%3Ccircle class='st3' cx='9' cy='27' r='1'/%3E%3Ccircle class='st3' cx='30' cy='9' r='1'/%3E%3Ccircle class='st3' cx='25' cy='15' r='1'/%3E%3Ccircle class='st3' cx='21' cy='45' r='2'/%3E%3Ccircle class='st3' cx='42' cy='45' r='1'/%3E%3C/svg%3E");
+  background-repeat: repeat;
+  background-size: auto;
+  animation: animatedBackground 40s linear infinite;
+  overflow: hidden;
+  min-height: 960px;
+  height: 100vh;
+  max-height: 1200px;
+  position: relative;
+}
+.hero .hero-inner {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  margin: auto;
+}
+.hero .hero-inner .text-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  z-index: 3;
+}
+.hero .hero-inner .text-col .contents-wrapper {
+  width: 80%;
+  max-width: 720px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.hero .hero-inner .text-col .contents-wrapper img {
+  width: 90%;
+  padding-bottom: 1rem;
+  margin: auto;
+}
+.hero .hero-inner .text-col .contents-wrapper h1 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  font-size: 2.25rem;
+  text-align: left;
+  padding-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  filter: drop-shadow(0.3rem 0.3rem 0 #224488) drop-shadow(-0.1rem 0.4rem 0 #56b3af);
+}
+.hero .hero-inner .text-col .contents-wrapper h1 .break {
+  display: none;
+}
+.hero .hero-inner .text-col .contents-wrapper p {
+  font-family: "Shin-Maru-GP-Bold";
+  color: white;
+  font-size: 1.25rem;
+  text-align: left;
+  padding-bottom: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  -webkit-text-stroke: 1px #224488;
+  paint-order: stroke fill;
+  filter: drop-shadow(0.075rem 0.075rem 0 #224488) drop-shadow(-0.1rem 0.2rem 0 #56b3af);
+}
+.hero .hero-inner .text-col .contents-wrapper .cta-primary {
+  margin: auto;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #224488;
+  border: 1px solid #224488;
+  filter: drop-shadow(0 0.5rem 0 #56b3af);
+  transition: ease-in-out 0.2s;
+}
+.hero .hero-inner .text-col .contents-wrapper .cta-primary .arrow {
+  margin-left: 2rem;
+}
+.hero .hero-inner .text-col .contents-wrapper .cta-primary:hover {
+  background-color: #224488;
+  color: white;
+}
+.hero .hero-inner .text-col .contents-wrapper .cta-primary:active {
+  opacity: 0.6;
+}
+.hero .hero-inner .image-col {
+  width: 50%;
+  z-index: 1;
+}
+.hero .hero-inner .image-col .image-slider {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%) rotate(25deg);
+  transform-origin: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: 160%;
+  overflow: hidden;
+}
+.hero .hero-inner .image-col .image-slider .image-track-1,
+.hero .hero-inner .image-col .image-slider .image-track-2,
+.hero .hero-inner .image-col .image-slider .image-track-3,
+.hero .hero-inner .image-col .image-slider .image-track-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 10rem;
+  gap: 1rem;
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+  animation: scroll-up 30s linear infinite;
+}
+.hero .hero-inner .image-col .image-slider .image-track-1 img,
+.hero .hero-inner .image-col .image-slider .image-track-2 img,
+.hero .hero-inner .image-col .image-slider .image-track-3 img,
+.hero .hero-inner .image-col .image-slider .image-track-4 img {
+  width: 10rem;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 1rem;
+}
+.hero .hero-inner .image-col .image-slider .image-track-2,
+.hero .hero-inner .image-col .image-slider .image-track-4 {
+  animation-name: scroll-down;
+}
+@media screen and (max-width: 1399.98px) {
+  .hero .hero-inner .text-col {
+    width: 60%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1 {
+    font-size: 2rem;
+  }
+  .hero .hero-inner .text-col .contents-wrapper p {
+    font-size: 1rem;
+  }
+  .hero .hero-inner .image-col {
+    width: 40%;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1,
+  .hero .hero-inner .image-col .image-slider .image-track-2,
+  .hero .hero-inner .image-col .image-slider .image-track-3,
+  .hero .hero-inner .image-col .image-slider .image-track-4 {
+    width: 7rem;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1 img,
+  .hero .hero-inner .image-col .image-slider .image-track-2 img,
+  .hero .hero-inner .image-col .image-slider .image-track-3 img,
+  .hero .hero-inner .image-col .image-slider .image-track-4 img {
+    width: 7rem;
+    border-radius: 0.7rem;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .hero .hero-inner .text-col {
+    width: 65%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1 {
+    font-size: 2rem;
+  }
+  .hero .hero-inner .text-col .contents-wrapper p {
+    font-size: 1rem;
+  }
+  .hero .hero-inner .image-col {
+    width: 40%;
+  }
+  .hero .hero-inner .image-col .image-slider {
+    transform: translate(-50%, -50%) rotate(15deg);
+    left: 80%;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1,
+  .hero .hero-inner .image-col .image-slider .image-track-2,
+  .hero .hero-inner .image-col .image-slider .image-track-3,
+  .hero .hero-inner .image-col .image-slider .image-track-4 {
+    width: 6rem;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1 img,
+  .hero .hero-inner .image-col .image-slider .image-track-2 img,
+  .hero .hero-inner .image-col .image-slider .image-track-3 img,
+  .hero .hero-inner .image-col .image-slider .image-track-4 img {
+    width: 6rem;
+    border-radius: 0.6rem;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .hero .hero-inner .text-col {
+    width: 75%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1 {
+    font-size: 2rem;
+  }
+  .hero .hero-inner .text-col .contents-wrapper p {
+    font-size: 1rem;
+  }
+  .hero .hero-inner .image-col {
+    width: 40%;
+  }
+  .hero .hero-inner .image-col .image-slider {
+    transform: translate(-50%, -50%) rotate(10deg);
+    left: 85.5%;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1,
+  .hero .hero-inner .image-col .image-slider .image-track-2,
+  .hero .hero-inner .image-col .image-slider .image-track-3,
+  .hero .hero-inner .image-col .image-slider .image-track-4 {
+    width: 5.5rem;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1 img,
+  .hero .hero-inner .image-col .image-slider .image-track-2 img,
+  .hero .hero-inner .image-col .image-slider .image-track-3 img,
+  .hero .hero-inner .image-col .image-slider .image-track-4 img {
+    width: 5.5rem;
+    border-radius: 0.55rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .hero .hero-inner .text-col {
+    width: 85%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper img {
+    width: 100%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1 {
+    font-size: 2rem;
+    width: 100%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper p {
+    font-size: 1rem;
+    width: 100%;
+  }
+  .hero .hero-inner .image-col {
+    width: 40%;
+  }
+  .hero .hero-inner .image-col .image-slider {
+    transform: translate(-50%, -50%) rotate(7.5deg);
+    left: 85.5%;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1,
+  .hero .hero-inner .image-col .image-slider .image-track-2,
+  .hero .hero-inner .image-col .image-slider .image-track-3,
+  .hero .hero-inner .image-col .image-slider .image-track-4 {
+    width: 5rem;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1 img,
+  .hero .hero-inner .image-col .image-slider .image-track-2 img,
+  .hero .hero-inner .image-col .image-slider .image-track-3 img,
+  .hero .hero-inner .image-col .image-slider .image-track-4 img {
+    width: 5rem;
+    border-radius: 0.5rem;
+  }
+}
+@media (max-width: 576.98px) {
+  .hero .hero-inner {
+    flex-direction: column;
+    height: -moz-fit-content !important;
+    height: fit-content !important;
+    min-height: unset;
+  }
+  .hero .hero-inner .text-col {
+    width: 100%;
+    margin-top: 0 !important;
+  }
+  .hero .hero-inner .text-col .contents-wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+  .hero .hero-inner .text-col .contents-wrapper img {
+    width: 100%;
+    padding: 2rem 0;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1, .hero .hero-inner .text-col .contents-wrapper p {
+    width: 100%;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  .hero .hero-inner .text-col .contents-wrapper h1 .break {
+    display: unset;
+  }
+  .hero .hero-inner .image-col .image-slider {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(20deg);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1,
+  .hero .hero-inner .image-col .image-slider .image-track-2,
+  .hero .hero-inner .image-col .image-slider .image-track-3,
+  .hero .hero-inner .image-col .image-slider .image-track-4 {
+    display: unset;
+    width: 10rem;
+    opacity: 0.3;
+  }
+  .hero .hero-inner .image-col .image-slider .image-track-1 img,
+  .hero .hero-inner .image-col .image-slider .image-track-2 img,
+  .hero .hero-inner .image-col .image-slider .image-track-3 img,
+  .hero .hero-inner .image-col .image-slider .image-track-4 img {
+    width: 10rem;
+    border-radius: 0.1rem;
+  }
+}
+@media screen and (max-width: 1399.98px) {
+  .hero {
+    min-height: 860px;
+    max-height: 1100px;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .hero {
+    min-height: 820px;
+    max-height: 1100px;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .hero {
+    min-height: 840px;
+    max-height: 1300px;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .hero {
+    min-height: 860px;
+    max-height: 900px;
+  }
+}
+@media screen and (max-width: 576.98px) {
+  .hero {
+    min-height: unset;
+    max-height: unset;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+
+@keyframes scroll-up {
+  0% {
+    transform: translateY(25%);
+  }
+  100% {
+    transform: translateY(-25%);
+  }
+}
+@keyframes scroll-down {
+  0% {
+    transform: translateY(-25%);
+  }
+  100% {
+    transform: translateY(25%);
+  }
+}
+.party-event-about {
+  background-image: url(../assets/images/background-transitions/about-bg-top.svg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-color: #224488;
+  padding-top: 8rem;
+}
+.party-event-about .hero-bottom-transition {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 1px;
+  z-index: 2;
+  transform: translate(-50%, -100%);
+  overflow-x: hidden;
+}
+.party-event-about h2 {
+  -webkit-text-stroke: 10px #18396d;
+  paint-order: stroke fill;
+  stroke-linecap: round;
+}
+.party-event-about p {
+  color: white;
+  font-weight: bold;
+  padding-bottom: 2rem;
+}
+.party-event-about .three-points {
+  background-color: #3863a8;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  border: solid 0.3rem #18396d;
+  margin-bottom: 2rem;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.party-event-about .three-points h3 {
+  -webkit-text-stroke: 7px #18396d;
+  paint-order: stroke fill;
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  font-size: 1.5rem;
+  padding: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+  background-color: #58b980;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+  background: #94D4CB;
+  background: linear-gradient(90deg, rgb(148, 212, 203) 10%, rgb(95, 91, 168) 90%);
+  margin-top: -4rem;
+  border: solid 0.3rem #18396d;
+}
+.party-event-about .three-points p {
+  padding-bottom: unset;
+}
+.party-event-about .three-points .point {
+  font-family: "Shin-Maru-GP-Ultra";
+  font-size: 1.5rem;
+  -webkit-text-stroke: 3px #18396d;
+  paint-order: stroke fill;
+  color: white;
+}
+.party-event-about .cta-secondary {
+  background-color: white;
+  color: #224488;
+  border: solid 2px #18396d;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+  transition: ease-in-out 0.2s;
+}
+.party-event-about .cta-secondary:hover {
+  background-color: #94d4cb;
+  color: white;
+}
+.party-event-about .cta-secondary:active {
+  opacity: 0.6;
+}
+@media (max-width: 767.98px) {
+  .party-event-about {
+    padding-top: 2rem;
+  }
+}
+
+.schools-list {
+  background-color: #224488;
+  background-image: url(../assets/images/background-transitions/hero-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.schools-list .section-h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.schools-list .prefecture-tokyo {
+  background-color: #605ba8 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}
+.schools-list .prefecture-tokyo .prefecture-header {
+  background-color: #605ba8 !important;
+  color: #605ba8;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-tokyo .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #605ba8;
+}
+.schools-list .prefecture-tokyo .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-tokyo .ward h3, .schools-list .prefecture-tokyo .ward h3 svg {
+  color: #605ba8;
+  fill: #605ba8;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-tokyo .ward ul li {
+  color: #605ba8;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-tokyo {
+    background-color: #605ba8;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-tokyo .prefecture-header {
+    background-color: #605ba8;
+    color: #605ba8;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward h3, .schools-list .prefecture-tokyo .wards-container .ward h3 svg {
+    color: #605ba8;
+    fill: #605ba8;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward ul li {
+    color: #605ba8;
+  }
+}
+.schools-list .prefecture-kanagawa {
+  background-color: #57aac0 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}
+.schools-list .prefecture-kanagawa .prefecture-header {
+  background-color: #57aac0 !important;
+  color: #57aac0;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-kanagawa .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #57aac0;
+}
+.schools-list .prefecture-kanagawa .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-kanagawa .ward h3, .schools-list .prefecture-kanagawa .ward h3 svg {
+  color: #57aac0;
+  fill: #57aac0;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-kanagawa .ward ul li {
+  color: #57aac0;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-kanagawa {
+    background-color: #57aac0;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-kanagawa .prefecture-header {
+    background-color: #57aac0;
+    color: #57aac0;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward h3, .schools-list .prefecture-kanagawa .wards-container .ward h3 svg {
+    color: #57aac0;
+    fill: #57aac0;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward ul li {
+    color: #57aac0;
+  }
+}
+.schools-list .prefecture-chiba {
+  background-color: #be96c5 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}
+.schools-list .prefecture-chiba .prefecture-header {
+  background-color: #be96c5 !important;
+  color: #be96c5;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-chiba .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #be96c5;
+}
+.schools-list .prefecture-chiba .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-chiba .ward h3, .schools-list .prefecture-chiba .ward h3 svg {
+  color: #be96c5;
+  fill: #be96c5;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-chiba .ward ul li {
+  color: #be96c5;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-chiba {
+    background-color: #be96c5;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-chiba .prefecture-header {
+    background-color: #be96c5;
+    color: #be96c5;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward h3, .schools-list .prefecture-chiba .wards-container .ward h3 svg {
+    color: #be96c5;
+    fill: #be96c5;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-chiba .wards-container .ward ul li {
+    color: #be96c5;
+  }
+}
+.schools-list .prefecture-saitama {
+  background-color: #58b981 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.15rem white;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}
+.schools-list .prefecture-saitama .prefecture-header {
+  background-color: #58b981 !important;
+  color: #58b981;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-saitama .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #58b981;
+}
+.schools-list .prefecture-saitama .ward {
+  background-color: white;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: white;
+}
+.schools-list .prefecture-saitama .ward h3, .schools-list .prefecture-saitama .ward h3 svg {
+  color: #58b981;
+  fill: #58b981;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-saitama .ward ul li {
+  color: #58b981;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-saitama {
+    background-color: #58b981;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-saitama .prefecture-header {
+    background-color: #58b981;
+    color: #58b981;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward h3, .schools-list .prefecture-saitama .wards-container .ward h3 svg {
+    color: #58b981;
+    fill: #58b981;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-saitama .wards-container .ward ul li {
+    color: #58b981;
+  }
+}
+.schools-list .boom-tale {
+  transform: translate(-50%, -85%);
+  position: absolute;
+  width: 33%;
+  left: 75%;
+  top: 100%;
+}
+@media (max-width: 991.98px) {
+  .schools-list .boom-tale {
+    display: none;
+  }
+}
+
+.seasonal-three-benefits {
+  background-color: #94d4cb;
+  padding-top: 4rem;
+  background-image: url(../assets/images/background-transitions/about-bg-top.svg);
+  background-size: 105%;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.seasonal-three-benefits .container .benefit-column {
+  background-color: #5f5ba8;
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+}
+.seasonal-three-benefits .container .column-1 {
+  position: relative;
+}
+.seasonal-three-benefits .container .column-1 .snowcap-1 {
+  width: 55%;
+  left: 0%;
+  border-radius: 0;
+  filter: none !important;
+  left: 30%;
+}
+.seasonal-three-benefits .container .column-3 {
+  position: relative;
+}
+.seasonal-three-benefits .container .column-3 .snowcap-2 {
+  width: 40%;
+  left: 85% !important;
+  top: 10%;
+  border-radius: 0;
+  left: 30%;
+}
+
+.customer-feedback {
+  background-color: #94d4cb;
+}
+.customer-feedback .container h2 {
+  padding-bottom: 2rem;
+}
+.customer-feedback .container .item {
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+  background-color: #007eab;
+}
+.customer-feedback .container .img-wrapper {
+  border-radius: 50%;
+  height: 100%;
+  aspect-ratio: 1/1 !important;
+}
+
+.four-benefits {
+  background-color: #94d4cb;
+}
+.four-benefits .four-benefits-wrapper {
+  background-color: unset;
+  border-radius: 2rem;
+}
+.four-benefits .four-benefits-wrapper .benefit {
+  background-color: #5f5ba8;
+  border-radius: 2rem;
+  transition: ease-in-out 0.2s;
+  border: solid 1px #5f5ba8;
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box .benefit-icon-colour-1 {
+  fill: white;
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box .benefit-icon-colour-2 {
+  fill: #37376d !important;
+}
+
+.lower-cta {
+  background-color: #94d4cb;
+}
+.lower-cta .winter-girl {
+  width: 75%;
+  margin: auto;
+}
+.lower-cta .cta-secondary {
+  background-color: white;
+  color: #224488;
+  border: solid 2px #18396d;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+  transition: ease-in-out 0.2s;
+}
+.lower-cta .cta-secondary:hover {
+  background-color: #224488;
+  color: white;
+}
+.lower-cta .cta-secondary:active {
+  opacity: 0.6;
+}
+
+.activity-slider {
+  background-color: #94d4cb;
+  --activity-color-1: #59ba81;
+  --activity-color-2: #007fab;
+  --activity-color-3: #5f5da9;
+  --activity-color-special: purple;
+}
+.activity-slider .swiper-card {
+  transition: ease-in-out 0.2s;
+}
+.activity-slider .swiper-card:hover {
+  border-color: white !important;
+}
+
+#eventModal .activity-modal-content {
+  border: solid 0.15rem white;
+  background-color: #94d4cb;
+}
+#eventModal .activity-modal-content .modal-close {
+  background-color: #224488;
+  color: #94d4cb;
+}
+#eventModal .activity-modal-content .cta-secondary {
+  background-color: #224488;
+  border: solid, 1px, #224488;
+  transition: ease-in-out 0.2s;
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+}
+#eventModal .activity-modal-content .cta-secondary:hover {
+  background-color: white;
+  color: #224488;
+}
+#eventModal .activity-modal-content .cta-secondary:active {
+  opacity: 0.6;
+}
+
+.seasonal-dropdowns {
+  background-color: #94d4cb;
+}
+.seasonal-dropdowns .button-row .dropdown-button {
+  background-color: #224488;
+  border: solid 0.15rem #224488;
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+}
+.seasonal-dropdowns .button-row .dropdown-button:hover {
+  color: #224488;
+  background-color: white;
+  border-color: #224488;
+}
+.seasonal-dropdowns .button-row .dropdown-button.active {
+  color: #224488;
+  background-color: white;
+  border-color: #224488;
+}
+.seasonal-dropdowns .dropdown-section {
+  width: 100%;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: none;
+}
+.seasonal-dropdowns .dropdown-section img {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+.seasonal-dropdowns .dropdown-section .cta-secondary {
+  background-color: #224488;
+  border: solid 0.15rem #224488;
+  color: white;
+  transition: ease-in-out 0.2s;
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+}
+.seasonal-dropdowns .dropdown-section .cta-secondary:hover {
+  color: #224488;
+  background-color: white;
+}
+.seasonal-dropdowns #schedule .box-1 {
+  background-color: #def0ff;
+}
+.seasonal-dropdowns #schedule h4 {
+  color: #224488;
+}
+
+.gallery h2 {
+  padding-bottom: 2rem;
+}
+
+.FAQ {
+  background-image: url(../assets/images/background-transitions/hero-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.FAQ .echo-jot {
+  width: 55%;
+  padding-top: 2rem;
+  margin-bottom: -4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.FAQ .accordion-wrapper .accordion-item {
+  filter: drop-shadow(0rem 0.5rem 0rem #56b3af);
+}
+.FAQ .accordion-wrapper .accordion-item .accordion-button {
+  background-color: #224488;
+  color: white;
+  border: solid #224488 0.15rem;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+.FAQ .accordion-wrapper .accordion-item .accordion-content {
+  border: none;
+  background-color: #224488;
+}
+.FAQ .accordion-wrapper .accordion-item.active .accordion-button {
+  background-color: white;
+  color: #224488;
+  border-bottom: none;
+  transition: border-bottom 0.3s ease;
+}
+.FAQ .accordion-wrapper .accordion-item.active .accordion-content {
+  border: solid #224488 0.15rem;
+  border-top: none;
+  margin-top: -1px;
+  background-color: white;
+}
+
+.sign-up {
+  background-color: #224488;
+  background-image: url(../assets/images/background-transitions/about-bg-top.svg);
+  background-size: 105%;
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 10rem;
+  margin-bottom: unset;
+}
+.sign-up h2 {
+  padding-top: 2rem;
+}
+.sign-up .step-image {
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}
+.sign-up .sign-up-bg {
+  fill: white;
+}
+.sign-up .sign-up-main-colour {
+  fill: #18396d !important;
+}
+.sign-up .sign-up-stroke {
+  fill: #18396d !important;
+}
+.sign-up h3 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  text-align: center;
+}
+.sign-up p {
+  color: white;
+  font-weight: bold;
+}
+.sign-up .button-1, .sign-up .button-2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 425px;
+  transition: ease-in-out 0.2s;
+  border: solid 0.15rem white;
+  background-color: #224488;
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}
+.sign-up .button-1:hover, .sign-up .button-2:hover {
+  opacity: 1;
+  background-color: white;
+  color: #224488;
+  border-color: #224488;
+}
+
+.bottom {
+  background-color: #224488;
+}
+.bottom img {
+  filter: drop-shadow(0rem 0.5rem 0rem #18396d);
+}/*# sourceMappingURL=winter-school.css.map */

@@ -1,0 +1,59 @@
+.text-col{
+	padding-bottom: 20px;
+}
+
+.game-image{
+	width: auto;
+	padding: 20px;
+	padding-top: 0px;
+	padding-top: 0px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rules-copy{
+	padding-left: 2.1rem;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.numbering-format{
+	font-weight: bolder;
+	font-size: 1.8rem;
+	margin-left: -2.1rem;
+	background-color: white;
+	border-radius: 50%;
+	padding-left: .3rem;
+	padding-right: .3rem;
+
+}
+
+.numbering-format-1{
+	color: #8b5399;
+}
+.numbering-format-2{
+	color: #d87b40;
+}
+
+.numbering-format-3{
+	color: #94c156;
+}
+
+.numbering-format-4{
+	color: #e16c5a;
+}
+
+.numbering-format-5{
+	color: #55a6cb;
+}
+
+
+
+.vertical-center {
+  margin: 0;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}

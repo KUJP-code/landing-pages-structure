@@ -41,7 +41,7 @@
     <!-- End Google Tag Manager (noscript) -->
 
 
-    <wrapper class="event-over">
+    <wrapper class="">
  
     <img src="./includes/summer-school-images/ended.svg" alt="" class="ended"> 
 

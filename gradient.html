@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Non-Centered Radial Gradient Demo</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+            align-items: flex-start;
+        }
+
+        .container {
+            border: 1px solid #ccc;
+            width: 100%;
+            height: 250px;
+        }
+
+        /* -------------------------------------
+           CSS RADIAL GRADIENT 
+           ------------------------------------- */
+        .cta-wrapper {
+            width: 100%;
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            background: radial-gradient(
+                closest-corner circle 
+                at 25% 15%,            
+                #9d7d59 0%,         
+                #70574b 125%           
+            );
+        }
+
+        h2 {
+            margin-top: 0;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        canvas {
+            border: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+
+    <div>
+        <h2>1. CSS Radial Gradient (`radial-gradient()`)</h2>
+        <p>Center is positioned using the <code>at 25% 75%</code> property.</p>
+        <div class="container css-gradient"></div>
+        
+    </div>
+
+    <div>
+        <h2>2. HTML Canvas Radial Gradient (`createRadialGradient()`)</h2>
+        <p>The inner circle ($x_0, y_0, r_0$) is offset to create the effect.</p>
+        <canvas id="myCanvas" width="400" height="250"></canvas>
+    </div>
+
+    <script>
+        // Get the Canvas and Context
+        const canvas = document.getElementById('myCanvas');
+        const ctx = canvas.getContext('2d');
+        const w = canvas.width;
+        const h = canvas.height;
+
+        // --- Define Offset Positions ---
+        // Inner Circle (Starting point of the gradient) - Positioned at 25% 75%
+        const startX = w * 0.25; 
+        const startY = h * 0.75; 
+        const startRadius = 0;
+
+        // Outer Circle (End point of the gradient) - Centered for a broad coverage
+        const endX = w / 2;
+        const endY = h / 2;
+        const endRadius = Math.max(w, h) * 0.5;
+
+        // Create the Radial Gradient Object
+        const gradient = ctx.createRadialGradient(
+            startX, startY, startRadius,  // Inner Circle: (x0, y0, r0)
+            endX, endY, endRadius         // Outer Circle: (x1, y1, r1)
+        );
+
+        // Add Color Stops
+        gradient.addColorStop(0, '#a8dadc');  
+        gradient.addColorStop(0.9, '#1d3557'); 
+
+        // Apply the Gradient to the Canvas
+        ctx.fillStyle = gradient;
+        ctx.fillRect(0, 0, w, h);
+    </script>
+
+</body>
+</html>

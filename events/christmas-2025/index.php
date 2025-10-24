@@ -1,46 +1,16 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 
-  <title>Christmas 2025</title>
-
-
- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+JP&family=Noto+Sans+SC&family=Noto+Serif+JP&family=Noto+Serif+SC&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/global/event-page-template/event-page-stylesheets/event-pages-common.css" />
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-head.php'; ?>
+  <title>Kids UP クリスマスパーティー2025</title>
   <link rel="stylesheet" href="./stylesheets/christmas-2025-style.css" />
 
+  
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav>
-    <div class="nav-inner">
-      <a class="navbar-brand" href="https://kids-up.jp/"><img src="/global/event-page-template/event-page-images/hero-logo-white.svg" alt="nav logo" /></a>
-
-      <button class="nav-toggle" aria-label="Toggle navigation">
-        <span class="bar-top"></span>
-        <span class="bar-mid"></span>
-        <span class="bar-bot"></span>
-      </button>
-
-
-      <div class="nav-links">
-        <a href="#about" class="button button-1">イベント概要</a>
-        <a href="#activities" class="button button-2">アクティビティ内容</a>
-        <a href="/events/christmas-2025/form/" class="button button-3" target="_blank">お申込みはこちら</a>
-      </div>
-
-
-        <div class="sticky-cta">
-    <a href="/events/christmas-2025/form/" class="button button-4" target="_blank">お申込みはこちら</a>
-  </div>
-</div>
-</nav>
-
-
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-party-nav.php'; ?>
 
 <!-- Hero Section -->
   
@@ -109,8 +79,9 @@
 
 <div class="show-both">
   <h3>
-  ❶ 9:00-10:20<br class="time-break"> ❸ 14:00-15:20
+  ❶ 9:00-10:20<br class="time-break"> ❸ 14:00-15:20<br>
 </h3>
+
 
 </div>
 
@@ -244,6 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     
     <div class="hero-bottom">
+        <p class="p-sub">※一部スクールは時間が異なります。</p>
 
  <a href="/events/christmas-2025/form/" class="cta-button cta-primary" target="_blank">お申込みはこちら</a>
     </div>
@@ -431,9 +403,6 @@ document.addEventListener('DOMContentLoaded', () => {
           wardDiv.className = 'ward';
           const wardHeader = document.createElement('h3');
           wardHeader.innerHTML = `
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
-              <circle cx="12" cy="12" r="8"/>
-            </svg>
             <span>${wardData['日本語']}</span>
           `;
           wardDiv.appendChild(wardHeader);
@@ -1129,7 +1098,7 @@ KidsUPオリジナル！<br>
 </section>
 
 
-<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-common-components/event-page-footer.php'; ?>
+<?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-footer.php'; ?>
 
 </div>
 
@@ -1162,7 +1131,7 @@ KidsUPオリジナル！<br>
 
 document.addEventListener('DOMContentLoaded', () => {
   const cta = document.querySelector('.sticky-cta');
-  const hideTriggers = document.querySelectorAll('.hero, .cta-party-times, .lower-cta, .footer, .gallery, .sign-up, .bottom, .mobile-cta-hide, #footer'); // Now includes the ID
+  const hideTriggers = document.querySelectorAll('.hero, .cta-party-times, .lower-cta, .footer, .gallery, .sign-up, .bottom, .mobile-cta-hide, #footer, .footer '); // Now includes the ID
 
   if (cta && hideTriggers.length > 0) {
     const observerOptions = {
