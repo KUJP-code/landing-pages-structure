@@ -10,14 +10,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kids UP晴海大募集! 秋の入会キャンペーン</title>
+<title>Kids UP晴海大募集! 入会キャンペーン</title>
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-head.php'; ?>
 <link rel="stylesheet" href="/global/global-stylesheets/template.css">
 
 <link rel="stylesheet" href="css/2024-css/new-school.css" />
 
-<link rel="stylesheet" href="css/2025-css/harumi.css" />
+<link rel="stylesheet" href="css/2025-css/harumi-2.css" />
 </head>
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-nav.php'; ?>
 <!-- Google Tag Manager (noscript) -->
@@ -30,37 +30,49 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 </section>	
     <!-- Section 1: HERO -->
 <div class="top-wrapper">
-    <section class="hero">
-      <div class="img-col">
-        <img src="./new-school-images-2025/harumi-hero-img.png" alt="" class="desktop">
-        <img src="./new-school-images-2025/harumi-hero-img-mobile.png" alt="" class="img-fluid mobile">
-      </div>
 
-      <div class="text-col">
+<div id="hero-autumn">
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/new-schools/new-schools-assets/harumi-hero-autumn.php'; ?>
+</div>
 
-        <div class="h1-wrapper">
-            <h1><span class="drop-shadow">Kids UP晴海</span><br>
-                <span class="h1-sub">大募集! 秋の入会キャンペーン</span>
-              </h1>
-        </div>
+<div id="hero-winter">
+  <?php include $_SERVER['DOCUMENT_ROOT'] . '/new-schools/new-schools-assets/harumi-hero-winter.php'; ?>
+</div>
 
-        <div class="text-lower">
-          <h3 class="top-tagline">
-            使える英語力が身につく
-          </h3>
 
-          <h2 class="signup-discount">入会金最大44,000円OFF</h2>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // --- Helper: create a Date interpreted as JST ---
+    function makeJSTDate(year, monthIndex, day, hours = 0, minutes = 0, seconds = 0) {
+      // Create the intended time as if it were JST local time,
+      // then subtract 9 hours so that the UTC representation matches JST.
+      return new Date(Date.UTC(year, monthIndex, day, hours - 9, minutes, seconds));
+    }
 
-          <h3 class="features">保育園・小学校・自宅近くまで</h3>
+    // --- Current time in JST ---
+    const now = new Date();
+    const nowUTC = now.getTime() + now.getTimezoneOffset() * 60000;
+    const nowJST = new Date(nowUTC + 9 * 60 * 60000);
 
-          <h2 class="free-bus">無料送迎バスあり</h2>
+    // --- Define your switch date in *JST*, no manual offset needed ---
+    // Example: November 15, 2025, 00:00 JST
+    const switchDateJST = makeJSTDate(2025, 9, 31, 00, 00, 0);
+    // --- Get hero elements ---
+    const heroAutumn = document.getElementById("hero-autumn");
+    const heroWinter = document.getElementById("hero-winter");
+    if (!heroAutumn || !heroWinter) return;
 
-          <a href="https://kids-up.jp/entry/#/calendar/23/undefined" class="special-offer-button">無料体験に参加する</a>
-        </div>
+    // --- Toggle visibility based on JST date ---
+    if (nowJST < switchDateJST) {
+      heroAutumn.style.display = "block";
+      heroWinter.style.display = "none";
+    } else {
+      heroAutumn.style.display = "none";
+      heroWinter.style.display = "block";
+    }
+  });
+</script>
 
-      </div>
-
-      </section>
 
 
 
@@ -74,10 +86,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="container">
             <div class="address-hyperlink-wrapper">
               <a href="https://share.google/9vELGzioxGBYEHZSa" target="_blank">
-<h2 class="call-to-action-h2" style="text-decoration: underline solid white;">
-            
-〒104-0053<br /> 東京都中央区晴海1-1-28<br /> キャナルハウス 3F
-          </h2>
+
+            <h2 class="call-to-action-h2" style="text-decoration: underline solid white;">            
+              〒104-0053<br /> 東京都中央区晴海1-1-28<br /> キャナルハウス 3F
+            </h2>
 
         </a>
             </div>

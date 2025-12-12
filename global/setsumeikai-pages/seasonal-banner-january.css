@@ -1,0 +1,167 @@
+@font-face {
+  font-family: "Shin-Maru-GP-Regular";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-Bold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-DeBold";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.woff);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-Heavy";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF-SHINMGOPRO-HEAVY.OTF);
+}
+@font-face {
+  font-family: "Shin-Maru-GP-Ultra";
+  src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
+}
+.seasonal-cta {
+  background-color: #2595ce;
+  background-image: url("/lp-setsumeikai-2023/images/banner/choco-bg.png"), url("/lp-setsumeikai-2023/images/banner/start-year-badge.svg"), url("/lp-setsumeikai-2023/images/banner/winter-choco-background-bg.webp");
+  background-position: bottom left, top right, center;
+  background-size: 32% auto, 30% auto, cover;
+  background-repeat: no-repeat;
+}
+@media (max-width: 991px) {
+  .seasonal-cta {
+    background-size: 50% auto, 50% auto, cover;
+  }
+}
+@media (max-width: 576px) {
+  .seasonal-cta {
+    background-size: 65% auto, 65% auto, cover;
+  }
+}
+
+.transition-top, .transition-bottom {
+  width: 100%;
+  height: 4rem;
+  background-color: white;
+}
+
+.transition-top {
+  border-radius: 0 0 3rem 3rem;
+}
+
+.transition-bottom {
+  border-radius: 3rem 3rem 0 0;
+}
+
+.text-stack {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: auto;
+}
+.text-stack h2 {
+  background-color: white;
+  padding: 1.5rem;
+  color: #f48120;
+  text-align: center;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1.5rem;
+  font-family: "Shin-Maru-GP-Heavy";
+  margin-bottom: 1rem;
+}
+.text-stack .h3-container {
+  padding: 1rem;
+  background-color: #224488;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  text-align: center;
+}
+.text-stack .h3-container h3 {
+  color: #224488;
+  font-family: "Shin-Maru-GP-Bold";
+  align-items: center;
+  justify-content: center;
+  -webkit-text-stroke: 10px white;
+  text-stroke: 1rem white;
+  paint-order: stroke fill;
+  filter: drop-shadow(0 0.2rem 0 white);
+  line-height: 1.5;
+  margin-bottom: -0.25rem;
+}
+.text-stack .h3-container h3 .big {
+  font-size: 1.75em;
+}
+.text-stack .h3-container-white {
+  padding: 1rem;
+  background-color: white;
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  text-align: center;
+}
+.text-stack .h3-container-white h3 {
+  color: #224488;
+  font-family: "Shin-Maru-GP-Bold";
+  align-items: center;
+  justify-content: center;
+}
+.text-stack .h3-container-white h3 .big {
+  font-size: 1.75em;
+}
+.text-stack .h3-container-white h3 .stroke {
+  color: white;
+  -webkit-text-stroke: 10px #224488;
+  text-stroke: 1rem #224488;
+  paint-order: stroke fill;
+  filter: drop-shadow(0 0.2rem 0 #224488);
+  line-height: 1.5;
+  margin-bottom: -0.25rem;
+}
+.text-stack .button-wrapper {
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.text-stack .button-wrapper .special-offer-button {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0.5rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  margin: auto;
+  background-color: #2595ce;
+  border-radius: 4rem;
+  border: solid 0.25rem white;
+  font-family: "Shin-Maru-GP-Bold";
+  color: white;
+  font-size: 1.5rem;
+  box-shadow: 0 0.75rem 0 white;
+  transition: ease-in-out 0.2s;
+  z-index: 1;
+}
+.text-stack .button-wrapper .special-offer-button:hover {
+  background-color: white;
+  color: #2595ce;
+  border-color: #2595ce;
+  box-shadow: 0 1rem 0 #2595ce;
+  transition: ease-in-out 0.2s;
+  transform: translateY(-0.25rem);
+}
+.text-stack .button-wrapper .special-offer-button:active {
+  transform: translateY(0.95rem);
+  box-shadow: 0 0.05rem 0 #2595ce;
+}
+.text-stack .button-wrapper .finger {
+  width: 33%;
+  margin: auto;
+  margin-right: 0;
+  padding: 0.5rem;
+  z-index: 2;
+}/*# sourceMappingURL=seasonal-banner-january.css.map */

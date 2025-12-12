@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 335.96 341.74">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+        stroke-linejoin: round;
+        stroke-width: 6.96px;
+      }
+
+      .cls-2, .cls-3 {
+        font-family: ShinMGoPro-Bold-83pv-RKSJ-H, 'A-OTF Shin Maru Go Pro';
+        font-size: 38.69px;
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: #214386;
+      }
+
+      .cls-5 {
+        letter-spacing: -.33em;
+      }
+
+      .cls-6 {
+        letter-spacing: -.06em;
+      }
+
+      .cls-7 {
+        letter-spacing: -.16em;
+      }
+
+      .cls-8 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-9 {
+        letter-spacing: -.04em;
+      }
+
+      .cls-10 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-11 {
+        letter-spacing: -.01em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-3 {
+        fill: #214587;
+      }
+
+      .cls-13 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" width="335.96" height="341.74"/>
+    </clipPath>
+  </defs>
+  <g class="cls-13">
+    <polygon class="cls-4" points="351.11 135.46 339.89 160.76 352.17 185.57 334.26 206.67 339.01 233.94 315.87 249.13 312.77 276.64 286.3 284.73 275.59 310.26 247.91 310.54 230.41 331.99 203.78 324.44 180.97 340.14 157.51 325.43 131.2 334.03 112.88 313.29 85.21 314.11 73.45 289.05 46.66 282.09 42.42 254.73 18.68 240.49 22.36 213.05 3.62 192.68 14.84 167.38 2.56 142.57 20.47 121.47 15.72 94.2 38.86 79.01 41.96 51.5 68.43 43.41 79.14 17.88 106.82 17.59 124.31 -3.85 150.95 3.69 173.76 -12 197.21 2.71 223.52 -5.9 241.85 14.85 269.52 14.03 281.28 39.09 308.07 46.05 312.31 73.4 336.05 87.65 332.36 115.08 351.11 135.46"/>
+    <g>
+      <g>
+        <text class="cls-2" transform="translate(90.57 129.33) rotate(-9.35)"><tspan class="cls-11"><tspan x="0" y="0">2027年</tspan></tspan><tspan class="cls-11" x="-46.55" y="60.05">28</tspan><tspan class="cls-10" x="2.82" y="60.05">年</tspan><tspan class="cls-6" x="40.43" y="60.05">ス</tspan><tspan class="cls-9" x="76.92" y="60.05">タ</tspan><tspan class="cls-7" x="114.14" y="60.05">ー</tspan><tspan class="cls-8" x="146.48" y="60.05">ト</tspan><tspan class="cls-12" x="-33.85" y="120.1">予約受付</tspan><tspan class="cls-5" x="119.36" y="120.1">中！</tspan></text>
+        <text class="cls-2" transform="translate(90.57 126.37) rotate(-9.35)"><tspan class="cls-11"><tspan x="0" y="0">2027年</tspan></tspan><tspan class="cls-11" x="-46.55" y="60.05">28</tspan><tspan class="cls-10" x="2.82" y="60.05">年</tspan><tspan class="cls-6" x="40.43" y="60.05">ス</tspan><tspan class="cls-9" x="76.92" y="60.05">タ</tspan><tspan class="cls-7" x="114.14" y="60.05">ー</tspan><tspan class="cls-8" x="146.48" y="60.05">ト</tspan><tspan class="cls-12" x="-33.85" y="120.1">予約受付</tspan><tspan class="cls-5" x="119.36" y="120.1">中！</tspan></text>
+      </g>
+      <text class="cls-3" transform="translate(90.57 126.37) rotate(-9.35)"><tspan class="cls-11"><tspan x="0" y="0">2027年</tspan></tspan><tspan class="cls-11" x="-46.55" y="60.05">28</tspan><tspan class="cls-10" x="2.82" y="60.05">年</tspan><tspan class="cls-6" x="40.43" y="60.05">ス</tspan><tspan class="cls-9" x="76.92" y="60.05">タ</tspan><tspan class="cls-7" x="114.14" y="60.05">ー</tspan><tspan class="cls-8" x="146.48" y="60.05">ト</tspan><tspan class="cls-12" x="-33.85" y="120.1">予約受付</tspan><tspan class="cls-5" x="119.36" y="120.1">中！</tspan></text>
+    </g>
+  </g>
+</svg>

@@ -19,8 +19,8 @@
   src: url(/wp-content/themes/kidsup/fonts/A-OTF\ Shin\ Maru\ Go\ Pro\ U.otf);
 }
 .seasonal-cta {
-  background-color: #b13828;
-  background-image: url("/lp-setsumeikai-2023/images/banner/christmas-bg.png"), url("/lp-setsumeikai-2023/images/banner/lesson-bg.png"), url("/lp-setsumeikai-2023/images/banner/autumn-leaves.svg");
+  background-color: #66bedb;
+  background-image: url("/lp-setsumeikai-2023/images/banner/winter-bg.png"), url("/lp-setsumeikai-2023/images/banner/lesson-bg.png"), url("/lp-setsumeikai-2023/images/banner/winter-background-bg.png");
   background-position: bottom left, top right, center;
   background-size: 40% auto, 40% auto, cover;
   background-repeat: no-repeat;
@@ -61,7 +61,7 @@
 .text-stack h2 {
   background-color: white;
   padding: 1.5rem;
-  color: #f48120;
+  color: #224488;
   text-align: center;
   margin: auto;
   width: -moz-fit-content;
@@ -72,14 +72,14 @@
 }
 .text-stack .h3-container {
   padding: 1rem;
-  background-color: #117f40;
+  background-color: #224488;
   margin: auto;
   width: -moz-fit-content;
   width: fit-content;
   border-radius: 1rem;
 }
 .text-stack .h3-container h3 {
-  color: #f48120;
+  color: #224488;
   font-family: "Shin-Maru-GP-Bold";
   align-items: center;
   justify-content: center;
@@ -107,7 +107,7 @@
   padding-left: 4rem;
   padding-right: 4rem;
   margin: auto;
-  background-color: #117f40;
+  background-color: #224488;
   border-radius: 4rem;
   border: solid 0.25rem white;
   font-family: "Shin-Maru-GP-Bold";
@@ -119,15 +119,15 @@
 }
 .text-stack .button-wrapper .special-offer-button:hover {
   background-color: white;
-  color: #117f40;
-  border-color: #117f40;
-  box-shadow: 0 1rem 0 #117f40;
+  color: #224488;
+  border-color: #224488;
+  box-shadow: 0 1rem 0 #224488;
   transition: ease-in-out 0.2s;
   transform: translateY(-0.25rem);
 }
 .text-stack .button-wrapper .special-offer-button:active {
   transform: translateY(0.95rem);
-  box-shadow: 0 0.05rem 0 #117f40;
+  box-shadow: 0 0.05rem 0 #224488;
 }
 .text-stack .button-wrapper .finger {
   width: 33%;

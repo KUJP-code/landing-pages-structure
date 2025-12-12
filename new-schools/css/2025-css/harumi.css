@@ -2,32 +2,32 @@
   background-color: #f3801f;
 }
 
-.hero {
+.hero-winter {
   min-height: 830px;
   max-height: 960px;
   height: 100vh;
   display: flex;
   flex-direction: row;
-  background: center/cover no-repeat url("/new-schools/new-school-images-2025/harumi-hero-bg.png");
+  background: center/cover no-repeat url("/new-schools/new-school-images-2025/harumi-bg-winter.jpg");
   background-color: #f7f5ef;
   border-radius: 0 0 3rem 3rem;
   overflow: hidden;
 }
-.hero .img-col {
+.hero-winter .img-col {
   width: 45%;
   position: relative;
 }
-.hero .img-col .mobile {
+.hero-winter .img-col .mobile {
   display: none;
 }
-.hero .img-col .desktop {
+.hero-winter .img-col .desktop {
   position: absolute;
   left: 100%;
   top: 55%;
   height: 100%;
   transform: translate(-100%, -50%);
 }
-.hero .text-col {
+.hero-winter .text-col {
   width: 55%;
   position: relative;
   height: 100%;
@@ -35,15 +35,15 @@
   flex-direction: column;
   justify-content: space-between;
 }
-.hero .text-col .h1-wrapper {
+.hero-winter .text-col .h1-wrapper {
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   height: 50%;
 }
-.hero .text-col .h1-wrapper h1 {
-  color: #f3801f;
+.hero-winter .text-col .h1-wrapper h1 {
+  color: white;
   font-family: "Shin-Maru-GP-Ultra";
   font-size: 6rem;
   text-align: center;
@@ -51,20 +51,20 @@
   padding-top: 1rem;
   margin: auto;
   paint-order: stroke fill;
-  -webkit-text-stroke: 1rem #fef1d1;
+  -webkit-text-stroke: 1rem #f3801f;
 }
-.hero .text-col .h1-wrapper h1 .drop-shadow {
-  filter: drop-shadow(0 1rem 0 #fef1d1);
+.hero-winter .text-col .h1-wrapper h1 .drop-shadow {
+  filter: drop-shadow(0 0.5rem 0 #f3801f);
 }
-.hero .text-col .h1-wrapper h1 .h1-sub {
+.hero-winter .text-col .h1-wrapper h1 .h1-sub {
   display: block;
   font-size: 3rem;
-  color: #fef1d1;
+  color: #f3801f;
   font-family: "Shin-Maru-GP-Bold";
   -webkit-text-stroke: 0;
   filter: unset !important;
 }
-.hero .text-col .text-lower {
+.hero-winter .text-col .text-lower {
   width: 100%;
   aspect-ratio: 1653/878;
   display: flex;
@@ -73,15 +73,15 @@
   align-items: center;
   gap: 1rem;
   margin-bottom: 0;
-  background: bottom center/contain no-repeat url("/new-schools/new-school-images-2025/text-lower-bg.svg");
+  background: bottom center/contain no-repeat url("/new-schools/new-school-images-2025/text-lower-bg-alt.svg");
 }
-.hero .text-col .text-lower .top-tagline {
+.hero-winter .text-col .text-lower .top-tagline {
   padding-top: 2rem;
   color: #f3801f;
   font-family: "Shin-Maru-GP-Bold";
   font-size: 1.75rem;
 }
-.hero .text-col .text-lower .signup-discount {
+.hero-winter .text-col .text-lower .signup-discount {
   font-family: "Shin-Maru-GP-Bold";
   font-size: 2.25rem;
   color: #fde500;
@@ -89,12 +89,12 @@
   -webkit-text-stroke: 0.5rem #f3801f;
   paint-order: stroke fill;
 }
-.hero .text-col .text-lower .features {
+.hero-winter .text-col .text-lower .features {
   font-family: "Shin-Maru-GP-Bold";
   font-size: 1.25rem;
   color: #f3801f;
 }
-.hero .text-col .text-lower .free-bus {
+.hero-winter .text-col .text-lower .free-bus {
   font-family: "Shin-Maru-GP-Bold";
   font-size: 3.25rem;
   color: #fde500;
@@ -103,7 +103,7 @@
   paint-order: stroke fill;
   padding-bottom: 1rem;
 }
-.hero .text-col .text-lower .special-offer-button {
+.hero-winter .text-col .text-lower .special-offer-button {
   display: inline-block;
   padding: 0.5rem 4rem;
   background-color: #fde500;
@@ -116,319 +116,751 @@
   transition: all 0.2s ease-in-out;
   z-index: 1;
 }
-.hero .text-col .text-lower .special-offer-button:hover {
+.hero-winter .text-col .text-lower .special-offer-button:hover {
   background-color: white;
   box-shadow: 0 1rem 0 #f3801f;
   transform: translateY(-0.25rem);
 }
-.hero .text-col .text-lower .special-offer-button:active {
+.hero-winter .text-col .text-lower .special-offer-button:active {
   transform: translateY(0.95rem);
   box-shadow: 0 0.05rem 0 #f3801f;
 }
 @media (max-width: 1399.98px) {
-  .hero {
+  .hero-winter {
     min-height: 660px;
     height: 100vh;
     max-height: 900px;
   }
-  .hero .img-col {
+  .hero-winter .img-col {
     width: 45%;
   }
-  .hero .text-col {
+  .hero-winter .text-col {
     width: 55%;
   }
-  .hero .text-col .h1-wrapper h1 {
+  .hero-winter .text-col .h1-wrapper h1 {
     font-size: 5rem;
   }
-  .hero .text-col .h1-wrapper h1 .drop-shadow {
+  .hero-winter .text-col .h1-wrapper h1 .drop-shadow {
     filter: drop-shadow(0 1rem 0 #fef1d1);
   }
-  .hero .text-col .h1-wrapper h1 .h1-sub {
+  .hero-winter .text-col .h1-wrapper h1 .h1-sub {
     padding-top: 0.5rem;
     font-size: 2.5rem;
   }
-  .hero .text-col .text-lower .top-tagline {
+  .hero-winter .text-col .text-lower .top-tagline {
     padding-top: 2.5rem;
     font-size: 1.5rem;
   }
-  .hero .text-col .text-lower .signup-discount {
+  .hero-winter .text-col .text-lower .signup-discount {
     font-size: 2rem;
   }
-  .hero .text-col .text-lower .features {
+  .hero-winter .text-col .text-lower .features {
     font-size: 1rem;
   }
-  .hero .text-col .text-lower .free-bus {
+  .hero-winter .text-col .text-lower .free-bus {
     font-size: 3rem;
   }
-  .hero .text-col .text-lower .special-offer-button {
+  .hero-winter .text-col .text-lower .special-offer-button {
     padding: 0.5rem 4rem;
     font-size: 1rem;
   }
 }
 @media (max-width: 1199.98px) {
-  .hero {
+  .hero-winter {
     height: 100vh;
     max-height: 800px;
     min-height: 630px;
   }
-  .hero .img-col {
+  .hero-winter .img-col {
     width: 45%;
   }
-  .hero .text-col {
+  .hero-winter .text-col {
     width: 55%;
   }
-  .hero .text-col .h1-wrapper h1 {
+  .hero-winter .text-col .h1-wrapper h1 {
     font-size: 4.74rem;
   }
-  .hero .text-col .h1-wrapper h1 .drop-shadow {
+  .hero-winter .text-col .h1-wrapper h1 .drop-shadow {
     filter: drop-shadow(0 1rem 0 #fef1d1);
   }
-  .hero .text-col .h1-wrapper h1 .h1-sub {
+  .hero-winter .text-col .h1-wrapper h1 .h1-sub {
     font-size: 2.25rem;
     padding-top: 1rem;
   }
-  .hero .text-col .text-lower {
+  .hero-winter .text-col .text-lower {
     gap: 0.5rem;
   }
-  .hero .text-col .text-lower .top-tagline {
+  .hero-winter .text-col .text-lower .top-tagline {
     padding-top: 2.5rem;
     font-size: 1.25rem;
   }
-  .hero .text-col .text-lower .signup-discount {
+  .hero-winter .text-col .text-lower .signup-discount {
     font-size: 1.75rem;
   }
-  .hero .text-col .text-lower .features {
+  .hero-winter .text-col .text-lower .features {
     font-size: 1rem;
   }
-  .hero .text-col .text-lower .free-bus {
+  .hero-winter .text-col .text-lower .free-bus {
     font-size: 2.5rem;
   }
-  .hero .text-col .text-lower .special-offer-button {
+  .hero-winter .text-col .text-lower .special-offer-button {
     padding: 0.25rem 2rem;
     font-size: 1rem;
   }
 }
 @media (max-width: 991.98px) {
-  .hero {
+  .hero-winter {
     min-height: 520px;
     height: 100vh;
     max-height: 600px;
   }
-  .hero .img-col {
+  .hero-winter .img-col {
     width: 40%;
   }
-  .hero .text-col {
+  .hero-winter .text-col {
     width: 60%;
   }
-  .hero .text-col .h1-wrapper h1 {
+  .hero-winter .text-col .h1-wrapper h1 {
     font-size: 4.25rem;
   }
-  .hero .text-col .h1-wrapper h1 .drop-shadow {
+  .hero-winter .text-col .h1-wrapper h1 .drop-shadow {
     filter: drop-shadow(0 1rem 0 #fef1d1);
   }
-  .hero .text-col .h1-wrapper h1 .h1-sub {
+  .hero-winter .text-col .h1-wrapper h1 .h1-sub {
     font-size: 2rem;
     padding-top: 1rem;
   }
-  .hero .text-col .text-lower {
+  .hero-winter .text-col .text-lower {
     gap: 0.25rem;
   }
-  .hero .text-col .text-lower .top-tagline {
+  .hero-winter .text-col .text-lower .top-tagline {
     padding-top: 1.5rem;
     font-size: 1.25rem;
   }
-  .hero .text-col .text-lower .signup-discount {
+  .hero-winter .text-col .text-lower .signup-discount {
     font-size: 1.25rem;
   }
-  .hero .text-col .text-lower .features {
+  .hero-winter .text-col .text-lower .features {
     font-size: 1rem;
     padding-top: 0.5rem;
   }
-  .hero .text-col .text-lower .free-bus {
+  .hero-winter .text-col .text-lower .free-bus {
     font-size: 2rem;
   }
-  .hero .text-col .text-lower .special-offer-button {
+  .hero-winter .text-col .text-lower .special-offer-button {
     padding: 0.15rem 2rem;
     font-size: 1rem;
   }
 }
 @media (max-width: 767.98px) {
-  .hero {
+  .hero-winter {
     height: -moz-fit-content;
     height: fit-content;
     min-height: unset;
     max-height: unset;
     flex-direction: column;
   }
-  .hero .img-col {
+  .hero-winter .img-col {
     width: 100%;
     margin-top: 68px;
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .hero .img-col .desktop {
+  .hero-winter .img-col .desktop {
     display: none;
   }
-  .hero .img-col .mobile {
+  .hero-winter .img-col .mobile {
     display: block;
   }
-  .hero .img-col img {
+  .hero-winter .img-col img {
     height: 100%;
     width: auto;
   }
-  .hero .text-col {
+  .hero-winter .text-col {
     width: 100%;
   }
-  .hero .text-col .h1-wrapper {
+  .hero-winter .text-col .h1-wrapper {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  .hero .text-col .h1-wrapper h1 {
+  .hero-winter .text-col .h1-wrapper h1 {
     font-size: 3.5rem;
   }
-  .hero .text-col .h1-wrapper h1 .drop-shadow {
+  .hero-winter .text-col .h1-wrapper h1 .drop-shadow {
     filter: drop-shadow(0 1rem 0 #fef1d1);
   }
-  .hero .text-col .h1-wrapper h1 .h1-sub {
+  .hero-winter .text-col .h1-wrapper h1 .h1-sub {
     font-size: 1.5rem;
     padding-top: 1rem;
   }
-  .hero .text-col .text-lower {
+  .hero-winter .text-col .text-lower {
     background-size: 150%;
     background-position: top center;
     padding-bottom: 2rem;
     gap: 0.5rem;
   }
-  .hero .text-col .text-lower .top-tagline {
+  .hero-winter .text-col .text-lower .top-tagline {
     padding-top: 2.5rem;
     font-size: 1.5rem;
   }
-  .hero .text-col .text-lower .signup-discount {
+  .hero-winter .text-col .text-lower .signup-discount {
     font-size: 2rem;
   }
-  .hero .text-col .text-lower .features {
+  .hero-winter .text-col .text-lower .features {
     font-size: 1rem;
   }
-  .hero .text-col .text-lower .free-bus {
+  .hero-winter .text-col .text-lower .free-bus {
     font-size: 3rem;
   }
-  .hero .text-col .text-lower .special-offer-button {
+  .hero-winter .text-col .text-lower .special-offer-button {
     padding: 0.5rem 4rem;
     font-size: 1rem;
   }
 }
 @media (max-width: 575.98px) {
-  .hero .img-col {
+  .hero-winter .img-col {
     width: 100%;
     margin-top: 68px;
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .hero .img-col .desktop {
+  .hero-winter .img-col .desktop {
     display: none;
   }
-  .hero .img-col .mobile {
+  .hero-winter .img-col .mobile {
     display: block;
   }
-  .hero .img-col img {
+  .hero-winter .img-col img {
     height: 100%;
     width: auto;
   }
-  .hero .text-col {
+  .hero-winter .text-col {
     width: 100%;
   }
-  .hero .text-col .h1-wrapper {
+  .hero-winter .text-col .h1-wrapper {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  .hero .text-col .h1-wrapper h1 {
+  .hero-winter .text-col .h1-wrapper h1 {
     font-size: 3rem;
   }
-  .hero .text-col .h1-wrapper h1 .drop-shadow {
+  .hero-winter .text-col .h1-wrapper h1 .drop-shadow {
     filter: drop-shadow(0 1rem 0 #fef1d1);
   }
-  .hero .text-col .h1-wrapper h1 .h1-sub {
+  .hero-winter .text-col .h1-wrapper h1 .h1-sub {
     font-size: 1.5rem;
     padding-top: 1rem;
   }
-  .hero .text-col .text-lower {
+  .hero-winter .text-col .text-lower {
     background-size: 175%;
     background-position: top center;
     padding-bottom: 2rem;
     gap: 0.5rem;
   }
-  .hero .text-col .text-lower .top-tagline {
+  .hero-winter .text-col .text-lower .top-tagline {
     padding-top: 2.5rem;
     font-size: 1.25rem;
   }
-  .hero .text-col .text-lower .signup-discount {
+  .hero-winter .text-col .text-lower .signup-discount {
     font-size: 1.5rem;
   }
-  .hero .text-col .text-lower .features {
+  .hero-winter .text-col .text-lower .features {
     font-size: 1rem;
   }
-  .hero .text-col .text-lower .free-bus {
+  .hero-winter .text-col .text-lower .free-bus {
     font-size: 2rem;
   }
-  .hero .text-col .text-lower .special-offer-button {
+  .hero-winter .text-col .text-lower .special-offer-button {
     padding: 0.5rem 4rem;
     font-size: 1rem;
   }
 }
 @media (max-width: 374.97px) {
-  .hero .img-col {
+  .hero-winter .img-col {
     width: 100%;
     margin-top: 68px;
     -o-object-fit: contain;
        object-fit: contain;
   }
-  .hero .img-col .desktop {
+  .hero-winter .img-col .desktop {
     display: none;
   }
-  .hero .img-col .mobile {
+  .hero-winter .img-col .mobile {
     display: block;
   }
-  .hero .img-col img {
+  .hero-winter .img-col img {
     height: 100%;
     width: auto;
   }
-  .hero .text-col {
+  .hero-winter .text-col {
     width: 100%;
   }
-  .hero .text-col .h1-wrapper {
+  .hero-winter .text-col .h1-wrapper {
     padding-top: 2rem;
     padding-bottom: 2rem;
   }
-  .hero .text-col .h1-wrapper h1 {
+  .hero-winter .text-col .h1-wrapper h1 {
     font-size: 2.75rem;
   }
-  .hero .text-col .h1-wrapper h1 .drop-shadow {
+  .hero-winter .text-col .h1-wrapper h1 .drop-shadow {
     filter: drop-shadow(0 1rem 0 #fef1d1);
   }
-  .hero .text-col .h1-wrapper h1 .h1-sub {
+  .hero-winter .text-col .h1-wrapper h1 .h1-sub {
     font-size: 1.325rem;
     padding-top: 1rem;
   }
-  .hero .text-col .text-lower {
+  .hero-winter .text-col .text-lower {
     background-size: 175%;
     background-position: top center;
     padding-bottom: 2rem;
     gap: 0.5rem;
   }
-  .hero .text-col .text-lower .top-tagline {
+  .hero-winter .text-col .text-lower .top-tagline {
     padding-top: 2.5rem;
     font-size: 1.25rem;
   }
-  .hero .text-col .text-lower .signup-discount {
+  .hero-winter .text-col .text-lower .signup-discount {
     font-size: 1.5rem;
   }
-  .hero .text-col .text-lower .features {
+  .hero-winter .text-col .text-lower .features {
     font-size: 1rem;
   }
-  .hero .text-col .text-lower .free-bus {
+  .hero-winter .text-col .text-lower .free-bus {
     font-size: 2rem;
   }
-  .hero .text-col .text-lower .special-offer-button {
+  .hero-winter .text-col .text-lower .special-offer-button {
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+  }
+}
+
+.hero-autumn {
+  min-height: 830px;
+  max-height: 960px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background: center/cover no-repeat url("/new-schools/new-school-images-2025/harumi-hero-bg.png");
+  background-color: #f7f5ef;
+  border-radius: 0 0 3rem 3rem;
+  overflow: hidden;
+}
+.hero-autumn .img-col {
+  width: 45%;
+  position: relative;
+}
+.hero-autumn .img-col .mobile {
+  display: none;
+}
+.hero-autumn .img-col .desktop {
+  position: absolute;
+  left: 100%;
+  top: 55%;
+  height: 100%;
+  transform: translate(-100%, -50%);
+}
+.hero-autumn .text-col {
+  width: 55%;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.hero-autumn .text-col .h1-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+.hero-autumn .text-col .h1-wrapper h1 {
+  color: #f3801f;
+  font-family: "Shin-Maru-GP-Ultra";
+  font-size: 6rem;
+  text-align: center;
+  line-height: 1.25;
+  padding-top: 1rem;
+  margin: auto;
+  paint-order: stroke fill;
+  -webkit-text-stroke: 1rem #fef1d1;
+}
+.hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+  filter: drop-shadow(0 1rem 0 #fef1d1);
+}
+.hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+  display: block;
+  font-size: 3rem;
+  color: #fef1d1;
+  font-family: "Shin-Maru-GP-Bold";
+  -webkit-text-stroke: 0;
+  filter: unset !important;
+}
+.hero-autumn .text-col .text-lower {
+  width: 100%;
+  aspect-ratio: 1653/878;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0;
+  background: bottom center/contain no-repeat url("/new-schools/new-school-images-2025/text-lower-bg.svg");
+}
+.hero-autumn .text-col .text-lower .top-tagline {
+  padding-top: 2rem;
+  color: #f3801f;
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.75rem;
+}
+.hero-autumn .text-col .text-lower .signup-discount {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 2.25rem;
+  color: #fde500;
+  filter: drop-shadow(0 0.5rem 0 #f3801f);
+  -webkit-text-stroke: 0.5rem #f3801f;
+  paint-order: stroke fill;
+}
+.hero-autumn .text-col .text-lower .features {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 1.25rem;
+  color: #f3801f;
+}
+.hero-autumn .text-col .text-lower .free-bus {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 3.25rem;
+  color: #fde500;
+  filter: drop-shadow(0 0.5rem 0 #f3801f);
+  -webkit-text-stroke: 0.5rem #f3801f;
+  paint-order: stroke fill;
+  padding-bottom: 1rem;
+}
+.hero-autumn .text-col .text-lower .special-offer-button {
+  display: inline-block;
+  padding: 0.5rem 4rem;
+  background-color: #fde500;
+  border: solid 0.25rem #f3801f;
+  border-radius: 4rem;
+  font-family: "Shin-Maru-GP-Bold";
+  color: #f3801f;
+  font-size: 1.25rem;
+  box-shadow: 0 0.75rem 0 #f3801f;
+  transition: all 0.2s ease-in-out;
+  z-index: 1;
+}
+.hero-autumn .text-col .text-lower .special-offer-button:hover {
+  background-color: white;
+  box-shadow: 0 1rem 0 #f3801f;
+  transform: translateY(-0.25rem);
+}
+.hero-autumn .text-col .text-lower .special-offer-button:active {
+  transform: translateY(0.95rem);
+  box-shadow: 0 0.05rem 0 #f3801f;
+}
+@media (max-width: 1399.98px) {
+  .hero-autumn {
+    min-height: 660px;
+    height: 100vh;
+    max-height: 900px;
+  }
+  .hero-autumn .img-col {
+    width: 45%;
+  }
+  .hero-autumn .text-col {
+    width: 55%;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 {
+    font-size: 5rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+    filter: drop-shadow(0 1rem 0 #fef1d1);
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+    padding-top: 0.5rem;
+    font-size: 2.5rem;
+  }
+  .hero-autumn .text-col .text-lower .top-tagline {
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .hero-autumn .text-col .text-lower .signup-discount {
+    font-size: 2rem;
+  }
+  .hero-autumn .text-col .text-lower .features {
+    font-size: 1rem;
+  }
+  .hero-autumn .text-col .text-lower .free-bus {
+    font-size: 3rem;
+  }
+  .hero-autumn .text-col .text-lower .special-offer-button {
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 1199.98px) {
+  .hero-autumn {
+    height: 100vh;
+    max-height: 800px;
+    min-height: 630px;
+  }
+  .hero-autumn .img-col {
+    width: 45%;
+  }
+  .hero-autumn .text-col {
+    width: 55%;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 {
+    font-size: 4.74rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+    filter: drop-shadow(0 1rem 0 #fef1d1);
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+    font-size: 2.25rem;
+    padding-top: 1rem;
+  }
+  .hero-autumn .text-col .text-lower {
+    gap: 0.5rem;
+  }
+  .hero-autumn .text-col .text-lower .top-tagline {
+    padding-top: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .hero-autumn .text-col .text-lower .signup-discount {
+    font-size: 1.75rem;
+  }
+  .hero-autumn .text-col .text-lower .features {
+    font-size: 1rem;
+  }
+  .hero-autumn .text-col .text-lower .free-bus {
+    font-size: 2.5rem;
+  }
+  .hero-autumn .text-col .text-lower .special-offer-button {
+    padding: 0.25rem 2rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero-autumn {
+    min-height: 520px;
+    height: 100vh;
+    max-height: 600px;
+  }
+  .hero-autumn .img-col {
+    width: 40%;
+  }
+  .hero-autumn .text-col {
+    width: 60%;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 {
+    font-size: 4.25rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+    filter: drop-shadow(0 1rem 0 #fef1d1);
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+    font-size: 2rem;
+    padding-top: 1rem;
+  }
+  .hero-autumn .text-col .text-lower {
+    gap: 0.25rem;
+  }
+  .hero-autumn .text-col .text-lower .top-tagline {
+    padding-top: 1.5rem;
+    font-size: 1.25rem;
+  }
+  .hero-autumn .text-col .text-lower .signup-discount {
+    font-size: 1.25rem;
+  }
+  .hero-autumn .text-col .text-lower .features {
+    font-size: 1rem;
+    padding-top: 0.5rem;
+  }
+  .hero-autumn .text-col .text-lower .free-bus {
+    font-size: 2rem;
+  }
+  .hero-autumn .text-col .text-lower .special-offer-button {
+    padding: 0.15rem 2rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero-autumn {
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: unset;
+    max-height: unset;
+    flex-direction: column;
+  }
+  .hero-autumn .img-col {
+    width: 100%;
+    margin-top: 68px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .hero-autumn .img-col .desktop {
+    display: none;
+  }
+  .hero-autumn .img-col .mobile {
+    display: block;
+  }
+  .hero-autumn .img-col img {
+    height: 100%;
+    width: auto;
+  }
+  .hero-autumn .text-col {
+    width: 100%;
+  }
+  .hero-autumn .text-col .h1-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 {
+    font-size: 3.5rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+    filter: drop-shadow(0 1rem 0 #fef1d1);
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  .hero-autumn .text-col .text-lower {
+    background-size: 150%;
+    background-position: top center;
+    padding-bottom: 2rem;
+    gap: 0.5rem;
+  }
+  .hero-autumn .text-col .text-lower .top-tagline {
+    padding-top: 2.5rem;
+    font-size: 1.5rem;
+  }
+  .hero-autumn .text-col .text-lower .signup-discount {
+    font-size: 2rem;
+  }
+  .hero-autumn .text-col .text-lower .features {
+    font-size: 1rem;
+  }
+  .hero-autumn .text-col .text-lower .free-bus {
+    font-size: 3rem;
+  }
+  .hero-autumn .text-col .text-lower .special-offer-button {
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 575.98px) {
+  .hero-autumn .img-col {
+    width: 100%;
+    margin-top: 68px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .hero-autumn .img-col .desktop {
+    display: none;
+  }
+  .hero-autumn .img-col .mobile {
+    display: block;
+  }
+  .hero-autumn .img-col img {
+    height: 100%;
+    width: auto;
+  }
+  .hero-autumn .text-col {
+    width: 100%;
+  }
+  .hero-autumn .text-col .h1-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 {
+    font-size: 3rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+    filter: drop-shadow(0 1rem 0 #fef1d1);
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+  }
+  .hero-autumn .text-col .text-lower {
+    background-size: 175%;
+    background-position: top center;
+    padding-bottom: 2rem;
+    gap: 0.5rem;
+  }
+  .hero-autumn .text-col .text-lower .top-tagline {
+    padding-top: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .hero-autumn .text-col .text-lower .signup-discount {
+    font-size: 1.5rem;
+  }
+  .hero-autumn .text-col .text-lower .features {
+    font-size: 1rem;
+  }
+  .hero-autumn .text-col .text-lower .free-bus {
+    font-size: 2rem;
+  }
+  .hero-autumn .text-col .text-lower .special-offer-button {
+    padding: 0.5rem 4rem;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 374.97px) {
+  .hero-autumn .img-col {
+    width: 100%;
+    margin-top: 68px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .hero-autumn .img-col .desktop {
+    display: none;
+  }
+  .hero-autumn .img-col .mobile {
+    display: block;
+  }
+  .hero-autumn .img-col img {
+    height: 100%;
+    width: auto;
+  }
+  .hero-autumn .text-col {
+    width: 100%;
+  }
+  .hero-autumn .text-col .h1-wrapper {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 {
+    font-size: 2.75rem;
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .drop-shadow {
+    filter: drop-shadow(0 1rem 0 #fef1d1);
+  }
+  .hero-autumn .text-col .h1-wrapper h1 .h1-sub {
+    font-size: 1.325rem;
+    padding-top: 1rem;
+  }
+  .hero-autumn .text-col .text-lower {
+    background-size: 175%;
+    background-position: top center;
+    padding-bottom: 2rem;
+    gap: 0.5rem;
+  }
+  .hero-autumn .text-col .text-lower .top-tagline {
+    padding-top: 2.5rem;
+    font-size: 1.25rem;
+  }
+  .hero-autumn .text-col .text-lower .signup-discount {
+    font-size: 1.5rem;
+  }
+  .hero-autumn .text-col .text-lower .features {
+    font-size: 1rem;
+  }
+  .hero-autumn .text-col .text-lower .free-bus {
+    font-size: 2rem;
+  }
+  .hero-autumn .text-col .text-lower .special-offer-button {
     padding: 0.5rem 4rem;
     font-size: 1rem;
   }

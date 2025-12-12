@@ -1,0 +1,1800 @@
+@charset "UTF-8";
+html {
+  background-color: #852221;
+}
+
+body {
+  background-color: #773819;
+}
+
+nav {
+  background-color: #773819;
+}
+nav .nav-links .button {
+  background-color: unset;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d2ac5f;
+}
+nav .nav-links .button-1 {
+  background-color: #fcb550;
+  background-image: url(../images/generic-images/stars-bg.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+nav .nav-links .button-1:hover {
+  opacity: 1;
+  background-color: rgb(251.1404494382, 159.797752809, 29.8595505618) !important;
+}
+nav .nav-links .button-1:active {
+  opacity: 0.6;
+}
+nav .nav-links .button-2 {
+  background-color: #d44534;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+nav .nav-links .button-2:hover {
+  opacity: 1;
+  background-color: rgb(175.7682926829, 51.9512195122, 37.2317073171) !important;
+}
+nav .nav-links .button-2:active {
+  opacity: 0.6;
+}
+nav .nav-links .button-3 {
+  background-color: #d286a3;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+nav .nav-links .button-3:hover {
+  opacity: 1;
+  background-color: rgb(196.1746987952, 96.8253012048, 134.734939759) !important;
+}
+nav .nav-links .button-3:active {
+  opacity: 0.6;
+}
+@media (max-width: 767.98px) {
+  nav .nav-toggle {
+    background-color: #d44534;
+  }
+  nav .nav-links {
+    background-color: #852221;
+  }
+  nav .sticky-cta {
+    background-color: #d44534;
+    background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+    background-size: 30rem;
+    border-top: solid #d2ac5f 3px;
+  }
+  nav .sticky-cta .button-4 {
+    font-family: "Shin-Maru-GP-Ultra";
+    font-size: 1.5rem;
+    background-color: #d286a3;
+    background-image: url(../images/generic-images/polka-dots.svg);
+    background-size: 30rem;
+    background-position: top center;
+    border-style: solid;
+    border-width: 0.2rem;
+    border-color: white;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 3rem;
+  }
+  nav .sticky-cta .button-4:hover {
+    opacity: 1;
+    background-color: rgb(163.1183673469, 34.0489795918, 30.8816326531) !important;
+  }
+  nav .sticky-cta .button-4:active {
+    opacity: 0.6;
+  }
+}
+
+.swiper-nav .previous,
+.swiper-nav .next {
+  border-style: solid;
+  border-width: 0.2rem;
+  border-radius: 50%;
+  border-color: #d2ac5f;
+}
+.swiper-nav .previous .swiper-button-bg,
+.swiper-nav .next .swiper-button-bg {
+  fill: #d44534 !important;
+}
+.swiper-nav .previous .swiper-button-arrow,
+.swiper-nav .next .swiper-button-arrow {
+  fill: white !important;
+}
+
+.hero {
+  height: 100vh;
+  background-color: #fbf9f0;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.hero .hero-side-left, .hero .hero-side-right {
+  width: 25%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+.hero .hero-center {
+  width: 56%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+.hero .hero-center .hero-center-inner {
+  display: block;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+}
+.hero .hero-center .hero-center-inner h1 {
+  color: #773819;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.hero .hero-center .hero-center-inner h2 {
+  color: #773819;
+  font-family: "Shin-Maru-GP-Ultra";
+  text-align: center;
+}
+.hero .hero-side-left {
+  background-color: #d286a3;
+}
+.hero .hero-side-left .hero-side-left-transition {
+  position: absolute;
+  transform: translate(calc(-100% + 1px), 0%);
+  left: 100%;
+  height: 200%;
+}
+.hero .hero-side-right {
+  background-color: #ffcd58;
+}
+.hero .hero-side-right .hero-side-right-transition {
+  position: absolute;
+  left: 0%;
+  height: 200%;
+}
+.hero .hero-bottom {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  width: 101%;
+  left: 50%;
+  bottom: 0%;
+}
+
+.party-event-about {
+  background-color: #773819;
+  padding-top: 0rem;
+}
+.party-event-about .about-images {
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: auto;
+}
+.party-event-about .text h2 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+}
+.party-event-about .text p {
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  padding-left: 0;
+}
+.party-event-about .text .cta-secondary {
+  background-color: #fcb550;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: cover;
+  border: solid 0.2rem #caa159;
+  transition: 0.3s;
+}
+.party-event-about .text .cta-secondary:hover {
+  opacity: 1;
+  background-color: rgb(251.1404494382, 159.797752809, 29.8595505618) !important;
+  border-color: #caa159;
+}
+
+.reason-box-1, .reason-box-2, .reason-box-3 {
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: #caa159;
+  background-size: 300%;
+}
+
+.reason-box-1 {
+  background-color: #fcb550;
+  background-image: url(../images/generic-images/polka-dots.svg);
+}
+
+.reason-box-2 {
+  background-color: #d44534;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+}
+
+.reason-box-3 {
+  background-color: #d286a3;
+  background-image: url(../images/generic-images/stars-bg.svg);
+}
+
+.three-reasons-swiper {
+  background-color: #773819;
+}
+
+.schools-list {
+  background-color: #773819;
+  background-image: url(../images/about-event/about-event-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+}
+.schools-list .section-h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.schools-list .prefecture-tokyo {
+  background-color: #ef3e24 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.2rem #d2ac5f;
+}
+.schools-list .prefecture-tokyo .prefecture-header {
+  background-color: #ef3e24 !important;
+  color: #ef3e24;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-tokyo .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #ef3e24;
+}
+.schools-list .prefecture-tokyo .ward {
+  background-color: white;
+  border-style: none;
+}
+.schools-list .prefecture-tokyo .ward h3, .schools-list .prefecture-tokyo .ward h3 svg {
+  color: #ef3e24;
+  fill: #ef3e24;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-tokyo .ward ul li {
+  color: #ef3e24;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-tokyo {
+    background-color: #ef3e24;
+    border: solid 0.2rem #d2ac5f;
+  }
+  .schools-list .prefecture-tokyo .prefecture-header {
+    background-color: #ef3e24;
+    color: #ef3e24;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward h3, .schools-list .prefecture-tokyo .wards-container .ward h3 svg {
+    color: #ef3e24;
+    fill: #ef3e24;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward ul li {
+    color: #ef3e24;
+  }
+}
+.schools-list .prefecture-kanagawa {
+  background-color: #00b9c4 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.2rem #d2ac5f;
+}
+.schools-list .prefecture-kanagawa .prefecture-header {
+  background-color: #00b9c4 !important;
+  color: #00b9c4;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-kanagawa .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #00b9c4;
+}
+.schools-list .prefecture-kanagawa .ward {
+  background-color: white;
+  border-style: none;
+}
+.schools-list .prefecture-kanagawa .ward h3, .schools-list .prefecture-kanagawa .ward h3 svg {
+  color: #00b9c4;
+  fill: #00b9c4;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-kanagawa .ward ul li {
+  color: #00b9c4;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-kanagawa {
+    background-color: #00b9c4;
+    border: solid 0.2rem #d2ac5f;
+  }
+  .schools-list .prefecture-kanagawa .prefecture-header {
+    background-color: #00b9c4;
+    color: #00b9c4;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward h3, .schools-list .prefecture-kanagawa .wards-container .ward h3 svg {
+    color: #00b9c4;
+    fill: #00b9c4;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward ul li {
+    color: #00b9c4;
+  }
+}
+.schools-list .prefecture-chiba {
+  background-color: #58bf98 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.2rem #d2ac5f;
+}
+.schools-list .prefecture-chiba .prefecture-header {
+  background-color: #58bf98 !important;
+  color: #58bf98;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-chiba .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #58bf98;
+}
+.schools-list .prefecture-chiba .ward {
+  background-color: white;
+  border-style: none;
+}
+.schools-list .prefecture-chiba .ward h3, .schools-list .prefecture-chiba .ward h3 svg {
+  color: #58bf98;
+  fill: #58bf98;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-chiba .ward ul li {
+  color: #58bf98;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-chiba {
+    background-color: #58bf98;
+    border: solid 0.2rem #d2ac5f;
+  }
+  .schools-list .prefecture-chiba .prefecture-header {
+    background-color: #58bf98;
+    color: #58bf98;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward h3, .schools-list .prefecture-chiba .wards-container .ward h3 svg {
+    color: #58bf98;
+    fill: #58bf98;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-chiba .wards-container .ward ul li {
+    color: #58bf98;
+  }
+}
+.schools-list .prefecture-saitama {
+  background-color: #f29320 !important;
+  border-width: 0.2rem;
+  border-color: white;
+  border: solid 0.2rem #d2ac5f;
+}
+.schools-list .prefecture-saitama .prefecture-header {
+  background-color: #f29320 !important;
+  color: #f29320;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-saitama .prefecture-header h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #f29320;
+}
+.schools-list .prefecture-saitama .ward {
+  background-color: white;
+  border-style: none;
+}
+.schools-list .prefecture-saitama .ward h3, .schools-list .prefecture-saitama .ward h3 svg {
+  color: #f29320;
+  fill: #f29320;
+  font-family: "Shin-Maru-GP-Bold";
+}
+.schools-list .prefecture-saitama .ward ul li {
+  color: #f29320;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-saitama {
+    background-color: #f29320;
+    border: solid 0.2rem #d2ac5f;
+  }
+  .schools-list .prefecture-saitama .prefecture-header {
+    background-color: #f29320;
+    color: #f29320;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward h3, .schools-list .prefecture-saitama .wards-container .ward h3 svg {
+    color: #f29320;
+    fill: #f29320;
+    font-family: "Shin-Maru-GP-Bold";
+  }
+  .schools-list .prefecture-saitama .wards-container .ward ul li {
+    color: #f29320;
+  }
+}
+
+.party-logo-times-row {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.party-logo-times-row .logo-box {
+  width: 55%;
+  margin: auto;
+}
+@media screen and (max-width: 575.9px) {
+  .party-logo-times-row .logo-box {
+    width: 90%;
+  }
+}
+.party-logo-times-row .time-box {
+  margin: auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 2rem;
+  flex-direction: row;
+}
+.party-logo-times-row .time-box h3 {
+  font-family: "Shin-Maru-GP-Ultra";
+}
+@media screen and (max-width: 475.9px) {
+  .party-logo-times-row .time-box {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .party-logo-times-row .time-box h3 {
+    padding: unset;
+    font-size: 1.5rem;
+  }
+}
+.party-logo-times-row .time-disclaimer {
+  display: flex;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.party-1 {
+  background-image: url("../images/santa-workshop/party-1-bg-top.svg"), url("../images/santa-workshop/party-1-bg-bottom.svg"), url("../images/santa-workshop/workshop-background.webp");
+  background-size: 105%, 105%, cover;
+  background-position: top, bottom, center center;
+  background-repeat: no-repeat;
+  padding-top: calc(11.7416642782% + 2rem); /* ≈ 11.74% */
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+}
+.party-1 .time-disclaimer {
+  color: #ce2b27;
+  font-weight: bold;
+  background-color: white;
+}
+.party-1 .party-textbox {
+  background-color: #ce2b27;
+  box-shadow: 0px 0px 105px 10px rgba(42, 17, 23, 0.9);
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: 0.5rem;
+  border-color: #d2ac5f;
+  padding: 2rem;
+}
+.party-1 .party-textbox h3 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+  margin-bottom: 0.5rem;
+  filter: drop-shadow(0px 5px 0px #852221);
+}
+.party-1 .party-textbox p {
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .party-textbox {
+    padding: 1rem;
+  }
+}
+.party-1 .activity-img {
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  background-color: #d2ac5f;
+}
+.party-1 .party-logo-times-row {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+}
+.party-1 .party-logo-times-row .logo-box {
+  width: 55%;
+  margin: auto;
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .party-logo-times-row .logo-box {
+    width: 90%;
+  }
+}
+.party-1 .party-logo-times-row .time-box {
+  background-color: white;
+  box-shadow: 0 0 3.25rem 1rem #852221;
+}
+.party-1 .party-logo-times-row .time-box h3 {
+  color: #ce2b27;
+  padding: 1rem;
+}
+.party-1 .meet-santa {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 12/7;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.party-1 .meet-santa .activity-img {
+  position: absolute;
+  margin: 3rem;
+  transform-origin: center;
+  rotate: 10deg;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  left: 55%;
+  top: 50%;
+}
+.party-1 .meet-santa .activity-img .img-fluid {
+  position: relative;
+  border-radius: 2rem;
+  height: 66%;
+  width: auto;
+  z-index: 1;
+  margin-bottom: 0 !important;
+}
+.party-1 .meet-santa .party-textbox {
+  position: relative;
+  width: 35%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: -5deg;
+  margin-left: 15%;
+}
+.party-1 .meet-santa .party-textbox p {
+  margin-right: 3rem;
+}
+.party-1 .meet-santa .party-textbox .decoration-present {
+  position: absolute;
+  transform: translate(-50%, -75%);
+  left: 100%;
+  top: 100%;
+  width: 7.5rem;
+  rotate: 10deg;
+  transform-origin: center, center;
+}
+@media screen and (max-width: 1399.98px) {
+  .party-1 .meet-santa .party-textbox {
+    width: 40%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .party-1 .meet-santa {
+    aspect-ratio: 12/9;
+  }
+  .party-1 .meet-santa .activity-img {
+    width: 60%;
+  }
+  .party-1 .meet-santa .party-textbox {
+    width: 45%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .party-1 .meet-santa .party-textbox {
+    width: 50%;
+    margin-left: 0%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .party-1 .meet-santa {
+    aspect-ratio: unset;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding-bottom: 4rem;
+  }
+  .party-1 .meet-santa .activity-img {
+    position: relative;
+    margin: 1rem;
+    transform-origin: center;
+    rotate: 10deg;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    top: unset;
+    margin-bottom: -5rem;
+  }
+  .party-1 .meet-santa .activity-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .party-1 .meet-santa .party-textbox {
+    width: 100%;
+  }
+  .party-1 .meet-santa .party-textbox p {
+    margin-right: unset;
+  }
+  .party-1 .meet-santa .party-textbox .decoration-present {
+    position: absolute;
+    transform: translate(-50%, -10%);
+    left: 85%;
+    top: 100%;
+    width: 6.5rem;
+    rotate: 20deg;
+    transform-origin: center, center;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .meet-santa .activity-img {
+    margin-bottom: -3rem;
+  }
+}
+.party-1 .pass-the-parcel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 9/4;
+  display: flex;
+  align-items: center;
+}
+.party-1 .pass-the-parcel .activity-img {
+  position: absolute;
+  margin: 0rem;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  left: 35%;
+  top: 45%;
+  rotate: -7deg;
+}
+.party-1 .pass-the-parcel .activity-img .img-fluid {
+  position: relative;
+  border-radius: 2rem;
+  height: 66%;
+  width: auto;
+  z-index: 1;
+  margin-bottom: 0 !important;
+}
+.party-1 .pass-the-parcel .party-textbox {
+  position: relative;
+  width: 40%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: 5deg;
+  margin-right: 10%;
+  margin-left: auto;
+}
+.party-1 .pass-the-parcel .party-textbox .decoration-stars {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 8rem;
+  top: 75%;
+  left: 100%;
+}
+@media screen and (max-width: 1399.98px) {
+  .party-1 .pass-the-parcel .party-textbox {
+    rotate: 5deg;
+    margin-right: 5%;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .party-1 .pass-the-parcel {
+    aspect-ratio: 9/5;
+  }
+  .party-1 .pass-the-parcel .activity-img {
+    width: 55%;
+    transform: translate(10%, -50%);
+    left: 0%;
+    top: 50%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .party-1 .pass-the-parcel {
+    aspect-ratio: 9/6;
+  }
+  .party-1 .pass-the-parcel .party-textbox {
+    width: 40%;
+    margin-right: 5%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .party-1 .pass-the-parcel {
+    aspect-ratio: unset;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding-bottom: 2rem;
+  }
+  .party-1 .pass-the-parcel .activity-img {
+    position: relative;
+    margin: 1rem;
+    transform-origin: center;
+    rotate: -4deg;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    top: unset;
+    margin-bottom: -2rem;
+  }
+  .party-1 .pass-the-parcel .activity-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .party-1 .pass-the-parcel .party-textbox {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .pass-the-parcel .activity-img {
+    margin-bottom: -1rem;
+  }
+}
+.party-1 .ornament {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 2/1;
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.party-1 .ornament .activity-img {
+  position: absolute;
+  width: 50%;
+  transform: translate(-50%, -50%);
+  left: 65%;
+  top: 55%;
+  rotate: 7deg;
+}
+.party-1 .ornament .activity-img .img-fluid {
+  position: relative;
+  border-radius: 2rem;
+  margin-bottom: 0 !important;
+}
+.party-1 .ornament .party-textbox {
+  position: relative;
+  width: 40%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: -7deg;
+  margin-left: 10%;
+  margin-right: auto;
+}
+@media screen and (max-width: 1399.98px) {
+  .party-1 .ornament .party-textbox {
+    margin-left: 5%;
+    width: 45%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+  .party-1 .ornament {
+    aspect-ratio: 2/1.25;
+  }
+  .party-1 .ornament .activity-img {
+    width: 55%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .party-1 .ornament {
+    aspect-ratio: 2/1.5;
+  }
+  .party-1 .ornament .party-textbox {
+    width: 40%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .party-1 .ornament {
+    aspect-ratio: unset;
+    flex-direction: column;
+    height: -moz-fit-content;
+    height: fit-content;
+    width: auto;
+    padding-bottom: 2rem;
+  }
+  .party-1 .ornament .activity-img {
+    position: relative;
+    margin: 1rem;
+    transform-origin: center;
+    rotate: 3deg;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    top: unset;
+    margin-bottom: -2rem;
+  }
+  .party-1 .ornament .activity-img .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  .party-1 .ornament .party-textbox {
+    width: 100%;
+    margin-left: unset;
+  }
+}
+@media screen and (max-width: 575.9px) {
+  .party-1 .ornament .activity-img {
+    margin-bottom: -1rem;
+  }
+}
+
+.cta-party-times {
+  background: #DFB862;
+  background: linear-gradient(180deg, rgb(223, 184, 98) 10%, rgb(249, 240, 202) 35%, rgb(235, 229, 176) 57%, rgb(203, 163, 90) 90%);
+}
+.cta-party-times .party-times-box {
+  background-color: unset;
+}
+.cta-party-times .party-times-box h2 {
+  color: white;
+  -webkit-text-stroke: 10px #caa159;
+  text-stroke: 1rem #caa159;
+  paint-order: stroke fill;
+}
+.cta-party-times .party-times-box h3 {
+  color: white;
+  -webkit-text-stroke: 10px #caa159;
+  text-stroke: 1rem #caa159;
+  paint-order: stroke fill;
+}
+.cta-party-times .party-times-box p {
+  color: white;
+  background-color: #caa159;
+  padding: 1rem;
+  border-radius: 2rem;
+}
+.cta-party-times .cta-primary {
+  border: solid 0.15rem white;
+  background-color: #ce2b27;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 30rem;
+  background-position: top center;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  transition: 0.3s;
+  justify-content: center;
+}
+.cta-party-times .cta-primary:hover {
+  opacity: 1;
+  background-color: rgb(163.1183673469, 34.0489795918, 30.8816326531) !important;
+  border-color: white;
+}
+.cta-party-times .cta-primary:active {
+  opacity: 0.6;
+}
+@media (max-width: 575.98px) {
+  .cta-party-times .cta-primary {
+    width: 90%;
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+
+.party-2 {
+  background-image: url("../images/christmas-markets/party-2-bg-top.svg"), url("../images/santa-workshop/party-2-bg-bottom.svg"), url("../images/christmas-markets/christmas-market-bg.webp");
+  background-size: 105%, 105%, cover;
+  background-position: top, bottom, top center;
+  background-repeat: no-repeat;
+  padding-top: calc(6.0047881956% + 2rem); /* ≈ 11.74% */
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+}
+.party-2 .time-disclaimer {
+  color: white;
+  font-weight: bold;
+  background-color: #13a457;
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 30;
+}
+
+.time-box {
+  background-color: #13a457;
+  box-shadow: 0 0 2rem 1rem white;
+}
+.time-box h3 {
+  color: white;
+  padding: 1rem;
+}
+
+.christmas-games {
+  margin-top: 2rem;
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  box-shadow: 0px 0px 105px 10px white;
+}
+.christmas-games .h3-box {
+  background-color: #d2ac5f;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 0 0 2rem 2rem;
+}
+.christmas-games .h3-box h3 {
+  font-size: 3rem;
+  padding: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: white;
+  filter: drop-shadow(0px 5px 0px #cba159);
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.christmas-games .decoration-tickets-1, .christmas-games .decoration-tickets-2, .christmas-games .decoration-tickets-3 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 25%;
+}
+.christmas-games .decoration-tickets-1 {
+  top: 7.5%;
+  left: 7.5%;
+}
+.christmas-games .decoration-tickets-2 {
+  top: 100%;
+  left: 60%;
+}
+.christmas-games .decoration-tickets-3 {
+  top: 7.5%;
+  left: 92.5%;
+}
+.christmas-games .card-container {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.christmas-games .card-container .card {
+  background-color: #13a457;
+  border-radius: 2rem;
+  border: solid #127f40 0.5rem;
+  padding: 1rem;
+  filter: drop-shadow(0px 5px 0px rgba(19, 164, 87, 0.5019607843));
+}
+.christmas-games .card-container .card h3 {
+  color: white;
+  filter: drop-shadow(0px 5px 0px #127f40);
+  text-align: center;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.christmas-games .card-container .card .img-fluid {
+  padding: 2rem;
+}
+.christmas-games .card-container .card p {
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  font-weight: bold;
+}
+.christmas-games .card-container .top-trumps {
+  width: 45%;
+  position: relative;
+  padding: 1rem;
+}
+.christmas-games .card-container .top-trumps .card {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: -10deg;
+}
+.christmas-games .card-container .reindeer-game {
+  width: 55%;
+  position: relative;
+  padding: 1rem;
+}
+.christmas-games .card-container .reindeer-game .card {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  rotate: 7deg;
+}
+@media screen and (max-width: 1399.98px) {
+  .christmas-games .h3-box h3 {
+    font-size: 2rem;
+    padding: 3.00030003rem;
+    padding-left: 4.500450045rem;
+    padding-right: 4.500450045rem;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .christmas-games .h3-box {
+    border-radius: 0 0 1rem 1rem;
+  }
+  .christmas-games .h3-box h3 {
+    padding: 1rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .christmas-games {
+    background-size: cover;
+  }
+  .christmas-games .decoration-tickets-1, .christmas-games .decoration-tickets-2, .christmas-games .decoration-tickets-3 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 50%;
+  }
+  .christmas-games .decoration-tickets-1 {
+    top: 45%;
+    left: 7.5%;
+  }
+  .christmas-games .decoration-tickets-2 {
+    top: 55%;
+    left: 100%;
+  }
+  .christmas-games .decoration-tickets-3 {
+    top: 100%;
+    left: 7.5%;
+  }
+  .christmas-games .card-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .christmas-games .card-container .card .img-fluid {
+    padding: unset;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .christmas-games .card-container .top-trumps, .christmas-games .card-container .reindeer-game {
+    width: 100%;
+  }
+}
+
+/* A new reusable class for the card styling */
+.card-style, .lower-container .raffle, .lower-container .snack-buffet {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  margin-top: 4rem;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 105px 10px white;
+}
+
+/* A new reusable class for the card styling */
+.card-style, .lower-container .raffle, .lower-container .snack-buffet {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  margin-top: 4rem;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: #d2ac5f;
+  border-radius: 3rem;
+  padding: 1rem;
+  box-shadow: 0px 0px 105px 10px white;
+}
+
+.lower-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+  /* --- RESPONSIVE STYLES --- */
+}
+.lower-container h3 {
+  color: white;
+  filter: drop-shadow(0px 5px 0px #127f40);
+  text-align: center;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.lower-container p {
+  color: white;
+  font-weight: bolder;
+}
+.lower-container .snack-buffet {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.lower-container .snack-buffet .buffet-img {
+  width: 40%;
+  border-radius: 2rem 0 0 2rem;
+}
+.lower-container .snack-buffet .text {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lower-container .raffle {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.lower-container .raffle h3 {
+  text-align: center;
+}
+.lower-container .raffle .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.lower-container .raffle .text p {
+  text-align: center;
+}
+@media screen and (max-width: 767.98px) {
+  .lower-container {
+    /* FIX: This now correctly targets .lower-container */
+    flex-direction: column;
+    gap: 1rem;
+    /* IMPROVEMENT: Stack the snack-buffet content vertically on mobile */
+  }
+  .lower-container .card-style, .lower-container .snack-buffet, .lower-container .raffle {
+    box-shadow: 0px 0px 45px 5px white;
+  }
+  .lower-container .snack-buffet, .lower-container .raffle {
+    width: 100%;
+  }
+  .lower-container .snack-buffet {
+    margin-top: 1.5rem;
+    flex-direction: column;
+    align-items: center; /* Optional: centers the content */
+    /* IMPROVEMENT: Adjust border-radius for the stacked layout */
+  }
+  .lower-container .snack-buffet .buffet-img, .lower-container .snack-buffet .text {
+    width: 100%;
+  }
+  .lower-container .snack-buffet .buffet-img {
+    border-radius: 2rem 2rem 0 0;
+  }
+  .lower-container .raffle {
+    margin-top: unset;
+  }
+}
+
+/* ALL PARTIES (Final Refinements) */
+.all-parties .features .feature-3 .text, .all-parties .features .feature-2 .text, .all-parties .features .feature-1 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 55%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+.all-parties .features .feature-3 .text h3, .all-parties .features .feature-2 .text h3, .all-parties .features .feature-1 .text h3 {
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+}
+.all-parties .features .feature-3 .text p, .all-parties .features .feature-2 .text p, .all-parties .features .feature-1 .text p {
+  font-weight: bold;
+}
+@media screen and (max-width: 991.98px) {
+  .all-parties .features .feature-3 .text, .all-parties .features .feature-2 .text, .all-parties .features .feature-1 .text {
+    width: 60%;
+    max-width: none;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-3 .text, .all-parties .features .feature-2 .text, .all-parties .features .feature-1 .text {
+    width: 100%;
+  }
+}
+
+.all-parties {
+  background-color: #ece5d9;
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+  background-image: url(../images/all-parties/all-parties-transition-bottom.svg);
+  background-position: bottom;
+  background-size: 105%;
+  background-repeat: no-repeat;
+}
+.all-parties .transition-bar {
+  width: 100%;
+  height: 3rem;
+  background-color: #ce2b27;
+}
+.all-parties .title-box {
+  display: flex;
+  justify-content: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: 0 auto;
+  padding: 1rem 0;
+  border-radius: 0 0 2rem 2rem;
+  background-color: #ce2b27;
+  margin-bottom: 1rem;
+}
+.all-parties .title-box .decoration-row {
+  display: flex;
+  align-items: center;
+  width: 25%;
+}
+.all-parties .title-box .christmas-lights {
+  width: 100%;
+}
+.all-parties .title-box h2 {
+  flex-shrink: 0;
+  margin: auto 1rem;
+  color: white;
+  font-family: "Shin-Maru-GP-Bold";
+  text-align: center;
+}
+.all-parties .title-box h2 .mobile-break {
+  display: none;
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .title-box h2 .mobile-break {
+    display: block;
+  }
+}
+.all-parties .both-parties-general {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ce2b27;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+}
+.all-parties .features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.all-parties .features > [class^=feature-] {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+  align-items: center;
+}
+.all-parties .features .feature-1 .image,
+.all-parties .features .feature-1 .text {
+  width: 50%;
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-1 {
+    flex-direction: column-reverse;
+  }
+  .all-parties .features .feature-1 .image,
+  .all-parties .features .feature-1 .text {
+    width: 100%;
+  }
+}
+.all-parties .features .feature-1 .text {
+  background-color: #ce2b27;
+}
+.all-parties .features .feature-1 .text h3, .all-parties .features .feature-1 .text p {
+  color: white;
+}
+.all-parties .features .feature-2 .images {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  min-width: 45%;
+  max-width: 720px;
+  margin: auto;
+}
+.all-parties .features .feature-2 .images .ribbon {
+  z-index: 2;
+  margin-bottom: -5rem;
+}
+.all-parties .features .feature-2 .images .ribbon .ribbon-front {
+  fill: #ce2b27;
+}
+.all-parties .features .feature-2 .images .ribbon .ribbon-fold {
+  fill: #8a181a;
+}
+.all-parties .features .feature-2 .images .ribbon .ribbon-back {
+  fill: #c13630;
+}
+.all-parties .features .feature-2 .images .ribbon .svg-text {
+  font-family: "Shin-Maru-GP-Bold";
+  font-size: 12px;
+  font-weight: 700;
+  fill: white;
+}
+.all-parties .features .feature-2 .images .photo-wrapper {
+  width: 90%;
+  margin: auto;
+  display: flex;
+}
+.all-parties .features .feature-2 .images .photo-wrapper .photo {
+  width: 100%;
+  margin: auto;
+  border: solid 1rem whitesmoke;
+  rotate: -7deg;
+  z-index: 1;
+}
+.all-parties .features .feature-2 .images .photo-wrapper .santa-photoshoot-box {
+  position: absolute;
+  display: flex;
+  height: 33%;
+  width: 75%;
+  max-width: 375px;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+  rotate: 3deg;
+  transform-origin: bottom right;
+  flex-direction: column;
+}
+.all-parties .features .feature-2 .images .photo-wrapper .santa-photoshoot-box p {
+  background-color: #d2ac5f;
+  color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-weight: bold;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 80%;
+  padding-right: 25%;
+  font-family: "Shin-Maru-GP-Bold";
+  z-index: 4;
+  margin-top: 1rem;
+}
+.all-parties .features .feature-2 .images .photo-wrapper .santa-photoshoot-box .p-sub {
+  margin-top: -1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-right: unset;
+  padding: 1rem;
+  padding-top: 0rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+.all-parties .features .feature-2 .images .photo-wrapper .santa-photoshoot-box .santa-photos {
+  height: 100%;
+  width: auto;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 5;
+  border: solid 0.5rem #d2ac5f;
+  rotate: -3deg;
+}
+@media screen and (max-width: 424.98px) {
+  .all-parties .features .feature-2 .images .photo-wrapper .santa-photoshoot-box {
+    width: 90%;
+    max-width: unset;
+    height: 40%;
+  }
+  .all-parties .features .feature-2 .images .photo-wrapper .santa-photoshoot-box p {
+    padding-right: 10%;
+  }
+}
+.all-parties .features .feature-2 .text {
+  position: relative;
+  background-color: #13a457;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 300%;
+}
+.all-parties .features .feature-2 .text p {
+  color: white;
+}
+.all-parties .features .feature-2 .text .camera-decoration {
+  position: absolute;
+  width: 7.5rem;
+  top: 95%;
+  left: calc(100% - 3.75rem);
+  transform: translate(-50%, -50%);
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-2 {
+    margin-top: 2rem;
+    flex-direction: column;
+  }
+  .all-parties .features .feature-2 .images {
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+  }
+}
+.all-parties .features .feature-3 .image {
+  width: 45%;
+  max-width: 720px;
+}
+.all-parties .features .feature-3 .text {
+  border: solid 0.15rem #13a457;
+}
+.all-parties .features .feature-3 .text h3 {
+  color: #ed2024;
+}
+.all-parties .features .feature-3 .text p {
+  color: #13a457;
+}
+@media screen and (max-width: 767.98px) {
+  .all-parties .features .feature-3 {
+    flex-direction: column-reverse;
+  }
+  .all-parties .features .feature-3 .image {
+    width: 90%;
+  }
+}
+
+.lower-cta {
+  background-color: #773819;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.lower-cta .lower-cta-contents .image {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lower-cta .lower-cta-contents .image img {
+  width: 75%;
+}
+.lower-cta .lower-cta-contents .text h2 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+}
+.lower-cta .lower-cta-contents .text .cta-button {
+  border: solid 0.2rem #caa159;
+  background-color: #d44534;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+  width: -moz-fit-content;
+  width: fit-content;
+  transition: 0.3s;
+  justify-content: center;
+}
+.lower-cta .lower-cta-contents .text .cta-button:hover {
+  opacity: 1;
+  background-color: rgb(175.7682926829, 51.9512195122, 37.2317073171) !important;
+}
+.lower-cta .lower-cta-contents .text .cta-button:active {
+  opacity: 0.6;
+}
+@media (max-width: 575.98px) {
+  .lower-cta .lower-cta-contents .text .cta-button {
+    width: 90%;
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+@media (max-width: 575.98px) {
+  .lower-cta .lower-cta-contents .image {
+    width: 80%;
+  }
+}
+
+.gallery {
+  background-color: #773819;
+}
+.gallery h2 {
+  padding-bottom: 2rem;
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+}
+.gallery .close-modal {
+  background-color: #d2ac5f;
+}
+
+.sign-up {
+  background-color: #773819;
+}
+.sign-up h2 {
+  padding-top: 2rem;
+}
+.sign-up .sign-up-bg {
+  fill: white;
+}
+.sign-up .sign-up-main-colour {
+  fill: #d2ac5f !important;
+}
+.sign-up .sign-up-stroke {
+  fill: #773819 !important;
+}
+.sign-up .button-1, .sign-up .button-2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 425px;
+  transition: ease-in-out 0.2s;
+  border: solid 0.15rem white;
+}
+.sign-up .button-1 {
+  background-color: #d2ac5f;
+  background-image: url(../images/generic-images/stars-bg.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.sign-up .button-1:hover {
+  opacity: 1;
+  background-color: rgb(198.243902439, 151.1609756098, 55.756097561) !important;
+}
+.sign-up .button-2 {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.sign-up .button-2:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+}
+
+.sign-up {
+  padding-top: 2rem;
+}
+.sign-up h2 {
+  color: white;
+  font-family: "Shin-Maru-GP-Ultra";
+}
+.sign-up h3 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  text-align: center;
+}
+.sign-up p {
+  color: white;
+  font-weight: bold;
+}
+@media screen and (max-width: 767.98px), screen and (max-aspect-ratio: 1/1) {
+  .sign-up {
+    padding-top: 0rem;
+  }
+}
+
+.form-body {
+  background: linear-gradient(180deg, rgb(206, 43, 39) 10%, rgb(133, 34, 33) 100%);
+}
+.form-body .form-page {
+  height: calc(100vh - 5rem);
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  padding-top: 7rem;
+}
+.form-body .form-page .logo-wrapper {
+  width: 35%;
+  padding: 2rem;
+}
+.form-body .form-page .logo-wrapper .logo {
+  width: 100%;
+  height: auto;
+}
+.form-body .form-page .mid-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+}
+.form-body .form-page .mid-wrapper h1 {
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+  font-size: 2rem;
+  text-align: center;
+}
+.form-body .form-page .mid-wrapper .button-box {
+  display: flex;
+  flex-direction: row;
+  gap: 0rem;
+  padding-top: 2rem;
+  flex-direction: column;
+}
+.form-body .form-page .mid-wrapper .button-box .cta-button {
+  border: solid white 0.15rem;
+  text-align: center;
+  justify-content: center;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-1, .form-body .form-page .mid-wrapper .button-box .btn-2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 425px;
+  transition: ease-in-out 0.2s;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-1 {
+  background-color: #d2ac5f;
+  background-image: url(../images/generic-images/stars-bg.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-1:hover {
+  opacity: 1;
+  background-color: rgb(198.243902439, 151.1609756098, 55.756097561) !important;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-2 {
+  background-color: #13a457;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 30rem;
+  background-position: top center;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-2:hover {
+  opacity: 1;
+  background-color: rgb(13.7049180328, 118.2950819672, 62.7540983607) !important;
+}
+.form-body .form-page .mid-wrapper .button-box .btn-2:active {
+  opacity: 0.6;
+}
+.form-body .form-page .mid-wrapper p {
+  color: white;
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+  font-size: 0.8rem;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.form-body .form-page .jot {
+  width: 30%;
+}
+@media screen and (max-width: 576.98px), screen and (max-aspect-ratio: 1/1) {
+  .form-body .form-page {
+    padding-top: 5rem;
+    flex-direction: column;
+  }
+  .form-body .form-page .logo-wrapper {
+    width: 100%;
+    padding-top: 0;
+  }
+  .form-body .form-page .logo-wrapper .logo {
+    display: flex;
+    width: 75%;
+    margin: auto;
+    padding-top: 0 !important;
+  }
+  .form-body .form-page .mid-wrapper {
+    width: 100%;
+  }
+  .form-body .form-page .mid-wrapper h1 {
+    text-align: center;
+  }
+  .form-body .form-page .mid-wrapper .button-box {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .form-body .form-page .mid-wrapper .button-box .cta-button {
+    display: flex;
+    margin: auto;
+  }
+  .form-body .form-page .mid-wrapper .button-box p {
+    width: 80%;
+  }
+  .form-body .form-page .jot {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+.bottom {
+  background-color: #fbf9f0;
+  background-image: url(../images/generic-images/bottom-transition-top.svg), url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 105%, 300%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+}
+.bottom h3, .bottom p {
+  color: #773819;
+}
+
+.tutorial {
+  color: white;
+  transition: ease-in-out 0.2s;
+}
+.tutorial:hover {
+  opacity: 0.6;
+}/*# sourceMappingURL=chocolate-2026.css.map */

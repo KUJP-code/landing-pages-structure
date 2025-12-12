@@ -134,7 +134,7 @@
 
 <div class="show-both">
   <h3>
-  ❶ 9:00-10:20<br class="time-break"> ❸ 14:00-15:20
+  ❷ 11:00-12:20<br class="time-break"> ❹ 16:00-17:20
 </h3>
 
 </div>
@@ -222,9 +222,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </section>
 
-<section class="gallery">
-  
-</section>
+
 
 
 

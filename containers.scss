@@ -1,0 +1,85 @@
+// -----------------------------
+// Variables
+// -----------------------------
+$bp-sm: 576px;
+$bp-md: 768px;
+$bp-lg: 992px;
+$bp-xl: 1200px;
+$bp-xxl: 1400px;
+
+$container-sm-max: 540px;
+$container-md-max: 720px;
+$container-lg-max: 960px;
+$container-xl-max: 1140px;
+$container-xxl-max: 1320px;
+
+$container-padding: 1rem; // horizontal padding
+
+// -----------------------------
+// Base container styles
+// -----------------------------
+%container-base {
+  width: 100%;
+  padding-left: $container-padding;
+  padding-right: $container-padding;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+  @extend %container-base;
+}
+
+// Fluid container
+.container-fluid {
+  @extend %container-base;
+  margin: 0;
+}
+
+// -----------------------------
+// Responsive container
+// -----------------------------
+.container {
+  max-width: 100%;
+
+  @media (min-width: $bp-sm) { max-width: $container-sm-max; }
+  @media (min-width: $bp-md) { max-width: $container-md-max; }
+  @media (min-width: $bp-lg) { max-width: $container-lg-max; }
+  @media (min-width: $bp-xl) { max-width: $container-xl-max; }
+  @media (min-width: $bp-xxl) { max-width: $container-xxl-max; }
+}
+
+// -----------------------------
+// Fixed containers
+// -----------------------------
+.container-sm { 
+  max-width: 100%;
+  @media (min-width: $bp-sm) { max-width: $container-sm-max; }
+}
+
+.container-md {
+  max-width: 100%;
+  @media (min-width: $bp-md) { max-width: $container-md-max; }
+}
+
+.container-lg {
+  max-width: 100%;
+  @media (min-width: $bp-lg) { max-width: $container-lg-max; }
+}
+
+.container-xl {
+  max-width: 100%;
+  @media (min-width: $bp-xl) { max-width: $container-xl-max; }
+}
+
+.container-xxl {
+  max-width: 100%;
+  @media (min-width: $bp-xxl) { max-width: $container-xxl-max; }
+}
+

@@ -16,10 +16,10 @@
 // EVENTS and CAMPAIGNS NAMES - EDIT THESE AS AND WHEN WE LAUNCH ONE
 
 const landingPageUrlSlugs = {
-    seasonal1: "events/spring-school-2025",
+    seasonal1: "events/spring-school-2026",
     seasonal2: "events/summer-school-2025",
     seasonal3: "events/winter-school-2025",
-    event1: "events/mascot-party",
+    event1: "events/choco-2026",
     event2: "events/science-fair-2025",
     event3: "unset",
     event4: "events/halloween-2025",
@@ -30,7 +30,7 @@ const signUpUrlSlugs = {
     seasonal1: "https://kids-up.app/",
     seasonal2: "https://kids-up.app/",
     seasonal3: "https://kids-up.app/",
-    event1: "https://kids-up.app/",
+    event1: "https://kids-up.jp/events/choco-2026/form",
     event2: "https://kids-up.app/",
     event3: "unset",
     event4: "https://kids-up.app/",
@@ -38,10 +38,10 @@ const signUpUrlSlugs = {
 };
 
 const campaignNames = {
-    seasonal1: "spring_school_2025",
+    seasonal1: "spring_school_2026",
     seasonal2: "summer_school_2025",
     seasonal3: "winter_school_2025",
-    event1: "mascot_party",
+    event1: "choco_2026",
     event2: "science_fair_2025",
     event3: "unset",
     event4: "halloween_2025",
@@ -87,7 +87,8 @@ const schoolCodes = {
     "33KW": "kawaguchi",
     "34IB": "ikebukuro",
     "35UN": "ueno",
-    "36KC": "kanamecho"
+    "36KC": "kanamecho",
+    "37NM": "naka-meguro"
 };
 
 // Different advertising mediums - add as necessary
@@ -126,6 +127,11 @@ const campaignMapping = {
     "ea4": { type: "ea", index: "event4", campaign: campaignNames.event4 },
     "ev5": { type: "ev", index: "event5", campaign: campaignNames.event5 },
     "ea5": { type: "ea", index: "event5", campaign: campaignNames.event5 },
+
+
+
+    "se5": { type: "ev", index: "seasonal3", campaign: campaignNames.seasonal3 },
+    "sa5": { type: "ea", index: "seasonal3", campaign: campaignNames.seasonal3 },
 };
 
 function handleRedirect() {

@@ -1,0 +1,2088 @@
+
+
+$christmas-red: #ce2b27;
+$christmas-claret: #852221;
+$christmas-vivid-red: #ed2024;
+
+
+$christmas-green: #13a457;
+$christmas-dark-green: #127f40;
+
+$christmas-gold: #d2ac5f;
+$christmas-dark-gold: #caa159;
+
+
+
+$chocolate-offwhite: #fbf9f0;
+$chocolate-brown: #773819;
+
+$chocolate-flat-gold: #fcb550;
+$chocolate-flat-gold-dark: #d2ac5f;
+$chocolate-red: #d44534;
+$chocolate-pink: #d286a3;
+
+
+$giftlab-pink: #d286a3;
+$fountain-yellow: #ffcd58;
+
+
+
+
+
+@use "sass:map";
+
+$prefecture-themes: (
+  tokyo:    ( color: #ef3e24 ),
+  kanagawa: ( color: #00b9c4),
+  chiba:    ( color: #58bf98 ),
+  saitama:  ( color: #f29320 )
+);
+
+
+html{
+    background-color: $christmas-claret;
+}
+
+body{
+  background-color: $chocolate-brown;
+}
+
+// NAVBAR
+
+nav{
+    background-color: $chocolate-brown;
+
+
+
+.nav-links{
+
+    .button{
+        background-color: unset;
+        border-style: solid;
+        border-width: 2px;
+        border-color: $chocolate-flat-gold-dark;
+    }
+
+.button-1 {
+    background-color: $chocolate-flat-gold ;
+    background-image: url(../images/generic-images/stars-bg.svg);
+    background-size: 30rem;
+    background-position: top center;
+    &:hover {
+        opacity: 1;
+        background-color: darken($chocolate-flat-gold, 10%) !important;
+    }
+
+    &:active{
+        opacity: .6;
+    }
+}
+
+
+.button-2 {
+    background-color: $chocolate-red;
+    background-image: url(../images/generic-images/polka-dots.svg);
+    background-size: 30rem;
+    background-position: top center;
+    &:hover {
+        opacity: 1;
+        background-color: darken($chocolate-red, 10%) !important;
+    }
+
+    &:active{
+        opacity: .6;
+    }
+}
+
+.button-3 {
+    background-color: $chocolate-pink;
+    background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+    background-size: 30rem;
+    background-position: top center;
+    &:hover {
+        opacity: 1;
+        background-color: darken( $chocolate-pink, 10%) !important;
+    }
+    &:active{
+        opacity: .6;
+    }
+}
+}
+
+@media (max-width: 767.98px) {
+    .nav-toggle{
+        background-color: $chocolate-red;
+    }
+
+
+    .nav-links{
+        background-color: $christmas-claret;
+
+    }
+
+    .sticky-cta{
+        background-color: $chocolate-red;
+        background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+        background-size: 30rem;
+        border-top: solid $chocolate-flat-gold-dark 3px ;
+
+    .button-4{
+        font-family: "Shin-Maru-GP-Ultra";
+        font-size: 1.5rem;
+        background-color: $chocolate-pink;
+        background-image: url(../images/generic-images/polka-dots.svg);
+        background-size: 30rem;
+        background-position: top center;
+        border-style: solid;
+        border-width: .2rem;
+        border-color: white;
+        height: fit-content;
+        border-radius: 3rem;
+
+            &:hover {
+        opacity: 1;
+        background-color: darken($christmas-red, 10%) !important;
+    }
+
+    &:active{
+        opacity: .6;
+    }
+        }
+
+    }
+}
+}
+
+// SWIPER NAV COMMON
+
+
+.swiper-nav{
+    .previous,
+.next{
+
+        border-style: solid;
+        border-width: .2rem;
+        border-radius: 50%;
+        border-color: $chocolate-flat-gold-dark;
+
+      .swiper-button-bg{
+      fill: $chocolate-red !important;
+
+    }
+    .swiper-button-arrow{
+      fill: white !important;
+    }
+}
+}
+
+
+// HERO SECTION
+
+.hero{
+  height: 100vh;
+  background-color: $chocolate-offwhite;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+
+
+
+  
+
+.hero-side-left, .hero-side-right{
+  width: 25%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: relative;
+}
+
+.hero-center{
+  width: 56%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+
+
+  .hero-center-inner{
+    display: block;
+    height: fit-content;
+    margin: auto;
+    h1{
+      color: $chocolate-brown;
+       font-family: "Shin-Maru-GP-Ultra";
+    }
+
+    h2{
+      color: $chocolate-brown;
+             font-family: "Shin-Maru-GP-Ultra";
+             text-align: center;
+    }
+  }
+}
+
+.hero-side-left{
+  background-color: $giftlab-pink;
+
+  .hero-side-left-transition{
+    position: absolute;
+    transform: translate(calc(-100% + 1px ), 0%);
+    left: 100%;
+    height: 200%;
+  }
+
+
+
+}
+
+.hero-side-right{
+  background-color: $fountain-yellow;
+  .hero-side-right-transition{
+    position: absolute;
+    left: 0%;
+    height: 200%;
+}
+}
+
+
+.hero-bottom{
+  position: absolute;
+  transform: translate(-50%, 0%);
+  width: 101%;
+  left: 50%;
+  bottom: 0%;
+}
+}
+// PARTY EVENT ABOUT
+
+.party-event-about{
+  background-color: $chocolate-brown;
+  padding-top: 0rem;
+
+
+.about-images{
+  width: 100%;
+  height: auto;
+  padding: 1rem;
+  margin: auto;
+
+}
+
+.text{
+  h2{
+    font-family: "Shin-Maru-GP-Ultra";
+    color: white;
+  }
+
+  p{
+    padding: 1rem;
+    color: white;
+    font-weight: bold;
+    padding-left: 0
+    ;
+  }
+
+
+.cta-secondary{
+    background-color: $chocolate-flat-gold ;
+    background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+    background-size: cover;
+    border: solid .2rem $christmas-dark-gold;
+    transition: .3s;
+    
+      &:hover {
+      opacity: 1;
+      background-color: darken($chocolate-flat-gold , 10%) !important;
+      border-color: $christmas-dark-gold;
+    }
+}
+}
+}
+
+.reason-box-1, .reason-box-2, .reason-box-3{
+  border-radius: 2rem;
+  border-style: solid;
+  border-width: 0.2rem;
+  border-color: $christmas-dark-gold;
+  background-size: 300%;
+}
+
+
+
+
+.reason-box-1{
+  background-color: $chocolate-flat-gold;
+  background-image: url(../images/generic-images/polka-dots.svg);
+
+}
+
+.reason-box-2{
+  background-color: $chocolate-red;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+}
+
+.reason-box-3{
+  background-color: $chocolate-pink;
+  background-image: url(../images/generic-images/stars-bg.svg);
+}
+
+.three-reasons-swiper{
+  background-color: $chocolate-brown;
+}
+
+// SCHOOLS LIST
+
+.schools-list{
+  background-color: $chocolate-brown;
+  background-image: url(../images/about-event/about-event-bg-bottom.svg);
+  background-size: 105%;
+  background-position: bottom center;
+  background-repeat: no-repeat;
+
+  .section-h2{
+    color: white;
+    font-family: "Shin-Maru-GP-Ultra";
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  // ===== THEME GENERATOR =====
+// This loop creates the CSS for every theme defined in the map.
+@each $name, $theme in $prefecture-themes {
+  // Use the modern map.get() function
+  $primary-color: map.get($theme, color);
+
+  .prefecture-#{$name} {
+      background-color: $primary-color !important;
+      border-width: 0.2rem;
+      border-color: white;
+  border: solid .2rem $chocolate-flat-gold-dark;
+
+    // --- Desktop Styles ---
+    .prefecture-header {
+        background-color: $primary-color !important;
+        color: $primary-color;
+        padding-top: .75rem;
+        padding-right: 1.5rem;
+        border-style: solid;
+
+        
+      h2 {
+        color: white;
+                font-family: "Shin-Maru-GP-Bold";
+      }
+      svg.location-pin {
+        .map-pin-3-bg-color {
+          fill: white;
+        }
+        .map-pin-3-main-color {
+          fill: $primary-color;
+        }
+      }
+    }
+
+    // --- Ward Title & Icon Styles ---
+   .ward {
+
+        background-color: white;
+        border-style: none;
+
+      h3, h3 svg {
+        color: $primary-color ;
+        fill: $primary-color ;
+        font-family: "Shin-Maru-GP-Bold";
+
+  
+      }
+
+      // Target the list items (li) inside the ul
+      ul li {
+        color: $primary-color ;
+      }
+    }
+
+    // --- Mobile/Accordion Styles ---
+    @media screen and (max-width: 575.9px) {
+      background-color: $primary-color;
+      border: solid .2rem $chocolate-flat-gold-dark;;
+
+      .prefecture-header {
+        background-color: $primary-color;
+        color: $primary-color;
+        padding-top: 1rem;
+        padding-right: 1rem;
+        border: unset;
+  
+      }
+      .wards-container {
+        background-color: unset;
+
+        .ward{
+          background-color: white;
+           h3, h3 svg {
+        color: $primary-color;
+        fill: $primary-color;
+        font-family: "Shin-Maru-GP-Bold";
+      }
+
+      // Target the list items (li) inside the ul
+      ul li {
+        color: $primary-color;
+      }
+        }
+      }
+    }
+  }
+}
+  
+}
+
+
+// COMMON PARTY STYLING
+
+.party-logo-times-row{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  .logo-box{
+    width: 55%;
+    margin: auto;
+   @media screen and (max-width: 575.9px) {
+ 
+    width: 90%;
+     }
+}
+  .time-box{
+    margin: auto;
+    width: fit-content;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    flex-direction: row;
+
+    h3{
+      font-family: "Shin-Maru-GP-Ultra";
+    }
+
+        @media screen and (max-width: 475.9px) {
+          flex-direction: column;
+          gap: 1rem;
+          padding: 2rem;
+
+          h3{
+            padding: unset;
+            font-size: 1.5rem;
+          }
+
+        }
+  }
+
+
+    .time-disclaimer{
+      display: flex;
+      margin: auto;
+
+      
+        padding: 1rem;
+  border-radius: 1rem;
+    }
+}
+// Santa's Workshop
+
+.party-1 {
+  background-image: url('../images/santa-workshop/party-1-bg-top.svg'),
+                    url('../images/santa-workshop/party-1-bg-bottom.svg'),
+                    url('../images/santa-workshop/workshop-background.webp');
+                 
+  background-size: 105%, 105%, cover;
+  background-position: top, bottom,  center center;
+  background-repeat: no-repeat;
+
+  padding-top: calc((1229 * 100% / 10467) + 2rem); /* ≈ 11.74% */
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+
+.time-disclaimer{
+  color: $christmas-red;
+  font-weight: bold;
+  background-color: white;
+}
+
+.party-textbox{
+  background-color: $christmas-red;
+  -webkit-box-shadow:0px 0px 105px 10px rgba(42,17,23,0.9);
+  -moz-box-shadow: 0px 0px 105px 10px rgba(42,17,23,0.9);
+  box-shadow: 0px 0px 105px 10px rgba(42,17,23,0.9);
+  border-style: solid;
+  border-radius: 2rem;
+  border-width: .5rem;
+  border-color: $christmas-gold;
+  padding: 2rem;
+
+      h3{
+      color: white;
+      font-family: "Shin-Maru-GP-Ultra";
+      margin-bottom: .5rem;
+      filter: drop-shadow(0px 5px 0px $christmas-claret);
+      }
+
+      p{
+        color: white;
+        font-weight: bold;
+      }
+
+
+   @media screen and (max-width: 575.9px) {
+    padding: 1rem;
+   }
+}
+
+.activity-img{
+  border-style: solid;
+  border-width: 1rem;
+  border-color: $christmas-gold;
+  border-radius: 3rem;
+  background-color: $christmas-gold;
+}
+
+
+.party-logo-times-row{
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+
+  .logo-box{
+    width: 55%;
+    margin: auto;
+   @media screen and (max-width: 575.9px) {
+ 
+    width: 90%;
+     }
+}
+  .time-box{
+    background-color:  white;
+    box-shadow: 0 0 3.25rem 1rem $christmas-claret;
+
+    h3{
+      color: $christmas-red;
+      padding: 1rem
+    }
+  }
+
+}
+
+  .meet-santa{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 12 / 7;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    
+
+
+    .activity-img{
+      position: absolute;
+      margin: 3rem;
+      transform-origin: center;
+      rotate: 10deg;
+      width: 50%;
+      transform: translate(-50%, -50%);
+      left: 55%;
+      top: 50%;
+ 
+      .img-fluid{
+        position: relative;
+        border-radius: 2rem;
+        height: 66%;
+        width: auto;
+        z-index: 1;
+        margin-bottom: 0 !important;
+      }
+    }
+
+    .party-textbox{
+      position: relative;
+      width: 35%;
+      height: fit-content;
+      rotate: -5deg;
+      margin-left: 15%;
+
+    p{
+      margin-right: 3rem;
+    }
+
+    .decoration-present{
+      position: absolute;
+      transform: translate(-50%, -75%);
+      left: 100%;
+      top: 100%;
+      width: 7.5rem;
+      rotate: 10deg;
+      transform-origin: center, center ;
+    }
+  }
+
+      @media screen and (max-width: 1399.98px) {
+      
+
+      
+      .party-textbox{
+        width: 40%;
+        margin-left: 10%;
+      }
+
+      }
+
+      @media screen and (max-width: 1199.98px) {
+    aspect-ratio: 12 / 9;
+
+
+        .activity-img{
+          width: 60%;
+        }
+  
+      .party-textbox{
+        width: 45%;
+        margin-left: 5%;
+      }
+
+      }
+
+      @media screen and (max-width: 991.98px) {
+
+
+      .party-textbox{
+        width: 50%;
+        margin-left: 0%;
+      }
+
+      }
+
+      @media screen and (max-width: 767.98px) {
+
+        aspect-ratio: unset;
+        flex-direction: column;
+        height: fit-content;
+        width: auto;
+        padding-bottom: 4rem;
+
+      .activity-img{
+      position: relative;
+      margin: 1rem;
+      transform-origin: center;
+      rotate: 10deg;
+      width: 90%;
+      transform: unset;
+      left: unset;
+      top: unset;
+
+      margin-bottom: -5rem;
+
+      .img-fluid{
+        width: 100%;
+        height: auto;
+      }
+           }
+
+           .party-textbox{
+            width: 100%;
+
+                p{
+      margin-right: unset;
+    }
+
+    .decoration-present{
+      position: absolute;
+      transform: translate(-50%, -10%);
+      left: 85%;
+      top: 100%;
+      width: 6.5rem;
+      rotate: 20deg;
+      transform-origin: center, center ;
+    }
+           }
+
+
+}
+
+   @media screen and (max-width: 575.9px) {
+         .activity-img{
+          margin-bottom: -3rem;
+         }
+   }
+}
+
+.pass-the-parcel{
+     position: relative;
+    width: 100%;
+    aspect-ratio: 9 / 4;
+    display: flex;
+    align-items: center;
+
+    .activity-img{
+      position: absolute;
+      margin: 0rem;
+
+      width: 50%;
+      transform: translate(-50%, -50%);
+      left: 35%;
+      top: 45%;
+      rotate: -7deg;
+ 
+      .img-fluid{
+        position: relative;
+        border-radius: 2rem;
+        height: 66%;
+        width: auto;
+        z-index: 1;
+        margin-bottom: 0 !important;
+      }
+    }
+
+        .party-textbox{
+      position: relative;
+      width: 40%;
+      height: fit-content;
+      rotate: 5deg;
+      margin-right: 10%;
+      margin-left: auto;
+
+      .decoration-stars{
+        position: absolute;
+        transform: translate(-50%, -50%);
+        width: 8rem;
+        top: 75%;
+        left: 100%;
+      }
+}
+
+      @media screen and (max-width: 1399.98px) {
+                .party-textbox{
+      rotate: 5deg;
+      margin-right: 5%;
+      width: 45%;
+      }
+
+}
+
+  @media screen and (max-width: 1199.98px) {
+    aspect-ratio: 9 / 5;
+
+    .activity-img{
+      width: 55%;
+      transform: translate(10%, -50%);
+      left: 0%;
+      top: 50%;
+    }
+
+  }
+
+  @media screen and (max-width: 991.98px) {
+    aspect-ratio: 9 / 6;
+
+          .party-textbox{
+        width: 40%;
+        margin-right: 5%;
+      }
+  }
+
+  @media screen and (max-width: 767.98px) {
+
+        aspect-ratio: unset;
+        flex-direction: column;
+        height: fit-content;
+        width: auto;
+        padding-bottom: 2rem;
+
+      .activity-img{
+      position: relative;
+      margin: 1rem;
+      transform-origin: center;
+      rotate: -4deg;
+      width: 90%;
+      transform: unset;
+      left: unset;
+      top: unset;
+
+      margin-bottom: -2rem;
+
+      .img-fluid{
+        width: 100%;
+        height: auto;
+      }
+           }
+
+           .party-textbox{
+            width: 100%;
+           }
+
+
+}
+   @media screen and (max-width: 575.9px) {
+         .activity-img{
+          margin-bottom: -1rem;
+         }
+   }
+  
+}
+
+.ornament{
+    position: relative;
+    width: 100%;
+    aspect-ratio: 2 / 1;
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+
+        .activity-img{
+      position: absolute;
+      width: 50%;
+      transform: translate(-50%, -50%);
+      left: 65%;
+      top: 55%;
+      rotate: 7deg;
+ 
+      .img-fluid{
+        position: relative;
+        border-radius: 2rem;
+        margin-bottom: 0 !important;
+      }
+}
+        .party-textbox{
+      position: relative;
+      width: 40%;
+      height: fit-content;
+      rotate: -7deg;
+      margin-left: 10%;
+      margin-right: auto;
+
+}
+
+      @media screen and (max-width: 1399.98px) {
+                .party-textbox{
+      margin-left: 5%;
+      width: 45%;
+      }
+
+}
+
+  @media screen and (max-width: 1199.98px) {
+    aspect-ratio: 2 / 1.25;
+
+    .activity-img{
+      width: 55%;
+ 
+    }
+
+  }
+
+    @media screen and (max-width: 991.98px) {
+    aspect-ratio: 2 / 1.5;
+
+    .party-textbox{
+        width: 40%;
+        margin-left: 5%;
+      }
+  }
+
+    @media screen and (max-width: 767.98px) {
+
+        aspect-ratio: unset;
+        flex-direction: column;
+        height: fit-content;
+        width: auto;
+        padding-bottom: 2rem;
+
+      .activity-img{
+      position: relative;
+      margin: 1rem;
+      transform-origin: center;
+      rotate: 3deg;
+      width: 90%;
+      transform: unset;
+      left: unset;
+      top: unset;
+
+      margin-bottom: -2rem;
+
+      .img-fluid{
+        width: 100%;
+        height: auto;
+      }
+           }
+
+           .party-textbox{
+            width: 100%;
+            margin-left: unset;
+           }
+
+
+}
+  @media screen and (max-width: 575.9px) {
+         .activity-img{
+          margin-bottom: -1rem;
+         }
+   }
+}
+}
+
+
+.cta-party-times{
+ background: #DFB862;
+background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 202, 1) 35%, rgba(235, 229, 176, 1) 57%, rgba(203, 163, 90, 1) 90%);
+
+
+.party-times-box{
+  background-color: unset;
+  h2{
+    color: white;
+
+      -webkit-text-stroke: 10px $christmas-dark-gold; 
+  text-stroke: 1rem $christmas-dark-gold; 
+  paint-order:  stroke fill;
+  }
+  
+  h3{
+    color: white;
+          -webkit-text-stroke: 10px $christmas-dark-gold; 
+  text-stroke: 1rem $christmas-dark-gold; 
+  paint-order:  stroke fill;
+  }
+
+  p{
+    color: white;
+    background-color: $christmas-dark-gold;
+    padding: 1rem;
+    border-radius: 2rem;
+  }
+}
+
+.cta-primary{
+    border: solid .15rem white;
+    background-color: $christmas-red ;
+    background-image: url(../images/generic-images/polka-dots.svg);
+    background-size: 30rem;
+    background-position: top center;
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  transition: .3s;
+
+    justify-content: center;
+    &:hover {
+        opacity: 1;
+        background-color: darken($christmas-red, 10%) !important;
+
+        border-color: white;
+
+    }
+
+    &:active{
+        opacity: .6;
+    }
+
+        @media (max-width: 575.98px) {
+          width: 90%;
+          padding-left: unset;
+          padding-right: unset;
+}
+
+}
+
+}
+
+
+
+.party-2{
+
+
+  background-image: url('../images/christmas-markets/party-2-bg-top.svg'),
+                    url('../images/santa-workshop/party-2-bg-bottom.svg'),
+                    url('../images/christmas-markets/christmas-market-bg.webp');
+                 
+  background-size: 105%, 105%, cover;
+  background-position: top, bottom,  top center;
+  background-repeat: no-repeat;
+
+  padding-top: calc((1229 * 100% / 20467) + 2rem); /* ≈ 11.74% */
+
+  overflow-x: hidden;
+
+  padding-bottom: 2rem;
+
+
+  .time-disclaimer{
+  color: white;
+  font-weight: bold;
+
+  background-color: $christmas-green;
+  padding: 1rem;
+  border-radius: 1rem;
+  z-index: 30;
+}
+
+ 
+
+}
+  .time-box{
+    background-color:  $christmas-green;
+    box-shadow: 0 0 2rem 1rem white;
+  
+
+    h3{
+      color: white;
+      padding: 1rem
+    }
+  }
+
+
+
+
+
+
+
+
+  .christmas-games{
+  margin-top: 2rem;
+  background-color: $christmas-green;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-size: 300%;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-style: solid;
+  border-width: 1rem;
+  border-color: $christmas-gold;
+  border-radius: 3rem;
+  height: fit-content;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+
+  -webkit-box-shadow:0px 0px 105px 10px white;
+  -moz-box-shadow: 0px 0px 105px 10px white;
+  box-shadow: 0px 0px 105px 10px white;
+  
+
+  .h3-box{
+
+       background-color: $christmas-gold;
+       height: fit-content;
+       width: fit-content;
+       border-radius: 0 0 2rem 2rem ;
+
+    h3{
+   
+      font-size: 3rem;
+      padding: 2rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      color: white;
+      filter: drop-shadow(0px 5px 0px #cba159);
+      font-family: "Shin-Maru-GP-Ultra";
+    }
+  }
+
+.decoration-tickets-1, .decoration-tickets-2, .decoration-tickets-3{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 25%;
+
+}
+
+.decoration-tickets-1{
+  top: 7.5%;
+  left: 7.5%;
+}
+
+.decoration-tickets-2{
+  top: 100%;
+  left: 60%;
+}
+
+.decoration-tickets-3{
+  top: 7.5%;
+  left: 92.5%;
+}
+
+.card-container{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+
+.card{
+    background-color: $christmas-green;
+    border-radius: 2rem;
+    border: solid $christmas-dark-green .5rem;
+    padding: 1rem;
+
+         filter: drop-shadow(0px 5px 0px #13a45780);
+
+    h3{
+      color: white;
+      filter: drop-shadow(0px 5px 0px $christmas-dark-green);
+      text-align: center;
+      font-family: "Shin-Maru-GP-Ultra";
+    }
+
+        .img-fluid{
+      padding: 2rem;
+
+    }
+
+
+  p{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+.top-trumps{
+  width: 45%;
+  position: relative;
+  padding: 1rem;
+
+
+  .card{
+    width: 100%;
+    height: fit-content;
+    rotate: -10deg;
+  }
+}
+
+.reindeer-game{
+  width: 55%;
+  position: relative;
+  padding: 1rem;
+
+
+    .card{
+      width: 100%;
+      height: fit-content;
+      rotate: 7deg;
+    }
+}
+  
+  }
+
+  @media screen and (max-width: 1399.98px) {
+  .h3-box{
+    h3{
+   
+      font-size: 2rem;
+      padding: calc(2rem / .6666);
+      padding-left: calc(3rem / .6666);
+      padding-right: calc(3rem / .6666);
+    }
+  }
+
+  }
+
+  @media screen and (max-width: 991.98px) {
+          .h3-box{
+            border-radius: 0 0 1rem 1rem;
+    h3{
+   
+      padding: 1rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+      }
+
+  }
+
+  @media screen and (max-width: 767.98px){
+
+    background-size: cover;
+
+.decoration-tickets-1, .decoration-tickets-2, .decoration-tickets-3{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  width: 50%;
+
+}
+
+.decoration-tickets-1{
+  top: 45%;
+  left: 7.5%;
+}
+
+.decoration-tickets-2{
+  top: 55%;
+  left: 100%;
+}
+
+.decoration-tickets-3{
+  top: 100%;
+  left: 7.5%;
+}
+
+    .card-container{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  .card{
+    .img-fluid{
+      padding: unset;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .top-trumps, .reindeer-game{
+    width: 100%;
+  }
+
+
+  
+  }
+}
+  }
+
+/* A new reusable class for the card styling */
+.card-style {
+  background-color: $christmas-green;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  margin-top: 4rem;
+
+  border-style: solid;
+  border-width: 1rem;
+  border-color: $christmas-gold;
+  border-radius: 3rem;
+  
+  padding: 1rem;
+
+  -webkit-box-shadow: 0px 0px 105px 10px white;
+  -moz-box-shadow: 0px 0px 105px 10px white;
+  box-shadow: 0px 0px 105px 10px white;
+}
+
+
+/* A new reusable class for the card styling */
+.card-style {
+  background-color: $christmas-green;
+  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 300%;
+  margin-top: 4rem;
+
+  border-style: solid;
+  border-width: 1rem;
+  border-color: $christmas-gold;
+  border-radius: 3rem;
+  
+  padding: 1rem;
+
+  -webkit-box-shadow: 0px 0px 105px 10px white;
+  -moz-box-shadow: 0px 0px 105px 10px white;
+  box-shadow: 0px 0px 105px 10px white;
+}
+
+
+.lower-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+
+  h3 {
+    color: white;
+    filter: drop-shadow(0px 5px 0px $christmas-dark-green);
+    text-align: center;
+    font-family: "Shin-Maru-GP-Ultra";
+  }
+
+  p {
+    color: white;
+    font-weight: bolder;
+  }
+
+  .snack-buffet {
+    @extend .card-style;
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+    .buffet-img {
+      width: 40%;
+      border-radius: 2rem 0 0 2rem;
+    }
+
+    .text {
+      width: 60%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+  }
+
+  .raffle {
+    @extend .card-style;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    h3 {
+      text-align: center;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      p {
+        text-align: center;
+      }
+    }
+  }
+  
+  /* --- RESPONSIVE STYLES --- */
+  @media screen and (max-width: 767.98px) {
+
+    .card-style{
+      -webkit-box-shadow: 0px 0px 45px 5px white;
+      -moz-box-shadow: 0px 0px 45px 5px white;
+      box-shadow: 0px 0px 45px 5px white;
+    }
+
+    /* FIX: This now correctly targets .lower-container */
+    flex-direction: column;
+    gap: 1rem;
+
+    .snack-buffet, .raffle {
+      width: 100%;
+    }
+
+
+
+    /* IMPROVEMENT: Stack the snack-buffet content vertically on mobile */
+    .snack-buffet {
+       margin-top: 1.5rem;
+      flex-direction: column;
+      align-items: center; /* Optional: centers the content */
+
+      
+
+      .buffet-img, .text {
+        width: 100%;
+      }
+
+      /* IMPROVEMENT: Adjust border-radius for the stacked layout */
+      .buffet-img {
+        border-radius: 2rem 2rem 0 0;
+      }
+    }
+
+    .raffle{
+      margin-top: unset;
+    }
+  }
+}
+
+
+
+
+
+/* ALL PARTIES (Final Refinements) */
+
+// Placeholder for common text box styles.
+// Now includes a width override for mobile screens.
+%feature-text-base {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 55%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+
+  h3 {
+    font-family: "Shin-Maru-GP-Bold";
+    text-align: center;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+
+  // Tablet responsive adjustments
+  @media screen and (max-width: 991.98px) {
+    width: 60%;
+    max-width: none;
+  
+  }
+
+  // Mobile responsive adjustments
+  @media screen and (max-width: 767.98px) {
+    width: 100%;
+  }
+}
+
+// Main component block
+.all-parties {
+  background-color: #ece5d9;
+  overflow-x: hidden;
+  padding-bottom: 2rem;
+
+  background-image: url(../images/all-parties/all-parties-transition-bottom.svg);
+  background-position: bottom;
+  background-size: 105%;
+  background-repeat: no-repeat;
+
+  .transition-bar{
+    width: 100%;
+    height: 3rem;
+    background-color: $christmas-red;
+  }
+
+  // --- Title Box (No changes) ---
+  .title-box {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1rem 0;
+    border-radius: 0 0 2rem 2rem;
+    background-color: $christmas-red;
+    margin-bottom: 1rem;
+
+    .decoration-row {
+      display: flex;
+      align-items: center;
+      width: 25%;
+    }
+
+    .christmas-lights {
+      width: 100%;
+    }
+
+    h2 {
+      flex-shrink: 0;
+      margin: auto 1rem;
+      color: white;
+      font-family: "Shin-Maru-GP-Bold";
+      text-align: center;
+
+      .mobile-break {
+        display: none;
+        @media screen and (max-width: 767.98px) {
+          display: block;
+        }
+      }
+    }
+  }
+
+.both-parties-general{
+  text-align: center;
+  padding: 1rem;
+  background-color: $christmas-red;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  width: fit-content;
+  margin: auto;
+  border-radius: 1rem;
+  color: white;
+  font-weight: bold;
+}
+  
+  // --- Features Section ---
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+
+    > [class^="feature-"] {
+      display: flex;
+      width: 100%;
+      gap: 0.5rem;
+      align-items: center;
+    }
+
+    // --- Feature 1: Card Game ---
+    .feature-1 {
+      // Desktop: 50/50 split
+      .image,
+      .text {
+        width: 50%;
+      }
+
+      // Mobile: Stacked full-width
+      @media screen and (max-width: 767.98px) {
+        flex-direction: column-reverse;
+        .image,
+        .text {
+          width: 100%;
+        }
+      }
+
+      .text {
+        @extend %feature-text-base;
+        background-color: $christmas-red;
+        h3, p { color: white; }
+      }
+    }
+
+    // --- Feature 2: Photo Service ---
+    .feature-2 {
+      .images {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        min-width: 45%;
+        max-width: 720px;
+        margin: auto;
+
+        .ribbon {
+          z-index: 2;
+          margin-bottom: -5rem;
+          .ribbon-front { fill: #ce2b27; }
+          .ribbon-fold  { fill: #8a181a; }
+          .ribbon-back  { fill: #c13630; }
+          .svg-text     {
+            font-family: "Shin-Maru-GP-Bold";
+            font-size: 12px;
+            font-weight: 700;
+            fill: white;
+          }
+        }
+
+        .photo-wrapper{
+          width: 90%;
+          margin: auto;
+          display: flex;
+
+        .photo {
+          width: 100%;
+          margin: auto;
+          border: solid 1rem whitesmoke;
+          rotate: -7deg;
+          z-index: 1;
+        }
+
+        .santa-photoshoot-box{
+          position: absolute;
+          display: flex;
+          height: 33%; 
+          width: 75%;
+          max-width: 375px;
+          bottom: 0;
+          right: 0;
+          z-index: 3;
+          rotate: 3deg;
+          transform-origin: bottom right;
+          flex-direction: column;
+            
+            p{
+              background-color: $christmas-gold;
+              color: white;
+              padding: 1rem;
+              border-radius: 1rem;
+              font-weight: bold;
+              height: fit-content;
+              width: 80%;
+              padding-right: 25%;
+              font-family: "Shin-Maru-GP-Bold";
+              z-index: 4;
+              margin-top: 1rem;
+            }
+
+            .p-sub{
+              margin-top: -1rem;
+              width: fit-content;
+              padding-right: unset;
+              padding: 1rem;
+              padding-top: 0rem;
+              margin-left: 1rem;
+              margin-right: 1rem;
+            }
+
+
+            .santa-photos{
+              height: 100%;
+              width: auto;
+              border-radius: 50%;
+              position: absolute;
+              right:0;
+              top: 0;
+              z-index: 5;
+              border: solid .5rem $christmas-gold;
+              rotate: -3deg;
+
+          
+            }
+
+            @media screen and (max-width: 424.98px) {
+          width: 90%;
+          max-width: unset;
+          height: 40%;
+
+                        p{           
+                padding-right: 10%;}
+          }
+        }
+      }
+       }
+
+      .text {
+        @extend %feature-text-base;
+        position: relative;
+        background-color: $christmas-green;
+        background-image: url(../images/generic-images/polka-dots.svg);
+        background-size: 300%;
+        p { color: white; }
+
+        .camera-decoration {
+          position: absolute;
+          width: 7.5rem;
+          top: 95%;
+          left: calc(100% - 3.75rem);
+          transform: translate(-50%, -50%);
+        }
+      }
+      
+      // Cleaned up mobile styles
+      @media screen and (max-width: 767.98px) {
+        margin-top: 2rem;
+        flex-direction: column;
+
+        .images {
+          width: 100%;
+          min-width: unset;
+          max-width: unset;
+        }
+        // NOTE: Redundant/conflicting .text block was removed.
+        // Width is now handled by the %feature-text-base placeholder.
+      }
+    }
+
+    // --- Feature 3: Mascot Badge ---
+    .feature-3 {
+      .image {
+        width: 45%;
+        max-width: 720px;
+      }
+      
+      .text {
+        @extend %feature-text-base;
+        border: solid 0.15rem $christmas-green;
+        h3 { color: $christmas-vivid-red; }
+        p  { color: $christmas-green; }
+      }
+
+      @media screen and (max-width: 767.98px) {
+        flex-direction: column-reverse;
+        .image {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+.lower-cta{
+  background-color: $chocolate-brown;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+
+    .lower-cta-contents{
+
+
+    .image{
+      width: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      img{
+        width: 75%;
+      }
+    }
+
+    .text{
+      h2{
+      font-family: "Shin-Maru-GP-Ultra";
+      color: white;
+      }
+
+      .cta-button{
+          border: solid .2rem $christmas-dark-gold;
+          background-color: $chocolate-red;
+          background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+          background-size: 30rem;
+          background-position: top center;
+        width: fit-content;
+        transition: .3s;
+
+          justify-content: center;
+          &:hover {
+              opacity: 1;
+              background-color: darken($chocolate-red, 10%) !important;
+          }
+
+          &:active{
+              opacity: .6;
+          }
+
+              @media (max-width: 575.98px) {
+                width: 90%;
+                padding-left: unset;
+                padding-right: unset;
+      }
+
+      }
+
+  }
+
+       @media (max-width: 575.98px) {
+        .image{
+          width: 80%;
+        }
+       }
+    }
+}
+
+
+// -----------------------------
+// GALLERY
+// -----------------------------
+
+
+
+.gallery{
+background-color: $chocolate-brown;
+h2{
+  padding-bottom: 2rem;
+  font-family: "Shin-Maru-GP-Ultra";
+  color: white;
+}
+
+.close-modal{
+      background-color: $christmas-gold;
+}
+
+}
+
+// -----------------------------
+// SIGN UP STEPS SECTION
+// -----------------------------
+
+
+.sign-up{
+background-color: $chocolate-brown;
+
+h2{
+  padding-top: 2rem;
+}
+
+.sign-up-bg{
+  fill: white;
+}
+
+.sign-up-main-colour{
+  fill: $chocolate-flat-gold-dark !important;
+}
+
+.sign-up-stroke{
+    fill: $chocolate-brown !important;
+
+}
+
+      .button-1, .button-2{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 425px;
+        transition: ease-in-out .2s;
+        border:solid .15rem white;
+
+            
+      
+      }
+
+  .button-1{
+        background-color: $christmas-gold ;
+    background-image: url(../images/generic-images/stars-bg.svg);
+    background-size: 30rem;
+    background-position: top center;
+
+
+
+
+
+
+    &:hover {
+        opacity: 1;
+        background-color: darken($christmas-gold, 10%) !important;
+    }
+
+  }
+
+  .button-2{
+    background-color: $christmas-green ;
+    background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+    background-size: 30rem;
+    background-position: top center;
+
+
+
+
+    &:hover {
+        opacity: 1;
+        background-color: darken($christmas-green, 10%) !important;
+    }
+
+  }
+
+}
+
+// -----------------------------
+// FORM SELECT PAGE
+// -----------------------------
+
+.sign-up{
+  padding-top: 2rem;
+  h2{
+    color: white;
+    font-family: "Shin-Maru-GP-Ultra";
+  }
+
+  h3{
+      font-family: "Shin-Maru-GP-Ultra";
+      color: white;
+      text-align: center;
+  }
+
+  p{
+    color: white;
+    font-weight: bold;
+  }
+
+
+  @media  screen and (max-width: 767.98px), 
+        screen and (max-aspect-ratio: 1/1) {
+          padding-top: 0rem;
+
+}
+}
+
+.form-body{
+background: linear-gradient(
+    180deg,
+    rgba(206, 43, 39, 1) 10%,
+    rgba(133, 34, 33, 1) 100%);
+
+
+.form-page{
+
+  height: calc(100vh - 5rem);
+  display: flex;
+
+  align-items: center;
+  flex-direction: row;
+  padding-top: 7rem;
+  
+
+  .logo-wrapper{
+       width: 35%;
+       padding: 2rem;
+   .logo{
+    width: 100%;
+    height: auto;
+  }
+  }
+
+  .mid-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+
+  h1{
+    font-family: "Shin-Maru-GP-Ultra";
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .button-box{
+    display: flex;
+    flex-direction: row;
+    gap: 0rem;
+    padding-top: 2rem;
+
+
+
+      flex-direction: column;
+
+      .cta-button{
+            border: solid white .15rem;
+            text-align: center;
+            justify-content: center;
+      }
+
+      .btn-1, .btn-2{
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 425px;
+        transition: ease-in-out .2s;
+      
+      }
+     
+
+    .btn-1{
+    background-color: $christmas-gold ;
+    background-image: url(../images/generic-images/stars-bg.svg);
+    background-size: 30rem;
+    background-position: top center;
+
+
+
+    &:hover {
+        opacity: 1;
+        background-color: darken($christmas-gold, 10%) !important;
+    }
+
+          }
+
+          .btn-2{
+                background-color: $christmas-green;
+    background-image: url(../images/generic-images/diagonal-stripes-green.svg);
+    background-size: 30rem;
+    background-position: top center;
+    &:hover {
+        opacity: 1;
+        background-color: darken($christmas-green, 10%) !important;
+    }
+
+    &:active{
+        opacity: .6;
+    }
+          }
+  }
+
+  p{
+    color: white;
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: 1.5rem;
+    font-size: .8rem;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.jot{
+  width: 30%;
+}
+@media  screen and (max-width: 576.98px), 
+        screen and (max-aspect-ratio: 1/1) {
+      
+
+          padding-top: 5rem;
+
+flex-direction: column;
+
+  .logo-wrapper{
+    width: 100%;
+    padding-top: 0;
+
+    .logo{
+      display: flex;
+      width: 75%;
+      margin: auto;
+      padding-top: 0 !important;
+    }
+  }
+
+  .mid-wrapper{
+
+    width: 100%;
+    
+    h1{
+      text-align: center;
+    }
+
+      .button-box{
+          width: 100%;
+          display: flex;
+          margin: auto;
+
+          .cta-button{
+            display: flex;
+            margin: auto;
+  
+          }
+
+          p{
+            width: 80%;
+          }
+ 
+     
+      }
+
+      }
+
+      .jot{
+
+
+        margin: auto;
+  width: 50%;
+}
+     }
+}
+}
+
+
+.bottom{
+  background-color: $chocolate-offwhite;
+  background-image: 
+  url(../images/generic-images/bottom-transition-top.svg),
+  url(../images/generic-images/diagonal-stripes-green.svg);
+
+  background-size: 105%, 300%;
+  background-position: top;
+  background-repeat: no-repeat;
+  padding-top: 5rem;
+
+  h3, p{
+    color: $chocolate-brown;}
+}
+
+
+
+.tutorial{
+  color: white;
+  transition: ease-in-out .2s;
+
+  &:hover{
+    opacity: .6;
+  }
+}
