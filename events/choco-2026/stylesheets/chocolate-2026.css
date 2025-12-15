@@ -247,6 +247,11 @@ nav .nav-links .button-3:active {
   padding-top: 0.5rem;
   padding-bottom: 1rem;
 }
+.hero .hero-center .hero-center-inner .small {
+  font-family: "Shin-Maru-GP-Regular";
+  color: #773819;
+  margin-bottom: 0.5rem;
+}
 .hero .hero-side-left {
   background-color: #d286a3;
   background-image: url(../images/hero/giftlab-bg.webp);
@@ -900,7 +905,21 @@ nav .nav-links .button-3:active {
     width: 90%;
   }
 }
-.party-logo-times-row .time-box {
+.party-logo-times-row .time-disclaimer-wrapper {
+  padding: 1rem;
+  border-radius: 4rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  margin: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.party-logo-times-row .time-disclaimer-wrapper .time-box {
   margin: auto;
   width: -moz-fit-content;
   width: fit-content;
@@ -908,30 +927,26 @@ nav .nav-links .button-3:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 1rem;
-  border-radius: 2rem;
   flex-direction: row;
   gap: 1rem;
 }
-.party-logo-times-row .time-box h3 {
+.party-logo-times-row .time-disclaimer-wrapper .time-box h3 {
   font-family: "Shin-Maru-GP-Ultra";
 }
 @media screen and (max-width: 475.9px) {
-  .party-logo-times-row .time-box {
+  .party-logo-times-row .time-disclaimer-wrapper .time-box {
     flex-direction: column;
     gap: 1rem;
     padding: 2rem;
   }
-  .party-logo-times-row .time-box h3 {
+  .party-logo-times-row .time-disclaimer-wrapper .time-box h3 {
     padding: unset;
     font-size: 1.5rem;
   }
 }
-.party-logo-times-row .time-disclaimer {
+.party-logo-times-row .time-disclaimer-wrapper .time-disclaimer {
   display: flex;
   margin: auto;
-  padding: 0.5rem;
-  border-radius: 2rem;
   font-size: 0.75rem;
 }
 
@@ -968,14 +983,10 @@ nav .nav-links .button-3:active {
   padding: 2rem;
   border-radius: 3rem;
 }
-.choco-lab .container .time-box {
+.choco-lab .container .time-disclaimer-wrapper {
   background-color: #fbf9f0;
 }
-.choco-lab .container .time-box h3 {
-  color: #773819;
-}
-.choco-lab .container .time-disclaimer {
-  background-color: #fbf9f0;
+.choco-lab .container .time-disclaimer-wrapper h3, .choco-lab .container .time-disclaimer-wrapper .time-disclaimer {
   color: #773819;
 }
 .choco-lab .container .choco-lab-activity-1 {
@@ -1186,8 +1197,10 @@ nav .nav-links .button-3:active {
 .choco-fountain .container .time-box h3 {
   color: #fbf9f0;
 }
-.choco-fountain .container .time-disclaimer {
+.choco-fountain .container .time-disclaimer-wrapper {
   background-color: #773819;
+}
+.choco-fountain .container .time-disclaimer-wrapper h3, .choco-fountain .container .time-disclaimer-wrapper .time-disclaimer {
   color: #fbf9f0;
 }
 .choco-fountain .container .textbox-1, .choco-fountain .container .textbox-2, .choco-fountain .container .textbox-3 {
@@ -1204,6 +1217,9 @@ nav .nav-links .button-3:active {
 .choco-fountain .container .textbox-1 p, .choco-fountain .container .textbox-2 p, .choco-fountain .container .textbox-3 p {
   color: #fbf9f0;
   font-size: 1.25rem;
+}
+.choco-fountain .container .textbox-1 p .small, .choco-fountain .container .textbox-2 p .small, .choco-fountain .container .textbox-3 p .small {
+  font-size: 0.9rem;
 }
 .choco-fountain .container .textbox-3 {
   border: solid 0.5rem #f28394;

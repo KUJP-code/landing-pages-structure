@@ -338,6 +338,13 @@ nav{
              padding-bottom: 1rem;
     }
 
+    .small{
+              font-family: "Shin-Maru-GP-Regular";
+              color: $chocolate-brown;
+              margin-bottom: .5rem;
+    }
+    
+
   }
 }
 
@@ -972,6 +979,20 @@ h2 {
     width: 90%;
      }
 }
+
+.time-disclaimer-wrapper{
+    padding: 1rem;
+    border-radius: 4rem;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+
   .time-box{
     margin: auto;
     width: fit-content;
@@ -979,10 +1000,9 @@ h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
-    border-radius: 2rem;
+
     flex-direction: row;
-         gap: 1rem;
+    gap: 1rem;
 
     h3{
       font-family: "Shin-Maru-GP-Ultra";
@@ -1005,13 +1025,12 @@ h2 {
     .time-disclaimer{
       display: flex;
       margin: auto;
-      padding: .5rem;
-      border-radius: 2rem;
+
       font-size: .75rem
       ;
     }
 }
-
+}
 
 // -----------------------------
 // CHOCO LAB
@@ -1054,20 +1073,12 @@ h2 {
     border-radius: 3rem;
   }
 
-
-  .time-box{
+.time-disclaimer-wrapper{
     background-color: $chocolate-offwhite;
-
-    h3{
+    h3,   .time-disclaimer {
       color: $chocolate-brown;
-    }
   }
-
-  .time-disclaimer{
-    background-color: $chocolate-offwhite;
-    color: $chocolate-brown;
-  }
-
+}
 
   .choco-lab-activity-1{
     display: flex;
@@ -1349,11 +1360,12 @@ h2 {
     }
   }
 
-  .time-disclaimer{
+.time-disclaimer-wrapper{
     background-color: $chocolate-brown;
-    color: $chocolate-offwhite;
+    h3,   .time-disclaimer {
+      color: $chocolate-offwhite;
   }
-
+}
 
   .textbox-1, .textbox-2, .textbox-3{
     background-color: $chocolate-brown;
@@ -1369,6 +1381,10 @@ h2 {
     p{
       color: $chocolate-offwhite;
       font-size: 1.25rem;
+
+      .small{
+        font-size: 0.9rem;
+      }
     }
   }
 

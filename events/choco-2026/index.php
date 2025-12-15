@@ -17,7 +17,7 @@
 <section class="hero">
 <div class="hero-side-left">
   
-<img src="./images/hero/giftlab-logo.svg" alt="" class="party-logo">
+<img src="./images/hero/giftlab-logo.svg" alt="" class="party-logo" loading="eager">
 
 <img src="./images/hero/parent-gift.svg" alt="" class="parent-gift">
 
@@ -31,14 +31,15 @@
 
   <div class="hero-center-inner">
 
-    <img src="./images/hero/chocolate-party-logo.svg" alt="" class="chocolate-party-logo">
+    <img src="./images/hero/chocolate-party-logo.svg" alt="" class="chocolate-party-logo" loading="eager">
 
-    <h1>チョコレートと笑顔があふれる<br>
-      パーティーへようこそ！</h1>
-    <h2>チョコレートを使ったゲームやチョコファウンテン、<br class="mobile-break">チョコピニャータなど、
-チョコ尽くしのアクティビティが盛りだくさん！
+    <h1>甘くて楽しいチョコレート<br>パーティーへようこそ♪</h1>
+    <h2>
+
+
+チョコをテーマにしたアクティビティやチョコファウンテン、<br class="mobile-break">ドキドキのチョコピニャータまで楽しいイベントが盛りだくさん！
 </h2>
-
+    <p class="small">※一部のスクールは日程が異なります。</p>
  <a href="form/" class="cta-button cta-primary" target="_blank">お申込みはこちら</a>
   </div>
 
@@ -48,7 +49,7 @@
 
 <div class="hero-side-right">
 
-  <img src="./images/hero/fountain-logo.svg" alt="" class="party-logo">
+  <img src="./images/hero/fountain-logo.svg" alt="" class="party-logo" loading="eager">
 
 
   <img src="./images/hero/chocolate-fountain.png" alt="" class="chocolate-fountain">
@@ -87,9 +88,8 @@
     <div class="text">
     <h2>チョコパーティー 2026<br>
        at Kids UP</h2>
-    <p>2種類のパーティーをご用意しておりますので、お好きな内容をお選びいただけます！<br>
-      2種類のパーティー両方への参加も大歓迎です！ <br>
-      両方ご参加の場合、2つのパーティーの合間の時間も無料でお子様をお預かりします♪</p>
+    <p>2種類のパーティーからお好きな内容をお選びいただけます！<br>2種類のパーティー両方への参加も大歓迎です！ <br>
+        両方のパーティーにご参加の場合、<br>2つのパーティーの合間の時間も無料でお子様をお預かりします♪</p>
    
     <a class="cta-button cta-secondary" href="form/">お申込みはこちら
         <svg class="arrow" viewBox="0 0 1006.31 837.38" xmlns="http://www.w3.org/2000/svg">
@@ -333,12 +333,14 @@ document.addEventListener('DOMContentLoaded', () => {
         <img src="./images/hero/giftlab-logo.svg" alt="" class="img-fluid">
       </div>
 
-
-    <div class="time-box">
+<div class="time-disclaimer-wrapper">
+      <div class="time-box">
         <h3>❶ 9:00-10:20</h3>
         <h3>❸ 14:00-15:20</h3>
     </div>
-      <p class="time-disclaimer">※一部のスクールは開催時間が異なります。</p>
+              <p class="time-disclaimer">※一部のスクールは開催時間が異なります。</p>
+</div>
+
   </div>
 
 <div class="choco-lab-activity-1">
@@ -573,13 +575,14 @@ document.addEventListener('DOMContentLoaded', () => {
         <img src="./images/hero/fountain-logo.svg" alt="" class="img-fluid">
       </div>
 
-
+<div class="time-disclaimer-wrapper">
     <div class="time-box">
         <h3>❷ 11:00 - 12:20</h3>
         <h3>❹ 16:00 - 17:20</h3>
     </div>
       <p class="time-disclaimer">※一部のスクールは開催時間が異なります。</p>
   </div>
+</div>
 
   <div class="activities">
 
@@ -591,7 +594,10 @@ document.addEventListener('DOMContentLoaded', () => {
 <h3>チョコレートファウンテン</h3>
 <p>大人気のチョコレートフォンデュが再登場！ バナナやお菓子にチョコをたっぷりディップして、デコレーションしよう。自分だけのオリジナルスイーツを作れるよ♪<br>
 <br>
-アレルゲン：乳・小麦・卵・大豆・バナナ・ゼラチン</p>
+<span class="small">※お子様の安全の為、以下のアレルギーをお持ちのお子様はChoco Fountainフェスにはご参加いただけません。<br>
+(Choco Giftラボにはご参加いただけます)<br>
+アレルゲン：乳・小麦・卵・大豆・バナナ・ゼラチン
+</span></p>
 </div>
 
 
@@ -612,7 +618,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <div class="textbox-3">
   <h3>ブームのクッキーチャレンジ</h3>
-  <p>ブームの大好物、チョコチップクッキーのおもちゃを投げ入れて、ブームに沢山食べさせよう！</p>
+  <p>Kids UPのマスコット「ブーム」の大好物、チョコチップクッキーのおもちゃを投げ入れて、たくさん食べさせてあげよう！</p>
 
 <img src="./images/fountain/activity-boom.png" alt="" class="activity-boom">
 </div>
