@@ -1,99 +1,116 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Non-Centered Radial Gradient Demo</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            padding: 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            align-items: flex-start;
-        }
+<style>
+:root{
+  --bg: #5b3a2b;        /* $chocolate-brown */
+  --solid: #cae1a7;
+  --c1: #92d4d7;
+  --c2: #f28394;
 
-        .container {
-            border: 1px solid #ccc;
-            width: 100%;
-            height: 250px;
-        }
+  /* tweak these */
+  --border-w: 12; /* outer solid stroke width (px) */
+  --dash-w: 8;    /* dashed stroke width (px) */
+  --dash: 40;     /* dash length (user units) */
+  --gap: 40;      /* gap length between dashes (user units) */
+  --r: 32;        /* corner radius in SVG user units (≈2rem) */
+}
 
-        /* -------------------------------------
-           CSS RADIAL GRADIENT 
-           ------------------------------------- */
-        .cta-wrapper {
-            width: 100%;
-            height: fit-content;
-            display: flex;
-            flex-direction: column;
-            background: radial-gradient(
-                closest-corner circle 
-                at 25% 15%,            
-                #9d7d59 0%,         
-                #70574b 125%           
-            );
-        }
+/* container */
+.text-box {
+  position: relative;
+  width: 100%;
+  max-width: 720px; /* demo width — remove/adjust */
+  padding: 2.25rem;  /* space for content */
+  box-sizing: border-box;
+  background: var(--bg);
+  border-radius: 2rem; /* visible radius for fallback */
+  overflow: visible;
+}
 
-        h2 {
-            margin-top: 0;
-            border-bottom: 2px solid #eee;
-            padding-bottom: 5px;
-        }
+/* SVG fills the box and sits behind content */
+.text-box svg.border-svg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  overflow: visible;
+  display: block;
+}
 
-        canvas {
-            border: 1px solid #ccc;
-        }
-    </style>
-</head>
-<body>
+/* keep content above the svg */
+.text-box .text-box-content {
+  position: relative;
+  z-index: 2;
+  color: white;
+}
 
-    <div>
-        <h2>1. CSS Radial Gradient (`radial-gradient()`)</h2>
-        <p>Center is positioned using the <code>at 25% 75%</code> property.</p>
-        <div class="container css-gradient"></div>
-        
-    </div>
+/* hide svg visually for accessibility (but keep it in DOM) if desired */
+.text-box svg[aria-hidden="true"] { /* nothing needed — show it */ }
+</style>
 
-    <div>
-        <h2>2. HTML Canvas Radial Gradient (`createRadialGradient()`)</h2>
-        <p>The inner circle ($x_0, y_0, r_0$) is offset to create the effect.</p>
-        <canvas id="myCanvas" width="400" height="250"></canvas>
-    </div>
+<div class="text-box">
+  <!-- Inline SVG sized by viewBox. Coordinates are in a 1000x400 space for precision -->
+  <svg class="border-svg" viewBox="0 0 1000 400" preserveAspectRatio="none" aria-hidden="true">
+    <!-- definitions to use CSS vars for stroke-dasharray & offsets -->
+    <!-- background rect (fills the box) -->
+    <rect x="0" y="0" width="1000" height="400" rx="var(--r)" ry="var(--r)" fill="transparent" />
 
-    <script>
-        // Get the Canvas and Context
-        const canvas = document.getElementById('myCanvas');
-        const ctx = canvas.getContext('2d');
-        const w = canvas.width;
-        const h = canvas.height;
+    <!-- solid outer stroke (drawn inset so all strokes sit visually inside the box) -->
+    <!-- We offset by half the stroke width so strokes are fully within the viewbox -->
+    <rect
+      x="var(--border-w) / 2"
+      y="var(--border-w) / 2"
+      width="calc(1000 - var(--border-w))"
+      height="calc(400 - var(--border-w))"
+      rx="var(--r)"
+      ry="var(--r)"
+      fill="none"
+      stroke="var(--solid)"
+      stroke-width="var(--border-w)"
+      vector-effect="non-scaling-stroke"
+      stroke-linejoin="round"
+      stroke-linecap="butt"
+    />
 
-        // --- Define Offset Positions ---
-        // Inner Circle (Starting point of the gradient) - Positioned at 25% 75%
-        const startX = w * 0.25; 
-        const startY = h * 0.75; 
-        const startRadius = 0;
+    <!-- dashed stroke 1 -->
+    <rect
+      x="calc(var(--border-w) + var(--dash-w) / 2)"
+      y="calc(var(--border-w) + var(--dash-w) / 2)"
+      width="calc(1000 - (var(--border-w) + var(--dash-w)))"
+      height="calc(400 - (var(--border-w) + var(--dash-w)))"
+      rx="var(--r)"
+      ry="var(--r)"
+      fill="none"
+      stroke="var(--c1)"
+      stroke-width="var(--dash-w)"
+      stroke-dasharray="var(--dash) var(--gap)"
+      stroke-dashoffset="0"
+      vector-effect="non-scaling-stroke"
+      stroke-linejoin="round"
+      stroke-linecap="butt"
+    />
 
-        // Outer Circle (End point of the gradient) - Centered for a broad coverage
-        const endX = w / 2;
-        const endY = h / 2;
-        const endRadius = Math.max(w, h) * 0.5;
+    <!-- dashed stroke 2 (same dash pattern, offset by half the pattern to alternate colors) -->
+    <rect
+      x="calc(var(--border-w) + var(--dash-w) / 2)"
+      y="calc(var(--border-w) + var(--dash-w) / 2)"
+      width="calc(1000 - (var(--border-w) + var(--dash-w)))"
+      height="calc(400 - (var(--border-w) + var(--dash-w)))"
+      rx="var(--r)"
+      ry="var(--r)"
+      fill="none"
+      stroke="var(--c2)"
+      stroke-width="var(--dash-w)"
+      /* offset by half a dash+gap so c2 sits between c1 dashes */
+      stroke-dasharray="var(--dash) var(--gap)"
+      stroke-dashoffset="calc((var(--dash) + var(--gap)) / 2)"
+      vector-effect="non-scaling-stroke"
+      stroke-linejoin="round"
+      stroke-linecap="butt"
+    />
+  </svg>
 
-        // Create the Radial Gradient Object
-        const gradient = ctx.createRadialGradient(
-            startX, startY, startRadius,  // Inner Circle: (x0, y0, r0)
-            endX, endY, endRadius         // Outer Circle: (x1, y1, r1)
-        );
-
-        // Add Color Stops
-        gradient.addColorStop(0, '#a8dadc');  
-        gradient.addColorStop(0.9, '#1d3557'); 
-
-        // Apply the Gradient to the Canvas
-        ctx.fillStyle = gradient;
-        ctx.fillRect(0, 0, w, h);
-    </script>
-
-</body>
-</html>
+  <div class="text-box-content">
+    <h3>Title</h3>
+    <p>Your content goes here. The SVG border sits behind this content and follows the 2rem radius exactly.</p>
+  </div>
+</div>

@@ -26,12 +26,12 @@
       <div class="nav-links">
         <a href="#about" class="button button-1">イベント概要</a>
         <a href="#activities" class="button button-2">アクティビティ内容</a>
-        <a href="/events/christmas-2025/form/" class="button button-3" target="_blank">お申込みはこちら</a>
+        <a href="form/" class="button button-3" target="_blank">お申込みはこちら</a>
       </div>
 
 
         <div class="sticky-cta">
-    <a href="/events/christmas-2025/form/" class="button button-4" target="_blank">お申込みはこちら</a>
+    <a href="form/" class="button button-4" target="_blank">お申込みはこちら</a>
   </div>
 </div>
 </nav>

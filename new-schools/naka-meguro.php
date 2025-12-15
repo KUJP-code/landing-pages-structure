@@ -10,7 +10,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- End Google Tag Manager -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Kids UPが 中目黒に開校! NEW OPEN</title>
+<title>Kids UPが 中目黒に開校! NEW OPEN 東急東横線・東京メトロ日比谷線 中目黒駅より徒歩12分</title>
 <meta name="description" content="Kids UP（キッズアップ）は英語で預かる子供の学童保育型英会話スクール・幼児クラスです。３歳〜１２歳までのお子様の英語教育を承ります。">
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/global-includes/template-head.php'; ?>
 <link rel="stylesheet" href="/global/global-stylesheets/template.css">
@@ -31,14 +31,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 		
     <!-- Section 1: HERO -->
 
-    <section class="hero">
-<img src="/new-schools/new-school-images-2025/naka-meguro-front-mobile.webp" alt="" class="d-block d-sm-none img-fluid mobile-hero">
-      <div class="hero-top-wrapper">
-      <img src="./new-school-images-2024/hero-badge.png" alt="hero-badge" class="hero-badge">
-        <div class="new-school-wrapper">
-
-
-
+<section class="hero">
+    <img src="/new-schools/new-school-images-2025/naka-meguro-front-mobile.webp" alt="" class="d-block d-sm-none img-fluid mobile-hero">
+    <div class="hero-top-wrapper">
+    <img src="./new-school-images-2024/hero-badge.png" alt="hero-badge" class="hero-badge">
+    <div class="new-school-wrapper">
 
            
             <div class="h1-wrapper">
@@ -48,10 +45,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 中目黒に開校!<br>
                 <span class="h1-orange">NEW OPEN</span>      </h1>
 
-                <img src="./new-school-images-2025/naka-meguro-front.webp" alt="ueno-front" class="d-none d-sm-block img-fluid hero-new-school-front">
-            
-            <div class="setsumeikai-header-prompt-wrapper"> 
+                         <h3 class="school-location-header">東急東横線・東京メトロ日比谷線 中目黒駅より徒歩12分</h3>
                 
+
+                        <div class="image-info-btn-wrapper">
+                         
+            <img src="./new-school-images-2025/naka-meguro-front.webp" alt="ueno-front" class="d-none d-sm-block img-fluid hero-new-school-front">
+
+            <div class="setsumeikai-header-prompt-wrapper"> 
                 <img src="./new-school-images-2024/setsumeikai-header-prompt-bracket-left.svg" class="setsumeikai-header-prompt-bracket-left" alt="">
                 <img src="./new-school-images-2024/setsumeikai-header-prompt-bracket-right.svg" class="setsumeikai-header-prompt-bracket-right" alt="">
                 <h2 class="setsumeikai-header-prompt">先行説明会・体験会　予約受付中</h2>
@@ -61,7 +62,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             <a href="https://kids-up.jp/entry/#/calendar/41/undefined" class="hero-call-to-action-btn"
             >無料体験に参加する</a>
             </div>
-
+</div>
           </div>
         </div>
 
@@ -77,7 +78,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
             <h3 class="bus-service-h3-schools">送迎対象予定小学校</h3>
 
-            <p class="school-list-1">中目黒小、油面小、東山小、<br class="d-block d-sm-none">菅刈小、鳥森小、猿楽小、<br >
+            <p class="school-list-1">中目黒小、油面小、東山小、<br class="d-block d-sm-none">菅刈小、烏森小、猿楽小、<br >
              長谷戸小、鷹番小、不動小</p>
 
                 <p class="school-list-2">（下目黒小・田道小は、近隣の為、<br class="d-block d-sm-none">徒歩にてご通学いただきます<br>
@@ -106,8 +107,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  
 
 </div>
-  </div>
-      </section>
+</div>
+</section>
   
 
  
@@ -119,7 +120,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     
           <div class="container">
             <div class="address-hyperlink-wrapper">
-              <a href="https://www.google.com/maps/uv?pb=!1s0x60188e977d08e533%3A0x93f96f873e5a4727!3m1!7e115!4s%2Fmaps%2Fplace%2F%25E3%2580%2592110-0015%25E5%258F%25B0%25E6%259D%25B1%25E5%258C%25BA%25E6%259D%25B1%25E4%25B8%258A%25E9%2587%258E6%25E4%25B8%2581%25E7%259B%25AE16-10KBU%25E3%2583%2593%25E3%2583%25AB3%25E9%259A%258E%2F%4035.7139592%2C139.7829975%2C3a%2C75y%2C89.75h%2C90t%2Fdata%3D*213m4*211e1*213m2*211sQIuV_6CnN09-r2esBG6_JQ*212e0*214m2*213m1*211s0x60188e977d08e533%3A0x93f96f873e5a4727%3Fsa%3DX%26ved%3D2ahUKEwjZ6syAn4OJAxU1ZPUHHRaTAssQpx96BAg2EAA!5z44CSMTEwLTAwMTXlj7DmnbHljLrmnbHkuIrph4425LiB55uuMTYtMTBLQlXjg5Pjg6sz6ZqOIC0gR29vZ2xlIFNlYXJjaA!15sCgIgAQ&imagekey=!1e2!2sQIuV_6CnN09-r2esBG6_JQ&cr=le_a7&hl=en&ved=1t%3A206134&ictx=111">
+              <a href="https://maps.app.goo.gl/tSR2ewy3HdS95YFE7" target="_blank">
 <h2 class="call-to-action-h2" style="text-decoration: underline solid white;">
             〒153-0061<br /> 東京都目黒区<br>
             中目黒４－８－５<br /> 藤井ビル3F
@@ -177,6 +178,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/reason-1.png"
               alt="reason-1"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
           <div class="col-sm-8">
@@ -199,6 +201,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/reason-2.png"
               alt="reason-1"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
           <div class="col-sm-8">
@@ -221,6 +224,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/reason-3.png"
               alt="reason-1"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
           <div class="col-sm-8">
@@ -243,6 +247,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/reason-4.png"
               alt="reason-1"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
           <div class="col-sm-8">
@@ -265,6 +270,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           alt="section-break-top"
           class="section-break"
           style="transform: translateY(-11px)"
+          loading="lazy"
         />
   
         <div class="container">
@@ -273,7 +279,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+          <a href="https://kids-up.jp/entry/#/calendar/41/undefined" class="cta-button"
             >無料体験に参加する
           </a>
           <div class="row">
@@ -291,6 +297,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       src="./images/main-page/tel-icon.svg"
                       alt="tel-icon"
                       class="tel-icon"
+                      
                     /> </span
                   >0120-378-056<br />
                   <span>
@@ -306,6 +313,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           src="./images/main-page/section-break-bottom.svg"
           alt="section-break-bottom"
           class="section-break"
+          loading="lazy"
         />
       </div>
 
@@ -344,6 +352,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <img
                   src="./images/main-page/navtab-right.svg"
                   alt="navtab-right.svg"
+                  loading="lazy"
                 />
               </button>
             </li>
@@ -361,6 +370,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 <img
                   src="./images/main-page/navtab-middle.svg"
                   alt="navtab-middle.svg"
+                  loading="lazy"
                 />
               </button>
             </li>
@@ -375,7 +385,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 aria-controls="Tab1"
                 aria-selected="true"
               >
-                <img src="./images/main-page/navtab-left.svg" alt="navtab-left" />
+                <img src="./images/main-page/navtab-left.svg" alt="navtab-left" loading="lazy" />
               </button>
             </li>
           </ul>
@@ -406,6 +416,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-1.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <h3 class="inner-pane-activity-english">
                         Arts & Crafts <br />
@@ -418,6 +429,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-2.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <h3 class="inner-pane-activity-english">
                         Experiments <br />
@@ -430,6 +442,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-3.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <h3 class="inner-pane-activity-english">
                         Exercise <br />
@@ -442,6 +455,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-4.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <h3 class="inner-pane-activity-english">
                         Dance <br />
@@ -465,6 +479,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     src="./images/main-page/tab-data.svg"
                     alt="tab-data"
                     class="tab-pane-data"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -495,6 +510,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-1.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Arts & Crafts <br />
@@ -507,6 +523,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-2.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Experiments <br />
@@ -519,6 +536,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-3.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Exercise <br />
@@ -531,6 +549,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/regular-kindy-img-4.png"
                         alt="regular-kindy-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Dance <br />
@@ -576,6 +595,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/specialist-img-1.png"
                         alt="specialist-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Listen<br />
@@ -588,6 +608,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/specialist-img-2.png"
                         alt="specialist-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Speak<br />
@@ -600,6 +621,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/specialist-img-3.png"
                         alt="specialist-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Read<br />
@@ -612,6 +634,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                         src="./images/main-page/specialist-img-4.png"
                         alt="specialist-img-1"
                         class="img-fluid general-images"
+                        loading="lazy"
                       />
                       <p class="inner-pane-activity-english">
                         Write<br />
@@ -634,6 +657,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                           src="./images/main-page/speech-contest.png"
                           alt="speech-contest"
                           class="img-fluid speech-contest-img"
+                          loading="lazy"
                         />
                       </div>
                       <div class="col-sm-7">
@@ -675,6 +699,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           src="./images/main-page/daily-schedule.svg"
           alt="daily-schedule"
           class="daily-schedule"
+          loading="lazy"
         />
       </div>
   
@@ -685,6 +710,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           alt="section-break-top"
           class="section-break"
           style="transform: translateY(-11px)"
+          loading="lazy"
         />
   
         <div class="container">
@@ -693,7 +719,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+          <a href="https://kids-up.jp/entry/#/calendar/41/undefined" class="cta-button"
             >無料体験に参加する
           </a>
           <div class="row">
@@ -711,6 +737,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                       src="./images/main-page/tel-icon.svg"
                       alt="tel-icon"
                       class="tel-icon"
+                      loading="lazy"
                     /> </span
                   >0120-378-056<br />
                   <span>
@@ -726,6 +753,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           src="./images/main-page/section-break-bottom-orange.svg"
           alt="section-break-bottom"
           class="section-break"
+          loading="lazy"
         />
       </div>
   
@@ -745,6 +773,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/benefit-1.png"
                   alt="benefit-1"
                   class="img-fluid benefit-images"
+                  loading="lazy"
                 />
                 <h6 class="benefit-text">
                   無料送迎バスで小学校・<br />
@@ -759,6 +788,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/benefit-2.png"
                   alt="benefit-2"
                   class="img-fluid benefit-images"
+                  loading="lazy"
                 />
                 <h6 class="benefit-text">最大20:30まで預けられて安心。</h6>
               </div>
@@ -770,6 +800,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/benefit-3.png"
                   alt="benefit-3"
                   class="img-fluid benefit-images"
+                  loading="lazy"
                 />
                 <h6 class="benefit-text">オールイングリッシュの学習環境。</h6>
               </div>
@@ -780,6 +811,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/benefit-4.png"
                   alt="benefit-4"
                   class="img-fluid benefit-images"
+                  loading="lazy"
                 />
                 <h6 class="benefit-text">
                   大学教授監修のカリキュラムで、<br />
@@ -804,6 +836,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/testimony-1.webp"
                   alt="testimony-1"
                   class="img-fluid testimony-img"
+                  loading="lazy"
                 />
               </div>
               <div class="d-block d-sm-none">
@@ -811,6 +844,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/testimony-1-mobile.webp"
                   alt="testimony-1"
                   class="img-fluid testimony-img"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -835,6 +869,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/testimony-2.webp"
                   alt="testimony-2"
                   class="img-fluid testimony-img"
+                  loading="lazy"
                 />
               </div>
               <div class="d-block d-sm-none">
@@ -842,6 +877,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   src="./images/main-page/testimony-2-mobile.webp"
                   alt="testimony-2"
                   class="img-fluid testimony-img"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -879,6 +915,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     src="./images/main-page/accordion-btn.svg"
                     alt="accordion-btn"
                     class="accordion-btn-icon"
+                    loading="lazy"
                   />
                   無料体験、見学はできますか？
                 </button>
@@ -914,6 +951,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     src="./images/main-page/accordion-btn.svg"
                     alt="accordion-btn"
                     class="accordion-btn-icon"
+                    loading="lazy"
                   />
                   授業はすべて英語で行うの？
                 </button>
@@ -949,6 +987,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     src="./images/main-page/accordion-btn.svg"
                     alt="accordion-btn"
                     class="accordion-btn-icon"
+                    loading="lazy"
                   />
                   送迎サービスはありますか？
                 </button>
@@ -983,6 +1022,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     src="./images/main-page/accordion-btn.svg"
                     alt="accordion-btn"
                     class="accordion-btn-icon"
+                    loading="lazy"
                   />
                   何時まで預かっていただけますか？
                 </button>
@@ -1016,6 +1056,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                     src="./images/main-page/accordion-btn.svg"
                     alt="accordion-btn"
                     class="accordion-btn-icon"
+                    loading="lazy"
                   />
                   普段、どんなレッスンを行うの？
                 </button>
@@ -1047,11 +1088,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 src="./images/main-page/safety-info-1.png"
                 alt="safety-info-1"
                 class="img-fluid safety-img-left"
+                loading="lazy"
               />
               <img
                 src="./images/main-page/safety-badge-1.svg"
                 alt="safety-badge-1"
                 class="safety-badge-left"
+                loading="lazy"
               />
             </div>
   
@@ -1086,11 +1129,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 src="./images/main-page/safety-info-2.png"
                 alt="safety-info-2"
                 class="img-fluid safety-img-right"
+                loading="lazy"
               />
               <img
                 src="./images/main-page/safety-badge-2.svg"
                 alt="safety-badge-2"
                 class="safety-badge-right"
+                loading="lazy"
               />
             </div>
           </div>
@@ -1103,11 +1148,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 src="./images/main-page/safety-info-3.png"
                 alt="safety-info-3"
                 class="img-fluid safety-img-left"
+                loading="lazy"
               />
               <img
                 src="./images/main-page/safety-badge-3.svg"
                 alt="safety-badge-3"
                 class="safety-badge-left"
+                loading="lazy"
               />
             </div>
             <div class="col-sm-6 safety-image-container">
@@ -1115,11 +1162,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 src="./images/main-page/safety-info-4.png"
                 alt="safety-info-4"
                 class="img-fluid safety-img-right"
+                loading="lazy"
               />
               <img
                 src="./images/main-page/safety-badge-4.svg"
                 alt="safety-badge-4"
                 class="safety-badge-right"
+                loading="lazy"
               />
             </div>
           </div>
@@ -1140,6 +1189,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           alt="section-break-top"
           class="section-break"
           style="transform: translateY(-11px)"
+          loading="lazy"
         />
   
         <div class="container">
@@ -1148,7 +1198,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             聴ける・話せる・楽しめる
           </h2>
   
-          <a href="https://kids-up.jp/entry/#/calendar/39/undefined" class="cta-button"
+          <a href="https://kids-up.jp/entry/#/calendar/41/undefined" class="cta-button"
             >無料体験に参加する
           </a>
           <div class="row">
@@ -1181,6 +1231,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           src="./images/main-page/section-break-bottom.svg"
           alt="section-break-bottom"
           class="section-break"
+          loading="lazy"
         />
       </div>
   
@@ -1200,6 +1251,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/english-1.webp"
               alt="english-1"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
   
@@ -1223,6 +1275,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/english-2.webp"
               alt="english-2"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
   
@@ -1245,6 +1298,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
               src="./images/main-page/english-3.webp"
               alt="english-3"
               class="img-fluid general-images"
+              loading="lazy"
             />
           </div>
   
@@ -1278,6 +1332,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           src="./new-school-images-2024/group-photo.jpg"
           alt="group-photo"
           class="img-fluid"
+          loading="lazy"
         />
   
         <div style="background-color: #fde9d3">

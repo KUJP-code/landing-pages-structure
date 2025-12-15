@@ -1167,7 +1167,6 @@ nav .sticky-cta {
   flex-direction: column;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 2rem;
   padding-bottom: 1rem;
   background-color: #EF8200;
 }
@@ -1195,6 +1194,168 @@ nav .sticky-cta {
   }
 }
 .cta-party-times .cta-primary {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cta-party-times-timeline {
+  position: relative;
+  overflow: hidden;
+}
+.cta-party-times-timeline .container {
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+}
+.cta-party-times-timeline .container .party-times-box {
+  background-color: unset;
+  width: 100%;
+}
+.cta-party-times-timeline .container .party-times-box h2 {
+  font-family: "Shin-Maru-GP-Ultra";
+  text-align: center;
+  margin-bottom: 1rem;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline {
+  border-style: solid;
+  border-width: 0.3rem;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  border-radius: 3rem;
+  overflow: hidden;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-number {
+  font-size: 1.25rem;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-time {
+  font-size: 1.15rem;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-1-3-box,
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-2-4-box {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+}
+@media (max-width: 991.98px) {
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .party-1-3-box,
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .party-2-4-box {
+    padding: 1rem;
+  }
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-1-3-box h3,
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-1-3-box h4,
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-2-4-box h3,
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-2-4-box h4 {
+  line-height: 1;
+  padding: 0;
+  text-align: left;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .party-1-3-box, .cta-party-times-timeline .container .party-times-box .party-times-timeline .party-2-4-box {
+  width: 18%;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .interlude {
+  width: 11.5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .interlude p {
+  font-size: 0.75rem;
+  text-align: left;
+  width: 100%;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .interlude .party-times-arrow-mobile {
+  display: none;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-timeline .lunch-break {
+  width: 5%;
+  border-left-style: dashed;
+  border-right-style: dashed;
+  border-left-width: 0.15rem;
+  border-right-width: 0.15rem;
+}
+@media (max-width: 767.98px) {
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline {
+    flex-direction: column;
+    border-radius: 2rem;
+    padding: 0;
+  }
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .party-1-3-box,
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .party-2-4-box,
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .interlude,
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .lunch-break {
+    width: 100%;
+    padding-left: 2rem;
+  }
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .lunch-break {
+    height: 2rem;
+    border-top-style: dashed;
+    border-bottom-style: dashed;
+    border-left: none;
+    border-right: none;
+  }
+  .cta-party-times-timeline .container .party-times-box .party-times-timeline .interlude .party-times-arrow-mobile {
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, 0%);
+    left: 80%;
+    height: 390%;
+  }
+}
+.cta-party-times-timeline .container .party-times-box .party-times-arrow-row {
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  padding-top: 1rem;
+}
+.cta-party-times-timeline .container .party-times-box .party-times-arrow-row .party-times-arrow {
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 767.98px) {
+  .cta-party-times-timeline .container .party-times-box .party-times-arrow-row {
+    display: none;
+  }
+}
+.cta-party-times-timeline .container .party-times-box p,
+.cta-party-times-timeline .container .party-times-box .party-times-link {
+  padding: 1rem;
+  text-decoration: none;
+}
+.cta-party-times-timeline .container .cta-primary {
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  transition: 0.3s;
+  justify-content: center;
+}
+.cta-party-times-timeline .container .cta-primary:hover {
+  opacity: 1;
+  border-color: white;
+}
+.cta-party-times-timeline .container .cta-primary:active {
+  opacity: 0.6;
+}
+@media (max-width: 575.98px) {
+  .cta-party-times-timeline .container .cta-primary {
+    width: 90%;
+    padding-left: unset;
+    padding-right: unset;
+  }
+}
+.cta-party-times-timeline .times-cta-lower {
+  text-align: center;
+}
+.cta-party-times-timeline .cta-primary {
+  width: -moz-fit-content;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
 }

@@ -1,18 +1,5 @@
 
 
-$christmas-red: #ce2b27;
-$christmas-claret: #852221;
-$christmas-vivid-red: #ed2024;
-
-
-$christmas-green: #13a457;
-$christmas-dark-green: #127f40;
-
-$christmas-gold: #d2ac5f;
-$christmas-dark-gold: #caa159;
-
-
-
 $chocolate-offwhite: #fbf9f0;
 $chocolate-brown: #773819;
 
@@ -20,6 +7,13 @@ $chocolate-flat-gold: #fcb550;
 $chocolate-flat-gold-dark: #d2ac5f;
 $chocolate-red: #d44534;
 $chocolate-pink: #d286a3;
+$chocolate-gold-gradient: linear-gradient(
+  90deg,
+  rgba(245, 169, 100, 1) 0%,
+  rgba(250, 179, 80, 1) 60%,
+  rgba(247, 241, 155, 1) 100%
+);
+
 
 
 $giftlab-pink: #d286a3;
@@ -40,7 +34,7 @@ $prefecture-themes: (
 
 
 html{
-    background-color: $christmas-claret;
+    background-color: $chocolate-brown;
 }
 
 body{
@@ -116,7 +110,7 @@ nav{
 
 
     .nav-links{
-        background-color: $christmas-claret;
+        background-color: $chocolate-red;
 
     }
 
@@ -141,7 +135,7 @@ nav{
 
             &:hover {
         opacity: 1;
-        background-color: darken($christmas-red, 10%) !important;
+        background-color: darken($chocolate-pink, 10%) !important;
     }
 
     &:active{
@@ -176,63 +170,199 @@ nav{
 }
 
 
-// HERO SECTION
+
+// TRANSITION CONTROLS
+
+.transition-top-mobile, .transition-bottom-mobile{
+  display: none;
+}
+
+
+.transition-top-desktop{
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  width: 101%;
+}
+
+.transition-bottom-desktop{
+    display: flex;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  width: 101%;
+  bottom: -2px;
+}
+
+
+
+@media (max-width: 767.98px) { 
+
+.transition-top-desktop, .transition-bottom-desktop{
+  display: none;
+}
+
+.transition-top-mobile{
+  display: flex;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  width: 101%;
+}
+
+.transition-bottom-mobile{
+    display: flex;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  left: 50%;
+  width: 101%;
+  bottom: -1px;
+}
+
+}
+
+// -----------------------------
+// HERO
+// -----------------------------
 
 .hero{
-  height: 100vh;
+
+  height: 105vh;
+  max-height: 1026px;
+  min-height: 920px;
   background-color: $chocolate-offwhite;
   position: relative;
   display: flex;
   flex-direction: row;
   overflow: hidden;
-
-
-
-
   
+.mobile-transition, .hero-details-mobile{
+  display: none;
+}
 
 .hero-side-left, .hero-side-right{
-  width: 25%;
+  width: 27.5%;
   height: 100%;
   background-repeat: no-repeat;
   background-size: auto;
   position: relative;
+  display: flex;
+  
+  .party-logo{
+    width: 80%;
+    max-width: 350px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 30%;
+    z-index: 1;
+  }
 }
 
 .hero-center{
-  width: 56%;
+  width: 45%;
   height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-items: center;
-  align-items: center;
+  min-height: 700px;
+  position: relative;    
+  margin-top: 5%;
+  background-image: url(../images/hero/hero-desktop-center-image.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+.cta-primary{
+  border: solid .15rem white;
+  background-color: $chocolate-flat-gold;
+  background-image: url(../images/generic-images/polka-dots.svg);
+  background-size: 30rem;
+  background-position: top center;
+  width: fit-content;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  transition: .3s;
+
+    justify-content: center;
+    &:hover {
+        opacity: 1;
+        background-color: $chocolate-flat-gold-dark;
+
+        border-color: white;
+
+    }
+
+    &:active{
+        opacity: .6;
+    }
+
+        @media (max-width: 575.98px) {
+          width: 90%;
+          padding-left: unset;
+          padding-right: unset;
+}
+
+}
 
 
   .hero-center-inner{
-    display: block;
+    display: flex;
+    flex-direction: column;
     height: fit-content;
     margin: auto;
+    justify-content: center;
+    align-items: center;
+
+    .chocolate-party-logo{
+      width: 70%;
+      max-width: 500px;
+      height: auto;
+    }
+
+
     h1{
       color: $chocolate-brown;
-       font-family: "Shin-Maru-GP-Ultra";
+      font-family: "Shin-Maru-GP-Ultra";
+      max-width: 95%;
+      text-align: center;
+      font-size: 2.5rem;
+      padding-top: 1rem;
     }
 
     h2{
       color: $chocolate-brown;
              font-family: "Shin-Maru-GP-Ultra";
              text-align: center;
+             max-width: 75%;
+             font-size: 1.5rem;
+             padding-top: .5rem;
+             padding-bottom: 1rem;
     }
+
   }
 }
 
 .hero-side-left{
   background-color: $giftlab-pink;
+  background-image: url(../images/hero/giftlab-bg.webp);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .parent-gift{
+    position: absolute;
+    width: 70%;
+    max-width: 300px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 60%;
+  }
 
   .hero-side-left-transition{
     position: absolute;
     transform: translate(calc(-100% + 1px ), 0%);
     left: 100%;
-    height: 200%;
+    height: 400%;
+    top: -10px
   }
 
 
@@ -241,11 +371,46 @@ nav{
 
 .hero-side-right{
   background-color: $fountain-yellow;
+  background-image: url(../images/hero/fountain-bg.webp);
+  background-position: top center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
+  .chocolate-fountain{
+    width: 77.5%;
+    max-width: 375px;
+    height: auto;
+    position: absolute;
+    z-index: 0;
+    transform: translate(-50%, -100%);
+    left: 50%;
+    top: 95%;
+  }
+
   .hero-side-right-transition{
     position: absolute;
     left: 0%;
-    height: 200%;
+    height: 400%;
+        top: -10px
 }
+}
+
+
+.hero-bottom-people-left, .hero-bottom-people-right{
+  position: absolute;
+  transform: translate(-50%, -0%);
+  bottom: 5%;
+  width: 350px;
+
+}
+
+.hero-bottom-people-left{
+  left: 25%;
+
+}
+
+.hero-bottom-people-right{
+  left: 75%;
 }
 
 
@@ -256,8 +421,346 @@ nav{
   left: 50%;
   bottom: 0%;
 }
+
+@media (max-width: 1399.98px){
+
+  max-height: 780px;
+  min-height: 760px;
+
+.hero-side-left, .hero-side-right {
+  width: 30%;
+
+    .party-logo{
+    width: 80%;
+    max-width: 300px;
+  }
 }
+
+.hero-center {
+  width: 40%;
+  height: 100%;
+  min-height: 850px;
+  position: relative;
+  margin-top: 2%;
+
+
+  .hero-center-inner {
+    h1 {
+      font-size: 2rem;
+    }
+
+    h2 {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.hero-side-left {
+  .parent-gift {
+    max-width: 275px;
+  }
+}
+
+.hero-side-right {
+  .chocolate-fountain {
+    max-width: 250px;
+  }
+}
+
+.hero-bottom-people-left, .hero-bottom-people-right {
+  width: 225px;
+}
+
+.hero-bottom-people-left {
+  left: 27%;
+}
+
+.hero-bottom-people-right {
+  left: 73%;
+}
+
+.hero-bottom {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  width: 101%;
+  left: 50%;
+  bottom: 0%;
+}
+}
+
+@media (max-width: 1199.98px) { 
+  max-height: 760px;
+  min-height: 700px;
+
+.hero-side-left, .hero-side-right {
+  width: 30%;
+
+    .party-logo{
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+.hero-center {
+  width: 40%;
+  height: 100%;
+  min-height: 850px;
+  position: relative;
+  margin-top: 2%;
+
+
+  .hero-center-inner {
+    h1 {
+      font-size: 1.75rem;
+      max-width: 100%;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      max-width: 95%;
+    }
+  }
+}
+
+.hero-side-left {
+  .parent-gift {
+    max-width: 275px;
+  }
+}
+
+.hero-side-right {
+  .chocolate-fountain {
+    max-width: 250px;
+  }
+}
+
+.hero-bottom-people-left, .hero-bottom-people-right {
+  width: 210px;
+}
+
+.hero-bottom-people-left {
+  left: 25%;
+}
+
+.hero-bottom-people-right {
+  left: 75%;
+}
+
+.hero-bottom {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  width: 101%;
+  left: 50%;
+  bottom: 0%;
+}
+}
+
+@media (max-width: 991.98px) { 
+
+  max-height: 700px;
+  min-height: 600px;
+
+.hero-side-left, .hero-side-right {
+  width: 27.5%;
+
+.party-logo{
+    width: 80%;
+    max-width: 300px;
+  }
+}
+
+.hero-center {
+  width: 45%;
+  height: 100%;
+  min-height: 850px;
+  position: relative;
+  margin-top: 2%;
+
+
+  .hero-center-inner {
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    .cta-primary{
+      text-align: center;
+       width: fit-content;
+       padding-left: 2rem;
+       padding-right: 2rem;
+      font-size: 1.25rem;
+    }
+  }
+}
+
+.hero-side-left {
+  .parent-gift {
+    max-width: 275px;
+  }
+}
+
+.hero-side-right {
+  .chocolate-fountain {
+    max-width: 275px;
+  }
+}
+
+.hero-bottom-people-left, .hero-bottom-people-right {
+  width: 180px;
+}
+
+.hero-bottom-people-left {
+  left: 25%;
+}
+
+.hero-bottom-people-right {
+  left: 75%;
+}
+
+.hero-bottom {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  width: 101%;
+  left: 50%;
+  bottom: 0%;
+}
+
+
+ }
+
+@media (max-width: 767.98px) { 
+
+max-height: unset;
+min-height: unset;
+height: fit-content;
+margin-bottom: -10px;
+flex-direction: column;
+
+
+
+  .hero-side-left, .hero-side-right, .hero-bottom-people-left, .hero-bottom-people-right, .hero-bottom, .mobile-break {
+  display: none;
+}
+
+.hero-center {
+  width: 100%;
+  height: fit-content;
+  min-height: unset;
+  position: relative;
+  margin-top: 1rem;
+
+
+  .mobile-transition{
+    display: flex;
+    position: absolute;
+    transform: translate(-50%, -100%);
+    top: 100%;
+    left: 50%;
+    width: 101%;
+    z-index: 0;
+  }
+
+
+
+  .hero-center-inner {
+    width: 95%;
+    z-index: 20;
+    margin-bottom: 10%;
+
+  .chocolate-party-logo{
+    width: 90%;
+    max-width: 450px;
+    
+  }
+
+
+
+    h1 {
+     font-size: clamp(
+  1.3rem,
+  calc(1.3rem + (2rem - 1.3rem) * ((100vw - 320px) / (767.98px - 320px))),
+  2rem
+);
+    }
+
+h2 {
+  font-size: clamp(
+    0.9rem,
+    calc(0.9rem + (1.25rem - 0.9rem) * ((100vw - 320px) / (767.98px - 320px))),
+    1.25rem
+  );
+}
+
+
+    .cta-primary{
+      text-align: center;
+       width: fit-content;
+       padding-left: 3rem;
+       padding-right: 3rem;
+      font-size: 1.5rem;
+      z-index: 30;
+      border: unset;
+    }
+  }
+
+ }
+
+
+ .hero-details-mobile{
+  display: block;
+  background-image: url(../images/hero/hero-details-mobile-bg.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 125vw;
+  position: relative;
+
+  .giftlab-logo{
+    position: absolute;
+    width: 45%;
+    left: 1rem;
+    top: 20vw;
+  }
+
+  .parent-gift{
+    position: absolute;
+    width: 40%;
+    height: auto;
+    transform: translate(0%, -50%);
+    top: 65vw;
+    left: 1rem;
+  }
+
+    .fountain-logo{
+    position: absolute;
+    width: 42.5%;
+    right: 1rem;
+    top: 35vw;
+  }
+
+  .chocolate-fountain{
+    position: absolute;
+    transform: translate(0%, 0%);
+    bottom: 0;
+    right: 1rem;
+        width: 45%; 
+
+  }
+ }
+
+}
+ }
+
+ 
+
+
+
+// -----------------------------
 // PARTY EVENT ABOUT
+// -----------------------------
 
 .party-event-about{
   background-color: $chocolate-brown;
@@ -291,13 +794,13 @@ nav{
     background-color: $chocolate-flat-gold ;
     background-image: url(../images/generic-images/diagonal-stripes-green.svg);
     background-size: cover;
-    border: solid .2rem $christmas-dark-gold;
+    border: solid .2rem $chocolate-flat-gold-dark;
     transition: .3s;
     
       &:hover {
       opacity: 1;
       background-color: darken($chocolate-flat-gold , 10%) !important;
-      border-color: $christmas-dark-gold;
+      border-color: $chocolate-flat-gold-dark;
     }
 }
 }
@@ -307,7 +810,7 @@ nav{
   border-radius: 2rem;
   border-style: solid;
   border-width: 0.2rem;
-  border-color: $christmas-dark-gold;
+  border-color: $chocolate-flat-gold-dark;
   background-size: 300%;
 }
 
@@ -334,7 +837,9 @@ nav{
   background-color: $chocolate-brown;
 }
 
-// SCHOOLS LIST
+// -----------------------------
+// SCHOOL LIST STYLING
+// -----------------------------
 
 .schools-list{
   background-color: $chocolate-brown;
@@ -442,13 +947,22 @@ nav{
 }
 
 
-// COMMON PARTY STYLING
+// -----------------------------
+// PARTY COMMON
+// -----------------------------
+
+.logo-box{
+  display: flex;
+  flex-direction: column;
+}
+
 
 .party-logo-times-row{
   width: 100%;
   display: flex;
   gap: 1rem;
   flex-direction: column;
+  padding-bottom: 2rem;
 
   .logo-box{
     width: 55%;
@@ -468,6 +982,7 @@ nav{
     padding: 1rem;
     border-radius: 2rem;
     flex-direction: row;
+         gap: 1rem;
 
     h3{
       font-family: "Shin-Maru-GP-Ultra";
@@ -490,1228 +1005,714 @@ nav{
     .time-disclaimer{
       display: flex;
       margin: auto;
-
-      
-        padding: 1rem;
-  border-radius: 1rem;
+      padding: .5rem;
+      border-radius: 2rem;
+      font-size: .75rem
+      ;
     }
 }
-// Santa's Workshop
-
-.party-1 {
-  background-image: url('../images/santa-workshop/party-1-bg-top.svg'),
-                    url('../images/santa-workshop/party-1-bg-bottom.svg'),
-                    url('../images/santa-workshop/workshop-background.webp');
-                 
-  background-size: 105%, 105%, cover;
-  background-position: top, bottom,  center center;
-  background-repeat: no-repeat;
-
-  padding-top: calc((1229 * 100% / 10467) + 2rem); /* ≈ 11.74% */
-  overflow-x: hidden;
-  padding-bottom: 2rem;
-
-.time-disclaimer{
-  color: $christmas-red;
-  font-weight: bold;
-  background-color: white;
-}
-
-.party-textbox{
-  background-color: $christmas-red;
-  -webkit-box-shadow:0px 0px 105px 10px rgba(42,17,23,0.9);
-  -moz-box-shadow: 0px 0px 105px 10px rgba(42,17,23,0.9);
-  box-shadow: 0px 0px 105px 10px rgba(42,17,23,0.9);
-  border-style: solid;
-  border-radius: 2rem;
-  border-width: .5rem;
-  border-color: $christmas-gold;
-  padding: 2rem;
-
-      h3{
-      color: white;
-      font-family: "Shin-Maru-GP-Ultra";
-      margin-bottom: .5rem;
-      filter: drop-shadow(0px 5px 0px $christmas-claret);
-      }
-
-      p{
-        color: white;
-        font-weight: bold;
-      }
 
 
-   @media screen and (max-width: 575.9px) {
-    padding: 1rem;
-   }
-}
+// -----------------------------
+// CHOCO LAB
+// -----------------------------
 
-.activity-img{
-  border-style: solid;
-  border-width: 1rem;
-  border-color: $christmas-gold;
-  border-radius: 3rem;
-  background-color: $christmas-gold;
-}
+.choco-lab{
+  position: relative;
+  background-color: $giftlab-pink;
+  padding-top: 0rem;
+  z-index: 1;
+  background-size: contain;
+  background-image: url(../images/choco-lab/choco-lab-section-bg.png);
+  background-position: center;
 
+  .container{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+    position: relative;
+    z-index: 2;
 
-.party-logo-times-row{
-  width: 100%;
-  display: flex;
-  gap: 1rem;
-  flex-direction: column;
+    .party-logo-times-row{
+      margin-bottom: -4rem;
+    }
 
-  .logo-box{
-    width: 55%;
-    margin: auto;
-   @media screen and (max-width: 575.9px) {
- 
-    width: 90%;
-     }
-}
-  .time-box{
-    background-color:  white;
-    box-shadow: 0 0 3.25rem 1rem $christmas-claret;
 
     h3{
-      color: $christmas-red;
-      padding: 1rem
+      color: $chocolate-offwhite;
+      font-family: "Shin-Maru-GP-Ultra";
+      font-size: 2rem;
+    }
+    p{
+      color: $chocolate-offwhite;
+      font-size: 1.25rem;
+    }
+
+  .textbox{
+    background-color: $chocolate-brown;
+    border: solid .5rem $chocolate-flat-gold;
+    padding: 2rem;
+    border-radius: 3rem;
+  }
+
+
+  .time-box{
+    background-color: $chocolate-offwhite;
+
+    h3{
+      color: $chocolate-brown;
     }
   }
 
+  .time-disclaimer{
+    background-color: $chocolate-offwhite;
+    color: $chocolate-brown;
+  }
+
+
+  .choco-lab-activity-1{
+    display: flex;
+    flex-direction: row;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    justify-content: space-around;
+
+    .activity-text{
+      display: flex;
+      flex-direction: row;
+      width: 55%;
+      justify-content: center;
+      align-items: center;
+
+        .textbox{
+          transform: rotate(-7deg);
+        }
+
+      }
+
+    .activity-img{
+      width: 45%;
+      display: flex;
+      justify-content: center;
+      align-items: left;
+
+      img{
+        width: 90%;
+      }
+    }
+
+    @media (max-width: 767.98px) { 
+      margin-top: 2rem;
+      flex-direction: column;
+
+      .activity-text{
+        width: 100%;
+        margin: auto;
+      }
+
+      .activity-img{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img{
+        margin: auto;
+        width: 90%;
+        z-index: 2;
+        margin-top: -2rem;
+      }
+    }
+      
+
+    }
+
 }
 
-  .meet-santa{
-    position: relative;
-    width: 100%;
-    aspect-ratio: 12 / 7;
-    margin-top: 2rem;
+.choco-lab-activity-2-3-wrapper{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-around;
+
+
+
+
+
+    .text-imagebox-2, .text-imagebox-3{
+    background-color: $chocolate-brown;
+    border: solid .5rem $chocolate-flat-gold;
+    border-radius: 3rem;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding: 2rem;
+    transform: rotate(-5deg);
+    margin: 1rem;
+    width: fit-content;
+
+    max-width: calc(300px + 5rem);
+  
+    h3{
+      text-align: center;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      margin: auto;
+    } 
+  }
+
+  .text-imagebox-2{
+    transform: rotate(5deg);
+  }
+
+    .text-imagebox-3{
+    transform: rotate(-3deg);
+  }
+
+
+    @media (max-width: 991.98px) { 
+               .text-imagebox-2,  .text-imagebox-3{
+                width: 50%;
+                padding: 1rem;
+               }
+    }
+
+    @media (max-width: 767.98px) { 
+      flex-direction: column;
+      justify-content: center;
+      flex-direction: column-reverse;
+      gap: 3rem;
+
+
+         .text-imagebox-2,  .text-imagebox-3{
+    width: 90%;
+        max-width: calc(300px + 5rem);
+    margin: auto;
+    padding: 1rem;
+    margin: unset;
+    margin-left: auto;
+    margin-right: auto;
+
+    h3{
+      text-align: center;
+    }
+
+    img{
+      width: 100%;
+      height: auto;
+      margin: auto;
+    }
     
 
 
-    .activity-img{
-      position: absolute;
-      margin: 3rem;
-      transform-origin: center;
-      rotate: 10deg;
-      width: 50%;
-      transform: translate(-50%, -50%);
-      left: 55%;
-      top: 50%;
- 
-      .img-fluid{
-        position: relative;
-        border-radius: 2rem;
-        height: 66%;
-        width: auto;
-        z-index: 1;
-        margin-bottom: 0 !important;
-      }
+} 
     }
 
-    .party-textbox{
-      position: relative;
-      width: 35%;
-      height: fit-content;
-      rotate: -5deg;
-      margin-left: 15%;
-
-    p{
-      margin-right: 3rem;
-    }
-
-    .decoration-present{
-      position: absolute;
-      transform: translate(-50%, -75%);
-      left: 100%;
-      top: 100%;
-      width: 7.5rem;
-      rotate: 10deg;
-      transform-origin: center, center ;
-    }
   }
 
-      @media screen and (max-width: 1399.98px) {
-      
+  .transition-bottom-desktop, .transition-bottom-mobile{
+    z-index: 1;
+  }
 
-      
-      .party-textbox{
-        width: 40%;
-        margin-left: 10%;
+}
+
+  }
+
+
+// -----------------------------
+// PARTY TIMES CTA
+// -----------------------------
+
+
+.cta-party-times-timeline {
+  background: $chocolate-offwhite;
+  background-image: url(../images/generic-images/cta-bg.png);
+  background-size: cover;
+  background-position: center;
+
+.container{
+  padding-top: 12vw;
+  padding-bottom: 12vw;
+
+  .party-arrow-text {
+    fill: $chocolate-brown;
+  }
+
+  .party-arrow-shape {
+    fill: $chocolate-flat-gold-dark;
+    stroke: $chocolate-brown;
+    stroke-width: .25rem;
+  }
+
+  .party-times-box {
+    h2 {
+      color: $chocolate-brown;
+
+
+    }
+
+    .party-times-timeline {
+
+      border-color: $chocolate-brown;
+      h3{
+        font-family: "Shin-Maru-GP-Ultra";
       }
 
+      h4{
+              font-family: "Shin-Maru-GP-Ultra";
       }
 
-      @media screen and (max-width: 1199.98px) {
-    aspect-ratio: 12 / 9;
 
+      .party-number,
+      .party-time {
+        color: $chocolate-brown;
+      }
 
-        .activity-img{
-          width: 60%;
+      .party-1-3-box {
+        background-color: $giftlab-pink;
+        color: $chocolate-offwhite;
+      }
+
+      .party-2-4-box {
+        background-color: $fountain-yellow;
+        color: $chocolate-brown;
+      }
+
+      .interlude {
+        background-color: $chocolate-brown;
+        color: $chocolate-offwhite;
+
+        p {
+          color: $chocolate-offwhite;
         }
-  
-      .party-textbox{
-        width: 45%;
-        margin-left: 5%;
       }
 
-      }
-
-      @media screen and (max-width: 991.98px) {
-
-
-      .party-textbox{
-        width: 50%;
-        margin-left: 0%;
-      }
-
-      }
-
-      @media screen and (max-width: 767.98px) {
-
-        aspect-ratio: unset;
-        flex-direction: column;
-        height: fit-content;
-        width: auto;
-        padding-bottom: 4rem;
-
-      .activity-img{
-      position: relative;
-      margin: 1rem;
-      transform-origin: center;
-      rotate: 10deg;
-      width: 90%;
-      transform: unset;
-      left: unset;
-      top: unset;
-
-      margin-bottom: -5rem;
-
-      .img-fluid{
-        width: 100%;
-        height: auto;
-      }
-           }
-
-           .party-textbox{
-            width: 100%;
-
-                p{
-      margin-right: unset;
-    }
-
-    .decoration-present{
-      position: absolute;
-      transform: translate(-50%, -10%);
-      left: 85%;
-      top: 100%;
-      width: 6.5rem;
-      rotate: 20deg;
-      transform-origin: center, center ;
-    }
-           }
-
-
-}
-
-   @media screen and (max-width: 575.9px) {
-         .activity-img{
-          margin-bottom: -3rem;
-         }
-   }
-}
-
-.pass-the-parcel{
-     position: relative;
-    width: 100%;
-    aspect-ratio: 9 / 4;
-    display: flex;
-    align-items: center;
-
-    .activity-img{
-      position: absolute;
-      margin: 0rem;
-
-      width: 50%;
-      transform: translate(-50%, -50%);
-      left: 35%;
-      top: 45%;
-      rotate: -7deg;
- 
-      .img-fluid{
-        position: relative;
-        border-radius: 2rem;
-        height: 66%;
-        width: auto;
-        z-index: 1;
-        margin-bottom: 0 !important;
+      .lunch-break {
+        background-color: gainsboro;
+        border-left-color: gray;
+        border-right-color: gray;
       }
     }
 
-        .party-textbox{
-      position: relative;
-      width: 40%;
-      height: fit-content;
-      rotate: 5deg;
-      margin-right: 10%;
-      margin-left: auto;
 
-      .decoration-stars{
-        position: absolute;
-        transform: translate(-50%, -50%);
-        width: 8rem;
-        top: 75%;
-        left: 100%;
-      }
-}
 
-      @media screen and (max-width: 1399.98px) {
-                .party-textbox{
-      rotate: 5deg;
-      margin-right: 5%;
-      width: 45%;
-      }
-
-}
-
-  @media screen and (max-width: 1199.98px) {
-    aspect-ratio: 9 / 5;
-
-    .activity-img{
-      width: 55%;
-      transform: translate(10%, -50%);
-      left: 0%;
-      top: 50%;
+    p,
+    .party-times-link {
+      color: $chocolate-brown;
+      font-family: "Shin-Maru-GP-Bold";
     }
-
   }
 
-  @media screen and (max-width: 991.98px) {
-    aspect-ratio: 9 / 6;
-
-          .party-textbox{
-        width: 40%;
-        margin-right: 5%;
-      }
-  }
-
-  @media screen and (max-width: 767.98px) {
-
-        aspect-ratio: unset;
-        flex-direction: column;
-        height: fit-content;
-        width: auto;
-        padding-bottom: 2rem;
-
-      .activity-img{
-      position: relative;
-      margin: 1rem;
-      transform-origin: center;
-      rotate: -4deg;
-      width: 90%;
-      transform: unset;
-      left: unset;
-      top: unset;
-
-      margin-bottom: -2rem;
-
-      .img-fluid{
-        width: 100%;
-        height: auto;
-      }
-           }
-
-           .party-textbox{
-            width: 100%;
-           }
-
-
-}
-   @media screen and (max-width: 575.9px) {
-         .activity-img{
-          margin-bottom: -1rem;
-         }
-   }
-  
-}
-
-.ornament{
-    position: relative;
-    width: 100%;
-    aspect-ratio: 2 / 1;
-    margin-top: 2rem;
-    display: flex;
-    align-items: center;
-
-        .activity-img{
-      position: absolute;
-      width: 50%;
-      transform: translate(-50%, -50%);
-      left: 65%;
-      top: 55%;
-      rotate: 7deg;
- 
-      .img-fluid{
-        position: relative;
-        border-radius: 2rem;
-        margin-bottom: 0 !important;
-      }
-}
-        .party-textbox{
-      position: relative;
-      width: 40%;
-      height: fit-content;
-      rotate: -7deg;
-      margin-left: 10%;
-      margin-right: auto;
-
-}
-
-      @media screen and (max-width: 1399.98px) {
-                .party-textbox{
-      margin-left: 5%;
-      width: 45%;
-      }
-
-}
-
-  @media screen and (max-width: 1199.98px) {
-    aspect-ratio: 2 / 1.25;
-
-    .activity-img{
-      width: 55%;
- 
-    }
-
-  }
-
-    @media screen and (max-width: 991.98px) {
-    aspect-ratio: 2 / 1.5;
-
-    .party-textbox{
-        width: 40%;
-        margin-left: 5%;
-      }
-  }
-
-    @media screen and (max-width: 767.98px) {
-
-        aspect-ratio: unset;
-        flex-direction: column;
-        height: fit-content;
-        width: auto;
-        padding-bottom: 2rem;
-
-      .activity-img{
-      position: relative;
-      margin: 1rem;
-      transform-origin: center;
-      rotate: 3deg;
-      width: 90%;
-      transform: unset;
-      left: unset;
-      top: unset;
-
-      margin-bottom: -2rem;
-
-      .img-fluid{
-        width: 100%;
-        height: auto;
-      }
-           }
-
-           .party-textbox{
-            width: 100%;
-            margin-left: unset;
-           }
-
-
-}
-  @media screen and (max-width: 575.9px) {
-         .activity-img{
-          margin-bottom: -1rem;
-         }
-   }
-}
-}
-
-
-.cta-party-times{
- background: #DFB862;
-background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 202, 1) 35%, rgba(235, 229, 176, 1) 57%, rgba(203, 163, 90, 1) 90%);
-
-
-.party-times-box{
-  background-color: unset;
-  h2{
-    color: white;
-
-      -webkit-text-stroke: 10px $christmas-dark-gold; 
-  text-stroke: 1rem $christmas-dark-gold; 
-  paint-order:  stroke fill;
-  }
-  
-  h3{
-    color: white;
-          -webkit-text-stroke: 10px $christmas-dark-gold; 
-  text-stroke: 1rem $christmas-dark-gold; 
-  paint-order:  stroke fill;
-  }
-
-  p{
-    color: white;
-    background-color: $christmas-dark-gold;
-    padding: 1rem;
-    border-radius: 2rem;
-  }
-}
-
-.cta-primary{
-    border: solid .15rem white;
-    background-color: $christmas-red ;
+  .cta-primary {
+    background-color: $chocolate-flat-gold-dark;
     background-image: url(../images/generic-images/polka-dots.svg);
-    background-size: 30rem;
-    background-position: top center;
-  width: fit-content;
-  padding-left: 5rem;
-  padding-right: 5rem;
-  transition: .3s;
+    color: $chocolate-brown;
 
-    justify-content: center;
     &:hover {
-        opacity: 1;
-        background-color: darken($christmas-red, 10%) !important;
-
-        border-color: white;
-
+      background-color: darken($chocolate-flat-gold-dark, 10%) !important;
     }
-
-    &:active{
-        opacity: .6;
+  }
+  }
+   @media (max-width: 767.98px) {
+    .container{
+      padding-top: 30vw;
+      padding-bottom: 30vw;
     }
-
-        @media (max-width: 575.98px) {
-          width: 90%;
-          padding-left: unset;
-          padding-right: unset;
-}
-
-}
+   }
 
 }
 
 
+// -----------------------------
+// CHOCO FOUNTAIN
+// -----------------------------
 
-.party-2{
+.choco-fountain{
+  position: relative;
+  background-color: $fountain-yellow;
+  background-image: url(../images/fountain/fountain-bg.png);
+  background-position: center;
+  background-size: contain;
+  overflow: hidden;
 
+  .container{
+    padding-top: 20vw;
+    padding-bottom: 10vw;
 
-  background-image: url('../images/christmas-markets/party-2-bg-top.svg'),
-                    url('../images/santa-workshop/party-2-bg-bottom.svg'),
-                    url('../images/christmas-markets/christmas-market-bg.webp');
-                 
-  background-size: 105%, 105%, cover;
-  background-position: top, bottom,  top center;
-  background-repeat: no-repeat;
+      .time-box{
+    background-color: $chocolate-brown;
 
-  padding-top: calc((1229 * 100% / 20467) + 2rem); /* ≈ 11.74% */
-
-  overflow-x: hidden;
-
-  padding-bottom: 2rem;
-
+    h3{
+      color: $chocolate-offwhite;
+    }
+  }
 
   .time-disclaimer{
-  color: white;
-  font-weight: bold;
-
-  background-color: $christmas-green;
-  padding: 1rem;
-  border-radius: 1rem;
-  z-index: 30;
-}
-
- 
-
-}
-  .time-box{
-    background-color:  $christmas-green;
-    box-shadow: 0 0 2rem 1rem white;
-  
-
-    h3{
-      color: white;
-      padding: 1rem
-    }
+    background-color: $chocolate-brown;
+    color: $chocolate-offwhite;
   }
 
 
-
-
-
-
-
-
-  .christmas-games{
-  margin-top: 2rem;
-  background-color: $christmas-green;
-  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
-  background-size: 300%;
-  background-repeat: no-repeat;
-  background-position: center;
-  border-style: solid;
-  border-width: 1rem;
-  border-color: $christmas-gold;
-  border-radius: 3rem;
-  height: fit-content;
-
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-
-  -webkit-box-shadow:0px 0px 105px 10px white;
-  -moz-box-shadow: 0px 0px 105px 10px white;
-  box-shadow: 0px 0px 105px 10px white;
+  .textbox-1, .textbox-2, .textbox-3{
+    background-color: $chocolate-brown;
+    padding: 2rem;
+    border-radius: 3rem;
+    filter: drop-shadow(0 0.3rem 0 #dfab4a);
   
-
-  .h3-box{
-
-       background-color: $christmas-gold;
-       height: fit-content;
-       width: fit-content;
-       border-radius: 0 0 2rem 2rem ;
-
-    h3{
-   
-      font-size: 3rem;
-      padding: 2rem;
-      padding-left: 3rem;
-      padding-right: 3rem;
-      color: white;
-      filter: drop-shadow(0px 5px 0px #cba159);
+  h3{
+      color: $chocolate-offwhite;
       font-family: "Shin-Maru-GP-Ultra";
+      font-size: 2rem;
+    }
+    p{
+      color: $chocolate-offwhite;
+      font-size: 1.25rem;
     }
   }
 
-.decoration-tickets-1, .decoration-tickets-2, .decoration-tickets-3{
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 25%;
 
-}
 
-.decoration-tickets-1{
-  top: 7.5%;
-  left: 7.5%;
-}
+    .textbox-3{
+        border: solid .5rem #f28394;
+  }
 
-.decoration-tickets-2{
-  top: 100%;
-  left: 60%;
-}
-
-.decoration-tickets-3{
-  top: 7.5%;
-  left: 92.5%;
-}
-
-.card-container{
+.activities{
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2;
+  justify-content: space-around;
 
+  .activity-block-1{
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 
-.card{
-    background-color: $christmas-green;
-    border-radius: 2rem;
-    border: solid $christmas-dark-green .5rem;
-    padding: 1rem;
-
-         filter: drop-shadow(0px 5px 0px #13a45780);
-
-    h3{
-      color: white;
-      filter: drop-shadow(0px 5px 0px $christmas-dark-green);
-      text-align: center;
-      font-family: "Shin-Maru-GP-Ultra";
+    .textbox-1{
+        margin-top: -12rem;
+        border: solid .5rem #cae1a7;
+        width: 100%;
+        height: fit-content;
+        transform: rotate(-3deg);
     }
 
-        .img-fluid{
-      padding: 2rem;
-
+    img{
+      display: block;
+      width: 80%;
+      margin-left: auto;
+      margin-left: auto;
+      
     }
 
-
-  p{
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    font-weight: bold;
   }
-}
-
-.top-trumps{
-  width: 45%;
-  position: relative;
-  padding: 1rem;
 
 
-  .card{
-    width: 100%;
-    height: fit-content;
-    rotate: -10deg;
-  }
-}
-
-.reindeer-game{
-  width: 55%;
-  position: relative;
-  padding: 1rem;
-
-
-    .card{
-      width: 100%;
-      height: fit-content;
-      rotate: 7deg;
-    }
-}
   
+    .activity-block-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 40%;
+    z-index: 5;
+
+
+    .textbox-2-wrapper{
+          transform: rotate(2deg);
+          width: 100%;
+          height: fit-content;
+          aspect-ratio: 4 / 3.2;
+          position: relative;
+          margin-bottom: 5rem;
+
+
+    .textbox-2{
+        border: solid .5rem #92d4d7;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        position: relative;
+
+
+    
+
+        .donut-activity{
+          position: absolute;
+          transform: translate( 0%, -100%);
+          width: 90%;
+          left: 0%;
+          top: 125%;
+
+        }
+
+        
+    }
+
+
+        .donut-activity-outer{
+          position: absolute;
+          transform: translate( 0%, -100%);
+          width: calc(90% - 1rem);
+          left: 0.5rem;
+          top: calc(120% + 0.5rem )
+        }
+
+            @media (max-width: 1199.98px) { 
+              aspect-ratio: 1/1;
+            }
+
+            @media (max-width: 991.98px) { 
+              aspect-ratio: 1/1.25;
+            }
+    }
+
+    
+
   }
 
-  @media screen and (max-width: 1399.98px) {
-  .h3-box{
-    h3{
-   
-      font-size: 2rem;
-      padding: calc(2rem / .6666);
-      padding-left: calc(3rem / .6666);
-      padding-right: calc(3rem / .6666);
+  .textbox-3{
+    width: 100%;
+    transform: rotate(2deg);
+
+    img{
+      width: 50%;
+      min-width: 200px;
+      height: auto;
+      padding-top: 0.5rem;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 1rem;
     }
   }
 
-  }
 
-  @media screen and (max-width: 991.98px) {
-          .h3-box{
-            border-radius: 0 0 1rem 1rem;
-    h3{
-   
-      padding: 1rem;
-      padding-left: 1.5rem;
-      padding-right: 1.5rem;
+  @media (max-width: 767.98px) { 
+    flex-direction: column;
+
+
+      .activity-block-1, .activity-block-2{
+        width: 100%;
+      }
+
+      .activity-block-1{
+        padding-bottom: 10vw;
+      }
+
+      .activity-block-2{
+           .textbox-2-wrapper{
+ 
+          aspect-ratio: unset;
+          height: 95vw;
+          max-height: 410px;
+          min-height: 350px;
     }
       }
 
   }
-
-  @media screen and (max-width: 767.98px){
-
-    background-size: cover;
-
-.decoration-tickets-1, .decoration-tickets-2, .decoration-tickets-3{
-  position: absolute;
-  transform: translate(-50%, -50%);
-  width: 50%;
+  }
+}
 
 }
 
-.decoration-tickets-1{
-  top: 45%;
-  left: 7.5%;
-}
+// -----------------------------
+// ALL PARTIES
+// -----------------------------
 
-.decoration-tickets-2{
-  top: 55%;
-  left: 100%;
-}
+.all-parties{
+  background-color: $chocolate-brown;
+  overflow-x: hidden;
 
-.decoration-tickets-3{
-  top: 100%;
-  left: 7.5%;
-}
+.container{
 
-    .card-container{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 
-  .card{
-    .img-fluid{
-      padding: unset;
-      padding-top: 1rem;
-      padding-bottom: 1rem;
+      p{
+
+      font-size: 1.25rem;
     }
-  }
 
-  .top-trumps, .reindeer-game{
-    width: 100%;
-  }
-
-
-  
-  }
-}
-  }
-
-/* A new reusable class for the card styling */
-.card-style {
-  background-color: $christmas-green;
-  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 300%;
-  margin-top: 4rem;
-
-  border-style: solid;
-  border-width: 1rem;
-  border-color: $christmas-gold;
-  border-radius: 3rem;
-  
-  padding: 1rem;
-
-  -webkit-box-shadow: 0px 0px 105px 10px white;
-  -moz-box-shadow: 0px 0px 105px 10px white;
-  box-shadow: 0px 0px 105px 10px white;
-}
-
-
-/* A new reusable class for the card styling */
-.card-style {
-  background-color: $christmas-green;
-  background-image: url(../images/generic-images/diagonal-stripes-green.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 300%;
-  margin-top: 4rem;
-
-  border-style: solid;
-  border-width: 1rem;
-  border-color: $christmas-gold;
-  border-radius: 3rem;
-  
-  padding: 1rem;
-
-  -webkit-box-shadow: 0px 0px 105px 10px white;
-  -moz-box-shadow: 0px 0px 105px 10px white;
-  box-shadow: 0px 0px 105px 10px white;
-}
-
-
-.lower-container {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  align-items: flex-start;
-
-  h3 {
-    color: white;
-    filter: drop-shadow(0px 5px 0px $christmas-dark-green);
+  .top-h2{
+    background-color: $chocolate-flat-gold-dark;
+    color: $chocolate-brown;
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
     text-align: center;
+    border-radius: 3rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
     font-family: "Shin-Maru-GP-Ultra";
   }
 
-  p {
-    color: white;
-    font-weight: bolder;
+  .top-p{
+    background-color: $chocolate-flat-gold-dark;
+    color: $chocolate-brown;
+    width: fit-content;
+    padding: 1rem;
+    border-radius: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
   }
 
-  .snack-buffet {
-    @extend .card-style;
-    width: 60%;
+.photobooth-row {
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+.photobooth-image{
+  width: 45%;
+}
+
+  .photobooth-text{
+
+    width: 45%;
+    background-color: $chocolate-offwhite;
+    color: $chocolate-brown;
+    padding: 2rem;
+    transform: rotate(8deg); /* use transform for better compatibility */
+    border: solid 0.3rem $chocolate-brown;
+    border-radius: 2rem;
+    position: relative;      /* so .camera absolute positions relative to this box */
+  }
+
+  p{
+          font-weight: bold;
+  }
+
+  .camera{
+    position: absolute;
+    width: 7rem;
+    left: calc(100% - 4rem);
+    top: calc(100% - 4rem);
+    transform: rotate(-3deg);
+  }
+
+  @media (max-width: 767.98px) { 
+    flex-direction: column;
+
+    .photobooth-image{
+  width: 90%;
+}
+
+.photobooth-text{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+  }
+}
+}}
+
+.trading-card-row{
+  display: flex;
+  align-items: center;
+  position: relative;
+  justify-content: space-around;
+  margin-top: 2rem;
+
+
+  .trading-card{
+    max-width: 350px;
+  }
+
+  .trading-card-text{
+    text-align: center;
+    width: 40%;
+
+    h3{
+      color: $chocolate-offwhite;
+          font-family: "Shin-Maru-GP-Ultra";
+    }
+
+    p{
+      color: $chocolate-offwhite;
+            font-weight: bold;
+    }
+  }
+
+
+      @media (max-width: 767.98px) { 
+    flex-direction: column-reverse;
+
+
+    .trading-card{
+      width: 90%;
+      padding-top: 2rem;
+      padding-bottom: 1rem;
+    }
+
+    .trading-card-text{
+      width: 100%;
+    }
+      }
+  }
+
+  .badge-row{
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    justify-content: space-around;
+    align-items: center;
 
-    .buffet-img {
-      width: 40%;
-      border-radius: 2rem 0 0 2rem;
+    .badge-image{
+      width: 45%;
+      max-width: 768px;
     }
 
-    .text {
-      width: 60%;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
+    .badge-text{
+      width: 45%;
     }
-  }
 
-  .raffle {
-    @extend .card-style;
-    width: 40%;
-    display: flex;
+    h3{
+      color: $chocolate-offwhite;
+          font-family: "Shin-Maru-GP-Ultra";
+    }
+
+    p{
+      color: $chocolate-offwhite;
+      font-weight: bold;
+    }
+
+      @media (max-width: 767.98px) { 
     flex-direction: column;
-    gap: 1rem;
+  
+        .badge-image{
+      width: 90%;
+  
+    }
 
-    h3 {
+    .badge-text{
+      width: 90%;
       text-align: center;
     }
-
-    .text {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-
-      p {
-        text-align: center;
-      }
-    }
   }
-  
-  /* --- RESPONSIVE STYLES --- */
-  @media screen and (max-width: 767.98px) {
-
-    .card-style{
-      -webkit-box-shadow: 0px 0px 45px 5px white;
-      -moz-box-shadow: 0px 0px 45px 5px white;
-      box-shadow: 0px 0px 45px 5px white;
-    }
-
-    /* FIX: This now correctly targets .lower-container */
-    flex-direction: column;
-    gap: 1rem;
-
-    .snack-buffet, .raffle {
-      width: 100%;
-    }
-
-
-
-    /* IMPROVEMENT: Stack the snack-buffet content vertically on mobile */
-    .snack-buffet {
-       margin-top: 1.5rem;
-      flex-direction: column;
-      align-items: center; /* Optional: centers the content */
-
-      
-
-      .buffet-img, .text {
-        width: 100%;
-      }
-
-      /* IMPROVEMENT: Adjust border-radius for the stacked layout */
-      .buffet-img {
-        border-radius: 2rem 2rem 0 0;
-      }
-    }
-
-    .raffle{
-      margin-top: unset;
-    }
-  }
-}
-
-
-
-
-
-/* ALL PARTIES (Final Refinements) */
-
-// Placeholder for common text box styles.
-// Now includes a width override for mobile screens.
-%feature-text-base {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  max-width: 55%;
-  margin: auto;
-  padding: 2rem;
-  border-radius: 2rem;
-
-  h3 {
-    font-family: "Shin-Maru-GP-Bold";
-    text-align: center;
-  }
-  
-  p {
-    font-weight: bold;
   }
 
-  // Tablet responsive adjustments
-  @media screen and (max-width: 991.98px) {
-    width: 60%;
-    max-width: none;
-  
-  }
-
-  // Mobile responsive adjustments
-  @media screen and (max-width: 767.98px) {
-    width: 100%;
-  }
-}
-
-// Main component block
-.all-parties {
-  background-color: #ece5d9;
-  overflow-x: hidden;
-  padding-bottom: 2rem;
-
-  background-image: url(../images/all-parties/all-parties-transition-bottom.svg);
-  background-position: bottom;
-  background-size: 105%;
-  background-repeat: no-repeat;
-
-  .transition-bar{
-    width: 100%;
-    height: 3rem;
-    background-color: $christmas-red;
-  }
-
-  // --- Title Box (No changes) ---
-  .title-box {
-    display: flex;
-    justify-content: center;
-    width: fit-content;
-    margin: 0 auto;
-    padding: 1rem 0;
-    border-radius: 0 0 2rem 2rem;
-    background-color: $christmas-red;
-    margin-bottom: 1rem;
-
-    .decoration-row {
-      display: flex;
-      align-items: center;
-      width: 25%;
-    }
-
-    .christmas-lights {
-      width: 100%;
-    }
-
-    h2 {
-      flex-shrink: 0;
-      margin: auto 1rem;
-      color: white;
-      font-family: "Shin-Maru-GP-Bold";
-      text-align: center;
-
-      .mobile-break {
-        display: none;
-        @media screen and (max-width: 767.98px) {
-          display: block;
-        }
-      }
-    }
-  }
-
-.both-parties-general{
-  text-align: center;
-  padding: 1rem;
-  background-color: $christmas-red;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-  width: fit-content;
-  margin: auto;
-  border-radius: 1rem;
-  color: white;
-  font-weight: bold;
-}
-  
-  // --- Features Section ---
-  .features {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    margin-top: 2rem;
-
-    > [class^="feature-"] {
-      display: flex;
-      width: 100%;
-      gap: 0.5rem;
-      align-items: center;
-    }
-
-    // --- Feature 1: Card Game ---
-    .feature-1 {
-      // Desktop: 50/50 split
-      .image,
-      .text {
-        width: 50%;
-      }
-
-      // Mobile: Stacked full-width
-      @media screen and (max-width: 767.98px) {
-        flex-direction: column-reverse;
-        .image,
-        .text {
-          width: 100%;
-        }
-      }
-
-      .text {
-        @extend %feature-text-base;
-        background-color: $christmas-red;
-        h3, p { color: white; }
-      }
-    }
-
-    // --- Feature 2: Photo Service ---
-    .feature-2 {
-      .images {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        position: relative;
-        min-width: 45%;
-        max-width: 720px;
-        margin: auto;
-
-        .ribbon {
-          z-index: 2;
-          margin-bottom: -5rem;
-          .ribbon-front { fill: #ce2b27; }
-          .ribbon-fold  { fill: #8a181a; }
-          .ribbon-back  { fill: #c13630; }
-          .svg-text     {
-            font-family: "Shin-Maru-GP-Bold";
-            font-size: 12px;
-            font-weight: 700;
-            fill: white;
-          }
-        }
-
-        .photo-wrapper{
-          width: 90%;
-          margin: auto;
-          display: flex;
-
-        .photo {
-          width: 100%;
-          margin: auto;
-          border: solid 1rem whitesmoke;
-          rotate: -7deg;
-          z-index: 1;
-        }
-
-        .santa-photoshoot-box{
-          position: absolute;
-          display: flex;
-          height: 33%; 
-          width: 75%;
-          max-width: 375px;
-          bottom: 0;
-          right: 0;
-          z-index: 3;
-          rotate: 3deg;
-          transform-origin: bottom right;
-          flex-direction: column;
-            
-            p{
-              background-color: $christmas-gold;
-              color: white;
-              padding: 1rem;
-              border-radius: 1rem;
-              font-weight: bold;
-              height: fit-content;
-              width: 80%;
-              padding-right: 25%;
-              font-family: "Shin-Maru-GP-Bold";
-              z-index: 4;
-              margin-top: 1rem;
-            }
-
-            .p-sub{
-              margin-top: -1rem;
-              width: fit-content;
-              padding-right: unset;
-              padding: 1rem;
-              padding-top: 0rem;
-              margin-left: 1rem;
-              margin-right: 1rem;
-            }
-
-
-            .santa-photos{
-              height: 100%;
-              width: auto;
-              border-radius: 50%;
-              position: absolute;
-              right:0;
-              top: 0;
-              z-index: 5;
-              border: solid .5rem $christmas-gold;
-              rotate: -3deg;
-
-          
-            }
-
-            @media screen and (max-width: 424.98px) {
-          width: 90%;
-          max-width: unset;
-          height: 40%;
-
-                        p{           
-                padding-right: 10%;}
-          }
-        }
-      }
-       }
-
-      .text {
-        @extend %feature-text-base;
-        position: relative;
-        background-color: $christmas-green;
-        background-image: url(../images/generic-images/polka-dots.svg);
-        background-size: 300%;
-        p { color: white; }
-
-        .camera-decoration {
-          position: absolute;
-          width: 7.5rem;
-          top: 95%;
-          left: calc(100% - 3.75rem);
-          transform: translate(-50%, -50%);
-        }
-      }
-      
-      // Cleaned up mobile styles
-      @media screen and (max-width: 767.98px) {
-        margin-top: 2rem;
-        flex-direction: column;
-
-        .images {
-          width: 100%;
-          min-width: unset;
-          max-width: unset;
-        }
-        // NOTE: Redundant/conflicting .text block was removed.
-        // Width is now handled by the %feature-text-base placeholder.
-      }
-    }
-
-    // --- Feature 3: Mascot Badge ---
-    .feature-3 {
-      .image {
-        width: 45%;
-        max-width: 720px;
-      }
-      
-      .text {
-        @extend %feature-text-base;
-        border: solid 0.15rem $christmas-green;
-        h3 { color: $christmas-vivid-red; }
-        p  { color: $christmas-green; }
-      }
-
-      @media screen and (max-width: 767.98px) {
-        flex-direction: column-reverse;
-        .image {
-          width: 90%;
-        }
-      }
-    }
-  }
-}
+// -----------------------------
+// LOWER CTA
+// -----------------------------
 
 .lower-cta{
-  background-color: $chocolate-brown;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  background-color: $chocolate-offwhite;
+  position: relative;
+  padding-top: 0 !important; 
+  background-image: url(../images/generic-images/cta-bg.png);
+  background-size: cover;
+  background-position: center;
+
 
 
     .lower-cta-contents{
+      padding-top: 25vw;
+      padding-bottom: 25vw;
 
 
     .image{
@@ -1723,18 +1724,19 @@ background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 20
 
       img{
         width: 75%;
+        z-index: 4;
       }
     }
 
     .text{
       h2{
       font-family: "Shin-Maru-GP-Ultra";
-      color: white;
+      color: $chocolate-brown;
       }
 
       .cta-button{
-          border: solid .2rem $christmas-dark-gold;
-          background-color: $chocolate-red;
+          border: solid .15rem white;
+          background-color: $chocolate-flat-gold-dark ;
           background-image: url(../images/generic-images/diagonal-stripes-green.svg);
           background-size: 30rem;
           background-position: top center;
@@ -1744,7 +1746,10 @@ background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 20
           justify-content: center;
           &:hover {
               opacity: 1;
-              background-color: darken($chocolate-red, 10%) !important;
+              background-color: darken($chocolate-flat-gold-dark,  10%) !important;
+
+              border-color: white;
+
           }
 
           &:active{
@@ -1770,6 +1775,8 @@ background: linear-gradient(180deg, rgba(223, 184, 98, 1) 10%, rgba(249, 240, 20
 }
 
 
+
+
 // -----------------------------
 // GALLERY
 // -----------------------------
@@ -1785,7 +1792,7 @@ h2{
 }
 
 .close-modal{
-      background-color: $christmas-gold;
+      background-color: $chocolate-flat-gold;
 }
 
 }
@@ -1828,7 +1835,7 @@ h2{
       }
 
   .button-1{
-        background-color: $christmas-gold ;
+        background-color: $chocolate-flat-gold;
     background-image: url(../images/generic-images/stars-bg.svg);
     background-size: 30rem;
     background-position: top center;
@@ -1840,13 +1847,13 @@ h2{
 
     &:hover {
         opacity: 1;
-        background-color: darken($christmas-gold, 10%) !important;
+        background-color: darken($chocolate-flat-gold, 10%) !important;
     }
 
   }
 
   .button-2{
-    background-color: $christmas-green ;
+    background-color: $chocolate-red ;
     background-image: url(../images/generic-images/diagonal-stripes-green.svg);
     background-size: 30rem;
     background-position: top center;
@@ -1856,7 +1863,7 @@ h2{
 
     &:hover {
         opacity: 1;
-        background-color: darken($christmas-green, 10%) !important;
+        background-color: darken($chocolate-red, 10%) !important;
     }
 
   }
@@ -1894,15 +1901,14 @@ h2{
 }
 
 .form-body{
-background: linear-gradient(
-    180deg,
-    rgba(206, 43, 39, 1) 10%,
-    rgba(133, 34, 33, 1) 100%);
+background-color: $chocolate-offwhite;
+background-image: url(../images/generic-images/cta-bg.png);
+background-size: cover;
 
 
 .form-page{
 
-  height: calc(100vh - 5rem);
+  height: 100vh;
   display: flex;
 
   align-items: center;
@@ -1926,7 +1932,7 @@ background: linear-gradient(
 
   h1{
     font-family: "Shin-Maru-GP-Ultra";
-    color: white;
+    color: $chocolate-brown;
     font-size: 2rem;
     text-align: center;
   }
@@ -1958,7 +1964,7 @@ background: linear-gradient(
      
 
     .btn-1{
-    background-color: $christmas-gold ;
+    background-color: $chocolate-flat-gold;
     background-image: url(../images/generic-images/stars-bg.svg);
     background-size: 30rem;
     background-position: top center;
@@ -1967,19 +1973,19 @@ background: linear-gradient(
 
     &:hover {
         opacity: 1;
-        background-color: darken($christmas-gold, 10%) !important;
+        background-color: darken($chocolate-flat-gold, 10%) !important;
     }
 
           }
 
           .btn-2{
-                background-color: $christmas-green;
+                background-color: $chocolate-pink;
     background-image: url(../images/generic-images/diagonal-stripes-green.svg);
     background-size: 30rem;
     background-position: top center;
     &:hover {
         opacity: 1;
-        background-color: darken($christmas-green, 10%) !important;
+        background-color: darken($chocolate-pink, 10%) !important;
     }
 
     &:active{
@@ -1989,7 +1995,7 @@ background: linear-gradient(
   }
 
   p{
-    color: white;
+    color: $chocolate-brown;
     font-weight: bold;
     margin-top: .5rem;
     margin-bottom: 1.5rem;
@@ -2079,7 +2085,7 @@ flex-direction: column;
 
 
 .tutorial{
-  color: white;
+  color: $chocolate-brown;
   transition: ease-in-out .2s;
 
   &:hover{

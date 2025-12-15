@@ -182,6 +182,11 @@ bottom: 0%;
   color:  #f0810d;
 }
 
+.school-location-header{
+    font-size: 1.5rem;
+  color: #63574a;
+}
+
 
 .setsumeikai-header-prompt{
   font-size: 2rem;
@@ -339,6 +344,14 @@ bottom: 0%;
     top: 0rem;
     left: 13.25rem;
   }
+ 
+
+  .school-location-header{
+    font-size: 1.25rem;
+  color: #63574a;
+  text-align: center;
+}
+  
 
   .setsumeikai-header-prompt {
     font-size: 1.2rem;
