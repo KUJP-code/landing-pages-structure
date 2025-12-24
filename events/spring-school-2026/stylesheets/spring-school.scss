@@ -1,0 +1,1134 @@
+@use "sass:map";
+
+// --- Fonts ---
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Heavy";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro H.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Ultra";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro U.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Regular";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("/wp-content/themes/kidsup/fonts/NotoSansJP-VariableFont_wght.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+// --- Mixins ---
+@mixin text-stroke($size, $color) {
+  -webkit-text-stroke: $size $color;
+  paint-order: stroke fill;
+}
+
+// --- Variables ---
+$font-shinmaru-heavy: "A-OTF Shin Maru Go Pro Heavy", sans-serif;
+$font-shinmaru-ultra: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+$font-shinmaru-bold: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+$font-shinmaru-debold: "A-OTF Shin Maru Go Pro De Bold", sans-serif;
+$font-shinmaru-deregular: "A-OTF Shin Maru Go Pro De Regular", sans-serif;
+$font-noto-sans: "Noto Sans JP", sans-serif;
+
+$spring-blue: #a4ddf0;
+$spring-pink: #f2cdd9;
+$spring-dark-red: #544143;
+$spring-brown: #5e3e2e;
+$spring-purple: #784c9e;
+$spring-violet: #8b81ba;
+$spring-violet-light: #baa3c9;
+$spring-navy: #13586b;
+$spring-offwhite: #fff9ee;
+
+$spring-theme-yellow: #f1e7bc;
+$spring-theme-green: #97ceb4;
+$spring-dark-pink: #e695b2;
+$spring-turquoise: #96c9d3;
+
+$activity-color-1: #f6b859;
+$activity-color-2: #ef8171;
+$activity-color-3: #72b8c2;
+$activity-color-4: #8b81bb;
+$activity-color-special: #d6a7cd;
+
+$activity-cooking: #e51e26;
+$activity-outdoor: #5797d1;
+
+$prefecture-themes: (
+  tokyo:    ( color: $activity-color-1 ),
+  kanagawa: ( color: $activity-color-2 ),
+  chiba:    ( color: $activity-color-3 ),
+  saitama:  ( color: $activity-color-4 )
+);
+
+$drop-shadow: drop-shadow(0rem .5rem 0rem $spring-violet);
+$drop-shadow-extra-dark: drop-shadow(0rem .5rem 0rem $spring-purple);
+$global-transition: ease-in-out .2s;
+
+// --- Global Styles ---
+.swiper-button-bg {
+  fill: $spring-navy !important;
+}
+
+html, body {
+  background-color: $spring-blue;
+}
+
+h2 {
+  font-family: $font-shinmaru-ultra;
+  color: $spring-offwhite;
+  paint-order: stroke fill;
+}
+
+  .cta-secondary {
+    background-color: $spring-offwhite;
+    color: $spring-purple;
+    border: solid 2px $spring-violet;
+    filter: drop-shadow(0rem .5rem 0rem $spring-violet);
+    transition: $global-transition;
+
+    &:hover {
+      background-color: $spring-violet;
+      color: $spring-offwhite;
+      border: solid 2px $spring-offwhite;
+      filter: drop-shadow(0rem .5rem 0rem $spring-purple);
+    }
+
+    &:active {
+      opacity: .6;
+    }
+  }
+
+// --- Navigation ---
+nav {
+  background-color: $spring-violet;
+
+  .nav-links {
+    .button {
+      background-color: $spring-offwhite;
+      border: solid 1px $spring-purple;
+      color: $spring-purple;
+      font-family: $font-shinmaru-bold;
+
+      &:hover {
+        opacity: 1;
+        color: $spring-offwhite;
+        -webkit-text-stroke-color: $spring-offwhite;
+        background-color: $spring-purple;
+      }
+
+      &:active {
+        opacity: .6;
+      }
+    }
+  }
+
+  @media (max-width: 767.98px) {
+    .nav-toggle {
+      background-color: $spring-dark-pink;
+    }
+
+    .nav-links {
+      background-color: $spring-violet-light;
+    }
+
+    .sticky-cta {
+      background-color: $spring-pink;
+      border-top: solid $spring-offwhite 3px;
+
+      .button-4 {
+        font-family: $font-shinmaru-ultra;
+        font-size: 1.5rem;
+        background-color: $spring-violet;
+        border: solid 1px $spring-offwhite;
+        height: fit-content;
+        border-radius: 3rem;
+        filter: $drop-shadow;
+
+        &:hover {
+          opacity: 1;
+          background-color: $spring-violet;
+          color: $spring-offwhite;
+          filter: $drop-shadow-extra-dark;
+        }
+
+        &:active {
+          opacity: .6;
+        }
+      }
+    }
+  }
+}
+
+// --- Hero Section ---
+// 1. Configuration & Mixins
+$total-images: 18;
+$spin-duration: 30s;
+
+@mixin rotor-position($img-width, $radius) {
+  img {
+    width: $img-width;
+    @for $i from 1 through $total-images {
+      &:nth-child(#{$i}) {
+        $angle: ($i - 1) * 20deg;
+        transform: translate(-50%, -100%) rotate($angle) translateY(-$radius);
+      }
+    }
+  }
+}
+
+.hero {
+  position: relative;
+  background-color: $spring-blue;
+  overflow: hidden;
+  height: 100vh;
+  min-height: 960px;
+  max-height: 1200px;
+
+  // Responsive Height Adjustments
+  @media (max-width: 1399.98px) {height: fit-content; min-height: 975px; max-height: 1010px; }
+ 
+  @media (max-width: 1199.98px) { min-height: 875px; max-height: unset; height: fit-content; }
+
+  .hero-inner {
+    display: flex;
+    height: 100%;
+    margin: auto;
+    position: relative;
+
+  @media (max-width: 991.98px) { 
+    flex-direction: column;
+    }
+  }
+
+  .text-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    z-index: 3;
+
+    @media (max-width: 1199.98px) {width: 55%;}
+
+    @media (max-width: 991.98px) { width: 100%;}
+  }
+
+  .contents-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 720px;
+    margin: auto;
+
+    @media (max-width: 991.98px) {flex-direction: row; width: 100%; max-width: unset; gap: 1rem;}
+    
+    @media (max-width: 767.98px) {flex-direction: column; width: 100%; gap: 0;}
+
+  .text-inner{
+      flex-direction: column;
+      width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      
+      @media (max-width: 1199.98px) { width: 95%; }
+      
+      @media (max-width: 991.98px) { width: 60%; padding-top: 1rem; padding-bottom: 1rem;}
+      
+      @media (max-width: 767.98px) { width: 100%; padding-top: 1rem; padding-bottom: 1rem;}
+    }
+
+
+
+    img {
+      width: 60%;
+      margin: auto;
+      padding-bottom: 1rem;
+      
+      @media (max-width: 991.98px) { width: 40%; padding: 1rem;}
+      
+      @media (max-width: 767.98px) { width: 90%; padding: unset; margin-left: auto; margin-right: auto; max-width: 390px; padding-top: 2rem;}
+    }
+
+    h1, p {
+      text-align: left;
+      color: $spring-offwhite;
+      padding-bottom: 1rem;
+      
+      @media (max-width: 767.98px) {text-align: center;}
+      
+    }
+
+    h1 {
+      font-family: $font-shinmaru-ultra;
+      font-size: 2.25rem;
+      width: fit-content;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+
+      @include text-stroke(3px, $spring-purple);
+      filter: drop-shadow(0 0.3rem 0 $spring-purple);
+      
+      @media (max-width: 1199.98px) { font-size: 1.75rem; }
+      
+      @media (max-width: 991.98px) { font-size: 1.5rem;}
+
+      @media (max-width: 767.98px) {
+
+  font-size: clamp(
+    1.1rem,
+    calc(1.1rem + (2rem - 1.1rem) * ((100vw - 320px) / (767.98px - 320px))),
+    2rem)
+
+      }
+
+
+        .break { display: none; }
+    }
+
+    p {
+      font-family: $font-shinmaru-bold;
+      font-size: 1.15rem;
+      color: $spring-offwhite; 
+      background-color: $activity-color-1;
+      padding: 2rem;
+      border: solid .3rem $spring-offwhite;
+      border-radius: 2rem;
+      margin-bottom: 1rem;
+      width: fit-content;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+
+      @include text-stroke(1px, $spring-dark-red);
+      filter: $drop-shadow;
+
+
+      @media (max-width: 1199.98px) { font-size: 1.075rem; }
+      @media (max-width: 991.98px) { font-size: 1rem; width: 90%;}
+            @media (max-width: 576.98px) {max-width: 95%; margin: auto; margin-bottom: 1rem;}
+    }
+
+    .cta-primary {
+      margin: auto;
+      font-size: 1.5rem;
+      background-color: $spring-offwhite;
+      color: $spring-purple;
+      border: 2px solid $spring-violet;
+      filter: drop-shadow(0 0.5rem 0 $spring-violet);
+      transition: $global-transition;
+
+      .arrow { margin-left: 2rem; }
+
+      &:hover {
+        background-color: $spring-violet;
+        color: $spring-offwhite;
+        border-color: $spring-offwhite;
+        filter: drop-shadow(0 0.5rem 0 $spring-purple);
+      }
+      &:active { opacity: 0.6; }
+      @media (max-width: 991.98px) { margin-left: 0;
+      
+        font-size: 1.25rem;
+        padding: 0.25rem ;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      
+      }
+
+      @media (max-width: 767.98px) {margin-left: auto; margin-right: auto;}
+    }
+  }
+
+  .image-col {
+    position: relative;
+    display: flex;
+    width: 50%;
+    gap: 1rem;
+    justify-content: space-evenly;
+    overflow: hidden;
+    mask-image: linear-gradient(90deg, transparent 0%, white 7.5%, white 92.5%, transparent 100%);
+
+    @media (max-width: 1199.98px) { width: 45%;}
+    @media (max-width: 991.98px) { width: 100%; height: 25rem; overflow:visible;
+    
+      mask-image: linear-gradient(90deg, transparent 1%, white 10%, white 90%, transparent 99%);}
+
+  }
+
+  .image-rotor {
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 100%;
+    width: 200%;
+    aspect-ratio: 1 / 1;
+    transform-style: preserve-3d;
+    animation: spin $spin-duration linear infinite;
+
+
+    @include rotor-position(12rem, 35rem);
+
+  
+    @media (max-width: 1199.98px) {
+      @include rotor-position(10rem, 30rem);
+    }
+
+    @media (max-width: 991.98px) {
+      
+      top: calc(100% + 23rem);
+      @include rotor-position(9rem, 38rem);
+      
+    }
+
+
+
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      height: auto;
+      border-radius: 1rem;
+      transform-origin: bottom center;
+      border: solid 2px $spring-offwhite;
+      filter: $drop-shadow;
+    }
+  }
+
+  .echo-hero {
+    width: 66%;
+    max-width: 550px;
+    min-width: 375px;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    align-items: center;
+
+   @media (max-width: 991.98px) {
+     width: 15rem;
+     min-width: unset;
+
+    }
+  }
+}
+
+@keyframes spin {
+  from { transform: translate(-50%, -50%) rotate(0deg); }
+  to { transform: translate(-50%, -50%) rotate(-360deg); }
+}
+
+// --- About Event ---
+.party-event-about {
+  background-color: $spring-blue;
+
+  .hero-bottom-transition {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 1px;
+    z-index: 2;
+    transform: translate(-50%, -100%);
+    overflow-x: hidden;
+  }
+
+  h2 {
+    @include text-stroke(0.25rem, $spring-violet);
+    paint-order: stroke fill;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    color: $spring-offwhite;
+  }
+
+  p {
+    color: $spring-navy;
+    font-weight: bold;
+    font-family: $font-shinmaru-bold;
+    padding-bottom: 2rem;
+  }
+
+  .three-points {
+    background-color: $spring-violet-light;
+    margin-top: 2rem;
+    border-radius: 2rem;
+    padding: 1.5rem;
+    border: solid .3rem $spring-offwhite;
+    margin-bottom: 2rem;
+    height: fit-content;
+    filter: drop-shadow(0rem .5rem 0rem $spring-violet);
+
+    h3 {
+      -webkit-text-stroke: 7px $spring-violet;
+      paint-order: stroke fill;
+      color: $spring-offwhite;
+      font-family: $font-shinmaru-ultra;
+      font-size: 1.5rem;
+      padding: 1rem 2.5rem;
+      width: fit-content;
+      border-radius: 1rem;
+      margin-bottom: 2rem;
+      background: linear-gradient(90deg, $spring-violet 10%, $spring-pink 90%);
+      margin-top: -4rem;
+      border: solid .3rem $spring-offwhite;
+    }
+
+    p {
+      padding-bottom: unset;
+      color: $spring-offwhite;
+      font-family: $font-shinmaru-deregular;
+            @include text-stroke(1px, $spring-dark-red);
+    }
+
+    .point {
+      font-family: $font-shinmaru-ultra;
+      font-size: 1.5rem;
+      color: $spring-offwhite;
+    }
+  }
+
+
+
+  @media (max-width: 767.98px) {
+    padding-top: 2rem;
+    padding-bottom: unset;
+  }
+
+
+}
+
+// --- Schools List ---
+.schools-list {
+  background-color: $spring-blue;
+  position: relative;
+
+  .section-h2 {
+    color: $spring-offwhite;
+    font-family: $font-shinmaru-ultra;
+    @include text-stroke(0.25rem, $spring-violet);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  @each $name, $theme in $prefecture-themes {
+    $primary-color: map.get($theme, color);
+
+    .prefecture-#{$name} {
+      background-color: $primary-color !important;
+      border-width: .3rem !important;
+      border-color: $spring-offwhite !important;
+      border: solid .15rem $spring-offwhite;
+      filter: $drop-shadow;
+
+      // --- Desktop Styles ---
+      .prefecture-header {
+        background-color: $primary-color !important;
+        color: $primary-color;
+        padding-top: .75rem;
+        padding-right: 1.5rem;
+        border-style: solid;
+
+        h2 {
+          color: $spring-offwhite !important;
+          font-family: $font-shinmaru-bold;
+          
+        }
+        svg.location-pin {
+          .map-pin-3-bg-color { fill: white; }
+          .map-pin-3-main-color { fill: $primary-color; }
+        }
+      }
+
+      // --- Ward Title & Icon Styles ---
+      .ward {
+        background-color: $spring-offwhite;
+        border: solid 0.2rem $spring-offwhite;
+
+        h3, h3 svg {
+          color: $primary-color;
+          fill: $primary-color;
+          font-family: $font-shinmaru-bold;
+          
+        }
+
+        ul li {
+          color: $primary-color;
+          font-family: $font-shinmaru-bold;
+          
+        }
+      }
+
+      // --- Mobile/Accordion Styles ---
+      @media screen and (max-width: 575.9px) {
+        background-color: $primary-color;
+        border: solid .15rem white;
+
+        .prefecture-header {
+          background-color: $primary-color;
+          color: $primary-color;
+          padding-top: 1rem;
+          padding-right: 1rem;
+          border: unset;
+        }
+
+        .wards-container {
+          background-color: unset;
+
+          .ward {
+            background-color: white;
+            h3, h3 svg {
+              color: $primary-color;
+              fill: $primary-color;
+              font-family: $font-shinmaru-bold; // Fixed font variable
+            }
+            ul li {
+              color: $primary-color;
+            }
+          }
+        }
+      }
+    }
+  }
+
+.boom{
+  transform: translate(-65%, -100%);
+  position: absolute;
+  width: 30%;
+  left: 75%;
+  top: 100%;
+  max-width: 420px;
+
+
+  @media (max-width: 991.98px){
+    display: block;
+    position: relative;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+}
+
+// --- Three Benefits ---
+.seasonal-three-benefits {
+  background-color: $spring-blue;
+
+  .container {
+    .benefit-column {
+      background-color: $spring-dark-pink;
+      border: solid .3rem $spring-offwhite;
+      filter: $drop-shadow;
+
+      p {
+ font-family: $font-shinmaru-bold;
+        color: $spring-offwhite;
+        @include text-stroke(1px, $spring-dark-red);
+      }
+    }
+  }
+}
+
+// --- Customer Feedback ---
+.customer-feedback {
+  background-color: $spring-blue;
+
+  .container {
+    h2 {
+      padding-bottom: 2rem;
+      color: $spring-offwhite;
+      @include text-stroke(0.25rem, $spring-violet);
+    }
+
+    .item {
+      filter: $drop-shadow;
+      background-color: $spring-theme-green;
+      border: solid .3rem $spring-offwhite;
+
+      h4 {
+        font-family: $font-shinmaru-bold;
+        color: $spring-offwhite !important;
+        @include text-stroke(3px, $spring-dark-red);
+      }
+
+      p {
+        font-family: $font-shinmaru-bold;
+        color: $spring-offwhite;
+        @include text-stroke(1px, $spring-dark-red);
+      }
+    }
+
+    .img-wrapper {
+      border-radius: 1rem;
+      height: 100%;
+      aspect-ratio: 1/1 !important;
+      border: solid 2px $spring-offwhite;
+    }
+  }
+}
+
+// --- Four Benefits ---
+.four-benefits {
+  background-color: $spring-blue;
+
+  .four-benefits-wrapper {
+    background-color: unset;
+    border-radius: 2rem;
+
+    .benefit {
+      background-color: $spring-turquoise;
+      border-radius: 2rem;
+      transition: $global-transition;
+      border: solid .3rem $spring-offwhite;
+      filter: $drop-shadow;
+
+      h4{
+        font-family: $font-shinmaru-bold;
+        font-size: 1rem;
+        padding-top: 0.25rem;
+        @include text-stroke(1px, $spring-dark-red);
+      }
+
+
+    }
+
+    .benefit-icon-box {
+      background-color: $spring-offwhite !important;
+      aspect-ratio: 1/1 !important;
+      height: auto;
+      overflow-y: hidden;
+      padding: 2px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .benefit-icon{
+        width: 100%;      
+        aspect-ratio: 1/1;
+        margin: auto;
+
+        circle{
+          aspect-ratio: 1/1 !important;
+        }
+
+      .benefit-icon-colour-1 { fill: $spring-offwhite !important; 
+      }
+      .benefit-icon-colour-2 { fill: $spring-navy !important;
+        }
+       }
+       
+    }
+  }
+}
+
+// --- Lower CTA ---
+.lower-cta {
+  background-color: $spring-blue;
+
+  .winter-girl {
+    width: 75%;
+    margin: auto;
+  }
+
+  h2{
+    color: $spring-offwhite;
+        @include text-stroke(0.25rem, $spring-violet);
+  }
+
+
+}
+
+// --- Activity Tags & Sliders ---
+.activity-slider {
+
+
+  background-color: $spring-blue;
+  // CSS Vars for specific slider logic
+  --activity-color-1: #{$activity-color-1};
+  --activity-color-2: #{$activity-color-2};
+  --activity-color-3: #{$activity-color-3};
+  --activity-color-4: #{$activity-color-4};
+  --activity-color-special: #{$activity-color-special};
+  --activity-coooking: #{$activity-cooking};
+  --activity-outdoor: #{$activity-outdoor};
+
+
+  h2{
+    color: $spring-offwhite;
+      @include text-stroke(0.25rem, $spring-violet);
+  }
+
+  p{
+        color: $spring-offwhite;
+      @include text-stroke(0.125rem, $spring-violet);
+  }
+
+  .disclaimer{
+    color: $spring-navy;
+       @include text-stroke(0rem, $spring-navy);
+  }
+
+  .swiper-horizontal{
+    padding-top: 1rem;
+    padding-bottom: .5rem;
+  .swiper-card {
+    transition: $global-transition;
+    border-color: $spring-violet !important;
+    border-width: .15rem !important;
+    filter: $drop-shadow;
+
+    h4, h5{
+      color: $spring-offwhite !important;
+      @include text-stroke(1px, $spring-dark-red);
+
+      .date-container, .time-container{
+           transition: background-color $global-transition;
+      }
+    }
+
+
+    &:hover {
+      border-color: $spring-violet !important;
+      background-color: $spring-offwhite !important;
+      
+      fill: $spring-offwhite;
+
+      filter: $drop-shadow-extra-dark;
+      margin-top: -1rem;
+      .date-container{
+        background-color: $spring-offwhite !important;
+        transition: background-color $global-transition;
+      }
+     h4{
+      color: $spring-violet !important;
+      @include text-stroke(0px, $spring-violet);
+     }
+
+     h5{
+      color: $spring-violet !important;
+      @include text-stroke(0px, $spring-violet);
+     }
+
+     .time-container{
+      background-color: $spring-offwhite !important;
+      transition: background-color $global-transition;
+     }
+
+    }
+  }
+  }
+}
+
+// Consolidated global activity tags
+.activity-tag-cooking {
+  background-color: $activity-cooking !important;
+  color: white !important;
+}
+
+.activity-tag-outdoor {
+  background-color: $activity-outdoor !important;
+  color: white !important;
+}
+
+// --- Modal ---
+#eventModal {
+
+
+
+  .activity-modal-content {
+    border: solid 0.15rem white;
+    background-color: $spring-offwhite;
+
+    #modal-title, #modal-date, #modal-details {
+      color: $spring-dark-red;
+
+        .allergy{
+    font-weight: bold;
+    color: $activity-cooking;
+    font-size: 0.9rem !important;
+    font-family: $font-shinmaru-bold;
+  }
+    }
+
+    #modal-title{
+
+      br{
+        display: none;
+      }
+    }
+
+    #modal-tags{
+
+      margin-bottom: .5rem;
+      .activity-tag-cooking{
+        background-color: $activity-cooking !important;
+        color: white !important;
+      }
+
+            .activity-tag-outdoor{
+        background-color: $activity-outdoor !important;
+        color: white !important;
+      }
+
+    }
+
+    #modal-details {
+      font-family: $font-shinmaru-deregular;
+    }
+
+    .modal-close {
+      background-color: $spring-violet;
+      color: $spring-offwhite;
+    }
+
+  }
+}
+
+// --- Dropdowns ---
+.seasonal-dropdowns {
+  background-color: $spring-blue;
+
+  .button-row {
+    .dropdown-button {
+      background-color: $spring-offwhite;
+      border: solid 1px $spring-violet;
+      transition: $global-transition;
+      color: $spring-purple;
+      filter: $drop-shadow;
+      font-family: $font-shinmaru-bold;
+
+      &:hover, &.active {
+        color: $spring-offwhite;
+        background-color: $spring-violet;
+
+        border: solid 1px $spring-offwhite;
+         filter: $drop-shadow-extra-dark;
+
+      }
+    }
+  }
+
+  .dropdown-section {
+    width: 100%;
+    background-color: white;
+    border-radius: 2rem;
+    padding: 2rem;
+    display: none;
+
+    img {
+      border-radius: 1rem;
+      width: 100%;
+      height: auto;
+    }
+
+  }
+
+  #schedule {
+    .box-1 {
+      background-color: $spring-violet;
+
+      h4, p{
+        color: $spring-offwhite;
+      }
+
+
+    }
+    h4, h5 {
+      color: $spring-violet;
+      font-family: $font-shinmaru-bold;
+    }
+
+    p{
+      color: $spring-brown;
+      font-family: $font-shinmaru-deregular;
+    }
+  }
+}
+
+// --- Gallery ---
+.gallery {
+  h2 {
+    padding-bottom: 1rem;
+      @include text-stroke(0.25rem, $spring-violet);
+  }
+
+.swiper-horizontal{
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+
+  .swiper-slide{
+    border-color: $spring-violet !important;
+    border-width: .15rem !important;
+    filter: $drop-shadow;
+          transition: $global-transition;
+
+    &:hover{
+      border-color: $spring-offwhite !important;
+      transition: $global-transition;
+      filter: $drop-shadow-extra-dark;
+      margin-top: -1rem;
+    }
+
+  }
+}
+}
+
+// --- FAQ ---
+.FAQ {
+  h2{
+          color: $spring-offwhite;
+      @include text-stroke(0.25rem, $spring-violet);
+  }
+
+
+  .accordion-wrapper {
+    .accordion-item {
+      filter: $drop-shadow;
+
+      .accordion-button {
+        background-color: $spring-violet;
+        color: $spring-offwhite;
+        border: solid $spring-offwhite 0.15rem;
+        transition: background-color 0.3s ease, border-bottom 0.3s ease;
+        
+      }
+
+      .accordion-content {
+        border: none;
+        background-color: $spring-violet;
+        p{
+          color: $spring-violet;
+          font-family: $font-shinmaru-deregular;
+        }
+      }
+
+
+      &.active {
+
+        filter: $drop-shadow-extra-dark;
+        .accordion-button {
+          background-color: $spring-offwhite;
+          color: $spring-purple;
+          border: solid $spring-violet 0.15rem;
+          border-bottom: none;
+          transition: border-bottom 0.3s ease;
+          
+        }
+
+        .accordion-content {
+          border: solid $spring-violet 0.15rem;
+          border-top: none;
+          margin-top: -1px;
+          background-color: $spring-offwhite;
+
+                p{
+          color: $spring-brown;
+        }
+
+        }
+      }
+    }
+  }
+}
+
+// --- Sign Up ---
+.sign-up {
+  background-color: $spring-blue;
+  margin-bottom: unset;
+
+  h2 {
+    padding-top: 2rem;
+    color: $spring-offwhite;
+    @include text-stroke(0.25rem, $spring-violet);
+  }
+
+  .step-image {
+    filter: $drop-shadow;
+  }
+
+  .sign-up-bg {
+    fill: $spring-offwhite !important;
+  }
+
+  .sign-up-main-colour, .sign-up-stroke {
+    fill: $spring-purple !important;
+  }
+
+  h3 {
+    color: $spring-offwhite;
+    font-family: $font-shinmaru-ultra; // Fixed font variable
+    text-align: center;
+      @include text-stroke(0.2rem, $spring-violet);
+  }
+
+  p {
+    color: $spring-navy;
+    font-family: $font-shinmaru-bold;
+  }
+
+  .button-1, .button-2 {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 425px;
+    color: $spring-purple;
+    transition: $global-transition;
+    border: solid 3px $spring-violet;
+    background-color: $spring-offwhite;
+    filter: $drop-shadow;
+
+    &:hover {
+      opacity: 1;
+      background-color: $spring-violet;
+      color: $spring-offwhite;
+      border-color: $spring-offwhite;
+      filter: $drop-shadow-extra-dark;
+    }
+  }
+}
+
+.bottom {
+  background-color: $spring-blue;
+  img {
+    filter: $drop-shadow;
+  }
+
+  h3{
+    color: $spring-offwhite;
+    @include text-stroke(0.15rem, $spring-violet);
+  }
+
+  p{
+    color: $spring-navy;
+    font-family: $font-shinmaru-bold;
+  }
+}

@@ -106,8 +106,8 @@ campaigns = {
 }
 
 # === QR Settings ===
-qr_fill_color = "#534143"
-qr_bg_color = "#ffffff"
+qr_fill_color = "#544143"
+qr_bg_color = "#FFFFFF00"
 image_format = "PNG"
 base_url = "https://kids-up.jp/qr"
 
@@ -144,7 +144,7 @@ def main():
     for medium_key, medium_name in medium_codes.items():
         # Flyers special case
         if medium_key == "fl":
-            # EV1 goes to flyer
+            # se1 goes to flyer
             folder_name = "flyer"
             folder_path = os.path.join(output_root, folder_name)
             os.makedirs(folder_path, exist_ok=True)
@@ -154,12 +154,12 @@ def main():
                 writer = csv.writer(csvfile)
                 for school_code, english_school_name in school_codes.items():
                     japanese_school_name = japanese_school_names[english_school_name]
-                    filepath = generate_qr("ev1", school_code, english_school_name, medium_key, medium_name, folder_path)
+                    filepath = generate_qr("se1", school_code, english_school_name, medium_key, medium_name, folder_path)
                     print(f"✅ {filepath}")
                     writer.writerow([japanese_school_name, os.path.basename(filepath)])
             processed_folders[folder_name] = True
 
-            # EA1 goes to flyer-app
+            # sa1 goes to flyer-app
             folder_name = "flyer-app"
             folder_path = os.path.join(output_root, folder_name)
             os.makedirs(folder_path, exist_ok=True)
@@ -169,13 +169,13 @@ def main():
                 writer = csv.writer(csvfile)
                 for school_code, english_school_name in school_codes.items():
                     japanese_school_name = japanese_school_names[english_school_name]
-                    filepath = generate_qr("ea1", school_code, english_school_name, medium_key, medium_name, folder_path)
+                    filepath = generate_qr("sa1", school_code, english_school_name, medium_key, medium_name, folder_path)
                     print(f"✅ {filepath}")
                     writer.writerow([japanese_school_name, os.path.basename(filepath)])
             processed_folders[folder_name] = True
 
         else:
-            # All other media only EV1
+            # All other media only se1
             folder_name = medium_name
             folder_path = os.path.join(output_root, folder_name)
             os.makedirs(folder_path, exist_ok=True)
@@ -185,7 +185,7 @@ def main():
                 writer = csv.writer(csvfile)
                 for school_code, english_school_name in school_codes.items():
                     japanese_school_name = japanese_school_names[english_school_name]
-                    filepath = generate_qr("ev1", school_code, english_school_name, medium_key, medium_name, folder_path)
+                    filepath = generate_qr("se1", school_code, english_school_name, medium_key, medium_name, folder_path)
                     print(f"✅ {filepath}")
                     writer.writerow([japanese_school_name, os.path.basename(filepath)])
             processed_folders[folder_name] = True

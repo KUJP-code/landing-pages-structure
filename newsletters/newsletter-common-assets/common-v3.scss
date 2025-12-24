@@ -1,0 +1,404 @@
+
+/* --------GENERAL-------- */
+
+p{
+  text-align: left;
+
+  font-size: 1.1rem;
+}
+
+.p-sub{
+  font-size: .9rem
+  ;
+}
+
+.selected-article{
+  display: none;
+}
+
+.default-article {
+  display: block;
+}
+
+@media (max-width: 576px) {
+  p{
+    text-align: left;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+}  
+
+/* --------HERO-------- */
+
+.hero{
+position: relative;
+width: 100%;
+margin-top: 80px;
+background-position: top center;
+background-size: cover;
+background-repeat: no-repeat;
+aspect-ratio: 48 / 13;
+
+
+}
+
+.hero-datebox{
+  position: relative;
+  float: right;
+  width: fit-content;
+  background-color: #ea7e23;
+  padding: 1.5rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 0rem 0rem 2rem 2rem;
+  background-size: cover;
+}
+
+.hero-date{
+  color: white;
+  margin-top: 2.5rem;
+}
+
+.hero-volume{
+  color: white;
+  font-weight: bolder;
+  font-size: 1.75rem;
+  line-height: .5;
+  padding-bottom: 1rem;
+}
+
+.banner-headline{
+  position: absolute;
+  bottom: 0;
+  padding-bottom: .5rem;
+}
+
+.hero-newsletter{
+  font-size: 2.25rem;
+  color: white;
+  font-weight: bolder;
+  paint-order: stroke fill;
+}
+
+.hero-title{
+  font-family: "Shin-Maru-GP-Bold"; 
+  font-size: 8rem;
+  font-weight: bolder;
+  paint-order: stroke fill;
+}
+
+
+@media (max-width: 786px) {
+
+  .hero-date{
+    color: white;
+    margin-top: 0rem;
+  }
+  
+
+
+  .hero-newsletter{
+    font-size: 1.35rem;
+  }
+  
+  .hero-title{
+    font-size: 4.75rem;
+
+  }
+}  
+
+
+
+@media (max-width: 576px) {
+.hero{
+  aspect-ratio: 1/1;
+  margin-top: 70px;
+}
+
+
+.hero-datebox{
+  position: relative;
+  float: right;
+  width: fit-content;
+  background-color: #ea7e23;
+  padding: 0.75rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0rem 0rem 2rem 2rem;
+  background-size: cover;
+  border-radius: 0 0 1rem 1rem
+}
+
+.hero-date{
+  margin-top: 0rem;
+  font-size: .8rem;
+}
+
+.hero-volume{
+  font-size: 1.25rem;
+}
+
+}
+
+
+
+
+/* --------SLIDER-------- */
+
+
+.swiper-parent-container {
+  position: relative;
+
+
+.swiper-button-next, .swiper-button-prev{
+  width: 3rem;
+  transform: translate(0%, -50%);
+  position: absolute;
+  top: 50%;
+}
+
+
+.swiper-button-next {
+  right: 0%;
+}
+
+.swiper-button-prev {
+  left: 0%;
+}
+
+.article-selector-slide {
+  height: 30rem;
+  box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.24);
+  -webkit-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.24);
+  -moz-box-shadow: 0px 0px 11px 3px rgba(0, 0, 0, 0.24);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.article-selector-text {
+  font-size: 1rem;
+  text-align: left;
+  padding: 0.75rem;
+  font-weight: bold;
+}
+.swiper-pagination {
+  bottom: 0%;
+
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ee7e23;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffd5b6;
+}
+
+.swiper-slide {
+  text-align: center;
+  background-color: #f8f9fa;
+  position: relative;
+}
+
+.swiper-slide img {
+  max-width: 100%;
+  height: auto;
+}
+
+.button-swiper-link {
+  color: #fff;
+  background-color: #ec8023;
+  font-size: 1rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: none;
+  width: fit-content;
+  text-align: center;
+  font-weight: bold;
+  display: inline;
+  position: absolute;
+  bottom: 0.75rem;
+  left: 0%;
+  display: inline;
+  border-radius: 2rem;
+  left: 0.75rem;
+}
+
+.button-swiper-link::after {
+  content: "➔";
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.button-swiper-link:hover {
+  color: #ec8023;
+  background-color: #fff;
+}
+
+/* Extra small device styles */
+
+@media (max-width: 767px) {
+  .swiper-slide {
+    height: 25rem;
+    box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.24);
+    -webkit-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.24);
+    -moz-box-shadow: 0px 0px 22px 3px rgba(0, 0, 0, 0.24);
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .swiper-slide {
+    height: 27.5rem;
+  }
+
+  .swiper-slide-text {
+font-size: .8rem;
+    text-align: left;
+    padding: 0.75rem;
+    font-weight: bold;
+  }
+
+}
+
+@media (max-width: 376px) {
+  .swiper-slide {
+    height: 23.5rem;
+  }
+}
+}
+
+/* --------EVENTS ROW STYLING-------- */
+
+.event-row {
+  grid-auto-rows: 1fr;
+}
+
+.upcoming-event-date {
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  color: #fff;
+  font-weight: bolder;
+  background-color: #f28221;
+  text-align: left;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 2rem;
+  width: fit-content;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+  font-size: 1.1rem;
+  paint-order: stroke fill;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+}
+
+.upcoming-event-textbox {
+  border-top: dashed #ee7e23;
+  border-width: 2px;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.event-name {
+  color: #5b544b;
+  text-align: left;
+  font-family: "noto-sans-cjk-jp", sans-serif;
+  font-weight: 900;
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
+}
+
+.upcoming-event-text {
+  text-align: left;
+}
+
+
+
+
+/* --------GENERIC ARTICLE COMPONENTS-------- */
+
+
+.article-header-generic{
+  font-weight: bolder;
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+    }
+
+.author-profile-img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.author-profile{
+  text-align: center;
+  color: #5b544b;
+}
+
+.author-profile-text-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.author-profile-name {
+  text-align: center;
+  font-size: 1.25rem;
+
+}
+
+.article-link-button{
+  font-family: "Shin-Maru-GP-Bold"; 
+  color: #ea7e23;
+  font-size: 1.1rem;
+  text-decoration: none;
+  display: block;
+  margin: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background-color: #ffffff00;
+  border-style: solid;
+  border-color: #ea7e23;
+  border-width: 3px;
+  border-radius: 3rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: fit-content;
+}
+
+.article-link-button:hover{
+background-color:  #ea7e23;
+color: white;
+}
+
+.button-wrapper{
+  padding-bottom: 1rem;
+}
+
+@media (max-width: 576px) {
+
+
+  .article-header-generic{
+    font-weight: bolder;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+      }
+
+
+  .article-link-button{
+    padding-left: 1rem;
+  }
+}

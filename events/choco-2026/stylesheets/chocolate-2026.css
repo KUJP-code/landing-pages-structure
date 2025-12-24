@@ -955,9 +955,10 @@ nav .nav-links .button-3:active {
   background-color: #d286a3;
   padding-top: 0rem;
   z-index: 1;
-  background-size: contain;
+  background-size: cover;
   background-image: url(../images/choco-lab/choco-lab-section-bg.png);
   background-position: center;
+  background-repeat: no-repeat;
 }
 .choco-lab .container {
   padding-top: 7.5rem;
@@ -1632,6 +1633,11 @@ nav .nav-links .button-3:active {
 .form-body .form-page .logo-wrapper .logo {
   width: 100%;
   height: auto;
+}
+.form-body .form-page .logo-wrapper p {
+  text-align: center;
+  color: #773819;
+  font-size: 0.8rem;
 }
 .form-body .form-page .mid-wrapper {
   display: flex;

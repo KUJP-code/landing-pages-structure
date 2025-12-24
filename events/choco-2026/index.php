@@ -40,7 +40,7 @@
 チョコをテーマにしたアクティビティやチョコファウンテン、<br class="mobile-break">ドキドキのチョコピニャータまで楽しいイベントが盛りだくさん！
 </h2>
     <p class="small">※一部のスクールは日程が異なります。</p>
- <a href="form/" class="cta-button cta-primary" target="_blank">お申込みはこちら</a>
+ <a href="form/" class="cta-button cta-primary" target="_blank" style="z-index: 10;">お申込みはこちら</a>
   </div>
 
 
@@ -81,7 +81,7 @@
 
 
 <!-- Event About Section -->
-<div class="party-event-about">
+<div class="party-event-about" id="about">
   <div class="container">
 
     <div class="about-event-wrapper">
@@ -182,7 +182,7 @@
 <div class="schools-list" id="party-times">
 
 <div class="container prefecture-wrapper">
-    <h2 class="section-h2">スクール一覧</h2>
+    <h2 class="section-h2">スクール別開催日一覧</h2>
   <p id="loading-message">Loading school list...</p>
   <!-- JS will inject .prefecture.tokyo, .prefecture.kanagawa, etc. here -->
 </div>
@@ -317,11 +317,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </div>
 
-<div class="div-2"></div>
-
 <!-- CHOCO LABO -->
  
-<section class="choco-lab">
+<section class="choco-lab" id="activities">
 
 <img src="./images/transitions/desktop-transition-splash-top.svg" alt="" class="transition-top-desktop">
 <img src="./images/transitions/mobile-transition-splash-top.svg" alt="" class="transition-top-mobile">

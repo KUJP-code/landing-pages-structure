@@ -1,0 +1,1348 @@
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Heavy";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro H.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Ultra";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro U.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Regular";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("/wp-content/themes/kidsup/fonts/NotoSansJP-VariableFont_wght.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.swiper-button-bg {
+  fill: #13586b !important;
+}
+
+html, body {
+  background-color: #a4ddf0;
+}
+
+h2 {
+  font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+  color: #fff9ee;
+  paint-order: stroke fill;
+}
+
+.cta-secondary {
+  background-color: #fff9ee;
+  color: #784c9e;
+  border: solid 2px #8b81ba;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+  transition: ease-in-out 0.2s;
+}
+.cta-secondary:hover {
+  background-color: #8b81ba;
+  color: #fff9ee;
+  border: solid 2px #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+}
+.cta-secondary:active {
+  opacity: 0.6;
+}
+
+nav {
+  background-color: #8b81ba;
+}
+nav .nav-links .button {
+  background-color: #fff9ee;
+  border: solid 1px #784c9e;
+  color: #784c9e;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+nav .nav-links .button:hover {
+  opacity: 1;
+  color: #fff9ee;
+  -webkit-text-stroke-color: #fff9ee;
+  background-color: #784c9e;
+}
+nav .nav-links .button:active {
+  opacity: 0.6;
+}
+@media (max-width: 767.98px) {
+  nav .nav-toggle {
+    background-color: #e695b2;
+  }
+  nav .nav-links {
+    background-color: #baa3c9;
+  }
+  nav .sticky-cta {
+    background-color: #f2cdd9;
+    border-top: solid #fff9ee 3px;
+  }
+  nav .sticky-cta .button-4 {
+    font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+    font-size: 1.5rem;
+    background-color: #8b81ba;
+    border: solid 1px #fff9ee;
+    height: -moz-fit-content;
+    height: fit-content;
+    border-radius: 3rem;
+    filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+  }
+  nav .sticky-cta .button-4:hover {
+    opacity: 1;
+    background-color: #8b81ba;
+    color: #fff9ee;
+    filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+  }
+  nav .sticky-cta .button-4:active {
+    opacity: 0.6;
+  }
+}
+
+.hero {
+  position: relative;
+  background-color: #a4ddf0;
+  overflow: hidden;
+  height: 100vh;
+  min-height: 960px;
+  max-height: 1200px;
+}
+@media (max-width: 1399.98px) {
+  .hero {
+    height: -moz-fit-content;
+    height: fit-content;
+    min-height: 975px;
+    max-height: 1010px;
+  }
+}
+@media (max-width: 1199.98px) {
+  .hero {
+    min-height: 875px;
+    max-height: unset;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+}
+.hero .hero-inner {
+  display: flex;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+@media (max-width: 991.98px) {
+  .hero .hero-inner {
+    flex-direction: column;
+  }
+}
+.hero .text-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  z-index: 3;
+}
+@media (max-width: 1199.98px) {
+  .hero .text-col {
+    width: 55%;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .text-col {
+    width: 100%;
+  }
+}
+.hero .contents-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 720px;
+  margin: auto;
+}
+@media (max-width: 991.98px) {
+  .hero .contents-wrapper {
+    flex-direction: row;
+    width: 100%;
+    max-width: unset;
+    gap: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .contents-wrapper {
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+  }
+}
+.hero .contents-wrapper .text-inner {
+  flex-direction: column;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 1199.98px) {
+  .hero .contents-wrapper .text-inner {
+    width: 95%;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .contents-wrapper .text-inner {
+    width: 60%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .contents-wrapper .text-inner {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+.hero .contents-wrapper img {
+  width: 60%;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+@media (max-width: 991.98px) {
+  .hero .contents-wrapper img {
+    width: 40%;
+    padding: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .contents-wrapper img {
+    width: 90%;
+    padding: unset;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 390px;
+    padding-top: 2rem;
+  }
+}
+.hero .contents-wrapper h1, .hero .contents-wrapper p {
+  text-align: left;
+  color: #fff9ee;
+  padding-bottom: 1rem;
+}
+@media (max-width: 767.98px) {
+  .hero .contents-wrapper h1, .hero .contents-wrapper p {
+    text-align: center;
+  }
+}
+.hero .contents-wrapper h1 {
+  font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+  font-size: 2.25rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-stroke: 3px #784c9e;
+  paint-order: stroke fill;
+  filter: drop-shadow(0 0.3rem 0 #784c9e);
+}
+@media (max-width: 1199.98px) {
+  .hero .contents-wrapper h1 {
+    font-size: 1.75rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .contents-wrapper h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .contents-wrapper h1 {
+    font-size: clamp(1.1rem, 1.1rem + 0.9rem * (100vw - 320px) / 447.98px, 2rem);
+  }
+}
+.hero .contents-wrapper h1 .break {
+  display: none;
+}
+.hero .contents-wrapper p {
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  font-size: 1.15rem;
+  color: #fff9ee;
+  background-color: #f6b859;
+  padding: 2rem;
+  border: solid 0.3rem #fff9ee;
+  border-radius: 2rem;
+  margin-bottom: 1rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-text-stroke: 1px #544143;
+  paint-order: stroke fill;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+@media (max-width: 1199.98px) {
+  .hero .contents-wrapper p {
+    font-size: 1.075rem;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .contents-wrapper p {
+    font-size: 1rem;
+    width: 90%;
+  }
+}
+@media (max-width: 576.98px) {
+  .hero .contents-wrapper p {
+    max-width: 95%;
+    margin: auto;
+    margin-bottom: 1rem;
+  }
+}
+.hero .contents-wrapper .cta-primary {
+  margin: auto;
+  font-size: 1.5rem;
+  background-color: #fff9ee;
+  color: #784c9e;
+  border: 2px solid #8b81ba;
+  filter: drop-shadow(0 0.5rem 0 #8b81ba);
+  transition: ease-in-out 0.2s;
+}
+.hero .contents-wrapper .cta-primary .arrow {
+  margin-left: 2rem;
+}
+.hero .contents-wrapper .cta-primary:hover {
+  background-color: #8b81ba;
+  color: #fff9ee;
+  border-color: #fff9ee;
+  filter: drop-shadow(0 0.5rem 0 #784c9e);
+}
+.hero .contents-wrapper .cta-primary:active {
+  opacity: 0.6;
+}
+@media (max-width: 991.98px) {
+  .hero .contents-wrapper .cta-primary {
+    margin-left: 0;
+    font-size: 1.25rem;
+    padding: 0.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+@media (max-width: 767.98px) {
+  .hero .contents-wrapper .cta-primary {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.hero .image-col {
+  position: relative;
+  display: flex;
+  width: 50%;
+  gap: 1rem;
+  justify-content: space-evenly;
+  overflow: hidden;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, white 7.5%, white 92.5%, transparent 100%);
+          mask-image: linear-gradient(90deg, transparent 0%, white 7.5%, white 92.5%, transparent 100%);
+}
+@media (max-width: 1199.98px) {
+  .hero .image-col {
+    width: 45%;
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .image-col {
+    width: 100%;
+    height: 25rem;
+    overflow: visible;
+    -webkit-mask-image: linear-gradient(90deg, transparent 1%, white 10%, white 90%, transparent 99%);
+            mask-image: linear-gradient(90deg, transparent 1%, white 10%, white 90%, transparent 99%);
+  }
+}
+.hero .image-rotor {
+  position: absolute;
+  z-index: 1;
+  left: 50%;
+  top: 100%;
+  width: 200%;
+  aspect-ratio: 1/1;
+  transform-style: preserve-3d;
+  animation: spin 30s linear infinite;
+}
+.hero .image-rotor img {
+  width: 12rem;
+}
+.hero .image-rotor img:nth-child(1) {
+  transform: translate(-50%, -100%) rotate(0deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(2) {
+  transform: translate(-50%, -100%) rotate(20deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(3) {
+  transform: translate(-50%, -100%) rotate(40deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(4) {
+  transform: translate(-50%, -100%) rotate(60deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(5) {
+  transform: translate(-50%, -100%) rotate(80deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(6) {
+  transform: translate(-50%, -100%) rotate(100deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(7) {
+  transform: translate(-50%, -100%) rotate(120deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(8) {
+  transform: translate(-50%, -100%) rotate(140deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(9) {
+  transform: translate(-50%, -100%) rotate(160deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(10) {
+  transform: translate(-50%, -100%) rotate(180deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(11) {
+  transform: translate(-50%, -100%) rotate(200deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(12) {
+  transform: translate(-50%, -100%) rotate(220deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(13) {
+  transform: translate(-50%, -100%) rotate(240deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(14) {
+  transform: translate(-50%, -100%) rotate(260deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(15) {
+  transform: translate(-50%, -100%) rotate(280deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(16) {
+  transform: translate(-50%, -100%) rotate(300deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(17) {
+  transform: translate(-50%, -100%) rotate(320deg) translateY(-35rem);
+}
+.hero .image-rotor img:nth-child(18) {
+  transform: translate(-50%, -100%) rotate(340deg) translateY(-35rem);
+}
+@media (max-width: 1199.98px) {
+  .hero .image-rotor img {
+    width: 10rem;
+  }
+  .hero .image-rotor img:nth-child(1) {
+    transform: translate(-50%, -100%) rotate(0deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(2) {
+    transform: translate(-50%, -100%) rotate(20deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(3) {
+    transform: translate(-50%, -100%) rotate(40deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(4) {
+    transform: translate(-50%, -100%) rotate(60deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(5) {
+    transform: translate(-50%, -100%) rotate(80deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(6) {
+    transform: translate(-50%, -100%) rotate(100deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(7) {
+    transform: translate(-50%, -100%) rotate(120deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(8) {
+    transform: translate(-50%, -100%) rotate(140deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(9) {
+    transform: translate(-50%, -100%) rotate(160deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(10) {
+    transform: translate(-50%, -100%) rotate(180deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(11) {
+    transform: translate(-50%, -100%) rotate(200deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(12) {
+    transform: translate(-50%, -100%) rotate(220deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(13) {
+    transform: translate(-50%, -100%) rotate(240deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(14) {
+    transform: translate(-50%, -100%) rotate(260deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(15) {
+    transform: translate(-50%, -100%) rotate(280deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(16) {
+    transform: translate(-50%, -100%) rotate(300deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(17) {
+    transform: translate(-50%, -100%) rotate(320deg) translateY(-30rem);
+  }
+  .hero .image-rotor img:nth-child(18) {
+    transform: translate(-50%, -100%) rotate(340deg) translateY(-30rem);
+  }
+}
+@media (max-width: 991.98px) {
+  .hero .image-rotor {
+    top: calc(100% + 23rem);
+  }
+  .hero .image-rotor img {
+    width: 9rem;
+  }
+  .hero .image-rotor img:nth-child(1) {
+    transform: translate(-50%, -100%) rotate(0deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(2) {
+    transform: translate(-50%, -100%) rotate(20deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(3) {
+    transform: translate(-50%, -100%) rotate(40deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(4) {
+    transform: translate(-50%, -100%) rotate(60deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(5) {
+    transform: translate(-50%, -100%) rotate(80deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(6) {
+    transform: translate(-50%, -100%) rotate(100deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(7) {
+    transform: translate(-50%, -100%) rotate(120deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(8) {
+    transform: translate(-50%, -100%) rotate(140deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(9) {
+    transform: translate(-50%, -100%) rotate(160deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(10) {
+    transform: translate(-50%, -100%) rotate(180deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(11) {
+    transform: translate(-50%, -100%) rotate(200deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(12) {
+    transform: translate(-50%, -100%) rotate(220deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(13) {
+    transform: translate(-50%, -100%) rotate(240deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(14) {
+    transform: translate(-50%, -100%) rotate(260deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(15) {
+    transform: translate(-50%, -100%) rotate(280deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(16) {
+    transform: translate(-50%, -100%) rotate(300deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(17) {
+    transform: translate(-50%, -100%) rotate(320deg) translateY(-38rem);
+  }
+  .hero .image-rotor img:nth-child(18) {
+    transform: translate(-50%, -100%) rotate(340deg) translateY(-38rem);
+  }
+}
+.hero .image-rotor img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  border-radius: 1rem;
+  transform-origin: bottom center;
+  border: solid 2px #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.hero .echo-hero {
+  width: 66%;
+  max-width: 550px;
+  min-width: 375px;
+  margin-top: auto;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+@media (max-width: 991.98px) {
+  .hero .echo-hero {
+    width: 15rem;
+    min-width: unset;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+.party-event-about {
+  background-color: #a4ddf0;
+}
+.party-event-about .hero-bottom-transition {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  top: 1px;
+  z-index: 2;
+  transform: translate(-50%, -100%);
+  overflow-x: hidden;
+}
+.party-event-about h2 {
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+  paint-order: stroke fill;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  color: #fff9ee;
+}
+.party-event-about p {
+  color: #13586b;
+  font-weight: bold;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  padding-bottom: 2rem;
+}
+.party-event-about .three-points {
+  background-color: #baa3c9;
+  margin-top: 2rem;
+  border-radius: 2rem;
+  padding: 1.5rem;
+  border: solid 0.3rem #fff9ee;
+  margin-bottom: 2rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.party-event-about .three-points h3 {
+  -webkit-text-stroke: 7px #8b81ba;
+  paint-order: stroke fill;
+  color: #fff9ee;
+  font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+  font-size: 1.5rem;
+  padding: 1rem 2.5rem;
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(90deg, #8b81ba 10%, #f2cdd9 90%);
+  margin-top: -4rem;
+  border: solid 0.3rem #fff9ee;
+}
+.party-event-about .three-points p {
+  padding-bottom: unset;
+  color: #fff9ee;
+  font-family: "A-OTF Shin Maru Go Pro De Regular", sans-serif;
+  -webkit-text-stroke: 1px #544143;
+  paint-order: stroke fill;
+}
+.party-event-about .three-points .point {
+  font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+  font-size: 1.5rem;
+  color: #fff9ee;
+}
+@media (max-width: 767.98px) {
+  .party-event-about {
+    padding-top: 2rem;
+    padding-bottom: unset;
+  }
+}
+
+.schools-list {
+  background-color: #a4ddf0;
+  position: relative;
+}
+.schools-list .section-h2 {
+  color: #fff9ee;
+  font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.schools-list .prefecture-tokyo {
+  background-color: #f6b859 !important;
+  border-width: 0.3rem !important;
+  border-color: #fff9ee !important;
+  border: solid 0.15rem #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.schools-list .prefecture-tokyo .prefecture-header {
+  background-color: #f6b859 !important;
+  color: #f6b859;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-tokyo .prefecture-header h2 {
+  color: #fff9ee !important;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-tokyo .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #f6b859;
+}
+.schools-list .prefecture-tokyo .ward {
+  background-color: #fff9ee;
+  border: solid 0.2rem #fff9ee;
+}
+.schools-list .prefecture-tokyo .ward h3, .schools-list .prefecture-tokyo .ward h3 svg {
+  color: #f6b859;
+  fill: #f6b859;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-tokyo .ward ul li {
+  color: #f6b859;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-tokyo {
+    background-color: #f6b859;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-tokyo .prefecture-header {
+    background-color: #f6b859;
+    color: #f6b859;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward h3, .schools-list .prefecture-tokyo .wards-container .ward h3 svg {
+    color: #f6b859;
+    fill: #f6b859;
+    font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  }
+  .schools-list .prefecture-tokyo .wards-container .ward ul li {
+    color: #f6b859;
+  }
+}
+.schools-list .prefecture-kanagawa {
+  background-color: #ef8171 !important;
+  border-width: 0.3rem !important;
+  border-color: #fff9ee !important;
+  border: solid 0.15rem #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.schools-list .prefecture-kanagawa .prefecture-header {
+  background-color: #ef8171 !important;
+  color: #ef8171;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-kanagawa .prefecture-header h2 {
+  color: #fff9ee !important;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-kanagawa .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #ef8171;
+}
+.schools-list .prefecture-kanagawa .ward {
+  background-color: #fff9ee;
+  border: solid 0.2rem #fff9ee;
+}
+.schools-list .prefecture-kanagawa .ward h3, .schools-list .prefecture-kanagawa .ward h3 svg {
+  color: #ef8171;
+  fill: #ef8171;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-kanagawa .ward ul li {
+  color: #ef8171;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-kanagawa {
+    background-color: #ef8171;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-kanagawa .prefecture-header {
+    background-color: #ef8171;
+    color: #ef8171;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward h3, .schools-list .prefecture-kanagawa .wards-container .ward h3 svg {
+    color: #ef8171;
+    fill: #ef8171;
+    font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  }
+  .schools-list .prefecture-kanagawa .wards-container .ward ul li {
+    color: #ef8171;
+  }
+}
+.schools-list .prefecture-chiba {
+  background-color: #72b8c2 !important;
+  border-width: 0.3rem !important;
+  border-color: #fff9ee !important;
+  border: solid 0.15rem #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.schools-list .prefecture-chiba .prefecture-header {
+  background-color: #72b8c2 !important;
+  color: #72b8c2;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-chiba .prefecture-header h2 {
+  color: #fff9ee !important;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-chiba .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #72b8c2;
+}
+.schools-list .prefecture-chiba .ward {
+  background-color: #fff9ee;
+  border: solid 0.2rem #fff9ee;
+}
+.schools-list .prefecture-chiba .ward h3, .schools-list .prefecture-chiba .ward h3 svg {
+  color: #72b8c2;
+  fill: #72b8c2;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-chiba .ward ul li {
+  color: #72b8c2;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-chiba {
+    background-color: #72b8c2;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-chiba .prefecture-header {
+    background-color: #72b8c2;
+    color: #72b8c2;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward h3, .schools-list .prefecture-chiba .wards-container .ward h3 svg {
+    color: #72b8c2;
+    fill: #72b8c2;
+    font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  }
+  .schools-list .prefecture-chiba .wards-container .ward ul li {
+    color: #72b8c2;
+  }
+}
+.schools-list .prefecture-saitama {
+  background-color: #8b81bb !important;
+  border-width: 0.3rem !important;
+  border-color: #fff9ee !important;
+  border: solid 0.15rem #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.schools-list .prefecture-saitama .prefecture-header {
+  background-color: #8b81bb !important;
+  color: #8b81bb;
+  padding-top: 0.75rem;
+  padding-right: 1.5rem;
+  border-style: solid;
+}
+.schools-list .prefecture-saitama .prefecture-header h2 {
+  color: #fff9ee !important;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-bg-color {
+  fill: white;
+}
+.schools-list .prefecture-saitama .prefecture-header svg.location-pin .map-pin-3-main-color {
+  fill: #8b81bb;
+}
+.schools-list .prefecture-saitama .ward {
+  background-color: #fff9ee;
+  border: solid 0.2rem #fff9ee;
+}
+.schools-list .prefecture-saitama .ward h3, .schools-list .prefecture-saitama .ward h3 svg {
+  color: #8b81bb;
+  fill: #8b81bb;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.schools-list .prefecture-saitama .ward ul li {
+  color: #8b81bb;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+@media screen and (max-width: 575.9px) {
+  .schools-list .prefecture-saitama {
+    background-color: #8b81bb;
+    border: solid 0.15rem white;
+  }
+  .schools-list .prefecture-saitama .prefecture-header {
+    background-color: #8b81bb;
+    color: #8b81bb;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    border: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container {
+    background-color: unset;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward {
+    background-color: white;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward h3, .schools-list .prefecture-saitama .wards-container .ward h3 svg {
+    color: #8b81bb;
+    fill: #8b81bb;
+    font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  }
+  .schools-list .prefecture-saitama .wards-container .ward ul li {
+    color: #8b81bb;
+  }
+}
+.schools-list .boom {
+  transform: translate(-65%, -100%);
+  position: absolute;
+  width: 30%;
+  left: 75%;
+  top: 100%;
+  max-width: 420px;
+}
+@media (max-width: 991.98px) {
+  .schools-list .boom {
+    display: block;
+    position: relative;
+    width: 90%;
+    transform: unset;
+    left: unset;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.seasonal-three-benefits {
+  background-color: #a4ddf0;
+}
+.seasonal-three-benefits .container .benefit-column {
+  background-color: #e695b2;
+  border: solid 0.3rem #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.seasonal-three-benefits .container .benefit-column p {
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  color: #fff9ee;
+  -webkit-text-stroke: 1px #544143;
+  paint-order: stroke fill;
+}
+
+.customer-feedback {
+  background-color: #a4ddf0;
+}
+.customer-feedback .container h2 {
+  padding-bottom: 2rem;
+  color: #fff9ee;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+}
+.customer-feedback .container .item {
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+  background-color: #97ceb4;
+  border: solid 0.3rem #fff9ee;
+}
+.customer-feedback .container .item h4 {
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  color: #fff9ee !important;
+  -webkit-text-stroke: 3px #544143;
+  paint-order: stroke fill;
+}
+.customer-feedback .container .item p {
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  color: #fff9ee;
+  -webkit-text-stroke: 1px #544143;
+  paint-order: stroke fill;
+}
+.customer-feedback .container .img-wrapper {
+  border-radius: 1rem;
+  height: 100%;
+  aspect-ratio: 1/1 !important;
+  border: solid 2px #fff9ee;
+}
+
+.four-benefits {
+  background-color: #a4ddf0;
+}
+.four-benefits .four-benefits-wrapper {
+  background-color: unset;
+  border-radius: 2rem;
+}
+.four-benefits .four-benefits-wrapper .benefit {
+  background-color: #96c9d3;
+  border-radius: 2rem;
+  transition: ease-in-out 0.2s;
+  border: solid 0.3rem #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.four-benefits .four-benefits-wrapper .benefit h4 {
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  font-size: 1rem;
+  padding-top: 0.25rem;
+  -webkit-text-stroke: 1px #544143;
+  paint-order: stroke fill;
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box {
+  background-color: #fff9ee !important;
+  aspect-ratio: 1/1 !important;
+  height: auto;
+  overflow-y: hidden;
+  padding: 2px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box .benefit-icon {
+  width: 100%;
+  aspect-ratio: 1/1;
+  margin: auto;
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box .benefit-icon circle {
+  aspect-ratio: 1/1 !important;
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box .benefit-icon .benefit-icon-colour-1 {
+  fill: #fff9ee !important;
+}
+.four-benefits .four-benefits-wrapper .benefit-icon-box .benefit-icon .benefit-icon-colour-2 {
+  fill: #13586b !important;
+}
+
+.lower-cta {
+  background-color: #a4ddf0;
+}
+.lower-cta .winter-girl {
+  width: 75%;
+  margin: auto;
+}
+.lower-cta h2 {
+  color: #fff9ee;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+}
+
+.activity-slider {
+  background-color: #a4ddf0;
+  --activity-color-1: #f6b859;
+  --activity-color-2: #ef8171;
+  --activity-color-3: #72b8c2;
+  --activity-color-4: #8b81bb;
+  --activity-color-special: #d6a7cd;
+  --activity-coooking: #e51e26;
+  --activity-outdoor: #5797d1;
+}
+.activity-slider h2 {
+  color: #fff9ee;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+}
+.activity-slider p {
+  color: #fff9ee;
+  -webkit-text-stroke: 0.125rem #8b81ba;
+  paint-order: stroke fill;
+}
+.activity-slider .disclaimer {
+  color: #13586b;
+  -webkit-text-stroke: 0rem #13586b;
+  paint-order: stroke fill;
+}
+.activity-slider .swiper-horizontal {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.activity-slider .swiper-horizontal .swiper-card {
+  transition: ease-in-out 0.2s;
+  border-color: #8b81ba !important;
+  border-width: 0.15rem !important;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.activity-slider .swiper-horizontal .swiper-card h4, .activity-slider .swiper-horizontal .swiper-card h5 {
+  color: #fff9ee !important;
+  -webkit-text-stroke: 1px #544143;
+  paint-order: stroke fill;
+}
+.activity-slider .swiper-horizontal .swiper-card h4 .date-container, .activity-slider .swiper-horizontal .swiper-card h4 .time-container, .activity-slider .swiper-horizontal .swiper-card h5 .date-container, .activity-slider .swiper-horizontal .swiper-card h5 .time-container {
+  transition: background-color ease-in-out 0.2s;
+}
+.activity-slider .swiper-horizontal .swiper-card:hover {
+  border-color: #8b81ba !important;
+  background-color: #fff9ee !important;
+  fill: #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+  margin-top: -1rem;
+}
+.activity-slider .swiper-horizontal .swiper-card:hover .date-container {
+  background-color: #fff9ee !important;
+  transition: background-color ease-in-out 0.2s;
+}
+.activity-slider .swiper-horizontal .swiper-card:hover h4 {
+  color: #8b81ba !important;
+  -webkit-text-stroke: 0px #8b81ba;
+  paint-order: stroke fill;
+}
+.activity-slider .swiper-horizontal .swiper-card:hover h5 {
+  color: #8b81ba !important;
+  -webkit-text-stroke: 0px #8b81ba;
+  paint-order: stroke fill;
+}
+.activity-slider .swiper-horizontal .swiper-card:hover .time-container {
+  background-color: #fff9ee !important;
+  transition: background-color ease-in-out 0.2s;
+}
+
+.activity-tag-cooking {
+  background-color: #e51e26 !important;
+  color: white !important;
+}
+
+.activity-tag-outdoor {
+  background-color: #5797d1 !important;
+  color: white !important;
+}
+
+#eventModal .activity-modal-content {
+  border: solid 0.15rem white;
+  background-color: #fff9ee;
+}
+#eventModal .activity-modal-content #modal-title, #eventModal .activity-modal-content #modal-date, #eventModal .activity-modal-content #modal-details {
+  color: #544143;
+}
+#eventModal .activity-modal-content #modal-title .allergy, #eventModal .activity-modal-content #modal-date .allergy, #eventModal .activity-modal-content #modal-details .allergy {
+  font-weight: bold;
+  color: #e51e26;
+  font-size: 0.9rem !important;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+#eventModal .activity-modal-content #modal-title br {
+  display: none;
+}
+#eventModal .activity-modal-content #modal-tags {
+  margin-bottom: 0.5rem;
+}
+#eventModal .activity-modal-content #modal-tags .activity-tag-cooking {
+  background-color: #e51e26 !important;
+  color: white !important;
+}
+#eventModal .activity-modal-content #modal-tags .activity-tag-outdoor {
+  background-color: #5797d1 !important;
+  color: white !important;
+}
+#eventModal .activity-modal-content #modal-details {
+  font-family: "A-OTF Shin Maru Go Pro De Regular", sans-serif;
+}
+#eventModal .activity-modal-content .modal-close {
+  background-color: #8b81ba;
+  color: #fff9ee;
+}
+
+.seasonal-dropdowns {
+  background-color: #a4ddf0;
+}
+.seasonal-dropdowns .button-row .dropdown-button {
+  background-color: #fff9ee;
+  border: solid 1px #8b81ba;
+  transition: ease-in-out 0.2s;
+  color: #784c9e;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.seasonal-dropdowns .button-row .dropdown-button:hover, .seasonal-dropdowns .button-row .dropdown-button.active {
+  color: #fff9ee;
+  background-color: #8b81ba;
+  border: solid 1px #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+}
+.seasonal-dropdowns .dropdown-section {
+  width: 100%;
+  background-color: white;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: none;
+}
+.seasonal-dropdowns .dropdown-section img {
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
+}
+.seasonal-dropdowns #schedule .box-1 {
+  background-color: #8b81ba;
+}
+.seasonal-dropdowns #schedule .box-1 h4, .seasonal-dropdowns #schedule .box-1 p {
+  color: #fff9ee;
+}
+.seasonal-dropdowns #schedule h4, .seasonal-dropdowns #schedule h5 {
+  color: #8b81ba;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.seasonal-dropdowns #schedule p {
+  color: #5e3e2e;
+  font-family: "A-OTF Shin Maru Go Pro De Regular", sans-serif;
+}
+
+.gallery h2 {
+  padding-bottom: 1rem;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+}
+.gallery .swiper-horizontal {
+  padding-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+.gallery .swiper-horizontal .swiper-slide {
+  border-color: #8b81ba !important;
+  border-width: 0.15rem !important;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+  transition: ease-in-out 0.2s;
+}
+.gallery .swiper-horizontal .swiper-slide:hover {
+  border-color: #fff9ee !important;
+  transition: ease-in-out 0.2s;
+  filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+  margin-top: -1rem;
+}
+
+.FAQ h2 {
+  color: #fff9ee;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+}
+.FAQ .accordion-wrapper .accordion-item {
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.FAQ .accordion-wrapper .accordion-item .accordion-button {
+  background-color: #8b81ba;
+  color: #fff9ee;
+  border: solid #fff9ee 0.15rem;
+  transition: background-color 0.3s ease, border-bottom 0.3s ease;
+}
+.FAQ .accordion-wrapper .accordion-item .accordion-content {
+  border: none;
+  background-color: #8b81ba;
+}
+.FAQ .accordion-wrapper .accordion-item .accordion-content p {
+  color: #8b81ba;
+  font-family: "A-OTF Shin Maru Go Pro De Regular", sans-serif;
+}
+.FAQ .accordion-wrapper .accordion-item.active {
+  filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+}
+.FAQ .accordion-wrapper .accordion-item.active .accordion-button {
+  background-color: #fff9ee;
+  color: #784c9e;
+  border: solid #8b81ba 0.15rem;
+  border-bottom: none;
+  transition: border-bottom 0.3s ease;
+}
+.FAQ .accordion-wrapper .accordion-item.active .accordion-content {
+  border: solid #8b81ba 0.15rem;
+  border-top: none;
+  margin-top: -1px;
+  background-color: #fff9ee;
+}
+.FAQ .accordion-wrapper .accordion-item.active .accordion-content p {
+  color: #5e3e2e;
+}
+
+.sign-up {
+  background-color: #a4ddf0;
+  margin-bottom: unset;
+}
+.sign-up h2 {
+  padding-top: 2rem;
+  color: #fff9ee;
+  -webkit-text-stroke: 0.25rem #8b81ba;
+  paint-order: stroke fill;
+}
+.sign-up .step-image {
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.sign-up .sign-up-bg {
+  fill: #fff9ee !important;
+}
+.sign-up .sign-up-main-colour, .sign-up .sign-up-stroke {
+  fill: #784c9e !important;
+}
+.sign-up h3 {
+  color: #fff9ee;
+  font-family: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+  text-align: center;
+  -webkit-text-stroke: 0.2rem #8b81ba;
+  paint-order: stroke fill;
+}
+.sign-up p {
+  color: #13586b;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}
+.sign-up .button-1, .sign-up .button-2 {
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 425px;
+  color: #784c9e;
+  transition: ease-in-out 0.2s;
+  border: solid 3px #8b81ba;
+  background-color: #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.sign-up .button-1:hover, .sign-up .button-2:hover {
+  opacity: 1;
+  background-color: #8b81ba;
+  color: #fff9ee;
+  border-color: #fff9ee;
+  filter: drop-shadow(0rem 0.5rem 0rem #784c9e);
+}
+
+.bottom {
+  background-color: #a4ddf0;
+}
+.bottom img {
+  filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
+}
+.bottom h3 {
+  color: #fff9ee;
+  -webkit-text-stroke: 0.15rem #8b81ba;
+  paint-order: stroke fill;
+}
+.bottom p {
+  color: #13586b;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+}/*# sourceMappingURL=spring-school.css.map */

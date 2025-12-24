@@ -106,7 +106,7 @@ campaigns = {
 }
 
 # === QR Settings ===
-qr_fill_color = "#773718"
+qr_fill_color = "#000"
 qr_bg_color = "#ffffff"
 image_format = "PNG"
 base_url = "https://kids-up.jp/qr"

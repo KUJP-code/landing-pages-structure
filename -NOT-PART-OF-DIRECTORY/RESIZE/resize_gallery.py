@@ -1,42 +1,51 @@
 import os
-from PIL import Image
+from PIL import Image, ImageOps
 
 # === SETTINGS ===
-input_folder = "/Users/MikeWork/Documents/images-pre"       # Folder containing your original images
-output_folder = "/Users/MikeWork/Documents/images-post"    # Folder to save resized images
+input_folder = "/Users/MikeWork/Documents/images-pre"
+output_folder = "/Users/MikeWork/Documents/images-post"
 landscape_size = (1024, 768)
 portrait_size = (768, 1024)
+jpg_quality = 90
 
-# === CREATE OUTPUT FOLDER IF NOT EXISTS ===
+# === CREATE OUTPUT FOLDER ===
 os.makedirs(output_folder, exist_ok=True)
 
-# === SUPPORTED FILE EXTENSIONS ===
 valid_extensions = (".jpg", ".jpeg", ".png", ".bmp", ".gif", ".webp")
 
-# === PROCESS EACH IMAGE ===
 for filename in os.listdir(input_folder):
     if not filename.lower().endswith(valid_extensions):
-        continue  # skip non-image files
+        continue
 
     input_path = os.path.join(input_folder, filename)
-    output_path = os.path.join(output_folder, filename)
+    
+    # Set new filename to .jpg
+    file_root, _ = os.path.splitext(filename)
+    output_path = os.path.join(output_folder, file_root + ".jpg")
 
     try:
         with Image.open(input_path) as img:
-            width, height = img.size
-
-            # Choose target size based on orientation
-            if width >= height:
+            # 1. Determine orientation and set target size
+            if img.width >= img.height:
                 target_size = landscape_size
             else:
                 target_size = portrait_size
 
-            # Resize and save
-            resized_img = img.resize(target_size, Image.LANCZOS)
-            resized_img.save(output_path)
+            # 2. Resize and Center Crop using ImageOps.fit
+            # This method automatically resizes preserving aspect ratio, 
+            # then crops the center to fit the exact size requested.
+            final_img = ImageOps.fit(img, target_size, method=Image.LANCZOS, centering=(0.5, 0.5))
 
-            print(f"✅ Resized {filename} → {target_size}")
+            # 3. Convert to RGB (in case of transparency)
+            if final_img.mode in ("RGBA", "P"):
+                final_img = final_img.convert("RGB")
+
+            # 4. Save
+            final_img.save(output_path, "JPEG", quality=jpg_quality)
+
+            print(f"✅ Cropped & Saved {file_root}.jpg → {target_size}")
+
     except Exception as e:
         print(f"❌ Error processing {filename}: {e}")
 
-print("\n🎉 Done! All images resized and saved in:", output_folder)
+print("\n🎉 Done! Images cropped, resized, and saved to:", output_folder)

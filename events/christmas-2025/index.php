@@ -13,7 +13,12 @@
   <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-party-nav.php'; ?>
 
 <!-- Hero Section -->
-  
+
+<div style="position: fixed; z-index: 10; width: 100vw; height: 100vh; backdrop-filter: blur(10px); display: flex; justify-content: center; align-items: center;">
+  <img src="./images/christmas-ended.svg" alt="" style="width: 75%; height: auto;">
+</div>
+
+
 <section class="hero">
 
   <div class="hero-top">
