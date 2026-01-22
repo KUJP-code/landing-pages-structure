@@ -28,11 +28,11 @@
 
           <div class="title" data-swiper-parallax="-300"> <h3>2016</h3></div>
           <div class="content" data-swiper-parallax="-200">
-            <p>5月　田園調布雪谷<br>
-                6月　蒲田駅前<br>
-                7月　池上<br>
-                9月　東陽町<br>
-                11月　長原
+            <p>5月　田園調布雪谷校オープン<br>
+                6月　蒲田駅前校オープン<br>
+                7月　池上校オープン<br>
+                9月　東陽町校オープン<br>
+                11月　長原校オープン
             </p>
             </div>
           </div>
@@ -59,10 +59,10 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2017</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              1月　門前仲町<br>
-              6月　戸越<br>
-              9月　成城<br>
-              11月　大森
+              1月　門前仲町校オープン<br>
+              6月　戸越校オープン<br>
+              9月　成城校オープン<br>
+              11月　大森校オープン
 
             </p>
                    </div>
@@ -87,11 +87,11 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2018</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              1月　早稲田<br>
-              3月　りんかい東雲<br>
+              1月　早稲田校オープン<br>
+              3月　りんかい東雲校オープン<br>
               7月28日～8月6日　ロサンゼルス留学<br>
-              10月　新川崎<br>
-              11月　等々力
+              10月　新川崎校オープン<br>
+              11月　等々力校オープン
             </p>
           </div>
           </div>
@@ -114,13 +114,13 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2019</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              2月大島<br>
-              6月新浦安<br>
-              7月三鷹<br>
+              2月　大島校オープン<br>
+              6月　新浦安校オープン<br>
+              7月　三鷹校オープン<br>
               7月27日～8月4日　ケアンズ留学<br>
-              9月二俣川<br>
-              10月天王町<br>
-              11月南町田GP<br>
+              9月　二俣川校オープン<br>
+              10月　天王町校オープン<br>
+              11月　南町田GP校オープン<br>
               11月30日　第1回スピーチコンテスト（東京国際フォーラム）
             </p>
           </div>
@@ -144,12 +144,12 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2020</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              1月20日　設立　株式会社Kids-UP<br>
-              1月　大井<br>
-              2月　晴海<br>
-              3月　四谷<br>
-              10月　赤羽<br>
-              12月　北品川<br>
+              1月20日　株式会社Kids-UP 設立<br>
+              1月　大井校オープン<br>
+              2月　晴海校オープン<br>
+              3月　四谷校オープン<br>
+              10月　赤羽校オープン<br>
+              12月　北品川校オープン<br>
               12月13日　第2回スピーチコンテスト（オンライン）
 
             </p>
@@ -173,11 +173,11 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2021</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-            1月　溝の口<br>
-            2月　矢向<br>
-            10月　ソコラ南行徳<br>
+            1月　溝の口校オープン<br>
+            2月　矢向校オープン<br>
+            10月　ソコラ南行徳校オープン<br>
             11月27日　第3回スピーチコンテスト（オンライン）<br>
-            12月　鷺宮
+            12月　鷺宮校オープン
             </p>
           </div>
           </div>
@@ -201,10 +201,10 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2022</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              1月　馬込<br>
-              8月21日　MiniGP＋公園？<br>
-              10月　大倉山<br>
-              11月　武蔵新城<br>
+              1月　馬込校オープン<br>
+              8月21日　MiniGP<br>
+              10月　大倉山校オープン<br>
+              11月　武蔵新城校オープン<br>
               11月16日　第4回スピーチコンテスト（東京国際フォーラム）
             </p>
           </div>
@@ -230,10 +230,10 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2023</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              1月　武蔵小杉<br>
-              9月　川口<br>
-              9月17日　MiniGP＋公園<br>
-              11月　池袋<br>
+              1月　武蔵小杉校オープン<br>
+              9月　川口校オープン<br>
+              9月17日　MiniGP<br>
+              11月　池袋校オープン<br>
               11月26日　第5回スピーチコンテスト（芝国際中学校）
 
             </p>
@@ -259,11 +259,11 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2024</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              2月　上野　要町<br>
-              8月3日～8月10日ゴールドコースト留学<br>
-              9月1日（→台風で9月15日に変更）　MiniGP＋鉄道博物館<br>
+              2月　上野校オープン　要町校オープン<br>
+              8月3日～8月10日　ゴールドコースト留学<br>
+              9月15日　MiniGP<br>
               12月1日　第6回スピーチコンテスト（芝国際中学校）<br>
-              12月26日～12月31日カンボジアスタディツアー
+              12月26日～12月31日　カンボジアスタディツアー
             </p>
           </div>
           </div>
@@ -286,11 +286,11 @@
           <div class="title" data-swiper-parallax="-300"> <h3>2025</h3></div>
           <div class="content" data-swiper-parallax="-200">
             <p>
-              7月21日～23日・25日　Summer Camp <br>
+              7月21日～25日　Summer Camp <br>
               9月7日　MiniGP <br>
               12月7日　第７回スピーチコンテスト（芝国際中学校）<br>
               7月29日～8月6日　英国留学<br>
-              8月2日～9日ゴールドコースト留学
+              8月2日～9日　ゴールドコースト留学
             </p>
           </div>
           </div>
@@ -315,7 +315,7 @@
           <div class="content" data-swiper-parallax="-200">
             <p>
               1月10日～12日　Winter Adventure at British Hills <br>
-              2月　中目黒
+              2月　中目黒校オープン
             </p>
           </div>
           </div>

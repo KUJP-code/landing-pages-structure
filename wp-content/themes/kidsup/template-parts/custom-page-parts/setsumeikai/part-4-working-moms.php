@@ -41,7 +41,7 @@
 
   </div>
 
-    <h2 class="heading-h2">保護者様の声</h2>
+    <h2 class="heading-h2" id="customer-voice">保護者様の声</h2>
   <h3 class="heading-h3">安心してお任せできるスクールです！</h3>
 
   <div class="customer-feedback">
@@ -67,7 +67,7 @@
   </div>
 
 
-    <h2 class="heading-h2">よくあるご質問</h2>
+    <h2 class="heading-h2" id="faq">よくあるご質問</h2>
 
 
     <div class="accordion-wrapper">
@@ -171,7 +171,7 @@ document.querySelectorAll('.accordion-button').forEach(button => {
 </script>
 
 
-    <h2 class="heading-h2">安全・安心への取組み</h2>
+    <h2 class="heading-h2" id="safety">安全・安心への取組み</h2>
 
 
       <div class="safety-row-1">

@@ -74,11 +74,6 @@
             >
           </li>
           <li>
-            <a class="footer-link" href="https://kids-up.jp/course/online"
-              >ONLINE(オンラインコース)</a
-            >
-          </li>
-          <li>
             <a class="footer-link" href="https://kids-up.jp/category/follow-your-dreams/"
               >Follow Your Dreams!</a
             >

@@ -10,6 +10,9 @@
 </head>
 <body>
 
+<div style="position: fixed; z-index: 10; width: 100vw; height: 100vh; backdrop-filter: blur(10px); display: flex; justify-content: center; align-items: center;">
+  <img src="./assets/images/winter-ended.svg" alt="" style="width: 75%; height: auto;">
+</div>
     <?php include $_SERVER['DOCUMENT_ROOT'] . '/global/event-page-template/event-page-includes/event-page-seasonal-nav.php'; ?>
 
 

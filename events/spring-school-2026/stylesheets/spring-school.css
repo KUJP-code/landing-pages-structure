@@ -290,6 +290,7 @@ nav .nav-links .button:active {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  text-align: left;
   -webkit-text-stroke: 1px #544143;
   paint-order: stroke fill;
   filter: drop-shadow(0rem 0.5rem 0rem #8b81ba);
@@ -310,6 +311,12 @@ nav .nav-links .button:active {
     max-width: 95%;
     margin: auto;
     margin-bottom: 1rem;
+    padding: 0.75rem;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  .hero .contents-wrapper p .desktop-only {
+    display: none;
   }
 }
 .hero .contents-wrapper .cta-primary {

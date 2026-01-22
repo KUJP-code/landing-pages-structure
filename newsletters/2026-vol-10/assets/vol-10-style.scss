@@ -147,7 +147,7 @@ p{
         }
 
         @media screen and (max-width: 424.98px) {
-            font-size: 2.2rem !important;
+            font-size: 2rem !important;
         }
     }
 
@@ -170,7 +170,7 @@ p{
 
 
      .spin {
-    width: fit-content;
+    width: 100%;
     height: auto;
     z-index: 2;
     /* Animation properties */
@@ -232,11 +232,13 @@ aspect-ratio: 5/3;
 
     .header-fullwidth{
       border-bottom: 0.2rem solid ;
+      display: flex;
+      justify-content: center;
       
       img{
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
+    width: 100%;
+    height: auto;
+    max-width: 3840px;
       }
       
     }
@@ -280,7 +282,6 @@ aspect-ratio: 5/3;
         img{
           width: 20%;
           height: auto;
-
         }
       }
 
@@ -300,69 +301,81 @@ aspect-ratio: 5/3;
         padding-bottom: 1rem;
       }
 
-      .speakers-row{
-        margin-top: 1rem;
-        display: flex;
-        justify-content: space-evenly;
-      .wrapper{
+.speakers-row {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0.25rem;
 
-          width: auto;
-        max-width:  25%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: start;
+  .wrapper {
+    flex: 1 1 calc(20% - 0.5rem);
+    max-width: calc(20% - 0.5rem);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
 
+    .small-person {
+      width: 100%;
+      max-width: 4.5rem;
+      border: solid 0.15rem $kidsup-off-black;
+      border-radius: 0.5rem;
+      margin: 0 auto;
+    }
 
-      .small-person{
-        width: 4.5rem;
-        border: solid .15rem  $kidsup-off-black;
-        border-radius: 0.5rem;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 0;
-        margin-bottom: auto;
+    .speaker {
+      font-weight: bold;
+      font-size: 1rem;
+      text-align: center;
+      margin: 0;
+
+      .break {
+        display: none;
       }
-        .speaker{
-        font-weight: bold;
+
+      @media (max-width: 767.98px) {
+        font-size: 0.75rem;
+
+        .break {
+          display: block;
+        }
+      }
+    }
+  }
+
+  /* STACK BELOW 576px */
+  @media (max-width: 575.98px) {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 1rem;
+
+    .wrapper {
+      flex: none;
+      max-width: unset;
+      width: 100%;
+      flex-direction: row;
+      align-items: center;
+      gap: 1rem;
+      margin-left: 1rem;
+      margin-right: auto; 
+      
+
+      .small-person {
+        width: 5rem;
+        height: auto;
+        max-width: none;
+        margin: 0;
+      }
+
+      .speaker {
+        width: auto;
+        text-align: left;
         font-size: 1rem;
-        margin-left: auto;
-        margin-right: auto;
-        padding-top: 0;
-        padding-bottom: 0;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: auto;
-
-        .break{
-          display: none;
-        }
-
-        @media screen and (max-width: 767.98px) {
-          font-size: 0.75rem;
-
-            .break{
-              display: block;
-            }
-          
-    
-        }
-
       }
+    }
+  }
+}
 
-      }
-
-           @media screen and (max-width: 424.98px) {
-            flex-direction: unset;
-            flex-wrap: wrap; /* Needed to fake a grid */
-            .wrapper{
-              display: block;
-              margin-left: auto;
-              margin-right: auto;
-              flex: 1 0 60%; /* Set width manually */
-            }
-           }
-      }
 
       .speaker{
         font-weight: bold;
@@ -560,265 +573,115 @@ background-image: url(./images/section-4/section-4-bg.svg);
 background-size: cover;
 background-repeat: repeat-y;
 background-position: top center;
+padding-bottom: 2rem;
 
 .header{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
     width: 100%;
     height: auto;
-    max-width: 3840px;
     background: #FCB44A;
-background: linear-gradient(90deg, rgba(252, 180, 74, 1) 10%, rgba(232, 128, 37, 1) 90%);
+background: linear-gradient(90deg,rgba(252, 180, 74, 1) 50%, rgba(232, 128, 37, 1) 50%);
 }
 
-.container{
-    z-index: 1;
-    
-    .top{
-        display: flex;
-        gap: 1rem;
-        flex-direction: row;
-        width: 100%;
-        z-index: 2;
-        padding-bottom: 1rem;
-
-        .logo{
-            width: 35%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            position: relative;
-            height: auto;
-            padding: 1rem;
-             
-            .inner{
-                width: 100%;
-                height: auto;
-            }
-        }
-
-    .text{
-        width: 65%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: #48353a;
-          font-family: "Shin-Maru-GP-Bold"; 
-    }
-    @media screen and (max-width: 767.5px) {
-        flex-direction: column;
-        gap: unset;
-
-        .logo, .text{
-            width: 100%;
-            align-items: center;
-            text-align: center;
-
-            h2{
-                font-size: 1.5rem;
-            }
-        }
-    }
-}
+h2{
+  justify-content: center;
 }
 
-.main-contents{
-position: relative;
-display: flex;
-width: 100%;
-gap: 1rem;
-flex-direction: row;
+.kid-profile{
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  border-radius: 2rem;
+  gap: 1rem;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background-color: $kidsup-orange-primary;
+      padding: 1rem;
 
-.inner-text{
-    background-color: #eee5dd;
-    padding: 2rem;
-    border-radius: 2rem;
-    color: #47353a;
-    width: 60%;
-}
+  .portrait{
+    width: 25%;
+    height: auto;
+    border-radius: 1rem;
+    aspect-ratio: 1 / 1;
+    max-width: 400px;
+  }
 
-.photo-column{
-    width: 40%;
-    position: relative;
+  .profile-info{
+    width: 75%;
+    padding: 1rem;
+    color: white;
     display: flex;
-    flex-direction: column;
-   
-}
-
-.photo-1, .photo-2, .photo-3, .photo-4{
-    width: 65%;
-    position: absolute;
-    transform-origin: center;
-}
-
-.photo-1{
-    left: 0%;
-    top: 0%;
-    rotate: 7.5deg;
-    z-index: 1;
-}
-
-.photo-2{
-    right: 0%;
-    top: 20%;
-    rotate: -10deg;
-    z-index: 4;
-}
-
-.photo-3{
-    left: 0%;
-    bottom: 20%;
-    rotate: 5deg;
-    z-index: 3;
-}
-
-.photo-4{
-    right: 0%;
-    bottom: 0%;
-    rotate: 10deg;
-    z-index: 1;
-}
-
-@media screen and (max-width: 1399.5px) {
-.photo-1, .photo-2, .photo-3, .photo-4{
-    width: 70%;
-}
-
-.photo-1{
-    left: 0%;
-    top: 0%;
-}
-
-.photo-2{
-    right: 0%;
-    top: 22.5%;
-}
-
-.photo-3{
-    left: 0%;
-    bottom: 22.5%;
-}
-
-.photo-4{
-    right: 0%;
-    bottom: 0%;
-}
-
-}
-
-@media screen and (max-width: 1199.5px) {
-.photo-1, .photo-2, .photo-3, .photo-4{
-    width: 90%;
-}
-
-.photo-1{
-    left: 0%;
-    top: 0%;
-    
-}
-
-.photo-2{
-    right: 0%;
-    top: 24.5%;
-}
-
-.photo-3{
-    left: 0%;
-    bottom: 24.5%;
-}
-
-.photo-4{
-    right: 0%;
-    bottom: 0%;
-}
-}
-
-@media screen and (max-width: 990.5px) {
-.photo-1, .photo-2, .photo-3, .photo-4{
-    position: relative;
-    width: 120%;
-    margin-left: -10%;
-    display: flex;
-    flex-direction: column;
-    left: unset;
-    top: unset;
-    right: unset;
-    bottom: unset;
-    justify-content: space-between center;
-}
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 1rem
+    ;
 
 
-@media screen and (max-width: 767.5px) {
-    flex-direction: column;
-
-    .inner-text{
-        width: 100%;
-        padding: 1.5rem;
+    p{
+          font-weight: bolder;
+          font-size: 1rem;
+          width: fit-content;
+          max-width: 55%;
     }
+  }
+    @media (max-width: 575.98px) {
 
-    .photo-column{
-        flex-direction: unset;
-        flex-wrap: wrap;
-        width: calc(100% + 12rem);
-        padding-top: 3rem;
-        padding-bottom: 2rem;
-        margin: auto;
+      flex-direction: column;
 
-        .photo-1, .photo-2, .photo-3, .photo-4{
-            margin-left: unset;
-            width:  50%;
-            margin: -3rem;
+        .portrait{
+          display: block;
+          margin: auto;
+          width: 100%;
         }
 
-.photo-1{
-  rotate: 5deg;
-  z-index: 3;
-}
-
-.photo-2{
-  rotate: 3deg;
-  z-index: 2;
-}
-
-.photo-3{
-  rotate: -6deg;
-z-index: 4;
-}
-
-.photo-4{
-  rotate: 7deg;
-  z-index: 3;
-}
+         .profile-info{
+          width: 100%;
+         }
     }
-}
 
 }
 
 
-@media screen and (max-width: 409.5px) {
-    .photo-column{
-        flex-direction: unset;
-        flex-wrap: wrap;
-        width: calc(100% + 8rem);
+
+      h4{
+        font-size: 1.3rem;
         padding-top: 2rem;
         padding-bottom: 1rem;
+      }
+
+            .speaker{
+        font-weight: bold;
+        font-size: 1.15rem;
+        padding-right: 0.5rem;
+      }
+
+      .img-box{
+        width: fit-content;
+        display: block;
         margin: auto;
+        padding: 1rem;
 
-        .photo-1, .photo-2, .photo-3, .photo-4{
-            margin-left: unset;
-            width:  50%;
-            margin: -2rem;
-        }
-}
-}
+      .img-fluid{
+        width: 100%;
+        max-width: 600px;
+        margin-bottom: 0.5rem;
+        border-radius: 1rem;
+      }
+
+      h6{
+        font-size: 0.8rem;
+        font-weight: bold;
+        margin-bottom: 1rem;
+      }
 }
 
-.article-4-bottom{
-    position: absolute;
-    width: 101%;
-    top: 100%;
-    transform: translate(0, -100%);
-    margin-left: -0.5%;
+.page-break{
+  height: 1rem;
+  background-color: $kidsup-orange-darker;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
 }
 
 }
@@ -876,293 +739,6 @@ text-align: left;
 
       }
   }
-
-.section-6{
-    
-        padding-bottom: 2rem;
-
-
-    h5{
-        font-weight: bold;
-        text-align: left;
-        font-size: 1.5rem;
-        line-height: 1.7;
-    }
-
-    .bullet-wrapper-1, .bullet-wrapper-2{
-
-        padding: 2rem;
-        border-radius: 2rem;
-
-        p{
-            text-indent: -2rem;
-            margin-left: 2rem;
-            padding-top: .5rem;
-            padding-bottom: .5rem;
-        }
-    }
-
-
-    .bullet-wrapper-1{
-        background-color: #f0e5d7;
-    }
-
-    .bullet-wrapper-2 {
-        background-color: #d4e4eb;
-    }
-
-    .swiper-navigation-wrapper {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-top: 20px;
-  position: relative; /* Overrides Swiper's default absolute positioning if needed */
-}
-
-/* Optional: Make the buttons smaller or change colors */
-.swiper-button-prev, .swiper-button-next {
-  position: static; /* Removes them from the sides of the slider */
-  width: 40px;
-  height: 40px;
-}
-}
-
-.section-7{
-margin: 0 !important;
-padding-bottom: 2rem !important;
-background-color: #fff;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: bottom;
-
-h2{
-  font-family: "Shin-Maru-GP-Bold"; 
-  text-align: center;
-  color: #ee8422;
-  font-size: 5rem;
-}
-
-h3{
-  font-family: "Shin-Maru-GP-Bold"; 
-  text-align: center;
-  color: #ee8422;
-  font-size: 1.75rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-p{
-  font-family: "Shin-Maru-GP-Bold"; 
-  text-align: center;
-  color: #ee8422;
-}
-
-.box{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 2rem;
-  width: fit-content;
-  border-radius: 2rem;
-  background-color: white;
-  margin-bottom: 2rem;
-  margin: auto;
-  margin-bottom: 2rem;
-
-  h2{
-      font-size: 4rem;
-  }
-
-  h3{
-      font-size: 3rem;
-  }
-
-}
-
-a{
-  font-family: "Shin-Maru-GP-Bold"; 
-  font-size: 2.75rem;
-  color: white;
-  background-color: #e55505;
-  border-color: #e55505;
-  border-radius: 2rem;
-  display: block;
-  width: fit-content;
-  margin: auto;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-
-@media screen and (max-width: 1024px) {
-h2{
-    font-size: 3rem;
-}
-
-h3{
-    font-size: 1.5rem;
-}
-
-.box{
-
-    h2{
-        font-size: 3rem;
-    }
-
-    h3{
-        font-size: 2rem;
-    }
-
-
-}
-
-    a{
-        font-size: 2.5rem;
-    }
-}
-
-@media screen and (max-width: 768px) {
-h2{
-    font-size: 2.5rem;
-}
-
-h3{
-    font-size: 1.25rem;
-}
-
-.box{
-
-    h2{
-        font-size: 2.5rem;
-    }
-
-    h3{
-        font-size: 1.5rem;
-    }
-
-
-}
-    a{
-        font-size: 2rem;
-    }
-
-}
-
-@media screen and (max-width: 576px) {
-h2{
-    font-size: 2rem;
-}
-
-h3{
-    font-size: 1rem;
-}
-
-.box{
-
-    h2{
-        font-size: 2.5rem;
-    }
-
-    h3{
-        font-size: 1.5rem;
-    }
-
-
-}
-    a{
-        font-size: 1rem;
-        border-radius: 4rem;
-        padding: 1.25rem;
-    }
-
-}
-
-
-}
-
-.section-8 {
-  background-color: #ee8422;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  
-
-  h2{
-    font-size: 2.25rem;
-    text-align: left;
-    color: white;
-
-  }
-
-  h3{
-    font-size: 1.5rem;
-    color: white;
-    text-align: left;
-    padding-bottom: 3rem;
-  }
-
-  a{
- margin-left: 0;
-  border-radius: 0;
-  color: #ef8421;
-  background-color: #ffffff;
-  border-color: #ffffff;
-  padding: 3rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-top: 2rem;
-  }
-
-  .container {
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: left;
-    height: 100%;
-
-    @media (min-width: 576px)  { max-width: 540px; }
-    @media (min-width: 768px)  { max-width: 720px; }
-    @media (min-width: 992px)  { max-width: 960px; }
-    @media (min-width: 1200px) { max-width: 1140px; }
-    @media (min-width: 1400px) { max-width: 1320px; }
-
-    @media (max-width: 575.98px) {
-      max-width: 100%;
-      padding-right: 0;
-      padding-left: 0;
-    }
-  }
-
-  img {
-    width: 40%;
-    min-width: 320px;
-    height: auto;
-    display: block;
-
-    @media (max-width: 575.98px) {
-      width: 100%;
-      order: -1; // moves image above the container
-    }
-  }
-
-  // Stack vertically on mobile
-  @media (max-width: 575.98px) {
-    flex-direction: column;
-
-    .container{
-
-        display: flex;
-        justify-content: left;
-        align-items: center;
-        padding: 2rem;
-        padding-bottom: 4rem;
-    }
-  }
-}
 
 
 

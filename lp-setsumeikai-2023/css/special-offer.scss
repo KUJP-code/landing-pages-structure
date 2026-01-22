@@ -1,0 +1,288 @@
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Heavy";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro H.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Ultra";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro U.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Regular";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("/wp-content/themes/kidsup/fonts/NotoSansJP-VariableFont_wght.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
+
+$font-shinmaru-heavy: "A-OTF Shin Maru Go Pro Heavy", sans-serif;
+$font-shinmaru-ultra: "A-OTF Shin Maru Go Pro Ultra", sans-serif;
+$font-shinmaru-bold: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+$font-shinmaru-debold: "A-OTF Shin Maru Go Pro De Bold", sans-serif;
+$font-shinmaru-deregular: "A-OTF Shin Maru Go Pro De Regular", sans-serif;
+
+$kidsup-orange-light: #f0e5d7;
+$kidsup-orange-primary: #f0810d;
+$kidsup-orange-darker: #ee6300;
+$kidsup-orange-darkest: #521c01;
+
+
+$special-offer-bg: #9bdbf0;
+
+$special-offer-campaign-bg: #fff;
+$special-offer-campaign-text-colour: #f58220;
+
+$special-offer-details-box-1-bg: #224488;
+$special-offer-details-box-1-text: #fff;
+
+$special-offer-details-box-2-bg: #fff;
+$special-offer-details-box-2-text: #224488;
+
+$cta-button-colour-1: white;
+$cta-button-colour-2: #224488;
+
+
+$finger-stroke: white;
+$finger-fill: #224488;
+
+.special-offer{
+
+    background-color: $special-offer-bg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+
+   background-image: url(/wp-content/themes/kidsup/images/custom-page-images/setsumeikai/special-offer/winter-2026/winter-campaign-bg.svg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+    position: relative;
+    overflow: hidden;
+
+    .offer-transition-top, .offer-transition-bottom{
+        height: 5rem;
+        width: 100%;
+        display: block;
+        background-color: white;
+        z-index: 1;
+
+    }
+
+        .offer-transition-top{
+        border-radius: 0rem 0rem 2rem 2rem;
+        margin-bottom: 2rem;
+    }
+
+        .offer-transition-bottom{
+        border-radius: 2rem 2rem 0rem 0rem ;
+        margin-top: 2rem;
+    }
+
+    .image-left, .image-right{
+        position: absolute;
+        transform: translate(0%, -50%);
+        top: 50%;
+        z-index: 0;
+        width: 22.5%;
+        min-width: 120px;
+
+
+
+    }
+
+    
+
+    .image-left{
+        left: 0%;
+
+            @media (max-width: 576px) {
+                top: 35%;
+            }
+    }
+
+
+    .image-right{
+        right: 0%;
+
+             @media (max-width: 576px) {
+                top: 65%;
+            }
+    }
+
+    .event-logo{
+        position: absolute;
+        transform: translate(-50%, 0%);
+        bottom: 5rem;
+        left: 25%;
+        width: 25%;
+        z-index: 0;
+                min-width: 130px;
+
+               @media (max-width: 576px) {
+                left: 5%;
+                transform: translate(0%, 0%);
+            }
+    }
+
+
+
+    .campaign-title{
+        background-color: $special-offer-campaign-bg;
+        width: fit-content;
+        text-align: center;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border-radius: 1rem;
+        margin-bottom: 1rem;
+        z-index: 1;
+
+        h2{
+
+        font-family: $font-shinmaru-heavy;
+        color: $kidsup-orange-primary;
+        margin-bottom: -0.1rem;
+        }
+
+          @media (max-width: 576px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+
+    }
+
+    .details-box-1{
+        background-color: $special-offer-details-box-1-bg;
+        padding: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        border-radius: 1rem;
+        z-index: 1;
+
+        h3{
+            color: $special-offer-details-box-1-text;
+            font-family: $font-shinmaru-bold;
+            margin-bottom: -0.1rem;
+            line-height: 1.5;
+        }
+
+                  @media (max-width: 576px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+          }
+    }
+
+    .details-box-2{
+        background-color: $special-offer-details-box-2-bg;
+        padding: 1rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-top: 1rem;
+        border-radius: 1rem;
+        z-index: 1;
+
+        h4, h3{
+            color: $special-offer-details-box-2-text;
+            font-family: $font-shinmaru-bold;
+            text-align: center;
+        }
+
+        h4{
+            font-size: 1.2rem;
+              filter: drop-shadow(0px 3px 0px $special-offer-bg);
+        }
+
+        h3{
+            font-size: 2.4rem;
+              filter: drop-shadow(0px 3px 0px $special-offer-bg);
+
+            .small{
+                font-size: 1.75rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            padding-left: 1rem;
+            padding-right: 1rem;
+        }
+
+
+    }
+
+    .cta-button-box{
+        margin-top: 1rem;
+        height: 8rem;
+        z-index: 1;
+
+        .cta-primary{
+            margin-top: unset;
+            margin-bottom: unset;
+            font-family: $font-shinmaru-bold;
+            color: $cta-button-colour-2;
+            background-color: $cta-button-colour-1;
+            border: solid 0.25rem $cta-button-colour-2;
+            filter: drop-shadow(0px 5px 0px $cta-button-colour-2);
+
+            &:hover{
+                background-color: $cta-button-colour-2;
+                color: $cta-button-colour-1;
+                  border-color: $cta-button-colour-1;
+                filter: drop-shadow(0px 5px 0px $cta-button-colour-1);
+                
+            }
+
+        }
+
+
+        .cta-finger{
+            height: 4rem;
+            position: absolute;
+            transform: translate(-25%, 0%);
+            left: 50%;
+
+       
+        }
+
+        .finger-stroke{
+            fill: $finger-stroke;
+        }
+
+        .finger-fill{
+            fill: $finger-fill;
+        }
+    }
+
+
+}
+
+

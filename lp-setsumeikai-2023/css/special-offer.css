@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Heavy";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro H.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Ultra";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF Shin Maru Go Pro U.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Bold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Bold";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-DeBold.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "A-OTF Shin Maru Go Pro De Regular";
+  src: url("/wp-content/themes/kidsup/fonts/A-OTF-ShinMGoPro-Regular.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("/wp-content/themes/kidsup/fonts/NotoSansJP-VariableFont_wght.ttf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+.special-offer {
+  background-color: #9bdbf0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  background-image: url(/wp-content/themes/kidsup/images/custom-page-images/setsumeikai/special-offer/winter-2026/winter-campaign-bg.svg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+.special-offer .offer-transition-top, .special-offer .offer-transition-bottom {
+  height: 5rem;
+  width: 100%;
+  display: block;
+  background-color: white;
+  z-index: 1;
+}
+.special-offer .offer-transition-top {
+  border-radius: 0rem 0rem 2rem 2rem;
+  margin-bottom: 2rem;
+}
+.special-offer .offer-transition-bottom {
+  border-radius: 2rem 2rem 0rem 0rem;
+  margin-top: 2rem;
+}
+.special-offer .image-left, .special-offer .image-right {
+  position: absolute;
+  transform: translate(0%, -50%);
+  top: 50%;
+  z-index: 0;
+  width: 22.5%;
+  min-width: 120px;
+}
+.special-offer .image-left {
+  left: 0%;
+}
+@media (max-width: 576px) {
+  .special-offer .image-left {
+    top: 35%;
+  }
+}
+.special-offer .image-right {
+  right: 0%;
+}
+@media (max-width: 576px) {
+  .special-offer .image-right {
+    top: 65%;
+  }
+}
+.special-offer .event-logo {
+  position: absolute;
+  transform: translate(-50%, 0%);
+  bottom: 5rem;
+  left: 25%;
+  width: 25%;
+  z-index: 0;
+  min-width: 130px;
+}
+@media (max-width: 576px) {
+  .special-offer .event-logo {
+    left: 5%;
+    transform: translate(0%, 0%);
+  }
+}
+.special-offer .campaign-title {
+  background-color: #fff;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-align: center;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  z-index: 1;
+}
+.special-offer .campaign-title h2 {
+  font-family: "A-OTF Shin Maru Go Pro Heavy", sans-serif;
+  color: #f0810d;
+  margin-bottom: -0.1rem;
+}
+@media (max-width: 576px) {
+  .special-offer .campaign-title {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.special-offer .details-box-1 {
+  background-color: #224488;
+  padding: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+.special-offer .details-box-1 h3 {
+  color: #fff;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  margin-bottom: -0.1rem;
+  line-height: 1.5;
+}
+@media (max-width: 576px) {
+  .special-offer .details-box-1 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.special-offer .details-box-2 {
+  background-color: #fff;
+  padding: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 1rem;
+  border-radius: 1rem;
+  z-index: 1;
+}
+.special-offer .details-box-2 h4, .special-offer .details-box-2 h3 {
+  color: #224488;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  text-align: center;
+}
+.special-offer .details-box-2 h4 {
+  font-size: 1.2rem;
+  filter: drop-shadow(0px 3px 0px #9bdbf0);
+}
+.special-offer .details-box-2 h3 {
+  font-size: 2.4rem;
+  filter: drop-shadow(0px 3px 0px #9bdbf0);
+}
+.special-offer .details-box-2 h3 .small {
+  font-size: 1.75rem;
+}
+@media (max-width: 576px) {
+  .special-offer .details-box-2 {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+.special-offer .cta-button-box {
+  margin-top: 1rem;
+  height: 8rem;
+  z-index: 1;
+}
+.special-offer .cta-button-box .cta-primary {
+  margin-top: unset;
+  margin-bottom: unset;
+  font-family: "A-OTF Shin Maru Go Pro Bold", sans-serif;
+  color: #224488;
+  background-color: white;
+  border: solid 0.25rem #224488;
+  filter: drop-shadow(0px 5px 0px #224488);
+}
+.special-offer .cta-button-box .cta-primary:hover {
+  background-color: #224488;
+  color: white;
+  border-color: white;
+  filter: drop-shadow(0px 5px 0px white);
+}
+.special-offer .cta-button-box .cta-finger {
+  height: 4rem;
+  position: absolute;
+  transform: translate(-25%, 0%);
+  left: 50%;
+}
+.special-offer .cta-button-box .finger-stroke {
+  fill: white;
+}
+.special-offer .cta-button-box .finger-fill {
+  fill: #224488;
+}/*# sourceMappingURL=special-offer.css.map */

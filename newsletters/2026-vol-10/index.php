@@ -59,7 +59,7 @@
         />
         <p class="article-selector-text">
           【Kids UP 10周年特別企画：未来を育む教育の軌跡】<br>
-          ～辻社長と石原常務が語る「最高の英語習得」と「人生を変える力」～
+          ～社長 辻と常務 石原が語る「最高の英語習得」と「人生を変える力」～
           <a class="button-swiper-link" href="#section-1">READ MORE</a>
         </p>
       </div>
@@ -91,62 +91,19 @@
 
       <div class="swiper-slide article-selector-slide">
         <img
-          src=""
+          src="./assets/images/top-slider/article-4.png"
           alt="Card 4"
         />
         <p class="article-selector-text">
-          PENDING
+          【“継続”が育てた英語力〜通い続けてくれた皆さまの声〜】
           <a class="button-swiper-link" href="#section-4">READ MORE</a>
         </p>
       </div>
 
-      <div class="swiper-slide article-selector-slide">
-        <img
-          src=""
-          alt="Card 5"
-        />
-        <p class="article-selector-text">
-                 PENDING
-          <a class="button-swiper-link" href="#section-5">READ MORE</a>
-        </p>
-      </div>
-
-      <div class="swiper-slide article-selector-slide">
-        <img
-          src=""
-          alt="Card 6"
-        />
-        <p class="article-selector-text">
-                PENDING
-          <a class="button-swiper-link" href="#section-6">READ MORE</a>
-        </p>
-      </div>
-
-      <div class="swiper-slide article-selector-slide">
-        <img
-          src=""
-          alt="Card 7"
-        />
-        <p class="article-selector-text">
-                 PENDING
-          <a class="button-swiper-link" href="#section-7">READ MORE</a>
-        </p>
-      </div>
 
 
-<!--
 
-      <div class="swiper-slide article-selector-slide">
-        <img
-          src="./assets/images/top-slider/article-8.png"
-          alt="Card 6"
-        />
-        <p class="article-selector-text">
-          Follow Your Dream!
-          <a class="button-swiper-link" href="#section-8">READ MORE</a>
-        </p>
-      </div>
--->
+
 
 
     </div>

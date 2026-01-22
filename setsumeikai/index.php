@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html lang="ja">
   <head>
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-MGWSQLH');</script>
-<!-- End Google Tag Manager -->
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MGWSQLH");
+    </script>
+    <!-- End Google Tag Manager -->
 
     <!-- EBiS tag version4.10 start -->
     <script type="text/javascript">
@@ -112,9 +119,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/global/setsumeikai-pages/common.css" />
-    <link rel="stylesheet" href="/global/setsumeikai-pages/setsumeikai.css" />
-       <link rel="stylesheet" href="/global/setsumeikai-pages/seasonal-banner-december.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/setsumeikai.css" />
+    <link rel="stylesheet" href="/global/setsumeikai-pages/seasonal-banner-december.css" />
+          <link rel="stylesheet" href="/lp-setsumeikai-2023/css/special-offer.css" />
   </head>
   <body>
     <!-- Google Tag Manager (noscript) -->
@@ -143,20 +151,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             alt=""
           />
         </a>
-
-        <!-- Phone number section -->
-        <div
-          class="d-flex align-items-center nav-phone"
-          style="text-align: center"
-        >
-          <span class="phone-number">
-            <a href="tel:0120-378-056" class="nav-phone-number">
-              <i class="fa fa-phone" aria-hidden="true"></i> 0120-378-056
-            </a>
-            <br />
-            <span>年中無休 10:00 - 20:00</span>
-          </span>
-        </div>
 
         <!-- Navbar toggler button -->
         <button
@@ -196,51 +190,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       </div>
     </nav>
 
-    <!-- INOP     <div id="popup" class="popup">
-      <img
-        src="./images/main-page/pop-up-topper.svg"
-        alt="pop-up-topper"
-        class="pop-up-topper"
-      />
-      <img
-        src="./images/main-page/popup-decoration-1.webp"
-        alt="pop-up-decoration-1"
-        class="pop-up-decoration-1"
-      />
-      <img
-        src="./images/main-page/popup-decoration-2.webp"
-        alt="pop-up-decoration-2"
-        class="pop-up-decoration-2"
-      />
-      <div class="popup-content">
-        <div class="container pop-up-container">
-          <img
-            src="./images/main-page/popup-group-photo.png"
-            alt="popup-group-photo"
-            class="pop-up-group-photo"
-          />
-        </div>
-        <div class="container pop-up-container">
-          <img
-            src="./images/main-page/pop-up-close.svg"
-            alt="pop-up-close"
-            class="pop-up-close"
-            onclick="closePopup()"
-          />
 
-          <h2 class="pop-up-text-banner">春新規入会キャンペーン</h2>
-          <h3 class="pop-up-h3">
-            2024年5月までに開始予定の方<br />
-            入会金無料（55,000円 → 0円）<br />
-            <br />
-          </h3>
-          <div class="mobile-display padding-band-3rem"></div>
-        </div>
-      </div>
-    </div>
-
--->
-
+    
     <!-- Section 1: Hero -->
     <div class="top-hero">
       <div class="top-hero-box">
@@ -248,9 +199,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <div class="top-hero-mobile-wrapper">
             <h3 class="hero-h2-blue">英語+ 学童保育・幼児クラス</h3>
             <h1 class="hero-h1">
-            Kids UPなら<br>
-            楽しみながら英語が<br>
-            身に付く！<br>
+              Kids UPなら<br />
+              楽しみながら英語が<br />身に付く！<br />
               <span class="h1-span pc-display">無料体験</span>
             </h1>
 
@@ -267,18 +217,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </h3>
 
             <div class="cta-mobile">
-              <h3 class="mobile-display cta-mobile-h3">対象年齢:3才~小学校6年生まで</h3>
+              <h3 class="mobile-display cta-mobile-h3">
+                対象年齢:3才~高校生まで
+              </h3>
 
               <a href="https://kids-up.jp/entry/" class="hero-button"
                 ><span class="mobile-hero-text-wrapper"
-                  >無料体験に参加する</span
-                >
-                <span class="pc-display"
-                  ><img
-                    src="images/main-page/button-arrow.svg"
-                    alt="button-arrow"
-                    class="hero-button-arrow"
-                /></span>
+                  >無料体験に参加する
+                  <span class="pc-display"
+                    ><img
+                      src="images/main-page/button-arrow.svg"
+                      alt="button-arrow"
+                      class="hero-button-arrow" /></span
+                ></span>
               </a>
 
               <img
@@ -363,7 +314,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   
           </div>
           <div class="col-sm-6">
-            <a href="tel:0120378056" class="cta-button">
+        <a href="tel:0120378056" class="cta-button">
               <span class="mobile-hero-text-wrapper">
                 <img
                   src="images/main-page/tel-icon.svg"
@@ -385,49 +336,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         class="section-break"
       />
     </div>
+ -->
 
-    -->
-
-<div class="seasonal-cta">
-  
-  <div class="transition-top"></div>
-
-
-  <div class="text-stack">
-  <h2>〜冬の新規入会キャンペーン〜</h2>
-
-
-  <div class="h3-container">
-  <h3>
-    入会金33,000円OFF<br>
-    55,000円→22,000円
-  </h3>
-</div>
-
-  <div class="h3-container h3-container-white">
-
-  <h3>
-        ウィンタースクール<br class="mobile-display">お申込みでさらに11,000円OFF<br>
-
-    <span class="stroke">
-    <span class="big">(</span>55,000円 → <span class="big">11,000円)</span>
-    </span>      
-
-  </h3>
-</div>
-
-<div class="button-wrapper">
-
-<a href="https://kids-up.jp/%e7%a7%8b%e3%81%ae%e6%96%b0%e8%a6%8f%e5%85%a5%e4%bc%9a%e3%82%ad%e3%83%a3%e3%83%b3%e3%83%9a%e3%83%bc%e3%83%b3-x-%e3%83%8f%e3%83%ad%e3%82%a6%e3%82%a3%e3%83%b3/" class="special-offer-button">詳細はこちら</a>
-
-<img src="/lp-setsumeikai-2023/images/banner/finger.svg" alt="" class="finger">
-
-</div>
-</div>
-
-
-  <div class="transition-bottom"></div>
-</div>
+<?php require $_SERVER['DOCUMENT_ROOT'] . '/wp-content/themes/kidsup/template-parts/custom-page-parts/setsumeikai/special-offers/winter-2026.php'; ?>
 
 
     <!-- Section 3: Why Choose Kids UP -->
@@ -451,7 +362,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             </h3>
             <p class="why-choose-kidsup-p">
               経験豊富なネイティブ・バイリンガルティーチャーによる<br />
-              オールイングリッシュの学校で、楽しく効果的に英語が学べます。
+              オールイングリッシュの環境の中で、楽しく効果的に英語を学べます。
             </p>
           </div>
         </div>
@@ -510,7 +421,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
             class="img-fluid general-images"
           />
         </div>
-         <div class="col-sm-8">
+        <div class="col-sm-8">
           <div class="why-choose-kidsup-text-container">
             <h3 class="why-choose-kidsup-h3">
               Pearson（ピアソン）が運営する<br />「English Benchmark Young
@@ -534,7 +445,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         class="section-break"
       />
 
-        <div class="container">
+      <div class="container">
         <h2 class="call-to-action-h2">
           応用言語学博士が監修の<br
             class="mobile-display"
@@ -587,7 +498,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <h3 class="why-choose-kidsup-2-h3">
         Kids UP では無料体験＆<br class="mobile-display" />
-        説明会を実施しています。<br />レッスンの 雰囲気や、<br
+        説明会を実施しています。<br />レッスンの雰囲気や、<br
           class="mobile-display"
         />お子様が馴染めるのかなど、<br />
         気になる点をすべてクリア<br
@@ -956,7 +867,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
         class="section-break"
       />
 
-          <div class="container">
+      <div class="container">
         <h2 class="call-to-action-h2">
           応用言語学博士が監修の<br
             class="mobile-display"
@@ -1553,7 +1464,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
       <div class="padding-band-3rem"></div>
       <img
-        src="./images/main-page/group-photo.webp"
+        src="/wp-content/themes/kidsup/images/custom-page-images/setsumeikai/english-learners/bottom-group-photo.jpg"
         alt="group-photo"
         class="img-fluid"
       />
